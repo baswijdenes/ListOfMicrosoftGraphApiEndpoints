@@ -77,14 +77,16 @@ The object structure of the endpoints is as follows:
 
 The example shows 2 objects in the json.  
 
-- Endpoint: This is the path as string value exluding the host ('https://graph.microsoft.com') and reference to the version (beta or v1.0).
-- v1.0: Boolean value indicating if the endpoint is available in v1.0.
-- V1.0-Url: The full url to the endpoint in v1.0.
-- v1.0-Methods: An array of strings containing the available methods for the endpoint in v1.0.
-- beta: Boolean value indicating if the endpoint is available in beta.
-- Beta-Url: The full url to the endpoint in beta.
-- Beta-Methods: An array of strings containing the available methods for the endpoint in beta.
-- Path: An array of strings containing the path to the endpoint. The first item is the root segment, the last item is the endpoint.
-- Root: The root segment of the endpoint.
-- Children: The number of child endpoints for the endpoint.
-- Segment: The segment of the endpoint.
+Properties:
+
+- **Endpoint**: This is the path as string value exluding the host ('https://graph.microsoft.com') and reference to the version (beta or v1.0).
+- **v1.0**: Boolean value indicating if the endpoint is available in v1.0.
+- **V1.0-Url**: The full url to the endpoint in v1.0.
+- **v1.0-Methods**: An array of strings containing the available methods for the endpoint in v1.0.
+- **beta**: Boolean value indicating if the endpoint is available in beta.
+- **Beta-Url**: The full url to the endpoint in beta.
+- **Beta-Methods**: An array of strings containing the available methods for the endpoint in beta.
+- **Path**: An array of strings containing the path to the endpoint. The first item is the root segment, the last item is the endpoint.
+- **Root**: The root segment of the endpoint.
+- **Children**: The number of child endpoints for the endpoint.
+- **Segment**: The segment of the endpoint.
