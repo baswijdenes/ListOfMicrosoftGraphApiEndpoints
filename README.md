@@ -75,7 +75,7 @@ The object structure of the endpoints is as follows:
 ]
 ```
 
-The example shows 2 objects in the array (in Json.  
+The example shows 2 objects in the json.  
 
 - Endpoint: This is the path as string value exluding the host ('https://graph.microsoft.com') and reference to the version (beta or v1.0).
 - v1.0: Boolean value indicating if the endpoint is available in v1.0.
