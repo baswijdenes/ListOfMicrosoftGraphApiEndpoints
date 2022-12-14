@@ -1,0 +1,144 @@
+[
+  {
+    "Endpoint": "programControls",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/programControls",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "programControls"
+    ],
+    "Root": "programControls",
+    "Children": 2,
+    "Segment": "programControls"
+  },
+  {
+    "Endpoint": "programControls/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/programControls/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "programControls",
+      "$count"
+    ],
+    "Root": "programControls",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "programControls/{programControl-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/programControls/{programControl-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "programControls",
+      "{programControl-id}"
+    ],
+    "Root": "programControls",
+    "Children": 1,
+    "Segment": "{programControl-id}"
+  },
+  {
+    "Endpoint": "programControls/{programControl-id}/program",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/programControls/{programControl-id}/program",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "programControls",
+      "{programControl-id}",
+      "program"
+    ],
+    "Root": "programControls",
+    "Children": 1,
+    "Segment": "program"
+  },
+  {
+    "Endpoint": "programControls/{programControl-id}/program/controls",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/programControls/{programControl-id}/program/controls",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "programControls",
+      "{programControl-id}",
+      "program",
+      "controls"
+    ],
+    "Root": "programControls",
+    "Children": 2,
+    "Segment": "controls"
+  },
+  {
+    "Endpoint": "programControls/{programControl-id}/program/controls/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/programControls/{programControl-id}/program/controls/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "programControls",
+      "{programControl-id}",
+      "program",
+      "controls",
+      "$count"
+    ],
+    "Root": "programControls",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "programControls/{programControl-id}/program/controls/{programControl-id1}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/programControls/{programControl-id}/program/controls/{programControl-id1}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "programControls",
+      "{programControl-id}",
+      "program",
+      "controls",
+      "{programControl-id1}"
+    ],
+    "Root": "programControls",
+    "Children": 0,
+    "Segment": "{programControl-id1}"
+  }
+]

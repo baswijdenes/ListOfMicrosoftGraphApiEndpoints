@@ -1,0 +1,231 @@
+[
+  {
+    "Endpoint": "privacy",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/privacy",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privacy",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Path": [
+      "privacy"
+    ],
+    "Root": "privacy",
+    "Children": 1,
+    "Segment": "privacy"
+  },
+  {
+    "Endpoint": "privacy/subjectRightsRequests",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/privacy/subjectRightsRequests",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privacy/subjectRightsRequests",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "privacy",
+      "subjectRightsRequests"
+    ],
+    "Root": "privacy",
+    "Children": 2,
+    "Segment": "subjectRightsRequests"
+  },
+  {
+    "Endpoint": "privacy/subjectRightsRequests/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/privacy/subjectRightsRequests/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privacy/subjectRightsRequests/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "privacy",
+      "subjectRightsRequests",
+      "$count"
+    ],
+    "Root": "privacy",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "privacy/subjectRightsRequests/{subjectRightsRequest-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/privacy/subjectRightsRequests/{subjectRightsRequest-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privacy/subjectRightsRequests/{subjectRightsRequest-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "privacy",
+      "subjectRightsRequests",
+      "{subjectRightsRequest-id}"
+    ],
+    "Root": "privacy",
+    "Children": 4,
+    "Segment": "{subjectRightsRequest-id}"
+  },
+  {
+    "Endpoint": "privacy/subjectRightsRequests/{subjectRightsRequest-id}/microsoft.graph.getFinalAttachment()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/privacy/subjectRightsRequests/{subjectRightsRequest-id}/microsoft.graph.getFinalAttachment()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privacy/subjectRightsRequests/{subjectRightsRequest-id}/microsoft.graph.getFinalAttachment()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "privacy",
+      "subjectRightsRequests",
+      "{subjectRightsRequest-id}",
+      "microsoft.graph.getFinalAttachment()"
+    ],
+    "Root": "privacy",
+    "Children": 0,
+    "Segment": "microsoft.graph.getFinalAttachment()"
+  },
+  {
+    "Endpoint": "privacy/subjectRightsRequests/{subjectRightsRequest-id}/microsoft.graph.getFinalReport()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/privacy/subjectRightsRequests/{subjectRightsRequest-id}/microsoft.graph.getFinalReport()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privacy/subjectRightsRequests/{subjectRightsRequest-id}/microsoft.graph.getFinalReport()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "privacy",
+      "subjectRightsRequests",
+      "{subjectRightsRequest-id}",
+      "microsoft.graph.getFinalReport()"
+    ],
+    "Root": "privacy",
+    "Children": 0,
+    "Segment": "microsoft.graph.getFinalReport()"
+  },
+  {
+    "Endpoint": "privacy/subjectRightsRequests/{subjectRightsRequest-id}/notes",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/privacy/subjectRightsRequests/{subjectRightsRequest-id}/notes",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privacy/subjectRightsRequests/{subjectRightsRequest-id}/notes",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "privacy",
+      "subjectRightsRequests",
+      "{subjectRightsRequest-id}",
+      "notes"
+    ],
+    "Root": "privacy",
+    "Children": 2,
+    "Segment": "notes"
+  },
+  {
+    "Endpoint": "privacy/subjectRightsRequests/{subjectRightsRequest-id}/notes/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/privacy/subjectRightsRequests/{subjectRightsRequest-id}/notes/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privacy/subjectRightsRequests/{subjectRightsRequest-id}/notes/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "privacy",
+      "subjectRightsRequests",
+      "{subjectRightsRequest-id}",
+      "notes",
+      "$count"
+    ],
+    "Root": "privacy",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "privacy/subjectRightsRequests/{subjectRightsRequest-id}/notes/{authoredNote-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/privacy/subjectRightsRequests/{subjectRightsRequest-id}/notes/{authoredNote-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privacy/subjectRightsRequests/{subjectRightsRequest-id}/notes/{authoredNote-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "privacy",
+      "subjectRightsRequests",
+      "{subjectRightsRequest-id}",
+      "notes",
+      "{authoredNote-id}"
+    ],
+    "Root": "privacy",
+    "Children": 0,
+    "Segment": "{authoredNote-id}"
+  },
+  {
+    "Endpoint": "privacy/subjectRightsRequests/{subjectRightsRequest-id}/team",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/privacy/subjectRightsRequests/{subjectRightsRequest-id}/team",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privacy/subjectRightsRequests/{subjectRightsRequest-id}/team",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "privacy",
+      "subjectRightsRequests",
+      "{subjectRightsRequest-id}",
+      "team"
+    ],
+    "Root": "privacy",
+    "Children": 0,
+    "Segment": "team"
+  }
+]

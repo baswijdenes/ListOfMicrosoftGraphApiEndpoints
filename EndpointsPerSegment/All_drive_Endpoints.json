@@ -1,0 +1,5194 @@
+[
+  {
+    "Endpoint": "drive",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Path": [
+      "drive"
+    ],
+    "Root": "drive",
+    "Children": 10,
+    "Segment": "drive"
+  },
+  {
+    "Endpoint": "drive/activities",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/activities",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "activities"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "activities"
+  },
+  {
+    "Endpoint": "drive/activities/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/activities/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "activities",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/activities/{itemActivityOLD-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/activities/{itemActivityOLD-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "activities",
+      "{itemActivityOLD-id}"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "{itemActivityOLD-id}"
+  },
+  {
+    "Endpoint": "drive/activities/{itemActivityOLD-id}/driveItem",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/activities/{itemActivityOLD-id}/driveItem",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "activities",
+      "{itemActivityOLD-id}",
+      "driveItem"
+    ],
+    "Root": "drive",
+    "Children": 1,
+    "Segment": "driveItem"
+  },
+  {
+    "Endpoint": "drive/activities/{itemActivityOLD-id}/driveItem/content",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/activities/{itemActivityOLD-id}/driveItem/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "drive",
+      "activities",
+      "{itemActivityOLD-id}",
+      "driveItem",
+      "content"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "drive/activities/{itemActivityOLD-id}/listItem",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/activities/{itemActivityOLD-id}/listItem",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "activities",
+      "{itemActivityOLD-id}",
+      "listItem"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "listItem"
+  },
+  {
+    "Endpoint": "drive/bundles",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/bundles",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/bundles",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "bundles"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "bundles"
+  },
+  {
+    "Endpoint": "drive/bundles/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/bundles/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/bundles/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "bundles",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/bundles/{driveItem-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/bundles/{driveItem-id}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/bundles/{driveItem-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "bundles",
+      "{driveItem-id}"
+    ],
+    "Root": "drive",
+    "Children": 1,
+    "Segment": "{driveItem-id}"
+  },
+  {
+    "Endpoint": "drive/bundles/{driveItem-id}/content",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/bundles/{driveItem-id}/content",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/bundles/{driveItem-id}/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "drive",
+      "bundles",
+      "{driveItem-id}",
+      "content"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "drive/following",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/following",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/following",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "following"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "following"
+  },
+  {
+    "Endpoint": "drive/following/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/following/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/following/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "following",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/following/{driveItem-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/following/{driveItem-id}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/following/{driveItem-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "following",
+      "{driveItem-id}"
+    ],
+    "Root": "drive",
+    "Children": 1,
+    "Segment": "{driveItem-id}"
+  },
+  {
+    "Endpoint": "drive/following/{driveItem-id}/content",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/following/{driveItem-id}/content",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/following/{driveItem-id}/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "drive",
+      "following",
+      "{driveItem-id}",
+      "content"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "drive/items",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "items"
+  },
+  {
+    "Endpoint": "drive/items/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}"
+    ],
+    "Root": "drive",
+    "Children": 27,
+    "Segment": "{driveItem-id}"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/activities",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/activities",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "activities"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "activities"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/activities/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/activities/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "activities",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/activities/{itemActivityOLD-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/activities/{itemActivityOLD-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "activities",
+      "{itemActivityOLD-id}"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "{itemActivityOLD-id}"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/analytics",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/analytics",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/analytics",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "analytics"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "analytics"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/children",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/children",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/children",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "children"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "children"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/children/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/children/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/children/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "children",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/children/{driveItem-id1}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/children/{driveItem-id1}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/children/{driveItem-id1}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "children",
+      "{driveItem-id1}"
+    ],
+    "Root": "drive",
+    "Children": 1,
+    "Segment": "{driveItem-id1}"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/children/{driveItem-id1}/content",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/children/{driveItem-id1}/content",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/children/{driveItem-id1}/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "children",
+      "{driveItem-id1}",
+      "content"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/content",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/content",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "content"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/listItem",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/listItem",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/listItem",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "listItem"
+    ],
+    "Root": "drive",
+    "Children": 9,
+    "Segment": "listItem"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/listItem/activities",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/listItem/activities",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "listItem",
+      "activities"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "activities"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/listItem/activities/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/listItem/activities/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "listItem",
+      "activities",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "listItem",
+      "activities",
+      "{itemActivityOLD-id}"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "{itemActivityOLD-id}"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "listItem",
+      "activities",
+      "{itemActivityOLD-id}",
+      "driveItem"
+    ],
+    "Root": "drive",
+    "Children": 1,
+    "Segment": "driveItem"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/content",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "listItem",
+      "activities",
+      "{itemActivityOLD-id}",
+      "driveItem",
+      "content"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "listItem",
+      "activities",
+      "{itemActivityOLD-id}",
+      "listItem"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "listItem"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/listItem/analytics",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/listItem/analytics",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/listItem/analytics",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "listItem",
+      "analytics"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "analytics"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/listItem/documentSetVersions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/listItem/documentSetVersions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/listItem/documentSetVersions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "listItem",
+      "documentSetVersions"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "documentSetVersions"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/listItem/documentSetVersions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/listItem/documentSetVersions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/listItem/documentSetVersions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "listItem",
+      "documentSetVersions",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/listItem/documentSetVersions/{documentSetVersion-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/listItem/documentSetVersions/{documentSetVersion-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/listItem/documentSetVersions/{documentSetVersion-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "listItem",
+      "documentSetVersions",
+      "{documentSetVersion-id}"
+    ],
+    "Root": "drive",
+    "Children": 1,
+    "Segment": "{documentSetVersion-id}"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/listItem/documentSetVersions/{documentSetVersion-id}/microsoft.graph.restore",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/listItem/documentSetVersions/{documentSetVersion-id}/microsoft.graph.restore",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/listItem/documentSetVersions/{documentSetVersion-id}/microsoft.graph.restore",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "listItem",
+      "documentSetVersions",
+      "{documentSetVersion-id}",
+      "microsoft.graph.restore"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.restore"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/listItem/driveItem",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/listItem/driveItem",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/listItem/driveItem",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "listItem",
+      "driveItem"
+    ],
+    "Root": "drive",
+    "Children": 1,
+    "Segment": "driveItem"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/listItem/driveItem/content",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/listItem/driveItem/content",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/listItem/driveItem/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "listItem",
+      "driveItem",
+      "content"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/listItem/fields",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/listItem/fields",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/listItem/fields",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "listItem",
+      "fields"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "fields"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/listItem/microsoft.graph.createLink",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/listItem/microsoft.graph.createLink",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "listItem",
+      "microsoft.graph.createLink"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.createLink"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/listItem/microsoft.graph.getActivitiesByInterval()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/listItem/microsoft.graph.getActivitiesByInterval()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "listItem",
+      "microsoft.graph.getActivitiesByInterval()"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.getActivitiesByInterval()"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "listItem",
+      "microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/listItem/versions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/listItem/versions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/listItem/versions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "listItem",
+      "versions"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "versions"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/listItem/versions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/listItem/versions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/listItem/versions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "listItem",
+      "versions",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/listItem/versions/{listItemVersion-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/listItem/versions/{listItemVersion-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/listItem/versions/{listItemVersion-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "listItem",
+      "versions",
+      "{listItemVersion-id}"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "{listItemVersion-id}"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/listItem/versions/{listItemVersion-id}/fields",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/listItem/versions/{listItemVersion-id}/fields",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/listItem/versions/{listItemVersion-id}/fields",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "listItem",
+      "versions",
+      "{listItemVersion-id}",
+      "fields"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "fields"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/listItem/versions/{listItemVersion-id}/microsoft.graph.restoreVersion",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/listItem/versions/{listItemVersion-id}/microsoft.graph.restoreVersion",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/listItem/versions/{listItemVersion-id}/microsoft.graph.restoreVersion",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "listItem",
+      "versions",
+      "{listItemVersion-id}",
+      "microsoft.graph.restoreVersion"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.restoreVersion"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/microsoft.graph.assignSensitivityLabel",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/microsoft.graph.assignSensitivityLabel",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "microsoft.graph.assignSensitivityLabel"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.assignSensitivityLabel"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/microsoft.graph.checkin",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/microsoft.graph.checkin",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/microsoft.graph.checkin",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "microsoft.graph.checkin"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.checkin"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/microsoft.graph.checkout",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/microsoft.graph.checkout",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/microsoft.graph.checkout",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "microsoft.graph.checkout"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.checkout"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/microsoft.graph.copy",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/microsoft.graph.copy",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/microsoft.graph.copy",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "microsoft.graph.copy"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.copy"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/microsoft.graph.createLink",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/microsoft.graph.createLink",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/microsoft.graph.createLink",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "microsoft.graph.createLink"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.createLink"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/microsoft.graph.createUploadSession",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/microsoft.graph.createUploadSession",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/microsoft.graph.createUploadSession",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "microsoft.graph.createUploadSession"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.createUploadSession"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/microsoft.graph.delta()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/microsoft.graph.delta()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/microsoft.graph.delta()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/microsoft.graph.delta(token='{token}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/microsoft.graph.delta(token='{token}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/microsoft.graph.delta(token='{token}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "microsoft.graph.delta(token='{token}')"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta(token='{token}')"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/microsoft.graph.extractSensitivityLabels",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/microsoft.graph.extractSensitivityLabels",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "microsoft.graph.extractSensitivityLabels"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.extractSensitivityLabels"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/microsoft.graph.follow",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/microsoft.graph.follow",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/microsoft.graph.follow",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "microsoft.graph.follow"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.follow"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/microsoft.graph.getActivitiesByInterval()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/microsoft.graph.getActivitiesByInterval()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "microsoft.graph.getActivitiesByInterval()"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.getActivitiesByInterval()"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/microsoft.graph.invite",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/microsoft.graph.invite",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/microsoft.graph.invite",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "microsoft.graph.invite"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.invite"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/microsoft.graph.preview",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/microsoft.graph.preview",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/microsoft.graph.preview",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "microsoft.graph.preview"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.preview"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/microsoft.graph.restore",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/microsoft.graph.restore",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/microsoft.graph.restore",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "microsoft.graph.restore"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.restore"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/microsoft.graph.search(q='{q}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/microsoft.graph.search(q='{q}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/microsoft.graph.search(q='{q}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "microsoft.graph.search(q='{q}')"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.search(q='{q}')"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/microsoft.graph.unfollow",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/microsoft.graph.unfollow",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/microsoft.graph.unfollow",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "microsoft.graph.unfollow"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.unfollow"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/microsoft.graph.validatePermission",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/microsoft.graph.validatePermission",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/microsoft.graph.validatePermission",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "microsoft.graph.validatePermission"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.validatePermission"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/permissions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/permissions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/permissions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "permissions"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "permissions"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/permissions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/permissions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/permissions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "permissions",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/permissions/{permission-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/permissions/{permission-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/permissions/{permission-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "permissions",
+      "{permission-id}"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "{permission-id}"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/permissions/{permission-id}/microsoft.graph.grant",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/permissions/{permission-id}/microsoft.graph.grant",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/permissions/{permission-id}/microsoft.graph.grant",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "permissions",
+      "{permission-id}",
+      "microsoft.graph.grant"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.grant"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/permissions/{permission-id}/microsoft.graph.revokeGrants",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/permissions/{permission-id}/microsoft.graph.revokeGrants",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "permissions",
+      "{permission-id}",
+      "microsoft.graph.revokeGrants"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.revokeGrants"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/subscriptions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/subscriptions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/subscriptions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "subscriptions"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "subscriptions"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/subscriptions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/subscriptions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/subscriptions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "subscriptions",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/subscriptions/{subscription-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/subscriptions/{subscription-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/subscriptions/{subscription-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "subscriptions",
+      "{subscription-id}"
+    ],
+    "Root": "drive",
+    "Children": 1,
+    "Segment": "{subscription-id}"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/subscriptions/{subscription-id}/microsoft.graph.reauthorize",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/subscriptions/{subscription-id}/microsoft.graph.reauthorize",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/subscriptions/{subscription-id}/microsoft.graph.reauthorize",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "subscriptions",
+      "{subscription-id}",
+      "microsoft.graph.reauthorize"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.reauthorize"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/thumbnails",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/thumbnails",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/thumbnails",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "thumbnails"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "thumbnails"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/thumbnails/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/thumbnails/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/thumbnails/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "thumbnails",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/thumbnails/{thumbnailSet-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/thumbnails/{thumbnailSet-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/thumbnails/{thumbnailSet-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "thumbnails",
+      "{thumbnailSet-id}"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "{thumbnailSet-id}"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/versions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/versions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/versions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "versions"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "versions"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/versions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/versions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/versions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "versions",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/versions/{driveItemVersion-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/versions/{driveItemVersion-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/versions/{driveItemVersion-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "versions",
+      "{driveItemVersion-id}"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "{driveItemVersion-id}"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/versions/{driveItemVersion-id}/content",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/versions/{driveItemVersion-id}/content",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/versions/{driveItemVersion-id}/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "versions",
+      "{driveItemVersion-id}",
+      "content"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "drive/items/{driveItem-id}/versions/{driveItemVersion-id}/microsoft.graph.restoreVersion",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/items/{driveItem-id}/versions/{driveItemVersion-id}/microsoft.graph.restoreVersion",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/items/{driveItem-id}/versions/{driveItemVersion-id}/microsoft.graph.restoreVersion",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "items",
+      "{driveItem-id}",
+      "versions",
+      "{driveItemVersion-id}",
+      "microsoft.graph.restoreVersion"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.restoreVersion"
+  },
+  {
+    "Endpoint": "drive/list",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "list"
+    ],
+    "Root": "drive",
+    "Children": 7,
+    "Segment": "list"
+  },
+  {
+    "Endpoint": "drive/list/activities",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/activities",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "activities"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "activities"
+  },
+  {
+    "Endpoint": "drive/list/columns",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/columns",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/columns",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "columns"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "columns"
+  },
+  {
+    "Endpoint": "drive/list/columns/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/columns/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/columns/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "columns",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/list/columns/{columnDefinition-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/columns/{columnDefinition-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/columns/{columnDefinition-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "columns",
+      "{columnDefinition-id}"
+    ],
+    "Root": "drive",
+    "Children": 1,
+    "Segment": "{columnDefinition-id}"
+  },
+  {
+    "Endpoint": "drive/list/columns/{columnDefinition-id}/sourceColumn",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/columns/{columnDefinition-id}/sourceColumn",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/columns/{columnDefinition-id}/sourceColumn",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "columns",
+      "{columnDefinition-id}",
+      "sourceColumn"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "sourceColumn"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes"
+    ],
+    "Root": "drive",
+    "Children": 5,
+    "Segment": "contentTypes"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes/{contentType-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes/{contentType-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes/{contentType-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes",
+      "{contentType-id}"
+    ],
+    "Root": "drive",
+    "Children": 10,
+    "Segment": "{contentType-id}"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes/{contentType-id}/base",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes/{contentType-id}/base",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes/{contentType-id}/base",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes",
+      "{contentType-id}",
+      "base"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "base"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes/{contentType-id}/baseTypes",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes/{contentType-id}/baseTypes",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes/{contentType-id}/baseTypes",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes",
+      "{contentType-id}",
+      "baseTypes"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "baseTypes"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes/{contentType-id}/baseTypes/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes/{contentType-id}/baseTypes/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes/{contentType-id}/baseTypes/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes",
+      "{contentType-id}",
+      "baseTypes",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes/{contentType-id}/baseTypes/{contentType-id1}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes/{contentType-id}/baseTypes/{contentType-id1}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes/{contentType-id}/baseTypes/{contentType-id1}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes",
+      "{contentType-id}",
+      "baseTypes",
+      "{contentType-id1}"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "{contentType-id1}"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes/{contentType-id}/columnLinks",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes/{contentType-id}/columnLinks",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes/{contentType-id}/columnLinks",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes",
+      "{contentType-id}",
+      "columnLinks"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "columnLinks"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes/{contentType-id}/columnLinks/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes/{contentType-id}/columnLinks/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes/{contentType-id}/columnLinks/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes",
+      "{contentType-id}",
+      "columnLinks",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes/{contentType-id}/columnLinks/{columnLink-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes/{contentType-id}/columnLinks/{columnLink-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes/{contentType-id}/columnLinks/{columnLink-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes",
+      "{contentType-id}",
+      "columnLinks",
+      "{columnLink-id}"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "{columnLink-id}"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes/{contentType-id}/columnPositions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes/{contentType-id}/columnPositions",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes/{contentType-id}/columnPositions",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes",
+      "{contentType-id}",
+      "columnPositions"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "columnPositions"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes/{contentType-id}/columnPositions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes/{contentType-id}/columnPositions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes/{contentType-id}/columnPositions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes",
+      "{contentType-id}",
+      "columnPositions",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes/{contentType-id}/columnPositions/{columnDefinition-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes/{contentType-id}/columnPositions/{columnDefinition-id}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes/{contentType-id}/columnPositions/{columnDefinition-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes",
+      "{contentType-id}",
+      "columnPositions",
+      "{columnDefinition-id}"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "{columnDefinition-id}"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes/{contentType-id}/columns",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes/{contentType-id}/columns",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes/{contentType-id}/columns",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes",
+      "{contentType-id}",
+      "columns"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "columns"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes/{contentType-id}/columns/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes/{contentType-id}/columns/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes/{contentType-id}/columns/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes",
+      "{contentType-id}",
+      "columns",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes/{contentType-id}/columns/{columnDefinition-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes/{contentType-id}/columns/{columnDefinition-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes/{contentType-id}/columns/{columnDefinition-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes",
+      "{contentType-id}",
+      "columns",
+      "{columnDefinition-id}"
+    ],
+    "Root": "drive",
+    "Children": 1,
+    "Segment": "{columnDefinition-id}"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes/{contentType-id}/columns/{columnDefinition-id}/sourceColumn",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes/{contentType-id}/columns/{columnDefinition-id}/sourceColumn",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes/{contentType-id}/columns/{columnDefinition-id}/sourceColumn",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes",
+      "{contentType-id}",
+      "columns",
+      "{columnDefinition-id}",
+      "sourceColumn"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "sourceColumn"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes/{contentType-id}/microsoft.graph.associateWithHubSites",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes/{contentType-id}/microsoft.graph.associateWithHubSites",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes/{contentType-id}/microsoft.graph.associateWithHubSites",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes",
+      "{contentType-id}",
+      "microsoft.graph.associateWithHubSites"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.associateWithHubSites"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes/{contentType-id}/microsoft.graph.copyToDefaultContentLocation",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes/{contentType-id}/microsoft.graph.copyToDefaultContentLocation",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes/{contentType-id}/microsoft.graph.copyToDefaultContentLocation",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes",
+      "{contentType-id}",
+      "microsoft.graph.copyToDefaultContentLocation"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.copyToDefaultContentLocation"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes/{contentType-id}/microsoft.graph.isPublished()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes/{contentType-id}/microsoft.graph.isPublished()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes/{contentType-id}/microsoft.graph.isPublished()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes",
+      "{contentType-id}",
+      "microsoft.graph.isPublished()"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.isPublished()"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes/{contentType-id}/microsoft.graph.publish",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes/{contentType-id}/microsoft.graph.publish",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes/{contentType-id}/microsoft.graph.publish",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes",
+      "{contentType-id}",
+      "microsoft.graph.publish"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.publish"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes/{contentType-id}/microsoft.graph.unpublish",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes/{contentType-id}/microsoft.graph.unpublish",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes/{contentType-id}/microsoft.graph.unpublish",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes",
+      "{contentType-id}",
+      "microsoft.graph.unpublish"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.unpublish"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes/microsoft.graph.addCopy",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes/microsoft.graph.addCopy",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes/microsoft.graph.addCopy",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes",
+      "microsoft.graph.addCopy"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.addCopy"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes/microsoft.graph.addCopyFromContentTypeHub",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes/microsoft.graph.addCopyFromContentTypeHub",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes/microsoft.graph.addCopyFromContentTypeHub",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes",
+      "microsoft.graph.addCopyFromContentTypeHub"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.addCopyFromContentTypeHub"
+  },
+  {
+    "Endpoint": "drive/list/contentTypes/microsoft.graph.getCompatibleHubContentTypes()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/contentTypes/microsoft.graph.getCompatibleHubContentTypes()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/contentTypes/microsoft.graph.getCompatibleHubContentTypes()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "contentTypes",
+      "microsoft.graph.getCompatibleHubContentTypes()"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.getCompatibleHubContentTypes()"
+  },
+  {
+    "Endpoint": "drive/list/drive",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/drive",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/drive",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "drive"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "drive"
+  },
+  {
+    "Endpoint": "drive/list/items",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/items",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items"
+    ],
+    "Root": "drive",
+    "Children": 4,
+    "Segment": "items"
+  },
+  {
+    "Endpoint": "drive/list/items/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/items/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/list/items/{listItem-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/items/{listItem-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/{listItem-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "{listItem-id}"
+    ],
+    "Root": "drive",
+    "Children": 9,
+    "Segment": "{listItem-id}"
+  },
+  {
+    "Endpoint": "drive/list/items/{listItem-id}/activities",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/{listItem-id}/activities",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "{listItem-id}",
+      "activities"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "activities"
+  },
+  {
+    "Endpoint": "drive/list/items/{listItem-id}/activities/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/{listItem-id}/activities/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "{listItem-id}",
+      "activities",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/list/items/{listItem-id}/activities/{itemActivityOLD-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/{listItem-id}/activities/{itemActivityOLD-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "{listItem-id}",
+      "activities",
+      "{itemActivityOLD-id}"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "{itemActivityOLD-id}"
+  },
+  {
+    "Endpoint": "drive/list/items/{listItem-id}/activities/{itemActivityOLD-id}/driveItem",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/{listItem-id}/activities/{itemActivityOLD-id}/driveItem",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "{listItem-id}",
+      "activities",
+      "{itemActivityOLD-id}",
+      "driveItem"
+    ],
+    "Root": "drive",
+    "Children": 1,
+    "Segment": "driveItem"
+  },
+  {
+    "Endpoint": "drive/list/items/{listItem-id}/activities/{itemActivityOLD-id}/driveItem/content",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/{listItem-id}/activities/{itemActivityOLD-id}/driveItem/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "{listItem-id}",
+      "activities",
+      "{itemActivityOLD-id}",
+      "driveItem",
+      "content"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "drive/list/items/{listItem-id}/activities/{itemActivityOLD-id}/listItem",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/{listItem-id}/activities/{itemActivityOLD-id}/listItem",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "{listItem-id}",
+      "activities",
+      "{itemActivityOLD-id}",
+      "listItem"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "listItem"
+  },
+  {
+    "Endpoint": "drive/list/items/{listItem-id}/analytics",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/items/{listItem-id}/analytics",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/{listItem-id}/analytics",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "{listItem-id}",
+      "analytics"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "analytics"
+  },
+  {
+    "Endpoint": "drive/list/items/{listItem-id}/documentSetVersions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/items/{listItem-id}/documentSetVersions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/{listItem-id}/documentSetVersions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "{listItem-id}",
+      "documentSetVersions"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "documentSetVersions"
+  },
+  {
+    "Endpoint": "drive/list/items/{listItem-id}/documentSetVersions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/items/{listItem-id}/documentSetVersions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/{listItem-id}/documentSetVersions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "{listItem-id}",
+      "documentSetVersions",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/list/items/{listItem-id}/documentSetVersions/{documentSetVersion-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/items/{listItem-id}/documentSetVersions/{documentSetVersion-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/{listItem-id}/documentSetVersions/{documentSetVersion-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "{listItem-id}",
+      "documentSetVersions",
+      "{documentSetVersion-id}"
+    ],
+    "Root": "drive",
+    "Children": 1,
+    "Segment": "{documentSetVersion-id}"
+  },
+  {
+    "Endpoint": "drive/list/items/{listItem-id}/documentSetVersions/{documentSetVersion-id}/microsoft.graph.restore",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/items/{listItem-id}/documentSetVersions/{documentSetVersion-id}/microsoft.graph.restore",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/{listItem-id}/documentSetVersions/{documentSetVersion-id}/microsoft.graph.restore",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "{listItem-id}",
+      "documentSetVersions",
+      "{documentSetVersion-id}",
+      "microsoft.graph.restore"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.restore"
+  },
+  {
+    "Endpoint": "drive/list/items/{listItem-id}/driveItem",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/items/{listItem-id}/driveItem",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/{listItem-id}/driveItem",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "{listItem-id}",
+      "driveItem"
+    ],
+    "Root": "drive",
+    "Children": 1,
+    "Segment": "driveItem"
+  },
+  {
+    "Endpoint": "drive/list/items/{listItem-id}/driveItem/content",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/items/{listItem-id}/driveItem/content",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/{listItem-id}/driveItem/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "{listItem-id}",
+      "driveItem",
+      "content"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "drive/list/items/{listItem-id}/fields",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/items/{listItem-id}/fields",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/{listItem-id}/fields",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "{listItem-id}",
+      "fields"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "fields"
+  },
+  {
+    "Endpoint": "drive/list/items/{listItem-id}/microsoft.graph.createLink",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/{listItem-id}/microsoft.graph.createLink",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "{listItem-id}",
+      "microsoft.graph.createLink"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.createLink"
+  },
+  {
+    "Endpoint": "drive/list/items/{listItem-id}/microsoft.graph.getActivitiesByInterval()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/items/{listItem-id}/microsoft.graph.getActivitiesByInterval()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "{listItem-id}",
+      "microsoft.graph.getActivitiesByInterval()"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.getActivitiesByInterval()"
+  },
+  {
+    "Endpoint": "drive/list/items/{listItem-id}/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/items/{listItem-id}/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/{listItem-id}/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "{listItem-id}",
+      "microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')"
+  },
+  {
+    "Endpoint": "drive/list/items/{listItem-id}/versions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/items/{listItem-id}/versions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/{listItem-id}/versions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "{listItem-id}",
+      "versions"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "versions"
+  },
+  {
+    "Endpoint": "drive/list/items/{listItem-id}/versions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/items/{listItem-id}/versions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/{listItem-id}/versions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "{listItem-id}",
+      "versions",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/list/items/{listItem-id}/versions/{listItemVersion-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/items/{listItem-id}/versions/{listItemVersion-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/{listItem-id}/versions/{listItemVersion-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "{listItem-id}",
+      "versions",
+      "{listItemVersion-id}"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "{listItemVersion-id}"
+  },
+  {
+    "Endpoint": "drive/list/items/{listItem-id}/versions/{listItemVersion-id}/fields",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/items/{listItem-id}/versions/{listItemVersion-id}/fields",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/{listItem-id}/versions/{listItemVersion-id}/fields",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "{listItem-id}",
+      "versions",
+      "{listItemVersion-id}",
+      "fields"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "fields"
+  },
+  {
+    "Endpoint": "drive/list/items/{listItem-id}/versions/{listItemVersion-id}/microsoft.graph.restoreVersion",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/items/{listItem-id}/versions/{listItemVersion-id}/microsoft.graph.restoreVersion",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/{listItem-id}/versions/{listItemVersion-id}/microsoft.graph.restoreVersion",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "{listItem-id}",
+      "versions",
+      "{listItemVersion-id}",
+      "microsoft.graph.restoreVersion"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.restoreVersion"
+  },
+  {
+    "Endpoint": "drive/list/items/microsoft.graph.delta()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/microsoft.graph.delta()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "drive/list/items/microsoft.graph.delta(token='{token}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/items/microsoft.graph.delta(token='{token}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "items",
+      "microsoft.graph.delta(token='{token}')"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta(token='{token}')"
+  },
+  {
+    "Endpoint": "drive/list/operations",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/operations",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/operations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "operations"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "operations"
+  },
+  {
+    "Endpoint": "drive/list/operations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/operations/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/operations/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "operations",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/list/operations/{richLongRunningOperation-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/operations/{richLongRunningOperation-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/operations/{richLongRunningOperation-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "operations",
+      "{richLongRunningOperation-id}"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "{richLongRunningOperation-id}"
+  },
+  {
+    "Endpoint": "drive/list/subscriptions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/subscriptions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/subscriptions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "subscriptions"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "subscriptions"
+  },
+  {
+    "Endpoint": "drive/list/subscriptions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/subscriptions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/subscriptions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "subscriptions",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/list/subscriptions/{subscription-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/subscriptions/{subscription-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/subscriptions/{subscription-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "subscriptions",
+      "{subscription-id}"
+    ],
+    "Root": "drive",
+    "Children": 1,
+    "Segment": "{subscription-id}"
+  },
+  {
+    "Endpoint": "drive/list/subscriptions/{subscription-id}/microsoft.graph.reauthorize",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/list/subscriptions/{subscription-id}/microsoft.graph.reauthorize",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/list/subscriptions/{subscription-id}/microsoft.graph.reauthorize",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "list",
+      "subscriptions",
+      "{subscription-id}",
+      "microsoft.graph.reauthorize"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.reauthorize"
+  },
+  {
+    "Endpoint": "drive/microsoft.graph.recent()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/microsoft.graph.recent()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/microsoft.graph.recent()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "microsoft.graph.recent()"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.recent()"
+  },
+  {
+    "Endpoint": "drive/microsoft.graph.search(q='{q}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/microsoft.graph.search(q='{q}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/microsoft.graph.search(q='{q}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "microsoft.graph.search(q='{q}')"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.search(q='{q}')"
+  },
+  {
+    "Endpoint": "drive/microsoft.graph.sharedWithMe()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/microsoft.graph.sharedWithMe()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/microsoft.graph.sharedWithMe()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "microsoft.graph.sharedWithMe()"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.sharedWithMe()"
+  },
+  {
+    "Endpoint": "drive/root",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "root"
+    ],
+    "Root": "drive",
+    "Children": 27,
+    "Segment": "root"
+  },
+  {
+    "Endpoint": "drive/root/activities",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/activities",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "activities"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "activities"
+  },
+  {
+    "Endpoint": "drive/root/activities/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/activities/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "activities",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/root/activities/{itemActivityOLD-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/activities/{itemActivityOLD-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "activities",
+      "{itemActivityOLD-id}"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "{itemActivityOLD-id}"
+  },
+  {
+    "Endpoint": "drive/root/analytics",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/analytics",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/analytics",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "analytics"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "analytics"
+  },
+  {
+    "Endpoint": "drive/root/children",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/children",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/children",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "children"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "children"
+  },
+  {
+    "Endpoint": "drive/root/children/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/children/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/children/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "children",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/root/children/{driveItem-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/children/{driveItem-id}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/children/{driveItem-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "children",
+      "{driveItem-id}"
+    ],
+    "Root": "drive",
+    "Children": 1,
+    "Segment": "{driveItem-id}"
+  },
+  {
+    "Endpoint": "drive/root/children/{driveItem-id}/content",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/children/{driveItem-id}/content",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/children/{driveItem-id}/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "children",
+      "{driveItem-id}",
+      "content"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "drive/root/content",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/content",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "content"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "drive/root/listItem",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/listItem",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/listItem",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "listItem"
+    ],
+    "Root": "drive",
+    "Children": 9,
+    "Segment": "listItem"
+  },
+  {
+    "Endpoint": "drive/root/listItem/activities",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/listItem/activities",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "listItem",
+      "activities"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "activities"
+  },
+  {
+    "Endpoint": "drive/root/listItem/activities/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/listItem/activities/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "listItem",
+      "activities",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/root/listItem/activities/{itemActivityOLD-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/listItem/activities/{itemActivityOLD-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "listItem",
+      "activities",
+      "{itemActivityOLD-id}"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "{itemActivityOLD-id}"
+  },
+  {
+    "Endpoint": "drive/root/listItem/activities/{itemActivityOLD-id}/driveItem",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/listItem/activities/{itemActivityOLD-id}/driveItem",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "listItem",
+      "activities",
+      "{itemActivityOLD-id}",
+      "driveItem"
+    ],
+    "Root": "drive",
+    "Children": 1,
+    "Segment": "driveItem"
+  },
+  {
+    "Endpoint": "drive/root/listItem/activities/{itemActivityOLD-id}/driveItem/content",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/listItem/activities/{itemActivityOLD-id}/driveItem/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "listItem",
+      "activities",
+      "{itemActivityOLD-id}",
+      "driveItem",
+      "content"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "drive/root/listItem/activities/{itemActivityOLD-id}/listItem",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/listItem/activities/{itemActivityOLD-id}/listItem",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "listItem",
+      "activities",
+      "{itemActivityOLD-id}",
+      "listItem"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "listItem"
+  },
+  {
+    "Endpoint": "drive/root/listItem/analytics",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/listItem/analytics",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/listItem/analytics",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "listItem",
+      "analytics"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "analytics"
+  },
+  {
+    "Endpoint": "drive/root/listItem/documentSetVersions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/listItem/documentSetVersions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/listItem/documentSetVersions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "listItem",
+      "documentSetVersions"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "documentSetVersions"
+  },
+  {
+    "Endpoint": "drive/root/listItem/documentSetVersions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/listItem/documentSetVersions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/listItem/documentSetVersions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "listItem",
+      "documentSetVersions",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/root/listItem/documentSetVersions/{documentSetVersion-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/listItem/documentSetVersions/{documentSetVersion-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/listItem/documentSetVersions/{documentSetVersion-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "listItem",
+      "documentSetVersions",
+      "{documentSetVersion-id}"
+    ],
+    "Root": "drive",
+    "Children": 1,
+    "Segment": "{documentSetVersion-id}"
+  },
+  {
+    "Endpoint": "drive/root/listItem/documentSetVersions/{documentSetVersion-id}/microsoft.graph.restore",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/listItem/documentSetVersions/{documentSetVersion-id}/microsoft.graph.restore",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/listItem/documentSetVersions/{documentSetVersion-id}/microsoft.graph.restore",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "listItem",
+      "documentSetVersions",
+      "{documentSetVersion-id}",
+      "microsoft.graph.restore"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.restore"
+  },
+  {
+    "Endpoint": "drive/root/listItem/driveItem",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/listItem/driveItem",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/listItem/driveItem",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "listItem",
+      "driveItem"
+    ],
+    "Root": "drive",
+    "Children": 1,
+    "Segment": "driveItem"
+  },
+  {
+    "Endpoint": "drive/root/listItem/driveItem/content",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/listItem/driveItem/content",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/listItem/driveItem/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "listItem",
+      "driveItem",
+      "content"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "drive/root/listItem/fields",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/listItem/fields",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/listItem/fields",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "listItem",
+      "fields"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "fields"
+  },
+  {
+    "Endpoint": "drive/root/listItem/microsoft.graph.createLink",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/listItem/microsoft.graph.createLink",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "listItem",
+      "microsoft.graph.createLink"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.createLink"
+  },
+  {
+    "Endpoint": "drive/root/listItem/microsoft.graph.getActivitiesByInterval()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/listItem/microsoft.graph.getActivitiesByInterval()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "drive",
+      "root",
+      "listItem",
+      "microsoft.graph.getActivitiesByInterval()"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.getActivitiesByInterval()"
+  },
+  {
+    "Endpoint": "drive/root/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "listItem",
+      "microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')"
+  },
+  {
+    "Endpoint": "drive/root/listItem/versions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/listItem/versions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/listItem/versions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "listItem",
+      "versions"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "versions"
+  },
+  {
+    "Endpoint": "drive/root/listItem/versions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/listItem/versions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/listItem/versions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "listItem",
+      "versions",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/root/listItem/versions/{listItemVersion-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/listItem/versions/{listItemVersion-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/listItem/versions/{listItemVersion-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "listItem",
+      "versions",
+      "{listItemVersion-id}"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "{listItemVersion-id}"
+  },
+  {
+    "Endpoint": "drive/root/listItem/versions/{listItemVersion-id}/fields",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/listItem/versions/{listItemVersion-id}/fields",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/listItem/versions/{listItemVersion-id}/fields",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "listItem",
+      "versions",
+      "{listItemVersion-id}",
+      "fields"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "fields"
+  },
+  {
+    "Endpoint": "drive/root/listItem/versions/{listItemVersion-id}/microsoft.graph.restoreVersion",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/listItem/versions/{listItemVersion-id}/microsoft.graph.restoreVersion",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/listItem/versions/{listItemVersion-id}/microsoft.graph.restoreVersion",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "listItem",
+      "versions",
+      "{listItemVersion-id}",
+      "microsoft.graph.restoreVersion"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.restoreVersion"
+  },
+  {
+    "Endpoint": "drive/root/microsoft.graph.assignSensitivityLabel",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/microsoft.graph.assignSensitivityLabel",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "microsoft.graph.assignSensitivityLabel"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.assignSensitivityLabel"
+  },
+  {
+    "Endpoint": "drive/root/microsoft.graph.checkin",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/microsoft.graph.checkin",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/microsoft.graph.checkin",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "microsoft.graph.checkin"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.checkin"
+  },
+  {
+    "Endpoint": "drive/root/microsoft.graph.checkout",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/microsoft.graph.checkout",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/microsoft.graph.checkout",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "microsoft.graph.checkout"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.checkout"
+  },
+  {
+    "Endpoint": "drive/root/microsoft.graph.copy",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/microsoft.graph.copy",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/microsoft.graph.copy",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "microsoft.graph.copy"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.copy"
+  },
+  {
+    "Endpoint": "drive/root/microsoft.graph.createLink",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/microsoft.graph.createLink",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/microsoft.graph.createLink",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "microsoft.graph.createLink"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.createLink"
+  },
+  {
+    "Endpoint": "drive/root/microsoft.graph.createUploadSession",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/microsoft.graph.createUploadSession",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/microsoft.graph.createUploadSession",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "microsoft.graph.createUploadSession"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.createUploadSession"
+  },
+  {
+    "Endpoint": "drive/root/microsoft.graph.delta()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/microsoft.graph.delta()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/microsoft.graph.delta()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "drive/root/microsoft.graph.delta(token='{token}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/microsoft.graph.delta(token='{token}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/microsoft.graph.delta(token='{token}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "microsoft.graph.delta(token='{token}')"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta(token='{token}')"
+  },
+  {
+    "Endpoint": "drive/root/microsoft.graph.extractSensitivityLabels",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/microsoft.graph.extractSensitivityLabels",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "microsoft.graph.extractSensitivityLabels"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.extractSensitivityLabels"
+  },
+  {
+    "Endpoint": "drive/root/microsoft.graph.follow",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/microsoft.graph.follow",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/microsoft.graph.follow",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "microsoft.graph.follow"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.follow"
+  },
+  {
+    "Endpoint": "drive/root/microsoft.graph.getActivitiesByInterval()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/microsoft.graph.getActivitiesByInterval()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "drive",
+      "root",
+      "microsoft.graph.getActivitiesByInterval()"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.getActivitiesByInterval()"
+  },
+  {
+    "Endpoint": "drive/root/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')"
+  },
+  {
+    "Endpoint": "drive/root/microsoft.graph.invite",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/microsoft.graph.invite",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/microsoft.graph.invite",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "microsoft.graph.invite"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.invite"
+  },
+  {
+    "Endpoint": "drive/root/microsoft.graph.preview",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/microsoft.graph.preview",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/microsoft.graph.preview",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "microsoft.graph.preview"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.preview"
+  },
+  {
+    "Endpoint": "drive/root/microsoft.graph.restore",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/microsoft.graph.restore",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/microsoft.graph.restore",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "microsoft.graph.restore"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.restore"
+  },
+  {
+    "Endpoint": "drive/root/microsoft.graph.search(q='{q}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/microsoft.graph.search(q='{q}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/microsoft.graph.search(q='{q}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "microsoft.graph.search(q='{q}')"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.search(q='{q}')"
+  },
+  {
+    "Endpoint": "drive/root/microsoft.graph.unfollow",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/microsoft.graph.unfollow",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/microsoft.graph.unfollow",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "microsoft.graph.unfollow"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.unfollow"
+  },
+  {
+    "Endpoint": "drive/root/microsoft.graph.validatePermission",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/microsoft.graph.validatePermission",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/microsoft.graph.validatePermission",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "microsoft.graph.validatePermission"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.validatePermission"
+  },
+  {
+    "Endpoint": "drive/root/permissions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/permissions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/permissions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "permissions"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "permissions"
+  },
+  {
+    "Endpoint": "drive/root/permissions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/permissions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/permissions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "permissions",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/root/permissions/{permission-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/permissions/{permission-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/permissions/{permission-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "permissions",
+      "{permission-id}"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "{permission-id}"
+  },
+  {
+    "Endpoint": "drive/root/permissions/{permission-id}/microsoft.graph.grant",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/permissions/{permission-id}/microsoft.graph.grant",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/permissions/{permission-id}/microsoft.graph.grant",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "permissions",
+      "{permission-id}",
+      "microsoft.graph.grant"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.grant"
+  },
+  {
+    "Endpoint": "drive/root/permissions/{permission-id}/microsoft.graph.revokeGrants",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/permissions/{permission-id}/microsoft.graph.revokeGrants",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "permissions",
+      "{permission-id}",
+      "microsoft.graph.revokeGrants"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.revokeGrants"
+  },
+  {
+    "Endpoint": "drive/root/subscriptions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/subscriptions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/subscriptions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "subscriptions"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "subscriptions"
+  },
+  {
+    "Endpoint": "drive/root/subscriptions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/subscriptions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/subscriptions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "subscriptions",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/root/subscriptions/{subscription-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/subscriptions/{subscription-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/subscriptions/{subscription-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "subscriptions",
+      "{subscription-id}"
+    ],
+    "Root": "drive",
+    "Children": 1,
+    "Segment": "{subscription-id}"
+  },
+  {
+    "Endpoint": "drive/root/subscriptions/{subscription-id}/microsoft.graph.reauthorize",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/subscriptions/{subscription-id}/microsoft.graph.reauthorize",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/subscriptions/{subscription-id}/microsoft.graph.reauthorize",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "subscriptions",
+      "{subscription-id}",
+      "microsoft.graph.reauthorize"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.reauthorize"
+  },
+  {
+    "Endpoint": "drive/root/thumbnails",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/thumbnails",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/thumbnails",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "thumbnails"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "thumbnails"
+  },
+  {
+    "Endpoint": "drive/root/thumbnails/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/thumbnails/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/thumbnails/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "thumbnails",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/root/thumbnails/{thumbnailSet-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/thumbnails/{thumbnailSet-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/thumbnails/{thumbnailSet-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "thumbnails",
+      "{thumbnailSet-id}"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "{thumbnailSet-id}"
+  },
+  {
+    "Endpoint": "drive/root/versions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/versions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/versions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "versions"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "versions"
+  },
+  {
+    "Endpoint": "drive/root/versions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/versions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/versions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "versions",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/root/versions/{driveItemVersion-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/versions/{driveItemVersion-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/versions/{driveItemVersion-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "versions",
+      "{driveItemVersion-id}"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "{driveItemVersion-id}"
+  },
+  {
+    "Endpoint": "drive/root/versions/{driveItemVersion-id}/content",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/versions/{driveItemVersion-id}/content",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/versions/{driveItemVersion-id}/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "versions",
+      "{driveItemVersion-id}",
+      "content"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "drive/root/versions/{driveItemVersion-id}/microsoft.graph.restoreVersion",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/root/versions/{driveItemVersion-id}/microsoft.graph.restoreVersion",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/root/versions/{driveItemVersion-id}/microsoft.graph.restoreVersion",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "drive",
+      "root",
+      "versions",
+      "{driveItemVersion-id}",
+      "microsoft.graph.restoreVersion"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "microsoft.graph.restoreVersion"
+  },
+  {
+    "Endpoint": "drive/special",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/special",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/special",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "special"
+    ],
+    "Root": "drive",
+    "Children": 2,
+    "Segment": "special"
+  },
+  {
+    "Endpoint": "drive/special/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/special/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/special/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "special",
+      "$count"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "drive/special/{driveItem-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/special/{driveItem-id}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/special/{driveItem-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "drive",
+      "special",
+      "{driveItem-id}"
+    ],
+    "Root": "drive",
+    "Children": 1,
+    "Segment": "{driveItem-id}"
+  },
+  {
+    "Endpoint": "drive/special/{driveItem-id}/content",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/drive/special/{driveItem-id}/content",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/drive/special/{driveItem-id}/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "drive",
+      "special",
+      "{driveItem-id}",
+      "content"
+    ],
+    "Root": "drive",
+    "Children": 0,
+    "Segment": "content"
+  }
+]

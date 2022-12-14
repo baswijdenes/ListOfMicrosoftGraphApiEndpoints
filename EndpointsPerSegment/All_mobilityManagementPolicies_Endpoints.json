@@ -1,0 +1,157 @@
+[
+  {
+    "Endpoint": "mobilityManagementPolicies",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/mobilityManagementPolicies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "mobilityManagementPolicies"
+    ],
+    "Root": "mobilityManagementPolicies",
+    "Children": 2,
+    "Segment": "mobilityManagementPolicies"
+  },
+  {
+    "Endpoint": "mobilityManagementPolicies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/mobilityManagementPolicies/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "mobilityManagementPolicies",
+      "$count"
+    ],
+    "Root": "mobilityManagementPolicies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "mobilityManagementPolicies/{mobilityManagementPolicy-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/mobilityManagementPolicies/{mobilityManagementPolicy-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "mobilityManagementPolicies",
+      "{mobilityManagementPolicy-id}"
+    ],
+    "Root": "mobilityManagementPolicies",
+    "Children": 1,
+    "Segment": "{mobilityManagementPolicy-id}"
+  },
+  {
+    "Endpoint": "mobilityManagementPolicies/{mobilityManagementPolicy-id}/includedGroups",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/mobilityManagementPolicies/{mobilityManagementPolicy-id}/includedGroups",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "mobilityManagementPolicies",
+      "{mobilityManagementPolicy-id}",
+      "includedGroups"
+    ],
+    "Root": "mobilityManagementPolicies",
+    "Children": 3,
+    "Segment": "includedGroups"
+  },
+  {
+    "Endpoint": "mobilityManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/mobilityManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "mobilityManagementPolicies",
+      "{mobilityManagementPolicy-id}",
+      "includedGroups",
+      "$count"
+    ],
+    "Root": "mobilityManagementPolicies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "mobilityManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/mobilityManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "mobilityManagementPolicies",
+      "{mobilityManagementPolicy-id}",
+      "includedGroups",
+      "$ref"
+    ],
+    "Root": "mobilityManagementPolicies",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "mobilityManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "mobilityManagementPolicies",
+      "{mobilityManagementPolicy-id}",
+      "includedGroups",
+      "{group-id}"
+    ],
+    "Root": "mobilityManagementPolicies",
+    "Children": 1,
+    "Segment": "{group-id}"
+  },
+  {
+    "Endpoint": "mobilityManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/mobilityManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "mobilityManagementPolicies",
+      "{mobilityManagementPolicy-id}",
+      "includedGroups",
+      "{group-id}",
+      "$ref"
+    ],
+    "Root": "mobilityManagementPolicies",
+    "Children": 0,
+    "Segment": "$ref"
+  }
+]

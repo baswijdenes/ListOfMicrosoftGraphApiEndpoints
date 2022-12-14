@@ -1,0 +1,4599 @@
+[
+  {
+    "Endpoint": "education",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Path": [
+      "education"
+    ],
+    "Root": "education",
+    "Children": 5,
+    "Segment": "education"
+  },
+  {
+    "Endpoint": "education/classes",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "classes"
+    ],
+    "Root": "education",
+    "Children": 3,
+    "Segment": "classes"
+  },
+  {
+    "Endpoint": "education/classes/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}"
+    ],
+    "Root": "education",
+    "Children": 8,
+    "Segment": "{educationClass-id}"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignmentCategories",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignmentCategories",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignmentCategories",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignmentCategories"
+    ],
+    "Root": "education",
+    "Children": 3,
+    "Segment": "assignmentCategories"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignmentCategories/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignmentCategories/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignmentCategories/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignmentCategories",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignmentCategories/{educationCategory-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignmentCategories/{educationCategory-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignmentCategories/{educationCategory-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignmentCategories",
+      "{educationCategory-id}"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "{educationCategory-id}"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignmentCategories/microsoft.graph.delta()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignmentCategories/microsoft.graph.delta()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignmentCategories/microsoft.graph.delta()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignmentCategories",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignmentDefaults",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignmentDefaults",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignmentDefaults",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignmentDefaults"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "assignmentDefaults"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments"
+    ],
+    "Root": "education",
+    "Children": 3,
+    "Segment": "assignments"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}"
+    ],
+    "Root": "education",
+    "Children": 7,
+    "Segment": "{educationAssignment-id}"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/categories",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/categories",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/categories",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "categories"
+    ],
+    "Root": "education",
+    "Children": 4,
+    "Segment": "categories"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/categories/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/categories/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/categories/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "categories",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/categories/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/categories/$ref",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/categories/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "categories",
+      "$ref"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/categories/{educationCategory-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "categories",
+      "{educationCategory-id}"
+    ],
+    "Root": "education",
+    "Children": 1,
+    "Segment": "{educationCategory-id}"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/categories/{educationCategory-id}/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/categories/{educationCategory-id}/$ref",
+    "v1.0-Methods": [
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/categories/{educationCategory-id}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "categories",
+      "{educationCategory-id}",
+      "$ref"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/categories/microsoft.graph.delta()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/categories/microsoft.graph.delta()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/categories/microsoft.graph.delta()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "categories",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/microsoft.graph.publish",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/microsoft.graph.publish",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/microsoft.graph.publish",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "microsoft.graph.publish"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.publish"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/microsoft.graph.setUpFeedbackResourcesFolder",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/microsoft.graph.setUpFeedbackResourcesFolder",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/microsoft.graph.setUpFeedbackResourcesFolder",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "microsoft.graph.setUpFeedbackResourcesFolder"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.setUpFeedbackResourcesFolder"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/microsoft.graph.setUpResourcesFolder",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/microsoft.graph.setUpResourcesFolder",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/microsoft.graph.setUpResourcesFolder",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "microsoft.graph.setUpResourcesFolder"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.setUpResourcesFolder"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/resources",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/resources",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/resources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "resources"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "resources"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/resources/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/resources/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/resources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "resources",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/resources/{educationAssignmentResource-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/resources/{educationAssignmentResource-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/resources/{educationAssignmentResource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "resources",
+      "{educationAssignmentResource-id}"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "{educationAssignmentResource-id}"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/rubric",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/rubric",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/rubric",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "rubric"
+    ],
+    "Root": "education",
+    "Children": 1,
+    "Segment": "rubric"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/rubric/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/rubric/$ref",
+    "v1.0-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/rubric/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "rubric",
+      "$ref"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "submissions"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}"
+    ],
+    "Root": "education",
+    "Children": 8,
+    "Segment": "{educationSubmission-id}"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.reassign",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.reassign",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.reassign",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "microsoft.graph.reassign"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.reassign"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.return",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.return",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.return",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "microsoft.graph.return"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.return"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.setUpResourcesFolder",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.setUpResourcesFolder",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.setUpResourcesFolder",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "microsoft.graph.setUpResourcesFolder"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.setUpResourcesFolder"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.submit",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.submit",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.submit",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "microsoft.graph.submit"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.submit"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.unsubmit",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.unsubmit",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.unsubmit",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "microsoft.graph.unsubmit"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.unsubmit"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "outcomes"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "outcomes"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "outcomes",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes/{educationOutcome-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes/{educationOutcome-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes/{educationOutcome-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "outcomes",
+      "{educationOutcome-id}"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "{educationOutcome-id}"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "resources"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "resources"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "resources",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources/{educationSubmissionResource-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources/{educationSubmissionResource-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources/{educationSubmissionResource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "resources",
+      "{educationSubmissionResource-id}"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "{educationSubmissionResource-id}"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "submittedResources"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "submittedResources"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "submittedResources",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources/{educationSubmissionResource-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources/{educationSubmissionResource-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources/{educationSubmissionResource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "submittedResources",
+      "{educationSubmissionResource-id}"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "{educationSubmissionResource-id}"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignments/microsoft.graph.delta()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignments/microsoft.graph.delta()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignments/microsoft.graph.delta()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignments",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/assignmentSettings",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/assignmentSettings",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/assignmentSettings",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "assignmentSettings"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "assignmentSettings"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/group",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/group",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/group",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "group"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "group"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/members",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/members",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/members",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "members"
+    ],
+    "Root": "education",
+    "Children": 3,
+    "Segment": "members"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/members/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/members/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/members/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "members",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/members/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/members/$ref",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/members/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "members",
+      "$ref"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/members/{educationUser-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "members",
+      "{educationUser-id}"
+    ],
+    "Root": "education",
+    "Children": 1,
+    "Segment": "{educationUser-id}"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/members/{educationUser-id}/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/members/{educationUser-id}/$ref",
+    "v1.0-Methods": [
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/members/{educationUser-id}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "members",
+      "{educationUser-id}",
+      "$ref"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/schools",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/schools",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/schools",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "schools"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "schools"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/schools/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/schools/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/schools/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "schools",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/schools/{educationSchool-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/schools/{educationSchool-id}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/schools/{educationSchool-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "schools",
+      "{educationSchool-id}"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "{educationSchool-id}"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/teachers",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/teachers",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/teachers",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "teachers"
+    ],
+    "Root": "education",
+    "Children": 3,
+    "Segment": "teachers"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/teachers/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/teachers/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/teachers/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "teachers",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/teachers/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/teachers/$ref",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/teachers/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "teachers",
+      "$ref"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/teachers/{educationUser-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "teachers",
+      "{educationUser-id}"
+    ],
+    "Root": "education",
+    "Children": 1,
+    "Segment": "{educationUser-id}"
+  },
+  {
+    "Endpoint": "education/classes/{educationClass-id}/teachers/{educationUser-id}/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/{educationClass-id}/teachers/{educationUser-id}/$ref",
+    "v1.0-Methods": [
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/{educationClass-id}/teachers/{educationUser-id}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "{educationClass-id}",
+      "teachers",
+      "{educationUser-id}",
+      "$ref"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "education/classes/microsoft.graph.delta()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/classes/microsoft.graph.delta()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/classes/microsoft.graph.delta()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "classes",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "education/me",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "me"
+    ],
+    "Root": "education",
+    "Children": 6,
+    "Segment": "me"
+  },
+  {
+    "Endpoint": "education/me/assignments",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments"
+    ],
+    "Root": "education",
+    "Children": 3,
+    "Segment": "assignments"
+  },
+  {
+    "Endpoint": "education/me/assignments/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}"
+    ],
+    "Root": "education",
+    "Children": 7,
+    "Segment": "{educationAssignment-id}"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/categories",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/categories",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/categories",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "categories"
+    ],
+    "Root": "education",
+    "Children": 4,
+    "Segment": "categories"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/categories/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/categories/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/categories/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "categories",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/categories/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/categories/$ref",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/categories/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "categories",
+      "$ref"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/categories/{educationCategory-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "categories",
+      "{educationCategory-id}"
+    ],
+    "Root": "education",
+    "Children": 1,
+    "Segment": "{educationCategory-id}"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/categories/{educationCategory-id}/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/categories/{educationCategory-id}/$ref",
+    "v1.0-Methods": [
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/categories/{educationCategory-id}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "categories",
+      "{educationCategory-id}",
+      "$ref"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/categories/microsoft.graph.delta()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/categories/microsoft.graph.delta()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/categories/microsoft.graph.delta()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "categories",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/microsoft.graph.publish",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/microsoft.graph.publish",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/microsoft.graph.publish",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "microsoft.graph.publish"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.publish"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/microsoft.graph.setUpFeedbackResourcesFolder",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/microsoft.graph.setUpFeedbackResourcesFolder",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/microsoft.graph.setUpFeedbackResourcesFolder",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "microsoft.graph.setUpFeedbackResourcesFolder"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.setUpFeedbackResourcesFolder"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/microsoft.graph.setUpResourcesFolder",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/microsoft.graph.setUpResourcesFolder",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/microsoft.graph.setUpResourcesFolder",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "microsoft.graph.setUpResourcesFolder"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.setUpResourcesFolder"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/resources",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/resources",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/resources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "resources"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "resources"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/resources/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/resources/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/resources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "resources",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/resources/{educationAssignmentResource-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/resources/{educationAssignmentResource-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/resources/{educationAssignmentResource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "resources",
+      "{educationAssignmentResource-id}"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "{educationAssignmentResource-id}"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/rubric",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/rubric",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/rubric",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "rubric"
+    ],
+    "Root": "education",
+    "Children": 1,
+    "Segment": "rubric"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/rubric/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/rubric/$ref",
+    "v1.0-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/rubric/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "rubric",
+      "$ref"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/submissions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/submissions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/submissions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "submissions"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/submissions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/submissions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/submissions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}"
+    ],
+    "Root": "education",
+    "Children": 8,
+    "Segment": "{educationSubmission-id}"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.reassign",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.reassign",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.reassign",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "microsoft.graph.reassign"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.reassign"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.return",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.return",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.return",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "microsoft.graph.return"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.return"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.setUpResourcesFolder",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.setUpResourcesFolder",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.setUpResourcesFolder",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "microsoft.graph.setUpResourcesFolder"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.setUpResourcesFolder"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.submit",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.submit",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.submit",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "microsoft.graph.submit"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.submit"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.unsubmit",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.unsubmit",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.unsubmit",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "microsoft.graph.unsubmit"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.unsubmit"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "outcomes"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "outcomes"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "outcomes",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes/{educationOutcome-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes/{educationOutcome-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes/{educationOutcome-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "outcomes",
+      "{educationOutcome-id}"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "{educationOutcome-id}"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "resources"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "resources"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "resources",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources/{educationSubmissionResource-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources/{educationSubmissionResource-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources/{educationSubmissionResource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "resources",
+      "{educationSubmissionResource-id}"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "{educationSubmissionResource-id}"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "submittedResources"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "submittedResources"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "submittedResources",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources/{educationSubmissionResource-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources/{educationSubmissionResource-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources/{educationSubmissionResource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "submittedResources",
+      "{educationSubmissionResource-id}"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "{educationSubmissionResource-id}"
+  },
+  {
+    "Endpoint": "education/me/assignments/microsoft.graph.delta()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/assignments/microsoft.graph.delta()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/assignments/microsoft.graph.delta()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "assignments",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "education/me/classes",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/classes",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/classes",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "classes"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "classes"
+  },
+  {
+    "Endpoint": "education/me/classes/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/classes/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/classes/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "classes",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/me/classes/{educationClass-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/classes/{educationClass-id}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/classes/{educationClass-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "classes",
+      "{educationClass-id}"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "{educationClass-id}"
+  },
+  {
+    "Endpoint": "education/me/rubrics",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/rubrics",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/rubrics",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "rubrics"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "rubrics"
+  },
+  {
+    "Endpoint": "education/me/rubrics/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/rubrics/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/rubrics/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "rubrics",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/me/rubrics/{educationRubric-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/rubrics/{educationRubric-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/rubrics/{educationRubric-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "rubrics",
+      "{educationRubric-id}"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "{educationRubric-id}"
+  },
+  {
+    "Endpoint": "education/me/schools",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/schools",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/schools",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "schools"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "schools"
+  },
+  {
+    "Endpoint": "education/me/schools/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/schools/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/schools/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "schools",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/me/schools/{educationSchool-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/schools/{educationSchool-id}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/schools/{educationSchool-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "schools",
+      "{educationSchool-id}"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "{educationSchool-id}"
+  },
+  {
+    "Endpoint": "education/me/taughtClasses",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/taughtClasses",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/taughtClasses",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "taughtClasses"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "taughtClasses"
+  },
+  {
+    "Endpoint": "education/me/taughtClasses/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/taughtClasses/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/taughtClasses/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "taughtClasses",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/me/taughtClasses/{educationClass-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/taughtClasses/{educationClass-id}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/taughtClasses/{educationClass-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "taughtClasses",
+      "{educationClass-id}"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "{educationClass-id}"
+  },
+  {
+    "Endpoint": "education/me/user",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/me/user",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/me/user",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "me",
+      "user"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "user"
+  },
+  {
+    "Endpoint": "education/schools",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/schools",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/schools",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "schools"
+    ],
+    "Root": "education",
+    "Children": 3,
+    "Segment": "schools"
+  },
+  {
+    "Endpoint": "education/schools/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/schools/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/schools/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "schools",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/schools/{educationSchool-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/schools/{educationSchool-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/schools/{educationSchool-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "schools",
+      "{educationSchool-id}"
+    ],
+    "Root": "education",
+    "Children": 3,
+    "Segment": "{educationSchool-id}"
+  },
+  {
+    "Endpoint": "education/schools/{educationSchool-id}/administrativeUnit",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/schools/{educationSchool-id}/administrativeUnit",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/schools/{educationSchool-id}/administrativeUnit",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Path": [
+      "education",
+      "schools",
+      "{educationSchool-id}",
+      "administrativeUnit"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "administrativeUnit"
+  },
+  {
+    "Endpoint": "education/schools/{educationSchool-id}/classes",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/schools/{educationSchool-id}/classes",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/schools/{educationSchool-id}/classes",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "schools",
+      "{educationSchool-id}",
+      "classes"
+    ],
+    "Root": "education",
+    "Children": 3,
+    "Segment": "classes"
+  },
+  {
+    "Endpoint": "education/schools/{educationSchool-id}/classes/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/schools/{educationSchool-id}/classes/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/schools/{educationSchool-id}/classes/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "schools",
+      "{educationSchool-id}",
+      "classes",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/schools/{educationSchool-id}/classes/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/schools/{educationSchool-id}/classes/$ref",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/schools/{educationSchool-id}/classes/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "schools",
+      "{educationSchool-id}",
+      "classes",
+      "$ref"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "education/schools/{educationSchool-id}/classes/{educationClass-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "education",
+      "schools",
+      "{educationSchool-id}",
+      "classes",
+      "{educationClass-id}"
+    ],
+    "Root": "education",
+    "Children": 1,
+    "Segment": "{educationClass-id}"
+  },
+  {
+    "Endpoint": "education/schools/{educationSchool-id}/classes/{educationClass-id}/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/schools/{educationSchool-id}/classes/{educationClass-id}/$ref",
+    "v1.0-Methods": [
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/schools/{educationSchool-id}/classes/{educationClass-id}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "schools",
+      "{educationSchool-id}",
+      "classes",
+      "{educationClass-id}",
+      "$ref"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "education/schools/{educationSchool-id}/users",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/schools/{educationSchool-id}/users",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/schools/{educationSchool-id}/users",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "schools",
+      "{educationSchool-id}",
+      "users"
+    ],
+    "Root": "education",
+    "Children": 3,
+    "Segment": "users"
+  },
+  {
+    "Endpoint": "education/schools/{educationSchool-id}/users/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/schools/{educationSchool-id}/users/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/schools/{educationSchool-id}/users/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "schools",
+      "{educationSchool-id}",
+      "users",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/schools/{educationSchool-id}/users/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/schools/{educationSchool-id}/users/$ref",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/schools/{educationSchool-id}/users/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "schools",
+      "{educationSchool-id}",
+      "users",
+      "$ref"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "education/schools/{educationSchool-id}/users/{educationUser-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "education",
+      "schools",
+      "{educationSchool-id}",
+      "users",
+      "{educationUser-id}"
+    ],
+    "Root": "education",
+    "Children": 1,
+    "Segment": "{educationUser-id}"
+  },
+  {
+    "Endpoint": "education/schools/{educationSchool-id}/users/{educationUser-id}/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/schools/{educationSchool-id}/users/{educationUser-id}/$ref",
+    "v1.0-Methods": [
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/schools/{educationSchool-id}/users/{educationUser-id}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "schools",
+      "{educationSchool-id}",
+      "users",
+      "{educationUser-id}",
+      "$ref"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "education/schools/microsoft.graph.delta()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/schools/microsoft.graph.delta()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/schools/microsoft.graph.delta()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "schools",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "education/synchronizationProfiles",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/synchronizationProfiles",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "synchronizationProfiles"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "synchronizationProfiles"
+  },
+  {
+    "Endpoint": "education/synchronizationProfiles/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/synchronizationProfiles/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "synchronizationProfiles",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/synchronizationProfiles/{educationSynchronizationProfile-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/synchronizationProfiles/{educationSynchronizationProfile-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "synchronizationProfiles",
+      "{educationSynchronizationProfile-id}"
+    ],
+    "Root": "education",
+    "Children": 7,
+    "Segment": "{educationSynchronizationProfile-id}"
+  },
+  {
+    "Endpoint": "education/synchronizationProfiles/{educationSynchronizationProfile-id}/errors",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/synchronizationProfiles/{educationSynchronizationProfile-id}/errors",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "synchronizationProfiles",
+      "{educationSynchronizationProfile-id}",
+      "errors"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "errors"
+  },
+  {
+    "Endpoint": "education/synchronizationProfiles/{educationSynchronizationProfile-id}/errors/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/synchronizationProfiles/{educationSynchronizationProfile-id}/errors/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "synchronizationProfiles",
+      "{educationSynchronizationProfile-id}",
+      "errors",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/synchronizationProfiles/{educationSynchronizationProfile-id}/errors/{educationSynchronizationError-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/synchronizationProfiles/{educationSynchronizationProfile-id}/errors/{educationSynchronizationError-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "synchronizationProfiles",
+      "{educationSynchronizationProfile-id}",
+      "errors",
+      "{educationSynchronizationError-id}"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "{educationSynchronizationError-id}"
+  },
+  {
+    "Endpoint": "education/synchronizationProfiles/{educationSynchronizationProfile-id}/microsoft.graph.pause",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/synchronizationProfiles/{educationSynchronizationProfile-id}/microsoft.graph.pause",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "synchronizationProfiles",
+      "{educationSynchronizationProfile-id}",
+      "microsoft.graph.pause"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.pause"
+  },
+  {
+    "Endpoint": "education/synchronizationProfiles/{educationSynchronizationProfile-id}/microsoft.graph.reset",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/synchronizationProfiles/{educationSynchronizationProfile-id}/microsoft.graph.reset",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "synchronizationProfiles",
+      "{educationSynchronizationProfile-id}",
+      "microsoft.graph.reset"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.reset"
+  },
+  {
+    "Endpoint": "education/synchronizationProfiles/{educationSynchronizationProfile-id}/microsoft.graph.resume",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/synchronizationProfiles/{educationSynchronizationProfile-id}/microsoft.graph.resume",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "synchronizationProfiles",
+      "{educationSynchronizationProfile-id}",
+      "microsoft.graph.resume"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.resume"
+  },
+  {
+    "Endpoint": "education/synchronizationProfiles/{educationSynchronizationProfile-id}/microsoft.graph.start",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/synchronizationProfiles/{educationSynchronizationProfile-id}/microsoft.graph.start",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "synchronizationProfiles",
+      "{educationSynchronizationProfile-id}",
+      "microsoft.graph.start"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.start"
+  },
+  {
+    "Endpoint": "education/synchronizationProfiles/{educationSynchronizationProfile-id}/microsoft.graph.uploadUrl()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/synchronizationProfiles/{educationSynchronizationProfile-id}/microsoft.graph.uploadUrl()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "synchronizationProfiles",
+      "{educationSynchronizationProfile-id}",
+      "microsoft.graph.uploadUrl()"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.uploadUrl()"
+  },
+  {
+    "Endpoint": "education/synchronizationProfiles/{educationSynchronizationProfile-id}/profileStatus",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/synchronizationProfiles/{educationSynchronizationProfile-id}/profileStatus",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "synchronizationProfiles",
+      "{educationSynchronizationProfile-id}",
+      "profileStatus"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "profileStatus"
+  },
+  {
+    "Endpoint": "education/users",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "users"
+    ],
+    "Root": "education",
+    "Children": 3,
+    "Segment": "users"
+  },
+  {
+    "Endpoint": "education/users/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}"
+    ],
+    "Root": "education",
+    "Children": 6,
+    "Segment": "{educationUser-id}"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments"
+    ],
+    "Root": "education",
+    "Children": 3,
+    "Segment": "assignments"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}"
+    ],
+    "Root": "education",
+    "Children": 7,
+    "Segment": "{educationAssignment-id}"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/categories",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/categories",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/categories",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "categories"
+    ],
+    "Root": "education",
+    "Children": 4,
+    "Segment": "categories"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/categories/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/categories/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/categories/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "categories",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/categories/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/categories/$ref",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/categories/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "categories",
+      "$ref"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/categories/{educationCategory-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "categories",
+      "{educationCategory-id}"
+    ],
+    "Root": "education",
+    "Children": 1,
+    "Segment": "{educationCategory-id}"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/categories/{educationCategory-id}/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/categories/{educationCategory-id}/$ref",
+    "v1.0-Methods": [
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/categories/{educationCategory-id}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "categories",
+      "{educationCategory-id}",
+      "$ref"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/categories/microsoft.graph.delta()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/categories/microsoft.graph.delta()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/categories/microsoft.graph.delta()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "categories",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/microsoft.graph.publish",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/microsoft.graph.publish",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/microsoft.graph.publish",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "microsoft.graph.publish"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.publish"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/microsoft.graph.setUpFeedbackResourcesFolder",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/microsoft.graph.setUpFeedbackResourcesFolder",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/microsoft.graph.setUpFeedbackResourcesFolder",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "microsoft.graph.setUpFeedbackResourcesFolder"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.setUpFeedbackResourcesFolder"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/microsoft.graph.setUpResourcesFolder",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/microsoft.graph.setUpResourcesFolder",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/microsoft.graph.setUpResourcesFolder",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "microsoft.graph.setUpResourcesFolder"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.setUpResourcesFolder"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/resources",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/resources",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/resources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "resources"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "resources"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/resources/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/resources/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/resources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "resources",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/resources/{educationAssignmentResource-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/resources/{educationAssignmentResource-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/resources/{educationAssignmentResource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "resources",
+      "{educationAssignmentResource-id}"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "{educationAssignmentResource-id}"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/rubric",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/rubric",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/rubric",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "rubric"
+    ],
+    "Root": "education",
+    "Children": 1,
+    "Segment": "rubric"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/rubric/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/rubric/$ref",
+    "v1.0-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/rubric/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "rubric",
+      "$ref"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "submissions"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}"
+    ],
+    "Root": "education",
+    "Children": 8,
+    "Segment": "{educationSubmission-id}"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.reassign",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.reassign",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.reassign",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "microsoft.graph.reassign"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.reassign"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.return",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.return",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.return",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "microsoft.graph.return"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.return"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.setUpResourcesFolder",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.setUpResourcesFolder",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.setUpResourcesFolder",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "microsoft.graph.setUpResourcesFolder"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.setUpResourcesFolder"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.submit",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.submit",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.submit",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "microsoft.graph.submit"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.submit"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.unsubmit",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.unsubmit",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/microsoft.graph.unsubmit",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "microsoft.graph.unsubmit"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.unsubmit"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "outcomes"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "outcomes"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "outcomes",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes/{educationOutcome-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes/{educationOutcome-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/outcomes/{educationOutcome-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "outcomes",
+      "{educationOutcome-id}"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "{educationOutcome-id}"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "resources"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "resources"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "resources",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources/{educationSubmissionResource-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources/{educationSubmissionResource-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/resources/{educationSubmissionResource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "resources",
+      "{educationSubmissionResource-id}"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "{educationSubmissionResource-id}"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "submittedResources"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "submittedResources"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "submittedResources",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources/{educationSubmissionResource-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources/{educationSubmissionResource-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/{educationAssignment-id}/submissions/{educationSubmission-id}/submittedResources/{educationSubmissionResource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "{educationAssignment-id}",
+      "submissions",
+      "{educationSubmission-id}",
+      "submittedResources",
+      "{educationSubmissionResource-id}"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "{educationSubmissionResource-id}"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/assignments/microsoft.graph.delta()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/assignments/microsoft.graph.delta()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/assignments/microsoft.graph.delta()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "assignments",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/classes",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/classes",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/classes",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "classes"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "classes"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/classes/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/classes/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/classes/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "classes",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/classes/{educationClass-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/classes/{educationClass-id}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/classes/{educationClass-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "classes",
+      "{educationClass-id}"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "{educationClass-id}"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/rubrics",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/rubrics",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/rubrics",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "rubrics"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "rubrics"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/rubrics/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/rubrics/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/rubrics/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "rubrics",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/rubrics/{educationRubric-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/rubrics/{educationRubric-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/rubrics/{educationRubric-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "rubrics",
+      "{educationRubric-id}"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "{educationRubric-id}"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/schools",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/schools",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/schools",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "schools"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "schools"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/schools/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/schools/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/schools/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "schools",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/schools/{educationSchool-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/schools/{educationSchool-id}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/schools/{educationSchool-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "schools",
+      "{educationSchool-id}"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "{educationSchool-id}"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/taughtClasses",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/taughtClasses",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/taughtClasses",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "taughtClasses"
+    ],
+    "Root": "education",
+    "Children": 2,
+    "Segment": "taughtClasses"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/taughtClasses/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/taughtClasses/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/taughtClasses/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "taughtClasses",
+      "$count"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/taughtClasses/{educationClass-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/taughtClasses/{educationClass-id}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/taughtClasses/{educationClass-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "taughtClasses",
+      "{educationClass-id}"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "{educationClass-id}"
+  },
+  {
+    "Endpoint": "education/users/{educationUser-id}/user",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/{educationUser-id}/user",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/{educationUser-id}/user",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "{educationUser-id}",
+      "user"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "user"
+  },
+  {
+    "Endpoint": "education/users/microsoft.graph.delta()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/education/users/microsoft.graph.delta()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/education/users/microsoft.graph.delta()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "education",
+      "users",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "education",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  }
+]

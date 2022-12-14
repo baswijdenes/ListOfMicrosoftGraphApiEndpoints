@@ -1,0 +1,341 @@
+[
+  {
+    "Endpoint": "appCatalogs",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/appCatalogs",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/appCatalogs",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Path": [
+      "appCatalogs"
+    ],
+    "Root": "appCatalogs",
+    "Children": 1,
+    "Segment": "appCatalogs"
+  },
+  {
+    "Endpoint": "appCatalogs/teamsApps",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/appCatalogs/teamsApps",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "appCatalogs",
+      "teamsApps"
+    ],
+    "Root": "appCatalogs",
+    "Children": 2,
+    "Segment": "teamsApps"
+  },
+  {
+    "Endpoint": "appCatalogs/teamsApps/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/appCatalogs/teamsApps/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "appCatalogs",
+      "teamsApps",
+      "$count"
+    ],
+    "Root": "appCatalogs",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "appCatalogs/teamsApps/{teamsApp-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/{teamsApp-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/appCatalogs/teamsApps/{teamsApp-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "appCatalogs",
+      "teamsApps",
+      "{teamsApp-id}"
+    ],
+    "Root": "appCatalogs",
+    "Children": 1,
+    "Segment": "{teamsApp-id}"
+  },
+  {
+    "Endpoint": "appCatalogs/teamsApps/{teamsApp-id}/appDefinitions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/{teamsApp-id}/appDefinitions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/appCatalogs/teamsApps/{teamsApp-id}/appDefinitions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "appCatalogs",
+      "teamsApps",
+      "{teamsApp-id}",
+      "appDefinitions"
+    ],
+    "Root": "appCatalogs",
+    "Children": 2,
+    "Segment": "appDefinitions"
+  },
+  {
+    "Endpoint": "appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "appCatalogs",
+      "teamsApps",
+      "{teamsApp-id}",
+      "appDefinitions",
+      "$count"
+    ],
+    "Root": "appCatalogs",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/{teamsAppDefinition-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/{teamsAppDefinition-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/{teamsAppDefinition-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "appCatalogs",
+      "teamsApps",
+      "{teamsApp-id}",
+      "appDefinitions",
+      "{teamsAppDefinition-id}"
+    ],
+    "Root": "appCatalogs",
+    "Children": 3,
+    "Segment": "{teamsAppDefinition-id}"
+  },
+  {
+    "Endpoint": "appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/{teamsAppDefinition-id}/bot",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/{teamsAppDefinition-id}/bot",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/{teamsAppDefinition-id}/bot",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "appCatalogs",
+      "teamsApps",
+      "{teamsApp-id}",
+      "appDefinitions",
+      "{teamsAppDefinition-id}",
+      "bot"
+    ],
+    "Root": "appCatalogs",
+    "Children": 0,
+    "Segment": "bot"
+  },
+  {
+    "Endpoint": "appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/{teamsAppDefinition-id}/colorIcon",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/{teamsAppDefinition-id}/colorIcon",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "appCatalogs",
+      "teamsApps",
+      "{teamsApp-id}",
+      "appDefinitions",
+      "{teamsAppDefinition-id}",
+      "colorIcon"
+    ],
+    "Root": "appCatalogs",
+    "Children": 1,
+    "Segment": "colorIcon"
+  },
+  {
+    "Endpoint": "appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/{teamsAppDefinition-id}/colorIcon/hostedContent",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/{teamsAppDefinition-id}/colorIcon/hostedContent",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "appCatalogs",
+      "teamsApps",
+      "{teamsApp-id}",
+      "appDefinitions",
+      "{teamsAppDefinition-id}",
+      "colorIcon",
+      "hostedContent"
+    ],
+    "Root": "appCatalogs",
+    "Children": 1,
+    "Segment": "hostedContent"
+  },
+  {
+    "Endpoint": "appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/{teamsAppDefinition-id}/colorIcon/hostedContent/$value",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/{teamsAppDefinition-id}/colorIcon/hostedContent/$value",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "appCatalogs",
+      "teamsApps",
+      "{teamsApp-id}",
+      "appDefinitions",
+      "{teamsAppDefinition-id}",
+      "colorIcon",
+      "hostedContent",
+      "$value"
+    ],
+    "Root": "appCatalogs",
+    "Children": 0,
+    "Segment": "$value"
+  },
+  {
+    "Endpoint": "appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/{teamsAppDefinition-id}/outlineIcon",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/{teamsAppDefinition-id}/outlineIcon",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "appCatalogs",
+      "teamsApps",
+      "{teamsApp-id}",
+      "appDefinitions",
+      "{teamsAppDefinition-id}",
+      "outlineIcon"
+    ],
+    "Root": "appCatalogs",
+    "Children": 1,
+    "Segment": "outlineIcon"
+  },
+  {
+    "Endpoint": "appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/{teamsAppDefinition-id}/outlineIcon/hostedContent",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/{teamsAppDefinition-id}/outlineIcon/hostedContent",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "appCatalogs",
+      "teamsApps",
+      "{teamsApp-id}",
+      "appDefinitions",
+      "{teamsAppDefinition-id}",
+      "outlineIcon",
+      "hostedContent"
+    ],
+    "Root": "appCatalogs",
+    "Children": 1,
+    "Segment": "hostedContent"
+  },
+  {
+    "Endpoint": "appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/{teamsAppDefinition-id}/outlineIcon/hostedContent/$value",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/{teamsAppDefinition-id}/outlineIcon/hostedContent/$value",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "appCatalogs",
+      "teamsApps",
+      "{teamsApp-id}",
+      "appDefinitions",
+      "{teamsAppDefinition-id}",
+      "outlineIcon",
+      "hostedContent",
+      "$value"
+    ],
+    "Root": "appCatalogs",
+    "Children": 0,
+    "Segment": "$value"
+  }
+]

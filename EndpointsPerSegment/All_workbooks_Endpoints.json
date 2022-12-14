@@ -1,0 +1,1570 @@
+[
+  {
+    "Endpoint": "workbooks",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "workbooks"
+    ],
+    "Root": "workbooks",
+    "Children": 2,
+    "Segment": "workbooks"
+  },
+  {
+    "Endpoint": "workbooks/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "workbooks",
+      "$count"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}"
+    ],
+    "Root": "workbooks",
+    "Children": 27,
+    "Segment": "{driveItem-id}"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/activities",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/activities",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "activities"
+    ],
+    "Root": "workbooks",
+    "Children": 2,
+    "Segment": "activities"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/activities/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/activities/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "activities",
+      "$count"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/activities/{itemActivityOLD-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/activities/{itemActivityOLD-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "activities",
+      "{itemActivityOLD-id}"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "{itemActivityOLD-id}"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/analytics",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/analytics",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/analytics",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "analytics"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "analytics"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/children",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/children",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/children",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "children"
+    ],
+    "Root": "workbooks",
+    "Children": 2,
+    "Segment": "children"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/children/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/children/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/children/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "children",
+      "$count"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/children/{driveItem-id1}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/children/{driveItem-id1}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/children/{driveItem-id1}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "children",
+      "{driveItem-id1}"
+    ],
+    "Root": "workbooks",
+    "Children": 1,
+    "Segment": "{driveItem-id1}"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/children/{driveItem-id1}/content",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/children/{driveItem-id1}/content",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/children/{driveItem-id1}/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "children",
+      "{driveItem-id1}",
+      "content"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/content",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/content",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "content"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/listItem",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/listItem",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/listItem",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "listItem"
+    ],
+    "Root": "workbooks",
+    "Children": 9,
+    "Segment": "listItem"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/listItem/activities",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/listItem/activities",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "listItem",
+      "activities"
+    ],
+    "Root": "workbooks",
+    "Children": 2,
+    "Segment": "activities"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/listItem/activities/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/listItem/activities/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "listItem",
+      "activities",
+      "$count"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/listItem/activities/{itemActivityOLD-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/listItem/activities/{itemActivityOLD-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "listItem",
+      "activities",
+      "{itemActivityOLD-id}"
+    ],
+    "Root": "workbooks",
+    "Children": 2,
+    "Segment": "{itemActivityOLD-id}"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "listItem",
+      "activities",
+      "{itemActivityOLD-id}",
+      "driveItem"
+    ],
+    "Root": "workbooks",
+    "Children": 1,
+    "Segment": "driveItem"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/content",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "listItem",
+      "activities",
+      "{itemActivityOLD-id}",
+      "driveItem",
+      "content"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "listItem",
+      "activities",
+      "{itemActivityOLD-id}",
+      "listItem"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "listItem"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/listItem/analytics",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/listItem/analytics",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/listItem/analytics",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "listItem",
+      "analytics"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "analytics"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/listItem/documentSetVersions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/listItem/documentSetVersions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/listItem/documentSetVersions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "listItem",
+      "documentSetVersions"
+    ],
+    "Root": "workbooks",
+    "Children": 2,
+    "Segment": "documentSetVersions"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/listItem/documentSetVersions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/listItem/documentSetVersions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/listItem/documentSetVersions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "listItem",
+      "documentSetVersions",
+      "$count"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/listItem/documentSetVersions/{documentSetVersion-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/listItem/documentSetVersions/{documentSetVersion-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/listItem/documentSetVersions/{documentSetVersion-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "listItem",
+      "documentSetVersions",
+      "{documentSetVersion-id}"
+    ],
+    "Root": "workbooks",
+    "Children": 1,
+    "Segment": "{documentSetVersion-id}"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/listItem/documentSetVersions/{documentSetVersion-id}/microsoft.graph.restore",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/listItem/documentSetVersions/{documentSetVersion-id}/microsoft.graph.restore",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/listItem/documentSetVersions/{documentSetVersion-id}/microsoft.graph.restore",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "listItem",
+      "documentSetVersions",
+      "{documentSetVersion-id}",
+      "microsoft.graph.restore"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.restore"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/listItem/driveItem",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/listItem/driveItem",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/listItem/driveItem",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "listItem",
+      "driveItem"
+    ],
+    "Root": "workbooks",
+    "Children": 1,
+    "Segment": "driveItem"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/listItem/driveItem/content",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/listItem/driveItem/content",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/listItem/driveItem/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "listItem",
+      "driveItem",
+      "content"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/listItem/fields",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/listItem/fields",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/listItem/fields",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "listItem",
+      "fields"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "fields"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/listItem/microsoft.graph.createLink",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/listItem/microsoft.graph.createLink",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "listItem",
+      "microsoft.graph.createLink"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.createLink"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/listItem/microsoft.graph.getActivitiesByInterval()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/listItem/microsoft.graph.getActivitiesByInterval()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "listItem",
+      "microsoft.graph.getActivitiesByInterval()"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.getActivitiesByInterval()"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "listItem",
+      "microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/listItem/versions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/listItem/versions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/listItem/versions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "listItem",
+      "versions"
+    ],
+    "Root": "workbooks",
+    "Children": 2,
+    "Segment": "versions"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/listItem/versions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/listItem/versions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/listItem/versions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "listItem",
+      "versions",
+      "$count"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/listItem/versions/{listItemVersion-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/listItem/versions/{listItemVersion-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/listItem/versions/{listItemVersion-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "listItem",
+      "versions",
+      "{listItemVersion-id}"
+    ],
+    "Root": "workbooks",
+    "Children": 2,
+    "Segment": "{listItemVersion-id}"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/listItem/versions/{listItemVersion-id}/fields",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/listItem/versions/{listItemVersion-id}/fields",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/listItem/versions/{listItemVersion-id}/fields",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "listItem",
+      "versions",
+      "{listItemVersion-id}",
+      "fields"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "fields"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/listItem/versions/{listItemVersion-id}/microsoft.graph.restoreVersion",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/listItem/versions/{listItemVersion-id}/microsoft.graph.restoreVersion",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/listItem/versions/{listItemVersion-id}/microsoft.graph.restoreVersion",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "listItem",
+      "versions",
+      "{listItemVersion-id}",
+      "microsoft.graph.restoreVersion"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.restoreVersion"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/microsoft.graph.assignSensitivityLabel",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/microsoft.graph.assignSensitivityLabel",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "microsoft.graph.assignSensitivityLabel"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.assignSensitivityLabel"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/microsoft.graph.checkin",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/microsoft.graph.checkin",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/microsoft.graph.checkin",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "microsoft.graph.checkin"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.checkin"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/microsoft.graph.checkout",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/microsoft.graph.checkout",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/microsoft.graph.checkout",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "microsoft.graph.checkout"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.checkout"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/microsoft.graph.copy",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/microsoft.graph.copy",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/microsoft.graph.copy",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "microsoft.graph.copy"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.copy"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/microsoft.graph.createLink",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/microsoft.graph.createLink",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/microsoft.graph.createLink",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "microsoft.graph.createLink"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.createLink"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/microsoft.graph.createUploadSession",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/microsoft.graph.createUploadSession",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/microsoft.graph.createUploadSession",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "microsoft.graph.createUploadSession"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.createUploadSession"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/microsoft.graph.delta()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/microsoft.graph.delta()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/microsoft.graph.delta()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/microsoft.graph.delta(token='{token}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/microsoft.graph.delta(token='{token}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/microsoft.graph.delta(token='{token}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "microsoft.graph.delta(token='{token}')"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta(token='{token}')"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/microsoft.graph.extractSensitivityLabels",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/microsoft.graph.extractSensitivityLabels",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "microsoft.graph.extractSensitivityLabels"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.extractSensitivityLabels"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/microsoft.graph.follow",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/microsoft.graph.follow",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/microsoft.graph.follow",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "microsoft.graph.follow"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.follow"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/microsoft.graph.getActivitiesByInterval()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/microsoft.graph.getActivitiesByInterval()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "microsoft.graph.getActivitiesByInterval()"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.getActivitiesByInterval()"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/microsoft.graph.invite",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/microsoft.graph.invite",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/microsoft.graph.invite",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "microsoft.graph.invite"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.invite"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/microsoft.graph.preview",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/microsoft.graph.preview",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/microsoft.graph.preview",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "microsoft.graph.preview"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.preview"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/microsoft.graph.restore",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/microsoft.graph.restore",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/microsoft.graph.restore",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "microsoft.graph.restore"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.restore"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/microsoft.graph.search(q='{q}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/microsoft.graph.search(q='{q}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/microsoft.graph.search(q='{q}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "microsoft.graph.search(q='{q}')"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.search(q='{q}')"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/microsoft.graph.unfollow",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/microsoft.graph.unfollow",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/microsoft.graph.unfollow",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "microsoft.graph.unfollow"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.unfollow"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/microsoft.graph.validatePermission",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/microsoft.graph.validatePermission",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/microsoft.graph.validatePermission",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "microsoft.graph.validatePermission"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.validatePermission"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/permissions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/permissions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/permissions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "permissions"
+    ],
+    "Root": "workbooks",
+    "Children": 2,
+    "Segment": "permissions"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/permissions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/permissions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/permissions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "permissions",
+      "$count"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/permissions/{permission-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/permissions/{permission-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/permissions/{permission-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "permissions",
+      "{permission-id}"
+    ],
+    "Root": "workbooks",
+    "Children": 2,
+    "Segment": "{permission-id}"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/permissions/{permission-id}/microsoft.graph.grant",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/permissions/{permission-id}/microsoft.graph.grant",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/permissions/{permission-id}/microsoft.graph.grant",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "permissions",
+      "{permission-id}",
+      "microsoft.graph.grant"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.grant"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/permissions/{permission-id}/microsoft.graph.revokeGrants",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/permissions/{permission-id}/microsoft.graph.revokeGrants",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "permissions",
+      "{permission-id}",
+      "microsoft.graph.revokeGrants"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.revokeGrants"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/subscriptions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/subscriptions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/subscriptions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "subscriptions"
+    ],
+    "Root": "workbooks",
+    "Children": 2,
+    "Segment": "subscriptions"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/subscriptions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/subscriptions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/subscriptions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "subscriptions",
+      "$count"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/subscriptions/{subscription-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/subscriptions/{subscription-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/subscriptions/{subscription-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "subscriptions",
+      "{subscription-id}"
+    ],
+    "Root": "workbooks",
+    "Children": 1,
+    "Segment": "{subscription-id}"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/subscriptions/{subscription-id}/microsoft.graph.reauthorize",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/subscriptions/{subscription-id}/microsoft.graph.reauthorize",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/subscriptions/{subscription-id}/microsoft.graph.reauthorize",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "subscriptions",
+      "{subscription-id}",
+      "microsoft.graph.reauthorize"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.reauthorize"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/thumbnails",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/thumbnails",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/thumbnails",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "thumbnails"
+    ],
+    "Root": "workbooks",
+    "Children": 2,
+    "Segment": "thumbnails"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/thumbnails/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/thumbnails/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/thumbnails/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "thumbnails",
+      "$count"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/thumbnails/{thumbnailSet-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/thumbnails/{thumbnailSet-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/thumbnails/{thumbnailSet-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "thumbnails",
+      "{thumbnailSet-id}"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "{thumbnailSet-id}"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/versions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/versions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/versions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "versions"
+    ],
+    "Root": "workbooks",
+    "Children": 2,
+    "Segment": "versions"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/versions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/versions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/versions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "versions",
+      "$count"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/versions/{driveItemVersion-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/versions/{driveItemVersion-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/versions/{driveItemVersion-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "versions",
+      "{driveItemVersion-id}"
+    ],
+    "Root": "workbooks",
+    "Children": 2,
+    "Segment": "{driveItemVersion-id}"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/versions/{driveItemVersion-id}/content",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/versions/{driveItemVersion-id}/content",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/versions/{driveItemVersion-id}/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "versions",
+      "{driveItemVersion-id}",
+      "content"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "workbooks/{driveItem-id}/versions/{driveItemVersion-id}/microsoft.graph.restoreVersion",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/workbooks/{driveItem-id}/versions/{driveItemVersion-id}/microsoft.graph.restoreVersion",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/workbooks/{driveItem-id}/versions/{driveItemVersion-id}/microsoft.graph.restoreVersion",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "workbooks",
+      "{driveItem-id}",
+      "versions",
+      "{driveItemVersion-id}",
+      "microsoft.graph.restoreVersion"
+    ],
+    "Root": "workbooks",
+    "Children": 0,
+    "Segment": "microsoft.graph.restoreVersion"
+  }
+]

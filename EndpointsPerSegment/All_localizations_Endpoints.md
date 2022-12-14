@@ -1,0 +1,8 @@
+| Endpoint | v1.0 | V1.0-Url | v1.0-Methods | beta | Beta-Url | Beta-Methods | Path | Root | Children | Segment |
+| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------|
+| localizations| True| https://graph.microsoft.com/v1.0/localizations| Get Post| False| | | localizations| localizations| 2| localizations|
+| localizations/$count| True| https://graph.microsoft.com/v1.0/localizations/$count| Get| False| | | localizations $count| localizations| 0| $count|
+| localizations/{organizationalBrandingLocalization-id}| True| https://graph.microsoft.com/v1.0/localizations/{organizationalBrandingLocalization-id}| Get Patch Delete| False| | | localizations {organizationalBrandingLocalization-id}| localizations| 3| {organizationalBrandingLocalization-id}|
+| localizations/{organizationalBrandingLocalization-id}/backgroundImage| True| https://graph.microsoft.com/v1.0/localizations/{organizationalBrandingLocalization-id}/backgroundImage| Get Put| False| | | localizations {organizationalBrandingLocalization-id} backgroundImage| localizations| 0| backgroundImage|
+| localizations/{organizationalBrandingLocalization-id}/bannerLogo| True| https://graph.microsoft.com/v1.0/localizations/{organizationalBrandingLocalization-id}/bannerLogo| Get Put| False| | | localizations {organizationalBrandingLocalization-id} bannerLogo| localizations| 0| bannerLogo|
+| localizations/{organizationalBrandingLocalization-id}/squareLogo| True| https://graph.microsoft.com/v1.0/localizations/{organizationalBrandingLocalization-id}/squareLogo| Get Put| False| | | localizations {organizationalBrandingLocalization-id} squareLogo| localizations| 0| squareLogo|

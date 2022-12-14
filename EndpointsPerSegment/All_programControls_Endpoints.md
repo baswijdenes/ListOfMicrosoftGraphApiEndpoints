@@ -1,0 +1,9 @@
+| Endpoint | v1.0 | V1.0-Url | v1.0-Methods | beta | Beta-Url | Beta-Methods | Path | Root | Children | Segment |
+| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------|
+| programControls| False| | | True| https://graph.microsoft.com/beta/programControls| Get Post| programControls| programControls| 2| programControls|
+| programControls/$count| False| | | True| https://graph.microsoft.com/beta/programControls/$count| Get| programControls $count| programControls| 0| $count|
+| programControls/{programControl-id}| False| | | True| https://graph.microsoft.com/beta/programControls/{programControl-id}| Get Patch Delete| programControls {programControl-id}| programControls| 1| {programControl-id}|
+| programControls/{programControl-id}/program| False| | | True| https://graph.microsoft.com/beta/programControls/{programControl-id}/program| Get Patch Delete| programControls {programControl-id} program| programControls| 1| program|
+| programControls/{programControl-id}/program/controls| False| | | True| https://graph.microsoft.com/beta/programControls/{programControl-id}/program/controls| Get Post| programControls {programControl-id} program controls| programControls| 2| controls|
+| programControls/{programControl-id}/program/controls/$count| False| | | True| https://graph.microsoft.com/beta/programControls/{programControl-id}/program/controls/$count| Get| programControls {programControl-id} program controls $count| programControls| 0| $count|
+| programControls/{programControl-id}/program/controls/{programControl-id1}| False| | | True| https://graph.microsoft.com/beta/programControls/{programControl-id}/program/controls/{programControl-id1}| Get Patch Delete| programControls {programControl-id} program controls {programControl-id1}| programControls| 0| {programControl-id1}|

@@ -1,0 +1,529 @@
+[
+  {
+    "Endpoint": "bookingBusinesses",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "bookingBusinesses"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 2,
+    "Segment": "bookingBusinesses"
+  },
+  {
+    "Endpoint": "bookingBusinesses/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "$count"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "bookingBusinesses/{bookingBusiness-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusiness-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "{bookingBusiness-id}"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 9,
+    "Segment": "{bookingBusiness-id}"
+  },
+  {
+    "Endpoint": "bookingBusinesses/{bookingBusiness-id}/appointments",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusiness-id}/appointments",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "{bookingBusiness-id}",
+      "appointments"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 2,
+    "Segment": "appointments"
+  },
+  {
+    "Endpoint": "bookingBusinesses/{bookingBusiness-id}/appointments/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusiness-id}/appointments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "{bookingBusiness-id}",
+      "appointments",
+      "$count"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "bookingBusinesses/{bookingBusiness-id}/appointments/{bookingAppointment-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusiness-id}/appointments/{bookingAppointment-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "{bookingBusiness-id}",
+      "appointments",
+      "{bookingAppointment-id}"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 1,
+    "Segment": "{bookingAppointment-id}"
+  },
+  {
+    "Endpoint": "bookingBusinesses/{bookingBusiness-id}/appointments/{bookingAppointment-id}/microsoft.graph.cancel",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusiness-id}/appointments/{bookingAppointment-id}/microsoft.graph.cancel",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "{bookingBusiness-id}",
+      "appointments",
+      "{bookingAppointment-id}",
+      "microsoft.graph.cancel"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 0,
+    "Segment": "microsoft.graph.cancel"
+  },
+  {
+    "Endpoint": "bookingBusinesses/{bookingBusiness-id}/calendarView",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusiness-id}/calendarView",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "{bookingBusiness-id}",
+      "calendarView"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 2,
+    "Segment": "calendarView"
+  },
+  {
+    "Endpoint": "bookingBusinesses/{bookingBusiness-id}/calendarView/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusiness-id}/calendarView/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "{bookingBusiness-id}",
+      "calendarView",
+      "$count"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "bookingBusinesses/{bookingBusiness-id}/calendarView/{bookingAppointment-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusiness-id}/calendarView/{bookingAppointment-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "{bookingBusiness-id}",
+      "calendarView",
+      "{bookingAppointment-id}"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 1,
+    "Segment": "{bookingAppointment-id}"
+  },
+  {
+    "Endpoint": "bookingBusinesses/{bookingBusiness-id}/calendarView/{bookingAppointment-id}/microsoft.graph.cancel",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusiness-id}/calendarView/{bookingAppointment-id}/microsoft.graph.cancel",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "{bookingBusiness-id}",
+      "calendarView",
+      "{bookingAppointment-id}",
+      "microsoft.graph.cancel"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 0,
+    "Segment": "microsoft.graph.cancel"
+  },
+  {
+    "Endpoint": "bookingBusinesses/{bookingBusiness-id}/customers",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusiness-id}/customers",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "{bookingBusiness-id}",
+      "customers"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 2,
+    "Segment": "customers"
+  },
+  {
+    "Endpoint": "bookingBusinesses/{bookingBusiness-id}/customers/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusiness-id}/customers/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "{bookingBusiness-id}",
+      "customers",
+      "$count"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "bookingBusinesses/{bookingBusiness-id}/customers/{bookingCustomer-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusiness-id}/customers/{bookingCustomer-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "{bookingBusiness-id}",
+      "customers",
+      "{bookingCustomer-id}"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 0,
+    "Segment": "{bookingCustomer-id}"
+  },
+  {
+    "Endpoint": "bookingBusinesses/{bookingBusiness-id}/customQuestions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusiness-id}/customQuestions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "{bookingBusiness-id}",
+      "customQuestions"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 2,
+    "Segment": "customQuestions"
+  },
+  {
+    "Endpoint": "bookingBusinesses/{bookingBusiness-id}/customQuestions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusiness-id}/customQuestions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "{bookingBusiness-id}",
+      "customQuestions",
+      "$count"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "bookingBusinesses/{bookingBusiness-id}/customQuestions/{bookingCustomQuestion-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusiness-id}/customQuestions/{bookingCustomQuestion-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "{bookingBusiness-id}",
+      "customQuestions",
+      "{bookingCustomQuestion-id}"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 0,
+    "Segment": "{bookingCustomQuestion-id}"
+  },
+  {
+    "Endpoint": "bookingBusinesses/{bookingBusiness-id}/microsoft.graph.getStaffAvailability",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusiness-id}/microsoft.graph.getStaffAvailability",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "{bookingBusiness-id}",
+      "microsoft.graph.getStaffAvailability"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 0,
+    "Segment": "microsoft.graph.getStaffAvailability"
+  },
+  {
+    "Endpoint": "bookingBusinesses/{bookingBusiness-id}/microsoft.graph.publish",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusiness-id}/microsoft.graph.publish",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "{bookingBusiness-id}",
+      "microsoft.graph.publish"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 0,
+    "Segment": "microsoft.graph.publish"
+  },
+  {
+    "Endpoint": "bookingBusinesses/{bookingBusiness-id}/microsoft.graph.unpublish",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusiness-id}/microsoft.graph.unpublish",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "{bookingBusiness-id}",
+      "microsoft.graph.unpublish"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 0,
+    "Segment": "microsoft.graph.unpublish"
+  },
+  {
+    "Endpoint": "bookingBusinesses/{bookingBusiness-id}/services",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusiness-id}/services",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "{bookingBusiness-id}",
+      "services"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 2,
+    "Segment": "services"
+  },
+  {
+    "Endpoint": "bookingBusinesses/{bookingBusiness-id}/services/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusiness-id}/services/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "{bookingBusiness-id}",
+      "services",
+      "$count"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "bookingBusinesses/{bookingBusiness-id}/services/{bookingService-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusiness-id}/services/{bookingService-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "{bookingBusiness-id}",
+      "services",
+      "{bookingService-id}"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 0,
+    "Segment": "{bookingService-id}"
+  },
+  {
+    "Endpoint": "bookingBusinesses/{bookingBusiness-id}/staffMembers",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusiness-id}/staffMembers",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "{bookingBusiness-id}",
+      "staffMembers"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 2,
+    "Segment": "staffMembers"
+  },
+  {
+    "Endpoint": "bookingBusinesses/{bookingBusiness-id}/staffMembers/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusiness-id}/staffMembers/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "{bookingBusiness-id}",
+      "staffMembers",
+      "$count"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "bookingBusinesses/{bookingBusiness-id}/staffMembers/{bookingStaffMember-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusiness-id}/staffMembers/{bookingStaffMember-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "bookingBusinesses",
+      "{bookingBusiness-id}",
+      "staffMembers",
+      "{bookingStaffMember-id}"
+    ],
+    "Root": "bookingBusinesses",
+    "Children": 0,
+    "Segment": "{bookingStaffMember-id}"
+  }
+]

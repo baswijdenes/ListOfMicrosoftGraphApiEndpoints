@@ -1,0 +1,820 @@
+[
+  {
+    "Endpoint": "administrativeUnits",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "administrativeUnits"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 6,
+    "Segment": "administrativeUnits"
+  },
+  {
+    "Endpoint": "administrativeUnits/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "$count"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 8,
+    "Segment": "{administrativeUnit-id}"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/extensions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/extensions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "extensions"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 2,
+    "Segment": "extensions"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/extensions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/extensions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "extensions",
+      "$count"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/extensions/{extension-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/extensions/{extension-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "extensions",
+      "{extension-id}"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "{extension-id}"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 9,
+    "Segment": "members"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members",
+      "$count"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members",
+      "$ref"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/{directoryObject-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members",
+      "{directoryObject-id}"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 7,
+    "Segment": "{directoryObject-id}"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/{directoryObject-id}/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/{directoryObject-id}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members",
+      "{directoryObject-id}",
+      "$ref"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/{directoryObject-id}/microsoft.graph.application",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/{directoryObject-id}/microsoft.graph.application",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members",
+      "{directoryObject-id}",
+      "microsoft.graph.application"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "microsoft.graph.application"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/{directoryObject-id}/microsoft.graph.device",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/{directoryObject-id}/microsoft.graph.device",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members",
+      "{directoryObject-id}",
+      "microsoft.graph.device"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "microsoft.graph.device"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/{directoryObject-id}/microsoft.graph.group",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/{directoryObject-id}/microsoft.graph.group",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members",
+      "{directoryObject-id}",
+      "microsoft.graph.group"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "microsoft.graph.group"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/{directoryObject-id}/microsoft.graph.orgContact",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/{directoryObject-id}/microsoft.graph.orgContact",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members",
+      "{directoryObject-id}",
+      "microsoft.graph.orgContact"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "microsoft.graph.orgContact"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/{directoryObject-id}/microsoft.graph.servicePrincipal",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/{directoryObject-id}/microsoft.graph.servicePrincipal",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members",
+      "{directoryObject-id}",
+      "microsoft.graph.servicePrincipal"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "microsoft.graph.servicePrincipal"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/{directoryObject-id}/microsoft.graph.user",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/{directoryObject-id}/microsoft.graph.user",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members",
+      "{directoryObject-id}",
+      "microsoft.graph.user"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "microsoft.graph.user"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.application",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.application",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members",
+      "microsoft.graph.application"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 1,
+    "Segment": "microsoft.graph.application"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.application/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.application/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members",
+      "microsoft.graph.application",
+      "$count"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.device",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.device",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members",
+      "microsoft.graph.device"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 1,
+    "Segment": "microsoft.graph.device"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.device/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.device/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members",
+      "microsoft.graph.device",
+      "$count"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.group",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.group",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members",
+      "microsoft.graph.group"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 1,
+    "Segment": "microsoft.graph.group"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.group/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.group/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members",
+      "microsoft.graph.group",
+      "$count"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.orgContact",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.orgContact",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members",
+      "microsoft.graph.orgContact"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 1,
+    "Segment": "microsoft.graph.orgContact"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.orgContact/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.orgContact/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members",
+      "microsoft.graph.orgContact",
+      "$count"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.servicePrincipal",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.servicePrincipal",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members",
+      "microsoft.graph.servicePrincipal"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 1,
+    "Segment": "microsoft.graph.servicePrincipal"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.servicePrincipal/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.servicePrincipal/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members",
+      "microsoft.graph.servicePrincipal",
+      "$count"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.user",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.user",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members",
+      "microsoft.graph.user"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 1,
+    "Segment": "microsoft.graph.user"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.user/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.user/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members",
+      "microsoft.graph.user",
+      "$count"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/microsoft.graph.checkMemberGroups",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/microsoft.graph.checkMemberGroups",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "microsoft.graph.checkMemberGroups"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "microsoft.graph.checkMemberGroups"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/microsoft.graph.checkMemberObjects",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/microsoft.graph.checkMemberObjects",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "microsoft.graph.checkMemberObjects"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "microsoft.graph.checkMemberObjects"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/microsoft.graph.getMemberGroups",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/microsoft.graph.getMemberGroups",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "microsoft.graph.getMemberGroups"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "microsoft.graph.getMemberGroups"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/microsoft.graph.getMemberObjects",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/microsoft.graph.getMemberObjects",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "microsoft.graph.getMemberObjects"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "microsoft.graph.getMemberObjects"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/microsoft.graph.restore",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/microsoft.graph.restore",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "microsoft.graph.restore"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "microsoft.graph.restore"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/scopedRoleMembers",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/scopedRoleMembers",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "scopedRoleMembers"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 2,
+    "Segment": "scopedRoleMembers"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/scopedRoleMembers/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/scopedRoleMembers/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "scopedRoleMembers",
+      "$count"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/scopedRoleMembers/{scopedRoleMembership-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/scopedRoleMembers/{scopedRoleMembership-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "scopedRoleMembers",
+      "{scopedRoleMembership-id}"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "{scopedRoleMembership-id}"
+  },
+  {
+    "Endpoint": "administrativeUnits/microsoft.graph.delta()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/microsoft.graph.delta()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "administrativeUnits/microsoft.graph.getByIds",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/microsoft.graph.getByIds",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "microsoft.graph.getByIds"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "microsoft.graph.getByIds"
+  },
+  {
+    "Endpoint": "administrativeUnits/microsoft.graph.getUserOwnedObjects",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/microsoft.graph.getUserOwnedObjects",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "microsoft.graph.getUserOwnedObjects"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "microsoft.graph.getUserOwnedObjects"
+  },
+  {
+    "Endpoint": "administrativeUnits/microsoft.graph.validateProperties",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/microsoft.graph.validateProperties",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "administrativeUnits",
+      "microsoft.graph.validateProperties"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "microsoft.graph.validateProperties"
+  }
+]

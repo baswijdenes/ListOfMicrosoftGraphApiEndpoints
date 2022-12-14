@@ -1,0 +1,262 @@
+[
+  {
+    "Endpoint": "privilegedApproval",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedApproval",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "privilegedApproval"
+    ],
+    "Root": "privilegedApproval",
+    "Children": 3,
+    "Segment": "privilegedApproval"
+  },
+  {
+    "Endpoint": "privilegedApproval/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedApproval/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "privilegedApproval",
+      "$count"
+    ],
+    "Root": "privilegedApproval",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "privilegedApproval/{privilegedApproval-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedApproval/{privilegedApproval-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "privilegedApproval",
+      "{privilegedApproval-id}"
+    ],
+    "Root": "privilegedApproval",
+    "Children": 2,
+    "Segment": "{privilegedApproval-id}"
+  },
+  {
+    "Endpoint": "privilegedApproval/{privilegedApproval-id}/request",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedApproval/{privilegedApproval-id}/request",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "privilegedApproval",
+      "{privilegedApproval-id}",
+      "request"
+    ],
+    "Root": "privilegedApproval",
+    "Children": 0,
+    "Segment": "request"
+  },
+  {
+    "Endpoint": "privilegedApproval/{privilegedApproval-id}/roleInfo",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedApproval/{privilegedApproval-id}/roleInfo",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "privilegedApproval",
+      "{privilegedApproval-id}",
+      "roleInfo"
+    ],
+    "Root": "privilegedApproval",
+    "Children": 5,
+    "Segment": "roleInfo"
+  },
+  {
+    "Endpoint": "privilegedApproval/{privilegedApproval-id}/roleInfo/assignments",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedApproval/{privilegedApproval-id}/roleInfo/assignments",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "privilegedApproval",
+      "{privilegedApproval-id}",
+      "roleInfo",
+      "assignments"
+    ],
+    "Root": "privilegedApproval",
+    "Children": 2,
+    "Segment": "assignments"
+  },
+  {
+    "Endpoint": "privilegedApproval/{privilegedApproval-id}/roleInfo/assignments/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedApproval/{privilegedApproval-id}/roleInfo/assignments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "privilegedApproval",
+      "{privilegedApproval-id}",
+      "roleInfo",
+      "assignments",
+      "$count"
+    ],
+    "Root": "privilegedApproval",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "privilegedApproval/{privilegedApproval-id}/roleInfo/assignments/{privilegedRoleAssignment-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedApproval/{privilegedApproval-id}/roleInfo/assignments/{privilegedRoleAssignment-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "privilegedApproval",
+      "{privilegedApproval-id}",
+      "roleInfo",
+      "assignments",
+      "{privilegedRoleAssignment-id}"
+    ],
+    "Root": "privilegedApproval",
+    "Children": 0,
+    "Segment": "{privilegedRoleAssignment-id}"
+  },
+  {
+    "Endpoint": "privilegedApproval/{privilegedApproval-id}/roleInfo/microsoft.graph.selfActivate",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedApproval/{privilegedApproval-id}/roleInfo/microsoft.graph.selfActivate",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "privilegedApproval",
+      "{privilegedApproval-id}",
+      "roleInfo",
+      "microsoft.graph.selfActivate"
+    ],
+    "Root": "privilegedApproval",
+    "Children": 0,
+    "Segment": "microsoft.graph.selfActivate"
+  },
+  {
+    "Endpoint": "privilegedApproval/{privilegedApproval-id}/roleInfo/microsoft.graph.selfDeactivate",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedApproval/{privilegedApproval-id}/roleInfo/microsoft.graph.selfDeactivate",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "privilegedApproval",
+      "{privilegedApproval-id}",
+      "roleInfo",
+      "microsoft.graph.selfDeactivate"
+    ],
+    "Root": "privilegedApproval",
+    "Children": 0,
+    "Segment": "microsoft.graph.selfDeactivate"
+  },
+  {
+    "Endpoint": "privilegedApproval/{privilegedApproval-id}/roleInfo/settings",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedApproval/{privilegedApproval-id}/roleInfo/settings",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "privilegedApproval",
+      "{privilegedApproval-id}",
+      "roleInfo",
+      "settings"
+    ],
+    "Root": "privilegedApproval",
+    "Children": 0,
+    "Segment": "settings"
+  },
+  {
+    "Endpoint": "privilegedApproval/{privilegedApproval-id}/roleInfo/summary",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedApproval/{privilegedApproval-id}/roleInfo/summary",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "privilegedApproval",
+      "{privilegedApproval-id}",
+      "roleInfo",
+      "summary"
+    ],
+    "Root": "privilegedApproval",
+    "Children": 0,
+    "Segment": "summary"
+  },
+  {
+    "Endpoint": "privilegedApproval/microsoft.graph.myRequests()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedApproval/microsoft.graph.myRequests()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "privilegedApproval",
+      "microsoft.graph.myRequests()"
+    ],
+    "Root": "privilegedApproval",
+    "Children": 0,
+    "Segment": "microsoft.graph.myRequests()"
+  }
+]

@@ -1,0 +1,11 @@
+| Endpoint | v1.0 | V1.0-Url | v1.0-Methods | beta | Beta-Url | Beta-Methods | Path | Root | Children | Segment |
+| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------|
+| monitoring| False| | | True| https://graph.microsoft.com/beta/monitoring| Get Patch| monitoring| monitoring| 2| monitoring|
+| monitoring/alertRecords| False| | | True| https://graph.microsoft.com/beta/monitoring/alertRecords| Get Post| monitoring alertRecords| monitoring| 3| alertRecords|
+| monitoring/alertRecords/$count| False| | | True| https://graph.microsoft.com/beta/monitoring/alertRecords/$count| Get| monitoring alertRecords $count| monitoring| 0| $count|
+| monitoring/alertRecords/{alertRecord-id}| False| | | True| https://graph.microsoft.com/beta/monitoring/alertRecords/{alertRecord-id}| Get Patch Delete| monitoring alertRecords {alertRecord-id}| monitoring| 1| {alertRecord-id}|
+| monitoring/alertRecords/{alertRecord-id}/microsoft.graph.deviceManagement.setPortalNotificationAsSent| False| | | True| https://graph.microsoft.com/beta/monitoring/alertRecords/{alertRecord-id}/microsoft.graph.deviceManagement.setPortalNotificationAsSent| Post| monitoring alertRecords {alertRecord-id} microsoft.graph.deviceManagement.setPortalNotificationAsSent| monitoring| 0| microsoft.graph.deviceManagement.setPortalNotificationAsSent|
+| monitoring/alertRecords/microsoft.graph.deviceManagement.getPortalNotifications()| False| | | True| https://graph.microsoft.com/beta/monitoring/alertRecords/microsoft.graph.deviceManagement.getPortalNotifications()| Get| monitoring alertRecords microsoft.graph.deviceManagement.getPortalNotifications()| monitoring| 0| microsoft.graph.deviceManagement.getPortalNotifications()|
+| monitoring/alertRules| False| | | True| https://graph.microsoft.com/beta/monitoring/alertRules| Get Post| monitoring alertRules| monitoring| 2| alertRules|
+| monitoring/alertRules/$count| False| | | True| https://graph.microsoft.com/beta/monitoring/alertRules/$count| Get| monitoring alertRules $count| monitoring| 0| $count|
+| monitoring/alertRules/{alertRule-id}| False| | | True| https://graph.microsoft.com/beta/monitoring/alertRules/{alertRule-id}| Get Patch Delete| monitoring alertRules {alertRule-id}| monitoring| 0| {alertRule-id}|

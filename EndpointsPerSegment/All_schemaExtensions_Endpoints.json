@@ -1,0 +1,67 @@
+[
+  {
+    "Endpoint": "schemaExtensions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/schemaExtensions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/schemaExtensions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "schemaExtensions"
+    ],
+    "Root": "schemaExtensions",
+    "Children": 2,
+    "Segment": "schemaExtensions"
+  },
+  {
+    "Endpoint": "schemaExtensions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/schemaExtensions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/schemaExtensions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "schemaExtensions",
+      "$count"
+    ],
+    "Root": "schemaExtensions",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "schemaExtensions/{schemaExtension-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/schemaExtensions/{schemaExtension-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/schemaExtensions/{schemaExtension-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "schemaExtensions",
+      "{schemaExtension-id}"
+    ],
+    "Root": "schemaExtensions",
+    "Children": 0,
+    "Segment": "{schemaExtension-id}"
+  }
+]

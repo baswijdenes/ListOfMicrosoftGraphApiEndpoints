@@ -1,0 +1,256 @@
+[
+  {
+    "Endpoint": "threatSubmission",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/threatSubmission",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Path": [
+      "threatSubmission"
+    ],
+    "Root": "threatSubmission",
+    "Children": 4,
+    "Segment": "threatSubmission"
+  },
+  {
+    "Endpoint": "threatSubmission/emailThreats",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/threatSubmission/emailThreats",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "threatSubmission",
+      "emailThreats"
+    ],
+    "Root": "threatSubmission",
+    "Children": 2,
+    "Segment": "emailThreats"
+  },
+  {
+    "Endpoint": "threatSubmission/emailThreats/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/threatSubmission/emailThreats/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "threatSubmission",
+      "emailThreats",
+      "$count"
+    ],
+    "Root": "threatSubmission",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "threatSubmission/emailThreats/{emailThreatSubmission-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/threatSubmission/emailThreats/{emailThreatSubmission-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "threatSubmission",
+      "emailThreats",
+      "{emailThreatSubmission-id}"
+    ],
+    "Root": "threatSubmission",
+    "Children": 0,
+    "Segment": "{emailThreatSubmission-id}"
+  },
+  {
+    "Endpoint": "threatSubmission/emailThreatSubmissionPolicies",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/threatSubmission/emailThreatSubmissionPolicies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "threatSubmission",
+      "emailThreatSubmissionPolicies"
+    ],
+    "Root": "threatSubmission",
+    "Children": 2,
+    "Segment": "emailThreatSubmissionPolicies"
+  },
+  {
+    "Endpoint": "threatSubmission/emailThreatSubmissionPolicies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/threatSubmission/emailThreatSubmissionPolicies/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "threatSubmission",
+      "emailThreatSubmissionPolicies",
+      "$count"
+    ],
+    "Root": "threatSubmission",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "threatSubmission/emailThreatSubmissionPolicies/{emailThreatSubmissionPolicy-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/threatSubmission/emailThreatSubmissionPolicies/{emailThreatSubmissionPolicy-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "threatSubmission",
+      "emailThreatSubmissionPolicies",
+      "{emailThreatSubmissionPolicy-id}"
+    ],
+    "Root": "threatSubmission",
+    "Children": 0,
+    "Segment": "{emailThreatSubmissionPolicy-id}"
+  },
+  {
+    "Endpoint": "threatSubmission/fileThreats",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/threatSubmission/fileThreats",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "threatSubmission",
+      "fileThreats"
+    ],
+    "Root": "threatSubmission",
+    "Children": 2,
+    "Segment": "fileThreats"
+  },
+  {
+    "Endpoint": "threatSubmission/fileThreats/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/threatSubmission/fileThreats/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "threatSubmission",
+      "fileThreats",
+      "$count"
+    ],
+    "Root": "threatSubmission",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "threatSubmission/fileThreats/{fileThreatSubmission-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/threatSubmission/fileThreats/{fileThreatSubmission-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "threatSubmission",
+      "fileThreats",
+      "{fileThreatSubmission-id}"
+    ],
+    "Root": "threatSubmission",
+    "Children": 0,
+    "Segment": "{fileThreatSubmission-id}"
+  },
+  {
+    "Endpoint": "threatSubmission/urlThreats",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/threatSubmission/urlThreats",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "threatSubmission",
+      "urlThreats"
+    ],
+    "Root": "threatSubmission",
+    "Children": 2,
+    "Segment": "urlThreats"
+  },
+  {
+    "Endpoint": "threatSubmission/urlThreats/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/threatSubmission/urlThreats/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "threatSubmission",
+      "urlThreats",
+      "$count"
+    ],
+    "Root": "threatSubmission",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "threatSubmission/urlThreats/{urlThreatSubmission-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/threatSubmission/urlThreats/{urlThreatSubmission-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "threatSubmission",
+      "urlThreats",
+      "{urlThreatSubmission-id}"
+    ],
+    "Root": "threatSubmission",
+    "Children": 0,
+    "Segment": "{urlThreatSubmission-id}"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "Endpoint": "filterOperators",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/filterOperators",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "filterOperators"
+    ],
+    "Root": "filterOperators",
+    "Children": 2,
+    "Segment": "filterOperators"
+  },
+  {
+    "Endpoint": "filterOperators/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/filterOperators/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "filterOperators",
+      "$count"
+    ],
+    "Root": "filterOperators",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "filterOperators/{filterOperatorSchema-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/filterOperators/{filterOperatorSchema-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "filterOperators",
+      "{filterOperatorSchema-id}"
+    ],
+    "Root": "filterOperators",
+    "Children": 0,
+    "Segment": "{filterOperatorSchema-id}"
+  }
+]

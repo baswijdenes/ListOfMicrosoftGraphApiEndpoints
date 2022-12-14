@@ -1,0 +1,4956 @@
+[
+  {
+    "Endpoint": "deviceAppManagement",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Path": [
+      "deviceAppManagement"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 27,
+    "Segment": "deviceAppManagement"
+  },
+  {
+    "Endpoint": "deviceAppManagement/androidManagedAppProtections",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/androidManagedAppProtections",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/androidManagedAppProtections",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "androidManagedAppProtections"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 3,
+    "Segment": "androidManagedAppProtections"
+  },
+  {
+    "Endpoint": "deviceAppManagement/androidManagedAppProtections/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/androidManagedAppProtections/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/androidManagedAppProtections/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "androidManagedAppProtections",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/androidManagedAppProtections/{androidManagedAppProtection-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/androidManagedAppProtections/{androidManagedAppProtection-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/androidManagedAppProtections/{androidManagedAppProtection-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "androidManagedAppProtections",
+      "{androidManagedAppProtection-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "{androidManagedAppProtection-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/androidManagedAppProtections/{androidManagedAppProtection-id}/apps",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/androidManagedAppProtections/{androidManagedAppProtection-id}/apps",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/androidManagedAppProtections/{androidManagedAppProtection-id}/apps",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "androidManagedAppProtections",
+      "{androidManagedAppProtection-id}",
+      "apps"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "apps"
+  },
+  {
+    "Endpoint": "deviceAppManagement/androidManagedAppProtections/{androidManagedAppProtection-id}/apps/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/androidManagedAppProtections/{androidManagedAppProtection-id}/apps/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/androidManagedAppProtections/{androidManagedAppProtection-id}/apps/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "androidManagedAppProtections",
+      "{androidManagedAppProtection-id}",
+      "apps",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/androidManagedAppProtections/{androidManagedAppProtection-id}/apps/{managedMobileApp-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/androidManagedAppProtections/{androidManagedAppProtection-id}/apps/{managedMobileApp-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/androidManagedAppProtections/{androidManagedAppProtection-id}/apps/{managedMobileApp-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "androidManagedAppProtections",
+      "{androidManagedAppProtection-id}",
+      "apps",
+      "{managedMobileApp-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{managedMobileApp-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/androidManagedAppProtections/{androidManagedAppProtection-id}/deploymentSummary",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/androidManagedAppProtections/{androidManagedAppProtection-id}/deploymentSummary",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/androidManagedAppProtections/{androidManagedAppProtection-id}/deploymentSummary",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "androidManagedAppProtections",
+      "{androidManagedAppProtection-id}",
+      "deploymentSummary"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "deploymentSummary"
+  },
+  {
+    "Endpoint": "deviceAppManagement/androidManagedAppProtections/microsoft.graph.hasPayloadLinks",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/androidManagedAppProtections/microsoft.graph.hasPayloadLinks",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "androidManagedAppProtections",
+      "microsoft.graph.hasPayloadLinks"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.hasPayloadLinks"
+  },
+  {
+    "Endpoint": "deviceAppManagement/defaultManagedAppProtections",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/defaultManagedAppProtections",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/defaultManagedAppProtections",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "defaultManagedAppProtections"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "defaultManagedAppProtections"
+  },
+  {
+    "Endpoint": "deviceAppManagement/defaultManagedAppProtections/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/defaultManagedAppProtections/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/defaultManagedAppProtections/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "defaultManagedAppProtections",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/defaultManagedAppProtections/{defaultManagedAppProtection-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/defaultManagedAppProtections/{defaultManagedAppProtection-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/defaultManagedAppProtections/{defaultManagedAppProtection-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "defaultManagedAppProtections",
+      "{defaultManagedAppProtection-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "{defaultManagedAppProtection-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/defaultManagedAppProtections/{defaultManagedAppProtection-id}/apps",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/defaultManagedAppProtections/{defaultManagedAppProtection-id}/apps",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/defaultManagedAppProtections/{defaultManagedAppProtection-id}/apps",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "defaultManagedAppProtections",
+      "{defaultManagedAppProtection-id}",
+      "apps"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "apps"
+  },
+  {
+    "Endpoint": "deviceAppManagement/defaultManagedAppProtections/{defaultManagedAppProtection-id}/apps/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/defaultManagedAppProtections/{defaultManagedAppProtection-id}/apps/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/defaultManagedAppProtections/{defaultManagedAppProtection-id}/apps/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "defaultManagedAppProtections",
+      "{defaultManagedAppProtection-id}",
+      "apps",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/defaultManagedAppProtections/{defaultManagedAppProtection-id}/apps/{managedMobileApp-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/defaultManagedAppProtections/{defaultManagedAppProtection-id}/apps/{managedMobileApp-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/defaultManagedAppProtections/{defaultManagedAppProtection-id}/apps/{managedMobileApp-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "defaultManagedAppProtections",
+      "{defaultManagedAppProtection-id}",
+      "apps",
+      "{managedMobileApp-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{managedMobileApp-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/defaultManagedAppProtections/{defaultManagedAppProtection-id}/deploymentSummary",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/defaultManagedAppProtections/{defaultManagedAppProtection-id}/deploymentSummary",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/defaultManagedAppProtections/{defaultManagedAppProtection-id}/deploymentSummary",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "defaultManagedAppProtections",
+      "{defaultManagedAppProtection-id}",
+      "deploymentSummary"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "deploymentSummary"
+  },
+  {
+    "Endpoint": "deviceAppManagement/deviceAppManagementTasks",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/deviceAppManagementTasks",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "deviceAppManagementTasks"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "deviceAppManagementTasks"
+  },
+  {
+    "Endpoint": "deviceAppManagement/deviceAppManagementTasks/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/deviceAppManagementTasks/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "deviceAppManagementTasks",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/deviceAppManagementTasks/{deviceAppManagementTask-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/deviceAppManagementTasks/{deviceAppManagementTask-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "deviceAppManagementTasks",
+      "{deviceAppManagementTask-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 1,
+    "Segment": "{deviceAppManagementTask-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/deviceAppManagementTasks/{deviceAppManagementTask-id}/microsoft.graph.updateStatus",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/deviceAppManagementTasks/{deviceAppManagementTask-id}/microsoft.graph.updateStatus",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "deviceAppManagementTasks",
+      "{deviceAppManagementTask-id}",
+      "microsoft.graph.updateStatus"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.updateStatus"
+  },
+  {
+    "Endpoint": "deviceAppManagement/enterpriseCodeSigningCertificates",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/enterpriseCodeSigningCertificates",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "enterpriseCodeSigningCertificates"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "enterpriseCodeSigningCertificates"
+  },
+  {
+    "Endpoint": "deviceAppManagement/enterpriseCodeSigningCertificates/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/enterpriseCodeSigningCertificates/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "enterpriseCodeSigningCertificates",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/enterpriseCodeSigningCertificates/{enterpriseCodeSigningCertificate-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/enterpriseCodeSigningCertificates/{enterpriseCodeSigningCertificate-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "enterpriseCodeSigningCertificates",
+      "{enterpriseCodeSigningCertificate-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{enterpriseCodeSigningCertificate-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosLobAppProvisioningConfigurations",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosLobAppProvisioningConfigurations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosLobAppProvisioningConfigurations"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 3,
+    "Segment": "iosLobAppProvisioningConfigurations"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosLobAppProvisioningConfigurations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosLobAppProvisioningConfigurations/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosLobAppProvisioningConfigurations",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosLobAppProvisioningConfigurations",
+      "{iosLobAppProvisioningConfiguration-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 5,
+    "Segment": "{iosLobAppProvisioningConfiguration-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/assignments",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/assignments",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosLobAppProvisioningConfigurations",
+      "{iosLobAppProvisioningConfiguration-id}",
+      "assignments"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "assignments"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/assignments/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/assignments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosLobAppProvisioningConfigurations",
+      "{iosLobAppProvisioningConfiguration-id}",
+      "assignments",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/assignments/{iosLobAppProvisioningConfigurationAssignment-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/assignments/{iosLobAppProvisioningConfigurationAssignment-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosLobAppProvisioningConfigurations",
+      "{iosLobAppProvisioningConfiguration-id}",
+      "assignments",
+      "{iosLobAppProvisioningConfigurationAssignment-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{iosLobAppProvisioningConfigurationAssignment-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/deviceStatuses",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/deviceStatuses",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosLobAppProvisioningConfigurations",
+      "{iosLobAppProvisioningConfiguration-id}",
+      "deviceStatuses"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "deviceStatuses"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/deviceStatuses/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/deviceStatuses/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosLobAppProvisioningConfigurations",
+      "{iosLobAppProvisioningConfiguration-id}",
+      "deviceStatuses",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/deviceStatuses/{managedDeviceMobileAppConfigurationDeviceStatus-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/deviceStatuses/{managedDeviceMobileAppConfigurationDeviceStatus-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosLobAppProvisioningConfigurations",
+      "{iosLobAppProvisioningConfiguration-id}",
+      "deviceStatuses",
+      "{managedDeviceMobileAppConfigurationDeviceStatus-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{managedDeviceMobileAppConfigurationDeviceStatus-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/groupAssignments",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/groupAssignments",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosLobAppProvisioningConfigurations",
+      "{iosLobAppProvisioningConfiguration-id}",
+      "groupAssignments"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "groupAssignments"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/groupAssignments/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/groupAssignments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosLobAppProvisioningConfigurations",
+      "{iosLobAppProvisioningConfiguration-id}",
+      "groupAssignments",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/groupAssignments/{mobileAppProvisioningConfigGroupAssignment-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/groupAssignments/{mobileAppProvisioningConfigGroupAssignment-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosLobAppProvisioningConfigurations",
+      "{iosLobAppProvisioningConfiguration-id}",
+      "groupAssignments",
+      "{mobileAppProvisioningConfigGroupAssignment-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{mobileAppProvisioningConfigGroupAssignment-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/microsoft.graph.assign",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/microsoft.graph.assign",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosLobAppProvisioningConfigurations",
+      "{iosLobAppProvisioningConfiguration-id}",
+      "microsoft.graph.assign"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.assign"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/userStatuses",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/userStatuses",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosLobAppProvisioningConfigurations",
+      "{iosLobAppProvisioningConfiguration-id}",
+      "userStatuses"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "userStatuses"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/userStatuses/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/userStatuses/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosLobAppProvisioningConfigurations",
+      "{iosLobAppProvisioningConfiguration-id}",
+      "userStatuses",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/userStatuses/{managedDeviceMobileAppConfigurationUserStatus-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfiguration-id}/userStatuses/{managedDeviceMobileAppConfigurationUserStatus-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosLobAppProvisioningConfigurations",
+      "{iosLobAppProvisioningConfiguration-id}",
+      "userStatuses",
+      "{managedDeviceMobileAppConfigurationUserStatus-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{managedDeviceMobileAppConfigurationUserStatus-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosLobAppProvisioningConfigurations/microsoft.graph.hasPayloadLinks",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosLobAppProvisioningConfigurations/microsoft.graph.hasPayloadLinks",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosLobAppProvisioningConfigurations",
+      "microsoft.graph.hasPayloadLinks"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.hasPayloadLinks"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosManagedAppProtections",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/iosManagedAppProtections",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosManagedAppProtections",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosManagedAppProtections"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 3,
+    "Segment": "iosManagedAppProtections"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosManagedAppProtections/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/iosManagedAppProtections/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosManagedAppProtections/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosManagedAppProtections",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtection-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtection-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtection-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosManagedAppProtections",
+      "{iosManagedAppProtection-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "{iosManagedAppProtection-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtection-id}/apps",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtection-id}/apps",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtection-id}/apps",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosManagedAppProtections",
+      "{iosManagedAppProtection-id}",
+      "apps"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "apps"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtection-id}/apps/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtection-id}/apps/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtection-id}/apps/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosManagedAppProtections",
+      "{iosManagedAppProtection-id}",
+      "apps",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtection-id}/apps/{managedMobileApp-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtection-id}/apps/{managedMobileApp-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtection-id}/apps/{managedMobileApp-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosManagedAppProtections",
+      "{iosManagedAppProtection-id}",
+      "apps",
+      "{managedMobileApp-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{managedMobileApp-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtection-id}/deploymentSummary",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtection-id}/deploymentSummary",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtection-id}/deploymentSummary",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosManagedAppProtections",
+      "{iosManagedAppProtection-id}",
+      "deploymentSummary"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "deploymentSummary"
+  },
+  {
+    "Endpoint": "deviceAppManagement/iosManagedAppProtections/microsoft.graph.hasPayloadLinks",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/iosManagedAppProtections/microsoft.graph.hasPayloadLinks",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "iosManagedAppProtections",
+      "microsoft.graph.hasPayloadLinks"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.hasPayloadLinks"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedAppPolicies",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedAppPolicies",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedAppPolicies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedAppPolicies"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "managedAppPolicies"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedAppPolicies/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedAppPolicies/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedAppPolicies/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedAppPolicies",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedAppPolicies/{managedAppPolicy-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedAppPolicies/{managedAppPolicy-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedAppPolicies/{managedAppPolicy-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedAppPolicies",
+      "{managedAppPolicy-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 1,
+    "Segment": "{managedAppPolicy-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedAppPolicies/{managedAppPolicy-id}/microsoft.graph.targetApps",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedAppPolicies/{managedAppPolicy-id}/microsoft.graph.targetApps",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedAppPolicies/{managedAppPolicy-id}/microsoft.graph.targetApps",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedAppPolicies",
+      "{managedAppPolicy-id}",
+      "microsoft.graph.targetApps"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.targetApps"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedAppRegistrations",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedAppRegistrations",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedAppRegistrations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedAppRegistrations"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 3,
+    "Segment": "managedAppRegistrations"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedAppRegistrations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedAppRegistrations/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedAppRegistrations/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedAppRegistrations",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedAppRegistrations",
+      "{managedAppRegistration-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 3,
+    "Segment": "{managedAppRegistration-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/appliedPolicies",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/appliedPolicies",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/appliedPolicies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedAppRegistrations",
+      "{managedAppRegistration-id}",
+      "appliedPolicies"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "appliedPolicies"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/appliedPolicies/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/appliedPolicies/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/appliedPolicies/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedAppRegistrations",
+      "{managedAppRegistration-id}",
+      "appliedPolicies",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/appliedPolicies/{managedAppPolicy-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/appliedPolicies/{managedAppPolicy-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/appliedPolicies/{managedAppPolicy-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedAppRegistrations",
+      "{managedAppRegistration-id}",
+      "appliedPolicies",
+      "{managedAppPolicy-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 1,
+    "Segment": "{managedAppPolicy-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/appliedPolicies/{managedAppPolicy-id}/microsoft.graph.targetApps",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/appliedPolicies/{managedAppPolicy-id}/microsoft.graph.targetApps",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/appliedPolicies/{managedAppPolicy-id}/microsoft.graph.targetApps",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedAppRegistrations",
+      "{managedAppRegistration-id}",
+      "appliedPolicies",
+      "{managedAppPolicy-id}",
+      "microsoft.graph.targetApps"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.targetApps"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/intendedPolicies",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/intendedPolicies",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/intendedPolicies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedAppRegistrations",
+      "{managedAppRegistration-id}",
+      "intendedPolicies"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "intendedPolicies"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/intendedPolicies/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/intendedPolicies/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/intendedPolicies/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedAppRegistrations",
+      "{managedAppRegistration-id}",
+      "intendedPolicies",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/intendedPolicies/{managedAppPolicy-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/intendedPolicies/{managedAppPolicy-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/intendedPolicies/{managedAppPolicy-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedAppRegistrations",
+      "{managedAppRegistration-id}",
+      "intendedPolicies",
+      "{managedAppPolicy-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 1,
+    "Segment": "{managedAppPolicy-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/intendedPolicies/{managedAppPolicy-id}/microsoft.graph.targetApps",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/intendedPolicies/{managedAppPolicy-id}/microsoft.graph.targetApps",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/intendedPolicies/{managedAppPolicy-id}/microsoft.graph.targetApps",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedAppRegistrations",
+      "{managedAppRegistration-id}",
+      "intendedPolicies",
+      "{managedAppPolicy-id}",
+      "microsoft.graph.targetApps"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.targetApps"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/operations",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/operations",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/operations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedAppRegistrations",
+      "{managedAppRegistration-id}",
+      "operations"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "operations"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/operations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/operations/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/operations/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedAppRegistrations",
+      "{managedAppRegistration-id}",
+      "operations",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/operations/{managedAppOperation-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/operations/{managedAppOperation-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedAppRegistrations/{managedAppRegistration-id}/operations/{managedAppOperation-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedAppRegistrations",
+      "{managedAppRegistration-id}",
+      "operations",
+      "{managedAppOperation-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{managedAppOperation-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedAppRegistrations/microsoft.graph.getUserIdsWithFlaggedAppRegistration()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedAppRegistrations/microsoft.graph.getUserIdsWithFlaggedAppRegistration()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedAppRegistrations/microsoft.graph.getUserIdsWithFlaggedAppRegistration()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedAppRegistrations",
+      "microsoft.graph.getUserIdsWithFlaggedAppRegistration()"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.getUserIdsWithFlaggedAppRegistration()"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedAppStatuses",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedAppStatuses",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedAppStatuses",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedAppStatuses"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "managedAppStatuses"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedAppStatuses/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedAppStatuses/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedAppStatuses/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedAppStatuses",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedAppStatuses/{managedAppStatus-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedAppStatuses/{managedAppStatus-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedAppStatuses/{managedAppStatus-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedAppStatuses",
+      "{managedAppStatus-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{managedAppStatus-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedEBookCategories",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedEBookCategories",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedEBookCategories"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "managedEBookCategories"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedEBookCategories/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedEBookCategories/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedEBookCategories",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedEBookCategories/{managedEBookCategory-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedEBookCategories/{managedEBookCategory-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedEBookCategories",
+      "{managedEBookCategory-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{managedEBookCategory-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedEBooks",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedEBooks",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedEBooks",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedEBooks"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "managedEBooks"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedEBooks/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedEBooks/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedEBooks/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedEBooks",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedEBooks/{managedEBook-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedEBooks/{managedEBook-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedEBooks/{managedEBook-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedEBooks",
+      "{managedEBook-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 6,
+    "Segment": "{managedEBook-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedEBooks/{managedEBook-id}/assignments",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedEBooks/{managedEBook-id}/assignments",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedEBooks/{managedEBook-id}/assignments",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedEBooks",
+      "{managedEBook-id}",
+      "assignments"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "assignments"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedEBooks/{managedEBook-id}/assignments/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedEBooks/{managedEBook-id}/assignments/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedEBooks/{managedEBook-id}/assignments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedEBooks",
+      "{managedEBook-id}",
+      "assignments",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedEBooks/{managedEBook-id}/assignments/{managedEBookAssignment-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedEBooks/{managedEBook-id}/assignments/{managedEBookAssignment-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedEBooks/{managedEBook-id}/assignments/{managedEBookAssignment-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedEBooks",
+      "{managedEBook-id}",
+      "assignments",
+      "{managedEBookAssignment-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{managedEBookAssignment-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedEBooks/{managedEBook-id}/categories",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedEBooks/{managedEBook-id}/categories",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedEBooks",
+      "{managedEBook-id}",
+      "categories"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "categories"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedEBooks/{managedEBook-id}/categories/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedEBooks/{managedEBook-id}/categories/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedEBooks",
+      "{managedEBook-id}",
+      "categories",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedEBooks/{managedEBook-id}/categories/{managedEBookCategory-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedEBooks/{managedEBook-id}/categories/{managedEBookCategory-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedEBooks",
+      "{managedEBook-id}",
+      "categories",
+      "{managedEBookCategory-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{managedEBookCategory-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedEBooks/{managedEBook-id}/deviceStates",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedEBooks/{managedEBook-id}/deviceStates",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedEBooks/{managedEBook-id}/deviceStates",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedEBooks",
+      "{managedEBook-id}",
+      "deviceStates"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "deviceStates"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedEBooks/{managedEBook-id}/deviceStates/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedEBooks/{managedEBook-id}/deviceStates/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedEBooks/{managedEBook-id}/deviceStates/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedEBooks",
+      "{managedEBook-id}",
+      "deviceStates",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedEBooks/{managedEBook-id}/deviceStates/{deviceInstallState-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedEBooks/{managedEBook-id}/deviceStates/{deviceInstallState-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedEBooks/{managedEBook-id}/deviceStates/{deviceInstallState-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedEBooks",
+      "{managedEBook-id}",
+      "deviceStates",
+      "{deviceInstallState-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{deviceInstallState-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedEBooks/{managedEBook-id}/installSummary",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedEBooks/{managedEBook-id}/installSummary",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedEBooks/{managedEBook-id}/installSummary",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedEBooks",
+      "{managedEBook-id}",
+      "installSummary"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "installSummary"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedEBooks/{managedEBook-id}/microsoft.graph.assign",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedEBooks/{managedEBook-id}/microsoft.graph.assign",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedEBooks/{managedEBook-id}/microsoft.graph.assign",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedEBooks",
+      "{managedEBook-id}",
+      "microsoft.graph.assign"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.assign"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedEBooks/{managedEBook-id}/userStateSummary",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedEBooks/{managedEBook-id}/userStateSummary",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedEBooks/{managedEBook-id}/userStateSummary",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedEBooks",
+      "{managedEBook-id}",
+      "userStateSummary"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "userStateSummary"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedEBooks/{managedEBook-id}/userStateSummary/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedEBooks/{managedEBook-id}/userStateSummary/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedEBooks/{managedEBook-id}/userStateSummary/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedEBooks",
+      "{managedEBook-id}",
+      "userStateSummary",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedEBooks/{managedEBook-id}/userStateSummary/{userInstallStateSummary-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedEBooks/{managedEBook-id}/userStateSummary/{userInstallStateSummary-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedEBooks/{managedEBook-id}/userStateSummary/{userInstallStateSummary-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedEBooks",
+      "{managedEBook-id}",
+      "userStateSummary",
+      "{userInstallStateSummary-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 1,
+    "Segment": "{userInstallStateSummary-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedEBooks/{managedEBook-id}/userStateSummary/{userInstallStateSummary-id}/deviceStates",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedEBooks/{managedEBook-id}/userStateSummary/{userInstallStateSummary-id}/deviceStates",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedEBooks/{managedEBook-id}/userStateSummary/{userInstallStateSummary-id}/deviceStates",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedEBooks",
+      "{managedEBook-id}",
+      "userStateSummary",
+      "{userInstallStateSummary-id}",
+      "deviceStates"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "deviceStates"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedEBooks/{managedEBook-id}/userStateSummary/{userInstallStateSummary-id}/deviceStates/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedEBooks/{managedEBook-id}/userStateSummary/{userInstallStateSummary-id}/deviceStates/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedEBooks/{managedEBook-id}/userStateSummary/{userInstallStateSummary-id}/deviceStates/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedEBooks",
+      "{managedEBook-id}",
+      "userStateSummary",
+      "{userInstallStateSummary-id}",
+      "deviceStates",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/managedEBooks/{managedEBook-id}/userStateSummary/{userInstallStateSummary-id}/deviceStates/{deviceInstallState-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/managedEBooks/{managedEBook-id}/userStateSummary/{userInstallStateSummary-id}/deviceStates/{deviceInstallState-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/managedEBooks/{managedEBook-id}/userStateSummary/{userInstallStateSummary-id}/deviceStates/{deviceInstallState-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "managedEBooks",
+      "{managedEBook-id}",
+      "userStateSummary",
+      "{userInstallStateSummary-id}",
+      "deviceStates",
+      "{deviceInstallState-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{deviceInstallState-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mdmWindowsInformationProtectionPolicies",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mdmWindowsInformationProtectionPolicies",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mdmWindowsInformationProtectionPolicies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mdmWindowsInformationProtectionPolicies"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 3,
+    "Segment": "mdmWindowsInformationProtectionPolicies"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mdmWindowsInformationProtectionPolicies/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mdmWindowsInformationProtectionPolicies/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mdmWindowsInformationProtectionPolicies/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mdmWindowsInformationProtectionPolicies",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mdmWindowsInformationProtectionPolicies/{mdmWindowsInformationProtectionPolicy-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mdmWindowsInformationProtectionPolicies/{mdmWindowsInformationProtectionPolicy-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mdmWindowsInformationProtectionPolicies/{mdmWindowsInformationProtectionPolicy-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mdmWindowsInformationProtectionPolicies",
+      "{mdmWindowsInformationProtectionPolicy-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{mdmWindowsInformationProtectionPolicy-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mdmWindowsInformationProtectionPolicies/microsoft.graph.hasPayloadLinks",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mdmWindowsInformationProtectionPolicies/microsoft.graph.hasPayloadLinks",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mdmWindowsInformationProtectionPolicies",
+      "microsoft.graph.hasPayloadLinks"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.hasPayloadLinks"
+  },
+  {
+    "Endpoint": "deviceAppManagement/microsoft.graph.syncMicrosoftStoreForBusinessApps",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/microsoft.graph.syncMicrosoftStoreForBusinessApps",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/microsoft.graph.syncMicrosoftStoreForBusinessApps",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "microsoft.graph.syncMicrosoftStoreForBusinessApps"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.syncMicrosoftStoreForBusinessApps"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileAppCategories",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileAppCategories",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileAppCategories",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileAppCategories"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "mobileAppCategories"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileAppCategories/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileAppCategories/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileAppCategories/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileAppCategories",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileAppCategories/{mobileAppCategory-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileAppCategories/{mobileAppCategory-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileAppCategories/{mobileAppCategory-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileAppCategories",
+      "{mobileAppCategory-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{mobileAppCategory-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileAppConfigurations",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileAppConfigurations",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileAppConfigurations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileAppConfigurations"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "mobileAppConfigurations"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileAppConfigurations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileAppConfigurations/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileAppConfigurations/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileAppConfigurations",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileAppConfigurations",
+      "{managedDeviceMobileAppConfiguration-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 6,
+    "Segment": "{managedDeviceMobileAppConfiguration-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/assignments",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/assignments",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/assignments",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileAppConfigurations",
+      "{managedDeviceMobileAppConfiguration-id}",
+      "assignments"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "assignments"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/assignments/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/assignments/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/assignments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileAppConfigurations",
+      "{managedDeviceMobileAppConfiguration-id}",
+      "assignments",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/assignments/{managedDeviceMobileAppConfigurationAssignment-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/assignments/{managedDeviceMobileAppConfigurationAssignment-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/assignments/{managedDeviceMobileAppConfigurationAssignment-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileAppConfigurations",
+      "{managedDeviceMobileAppConfiguration-id}",
+      "assignments",
+      "{managedDeviceMobileAppConfigurationAssignment-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{managedDeviceMobileAppConfigurationAssignment-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/deviceStatuses",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/deviceStatuses",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/deviceStatuses",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileAppConfigurations",
+      "{managedDeviceMobileAppConfiguration-id}",
+      "deviceStatuses"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "deviceStatuses"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/deviceStatuses/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/deviceStatuses/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/deviceStatuses/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileAppConfigurations",
+      "{managedDeviceMobileAppConfiguration-id}",
+      "deviceStatuses",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/deviceStatuses/{managedDeviceMobileAppConfigurationDeviceStatus-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/deviceStatuses/{managedDeviceMobileAppConfigurationDeviceStatus-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/deviceStatuses/{managedDeviceMobileAppConfigurationDeviceStatus-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileAppConfigurations",
+      "{managedDeviceMobileAppConfiguration-id}",
+      "deviceStatuses",
+      "{managedDeviceMobileAppConfigurationDeviceStatus-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{managedDeviceMobileAppConfigurationDeviceStatus-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/deviceStatusSummary",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/deviceStatusSummary",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/deviceStatusSummary",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileAppConfigurations",
+      "{managedDeviceMobileAppConfiguration-id}",
+      "deviceStatusSummary"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "deviceStatusSummary"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/microsoft.graph.assign",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/microsoft.graph.assign",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/microsoft.graph.assign",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileAppConfigurations",
+      "{managedDeviceMobileAppConfiguration-id}",
+      "microsoft.graph.assign"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.assign"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/userStatuses",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/userStatuses",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/userStatuses",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileAppConfigurations",
+      "{managedDeviceMobileAppConfiguration-id}",
+      "userStatuses"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "userStatuses"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/userStatuses/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/userStatuses/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/userStatuses/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileAppConfigurations",
+      "{managedDeviceMobileAppConfiguration-id}",
+      "userStatuses",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/userStatuses/{managedDeviceMobileAppConfigurationUserStatus-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/userStatuses/{managedDeviceMobileAppConfigurationUserStatus-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/userStatuses/{managedDeviceMobileAppConfigurationUserStatus-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileAppConfigurations",
+      "{managedDeviceMobileAppConfiguration-id}",
+      "userStatuses",
+      "{managedDeviceMobileAppConfigurationUserStatus-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{managedDeviceMobileAppConfigurationUserStatus-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/userStatusSummary",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/userStatusSummary",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfiguration-id}/userStatusSummary",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileAppConfigurations",
+      "{managedDeviceMobileAppConfiguration-id}",
+      "userStatusSummary"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "userStatusSummary"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileApps",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 8,
+    "Segment": "mobileApps"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileApps/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileApps/{mobileApp-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 11,
+    "Segment": "{mobileApp-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/assignments",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileApps/{mobileApp-id}/assignments",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/assignments",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "assignments"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "assignments"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/assignments/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileApps/{mobileApp-id}/assignments/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/assignments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "assignments",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/assignments/{mobileAppAssignment-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileApps/{mobileApp-id}/assignments/{mobileAppAssignment-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/assignments/{mobileAppAssignment-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "assignments",
+      "{mobileAppAssignment-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{mobileAppAssignment-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/categories",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileApps/{mobileApp-id}/categories",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/categories",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "categories"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "categories"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/categories/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileApps/{mobileApp-id}/categories/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/categories/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "categories",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/categories/{mobileAppCategory-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileApps/{mobileApp-id}/categories/{mobileAppCategory-id}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/categories/{mobileAppCategory-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "categories",
+      "{mobileAppCategory-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{mobileAppCategory-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/deviceStatuses",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/deviceStatuses",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "deviceStatuses"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "deviceStatuses"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/deviceStatuses/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/deviceStatuses/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "deviceStatuses",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/deviceStatuses/{mobileAppInstallStatus-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/deviceStatuses/{mobileAppInstallStatus-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "deviceStatuses",
+      "{mobileAppInstallStatus-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 1,
+    "Segment": "{mobileAppInstallStatus-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/deviceStatuses/{mobileAppInstallStatus-id}/app",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/deviceStatuses/{mobileAppInstallStatus-id}/app",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "deviceStatuses",
+      "{mobileAppInstallStatus-id}",
+      "app"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "app"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/installSummary",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/installSummary",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "installSummary"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "installSummary"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/microsoft.graph.assign",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileApps/{mobileApp-id}/microsoft.graph.assign",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/microsoft.graph.assign",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "microsoft.graph.assign"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.assign"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/microsoft.graph.getRelatedAppStates(userPrincipalName='{userPrincipalName}',deviceId='{deviceId}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/microsoft.graph.getRelatedAppStates(userPrincipalName='{userPrincipalName}',deviceId='{deviceId}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "microsoft.graph.getRelatedAppStates(userPrincipalName='{userPrincipalName}',deviceId='{deviceId}')"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.getRelatedAppStates(userPrincipalName='{userPrincipalName}',deviceId='{deviceId}')"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/microsoft.graph.managedMobileLobApp",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileApps/{mobileApp-id}/microsoft.graph.managedMobileLobApp",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/microsoft.graph.managedMobileLobApp",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "microsoft.graph.managedMobileLobApp"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.managedMobileLobApp"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/microsoft.graph.mobileLobApp",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileApps/{mobileApp-id}/microsoft.graph.mobileLobApp",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/microsoft.graph.mobileLobApp",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "microsoft.graph.mobileLobApp"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.mobileLobApp"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/microsoft.graph.updateRelationships",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/microsoft.graph.updateRelationships",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "microsoft.graph.updateRelationships"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.updateRelationships"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/relationships",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/relationships",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "relationships"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "relationships"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/relationships/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/relationships/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "relationships",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/relationships/{mobileAppRelationship-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/relationships/{mobileAppRelationship-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "relationships",
+      "{mobileAppRelationship-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{mobileAppRelationship-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/userStatuses",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/userStatuses",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "userStatuses"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "userStatuses"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/userStatuses/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/userStatuses/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "userStatuses",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/userStatuses/{userAppInstallStatus-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/userStatuses/{userAppInstallStatus-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "userStatuses",
+      "{userAppInstallStatus-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "{userAppInstallStatus-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/userStatuses/{userAppInstallStatus-id}/app",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/userStatuses/{userAppInstallStatus-id}/app",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "userStatuses",
+      "{userAppInstallStatus-id}",
+      "app"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "app"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/userStatuses/{userAppInstallStatus-id}/deviceStatuses",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/userStatuses/{userAppInstallStatus-id}/deviceStatuses",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "userStatuses",
+      "{userAppInstallStatus-id}",
+      "deviceStatuses"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "deviceStatuses"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/userStatuses/{userAppInstallStatus-id}/deviceStatuses/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/userStatuses/{userAppInstallStatus-id}/deviceStatuses/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "userStatuses",
+      "{userAppInstallStatus-id}",
+      "deviceStatuses",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/userStatuses/{userAppInstallStatus-id}/deviceStatuses/{mobileAppInstallStatus-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/userStatuses/{userAppInstallStatus-id}/deviceStatuses/{mobileAppInstallStatus-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "userStatuses",
+      "{userAppInstallStatus-id}",
+      "deviceStatuses",
+      "{mobileAppInstallStatus-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 1,
+    "Segment": "{mobileAppInstallStatus-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/{mobileApp-id}/userStatuses/{userAppInstallStatus-id}/deviceStatuses/{mobileAppInstallStatus-id}/app",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/{mobileApp-id}/userStatuses/{userAppInstallStatus-id}/deviceStatuses/{mobileAppInstallStatus-id}/app",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "{mobileApp-id}",
+      "userStatuses",
+      "{userAppInstallStatus-id}",
+      "deviceStatuses",
+      "{mobileAppInstallStatus-id}",
+      "app"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "app"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/microsoft.graph.getMobileAppCount(status='{status}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/microsoft.graph.getMobileAppCount(status='{status}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "microsoft.graph.getMobileAppCount(status='{status}')"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.getMobileAppCount(status='{status}')"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/microsoft.graph.getTopMobileApps(status='{status}',count={count})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/microsoft.graph.getTopMobileApps(status='{status}',count={count})",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "microsoft.graph.getTopMobileApps(status='{status}',count={count})"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.getTopMobileApps(status='{status}',count={count})"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/microsoft.graph.hasPayloadLinks",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/microsoft.graph.hasPayloadLinks",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "microsoft.graph.hasPayloadLinks"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.hasPayloadLinks"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/microsoft.graph.managedMobileLobApp",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileApps/microsoft.graph.managedMobileLobApp",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/microsoft.graph.managedMobileLobApp",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "microsoft.graph.managedMobileLobApp"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 1,
+    "Segment": "microsoft.graph.managedMobileLobApp"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/microsoft.graph.managedMobileLobApp/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileApps/microsoft.graph.managedMobileLobApp/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/microsoft.graph.managedMobileLobApp/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "microsoft.graph.managedMobileLobApp",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/microsoft.graph.mobileLobApp",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileApps/microsoft.graph.mobileLobApp",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/microsoft.graph.mobileLobApp",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "microsoft.graph.mobileLobApp"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 1,
+    "Segment": "microsoft.graph.mobileLobApp"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/microsoft.graph.mobileLobApp/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/mobileApps/microsoft.graph.mobileLobApp/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/microsoft.graph.mobileLobApp/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "microsoft.graph.mobileLobApp",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/mobileApps/microsoft.graph.validateXml",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/microsoft.graph.validateXml",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "mobileApps",
+      "microsoft.graph.validateXml"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.validateXml"
+  },
+  {
+    "Endpoint": "deviceAppManagement/policySets",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/policySets",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "policySets"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 3,
+    "Segment": "policySets"
+  },
+  {
+    "Endpoint": "deviceAppManagement/policySets/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/policySets/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "policySets",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/policySets/{policySet-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/policySets/{policySet-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "policySets",
+      "{policySet-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 3,
+    "Segment": "{policySet-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/policySets/{policySet-id}/assignments",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/policySets/{policySet-id}/assignments",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "policySets",
+      "{policySet-id}",
+      "assignments"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "assignments"
+  },
+  {
+    "Endpoint": "deviceAppManagement/policySets/{policySet-id}/assignments/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/policySets/{policySet-id}/assignments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "policySets",
+      "{policySet-id}",
+      "assignments",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/policySets/{policySet-id}/assignments/{policySetAssignment-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/policySets/{policySet-id}/assignments/{policySetAssignment-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "policySets",
+      "{policySet-id}",
+      "assignments",
+      "{policySetAssignment-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{policySetAssignment-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/policySets/{policySet-id}/items",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/policySets/{policySet-id}/items",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "policySets",
+      "{policySet-id}",
+      "items"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "items"
+  },
+  {
+    "Endpoint": "deviceAppManagement/policySets/{policySet-id}/items/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/policySets/{policySet-id}/items/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "policySets",
+      "{policySet-id}",
+      "items",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/policySets/{policySet-id}/items/{policySetItem-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/policySets/{policySet-id}/items/{policySetItem-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "policySets",
+      "{policySet-id}",
+      "items",
+      "{policySetItem-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{policySetItem-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/policySets/{policySet-id}/microsoft.graph.update",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/policySets/{policySet-id}/microsoft.graph.update",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "policySets",
+      "{policySet-id}",
+      "microsoft.graph.update"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.update"
+  },
+  {
+    "Endpoint": "deviceAppManagement/policySets/microsoft.graph.getPolicySets",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/policySets/microsoft.graph.getPolicySets",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "policySets",
+      "microsoft.graph.getPolicySets"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.getPolicySets"
+  },
+  {
+    "Endpoint": "deviceAppManagement/sideLoadingKeys",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/sideLoadingKeys",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "sideLoadingKeys"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "sideLoadingKeys"
+  },
+  {
+    "Endpoint": "deviceAppManagement/sideLoadingKeys/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/sideLoadingKeys/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "sideLoadingKeys",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/sideLoadingKeys/{sideLoadingKey-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/sideLoadingKeys/{sideLoadingKey-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "sideLoadingKeys",
+      "{sideLoadingKey-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{sideLoadingKey-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/symantecCodeSigningCertificate",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/symantecCodeSigningCertificate",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "symantecCodeSigningCertificate"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "symantecCodeSigningCertificate"
+  },
+  {
+    "Endpoint": "deviceAppManagement/targetedManagedAppConfigurations",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/targetedManagedAppConfigurations",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "targetedManagedAppConfigurations"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 3,
+    "Segment": "targetedManagedAppConfigurations"
+  },
+  {
+    "Endpoint": "deviceAppManagement/targetedManagedAppConfigurations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/targetedManagedAppConfigurations/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "targetedManagedAppConfigurations",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "targetedManagedAppConfigurations",
+      "{targetedManagedAppConfiguration-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 5,
+    "Segment": "{targetedManagedAppConfiguration-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/apps",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/apps",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/apps",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "targetedManagedAppConfigurations",
+      "{targetedManagedAppConfiguration-id}",
+      "apps"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "apps"
+  },
+  {
+    "Endpoint": "deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/apps/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/apps/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/apps/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "targetedManagedAppConfigurations",
+      "{targetedManagedAppConfiguration-id}",
+      "apps",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/apps/{managedMobileApp-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/apps/{managedMobileApp-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/apps/{managedMobileApp-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "targetedManagedAppConfigurations",
+      "{targetedManagedAppConfiguration-id}",
+      "apps",
+      "{managedMobileApp-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{managedMobileApp-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/assignments",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/assignments",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/assignments",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "targetedManagedAppConfigurations",
+      "{targetedManagedAppConfiguration-id}",
+      "assignments"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "assignments"
+  },
+  {
+    "Endpoint": "deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/assignments/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/assignments/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/assignments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "targetedManagedAppConfigurations",
+      "{targetedManagedAppConfiguration-id}",
+      "assignments",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/assignments/{targetedManagedAppPolicyAssignment-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/assignments/{targetedManagedAppPolicyAssignment-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/assignments/{targetedManagedAppPolicyAssignment-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "targetedManagedAppConfigurations",
+      "{targetedManagedAppConfiguration-id}",
+      "assignments",
+      "{targetedManagedAppPolicyAssignment-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{targetedManagedAppPolicyAssignment-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/deploymentSummary",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/deploymentSummary",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/deploymentSummary",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "targetedManagedAppConfigurations",
+      "{targetedManagedAppConfiguration-id}",
+      "deploymentSummary"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "deploymentSummary"
+  },
+  {
+    "Endpoint": "deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/microsoft.graph.assign",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/microsoft.graph.assign",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/microsoft.graph.assign",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "targetedManagedAppConfigurations",
+      "{targetedManagedAppConfiguration-id}",
+      "microsoft.graph.assign"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.assign"
+  },
+  {
+    "Endpoint": "deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/microsoft.graph.targetApps",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/microsoft.graph.targetApps",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfiguration-id}/microsoft.graph.targetApps",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "targetedManagedAppConfigurations",
+      "{targetedManagedAppConfiguration-id}",
+      "microsoft.graph.targetApps"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.targetApps"
+  },
+  {
+    "Endpoint": "deviceAppManagement/targetedManagedAppConfigurations/microsoft.graph.hasPayloadLinks",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations/microsoft.graph.hasPayloadLinks",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "targetedManagedAppConfigurations",
+      "microsoft.graph.hasPayloadLinks"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.hasPayloadLinks"
+  },
+  {
+    "Endpoint": "deviceAppManagement/vppTokens",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/vppTokens",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/vppTokens",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "vppTokens"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 4,
+    "Segment": "vppTokens"
+  },
+  {
+    "Endpoint": "deviceAppManagement/vppTokens/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/vppTokens/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/vppTokens/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "vppTokens",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/vppTokens/{vppToken-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/vppTokens/{vppToken-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/vppTokens/{vppToken-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "vppTokens",
+      "{vppToken-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "{vppToken-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/vppTokens/{vppToken-id}/microsoft.graph.revokeLicenses",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/vppTokens/{vppToken-id}/microsoft.graph.revokeLicenses",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "vppTokens",
+      "{vppToken-id}",
+      "microsoft.graph.revokeLicenses"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.revokeLicenses"
+  },
+  {
+    "Endpoint": "deviceAppManagement/vppTokens/{vppToken-id}/microsoft.graph.syncLicenses",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/vppTokens/{vppToken-id}/microsoft.graph.syncLicenses",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/vppTokens/{vppToken-id}/microsoft.graph.syncLicenses",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "vppTokens",
+      "{vppToken-id}",
+      "microsoft.graph.syncLicenses"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.syncLicenses"
+  },
+  {
+    "Endpoint": "deviceAppManagement/vppTokens/microsoft.graph.getLicensesForApp(bundleId='{bundleId}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/vppTokens/microsoft.graph.getLicensesForApp(bundleId='{bundleId}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "vppTokens",
+      "microsoft.graph.getLicensesForApp(bundleId='{bundleId}')"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.getLicensesForApp(bundleId='{bundleId}')"
+  },
+  {
+    "Endpoint": "deviceAppManagement/vppTokens/microsoft.graph.syncLicenseCounts",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/vppTokens/microsoft.graph.syncLicenseCounts",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "vppTokens",
+      "microsoft.graph.syncLicenseCounts"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.syncLicenseCounts"
+  },
+  {
+    "Endpoint": "deviceAppManagement/wdacSupplementalPolicies",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/wdacSupplementalPolicies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "wdacSupplementalPolicies"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "wdacSupplementalPolicies"
+  },
+  {
+    "Endpoint": "deviceAppManagement/wdacSupplementalPolicies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/wdacSupplementalPolicies/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "wdacSupplementalPolicies",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicy-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicy-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "wdacSupplementalPolicies",
+      "{windowsDefenderApplicationControlSupplementalPolicy-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 4,
+    "Segment": "{windowsDefenderApplicationControlSupplementalPolicy-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicy-id}/assignments",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicy-id}/assignments",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "wdacSupplementalPolicies",
+      "{windowsDefenderApplicationControlSupplementalPolicy-id}",
+      "assignments"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "assignments"
+  },
+  {
+    "Endpoint": "deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicy-id}/assignments/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicy-id}/assignments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "wdacSupplementalPolicies",
+      "{windowsDefenderApplicationControlSupplementalPolicy-id}",
+      "assignments",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicy-id}/assignments/{windowsDefenderApplicationControlSupplementalPolicyAssignment-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicy-id}/assignments/{windowsDefenderApplicationControlSupplementalPolicyAssignment-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "wdacSupplementalPolicies",
+      "{windowsDefenderApplicationControlSupplementalPolicy-id}",
+      "assignments",
+      "{windowsDefenderApplicationControlSupplementalPolicyAssignment-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{windowsDefenderApplicationControlSupplementalPolicyAssignment-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicy-id}/deploySummary",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicy-id}/deploySummary",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "wdacSupplementalPolicies",
+      "{windowsDefenderApplicationControlSupplementalPolicy-id}",
+      "deploySummary"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "deploySummary"
+  },
+  {
+    "Endpoint": "deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicy-id}/deviceStatuses",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicy-id}/deviceStatuses",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "wdacSupplementalPolicies",
+      "{windowsDefenderApplicationControlSupplementalPolicy-id}",
+      "deviceStatuses"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "deviceStatuses"
+  },
+  {
+    "Endpoint": "deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicy-id}/deviceStatuses/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicy-id}/deviceStatuses/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "wdacSupplementalPolicies",
+      "{windowsDefenderApplicationControlSupplementalPolicy-id}",
+      "deviceStatuses",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicy-id}/deviceStatuses/{windowsDefenderApplicationControlSupplementalPolicyDeploymentStatus-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicy-id}/deviceStatuses/{windowsDefenderApplicationControlSupplementalPolicyDeploymentStatus-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "wdacSupplementalPolicies",
+      "{windowsDefenderApplicationControlSupplementalPolicy-id}",
+      "deviceStatuses",
+      "{windowsDefenderApplicationControlSupplementalPolicyDeploymentStatus-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 1,
+    "Segment": "{windowsDefenderApplicationControlSupplementalPolicyDeploymentStatus-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicy-id}/deviceStatuses/{windowsDefenderApplicationControlSupplementalPolicyDeploymentStatus-id}/policy",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicy-id}/deviceStatuses/{windowsDefenderApplicationControlSupplementalPolicyDeploymentStatus-id}/policy",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "wdacSupplementalPolicies",
+      "{windowsDefenderApplicationControlSupplementalPolicy-id}",
+      "deviceStatuses",
+      "{windowsDefenderApplicationControlSupplementalPolicyDeploymentStatus-id}",
+      "policy"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "policy"
+  },
+  {
+    "Endpoint": "deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicy-id}/microsoft.graph.assign",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicy-id}/microsoft.graph.assign",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "wdacSupplementalPolicies",
+      "{windowsDefenderApplicationControlSupplementalPolicy-id}",
+      "microsoft.graph.assign"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.assign"
+  },
+  {
+    "Endpoint": "deviceAppManagement/windowsInformationProtectionDeviceRegistrations",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/windowsInformationProtectionDeviceRegistrations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "windowsInformationProtectionDeviceRegistrations"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "windowsInformationProtectionDeviceRegistrations"
+  },
+  {
+    "Endpoint": "deviceAppManagement/windowsInformationProtectionDeviceRegistrations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/windowsInformationProtectionDeviceRegistrations/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "windowsInformationProtectionDeviceRegistrations",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/windowsInformationProtectionDeviceRegistrations/{windowsInformationProtectionDeviceRegistration-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/windowsInformationProtectionDeviceRegistrations/{windowsInformationProtectionDeviceRegistration-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "windowsInformationProtectionDeviceRegistrations",
+      "{windowsInformationProtectionDeviceRegistration-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 1,
+    "Segment": "{windowsInformationProtectionDeviceRegistration-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/windowsInformationProtectionDeviceRegistrations/{windowsInformationProtectionDeviceRegistration-id}/microsoft.graph.wipe",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/windowsInformationProtectionDeviceRegistrations/{windowsInformationProtectionDeviceRegistration-id}/microsoft.graph.wipe",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "windowsInformationProtectionDeviceRegistrations",
+      "{windowsInformationProtectionDeviceRegistration-id}",
+      "microsoft.graph.wipe"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.wipe"
+  },
+  {
+    "Endpoint": "deviceAppManagement/windowsInformationProtectionPolicies",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/windowsInformationProtectionPolicies",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/windowsInformationProtectionPolicies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "windowsInformationProtectionPolicies"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "windowsInformationProtectionPolicies"
+  },
+  {
+    "Endpoint": "deviceAppManagement/windowsInformationProtectionPolicies/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/windowsInformationProtectionPolicies/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/windowsInformationProtectionPolicies/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "windowsInformationProtectionPolicies",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/windowsInformationProtectionPolicies/{windowsInformationProtectionPolicy-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/deviceAppManagement/windowsInformationProtectionPolicies/{windowsInformationProtectionPolicy-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/windowsInformationProtectionPolicies/{windowsInformationProtectionPolicy-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "windowsInformationProtectionPolicies",
+      "{windowsInformationProtectionPolicy-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{windowsInformationProtectionPolicy-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/windowsInformationProtectionWipeActions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/windowsInformationProtectionWipeActions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "windowsInformationProtectionWipeActions"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "windowsInformationProtectionWipeActions"
+  },
+  {
+    "Endpoint": "deviceAppManagement/windowsInformationProtectionWipeActions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/windowsInformationProtectionWipeActions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "windowsInformationProtectionWipeActions",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/windowsInformationProtectionWipeActions/{windowsInformationProtectionWipeAction-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/windowsInformationProtectionWipeActions/{windowsInformationProtectionWipeAction-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "windowsInformationProtectionWipeActions",
+      "{windowsInformationProtectionWipeAction-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{windowsInformationProtectionWipeAction-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/windowsManagedAppProtections",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/windowsManagedAppProtections",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "windowsManagedAppProtections"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "windowsManagedAppProtections"
+  },
+  {
+    "Endpoint": "deviceAppManagement/windowsManagedAppProtections/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/windowsManagedAppProtections/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "windowsManagedAppProtections",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/windowsManagedAppProtections/{windowsManagedAppProtection-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/windowsManagedAppProtections/{windowsManagedAppProtection-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "windowsManagedAppProtections",
+      "{windowsManagedAppProtection-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 4,
+    "Segment": "{windowsManagedAppProtection-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/windowsManagedAppProtections/{windowsManagedAppProtection-id}/apps",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/windowsManagedAppProtections/{windowsManagedAppProtection-id}/apps",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "windowsManagedAppProtections",
+      "{windowsManagedAppProtection-id}",
+      "apps"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "apps"
+  },
+  {
+    "Endpoint": "deviceAppManagement/windowsManagedAppProtections/{windowsManagedAppProtection-id}/apps/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/windowsManagedAppProtections/{windowsManagedAppProtection-id}/apps/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "windowsManagedAppProtections",
+      "{windowsManagedAppProtection-id}",
+      "apps",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/windowsManagedAppProtections/{windowsManagedAppProtection-id}/apps/{managedMobileApp-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/windowsManagedAppProtections/{windowsManagedAppProtection-id}/apps/{managedMobileApp-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "windowsManagedAppProtections",
+      "{windowsManagedAppProtection-id}",
+      "apps",
+      "{managedMobileApp-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{managedMobileApp-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/windowsManagedAppProtections/{windowsManagedAppProtection-id}/assignments",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/windowsManagedAppProtections/{windowsManagedAppProtection-id}/assignments",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "windowsManagedAppProtections",
+      "{windowsManagedAppProtection-id}",
+      "assignments"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 2,
+    "Segment": "assignments"
+  },
+  {
+    "Endpoint": "deviceAppManagement/windowsManagedAppProtections/{windowsManagedAppProtection-id}/assignments/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/windowsManagedAppProtections/{windowsManagedAppProtection-id}/assignments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "windowsManagedAppProtections",
+      "{windowsManagedAppProtection-id}",
+      "assignments",
+      "$count"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "deviceAppManagement/windowsManagedAppProtections/{windowsManagedAppProtection-id}/assignments/{targetedManagedAppPolicyAssignment-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/windowsManagedAppProtections/{windowsManagedAppProtection-id}/assignments/{targetedManagedAppPolicyAssignment-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "windowsManagedAppProtections",
+      "{windowsManagedAppProtection-id}",
+      "assignments",
+      "{targetedManagedAppPolicyAssignment-id}"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "{targetedManagedAppPolicyAssignment-id}"
+  },
+  {
+    "Endpoint": "deviceAppManagement/windowsManagedAppProtections/{windowsManagedAppProtection-id}/microsoft.graph.assign",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/windowsManagedAppProtections/{windowsManagedAppProtection-id}/microsoft.graph.assign",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "windowsManagedAppProtections",
+      "{windowsManagedAppProtection-id}",
+      "microsoft.graph.assign"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.assign"
+  },
+  {
+    "Endpoint": "deviceAppManagement/windowsManagedAppProtections/{windowsManagedAppProtection-id}/microsoft.graph.targetApps",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/windowsManagedAppProtections/{windowsManagedAppProtection-id}/microsoft.graph.targetApps",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "windowsManagedAppProtections",
+      "{windowsManagedAppProtection-id}",
+      "microsoft.graph.targetApps"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.targetApps"
+  },
+  {
+    "Endpoint": "deviceAppManagement/windowsManagementApp",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/deviceAppManagement/windowsManagementApp",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "deviceAppManagement",
+      "windowsManagementApp"
+    ],
+    "Root": "deviceAppManagement",
+    "Children": 0,
+    "Segment": "windowsManagementApp"
+  }
+]

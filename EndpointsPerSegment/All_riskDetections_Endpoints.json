@@ -1,0 +1,40 @@
+[
+  {
+    "Endpoint": "riskDetections",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/riskDetections",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "riskDetections"
+    ],
+    "Root": "riskDetections",
+    "Children": 1,
+    "Segment": "riskDetections"
+  },
+  {
+    "Endpoint": "riskDetections/{riskDetection-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/riskDetections/{riskDetection-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "riskDetections",
+      "{riskDetection-id}"
+    ],
+    "Root": "riskDetections",
+    "Children": 0,
+    "Segment": "{riskDetection-id}"
+  }
+]

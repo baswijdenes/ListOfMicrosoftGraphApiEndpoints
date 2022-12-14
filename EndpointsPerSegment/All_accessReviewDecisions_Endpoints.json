@@ -1,0 +1,58 @@
+[
+  {
+    "Endpoint": "accessReviewDecisions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviewDecisions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "accessReviewDecisions"
+    ],
+    "Root": "accessReviewDecisions",
+    "Children": 2,
+    "Segment": "accessReviewDecisions"
+  },
+  {
+    "Endpoint": "accessReviewDecisions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviewDecisions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "accessReviewDecisions",
+      "$count"
+    ],
+    "Root": "accessReviewDecisions",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "accessReviewDecisions/{accessReviewDecision-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviewDecisions/{accessReviewDecision-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "accessReviewDecisions",
+      "{accessReviewDecision-id}"
+    ],
+    "Root": "accessReviewDecisions",
+    "Children": 0,
+    "Segment": "{accessReviewDecision-id}"
+  }
+]

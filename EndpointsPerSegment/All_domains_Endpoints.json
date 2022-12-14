@@ -1,0 +1,470 @@
+[
+  {
+    "Endpoint": "domains",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "domains"
+    ],
+    "Root": "domains",
+    "Children": 2,
+    "Segment": "domains"
+  },
+  {
+    "Endpoint": "domains/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "domains",
+      "$count"
+    ],
+    "Root": "domains",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "domains/{domain-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "domains",
+      "{domain-id}"
+    ],
+    "Root": "domains",
+    "Children": 8,
+    "Segment": "{domain-id}"
+  },
+  {
+    "Endpoint": "domains/{domain-id}/domainNameReferences",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/domainNameReferences",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/domainNameReferences",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "domainNameReferences"
+    ],
+    "Root": "domains",
+    "Children": 2,
+    "Segment": "domainNameReferences"
+  },
+  {
+    "Endpoint": "domains/{domain-id}/domainNameReferences/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/domainNameReferences/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/domainNameReferences/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "domainNameReferences",
+      "$count"
+    ],
+    "Root": "domains",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "domains/{domain-id}/domainNameReferences/{directoryObject-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/domainNameReferences/{directoryObject-id}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/domainNameReferences/{directoryObject-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "domainNameReferences",
+      "{directoryObject-id}"
+    ],
+    "Root": "domains",
+    "Children": 0,
+    "Segment": "{directoryObject-id}"
+  },
+  {
+    "Endpoint": "domains/{domain-id}/federationConfiguration",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/federationConfiguration",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/federationConfiguration",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "federationConfiguration"
+    ],
+    "Root": "domains",
+    "Children": 2,
+    "Segment": "federationConfiguration"
+  },
+  {
+    "Endpoint": "domains/{domain-id}/federationConfiguration/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/federationConfiguration/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/federationConfiguration/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "federationConfiguration",
+      "$count"
+    ],
+    "Root": "domains",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "domains/{domain-id}/federationConfiguration/{internalDomainFederation-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/federationConfiguration/{internalDomainFederation-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/federationConfiguration/{internalDomainFederation-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "federationConfiguration",
+      "{internalDomainFederation-id}"
+    ],
+    "Root": "domains",
+    "Children": 0,
+    "Segment": "{internalDomainFederation-id}"
+  },
+  {
+    "Endpoint": "domains/{domain-id}/microsoft.graph.forceDelete",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/microsoft.graph.forceDelete",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/microsoft.graph.forceDelete",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "microsoft.graph.forceDelete"
+    ],
+    "Root": "domains",
+    "Children": 0,
+    "Segment": "microsoft.graph.forceDelete"
+  },
+  {
+    "Endpoint": "domains/{domain-id}/microsoft.graph.promote",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/microsoft.graph.promote",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/microsoft.graph.promote",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "microsoft.graph.promote"
+    ],
+    "Root": "domains",
+    "Children": 0,
+    "Segment": "microsoft.graph.promote"
+  },
+  {
+    "Endpoint": "domains/{domain-id}/microsoft.graph.verify",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/microsoft.graph.verify",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/microsoft.graph.verify",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "microsoft.graph.verify"
+    ],
+    "Root": "domains",
+    "Children": 0,
+    "Segment": "microsoft.graph.verify"
+  },
+  {
+    "Endpoint": "domains/{domain-id}/serviceConfigurationRecords",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/serviceConfigurationRecords",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/serviceConfigurationRecords",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "serviceConfigurationRecords"
+    ],
+    "Root": "domains",
+    "Children": 2,
+    "Segment": "serviceConfigurationRecords"
+  },
+  {
+    "Endpoint": "domains/{domain-id}/serviceConfigurationRecords/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/serviceConfigurationRecords/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/serviceConfigurationRecords/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "serviceConfigurationRecords",
+      "$count"
+    ],
+    "Root": "domains",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "domains/{domain-id}/serviceConfigurationRecords/{domainDnsRecord-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/serviceConfigurationRecords/{domainDnsRecord-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/serviceConfigurationRecords/{domainDnsRecord-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "serviceConfigurationRecords",
+      "{domainDnsRecord-id}"
+    ],
+    "Root": "domains",
+    "Children": 0,
+    "Segment": "{domainDnsRecord-id}"
+  },
+  {
+    "Endpoint": "domains/{domain-id}/sharedEmailDomainInvitations",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/sharedEmailDomainInvitations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "sharedEmailDomainInvitations"
+    ],
+    "Root": "domains",
+    "Children": 2,
+    "Segment": "sharedEmailDomainInvitations"
+  },
+  {
+    "Endpoint": "domains/{domain-id}/sharedEmailDomainInvitations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/sharedEmailDomainInvitations/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "sharedEmailDomainInvitations",
+      "$count"
+    ],
+    "Root": "domains",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "domains/{domain-id}/sharedEmailDomainInvitations/{sharedEmailDomainInvitation-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/sharedEmailDomainInvitations/{sharedEmailDomainInvitation-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "sharedEmailDomainInvitations",
+      "{sharedEmailDomainInvitation-id}"
+    ],
+    "Root": "domains",
+    "Children": 0,
+    "Segment": "{sharedEmailDomainInvitation-id}"
+  },
+  {
+    "Endpoint": "domains/{domain-id}/verificationDnsRecords",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/verificationDnsRecords",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/verificationDnsRecords",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "verificationDnsRecords"
+    ],
+    "Root": "domains",
+    "Children": 2,
+    "Segment": "verificationDnsRecords"
+  },
+  {
+    "Endpoint": "domains/{domain-id}/verificationDnsRecords/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/verificationDnsRecords/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/verificationDnsRecords/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "verificationDnsRecords",
+      "$count"
+    ],
+    "Root": "domains",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "domains/{domain-id}/verificationDnsRecords/{domainDnsRecord-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/verificationDnsRecords/{domainDnsRecord-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/verificationDnsRecords/{domainDnsRecord-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "verificationDnsRecords",
+      "{domainDnsRecord-id}"
+    ],
+    "Root": "domains",
+    "Children": 0,
+    "Segment": "{domainDnsRecord-id}"
+  }
+]

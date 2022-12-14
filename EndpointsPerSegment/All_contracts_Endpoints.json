@@ -1,0 +1,248 @@
+[
+  {
+    "Endpoint": "contracts",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contracts",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/contracts",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "contracts"
+    ],
+    "Root": "contracts",
+    "Children": 6,
+    "Segment": "contracts"
+  },
+  {
+    "Endpoint": "contracts/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contracts/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/contracts/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "contracts",
+      "$count"
+    ],
+    "Root": "contracts",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "contracts/{contract-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contracts/{contract-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/contracts/{contract-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "contracts",
+      "{contract-id}"
+    ],
+    "Root": "contracts",
+    "Children": 5,
+    "Segment": "{contract-id}"
+  },
+  {
+    "Endpoint": "contracts/{contract-id}/microsoft.graph.checkMemberGroups",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contracts/{contract-id}/microsoft.graph.checkMemberGroups",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/contracts/{contract-id}/microsoft.graph.checkMemberGroups",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "contracts",
+      "{contract-id}",
+      "microsoft.graph.checkMemberGroups"
+    ],
+    "Root": "contracts",
+    "Children": 0,
+    "Segment": "microsoft.graph.checkMemberGroups"
+  },
+  {
+    "Endpoint": "contracts/{contract-id}/microsoft.graph.checkMemberObjects",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contracts/{contract-id}/microsoft.graph.checkMemberObjects",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/contracts/{contract-id}/microsoft.graph.checkMemberObjects",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "contracts",
+      "{contract-id}",
+      "microsoft.graph.checkMemberObjects"
+    ],
+    "Root": "contracts",
+    "Children": 0,
+    "Segment": "microsoft.graph.checkMemberObjects"
+  },
+  {
+    "Endpoint": "contracts/{contract-id}/microsoft.graph.getMemberGroups",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contracts/{contract-id}/microsoft.graph.getMemberGroups",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/contracts/{contract-id}/microsoft.graph.getMemberGroups",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "contracts",
+      "{contract-id}",
+      "microsoft.graph.getMemberGroups"
+    ],
+    "Root": "contracts",
+    "Children": 0,
+    "Segment": "microsoft.graph.getMemberGroups"
+  },
+  {
+    "Endpoint": "contracts/{contract-id}/microsoft.graph.getMemberObjects",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contracts/{contract-id}/microsoft.graph.getMemberObjects",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/contracts/{contract-id}/microsoft.graph.getMemberObjects",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "contracts",
+      "{contract-id}",
+      "microsoft.graph.getMemberObjects"
+    ],
+    "Root": "contracts",
+    "Children": 0,
+    "Segment": "microsoft.graph.getMemberObjects"
+  },
+  {
+    "Endpoint": "contracts/{contract-id}/microsoft.graph.restore",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contracts/{contract-id}/microsoft.graph.restore",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/contracts/{contract-id}/microsoft.graph.restore",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "contracts",
+      "{contract-id}",
+      "microsoft.graph.restore"
+    ],
+    "Root": "contracts",
+    "Children": 0,
+    "Segment": "microsoft.graph.restore"
+  },
+  {
+    "Endpoint": "contracts/microsoft.graph.getAvailableExtensionProperties",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contracts/microsoft.graph.getAvailableExtensionProperties",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "contracts",
+      "microsoft.graph.getAvailableExtensionProperties"
+    ],
+    "Root": "contracts",
+    "Children": 0,
+    "Segment": "microsoft.graph.getAvailableExtensionProperties"
+  },
+  {
+    "Endpoint": "contracts/microsoft.graph.getByIds",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contracts/microsoft.graph.getByIds",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/contracts/microsoft.graph.getByIds",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "contracts",
+      "microsoft.graph.getByIds"
+    ],
+    "Root": "contracts",
+    "Children": 0,
+    "Segment": "microsoft.graph.getByIds"
+  },
+  {
+    "Endpoint": "contracts/microsoft.graph.getUserOwnedObjects",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/contracts/microsoft.graph.getUserOwnedObjects",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "contracts",
+      "microsoft.graph.getUserOwnedObjects"
+    ],
+    "Root": "contracts",
+    "Children": 0,
+    "Segment": "microsoft.graph.getUserOwnedObjects"
+  },
+  {
+    "Endpoint": "contracts/microsoft.graph.validateProperties",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contracts/microsoft.graph.validateProperties",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/contracts/microsoft.graph.validateProperties",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "contracts",
+      "microsoft.graph.validateProperties"
+    ],
+    "Root": "contracts",
+    "Children": 0,
+    "Segment": "microsoft.graph.validateProperties"
+  }
+]

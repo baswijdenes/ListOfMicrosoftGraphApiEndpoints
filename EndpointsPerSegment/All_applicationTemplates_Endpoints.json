@@ -1,0 +1,88 @@
+[
+  {
+    "Endpoint": "applicationTemplates",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applicationTemplates",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applicationTemplates",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "applicationTemplates"
+    ],
+    "Root": "applicationTemplates",
+    "Children": 2,
+    "Segment": "applicationTemplates"
+  },
+  {
+    "Endpoint": "applicationTemplates/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applicationTemplates/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applicationTemplates/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applicationTemplates",
+      "$count"
+    ],
+    "Root": "applicationTemplates",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "applicationTemplates/{applicationTemplate-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applicationTemplates/{applicationTemplate-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applicationTemplates/{applicationTemplate-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "applicationTemplates",
+      "{applicationTemplate-id}"
+    ],
+    "Root": "applicationTemplates",
+    "Children": 1,
+    "Segment": "{applicationTemplate-id}"
+  },
+  {
+    "Endpoint": "applicationTemplates/{applicationTemplate-id}/microsoft.graph.instantiate",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applicationTemplates/{applicationTemplate-id}/microsoft.graph.instantiate",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applicationTemplates/{applicationTemplate-id}/microsoft.graph.instantiate",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applicationTemplates",
+      "{applicationTemplate-id}",
+      "microsoft.graph.instantiate"
+    ],
+    "Root": "applicationTemplates",
+    "Children": 0,
+    "Segment": "microsoft.graph.instantiate"
+  }
+]

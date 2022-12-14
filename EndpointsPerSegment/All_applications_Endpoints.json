@@ -1,0 +1,2103 @@
+[
+  {
+    "Endpoint": "applications",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "applications"
+    ],
+    "Root": "applications",
+    "Children": 7,
+    "Segment": "applications"
+  },
+  {
+    "Endpoint": "applications/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "$count"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "applications/{application-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}"
+    ],
+    "Root": "applications",
+    "Children": 22,
+    "Segment": "{application-id}"
+  },
+  {
+    "Endpoint": "applications/{application-id}/appManagementPolicies",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/appManagementPolicies",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "appManagementPolicies"
+    ],
+    "Root": "applications",
+    "Children": 3,
+    "Segment": "appManagementPolicies"
+  },
+  {
+    "Endpoint": "applications/{application-id}/appManagementPolicies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/appManagementPolicies/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "appManagementPolicies",
+      "$count"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "applications/{application-id}/appManagementPolicies/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/appManagementPolicies/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "appManagementPolicies",
+      "$ref"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "applications/{application-id}/appManagementPolicies/{appManagementPolicy-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "applications",
+      "{application-id}",
+      "appManagementPolicies",
+      "{appManagementPolicy-id}"
+    ],
+    "Root": "applications",
+    "Children": 1,
+    "Segment": "{appManagementPolicy-id}"
+  },
+  {
+    "Endpoint": "applications/{application-id}/appManagementPolicies/{appManagementPolicy-id}/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/appManagementPolicies/{appManagementPolicy-id}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "appManagementPolicies",
+      "{appManagementPolicy-id}",
+      "$ref"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "applications/{application-id}/connectorGroup",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/connectorGroup",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "connectorGroup"
+    ],
+    "Root": "applications",
+    "Children": 1,
+    "Segment": "connectorGroup"
+  },
+  {
+    "Endpoint": "applications/{application-id}/connectorGroup/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/connectorGroup/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "connectorGroup",
+      "$ref"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "applications/{application-id}/createdOnBehalfOf",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/createdOnBehalfOf",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/createdOnBehalfOf",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "createdOnBehalfOf"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "createdOnBehalfOf"
+  },
+  {
+    "Endpoint": "applications/{application-id}/extensionProperties",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/extensionProperties",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/extensionProperties",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "extensionProperties"
+    ],
+    "Root": "applications",
+    "Children": 2,
+    "Segment": "extensionProperties"
+  },
+  {
+    "Endpoint": "applications/{application-id}/extensionProperties/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/extensionProperties/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/extensionProperties/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "extensionProperties",
+      "$count"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "applications/{application-id}/extensionProperties/{extensionProperty-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/extensionProperties/{extensionProperty-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/extensionProperties/{extensionProperty-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "extensionProperties",
+      "{extensionProperty-id}"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "{extensionProperty-id}"
+  },
+  {
+    "Endpoint": "applications/{application-id}/federatedIdentityCredentials",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/federatedIdentityCredentials",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/federatedIdentityCredentials",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "federatedIdentityCredentials"
+    ],
+    "Root": "applications",
+    "Children": 2,
+    "Segment": "federatedIdentityCredentials"
+  },
+  {
+    "Endpoint": "applications/{application-id}/federatedIdentityCredentials/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/federatedIdentityCredentials/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/federatedIdentityCredentials/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "federatedIdentityCredentials",
+      "$count"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "applications/{application-id}/federatedIdentityCredentials/{federatedIdentityCredential-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/federatedIdentityCredentials/{federatedIdentityCredential-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/federatedIdentityCredentials/{federatedIdentityCredential-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "federatedIdentityCredentials",
+      "{federatedIdentityCredential-id}"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "{federatedIdentityCredential-id}"
+  },
+  {
+    "Endpoint": "applications/{application-id}/homeRealmDiscoveryPolicies",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/homeRealmDiscoveryPolicies",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/homeRealmDiscoveryPolicies",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "homeRealmDiscoveryPolicies"
+    ],
+    "Root": "applications",
+    "Children": 2,
+    "Segment": "homeRealmDiscoveryPolicies"
+  },
+  {
+    "Endpoint": "applications/{application-id}/homeRealmDiscoveryPolicies/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/homeRealmDiscoveryPolicies/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/homeRealmDiscoveryPolicies/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "homeRealmDiscoveryPolicies",
+      "$count"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "applications/{application-id}/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "homeRealmDiscoveryPolicies",
+      "{homeRealmDiscoveryPolicy-id}"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "{homeRealmDiscoveryPolicy-id}"
+  },
+  {
+    "Endpoint": "applications/{application-id}/logo",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/logo",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/logo",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "logo"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "logo"
+  },
+  {
+    "Endpoint": "applications/{application-id}/microsoft.graph.addKey",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/microsoft.graph.addKey",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/microsoft.graph.addKey",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "microsoft.graph.addKey"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.addKey"
+  },
+  {
+    "Endpoint": "applications/{application-id}/microsoft.graph.addPassword",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/microsoft.graph.addPassword",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/microsoft.graph.addPassword",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "microsoft.graph.addPassword"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.addPassword"
+  },
+  {
+    "Endpoint": "applications/{application-id}/microsoft.graph.checkMemberGroups",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/microsoft.graph.checkMemberGroups",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/microsoft.graph.checkMemberGroups",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "microsoft.graph.checkMemberGroups"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.checkMemberGroups"
+  },
+  {
+    "Endpoint": "applications/{application-id}/microsoft.graph.checkMemberObjects",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/microsoft.graph.checkMemberObjects",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/microsoft.graph.checkMemberObjects",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "microsoft.graph.checkMemberObjects"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.checkMemberObjects"
+  },
+  {
+    "Endpoint": "applications/{application-id}/microsoft.graph.getMemberGroups",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/microsoft.graph.getMemberGroups",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/microsoft.graph.getMemberGroups",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "microsoft.graph.getMemberGroups"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.getMemberGroups"
+  },
+  {
+    "Endpoint": "applications/{application-id}/microsoft.graph.getMemberObjects",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/microsoft.graph.getMemberObjects",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/microsoft.graph.getMemberObjects",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "microsoft.graph.getMemberObjects"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.getMemberObjects"
+  },
+  {
+    "Endpoint": "applications/{application-id}/microsoft.graph.removeKey",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/microsoft.graph.removeKey",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/microsoft.graph.removeKey",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "microsoft.graph.removeKey"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.removeKey"
+  },
+  {
+    "Endpoint": "applications/{application-id}/microsoft.graph.removePassword",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/microsoft.graph.removePassword",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/microsoft.graph.removePassword",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "microsoft.graph.removePassword"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.removePassword"
+  },
+  {
+    "Endpoint": "applications/{application-id}/microsoft.graph.restore",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/microsoft.graph.restore",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/microsoft.graph.restore",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "microsoft.graph.restore"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.restore"
+  },
+  {
+    "Endpoint": "applications/{application-id}/microsoft.graph.setVerifiedPublisher",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/microsoft.graph.setVerifiedPublisher",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/microsoft.graph.setVerifiedPublisher",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "microsoft.graph.setVerifiedPublisher"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.setVerifiedPublisher"
+  },
+  {
+    "Endpoint": "applications/{application-id}/microsoft.graph.unsetVerifiedPublisher",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/microsoft.graph.unsetVerifiedPublisher",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/microsoft.graph.unsetVerifiedPublisher",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "microsoft.graph.unsetVerifiedPublisher"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.unsetVerifiedPublisher"
+  },
+  {
+    "Endpoint": "applications/{application-id}/owners",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/owners",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/owners",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "owners"
+    ],
+    "Root": "applications",
+    "Children": 7,
+    "Segment": "owners"
+  },
+  {
+    "Endpoint": "applications/{application-id}/owners/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/owners/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/owners/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "owners",
+      "$count"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "applications/{application-id}/owners/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/owners/$ref",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/owners/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "owners",
+      "$ref"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "applications/{application-id}/owners/{directoryObject-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "applications",
+      "{application-id}",
+      "owners",
+      "{directoryObject-id}"
+    ],
+    "Root": "applications",
+    "Children": 5,
+    "Segment": "{directoryObject-id}"
+  },
+  {
+    "Endpoint": "applications/{application-id}/owners/{directoryObject-id}/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/owners/{directoryObject-id}/$ref",
+    "v1.0-Methods": [
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/owners/{directoryObject-id}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "owners",
+      "{directoryObject-id}",
+      "$ref"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "applications/{application-id}/owners/{directoryObject-id}/microsoft.graph.appRoleAssignment",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/owners/{directoryObject-id}/microsoft.graph.appRoleAssignment",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "applications",
+      "{application-id}",
+      "owners",
+      "{directoryObject-id}",
+      "microsoft.graph.appRoleAssignment"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.appRoleAssignment"
+  },
+  {
+    "Endpoint": "applications/{application-id}/owners/{directoryObject-id}/microsoft.graph.endpoint",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/owners/{directoryObject-id}/microsoft.graph.endpoint",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/owners/{directoryObject-id}/microsoft.graph.endpoint",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "owners",
+      "{directoryObject-id}",
+      "microsoft.graph.endpoint"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.endpoint"
+  },
+  {
+    "Endpoint": "applications/{application-id}/owners/{directoryObject-id}/microsoft.graph.servicePrincipal",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/owners/{directoryObject-id}/microsoft.graph.servicePrincipal",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/owners/{directoryObject-id}/microsoft.graph.servicePrincipal",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "owners",
+      "{directoryObject-id}",
+      "microsoft.graph.servicePrincipal"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.servicePrincipal"
+  },
+  {
+    "Endpoint": "applications/{application-id}/owners/{directoryObject-id}/microsoft.graph.user",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/owners/{directoryObject-id}/microsoft.graph.user",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/owners/{directoryObject-id}/microsoft.graph.user",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "owners",
+      "{directoryObject-id}",
+      "microsoft.graph.user"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.user"
+  },
+  {
+    "Endpoint": "applications/{application-id}/owners/microsoft.graph.appRoleAssignment",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/owners/microsoft.graph.appRoleAssignment",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "applications",
+      "{application-id}",
+      "owners",
+      "microsoft.graph.appRoleAssignment"
+    ],
+    "Root": "applications",
+    "Children": 1,
+    "Segment": "microsoft.graph.appRoleAssignment"
+  },
+  {
+    "Endpoint": "applications/{application-id}/owners/microsoft.graph.appRoleAssignment/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/owners/microsoft.graph.appRoleAssignment/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "applications",
+      "{application-id}",
+      "owners",
+      "microsoft.graph.appRoleAssignment",
+      "$count"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "applications/{application-id}/owners/microsoft.graph.endpoint",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/owners/microsoft.graph.endpoint",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/owners/microsoft.graph.endpoint",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "owners",
+      "microsoft.graph.endpoint"
+    ],
+    "Root": "applications",
+    "Children": 1,
+    "Segment": "microsoft.graph.endpoint"
+  },
+  {
+    "Endpoint": "applications/{application-id}/owners/microsoft.graph.endpoint/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/owners/microsoft.graph.endpoint/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/owners/microsoft.graph.endpoint/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "owners",
+      "microsoft.graph.endpoint",
+      "$count"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "applications/{application-id}/owners/microsoft.graph.servicePrincipal",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/owners/microsoft.graph.servicePrincipal",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/owners/microsoft.graph.servicePrincipal",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "owners",
+      "microsoft.graph.servicePrincipal"
+    ],
+    "Root": "applications",
+    "Children": 1,
+    "Segment": "microsoft.graph.servicePrincipal"
+  },
+  {
+    "Endpoint": "applications/{application-id}/owners/microsoft.graph.servicePrincipal/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/owners/microsoft.graph.servicePrincipal/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/owners/microsoft.graph.servicePrincipal/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "owners",
+      "microsoft.graph.servicePrincipal",
+      "$count"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "applications/{application-id}/owners/microsoft.graph.user",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/owners/microsoft.graph.user",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/owners/microsoft.graph.user",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "owners",
+      "microsoft.graph.user"
+    ],
+    "Root": "applications",
+    "Children": 1,
+    "Segment": "microsoft.graph.user"
+  },
+  {
+    "Endpoint": "applications/{application-id}/owners/microsoft.graph.user/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/owners/microsoft.graph.user/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/owners/microsoft.graph.user/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "owners",
+      "microsoft.graph.user",
+      "$count"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization"
+    ],
+    "Root": "applications",
+    "Children": 4,
+    "Segment": "synchronization"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/jobs",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/jobs",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "jobs"
+    ],
+    "Root": "applications",
+    "Children": 3,
+    "Segment": "jobs"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/jobs/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/jobs/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "jobs",
+      "$count"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/jobs/{synchronizationJob-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/jobs/{synchronizationJob-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "jobs",
+      "{synchronizationJob-id}"
+    ],
+    "Root": "applications",
+    "Children": 7,
+    "Segment": "{synchronizationJob-id}"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.pause",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.pause",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "jobs",
+      "{synchronizationJob-id}",
+      "microsoft.graph.pause"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.pause"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.provisionOnDemand",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.provisionOnDemand",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "jobs",
+      "{synchronizationJob-id}",
+      "microsoft.graph.provisionOnDemand"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.provisionOnDemand"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.restart",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.restart",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "jobs",
+      "{synchronizationJob-id}",
+      "microsoft.graph.restart"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.restart"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.start",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.start",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "jobs",
+      "{synchronizationJob-id}",
+      "microsoft.graph.start"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.start"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.stop",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.stop",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "jobs",
+      "{synchronizationJob-id}",
+      "microsoft.graph.stop"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.stop"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.validateCredentials",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.validateCredentials",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "jobs",
+      "{synchronizationJob-id}",
+      "microsoft.graph.validateCredentials"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.validateCredentials"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/schema",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/schema",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "jobs",
+      "{synchronizationJob-id}",
+      "schema"
+    ],
+    "Root": "applications",
+    "Children": 4,
+    "Segment": "schema"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/schema/directories",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/schema/directories",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "jobs",
+      "{synchronizationJob-id}",
+      "schema",
+      "directories"
+    ],
+    "Root": "applications",
+    "Children": 2,
+    "Segment": "directories"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/schema/directories/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/schema/directories/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "jobs",
+      "{synchronizationJob-id}",
+      "schema",
+      "directories",
+      "$count"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/schema/directories/{directoryDefinition-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/schema/directories/{directoryDefinition-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "jobs",
+      "{synchronizationJob-id}",
+      "schema",
+      "directories",
+      "{directoryDefinition-id}"
+    ],
+    "Root": "applications",
+    "Children": 1,
+    "Segment": "{directoryDefinition-id}"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/schema/directories/{directoryDefinition-id}/microsoft.graph.discover",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/schema/directories/{directoryDefinition-id}/microsoft.graph.discover",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "jobs",
+      "{synchronizationJob-id}",
+      "schema",
+      "directories",
+      "{directoryDefinition-id}",
+      "microsoft.graph.discover"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.discover"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/schema/microsoft.graph.filterOperators()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/schema/microsoft.graph.filterOperators()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "jobs",
+      "{synchronizationJob-id}",
+      "schema",
+      "microsoft.graph.filterOperators()"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.filterOperators()"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/schema/microsoft.graph.functions()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/schema/microsoft.graph.functions()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "jobs",
+      "{synchronizationJob-id}",
+      "schema",
+      "microsoft.graph.functions()"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.functions()"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/schema/microsoft.graph.parseExpression",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/jobs/{synchronizationJob-id}/schema/microsoft.graph.parseExpression",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "jobs",
+      "{synchronizationJob-id}",
+      "schema",
+      "microsoft.graph.parseExpression"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.parseExpression"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/jobs/microsoft.graph.validateCredentials",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/jobs/microsoft.graph.validateCredentials",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "jobs",
+      "microsoft.graph.validateCredentials"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.validateCredentials"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/microsoft.graph.acquireAccessToken",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/microsoft.graph.acquireAccessToken",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "microsoft.graph.acquireAccessToken"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.acquireAccessToken"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/microsoft.graph.Ping()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/microsoft.graph.Ping()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "microsoft.graph.Ping()"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.Ping()"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/templates",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/templates",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "templates"
+    ],
+    "Root": "applications",
+    "Children": 2,
+    "Segment": "templates"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/templates/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/templates/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "templates",
+      "$count"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/templates/{synchronizationTemplate-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/templates/{synchronizationTemplate-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "templates",
+      "{synchronizationTemplate-id}"
+    ],
+    "Root": "applications",
+    "Children": 1,
+    "Segment": "{synchronizationTemplate-id}"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/templates/{synchronizationTemplate-id}/schema",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/templates/{synchronizationTemplate-id}/schema",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "templates",
+      "{synchronizationTemplate-id}",
+      "schema"
+    ],
+    "Root": "applications",
+    "Children": 4,
+    "Segment": "schema"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/templates/{synchronizationTemplate-id}/schema/directories",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/templates/{synchronizationTemplate-id}/schema/directories",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "templates",
+      "{synchronizationTemplate-id}",
+      "schema",
+      "directories"
+    ],
+    "Root": "applications",
+    "Children": 2,
+    "Segment": "directories"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/templates/{synchronizationTemplate-id}/schema/directories/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/templates/{synchronizationTemplate-id}/schema/directories/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "templates",
+      "{synchronizationTemplate-id}",
+      "schema",
+      "directories",
+      "$count"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/templates/{synchronizationTemplate-id}/schema/directories/{directoryDefinition-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/templates/{synchronizationTemplate-id}/schema/directories/{directoryDefinition-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "templates",
+      "{synchronizationTemplate-id}",
+      "schema",
+      "directories",
+      "{directoryDefinition-id}"
+    ],
+    "Root": "applications",
+    "Children": 1,
+    "Segment": "{directoryDefinition-id}"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/templates/{synchronizationTemplate-id}/schema/directories/{directoryDefinition-id}/microsoft.graph.discover",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/templates/{synchronizationTemplate-id}/schema/directories/{directoryDefinition-id}/microsoft.graph.discover",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "templates",
+      "{synchronizationTemplate-id}",
+      "schema",
+      "directories",
+      "{directoryDefinition-id}",
+      "microsoft.graph.discover"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.discover"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/templates/{synchronizationTemplate-id}/schema/microsoft.graph.filterOperators()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/templates/{synchronizationTemplate-id}/schema/microsoft.graph.filterOperators()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "templates",
+      "{synchronizationTemplate-id}",
+      "schema",
+      "microsoft.graph.filterOperators()"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.filterOperators()"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/templates/{synchronizationTemplate-id}/schema/microsoft.graph.functions()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/templates/{synchronizationTemplate-id}/schema/microsoft.graph.functions()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "templates",
+      "{synchronizationTemplate-id}",
+      "schema",
+      "microsoft.graph.functions()"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.functions()"
+  },
+  {
+    "Endpoint": "applications/{application-id}/synchronization/templates/{synchronizationTemplate-id}/schema/microsoft.graph.parseExpression",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/synchronization/templates/{synchronizationTemplate-id}/schema/microsoft.graph.parseExpression",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "synchronization",
+      "templates",
+      "{synchronizationTemplate-id}",
+      "schema",
+      "microsoft.graph.parseExpression"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.parseExpression"
+  },
+  {
+    "Endpoint": "applications/{application-id}/tokenIssuancePolicies",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/tokenIssuancePolicies",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/tokenIssuancePolicies",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "tokenIssuancePolicies"
+    ],
+    "Root": "applications",
+    "Children": 3,
+    "Segment": "tokenIssuancePolicies"
+  },
+  {
+    "Endpoint": "applications/{application-id}/tokenIssuancePolicies/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/tokenIssuancePolicies/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/tokenIssuancePolicies/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "tokenIssuancePolicies",
+      "$count"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "applications/{application-id}/tokenIssuancePolicies/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/tokenIssuancePolicies/$ref",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/tokenIssuancePolicies/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "tokenIssuancePolicies",
+      "$ref"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "applications/{application-id}/tokenIssuancePolicies/{tokenIssuancePolicy-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "applications",
+      "{application-id}",
+      "tokenIssuancePolicies",
+      "{tokenIssuancePolicy-id}"
+    ],
+    "Root": "applications",
+    "Children": 1,
+    "Segment": "{tokenIssuancePolicy-id}"
+  },
+  {
+    "Endpoint": "applications/{application-id}/tokenIssuancePolicies/{tokenIssuancePolicy-id}/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/tokenIssuancePolicies/{tokenIssuancePolicy-id}/$ref",
+    "v1.0-Methods": [
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/tokenIssuancePolicies/{tokenIssuancePolicy-id}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "tokenIssuancePolicies",
+      "{tokenIssuancePolicy-id}",
+      "$ref"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "applications/{application-id}/tokenLifetimePolicies",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/tokenLifetimePolicies",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/tokenLifetimePolicies",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "tokenLifetimePolicies"
+    ],
+    "Root": "applications",
+    "Children": 3,
+    "Segment": "tokenLifetimePolicies"
+  },
+  {
+    "Endpoint": "applications/{application-id}/tokenLifetimePolicies/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/tokenLifetimePolicies/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/tokenLifetimePolicies/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "tokenLifetimePolicies",
+      "$count"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "applications/{application-id}/tokenLifetimePolicies/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/tokenLifetimePolicies/$ref",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/tokenLifetimePolicies/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "tokenLifetimePolicies",
+      "$ref"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "applications/{application-id}/tokenLifetimePolicies/{tokenLifetimePolicy-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "applications",
+      "{application-id}",
+      "tokenLifetimePolicies",
+      "{tokenLifetimePolicy-id}"
+    ],
+    "Root": "applications",
+    "Children": 1,
+    "Segment": "{tokenLifetimePolicy-id}"
+  },
+  {
+    "Endpoint": "applications/{application-id}/tokenLifetimePolicies/{tokenLifetimePolicy-id}/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/{application-id}/tokenLifetimePolicies/{tokenLifetimePolicy-id}/$ref",
+    "v1.0-Methods": [
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/{application-id}/tokenLifetimePolicies/{tokenLifetimePolicy-id}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "applications",
+      "{application-id}",
+      "tokenLifetimePolicies",
+      "{tokenLifetimePolicy-id}",
+      "$ref"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "applications/microsoft.graph.delta()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/microsoft.graph.delta()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/microsoft.graph.delta()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "applications",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "applications/microsoft.graph.getAvailableExtensionProperties",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/microsoft.graph.getAvailableExtensionProperties",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "applications",
+      "microsoft.graph.getAvailableExtensionProperties"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.getAvailableExtensionProperties"
+  },
+  {
+    "Endpoint": "applications/microsoft.graph.getByIds",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/microsoft.graph.getByIds",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/microsoft.graph.getByIds",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "microsoft.graph.getByIds"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.getByIds"
+  },
+  {
+    "Endpoint": "applications/microsoft.graph.getUserOwnedObjects",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/microsoft.graph.getUserOwnedObjects",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "microsoft.graph.getUserOwnedObjects"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.getUserOwnedObjects"
+  },
+  {
+    "Endpoint": "applications/microsoft.graph.validateProperties",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applications/microsoft.graph.validateProperties",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applications/microsoft.graph.validateProperties",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "applications",
+      "microsoft.graph.validateProperties"
+    ],
+    "Root": "applications",
+    "Children": 0,
+    "Segment": "microsoft.graph.validateProperties"
+  }
+]

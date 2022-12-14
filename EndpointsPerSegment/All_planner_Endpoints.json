@@ -1,0 +1,1189 @@
+[
+  {
+    "Endpoint": "planner",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Path": [
+      "planner"
+    ],
+    "Root": "planner",
+    "Children": 4,
+    "Segment": "planner"
+  },
+  {
+    "Endpoint": "planner/buckets",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/buckets",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/buckets",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "planner",
+      "buckets"
+    ],
+    "Root": "planner",
+    "Children": 2,
+    "Segment": "buckets"
+  },
+  {
+    "Endpoint": "planner/buckets/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/buckets/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/buckets/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "planner",
+      "buckets",
+      "$count"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "planner/buckets/{plannerBucket-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/buckets/{plannerBucket-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/buckets/{plannerBucket-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "buckets",
+      "{plannerBucket-id}"
+    ],
+    "Root": "planner",
+    "Children": 1,
+    "Segment": "{plannerBucket-id}"
+  },
+  {
+    "Endpoint": "planner/buckets/{plannerBucket-id}/tasks",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/buckets/{plannerBucket-id}/tasks",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/buckets/{plannerBucket-id}/tasks",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "planner",
+      "buckets",
+      "{plannerBucket-id}",
+      "tasks"
+    ],
+    "Root": "planner",
+    "Children": 2,
+    "Segment": "tasks"
+  },
+  {
+    "Endpoint": "planner/buckets/{plannerBucket-id}/tasks/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/buckets/{plannerBucket-id}/tasks/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/buckets/{plannerBucket-id}/tasks/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "planner",
+      "buckets",
+      "{plannerBucket-id}",
+      "tasks",
+      "$count"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "planner/buckets/{plannerBucket-id}/tasks/{plannerTask-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/buckets/{plannerBucket-id}/tasks/{plannerTask-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/buckets/{plannerBucket-id}/tasks/{plannerTask-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "buckets",
+      "{plannerBucket-id}",
+      "tasks",
+      "{plannerTask-id}"
+    ],
+    "Root": "planner",
+    "Children": 4,
+    "Segment": "{plannerTask-id}"
+  },
+  {
+    "Endpoint": "planner/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/assignedToTaskBoardFormat",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/assignedToTaskBoardFormat",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/assignedToTaskBoardFormat",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "buckets",
+      "{plannerBucket-id}",
+      "tasks",
+      "{plannerTask-id}",
+      "assignedToTaskBoardFormat"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "assignedToTaskBoardFormat"
+  },
+  {
+    "Endpoint": "planner/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/bucketTaskBoardFormat",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/bucketTaskBoardFormat",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/bucketTaskBoardFormat",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "buckets",
+      "{plannerBucket-id}",
+      "tasks",
+      "{plannerTask-id}",
+      "bucketTaskBoardFormat"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "bucketTaskBoardFormat"
+  },
+  {
+    "Endpoint": "planner/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/details",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/details",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/details",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "buckets",
+      "{plannerBucket-id}",
+      "tasks",
+      "{plannerTask-id}",
+      "details"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "details"
+  },
+  {
+    "Endpoint": "planner/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/progressTaskBoardFormat",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/progressTaskBoardFormat",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/progressTaskBoardFormat",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "buckets",
+      "{plannerBucket-id}",
+      "tasks",
+      "{plannerTask-id}",
+      "progressTaskBoardFormat"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "progressTaskBoardFormat"
+  },
+  {
+    "Endpoint": "planner/plans",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "planner",
+      "plans"
+    ],
+    "Root": "planner",
+    "Children": 2,
+    "Segment": "plans"
+  },
+  {
+    "Endpoint": "planner/plans/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "planner",
+      "plans",
+      "$count"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}"
+    ],
+    "Root": "planner",
+    "Children": 3,
+    "Segment": "{plannerPlan-id}"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}/buckets",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/buckets",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/buckets",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "buckets"
+    ],
+    "Root": "planner",
+    "Children": 2,
+    "Segment": "buckets"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}/buckets/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/buckets/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/buckets/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "buckets",
+      "$count"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "buckets",
+      "{plannerBucket-id}"
+    ],
+    "Root": "planner",
+    "Children": 1,
+    "Segment": "{plannerBucket-id}"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "buckets",
+      "{plannerBucket-id}",
+      "tasks"
+    ],
+    "Root": "planner",
+    "Children": 2,
+    "Segment": "tasks"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "buckets",
+      "{plannerBucket-id}",
+      "tasks",
+      "$count"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/{plannerTask-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/{plannerTask-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/{plannerTask-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "buckets",
+      "{plannerBucket-id}",
+      "tasks",
+      "{plannerTask-id}"
+    ],
+    "Root": "planner",
+    "Children": 4,
+    "Segment": "{plannerTask-id}"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/assignedToTaskBoardFormat",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/assignedToTaskBoardFormat",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/assignedToTaskBoardFormat",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "buckets",
+      "{plannerBucket-id}",
+      "tasks",
+      "{plannerTask-id}",
+      "assignedToTaskBoardFormat"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "assignedToTaskBoardFormat"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/bucketTaskBoardFormat",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/bucketTaskBoardFormat",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/bucketTaskBoardFormat",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "buckets",
+      "{plannerBucket-id}",
+      "tasks",
+      "{plannerTask-id}",
+      "bucketTaskBoardFormat"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "bucketTaskBoardFormat"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/details",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/details",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/details",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "buckets",
+      "{plannerBucket-id}",
+      "tasks",
+      "{plannerTask-id}",
+      "details"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "details"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/progressTaskBoardFormat",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/progressTaskBoardFormat",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/progressTaskBoardFormat",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "buckets",
+      "{plannerBucket-id}",
+      "tasks",
+      "{plannerTask-id}",
+      "progressTaskBoardFormat"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "progressTaskBoardFormat"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}/details",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/details",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/details",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "details"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "details"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}/tasks",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/tasks",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/tasks",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "tasks"
+    ],
+    "Root": "planner",
+    "Children": 2,
+    "Segment": "tasks"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}/tasks/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/tasks/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/tasks/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "tasks",
+      "$count"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}/tasks/{plannerTask-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/tasks/{plannerTask-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/tasks/{plannerTask-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "tasks",
+      "{plannerTask-id}"
+    ],
+    "Root": "planner",
+    "Children": 4,
+    "Segment": "{plannerTask-id}"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}/tasks/{plannerTask-id}/assignedToTaskBoardFormat",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/tasks/{plannerTask-id}/assignedToTaskBoardFormat",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/tasks/{plannerTask-id}/assignedToTaskBoardFormat",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "tasks",
+      "{plannerTask-id}",
+      "assignedToTaskBoardFormat"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "assignedToTaskBoardFormat"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}/tasks/{plannerTask-id}/bucketTaskBoardFormat",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/tasks/{plannerTask-id}/bucketTaskBoardFormat",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/tasks/{plannerTask-id}/bucketTaskBoardFormat",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "tasks",
+      "{plannerTask-id}",
+      "bucketTaskBoardFormat"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "bucketTaskBoardFormat"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}/tasks/{plannerTask-id}/details",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/tasks/{plannerTask-id}/details",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/tasks/{plannerTask-id}/details",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "tasks",
+      "{plannerTask-id}",
+      "details"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "details"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}/tasks/{plannerTask-id}/progressTaskBoardFormat",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/tasks/{plannerTask-id}/progressTaskBoardFormat",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/tasks/{plannerTask-id}/progressTaskBoardFormat",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "tasks",
+      "{plannerTask-id}",
+      "progressTaskBoardFormat"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "progressTaskBoardFormat"
+  },
+  {
+    "Endpoint": "planner/rosters",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/rosters",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "planner",
+      "rosters"
+    ],
+    "Root": "planner",
+    "Children": 2,
+    "Segment": "rosters"
+  },
+  {
+    "Endpoint": "planner/rosters/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/rosters/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "planner",
+      "rosters",
+      "$count"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "planner/rosters/{plannerRoster-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/rosters/{plannerRoster-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "rosters",
+      "{plannerRoster-id}"
+    ],
+    "Root": "planner",
+    "Children": 2,
+    "Segment": "{plannerRoster-id}"
+  },
+  {
+    "Endpoint": "planner/rosters/{plannerRoster-id}/members",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/rosters/{plannerRoster-id}/members",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "planner",
+      "rosters",
+      "{plannerRoster-id}",
+      "members"
+    ],
+    "Root": "planner",
+    "Children": 2,
+    "Segment": "members"
+  },
+  {
+    "Endpoint": "planner/rosters/{plannerRoster-id}/members/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/rosters/{plannerRoster-id}/members/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "planner",
+      "rosters",
+      "{plannerRoster-id}",
+      "members",
+      "$count"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "planner/rosters/{plannerRoster-id}/members/{plannerRosterMember-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/rosters/{plannerRoster-id}/members/{plannerRosterMember-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "rosters",
+      "{plannerRoster-id}",
+      "members",
+      "{plannerRosterMember-id}"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "{plannerRosterMember-id}"
+  },
+  {
+    "Endpoint": "planner/rosters/{plannerRoster-id}/plans",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/rosters/{plannerRoster-id}/plans",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "planner",
+      "rosters",
+      "{plannerRoster-id}",
+      "plans"
+    ],
+    "Root": "planner",
+    "Children": 2,
+    "Segment": "plans"
+  },
+  {
+    "Endpoint": "planner/rosters/{plannerRoster-id}/plans/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/rosters/{plannerRoster-id}/plans/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "planner",
+      "rosters",
+      "{plannerRoster-id}",
+      "plans",
+      "$count"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "planner/rosters/{plannerRoster-id}/plans/{plannerPlan-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/rosters/{plannerRoster-id}/plans/{plannerPlan-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "planner",
+      "rosters",
+      "{plannerRoster-id}",
+      "plans",
+      "{plannerPlan-id}"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "{plannerPlan-id}"
+  },
+  {
+    "Endpoint": "planner/tasks",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/tasks",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/tasks",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "planner",
+      "tasks"
+    ],
+    "Root": "planner",
+    "Children": 2,
+    "Segment": "tasks"
+  },
+  {
+    "Endpoint": "planner/tasks/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/tasks/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/tasks/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "planner",
+      "tasks",
+      "$count"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "planner/tasks/{plannerTask-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/tasks/{plannerTask-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/tasks/{plannerTask-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "tasks",
+      "{plannerTask-id}"
+    ],
+    "Root": "planner",
+    "Children": 4,
+    "Segment": "{plannerTask-id}"
+  },
+  {
+    "Endpoint": "planner/tasks/{plannerTask-id}/assignedToTaskBoardFormat",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/tasks/{plannerTask-id}/assignedToTaskBoardFormat",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/tasks/{plannerTask-id}/assignedToTaskBoardFormat",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "tasks",
+      "{plannerTask-id}",
+      "assignedToTaskBoardFormat"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "assignedToTaskBoardFormat"
+  },
+  {
+    "Endpoint": "planner/tasks/{plannerTask-id}/bucketTaskBoardFormat",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/tasks/{plannerTask-id}/bucketTaskBoardFormat",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/tasks/{plannerTask-id}/bucketTaskBoardFormat",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "tasks",
+      "{plannerTask-id}",
+      "bucketTaskBoardFormat"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "bucketTaskBoardFormat"
+  },
+  {
+    "Endpoint": "planner/tasks/{plannerTask-id}/details",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/tasks/{plannerTask-id}/details",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/tasks/{plannerTask-id}/details",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "tasks",
+      "{plannerTask-id}",
+      "details"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "details"
+  },
+  {
+    "Endpoint": "planner/tasks/{plannerTask-id}/progressTaskBoardFormat",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/tasks/{plannerTask-id}/progressTaskBoardFormat",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/tasks/{plannerTask-id}/progressTaskBoardFormat",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "planner",
+      "tasks",
+      "{plannerTask-id}",
+      "progressTaskBoardFormat"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "progressTaskBoardFormat"
+  }
+]

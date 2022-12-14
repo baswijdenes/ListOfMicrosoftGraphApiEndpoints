@@ -1,0 +1,8 @@
+| Endpoint | v1.0 | V1.0-Url | v1.0-Methods | beta | Beta-Url | Beta-Methods | Path | Root | Children | Segment |
+| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------|
+| messageRecipients| False| | | True| https://graph.microsoft.com/beta/messageRecipients| Get Post| messageRecipients| messageRecipients| 2| messageRecipients|
+| messageRecipients/$count| False| | | True| https://graph.microsoft.com/beta/messageRecipients/$count| Get| messageRecipients $count| messageRecipients| 0| $count|
+| messageRecipients/{messageRecipient-id}| False| | | True| https://graph.microsoft.com/beta/messageRecipients/{messageRecipient-id}| Get Patch Delete| messageRecipients {messageRecipient-id}| messageRecipients| 1| {messageRecipient-id}|
+| messageRecipients/{messageRecipient-id}/events| False| | | True| https://graph.microsoft.com/beta/messageRecipients/{messageRecipient-id}/events| Get Post| messageRecipients {messageRecipient-id} events| messageRecipients| 2| events|
+| messageRecipients/{messageRecipient-id}/events/$count| False| | | True| https://graph.microsoft.com/beta/messageRecipients/{messageRecipient-id}/events/$count| Get| messageRecipients {messageRecipient-id} events $count| messageRecipients| 0| $count|
+| messageRecipients/{messageRecipient-id}/events/{messageEvent-id}| False| | | True| https://graph.microsoft.com/beta/messageRecipients/{messageRecipient-id}/events/{messageEvent-id}| Get Patch Delete| messageRecipients {messageRecipient-id} events {messageEvent-id}| messageRecipients| 0| {messageEvent-id}|

@@ -1,0 +1,58 @@
+[
+  {
+    "Endpoint": "functions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/functions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "functions"
+    ],
+    "Root": "functions",
+    "Children": 2,
+    "Segment": "functions"
+  },
+  {
+    "Endpoint": "functions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/functions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "functions",
+      "$count"
+    ],
+    "Root": "functions",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "functions/{attributeMappingFunctionSchema-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/functions/{attributeMappingFunctionSchema-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "functions",
+      "{attributeMappingFunctionSchema-id}"
+    ],
+    "Root": "functions",
+    "Children": 0,
+    "Segment": "{attributeMappingFunctionSchema-id}"
+  }
+]

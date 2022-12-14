@@ -1,0 +1,58 @@
+[
+  {
+    "Endpoint": "settings",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/settings",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "settings"
+    ],
+    "Root": "settings",
+    "Children": 2,
+    "Segment": "settings"
+  },
+  {
+    "Endpoint": "settings/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/settings/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "settings",
+      "$count"
+    ],
+    "Root": "settings",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "settings/{directorySetting-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/settings/{directorySetting-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "settings",
+      "{directorySetting-id}"
+    ],
+    "Root": "settings",
+    "Children": 0,
+    "Segment": "{directorySetting-id}"
+  }
+]

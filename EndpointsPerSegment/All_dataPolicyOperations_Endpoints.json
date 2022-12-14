@@ -1,0 +1,67 @@
+[
+  {
+    "Endpoint": "dataPolicyOperations",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/dataPolicyOperations",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/dataPolicyOperations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "dataPolicyOperations"
+    ],
+    "Root": "dataPolicyOperations",
+    "Children": 2,
+    "Segment": "dataPolicyOperations"
+  },
+  {
+    "Endpoint": "dataPolicyOperations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/dataPolicyOperations/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/dataPolicyOperations/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "dataPolicyOperations",
+      "$count"
+    ],
+    "Root": "dataPolicyOperations",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "dataPolicyOperations/{dataPolicyOperation-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/dataPolicyOperations/{dataPolicyOperation-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/dataPolicyOperations/{dataPolicyOperation-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "dataPolicyOperations",
+      "{dataPolicyOperation-id}"
+    ],
+    "Root": "dataPolicyOperations",
+    "Children": 0,
+    "Segment": "{dataPolicyOperation-id}"
+  }
+]

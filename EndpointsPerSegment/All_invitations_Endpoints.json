@@ -1,0 +1,88 @@
+[
+  {
+    "Endpoint": "invitations",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/invitations",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/invitations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "invitations"
+    ],
+    "Root": "invitations",
+    "Children": 2,
+    "Segment": "invitations"
+  },
+  {
+    "Endpoint": "invitations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/invitations/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/invitations/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "invitations",
+      "$count"
+    ],
+    "Root": "invitations",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "invitations/{invitation-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/invitations/{invitation-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/invitations/{invitation-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "invitations",
+      "{invitation-id}"
+    ],
+    "Root": "invitations",
+    "Children": 1,
+    "Segment": "{invitation-id}"
+  },
+  {
+    "Endpoint": "invitations/{invitation-id}/invitedUser",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/invitations/{invitation-id}/invitedUser",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/invitations/{invitation-id}/invitedUser",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "invitations",
+      "{invitation-id}",
+      "invitedUser"
+    ],
+    "Root": "invitations",
+    "Children": 0,
+    "Segment": "invitedUser"
+  }
+]

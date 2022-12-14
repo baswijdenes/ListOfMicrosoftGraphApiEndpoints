@@ -1,0 +1,67 @@
+[
+  {
+    "Endpoint": "teamsTemplates",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teamsTemplates",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamsTemplates",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamsTemplates"
+    ],
+    "Root": "teamsTemplates",
+    "Children": 2,
+    "Segment": "teamsTemplates"
+  },
+  {
+    "Endpoint": "teamsTemplates/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teamsTemplates/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamsTemplates/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamsTemplates",
+      "$count"
+    ],
+    "Root": "teamsTemplates",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamsTemplates/{teamsTemplate-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teamsTemplates/{teamsTemplate-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamsTemplates/{teamsTemplate-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamsTemplates",
+      "{teamsTemplate-id}"
+    ],
+    "Root": "teamsTemplates",
+    "Children": 0,
+    "Segment": "{teamsTemplate-id}"
+  }
+]

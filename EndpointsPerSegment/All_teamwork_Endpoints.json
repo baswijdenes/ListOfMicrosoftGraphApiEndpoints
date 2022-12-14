@@ -1,0 +1,6284 @@
+[
+  {
+    "Endpoint": "teamwork",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teamwork",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Path": [
+      "teamwork"
+    ],
+    "Root": "teamwork",
+    "Children": 6,
+    "Segment": "teamwork"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams"
+    ],
+    "Root": "teamwork",
+    "Children": 3,
+    "Segment": "deletedTeams"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 1,
+    "Segment": "{deletedTeam-id}"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels"
+    ],
+    "Root": "teamwork",
+    "Children": 4,
+    "Segment": "channels"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 9,
+    "Segment": "{channel-id}"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/filesFolder",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/filesFolder",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "filesFolder"
+    ],
+    "Root": "teamwork",
+    "Children": 1,
+    "Segment": "filesFolder"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/filesFolder/content",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/filesFolder/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "filesFolder",
+      "content"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/members",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/members",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "members"
+    ],
+    "Root": "teamwork",
+    "Children": 3,
+    "Segment": "members"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/members/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/members/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "members",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/members/{conversationMember-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/members/{conversationMember-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "members",
+      "{conversationMember-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{conversationMember-id}"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/members/microsoft.graph.add",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/members/microsoft.graph.add",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "members",
+      "microsoft.graph.add"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.add"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "messages"
+    ],
+    "Root": "teamwork",
+    "Children": 3,
+    "Segment": "messages"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 6,
+    "Segment": "{chatMessage-id}"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/hostedContents",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/hostedContents",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "hostedContents"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "hostedContents"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/hostedContents/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/hostedContents/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "hostedContents",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "hostedContents",
+      "{chatMessageHostedContent-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{chatMessageHostedContent-id}"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.setReaction",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.setReaction",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "microsoft.graph.setReaction"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.setReaction"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.softDelete",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.softDelete",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "microsoft.graph.softDelete"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.softDelete"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.undoSoftDelete",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.undoSoftDelete",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "microsoft.graph.undoSoftDelete"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.undoSoftDelete"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.unsetReaction",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.unsetReaction",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "microsoft.graph.unsetReaction"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.unsetReaction"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/replies",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/replies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies"
+    ],
+    "Root": "teamwork",
+    "Children": 3,
+    "Segment": "replies"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}"
+    ],
+    "Root": "teamwork",
+    "Children": 5,
+    "Segment": "{chatMessage-id1}"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "hostedContents"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "hostedContents"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "hostedContents",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/{chatMessageHostedContent-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/{chatMessageHostedContent-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "hostedContents",
+      "{chatMessageHostedContent-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{chatMessageHostedContent-id}"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.setReaction",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.setReaction",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "microsoft.graph.setReaction"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.setReaction"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.softDelete",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.softDelete",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "microsoft.graph.softDelete"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.softDelete"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.undoSoftDelete",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.undoSoftDelete",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "microsoft.graph.undoSoftDelete"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.undoSoftDelete"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.unsetReaction",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.unsetReaction",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "microsoft.graph.unsetReaction"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.unsetReaction"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/microsoft.graph.delta()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/microsoft.graph.delta()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/microsoft.graph.delta()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/messages/microsoft.graph.delta()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/microsoft.graph.completeMigration",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/microsoft.graph.completeMigration",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "microsoft.graph.completeMigration"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.completeMigration"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/microsoft.graph.doesUserHaveAccess(userId='@userId',tenantId='@tenantId',userPrincipalName='@userPrincipalName')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/microsoft.graph.doesUserHaveAccess(userId='@userId',tenantId='@tenantId',userPrincipalName='@userPrincipalName')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "microsoft.graph.doesUserHaveAccess(userId='@userId',tenantId='@tenantId',userPrincipalName='@userPrincipalName')"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.doesUserHaveAccess(userId='@userId',tenantId='@tenantId',userPrincipalName='@userPrincipalName')"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/microsoft.graph.provisionEmail",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/microsoft.graph.provisionEmail",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "microsoft.graph.provisionEmail"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.provisionEmail"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/microsoft.graph.removeEmail",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/microsoft.graph.removeEmail",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "microsoft.graph.removeEmail"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.removeEmail"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/sharedWithTeams",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/sharedWithTeams",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "sharedWithTeams"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "sharedWithTeams"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/sharedWithTeams/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/sharedWithTeams/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "sharedWithTeams",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "sharedWithTeams",
+      "{sharedWithChannelTeamInfo-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 1,
+    "Segment": "{sharedWithChannelTeamInfo-id}"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "sharedWithTeams",
+      "{sharedWithChannelTeamInfo-id}",
+      "allowedMembers"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "allowedMembers"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "sharedWithTeams",
+      "{sharedWithChannelTeamInfo-id}",
+      "allowedMembers",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/{conversationMember-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/{conversationMember-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "sharedWithTeams",
+      "{sharedWithChannelTeamInfo-id}",
+      "allowedMembers",
+      "{conversationMember-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{conversationMember-id}"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/tabs",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/tabs",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "tabs"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "tabs"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/tabs/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/tabs/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "tabs",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/tabs/{teamsTab-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/tabs/{teamsTab-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "tabs",
+      "{teamsTab-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 1,
+    "Segment": "{teamsTab-id}"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/tabs/{teamsTab-id}/teamsApp",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/{channel-id}/tabs/{teamsTab-id}/teamsApp",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "{channel-id}",
+      "tabs",
+      "{teamsTab-id}",
+      "teamsApp"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "teamsApp"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/microsoft.graph.allMessages()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/microsoft.graph.allMessages()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "microsoft.graph.allMessages()"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.allMessages()"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/{deletedTeam-id}/channels/microsoft.graph.getAllMessages()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/{deletedTeam-id}/channels/microsoft.graph.getAllMessages()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "{deletedTeam-id}",
+      "channels",
+      "microsoft.graph.getAllMessages()"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.getAllMessages()"
+  },
+  {
+    "Endpoint": "teamwork/deletedTeams/microsoft.graph.getAllMessages()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/deletedTeams/microsoft.graph.getAllMessages()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "deletedTeams",
+      "microsoft.graph.getAllMessages()"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.getAllMessages()"
+  },
+  {
+    "Endpoint": "teamwork/devices",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/devices",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "devices"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "devices"
+  },
+  {
+    "Endpoint": "teamwork/devices/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/devices/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "devices",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/devices/{teamworkDevice-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/devices/{teamworkDevice-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "devices",
+      "{teamworkDevice-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 7,
+    "Segment": "{teamworkDevice-id}"
+  },
+  {
+    "Endpoint": "teamwork/devices/{teamworkDevice-id}/activity",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/devices/{teamworkDevice-id}/activity",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "devices",
+      "{teamworkDevice-id}",
+      "activity"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "activity"
+  },
+  {
+    "Endpoint": "teamwork/devices/{teamworkDevice-id}/configuration",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/devices/{teamworkDevice-id}/configuration",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "devices",
+      "{teamworkDevice-id}",
+      "configuration"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "configuration"
+  },
+  {
+    "Endpoint": "teamwork/devices/{teamworkDevice-id}/health",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/devices/{teamworkDevice-id}/health",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "devices",
+      "{teamworkDevice-id}",
+      "health"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "health"
+  },
+  {
+    "Endpoint": "teamwork/devices/{teamworkDevice-id}/microsoft.graph.restart",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/devices/{teamworkDevice-id}/microsoft.graph.restart",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "devices",
+      "{teamworkDevice-id}",
+      "microsoft.graph.restart"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.restart"
+  },
+  {
+    "Endpoint": "teamwork/devices/{teamworkDevice-id}/microsoft.graph.runDiagnostics",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/devices/{teamworkDevice-id}/microsoft.graph.runDiagnostics",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "devices",
+      "{teamworkDevice-id}",
+      "microsoft.graph.runDiagnostics"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.runDiagnostics"
+  },
+  {
+    "Endpoint": "teamwork/devices/{teamworkDevice-id}/microsoft.graph.updateSoftware",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/devices/{teamworkDevice-id}/microsoft.graph.updateSoftware",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "devices",
+      "{teamworkDevice-id}",
+      "microsoft.graph.updateSoftware"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.updateSoftware"
+  },
+  {
+    "Endpoint": "teamwork/devices/{teamworkDevice-id}/operations",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/devices/{teamworkDevice-id}/operations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "devices",
+      "{teamworkDevice-id}",
+      "operations"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "operations"
+  },
+  {
+    "Endpoint": "teamwork/devices/{teamworkDevice-id}/operations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/devices/{teamworkDevice-id}/operations/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "devices",
+      "{teamworkDevice-id}",
+      "operations",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/devices/{teamworkDevice-id}/operations/{teamworkDeviceOperation-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/devices/{teamworkDevice-id}/operations/{teamworkDeviceOperation-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "devices",
+      "{teamworkDevice-id}",
+      "operations",
+      "{teamworkDeviceOperation-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{teamworkDeviceOperation-id}"
+  },
+  {
+    "Endpoint": "teamwork/microsoft.graph.sendActivityNotificationToRecipients",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teamwork/microsoft.graph.sendActivityNotificationToRecipients",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/microsoft.graph.sendActivityNotificationToRecipients",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "microsoft.graph.sendActivityNotificationToRecipients"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.sendActivityNotificationToRecipients"
+  },
+  {
+    "Endpoint": "teamwork/teamsAppSettings",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamsAppSettings",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamsAppSettings"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "teamsAppSettings"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "teamTemplates"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 1,
+    "Segment": "{teamTemplate-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "definitions"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 1,
+    "Segment": "{teamTemplateDefinition-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition"
+    ],
+    "Root": "teamwork",
+    "Children": 20,
+    "Segment": "teamDefinition"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/allChannels",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/allChannels",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "allChannels"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "allChannels"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/allChannels/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/allChannels/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "allChannels",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/allChannels/{channel-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/allChannels/{channel-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "allChannels",
+      "{channel-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{channel-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels"
+    ],
+    "Root": "teamwork",
+    "Children": 4,
+    "Segment": "channels"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 9,
+    "Segment": "{channel-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/filesFolder",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/filesFolder",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "filesFolder"
+    ],
+    "Root": "teamwork",
+    "Children": 1,
+    "Segment": "filesFolder"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/filesFolder/content",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/filesFolder/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "filesFolder",
+      "content"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/members",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/members",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "members"
+    ],
+    "Root": "teamwork",
+    "Children": 3,
+    "Segment": "members"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/members/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/members/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "members",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/members/{conversationMember-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/members/{conversationMember-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "members",
+      "{conversationMember-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{conversationMember-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/members/microsoft.graph.add",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/members/microsoft.graph.add",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "members",
+      "microsoft.graph.add"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.add"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "messages"
+    ],
+    "Root": "teamwork",
+    "Children": 3,
+    "Segment": "messages"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 6,
+    "Segment": "{chatMessage-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/hostedContents",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/hostedContents",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "hostedContents"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "hostedContents"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/hostedContents/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/hostedContents/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "hostedContents",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "hostedContents",
+      "{chatMessageHostedContent-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{chatMessageHostedContent-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.setReaction",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.setReaction",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "microsoft.graph.setReaction"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.setReaction"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.softDelete",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.softDelete",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "microsoft.graph.softDelete"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.softDelete"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.undoSoftDelete",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.undoSoftDelete",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "microsoft.graph.undoSoftDelete"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.undoSoftDelete"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.unsetReaction",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.unsetReaction",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "microsoft.graph.unsetReaction"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.unsetReaction"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/replies",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/replies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies"
+    ],
+    "Root": "teamwork",
+    "Children": 3,
+    "Segment": "replies"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/replies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/replies/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}"
+    ],
+    "Root": "teamwork",
+    "Children": 5,
+    "Segment": "{chatMessage-id1}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "hostedContents"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "hostedContents"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "hostedContents",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/{chatMessageHostedContent-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/{chatMessageHostedContent-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "hostedContents",
+      "{chatMessageHostedContent-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{chatMessageHostedContent-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.setReaction",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.setReaction",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "microsoft.graph.setReaction"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.setReaction"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.softDelete",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.softDelete",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "microsoft.graph.softDelete"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.softDelete"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.undoSoftDelete",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.undoSoftDelete",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "microsoft.graph.undoSoftDelete"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.undoSoftDelete"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.unsetReaction",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.unsetReaction",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "microsoft.graph.unsetReaction"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.unsetReaction"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/replies/microsoft.graph.delta()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/{chatMessage-id}/replies/microsoft.graph.delta()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/microsoft.graph.delta()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/messages/microsoft.graph.delta()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/microsoft.graph.completeMigration",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/microsoft.graph.completeMigration",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "microsoft.graph.completeMigration"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.completeMigration"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/microsoft.graph.doesUserHaveAccess(userId='@userId',tenantId='@tenantId',userPrincipalName='@userPrincipalName')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/microsoft.graph.doesUserHaveAccess(userId='@userId',tenantId='@tenantId',userPrincipalName='@userPrincipalName')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "microsoft.graph.doesUserHaveAccess(userId='@userId',tenantId='@tenantId',userPrincipalName='@userPrincipalName')"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.doesUserHaveAccess(userId='@userId',tenantId='@tenantId',userPrincipalName='@userPrincipalName')"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/microsoft.graph.provisionEmail",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/microsoft.graph.provisionEmail",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "microsoft.graph.provisionEmail"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.provisionEmail"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/microsoft.graph.removeEmail",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/microsoft.graph.removeEmail",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "microsoft.graph.removeEmail"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.removeEmail"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/sharedWithTeams",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/sharedWithTeams",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "sharedWithTeams"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "sharedWithTeams"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/sharedWithTeams/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/sharedWithTeams/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "sharedWithTeams",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "sharedWithTeams",
+      "{sharedWithChannelTeamInfo-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 1,
+    "Segment": "{sharedWithChannelTeamInfo-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "sharedWithTeams",
+      "{sharedWithChannelTeamInfo-id}",
+      "allowedMembers"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "allowedMembers"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "sharedWithTeams",
+      "{sharedWithChannelTeamInfo-id}",
+      "allowedMembers",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/{conversationMember-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/{conversationMember-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "sharedWithTeams",
+      "{sharedWithChannelTeamInfo-id}",
+      "allowedMembers",
+      "{conversationMember-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{conversationMember-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/tabs",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/tabs",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "tabs"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "tabs"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/tabs/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/tabs/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "tabs",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/tabs/{teamsTab-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/tabs/{teamsTab-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "tabs",
+      "{teamsTab-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 1,
+    "Segment": "{teamsTab-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/tabs/{teamsTab-id}/teamsApp",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/{channel-id}/tabs/{teamsTab-id}/teamsApp",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "{channel-id}",
+      "tabs",
+      "{teamsTab-id}",
+      "teamsApp"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "teamsApp"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/microsoft.graph.allMessages()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/microsoft.graph.allMessages()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "microsoft.graph.allMessages()"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.allMessages()"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/microsoft.graph.getAllMessages()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/channels/microsoft.graph.getAllMessages()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "channels",
+      "microsoft.graph.getAllMessages()"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.getAllMessages()"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/group",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/group",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "group"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "group"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/incomingChannels",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/incomingChannels",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "incomingChannels"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "incomingChannels"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/incomingChannels/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/incomingChannels/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "incomingChannels",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/incomingChannels/{channel-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/incomingChannels/{channel-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "incomingChannels",
+      "{channel-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{channel-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/installedApps",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/installedApps",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "installedApps"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "installedApps"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/installedApps/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/installedApps/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "installedApps",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/installedApps/{teamsAppInstallation-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/installedApps/{teamsAppInstallation-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "installedApps",
+      "{teamsAppInstallation-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 3,
+    "Segment": "{teamsAppInstallation-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/installedApps/{teamsAppInstallation-id}/microsoft.graph.upgrade",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/installedApps/{teamsAppInstallation-id}/microsoft.graph.upgrade",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "installedApps",
+      "{teamsAppInstallation-id}",
+      "microsoft.graph.upgrade"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.upgrade"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/installedApps/{teamsAppInstallation-id}/teamsApp",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/installedApps/{teamsAppInstallation-id}/teamsApp",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "installedApps",
+      "{teamsAppInstallation-id}",
+      "teamsApp"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "teamsApp"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/installedApps/{teamsAppInstallation-id}/teamsAppDefinition",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/installedApps/{teamsAppInstallation-id}/teamsAppDefinition",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "installedApps",
+      "{teamsAppInstallation-id}",
+      "teamsAppDefinition"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "teamsAppDefinition"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/members",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/members",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "members"
+    ],
+    "Root": "teamwork",
+    "Children": 3,
+    "Segment": "members"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/members/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/members/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "members",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/members/{conversationMember-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/members/{conversationMember-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "members",
+      "{conversationMember-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{conversationMember-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/members/microsoft.graph.add",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/members/microsoft.graph.add",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "members",
+      "microsoft.graph.add"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.add"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/microsoft.graph.archive",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/microsoft.graph.archive",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "microsoft.graph.archive"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.archive"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/microsoft.graph.clone",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/microsoft.graph.clone",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "microsoft.graph.clone"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.clone"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/microsoft.graph.completeMigration",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/microsoft.graph.completeMigration",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "microsoft.graph.completeMigration"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.completeMigration"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/microsoft.graph.sendActivityNotification",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/microsoft.graph.sendActivityNotification",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "microsoft.graph.sendActivityNotification"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.sendActivityNotification"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/microsoft.graph.unarchive",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/microsoft.graph.unarchive",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "microsoft.graph.unarchive"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.unarchive"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/operations",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/operations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "operations"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "operations"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/operations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/operations/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "operations",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/operations/{teamsAsyncOperation-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/operations/{teamsAsyncOperation-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "operations",
+      "{teamsAsyncOperation-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{teamsAsyncOperation-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/owners",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/owners",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "owners"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "owners"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/owners/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/owners/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "owners",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/owners/{user-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/owners/{user-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "owners",
+      "{user-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{user-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/permissionGrants",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/permissionGrants",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "permissionGrants"
+    ],
+    "Root": "teamwork",
+    "Children": 5,
+    "Segment": "permissionGrants"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/permissionGrants/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/permissionGrants/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "permissionGrants",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/permissionGrants/{resourceSpecificPermissionGrant-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/permissionGrants/{resourceSpecificPermissionGrant-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "permissionGrants",
+      "{resourceSpecificPermissionGrant-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 5,
+    "Segment": "{resourceSpecificPermissionGrant-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.checkMemberGroups",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.checkMemberGroups",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "permissionGrants",
+      "{resourceSpecificPermissionGrant-id}",
+      "microsoft.graph.checkMemberGroups"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.checkMemberGroups"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.checkMemberObjects",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.checkMemberObjects",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "permissionGrants",
+      "{resourceSpecificPermissionGrant-id}",
+      "microsoft.graph.checkMemberObjects"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.checkMemberObjects"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.getMemberGroups",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.getMemberGroups",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "permissionGrants",
+      "{resourceSpecificPermissionGrant-id}",
+      "microsoft.graph.getMemberGroups"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.getMemberGroups"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.getMemberObjects",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.getMemberObjects",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "permissionGrants",
+      "{resourceSpecificPermissionGrant-id}",
+      "microsoft.graph.getMemberObjects"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.getMemberObjects"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.restore",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.restore",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "permissionGrants",
+      "{resourceSpecificPermissionGrant-id}",
+      "microsoft.graph.restore"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.restore"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/permissionGrants/microsoft.graph.getByIds",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/permissionGrants/microsoft.graph.getByIds",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "permissionGrants",
+      "microsoft.graph.getByIds"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.getByIds"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/permissionGrants/microsoft.graph.getUserOwnedObjects",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/permissionGrants/microsoft.graph.getUserOwnedObjects",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "permissionGrants",
+      "microsoft.graph.getUserOwnedObjects"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.getUserOwnedObjects"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/permissionGrants/microsoft.graph.validateProperties",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/permissionGrants/microsoft.graph.validateProperties",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "permissionGrants",
+      "microsoft.graph.validateProperties"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.validateProperties"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/photo",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/photo",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "photo"
+    ],
+    "Root": "teamwork",
+    "Children": 1,
+    "Segment": "photo"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/photo/$value",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/photo/$value",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "photo",
+      "$value"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$value"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel"
+    ],
+    "Root": "teamwork",
+    "Children": 9,
+    "Segment": "primaryChannel"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/filesFolder",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/filesFolder",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "filesFolder"
+    ],
+    "Root": "teamwork",
+    "Children": 1,
+    "Segment": "filesFolder"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/filesFolder/content",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/filesFolder/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "filesFolder",
+      "content"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/members",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/members",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "members"
+    ],
+    "Root": "teamwork",
+    "Children": 3,
+    "Segment": "members"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/members/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/members/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "members",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/members/{conversationMember-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/members/{conversationMember-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "members",
+      "{conversationMember-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{conversationMember-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/members/microsoft.graph.add",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/members/microsoft.graph.add",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "members",
+      "microsoft.graph.add"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.add"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "messages"
+    ],
+    "Root": "teamwork",
+    "Children": 3,
+    "Segment": "messages"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "messages",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "messages",
+      "{chatMessage-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 6,
+    "Segment": "{chatMessage-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/hostedContents",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/hostedContents",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "messages",
+      "{chatMessage-id}",
+      "hostedContents"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "hostedContents"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/hostedContents/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/hostedContents/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "messages",
+      "{chatMessage-id}",
+      "hostedContents",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "messages",
+      "{chatMessage-id}",
+      "hostedContents",
+      "{chatMessageHostedContent-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{chatMessageHostedContent-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/microsoft.graph.setReaction",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/microsoft.graph.setReaction",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "messages",
+      "{chatMessage-id}",
+      "microsoft.graph.setReaction"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.setReaction"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/microsoft.graph.softDelete",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/microsoft.graph.softDelete",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "messages",
+      "{chatMessage-id}",
+      "microsoft.graph.softDelete"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.softDelete"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/microsoft.graph.undoSoftDelete",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/microsoft.graph.undoSoftDelete",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "messages",
+      "{chatMessage-id}",
+      "microsoft.graph.undoSoftDelete"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.undoSoftDelete"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/microsoft.graph.unsetReaction",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/microsoft.graph.unsetReaction",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "messages",
+      "{chatMessage-id}",
+      "microsoft.graph.unsetReaction"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.unsetReaction"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/replies",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/replies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "messages",
+      "{chatMessage-id}",
+      "replies"
+    ],
+    "Root": "teamwork",
+    "Children": 3,
+    "Segment": "replies"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/replies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/replies/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}"
+    ],
+    "Root": "teamwork",
+    "Children": 5,
+    "Segment": "{chatMessage-id1}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "hostedContents"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "hostedContents"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "hostedContents",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/{chatMessageHostedContent-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/{chatMessageHostedContent-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "hostedContents",
+      "{chatMessageHostedContent-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{chatMessageHostedContent-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.setReaction",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.setReaction",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "microsoft.graph.setReaction"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.setReaction"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.softDelete",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.softDelete",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "microsoft.graph.softDelete"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.softDelete"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.undoSoftDelete",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.undoSoftDelete",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "microsoft.graph.undoSoftDelete"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.undoSoftDelete"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.unsetReaction",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.unsetReaction",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "microsoft.graph.unsetReaction"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.unsetReaction"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/replies/microsoft.graph.delta()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/{chatMessage-id}/replies/microsoft.graph.delta()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/microsoft.graph.delta()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/messages/microsoft.graph.delta()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "messages",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/microsoft.graph.completeMigration",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/microsoft.graph.completeMigration",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "microsoft.graph.completeMigration"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.completeMigration"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/microsoft.graph.doesUserHaveAccess(userId='@userId',tenantId='@tenantId',userPrincipalName='@userPrincipalName')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/microsoft.graph.doesUserHaveAccess(userId='@userId',tenantId='@tenantId',userPrincipalName='@userPrincipalName')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "microsoft.graph.doesUserHaveAccess(userId='@userId',tenantId='@tenantId',userPrincipalName='@userPrincipalName')"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.doesUserHaveAccess(userId='@userId',tenantId='@tenantId',userPrincipalName='@userPrincipalName')"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/microsoft.graph.provisionEmail",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/microsoft.graph.provisionEmail",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "microsoft.graph.provisionEmail"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.provisionEmail"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/microsoft.graph.removeEmail",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/microsoft.graph.removeEmail",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "microsoft.graph.removeEmail"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.removeEmail"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/sharedWithTeams",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/sharedWithTeams",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "sharedWithTeams"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "sharedWithTeams"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/sharedWithTeams/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/sharedWithTeams/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "sharedWithTeams",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "sharedWithTeams",
+      "{sharedWithChannelTeamInfo-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 1,
+    "Segment": "{sharedWithChannelTeamInfo-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "sharedWithTeams",
+      "{sharedWithChannelTeamInfo-id}",
+      "allowedMembers"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "allowedMembers"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "sharedWithTeams",
+      "{sharedWithChannelTeamInfo-id}",
+      "allowedMembers",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/{conversationMember-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/{conversationMember-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "sharedWithTeams",
+      "{sharedWithChannelTeamInfo-id}",
+      "allowedMembers",
+      "{conversationMember-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{conversationMember-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/tabs",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/tabs",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "tabs"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "tabs"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/tabs/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/tabs/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "tabs",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/tabs/{teamsTab-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/tabs/{teamsTab-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "tabs",
+      "{teamsTab-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 1,
+    "Segment": "{teamsTab-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/tabs/{teamsTab-id}/teamsApp",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/primaryChannel/tabs/{teamsTab-id}/teamsApp",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "primaryChannel",
+      "tabs",
+      "{teamsTab-id}",
+      "teamsApp"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "teamsApp"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule"
+    ],
+    "Root": "teamwork",
+    "Children": 11,
+    "Segment": "schedule"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/microsoft.graph.share",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/microsoft.graph.share",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "microsoft.graph.share"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.share"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/offerShiftRequests",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/offerShiftRequests",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "offerShiftRequests"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "offerShiftRequests"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/offerShiftRequests/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/offerShiftRequests/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "offerShiftRequests",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/offerShiftRequests/{offerShiftRequest-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/offerShiftRequests/{offerShiftRequest-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "offerShiftRequests",
+      "{offerShiftRequest-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{offerShiftRequest-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/openShiftChangeRequests",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/openShiftChangeRequests",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "openShiftChangeRequests"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "openShiftChangeRequests"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/openShiftChangeRequests/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/openShiftChangeRequests/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "openShiftChangeRequests",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/openShiftChangeRequests/{openShiftChangeRequest-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/openShiftChangeRequests/{openShiftChangeRequest-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "openShiftChangeRequests",
+      "{openShiftChangeRequest-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{openShiftChangeRequest-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/openShifts",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/openShifts",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "openShifts"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "openShifts"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/openShifts/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/openShifts/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "openShifts",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/openShifts/{openShift-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/openShifts/{openShift-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "openShifts",
+      "{openShift-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{openShift-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/schedulingGroups",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/schedulingGroups",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "schedulingGroups"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "schedulingGroups"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/schedulingGroups/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/schedulingGroups/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "schedulingGroups",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/schedulingGroups/{schedulingGroup-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/schedulingGroups/{schedulingGroup-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "schedulingGroups",
+      "{schedulingGroup-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{schedulingGroup-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/shifts",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/shifts",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "shifts"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "shifts"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/shifts/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/shifts/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "shifts",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/shifts/{shift-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/shifts/{shift-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "shifts",
+      "{shift-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{shift-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/swapShiftsChangeRequests",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/swapShiftsChangeRequests",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "swapShiftsChangeRequests"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "swapShiftsChangeRequests"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/swapShiftsChangeRequests/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/swapShiftsChangeRequests/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "swapShiftsChangeRequests",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/swapShiftsChangeRequests/{swapShiftsChangeRequest-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/swapShiftsChangeRequests/{swapShiftsChangeRequest-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "swapShiftsChangeRequests",
+      "{swapShiftsChangeRequest-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{swapShiftsChangeRequest-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeCards",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeCards",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "timeCards"
+    ],
+    "Root": "teamwork",
+    "Children": 3,
+    "Segment": "timeCards"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeCards/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeCards/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "timeCards",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeCards/{timeCard-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeCards/{timeCard-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "timeCards",
+      "{timeCard-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 4,
+    "Segment": "{timeCard-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeCards/{timeCard-id}/microsoft.graph.clockOut",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeCards/{timeCard-id}/microsoft.graph.clockOut",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "timeCards",
+      "{timeCard-id}",
+      "microsoft.graph.clockOut"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.clockOut"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeCards/{timeCard-id}/microsoft.graph.confirm",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeCards/{timeCard-id}/microsoft.graph.confirm",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "timeCards",
+      "{timeCard-id}",
+      "microsoft.graph.confirm"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.confirm"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeCards/{timeCard-id}/microsoft.graph.endBreak",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeCards/{timeCard-id}/microsoft.graph.endBreak",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "timeCards",
+      "{timeCard-id}",
+      "microsoft.graph.endBreak"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.endBreak"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeCards/{timeCard-id}/microsoft.graph.startBreak",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeCards/{timeCard-id}/microsoft.graph.startBreak",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "timeCards",
+      "{timeCard-id}",
+      "microsoft.graph.startBreak"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.startBreak"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeCards/microsoft.graph.clockIn",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeCards/microsoft.graph.clockIn",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "timeCards",
+      "microsoft.graph.clockIn"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "microsoft.graph.clockIn"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeOffReasons",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeOffReasons",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "timeOffReasons"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "timeOffReasons"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeOffReasons/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeOffReasons/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "timeOffReasons",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeOffReasons/{timeOffReason-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeOffReasons/{timeOffReason-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "timeOffReasons",
+      "{timeOffReason-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{timeOffReason-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeOffRequests",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeOffRequests",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "timeOffRequests"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "timeOffRequests"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeOffRequests/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeOffRequests/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "timeOffRequests",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeOffRequests/{timeOffRequest-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timeOffRequests/{timeOffRequest-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "timeOffRequests",
+      "{timeOffRequest-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{timeOffRequest-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timesOff",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timesOff",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "timesOff"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "timesOff"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timesOff/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timesOff/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "timesOff",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timesOff/{timeOff-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/schedule/timesOff/{timeOff-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "schedule",
+      "timesOff",
+      "{timeOff-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{timeOff-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/tags",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/tags",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "tags"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "tags"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/tags/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/tags/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "tags",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/tags/{teamworkTag-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/tags/{teamworkTag-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "tags",
+      "{teamworkTag-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 1,
+    "Segment": "{teamworkTag-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/tags/{teamworkTag-id}/members",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/tags/{teamworkTag-id}/members",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "tags",
+      "{teamworkTag-id}",
+      "members"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "members"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/tags/{teamworkTag-id}/members/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/tags/{teamworkTag-id}/members/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "tags",
+      "{teamworkTag-id}",
+      "members",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/tags/{teamworkTag-id}/members/{teamworkTagMember-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/tags/{teamworkTag-id}/members/{teamworkTagMember-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "tags",
+      "{teamworkTag-id}",
+      "members",
+      "{teamworkTagMember-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{teamworkTagMember-id}"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/template",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/template",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "template"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "template"
+  },
+  {
+    "Endpoint": "teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/templateDefinition",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/teamTemplates/{teamTemplate-id}/definitions/{teamTemplateDefinition-id}/teamDefinition/templateDefinition",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "teamTemplates",
+      "{teamTemplate-id}",
+      "definitions",
+      "{teamTemplateDefinition-id}",
+      "teamDefinition",
+      "templateDefinition"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "templateDefinition"
+  },
+  {
+    "Endpoint": "teamwork/workforceIntegrations",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teamwork/workforceIntegrations",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/workforceIntegrations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "teamwork",
+      "workforceIntegrations"
+    ],
+    "Root": "teamwork",
+    "Children": 2,
+    "Segment": "workforceIntegrations"
+  },
+  {
+    "Endpoint": "teamwork/workforceIntegrations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teamwork/workforceIntegrations/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/workforceIntegrations/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "teamwork",
+      "workforceIntegrations",
+      "$count"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teamwork/workforceIntegrations/{workforceIntegration-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teamwork/workforceIntegrations/{workforceIntegration-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teamwork/workforceIntegrations/{workforceIntegration-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "teamwork",
+      "workforceIntegrations",
+      "{workforceIntegration-id}"
+    ],
+    "Root": "teamwork",
+    "Children": 0,
+    "Segment": "{workforceIntegration-id}"
+  }
+]

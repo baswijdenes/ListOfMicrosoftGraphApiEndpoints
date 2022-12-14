@@ -1,0 +1,2169 @@
+[
+  {
+    "Endpoint": "compliance",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/compliance",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Path": [
+      "compliance"
+    ],
+    "Root": "compliance",
+    "Children": 1,
+    "Segment": "compliance"
+  },
+  {
+    "Endpoint": "compliance/ediscovery",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery"
+    ],
+    "Root": "compliance",
+    "Children": 1,
+    "Segment": "ediscovery"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases"
+    ],
+    "Root": "compliance",
+    "Children": 2,
+    "Segment": "cases"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "$count"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}"
+    ],
+    "Root": "compliance",
+    "Children": 10,
+    "Segment": "{case-id}"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/custodians",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/custodians",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "custodians"
+    ],
+    "Root": "compliance",
+    "Children": 4,
+    "Segment": "custodians"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/custodians/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/custodians/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "custodians",
+      "$count"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "custodians",
+      "{custodian-id}"
+    ],
+    "Root": "compliance",
+    "Children": 8,
+    "Segment": "{custodian-id}"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/microsoft.graph.ediscovery.activate",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/microsoft.graph.ediscovery.activate",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "custodians",
+      "{custodian-id}",
+      "microsoft.graph.ediscovery.activate"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "microsoft.graph.ediscovery.activate"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/microsoft.graph.ediscovery.applyHold",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/microsoft.graph.ediscovery.applyHold",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "custodians",
+      "{custodian-id}",
+      "microsoft.graph.ediscovery.applyHold"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "microsoft.graph.ediscovery.applyHold"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/microsoft.graph.ediscovery.release",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/microsoft.graph.ediscovery.release",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "custodians",
+      "{custodian-id}",
+      "microsoft.graph.ediscovery.release"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "microsoft.graph.ediscovery.release"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/microsoft.graph.ediscovery.removeHold",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/microsoft.graph.ediscovery.removeHold",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "custodians",
+      "{custodian-id}",
+      "microsoft.graph.ediscovery.removeHold"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "microsoft.graph.ediscovery.removeHold"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/microsoft.graph.ediscovery.updateIndex",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/microsoft.graph.ediscovery.updateIndex",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "custodians",
+      "{custodian-id}",
+      "microsoft.graph.ediscovery.updateIndex"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "microsoft.graph.ediscovery.updateIndex"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/siteSources",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/siteSources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "custodians",
+      "{custodian-id}",
+      "siteSources"
+    ],
+    "Root": "compliance",
+    "Children": 2,
+    "Segment": "siteSources"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/siteSources/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/siteSources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "custodians",
+      "{custodian-id}",
+      "siteSources",
+      "$count"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/siteSources/{siteSource-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/siteSources/{siteSource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "custodians",
+      "{custodian-id}",
+      "siteSources",
+      "{siteSource-id}"
+    ],
+    "Root": "compliance",
+    "Children": 1,
+    "Segment": "{siteSource-id}"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/siteSources/{siteSource-id}/site",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/siteSources/{siteSource-id}/site",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "custodians",
+      "{custodian-id}",
+      "siteSources",
+      "{siteSource-id}",
+      "site"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "site"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/unifiedGroupSources",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/unifiedGroupSources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "custodians",
+      "{custodian-id}",
+      "unifiedGroupSources"
+    ],
+    "Root": "compliance",
+    "Children": 2,
+    "Segment": "unifiedGroupSources"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/unifiedGroupSources/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/unifiedGroupSources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "custodians",
+      "{custodian-id}",
+      "unifiedGroupSources",
+      "$count"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/unifiedGroupSources/{unifiedGroupSource-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/unifiedGroupSources/{unifiedGroupSource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "custodians",
+      "{custodian-id}",
+      "unifiedGroupSources",
+      "{unifiedGroupSource-id}"
+    ],
+    "Root": "compliance",
+    "Children": 1,
+    "Segment": "{unifiedGroupSource-id}"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/unifiedGroupSources/{unifiedGroupSource-id}/group",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/unifiedGroupSources/{unifiedGroupSource-id}/group",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "custodians",
+      "{custodian-id}",
+      "unifiedGroupSources",
+      "{unifiedGroupSource-id}",
+      "group"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "group"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/userSources",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/userSources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "custodians",
+      "{custodian-id}",
+      "userSources"
+    ],
+    "Root": "compliance",
+    "Children": 2,
+    "Segment": "userSources"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/userSources/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/userSources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "custodians",
+      "{custodian-id}",
+      "userSources",
+      "$count"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/userSources/{userSource-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/custodians/{custodian-id}/userSources/{userSource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "custodians",
+      "{custodian-id}",
+      "userSources",
+      "{userSource-id}"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "{userSource-id}"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/custodians/microsoft.graph.ediscovery.applyHold",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/custodians/microsoft.graph.ediscovery.applyHold",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "custodians",
+      "microsoft.graph.ediscovery.applyHold"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "microsoft.graph.ediscovery.applyHold"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/custodians/microsoft.graph.ediscovery.removeHold",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/custodians/microsoft.graph.ediscovery.removeHold",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "custodians",
+      "microsoft.graph.ediscovery.removeHold"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "microsoft.graph.ediscovery.removeHold"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/legalHolds",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/legalHolds",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "legalHolds"
+    ],
+    "Root": "compliance",
+    "Children": 2,
+    "Segment": "legalHolds"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/legalHolds/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/legalHolds/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "legalHolds",
+      "$count"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/legalHolds/{legalHold-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/legalHolds/{legalHold-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "legalHolds",
+      "{legalHold-id}"
+    ],
+    "Root": "compliance",
+    "Children": 3,
+    "Segment": "{legalHold-id}"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/legalHolds/{legalHold-id}/siteSources",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/legalHolds/{legalHold-id}/siteSources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "legalHolds",
+      "{legalHold-id}",
+      "siteSources"
+    ],
+    "Root": "compliance",
+    "Children": 2,
+    "Segment": "siteSources"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/legalHolds/{legalHold-id}/siteSources/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/legalHolds/{legalHold-id}/siteSources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "legalHolds",
+      "{legalHold-id}",
+      "siteSources",
+      "$count"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/legalHolds/{legalHold-id}/siteSources/{siteSource-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/legalHolds/{legalHold-id}/siteSources/{siteSource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "legalHolds",
+      "{legalHold-id}",
+      "siteSources",
+      "{siteSource-id}"
+    ],
+    "Root": "compliance",
+    "Children": 1,
+    "Segment": "{siteSource-id}"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/legalHolds/{legalHold-id}/siteSources/{siteSource-id}/site",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/legalHolds/{legalHold-id}/siteSources/{siteSource-id}/site",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "legalHolds",
+      "{legalHold-id}",
+      "siteSources",
+      "{siteSource-id}",
+      "site"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "site"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/legalHolds/{legalHold-id}/unifiedGroupSources",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/legalHolds/{legalHold-id}/unifiedGroupSources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "legalHolds",
+      "{legalHold-id}",
+      "unifiedGroupSources"
+    ],
+    "Root": "compliance",
+    "Children": 2,
+    "Segment": "unifiedGroupSources"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/legalHolds/{legalHold-id}/unifiedGroupSources/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/legalHolds/{legalHold-id}/unifiedGroupSources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "legalHolds",
+      "{legalHold-id}",
+      "unifiedGroupSources",
+      "$count"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/legalHolds/{legalHold-id}/unifiedGroupSources/{unifiedGroupSource-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/legalHolds/{legalHold-id}/unifiedGroupSources/{unifiedGroupSource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "legalHolds",
+      "{legalHold-id}",
+      "unifiedGroupSources",
+      "{unifiedGroupSource-id}"
+    ],
+    "Root": "compliance",
+    "Children": 1,
+    "Segment": "{unifiedGroupSource-id}"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/legalHolds/{legalHold-id}/unifiedGroupSources/{unifiedGroupSource-id}/group",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/legalHolds/{legalHold-id}/unifiedGroupSources/{unifiedGroupSource-id}/group",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "legalHolds",
+      "{legalHold-id}",
+      "unifiedGroupSources",
+      "{unifiedGroupSource-id}",
+      "group"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "group"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/legalHolds/{legalHold-id}/userSources",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/legalHolds/{legalHold-id}/userSources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "legalHolds",
+      "{legalHold-id}",
+      "userSources"
+    ],
+    "Root": "compliance",
+    "Children": 2,
+    "Segment": "userSources"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/legalHolds/{legalHold-id}/userSources/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/legalHolds/{legalHold-id}/userSources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "legalHolds",
+      "{legalHold-id}",
+      "userSources",
+      "$count"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/legalHolds/{legalHold-id}/userSources/{userSource-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/legalHolds/{legalHold-id}/userSources/{userSource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "legalHolds",
+      "{legalHold-id}",
+      "userSources",
+      "{userSource-id}"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "{userSource-id}"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/microsoft.graph.ediscovery.close",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/microsoft.graph.ediscovery.close",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "microsoft.graph.ediscovery.close"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "microsoft.graph.ediscovery.close"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/microsoft.graph.ediscovery.reopen",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/microsoft.graph.ediscovery.reopen",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "microsoft.graph.ediscovery.reopen"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "microsoft.graph.ediscovery.reopen"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/noncustodialDataSources",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/noncustodialDataSources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "noncustodialDataSources"
+    ],
+    "Root": "compliance",
+    "Children": 4,
+    "Segment": "noncustodialDataSources"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/noncustodialDataSources/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/noncustodialDataSources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "noncustodialDataSources",
+      "$count"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/noncustodialDataSources/{noncustodialDataSource-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/noncustodialDataSources/{noncustodialDataSource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "noncustodialDataSources",
+      "{noncustodialDataSource-id}"
+    ],
+    "Root": "compliance",
+    "Children": 5,
+    "Segment": "{noncustodialDataSource-id}"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/noncustodialDataSources/{noncustodialDataSource-id}/dataSource",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/noncustodialDataSources/{noncustodialDataSource-id}/dataSource",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "noncustodialDataSources",
+      "{noncustodialDataSource-id}",
+      "dataSource"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "dataSource"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/noncustodialDataSources/{noncustodialDataSource-id}/microsoft.graph.ediscovery.applyHold",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/noncustodialDataSources/{noncustodialDataSource-id}/microsoft.graph.ediscovery.applyHold",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "noncustodialDataSources",
+      "{noncustodialDataSource-id}",
+      "microsoft.graph.ediscovery.applyHold"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "microsoft.graph.ediscovery.applyHold"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/noncustodialDataSources/{noncustodialDataSource-id}/microsoft.graph.ediscovery.release",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/noncustodialDataSources/{noncustodialDataSource-id}/microsoft.graph.ediscovery.release",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "noncustodialDataSources",
+      "{noncustodialDataSource-id}",
+      "microsoft.graph.ediscovery.release"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "microsoft.graph.ediscovery.release"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/noncustodialDataSources/{noncustodialDataSource-id}/microsoft.graph.ediscovery.removeHold",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/noncustodialDataSources/{noncustodialDataSource-id}/microsoft.graph.ediscovery.removeHold",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "noncustodialDataSources",
+      "{noncustodialDataSource-id}",
+      "microsoft.graph.ediscovery.removeHold"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "microsoft.graph.ediscovery.removeHold"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/noncustodialDataSources/{noncustodialDataSource-id}/microsoft.graph.ediscovery.updateIndex",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/noncustodialDataSources/{noncustodialDataSource-id}/microsoft.graph.ediscovery.updateIndex",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "noncustodialDataSources",
+      "{noncustodialDataSource-id}",
+      "microsoft.graph.ediscovery.updateIndex"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "microsoft.graph.ediscovery.updateIndex"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/noncustodialDataSources/microsoft.graph.ediscovery.applyHold",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/noncustodialDataSources/microsoft.graph.ediscovery.applyHold",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "noncustodialDataSources",
+      "microsoft.graph.ediscovery.applyHold"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "microsoft.graph.ediscovery.applyHold"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/noncustodialDataSources/microsoft.graph.ediscovery.removeHold",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/noncustodialDataSources/microsoft.graph.ediscovery.removeHold",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "noncustodialDataSources",
+      "microsoft.graph.ediscovery.removeHold"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "microsoft.graph.ediscovery.removeHold"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/operations",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/operations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "operations"
+    ],
+    "Root": "compliance",
+    "Children": 3,
+    "Segment": "operations"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/operations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/operations/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "operations",
+      "$count"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/operations/{caseOperation-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/operations/{caseOperation-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "operations",
+      "{caseOperation-id}"
+    ],
+    "Root": "compliance",
+    "Children": 1,
+    "Segment": "{caseOperation-id}"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/operations/{caseOperation-id}/microsoft.graph.ediscovery.caseExportOperation",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/operations/{caseOperation-id}/microsoft.graph.ediscovery.caseExportOperation",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "operations",
+      "{caseOperation-id}",
+      "microsoft.graph.ediscovery.caseExportOperation"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "microsoft.graph.ediscovery.caseExportOperation"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/operations/microsoft.graph.ediscovery.caseExportOperation",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/operations/microsoft.graph.ediscovery.caseExportOperation",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "operations",
+      "microsoft.graph.ediscovery.caseExportOperation"
+    ],
+    "Root": "compliance",
+    "Children": 1,
+    "Segment": "microsoft.graph.ediscovery.caseExportOperation"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/operations/microsoft.graph.ediscovery.caseExportOperation/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/operations/microsoft.graph.ediscovery.caseExportOperation/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "operations",
+      "microsoft.graph.ediscovery.caseExportOperation",
+      "$count"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/reviewSets",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/reviewSets",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "reviewSets"
+    ],
+    "Root": "compliance",
+    "Children": 2,
+    "Segment": "reviewSets"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/reviewSets/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/reviewSets/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "reviewSets",
+      "$count"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/reviewSets/{reviewSet-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/reviewSets/{reviewSet-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "reviewSets",
+      "{reviewSet-id}"
+    ],
+    "Root": "compliance",
+    "Children": 3,
+    "Segment": "{reviewSet-id}"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/reviewSets/{reviewSet-id}/microsoft.graph.ediscovery.addToReviewSet",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/reviewSets/{reviewSet-id}/microsoft.graph.ediscovery.addToReviewSet",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "reviewSets",
+      "{reviewSet-id}",
+      "microsoft.graph.ediscovery.addToReviewSet"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "microsoft.graph.ediscovery.addToReviewSet"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/reviewSets/{reviewSet-id}/microsoft.graph.ediscovery.export",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/reviewSets/{reviewSet-id}/microsoft.graph.ediscovery.export",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "reviewSets",
+      "{reviewSet-id}",
+      "microsoft.graph.ediscovery.export"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "microsoft.graph.ediscovery.export"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/reviewSets/{reviewSet-id}/queries",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/reviewSets/{reviewSet-id}/queries",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "reviewSets",
+      "{reviewSet-id}",
+      "queries"
+    ],
+    "Root": "compliance",
+    "Children": 2,
+    "Segment": "queries"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/reviewSets/{reviewSet-id}/queries/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/reviewSets/{reviewSet-id}/queries/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "reviewSets",
+      "{reviewSet-id}",
+      "queries",
+      "$count"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/reviewSets/{reviewSet-id}/queries/{reviewSetQuery-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/reviewSets/{reviewSet-id}/queries/{reviewSetQuery-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "reviewSets",
+      "{reviewSet-id}",
+      "queries",
+      "{reviewSetQuery-id}"
+    ],
+    "Root": "compliance",
+    "Children": 1,
+    "Segment": "{reviewSetQuery-id}"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/reviewSets/{reviewSet-id}/queries/{reviewSetQuery-id}/microsoft.graph.ediscovery.applyTags",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/reviewSets/{reviewSet-id}/queries/{reviewSetQuery-id}/microsoft.graph.ediscovery.applyTags",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "reviewSets",
+      "{reviewSet-id}",
+      "queries",
+      "{reviewSetQuery-id}",
+      "microsoft.graph.ediscovery.applyTags"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "microsoft.graph.ediscovery.applyTags"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/settings",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/settings",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "settings"
+    ],
+    "Root": "compliance",
+    "Children": 1,
+    "Segment": "settings"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/settings/microsoft.graph.ediscovery.resetToDefault",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/settings/microsoft.graph.ediscovery.resetToDefault",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "settings",
+      "microsoft.graph.ediscovery.resetToDefault"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "microsoft.graph.ediscovery.resetToDefault"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/sourceCollections",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/sourceCollections",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "sourceCollections"
+    ],
+    "Root": "compliance",
+    "Children": 2,
+    "Segment": "sourceCollections"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/sourceCollections/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/sourceCollections/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "sourceCollections",
+      "$count"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "sourceCollections",
+      "{sourceCollection-id}"
+    ],
+    "Root": "compliance",
+    "Children": 7,
+    "Segment": "{sourceCollection-id}"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/additionalSources",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/additionalSources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "sourceCollections",
+      "{sourceCollection-id}",
+      "additionalSources"
+    ],
+    "Root": "compliance",
+    "Children": 2,
+    "Segment": "additionalSources"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/additionalSources/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/additionalSources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "sourceCollections",
+      "{sourceCollection-id}",
+      "additionalSources",
+      "$count"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/additionalSources/{dataSource-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/additionalSources/{dataSource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "sourceCollections",
+      "{sourceCollection-id}",
+      "additionalSources",
+      "{dataSource-id}"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "{dataSource-id}"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/addToReviewSetOperation",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/addToReviewSetOperation",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "sourceCollections",
+      "{sourceCollection-id}",
+      "addToReviewSetOperation"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "addToReviewSetOperation"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/custodianSources",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/custodianSources",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "sourceCollections",
+      "{sourceCollection-id}",
+      "custodianSources"
+    ],
+    "Root": "compliance",
+    "Children": 2,
+    "Segment": "custodianSources"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/custodianSources/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/custodianSources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "sourceCollections",
+      "{sourceCollection-id}",
+      "custodianSources",
+      "$count"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/custodianSources/{dataSource-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/custodianSources/{dataSource-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "sourceCollections",
+      "{sourceCollection-id}",
+      "custodianSources",
+      "{dataSource-id}"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "{dataSource-id}"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/lastEstimateStatisticsOperation",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/lastEstimateStatisticsOperation",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "sourceCollections",
+      "{sourceCollection-id}",
+      "lastEstimateStatisticsOperation"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "lastEstimateStatisticsOperation"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/microsoft.graph.ediscovery.estimateStatistics",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/microsoft.graph.ediscovery.estimateStatistics",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "sourceCollections",
+      "{sourceCollection-id}",
+      "microsoft.graph.ediscovery.estimateStatistics"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "microsoft.graph.ediscovery.estimateStatistics"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/microsoft.graph.ediscovery.purgeData",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/microsoft.graph.ediscovery.purgeData",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "sourceCollections",
+      "{sourceCollection-id}",
+      "microsoft.graph.ediscovery.purgeData"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "microsoft.graph.ediscovery.purgeData"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/noncustodialSources",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/noncustodialSources",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "sourceCollections",
+      "{sourceCollection-id}",
+      "noncustodialSources"
+    ],
+    "Root": "compliance",
+    "Children": 2,
+    "Segment": "noncustodialSources"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/noncustodialSources/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/noncustodialSources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "sourceCollections",
+      "{sourceCollection-id}",
+      "noncustodialSources",
+      "$count"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/noncustodialSources/{noncustodialDataSource-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/sourceCollections/{sourceCollection-id}/noncustodialSources/{noncustodialDataSource-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "sourceCollections",
+      "{sourceCollection-id}",
+      "noncustodialSources",
+      "{noncustodialDataSource-id}"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "{noncustodialDataSource-id}"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/tags",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/tags",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "tags"
+    ],
+    "Root": "compliance",
+    "Children": 3,
+    "Segment": "tags"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/tags/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/tags/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "tags",
+      "$count"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/tags/{tag-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/tags/{tag-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "tags",
+      "{tag-id}"
+    ],
+    "Root": "compliance",
+    "Children": 2,
+    "Segment": "{tag-id}"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/tags/{tag-id}/childTags",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/tags/{tag-id}/childTags",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "tags",
+      "{tag-id}",
+      "childTags"
+    ],
+    "Root": "compliance",
+    "Children": 2,
+    "Segment": "childTags"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/tags/{tag-id}/childTags/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/tags/{tag-id}/childTags/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "tags",
+      "{tag-id}",
+      "childTags",
+      "$count"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/tags/{tag-id}/childTags/{tag-id1}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/tags/{tag-id}/childTags/{tag-id1}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "tags",
+      "{tag-id}",
+      "childTags",
+      "{tag-id1}"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "{tag-id1}"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/tags/{tag-id}/parent",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/tags/{tag-id}/parent",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "tags",
+      "{tag-id}",
+      "parent"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "parent"
+  },
+  {
+    "Endpoint": "compliance/ediscovery/cases/{case-id}/tags/microsoft.graph.ediscovery.asHierarchy()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/compliance/ediscovery/cases/{case-id}/tags/microsoft.graph.ediscovery.asHierarchy()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "compliance",
+      "ediscovery",
+      "cases",
+      "{case-id}",
+      "tags",
+      "microsoft.graph.ediscovery.asHierarchy()"
+    ],
+    "Root": "compliance",
+    "Children": 0,
+    "Segment": "microsoft.graph.ediscovery.asHierarchy()"
+  }
+]

@@ -1,0 +1,225 @@
+[
+  {
+    "Endpoint": "officeConfiguration",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/officeConfiguration",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Path": [
+      "officeConfiguration"
+    ],
+    "Root": "officeConfiguration",
+    "Children": 1,
+    "Segment": "officeConfiguration"
+  },
+  {
+    "Endpoint": "officeConfiguration/clientConfigurations",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/officeConfiguration/clientConfigurations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "officeConfiguration",
+      "clientConfigurations"
+    ],
+    "Root": "officeConfiguration",
+    "Children": 3,
+    "Segment": "clientConfigurations"
+  },
+  {
+    "Endpoint": "officeConfiguration/clientConfigurations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/officeConfiguration/clientConfigurations/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "officeConfiguration",
+      "clientConfigurations",
+      "$count"
+    ],
+    "Root": "officeConfiguration",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "officeConfiguration/clientConfigurations/{officeClientConfiguration-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/officeConfiguration/clientConfigurations/{officeClientConfiguration-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "officeConfiguration",
+      "clientConfigurations",
+      "{officeClientConfiguration-id}"
+    ],
+    "Root": "officeConfiguration",
+    "Children": 4,
+    "Segment": "{officeClientConfiguration-id}"
+  },
+  {
+    "Endpoint": "officeConfiguration/clientConfigurations/{officeClientConfiguration-id}/assignments",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/officeConfiguration/clientConfigurations/{officeClientConfiguration-id}/assignments",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "officeConfiguration",
+      "clientConfigurations",
+      "{officeClientConfiguration-id}",
+      "assignments"
+    ],
+    "Root": "officeConfiguration",
+    "Children": 2,
+    "Segment": "assignments"
+  },
+  {
+    "Endpoint": "officeConfiguration/clientConfigurations/{officeClientConfiguration-id}/assignments/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/officeConfiguration/clientConfigurations/{officeClientConfiguration-id}/assignments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "officeConfiguration",
+      "clientConfigurations",
+      "{officeClientConfiguration-id}",
+      "assignments",
+      "$count"
+    ],
+    "Root": "officeConfiguration",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "officeConfiguration/clientConfigurations/{officeClientConfiguration-id}/assignments/{officeClientConfigurationAssignment-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/officeConfiguration/clientConfigurations/{officeClientConfiguration-id}/assignments/{officeClientConfigurationAssignment-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "officeConfiguration",
+      "clientConfigurations",
+      "{officeClientConfiguration-id}",
+      "assignments",
+      "{officeClientConfigurationAssignment-id}"
+    ],
+    "Root": "officeConfiguration",
+    "Children": 0,
+    "Segment": "{officeClientConfigurationAssignment-id}"
+  },
+  {
+    "Endpoint": "officeConfiguration/clientConfigurations/{officeClientConfiguration-id}/microsoft.graph.assign",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/officeConfiguration/clientConfigurations/{officeClientConfiguration-id}/microsoft.graph.assign",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "officeConfiguration",
+      "clientConfigurations",
+      "{officeClientConfiguration-id}",
+      "microsoft.graph.assign"
+    ],
+    "Root": "officeConfiguration",
+    "Children": 0,
+    "Segment": "microsoft.graph.assign"
+  },
+  {
+    "Endpoint": "officeConfiguration/clientConfigurations/{officeClientConfiguration-id}/policyPayload",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/officeConfiguration/clientConfigurations/{officeClientConfiguration-id}/policyPayload",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "officeConfiguration",
+      "clientConfigurations",
+      "{officeClientConfiguration-id}",
+      "policyPayload"
+    ],
+    "Root": "officeConfiguration",
+    "Children": 0,
+    "Segment": "policyPayload"
+  },
+  {
+    "Endpoint": "officeConfiguration/clientConfigurations/{officeClientConfiguration-id}/userPreferencePayload",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/officeConfiguration/clientConfigurations/{officeClientConfiguration-id}/userPreferencePayload",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "officeConfiguration",
+      "clientConfigurations",
+      "{officeClientConfiguration-id}",
+      "userPreferencePayload"
+    ],
+    "Root": "officeConfiguration",
+    "Children": 0,
+    "Segment": "userPreferencePayload"
+  },
+  {
+    "Endpoint": "officeConfiguration/clientConfigurations/microsoft.graph.updatePriorities",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/officeConfiguration/clientConfigurations/microsoft.graph.updatePriorities",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "officeConfiguration",
+      "clientConfigurations",
+      "microsoft.graph.updatePriorities"
+    ],
+    "Root": "officeConfiguration",
+    "Children": 0,
+    "Segment": "microsoft.graph.updatePriorities"
+  }
+]

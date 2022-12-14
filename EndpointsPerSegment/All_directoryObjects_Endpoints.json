@@ -1,0 +1,248 @@
+[
+  {
+    "Endpoint": "directoryObjects",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryObjects",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directoryObjects",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "directoryObjects"
+    ],
+    "Root": "directoryObjects",
+    "Children": 6,
+    "Segment": "directoryObjects"
+  },
+  {
+    "Endpoint": "directoryObjects/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryObjects/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directoryObjects/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "directoryObjects",
+      "$count"
+    ],
+    "Root": "directoryObjects",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "directoryObjects/{directoryObject-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryObjects/{directoryObject-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directoryObjects/{directoryObject-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "directoryObjects",
+      "{directoryObject-id}"
+    ],
+    "Root": "directoryObjects",
+    "Children": 5,
+    "Segment": "{directoryObject-id}"
+  },
+  {
+    "Endpoint": "directoryObjects/{directoryObject-id}/microsoft.graph.checkMemberGroups",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryObjects/{directoryObject-id}/microsoft.graph.checkMemberGroups",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directoryObjects/{directoryObject-id}/microsoft.graph.checkMemberGroups",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "directoryObjects",
+      "{directoryObject-id}",
+      "microsoft.graph.checkMemberGroups"
+    ],
+    "Root": "directoryObjects",
+    "Children": 0,
+    "Segment": "microsoft.graph.checkMemberGroups"
+  },
+  {
+    "Endpoint": "directoryObjects/{directoryObject-id}/microsoft.graph.checkMemberObjects",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryObjects/{directoryObject-id}/microsoft.graph.checkMemberObjects",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directoryObjects/{directoryObject-id}/microsoft.graph.checkMemberObjects",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "directoryObjects",
+      "{directoryObject-id}",
+      "microsoft.graph.checkMemberObjects"
+    ],
+    "Root": "directoryObjects",
+    "Children": 0,
+    "Segment": "microsoft.graph.checkMemberObjects"
+  },
+  {
+    "Endpoint": "directoryObjects/{directoryObject-id}/microsoft.graph.getMemberGroups",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryObjects/{directoryObject-id}/microsoft.graph.getMemberGroups",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directoryObjects/{directoryObject-id}/microsoft.graph.getMemberGroups",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "directoryObjects",
+      "{directoryObject-id}",
+      "microsoft.graph.getMemberGroups"
+    ],
+    "Root": "directoryObjects",
+    "Children": 0,
+    "Segment": "microsoft.graph.getMemberGroups"
+  },
+  {
+    "Endpoint": "directoryObjects/{directoryObject-id}/microsoft.graph.getMemberObjects",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryObjects/{directoryObject-id}/microsoft.graph.getMemberObjects",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directoryObjects/{directoryObject-id}/microsoft.graph.getMemberObjects",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "directoryObjects",
+      "{directoryObject-id}",
+      "microsoft.graph.getMemberObjects"
+    ],
+    "Root": "directoryObjects",
+    "Children": 0,
+    "Segment": "microsoft.graph.getMemberObjects"
+  },
+  {
+    "Endpoint": "directoryObjects/{directoryObject-id}/microsoft.graph.restore",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryObjects/{directoryObject-id}/microsoft.graph.restore",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directoryObjects/{directoryObject-id}/microsoft.graph.restore",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "directoryObjects",
+      "{directoryObject-id}",
+      "microsoft.graph.restore"
+    ],
+    "Root": "directoryObjects",
+    "Children": 0,
+    "Segment": "microsoft.graph.restore"
+  },
+  {
+    "Endpoint": "directoryObjects/microsoft.graph.getAvailableExtensionProperties",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryObjects/microsoft.graph.getAvailableExtensionProperties",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "directoryObjects",
+      "microsoft.graph.getAvailableExtensionProperties"
+    ],
+    "Root": "directoryObjects",
+    "Children": 0,
+    "Segment": "microsoft.graph.getAvailableExtensionProperties"
+  },
+  {
+    "Endpoint": "directoryObjects/microsoft.graph.getByIds",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryObjects/microsoft.graph.getByIds",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directoryObjects/microsoft.graph.getByIds",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "directoryObjects",
+      "microsoft.graph.getByIds"
+    ],
+    "Root": "directoryObjects",
+    "Children": 0,
+    "Segment": "microsoft.graph.getByIds"
+  },
+  {
+    "Endpoint": "directoryObjects/microsoft.graph.getUserOwnedObjects",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directoryObjects/microsoft.graph.getUserOwnedObjects",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "directoryObjects",
+      "microsoft.graph.getUserOwnedObjects"
+    ],
+    "Root": "directoryObjects",
+    "Children": 0,
+    "Segment": "microsoft.graph.getUserOwnedObjects"
+  },
+  {
+    "Endpoint": "directoryObjects/microsoft.graph.validateProperties",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryObjects/microsoft.graph.validateProperties",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directoryObjects/microsoft.graph.validateProperties",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "directoryObjects",
+      "microsoft.graph.validateProperties"
+    ],
+    "Root": "directoryObjects",
+    "Children": 0,
+    "Segment": "microsoft.graph.validateProperties"
+  }
+]

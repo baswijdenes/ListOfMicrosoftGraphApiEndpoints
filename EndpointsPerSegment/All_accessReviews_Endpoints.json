@@ -1,0 +1,670 @@
+[
+  {
+    "Endpoint": "accessReviews",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "accessReviews"
+    ],
+    "Root": "accessReviews",
+    "Children": 2,
+    "Segment": "accessReviews"
+  },
+  {
+    "Endpoint": "accessReviews/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "accessReviews",
+      "$count"
+    ],
+    "Root": "accessReviews",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}"
+    ],
+    "Root": "accessReviews",
+    "Children": 8,
+    "Segment": "{accessReview-id}"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/decisions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/decisions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "decisions"
+    ],
+    "Root": "accessReviews",
+    "Children": 2,
+    "Segment": "decisions"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/decisions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/decisions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "decisions",
+      "$count"
+    ],
+    "Root": "accessReviews",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/decisions/{accessReviewDecision-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/decisions/{accessReviewDecision-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "decisions",
+      "{accessReviewDecision-id}"
+    ],
+    "Root": "accessReviews",
+    "Children": 0,
+    "Segment": "{accessReviewDecision-id}"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/instances",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/instances",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "instances"
+    ],
+    "Root": "accessReviews",
+    "Children": 2,
+    "Segment": "instances"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/instances/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/instances/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "instances",
+      "$count"
+    ],
+    "Root": "accessReviews",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/instances/{accessReview-id1}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/instances/{accessReview-id1}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "instances",
+      "{accessReview-id1}"
+    ],
+    "Root": "accessReviews",
+    "Children": 7,
+    "Segment": "{accessReview-id1}"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/instances/{accessReview-id1}/decisions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/instances/{accessReview-id1}/decisions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "instances",
+      "{accessReview-id1}",
+      "decisions"
+    ],
+    "Root": "accessReviews",
+    "Children": 2,
+    "Segment": "decisions"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/instances/{accessReview-id1}/decisions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/instances/{accessReview-id1}/decisions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "instances",
+      "{accessReview-id1}",
+      "decisions",
+      "$count"
+    ],
+    "Root": "accessReviews",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/instances/{accessReview-id1}/decisions/{accessReviewDecision-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/instances/{accessReview-id1}/decisions/{accessReviewDecision-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "instances",
+      "{accessReview-id1}",
+      "decisions",
+      "{accessReviewDecision-id}"
+    ],
+    "Root": "accessReviews",
+    "Children": 0,
+    "Segment": "{accessReviewDecision-id}"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/instances/{accessReview-id1}/microsoft.graph.applyDecisions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/instances/{accessReview-id1}/microsoft.graph.applyDecisions",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "instances",
+      "{accessReview-id1}",
+      "microsoft.graph.applyDecisions"
+    ],
+    "Root": "accessReviews",
+    "Children": 0,
+    "Segment": "microsoft.graph.applyDecisions"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/instances/{accessReview-id1}/microsoft.graph.resetDecisions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/instances/{accessReview-id1}/microsoft.graph.resetDecisions",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "instances",
+      "{accessReview-id1}",
+      "microsoft.graph.resetDecisions"
+    ],
+    "Root": "accessReviews",
+    "Children": 0,
+    "Segment": "microsoft.graph.resetDecisions"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/instances/{accessReview-id1}/microsoft.graph.sendReminder",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/instances/{accessReview-id1}/microsoft.graph.sendReminder",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "instances",
+      "{accessReview-id1}",
+      "microsoft.graph.sendReminder"
+    ],
+    "Root": "accessReviews",
+    "Children": 0,
+    "Segment": "microsoft.graph.sendReminder"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/instances/{accessReview-id1}/microsoft.graph.stop",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/instances/{accessReview-id1}/microsoft.graph.stop",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "instances",
+      "{accessReview-id1}",
+      "microsoft.graph.stop"
+    ],
+    "Root": "accessReviews",
+    "Children": 0,
+    "Segment": "microsoft.graph.stop"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/instances/{accessReview-id1}/myDecisions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/instances/{accessReview-id1}/myDecisions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "instances",
+      "{accessReview-id1}",
+      "myDecisions"
+    ],
+    "Root": "accessReviews",
+    "Children": 2,
+    "Segment": "myDecisions"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/instances/{accessReview-id1}/myDecisions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/instances/{accessReview-id1}/myDecisions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "instances",
+      "{accessReview-id1}",
+      "myDecisions",
+      "$count"
+    ],
+    "Root": "accessReviews",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/instances/{accessReview-id1}/myDecisions/{accessReviewDecision-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/instances/{accessReview-id1}/myDecisions/{accessReviewDecision-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "instances",
+      "{accessReview-id1}",
+      "myDecisions",
+      "{accessReviewDecision-id}"
+    ],
+    "Root": "accessReviews",
+    "Children": 0,
+    "Segment": "{accessReviewDecision-id}"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/instances/{accessReview-id1}/reviewers",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/instances/{accessReview-id1}/reviewers",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "instances",
+      "{accessReview-id1}",
+      "reviewers"
+    ],
+    "Root": "accessReviews",
+    "Children": 2,
+    "Segment": "reviewers"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/instances/{accessReview-id1}/reviewers/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/instances/{accessReview-id1}/reviewers/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "instances",
+      "{accessReview-id1}",
+      "reviewers",
+      "$count"
+    ],
+    "Root": "accessReviews",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/instances/{accessReview-id1}/reviewers/{accessReviewReviewer-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/instances/{accessReview-id1}/reviewers/{accessReviewReviewer-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "instances",
+      "{accessReview-id1}",
+      "reviewers",
+      "{accessReviewReviewer-id}"
+    ],
+    "Root": "accessReviews",
+    "Children": 0,
+    "Segment": "{accessReviewReviewer-id}"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/microsoft.graph.applyDecisions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/microsoft.graph.applyDecisions",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "microsoft.graph.applyDecisions"
+    ],
+    "Root": "accessReviews",
+    "Children": 0,
+    "Segment": "microsoft.graph.applyDecisions"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/microsoft.graph.resetDecisions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/microsoft.graph.resetDecisions",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "microsoft.graph.resetDecisions"
+    ],
+    "Root": "accessReviews",
+    "Children": 0,
+    "Segment": "microsoft.graph.resetDecisions"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/microsoft.graph.sendReminder",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/microsoft.graph.sendReminder",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "microsoft.graph.sendReminder"
+    ],
+    "Root": "accessReviews",
+    "Children": 0,
+    "Segment": "microsoft.graph.sendReminder"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/microsoft.graph.stop",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/microsoft.graph.stop",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "microsoft.graph.stop"
+    ],
+    "Root": "accessReviews",
+    "Children": 0,
+    "Segment": "microsoft.graph.stop"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/myDecisions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/myDecisions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "myDecisions"
+    ],
+    "Root": "accessReviews",
+    "Children": 2,
+    "Segment": "myDecisions"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/myDecisions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/myDecisions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "myDecisions",
+      "$count"
+    ],
+    "Root": "accessReviews",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/myDecisions/{accessReviewDecision-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/myDecisions/{accessReviewDecision-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "myDecisions",
+      "{accessReviewDecision-id}"
+    ],
+    "Root": "accessReviews",
+    "Children": 0,
+    "Segment": "{accessReviewDecision-id}"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/reviewers",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/reviewers",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "reviewers"
+    ],
+    "Root": "accessReviews",
+    "Children": 2,
+    "Segment": "reviewers"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/reviewers/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/reviewers/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "reviewers",
+      "$count"
+    ],
+    "Root": "accessReviews",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "accessReviews/{accessReview-id}/reviewers/{accessReviewReviewer-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/accessReviews/{accessReview-id}/reviewers/{accessReviewReviewer-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "accessReviews",
+      "{accessReview-id}",
+      "reviewers",
+      "{accessReviewReviewer-id}"
+    ],
+    "Root": "accessReviews",
+    "Children": 0,
+    "Segment": "{accessReviewReviewer-id}"
+  }
+]

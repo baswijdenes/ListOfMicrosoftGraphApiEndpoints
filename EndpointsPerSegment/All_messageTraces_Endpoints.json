@@ -1,0 +1,188 @@
+[
+  {
+    "Endpoint": "messageTraces",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/messageTraces",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "messageTraces"
+    ],
+    "Root": "messageTraces",
+    "Children": 2,
+    "Segment": "messageTraces"
+  },
+  {
+    "Endpoint": "messageTraces/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/messageTraces/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "messageTraces",
+      "$count"
+    ],
+    "Root": "messageTraces",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "messageTraces/{messageTrace-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/messageTraces/{messageTrace-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "messageTraces",
+      "{messageTrace-id}"
+    ],
+    "Root": "messageTraces",
+    "Children": 1,
+    "Segment": "{messageTrace-id}"
+  },
+  {
+    "Endpoint": "messageTraces/{messageTrace-id}/recipients",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/messageTraces/{messageTrace-id}/recipients",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "messageTraces",
+      "{messageTrace-id}",
+      "recipients"
+    ],
+    "Root": "messageTraces",
+    "Children": 2,
+    "Segment": "recipients"
+  },
+  {
+    "Endpoint": "messageTraces/{messageTrace-id}/recipients/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/messageTraces/{messageTrace-id}/recipients/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "messageTraces",
+      "{messageTrace-id}",
+      "recipients",
+      "$count"
+    ],
+    "Root": "messageTraces",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "messageTraces/{messageTrace-id}/recipients/{messageRecipient-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/messageTraces/{messageTrace-id}/recipients/{messageRecipient-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "messageTraces",
+      "{messageTrace-id}",
+      "recipients",
+      "{messageRecipient-id}"
+    ],
+    "Root": "messageTraces",
+    "Children": 1,
+    "Segment": "{messageRecipient-id}"
+  },
+  {
+    "Endpoint": "messageTraces/{messageTrace-id}/recipients/{messageRecipient-id}/events",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/messageTraces/{messageTrace-id}/recipients/{messageRecipient-id}/events",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "messageTraces",
+      "{messageTrace-id}",
+      "recipients",
+      "{messageRecipient-id}",
+      "events"
+    ],
+    "Root": "messageTraces",
+    "Children": 2,
+    "Segment": "events"
+  },
+  {
+    "Endpoint": "messageTraces/{messageTrace-id}/recipients/{messageRecipient-id}/events/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/messageTraces/{messageTrace-id}/recipients/{messageRecipient-id}/events/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "messageTraces",
+      "{messageTrace-id}",
+      "recipients",
+      "{messageRecipient-id}",
+      "events",
+      "$count"
+    ],
+    "Root": "messageTraces",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "messageTraces/{messageTrace-id}/recipients/{messageRecipient-id}/events/{messageEvent-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/messageTraces/{messageTrace-id}/recipients/{messageRecipient-id}/events/{messageEvent-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "messageTraces",
+      "{messageTrace-id}",
+      "recipients",
+      "{messageRecipient-id}",
+      "events",
+      "{messageEvent-id}"
+    ],
+    "Root": "messageTraces",
+    "Children": 0,
+    "Segment": "{messageEvent-id}"
+  }
+]

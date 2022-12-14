@@ -1,0 +1,4921 @@
+[
+  {
+    "Endpoint": "roleManagement",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Path": [
+      "roleManagement"
+    ],
+    "Root": "roleManagement",
+    "Children": 4,
+    "Segment": "roleManagement"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC"
+    ],
+    "Root": "roleManagement",
+    "Children": 3,
+    "Segment": "cloudPC"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/resourceNamespaces",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/resourceNamespaces",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "resourceNamespaces"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "resourceNamespaces"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/resourceNamespaces/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/resourceNamespaces/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "resourceNamespaces",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/resourceNamespaces/{unifiedRbacResourceNamespace-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/resourceNamespaces/{unifiedRbacResourceNamespace-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "resourceNamespaces",
+      "{unifiedRbacResourceNamespace-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "{unifiedRbacResourceNamespace-id}"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/resourceNamespaces/{unifiedRbacResourceNamespace-id}/microsoft.graph.importResourceActions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/resourceNamespaces/{unifiedRbacResourceNamespace-id}/microsoft.graph.importResourceActions",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "resourceNamespaces",
+      "{unifiedRbacResourceNamespace-id}",
+      "microsoft.graph.importResourceActions"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.importResourceActions"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "resourceNamespaces",
+      "{unifiedRbacResourceNamespace-id}",
+      "resourceActions"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "resourceActions"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "resourceNamespaces",
+      "{unifiedRbacResourceNamespace-id}",
+      "resourceActions",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions/{unifiedRbacResourceAction-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions/{unifiedRbacResourceAction-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "resourceNamespaces",
+      "{unifiedRbacResourceNamespace-id}",
+      "resourceActions",
+      "{unifiedRbacResourceAction-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 1,
+    "Segment": "{unifiedRbacResourceAction-id}"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions/{unifiedRbacResourceAction-id}/resourceScope",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions/{unifiedRbacResourceAction-id}/resourceScope",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "resourceNamespaces",
+      "{unifiedRbacResourceNamespace-id}",
+      "resourceActions",
+      "{unifiedRbacResourceAction-id}",
+      "resourceScope"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "resourceScope"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/roleAssignments",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/roleAssignments",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "roleAssignments"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "roleAssignments"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/roleAssignments/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/roleAssignments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "roleAssignments",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/roleAssignments/{unifiedRoleAssignmentMultiple-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/roleAssignments/{unifiedRoleAssignmentMultiple-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "roleAssignments",
+      "{unifiedRoleAssignmentMultiple-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 4,
+    "Segment": "{unifiedRoleAssignmentMultiple-id}"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/roleAssignments/{unifiedRoleAssignmentMultiple-id}/appScopes",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/roleAssignments/{unifiedRoleAssignmentMultiple-id}/appScopes",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "roleAssignments",
+      "{unifiedRoleAssignmentMultiple-id}",
+      "appScopes"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "appScopes"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/roleAssignments/{unifiedRoleAssignmentMultiple-id}/appScopes/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/roleAssignments/{unifiedRoleAssignmentMultiple-id}/appScopes/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "roleAssignments",
+      "{unifiedRoleAssignmentMultiple-id}",
+      "appScopes",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/roleAssignments/{unifiedRoleAssignmentMultiple-id}/appScopes/{appScope-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/roleAssignments/{unifiedRoleAssignmentMultiple-id}/appScopes/{appScope-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "roleAssignments",
+      "{unifiedRoleAssignmentMultiple-id}",
+      "appScopes",
+      "{appScope-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "{appScope-id}"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/roleAssignments/{unifiedRoleAssignmentMultiple-id}/directoryScopes",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/roleAssignments/{unifiedRoleAssignmentMultiple-id}/directoryScopes",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "roleAssignments",
+      "{unifiedRoleAssignmentMultiple-id}",
+      "directoryScopes"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "directoryScopes"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/roleAssignments/{unifiedRoleAssignmentMultiple-id}/directoryScopes/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/roleAssignments/{unifiedRoleAssignmentMultiple-id}/directoryScopes/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "roleAssignments",
+      "{unifiedRoleAssignmentMultiple-id}",
+      "directoryScopes",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/roleAssignments/{unifiedRoleAssignmentMultiple-id}/directoryScopes/{directoryObject-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/roleAssignments/{unifiedRoleAssignmentMultiple-id}/directoryScopes/{directoryObject-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "roleAssignments",
+      "{unifiedRoleAssignmentMultiple-id}",
+      "directoryScopes",
+      "{directoryObject-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "{directoryObject-id}"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/roleAssignments/{unifiedRoleAssignmentMultiple-id}/principals",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/roleAssignments/{unifiedRoleAssignmentMultiple-id}/principals",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "roleAssignments",
+      "{unifiedRoleAssignmentMultiple-id}",
+      "principals"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "principals"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/roleAssignments/{unifiedRoleAssignmentMultiple-id}/principals/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/roleAssignments/{unifiedRoleAssignmentMultiple-id}/principals/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "roleAssignments",
+      "{unifiedRoleAssignmentMultiple-id}",
+      "principals",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/roleAssignments/{unifiedRoleAssignmentMultiple-id}/principals/{directoryObject-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/roleAssignments/{unifiedRoleAssignmentMultiple-id}/principals/{directoryObject-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "roleAssignments",
+      "{unifiedRoleAssignmentMultiple-id}",
+      "principals",
+      "{directoryObject-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "{directoryObject-id}"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/roleAssignments/{unifiedRoleAssignmentMultiple-id}/roleDefinition",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/roleAssignments/{unifiedRoleAssignmentMultiple-id}/roleDefinition",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "roleAssignments",
+      "{unifiedRoleAssignmentMultiple-id}",
+      "roleDefinition"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "roleDefinition"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/roleDefinitions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/roleDefinitions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "roleDefinitions"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "roleDefinitions"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/roleDefinitions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/roleDefinitions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "roleDefinitions",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/roleDefinitions/{unifiedRoleDefinition-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/roleDefinitions/{unifiedRoleDefinition-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "roleDefinitions",
+      "{unifiedRoleDefinition-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "{unifiedRoleDefinition-id}"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "roleDefinitions",
+      "{unifiedRoleDefinition-id}",
+      "inheritsPermissionsFrom"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "inheritsPermissionsFrom"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "roleDefinitions",
+      "{unifiedRoleDefinition-id}",
+      "inheritsPermissionsFrom",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/{unifiedRoleDefinition-id1}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/{unifiedRoleDefinition-id1}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "roleDefinitions",
+      "{unifiedRoleDefinition-id}",
+      "inheritsPermissionsFrom",
+      "{unifiedRoleDefinition-id1}"
+    ],
+    "Root": "roleManagement",
+    "Children": 1,
+    "Segment": "{unifiedRoleDefinition-id1}"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/{unifiedRoleDefinition-id1}/microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/{unifiedRoleDefinition-id1}/microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "roleDefinitions",
+      "{unifiedRoleDefinition-id}",
+      "inheritsPermissionsFrom",
+      "{unifiedRoleDefinition-id1}",
+      "microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')"
+  },
+  {
+    "Endpoint": "roleManagement/cloudPC/roleDefinitions/{unifiedRoleDefinition-id}/microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/cloudPC/roleDefinitions/{unifiedRoleDefinition-id}/microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "cloudPC",
+      "roleDefinitions",
+      "{unifiedRoleDefinition-id}",
+      "microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement"
+    ],
+    "Root": "roleManagement",
+    "Children": 3,
+    "Segment": "deviceManagement"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/resourceNamespaces",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/resourceNamespaces",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "resourceNamespaces"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "resourceNamespaces"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/resourceNamespaces/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/resourceNamespaces/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "resourceNamespaces",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/resourceNamespaces/{unifiedRbacResourceNamespace-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/resourceNamespaces/{unifiedRbacResourceNamespace-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "resourceNamespaces",
+      "{unifiedRbacResourceNamespace-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "{unifiedRbacResourceNamespace-id}"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/resourceNamespaces/{unifiedRbacResourceNamespace-id}/microsoft.graph.importResourceActions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/resourceNamespaces/{unifiedRbacResourceNamespace-id}/microsoft.graph.importResourceActions",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "resourceNamespaces",
+      "{unifiedRbacResourceNamespace-id}",
+      "microsoft.graph.importResourceActions"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.importResourceActions"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "resourceNamespaces",
+      "{unifiedRbacResourceNamespace-id}",
+      "resourceActions"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "resourceActions"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "resourceNamespaces",
+      "{unifiedRbacResourceNamespace-id}",
+      "resourceActions",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions/{unifiedRbacResourceAction-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions/{unifiedRbacResourceAction-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "resourceNamespaces",
+      "{unifiedRbacResourceNamespace-id}",
+      "resourceActions",
+      "{unifiedRbacResourceAction-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 1,
+    "Segment": "{unifiedRbacResourceAction-id}"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions/{unifiedRbacResourceAction-id}/resourceScope",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions/{unifiedRbacResourceAction-id}/resourceScope",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "resourceNamespaces",
+      "{unifiedRbacResourceNamespace-id}",
+      "resourceActions",
+      "{unifiedRbacResourceAction-id}",
+      "resourceScope"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "resourceScope"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/roleAssignments",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/roleAssignments",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "roleAssignments"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "roleAssignments"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/roleAssignments/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/roleAssignments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "roleAssignments",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/roleAssignments/{unifiedRoleAssignmentMultiple-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/roleAssignments/{unifiedRoleAssignmentMultiple-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "roleAssignments",
+      "{unifiedRoleAssignmentMultiple-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 4,
+    "Segment": "{unifiedRoleAssignmentMultiple-id}"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/roleAssignments/{unifiedRoleAssignmentMultiple-id}/appScopes",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/roleAssignments/{unifiedRoleAssignmentMultiple-id}/appScopes",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "roleAssignments",
+      "{unifiedRoleAssignmentMultiple-id}",
+      "appScopes"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "appScopes"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/roleAssignments/{unifiedRoleAssignmentMultiple-id}/appScopes/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/roleAssignments/{unifiedRoleAssignmentMultiple-id}/appScopes/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "roleAssignments",
+      "{unifiedRoleAssignmentMultiple-id}",
+      "appScopes",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/roleAssignments/{unifiedRoleAssignmentMultiple-id}/appScopes/{appScope-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/roleAssignments/{unifiedRoleAssignmentMultiple-id}/appScopes/{appScope-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "roleAssignments",
+      "{unifiedRoleAssignmentMultiple-id}",
+      "appScopes",
+      "{appScope-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "{appScope-id}"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/roleAssignments/{unifiedRoleAssignmentMultiple-id}/directoryScopes",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/roleAssignments/{unifiedRoleAssignmentMultiple-id}/directoryScopes",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "roleAssignments",
+      "{unifiedRoleAssignmentMultiple-id}",
+      "directoryScopes"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "directoryScopes"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/roleAssignments/{unifiedRoleAssignmentMultiple-id}/directoryScopes/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/roleAssignments/{unifiedRoleAssignmentMultiple-id}/directoryScopes/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "roleAssignments",
+      "{unifiedRoleAssignmentMultiple-id}",
+      "directoryScopes",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/roleAssignments/{unifiedRoleAssignmentMultiple-id}/directoryScopes/{directoryObject-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/roleAssignments/{unifiedRoleAssignmentMultiple-id}/directoryScopes/{directoryObject-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "roleAssignments",
+      "{unifiedRoleAssignmentMultiple-id}",
+      "directoryScopes",
+      "{directoryObject-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "{directoryObject-id}"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/roleAssignments/{unifiedRoleAssignmentMultiple-id}/principals",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/roleAssignments/{unifiedRoleAssignmentMultiple-id}/principals",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "roleAssignments",
+      "{unifiedRoleAssignmentMultiple-id}",
+      "principals"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "principals"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/roleAssignments/{unifiedRoleAssignmentMultiple-id}/principals/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/roleAssignments/{unifiedRoleAssignmentMultiple-id}/principals/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "roleAssignments",
+      "{unifiedRoleAssignmentMultiple-id}",
+      "principals",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/roleAssignments/{unifiedRoleAssignmentMultiple-id}/principals/{directoryObject-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/roleAssignments/{unifiedRoleAssignmentMultiple-id}/principals/{directoryObject-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "roleAssignments",
+      "{unifiedRoleAssignmentMultiple-id}",
+      "principals",
+      "{directoryObject-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "{directoryObject-id}"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/roleAssignments/{unifiedRoleAssignmentMultiple-id}/roleDefinition",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/roleAssignments/{unifiedRoleAssignmentMultiple-id}/roleDefinition",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "roleAssignments",
+      "{unifiedRoleAssignmentMultiple-id}",
+      "roleDefinition"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "roleDefinition"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/roleDefinitions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/roleDefinitions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "roleDefinitions"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "roleDefinitions"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/roleDefinitions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/roleDefinitions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "roleDefinitions",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/roleDefinitions/{unifiedRoleDefinition-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/roleDefinitions/{unifiedRoleDefinition-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "roleDefinitions",
+      "{unifiedRoleDefinition-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "{unifiedRoleDefinition-id}"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "roleDefinitions",
+      "{unifiedRoleDefinition-id}",
+      "inheritsPermissionsFrom"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "inheritsPermissionsFrom"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "roleDefinitions",
+      "{unifiedRoleDefinition-id}",
+      "inheritsPermissionsFrom",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/{unifiedRoleDefinition-id1}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/{unifiedRoleDefinition-id1}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "roleDefinitions",
+      "{unifiedRoleDefinition-id}",
+      "inheritsPermissionsFrom",
+      "{unifiedRoleDefinition-id1}"
+    ],
+    "Root": "roleManagement",
+    "Children": 1,
+    "Segment": "{unifiedRoleDefinition-id1}"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/{unifiedRoleDefinition-id1}/microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/{unifiedRoleDefinition-id1}/microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "roleDefinitions",
+      "{unifiedRoleDefinition-id}",
+      "inheritsPermissionsFrom",
+      "{unifiedRoleDefinition-id1}",
+      "microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')"
+  },
+  {
+    "Endpoint": "roleManagement/deviceManagement/roleDefinitions/{unifiedRoleDefinition-id}/microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/deviceManagement/roleDefinitions/{unifiedRoleDefinition-id}/microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "deviceManagement",
+      "roleDefinitions",
+      "{unifiedRoleDefinition-id}",
+      "microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')"
+  },
+  {
+    "Endpoint": "roleManagement/directory",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory"
+    ],
+    "Root": "roleManagement",
+    "Children": 13,
+    "Segment": "directory"
+  },
+  {
+    "Endpoint": "roleManagement/directory/microsoft.graph.roleScheduleInstances(directoryScopeId='@directoryScopeId',appScopeId='@appScopeId',principalId='@principalId',roleDefinitionId='@roleDefinitionId')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/microsoft.graph.roleScheduleInstances(directoryScopeId='@directoryScopeId',appScopeId='@appScopeId',principalId='@principalId',roleDefinitionId='@roleDefinitionId')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "microsoft.graph.roleScheduleInstances(directoryScopeId='@directoryScopeId',appScopeId='@appScopeId',principalId='@principalId',roleDefinitionId='@roleDefinitionId')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.roleScheduleInstances(directoryScopeId='@directoryScopeId',appScopeId='@appScopeId',principalId='@principalId',roleDefinitionId='@roleDefinitionId')"
+  },
+  {
+    "Endpoint": "roleManagement/directory/microsoft.graph.roleSchedules(directoryScopeId='@directoryScopeId',appScopeId='@appScopeId',principalId='@principalId',roleDefinitionId='@roleDefinitionId')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/microsoft.graph.roleSchedules(directoryScopeId='@directoryScopeId',appScopeId='@appScopeId',principalId='@principalId',roleDefinitionId='@roleDefinitionId')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "microsoft.graph.roleSchedules(directoryScopeId='@directoryScopeId',appScopeId='@appScopeId',principalId='@principalId',roleDefinitionId='@roleDefinitionId')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.roleSchedules(directoryScopeId='@directoryScopeId',appScopeId='@appScopeId',principalId='@principalId',roleDefinitionId='@roleDefinitionId')"
+  },
+  {
+    "Endpoint": "roleManagement/directory/resourceNamespaces",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/resourceNamespaces",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "resourceNamespaces"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "resourceNamespaces"
+  },
+  {
+    "Endpoint": "roleManagement/directory/resourceNamespaces/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/resourceNamespaces/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "resourceNamespaces",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/directory/resourceNamespaces/{unifiedRbacResourceNamespace-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/resourceNamespaces/{unifiedRbacResourceNamespace-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "resourceNamespaces",
+      "{unifiedRbacResourceNamespace-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "{unifiedRbacResourceNamespace-id}"
+  },
+  {
+    "Endpoint": "roleManagement/directory/resourceNamespaces/{unifiedRbacResourceNamespace-id}/microsoft.graph.importResourceActions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/resourceNamespaces/{unifiedRbacResourceNamespace-id}/microsoft.graph.importResourceActions",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "resourceNamespaces",
+      "{unifiedRbacResourceNamespace-id}",
+      "microsoft.graph.importResourceActions"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.importResourceActions"
+  },
+  {
+    "Endpoint": "roleManagement/directory/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "resourceNamespaces",
+      "{unifiedRbacResourceNamespace-id}",
+      "resourceActions"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "resourceActions"
+  },
+  {
+    "Endpoint": "roleManagement/directory/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "resourceNamespaces",
+      "{unifiedRbacResourceNamespace-id}",
+      "resourceActions",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/directory/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions/{unifiedRbacResourceAction-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions/{unifiedRbacResourceAction-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "resourceNamespaces",
+      "{unifiedRbacResourceNamespace-id}",
+      "resourceActions",
+      "{unifiedRbacResourceAction-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 1,
+    "Segment": "{unifiedRbacResourceAction-id}"
+  },
+  {
+    "Endpoint": "roleManagement/directory/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions/{unifiedRbacResourceAction-id}/resourceScope",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions/{unifiedRbacResourceAction-id}/resourceScope",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "resourceNamespaces",
+      "{unifiedRbacResourceNamespace-id}",
+      "resourceActions",
+      "{unifiedRbacResourceAction-id}",
+      "resourceScope"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "resourceScope"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentApprovals",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentApprovals",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentApprovals"
+    ],
+    "Root": "roleManagement",
+    "Children": 3,
+    "Segment": "roleAssignmentApprovals"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentApprovals/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentApprovals/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentApprovals",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentApprovals/{approval-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentApprovals/{approval-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentApprovals",
+      "{approval-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 1,
+    "Segment": "{approval-id}"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentApprovals/{approval-id}/steps",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentApprovals/{approval-id}/steps",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentApprovals",
+      "{approval-id}",
+      "steps"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "steps"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentApprovals/{approval-id}/steps/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentApprovals/{approval-id}/steps/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentApprovals",
+      "{approval-id}",
+      "steps",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentApprovals/{approval-id}/steps/{approvalStep-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentApprovals/{approval-id}/steps/{approvalStep-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentApprovals",
+      "{approval-id}",
+      "steps",
+      "{approvalStep-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "{approvalStep-id}"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentApprovals/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentApprovals/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentApprovals",
+      "microsoft.graph.filterByCurrentUser(on='{on}')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.filterByCurrentUser(on='{on}')"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignments",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignments",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignments",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignments"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "roleAssignments"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignments/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignments/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignments",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignments/{unifiedRoleAssignment-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignments/{unifiedRoleAssignment-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignments/{unifiedRoleAssignment-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignments",
+      "{unifiedRoleAssignment-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 4,
+    "Segment": "{unifiedRoleAssignment-id}"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignments/{unifiedRoleAssignment-id}/appScope",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignments/{unifiedRoleAssignment-id}/appScope",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignments/{unifiedRoleAssignment-id}/appScope",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignments",
+      "{unifiedRoleAssignment-id}",
+      "appScope"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "appScope"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignments/{unifiedRoleAssignment-id}/directoryScope",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignments/{unifiedRoleAssignment-id}/directoryScope",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignments/{unifiedRoleAssignment-id}/directoryScope",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignments",
+      "{unifiedRoleAssignment-id}",
+      "directoryScope"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "directoryScope"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignments/{unifiedRoleAssignment-id}/principal",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignments/{unifiedRoleAssignment-id}/principal",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignments/{unifiedRoleAssignment-id}/principal",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignments",
+      "{unifiedRoleAssignment-id}",
+      "principal"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "principal"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignments/{unifiedRoleAssignment-id}/roleDefinition",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignments/{unifiedRoleAssignment-id}/roleDefinition",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignments/{unifiedRoleAssignment-id}/roleDefinition",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignments",
+      "{unifiedRoleAssignment-id}",
+      "roleDefinition"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "roleDefinition"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentScheduleInstances",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignmentScheduleInstances",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentScheduleInstances",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentScheduleInstances"
+    ],
+    "Root": "roleManagement",
+    "Children": 3,
+    "Segment": "roleAssignmentScheduleInstances"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentScheduleInstances/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignmentScheduleInstances/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentScheduleInstances/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentScheduleInstances",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentScheduleInstances/{unifiedRoleAssignmentScheduleInstance-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignmentScheduleInstances/{unifiedRoleAssignmentScheduleInstance-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentScheduleInstances/{unifiedRoleAssignmentScheduleInstance-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentScheduleInstances",
+      "{unifiedRoleAssignmentScheduleInstance-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 1,
+    "Segment": "{unifiedRoleAssignmentScheduleInstance-id}"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentScheduleInstances/{unifiedRoleAssignmentScheduleInstance-id}/activatedUsing",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignmentScheduleInstances/{unifiedRoleAssignmentScheduleInstance-id}/activatedUsing",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentScheduleInstances/{unifiedRoleAssignmentScheduleInstance-id}/activatedUsing",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentScheduleInstances",
+      "{unifiedRoleAssignmentScheduleInstance-id}",
+      "activatedUsing"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "activatedUsing"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentScheduleInstances/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignmentScheduleInstances/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentScheduleInstances/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentScheduleInstances",
+      "microsoft.graph.filterByCurrentUser(on='{on}')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.filterByCurrentUser(on='{on}')"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentScheduleRequests",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignmentScheduleRequests",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentScheduleRequests",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentScheduleRequests"
+    ],
+    "Root": "roleManagement",
+    "Children": 3,
+    "Segment": "roleAssignmentScheduleRequests"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentScheduleRequests/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignmentScheduleRequests/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentScheduleRequests/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentScheduleRequests",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentScheduleRequests",
+      "{unifiedRoleAssignmentScheduleRequest-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 7,
+    "Segment": "{unifiedRoleAssignmentScheduleRequest-id}"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/activatedUsing",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/activatedUsing",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/activatedUsing",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentScheduleRequests",
+      "{unifiedRoleAssignmentScheduleRequest-id}",
+      "activatedUsing"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "activatedUsing"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/appScope",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/appScope",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/appScope",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentScheduleRequests",
+      "{unifiedRoleAssignmentScheduleRequest-id}",
+      "appScope"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "appScope"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/directoryScope",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/directoryScope",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/directoryScope",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentScheduleRequests",
+      "{unifiedRoleAssignmentScheduleRequest-id}",
+      "directoryScope"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "directoryScope"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/microsoft.graph.cancel",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/microsoft.graph.cancel",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/microsoft.graph.cancel",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentScheduleRequests",
+      "{unifiedRoleAssignmentScheduleRequest-id}",
+      "microsoft.graph.cancel"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.cancel"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/principal",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/principal",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/principal",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentScheduleRequests",
+      "{unifiedRoleAssignmentScheduleRequest-id}",
+      "principal"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "principal"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/roleDefinition",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/roleDefinition",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/roleDefinition",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentScheduleRequests",
+      "{unifiedRoleAssignmentScheduleRequest-id}",
+      "roleDefinition"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "roleDefinition"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/targetSchedule",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/targetSchedule",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/targetSchedule",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentScheduleRequests",
+      "{unifiedRoleAssignmentScheduleRequest-id}",
+      "targetSchedule"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "targetSchedule"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentScheduleRequests/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignmentScheduleRequests/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentScheduleRequests/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentScheduleRequests",
+      "microsoft.graph.filterByCurrentUser(on='{on}')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.filterByCurrentUser(on='{on}')"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentSchedules",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignmentSchedules",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentSchedules",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentSchedules"
+    ],
+    "Root": "roleManagement",
+    "Children": 3,
+    "Segment": "roleAssignmentSchedules"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentSchedules/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignmentSchedules/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentSchedules/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentSchedules",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentSchedules/{unifiedRoleAssignmentSchedule-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignmentSchedules/{unifiedRoleAssignmentSchedule-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentSchedules/{unifiedRoleAssignmentSchedule-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentSchedules",
+      "{unifiedRoleAssignmentSchedule-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 1,
+    "Segment": "{unifiedRoleAssignmentSchedule-id}"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentSchedules/{unifiedRoleAssignmentSchedule-id}/activatedUsing",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignmentSchedules/{unifiedRoleAssignmentSchedule-id}/activatedUsing",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentSchedules/{unifiedRoleAssignmentSchedule-id}/activatedUsing",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentSchedules",
+      "{unifiedRoleAssignmentSchedule-id}",
+      "activatedUsing"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "activatedUsing"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleAssignmentSchedules/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleAssignmentSchedules/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleAssignmentSchedules/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleAssignmentSchedules",
+      "microsoft.graph.filterByCurrentUser(on='{on}')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.filterByCurrentUser(on='{on}')"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleDefinitions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleDefinitions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleDefinitions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleDefinitions"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "roleDefinitions"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleDefinitions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleDefinitions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleDefinitions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleDefinitions",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleDefinitions/{unifiedRoleDefinition-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleDefinitions/{unifiedRoleDefinition-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleDefinitions/{unifiedRoleDefinition-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleDefinitions",
+      "{unifiedRoleDefinition-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "{unifiedRoleDefinition-id}"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleDefinitions",
+      "{unifiedRoleDefinition-id}",
+      "inheritsPermissionsFrom"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "inheritsPermissionsFrom"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleDefinitions",
+      "{unifiedRoleDefinition-id}",
+      "inheritsPermissionsFrom",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/{unifiedRoleDefinition-id1}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/{unifiedRoleDefinition-id1}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/{unifiedRoleDefinition-id1}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleDefinitions",
+      "{unifiedRoleDefinition-id}",
+      "inheritsPermissionsFrom",
+      "{unifiedRoleDefinition-id1}"
+    ],
+    "Root": "roleManagement",
+    "Children": 1,
+    "Segment": "{unifiedRoleDefinition-id1}"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/{unifiedRoleDefinition-id1}/microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/{unifiedRoleDefinition-id1}/microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleDefinitions",
+      "{unifiedRoleDefinition-id}",
+      "inheritsPermissionsFrom",
+      "{unifiedRoleDefinition-id1}",
+      "microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleDefinitions/{unifiedRoleDefinition-id}/microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleDefinitions/{unifiedRoleDefinition-id}/microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleDefinitions",
+      "{unifiedRoleDefinition-id}",
+      "microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleEligibilityScheduleInstances",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleEligibilityScheduleInstances",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleEligibilityScheduleInstances",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleEligibilityScheduleInstances"
+    ],
+    "Root": "roleManagement",
+    "Children": 3,
+    "Segment": "roleEligibilityScheduleInstances"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleEligibilityScheduleInstances/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleEligibilityScheduleInstances/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleEligibilityScheduleInstances/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleEligibilityScheduleInstances",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleEligibilityScheduleInstances/{unifiedRoleEligibilityScheduleInstance-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleEligibilityScheduleInstances/{unifiedRoleEligibilityScheduleInstance-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleEligibilityScheduleInstances/{unifiedRoleEligibilityScheduleInstance-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleEligibilityScheduleInstances",
+      "{unifiedRoleEligibilityScheduleInstance-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "{unifiedRoleEligibilityScheduleInstance-id}"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleEligibilityScheduleInstances/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleEligibilityScheduleInstances/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleEligibilityScheduleInstances/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleEligibilityScheduleInstances",
+      "microsoft.graph.filterByCurrentUser(on='{on}')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.filterByCurrentUser(on='{on}')"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleEligibilityScheduleRequests",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleEligibilityScheduleRequests",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleEligibilityScheduleRequests",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleEligibilityScheduleRequests"
+    ],
+    "Root": "roleManagement",
+    "Children": 3,
+    "Segment": "roleEligibilityScheduleRequests"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleEligibilityScheduleRequests/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleEligibilityScheduleRequests/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleEligibilityScheduleRequests/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleEligibilityScheduleRequests",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleEligibilityScheduleRequests",
+      "{unifiedRoleEligibilityScheduleRequest-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 6,
+    "Segment": "{unifiedRoleEligibilityScheduleRequest-id}"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/appScope",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/appScope",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/appScope",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleEligibilityScheduleRequests",
+      "{unifiedRoleEligibilityScheduleRequest-id}",
+      "appScope"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "appScope"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/directoryScope",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/directoryScope",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/directoryScope",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleEligibilityScheduleRequests",
+      "{unifiedRoleEligibilityScheduleRequest-id}",
+      "directoryScope"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "directoryScope"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/microsoft.graph.cancel",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/microsoft.graph.cancel",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/microsoft.graph.cancel",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleEligibilityScheduleRequests",
+      "{unifiedRoleEligibilityScheduleRequest-id}",
+      "microsoft.graph.cancel"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.cancel"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/principal",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/principal",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/principal",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleEligibilityScheduleRequests",
+      "{unifiedRoleEligibilityScheduleRequest-id}",
+      "principal"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "principal"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/roleDefinition",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/roleDefinition",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/roleDefinition",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleEligibilityScheduleRequests",
+      "{unifiedRoleEligibilityScheduleRequest-id}",
+      "roleDefinition"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "roleDefinition"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/targetSchedule",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/targetSchedule",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/targetSchedule",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleEligibilityScheduleRequests",
+      "{unifiedRoleEligibilityScheduleRequest-id}",
+      "targetSchedule"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "targetSchedule"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleEligibilityScheduleRequests/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleEligibilityScheduleRequests/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleEligibilityScheduleRequests/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleEligibilityScheduleRequests",
+      "microsoft.graph.filterByCurrentUser(on='{on}')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.filterByCurrentUser(on='{on}')"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleEligibilitySchedules",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleEligibilitySchedules",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleEligibilitySchedules",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleEligibilitySchedules"
+    ],
+    "Root": "roleManagement",
+    "Children": 3,
+    "Segment": "roleEligibilitySchedules"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleEligibilitySchedules/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleEligibilitySchedules/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleEligibilitySchedules/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleEligibilitySchedules",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleEligibilitySchedules/{unifiedRoleEligibilitySchedule-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleEligibilitySchedules/{unifiedRoleEligibilitySchedule-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleEligibilitySchedules/{unifiedRoleEligibilitySchedule-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleEligibilitySchedules",
+      "{unifiedRoleEligibilitySchedule-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "{unifiedRoleEligibilitySchedule-id}"
+  },
+  {
+    "Endpoint": "roleManagement/directory/roleEligibilitySchedules/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/directory/roleEligibilitySchedules/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/roleEligibilitySchedules/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "roleEligibilitySchedules",
+      "microsoft.graph.filterByCurrentUser(on='{on}')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.filterByCurrentUser(on='{on}')"
+  },
+  {
+    "Endpoint": "roleManagement/directory/transitiveRoleAssignments",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/transitiveRoleAssignments",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "transitiveRoleAssignments"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "transitiveRoleAssignments"
+  },
+  {
+    "Endpoint": "roleManagement/directory/transitiveRoleAssignments/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/transitiveRoleAssignments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "transitiveRoleAssignments",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/directory/transitiveRoleAssignments/{unifiedRoleAssignment-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/transitiveRoleAssignments/{unifiedRoleAssignment-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "transitiveRoleAssignments",
+      "{unifiedRoleAssignment-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 4,
+    "Segment": "{unifiedRoleAssignment-id}"
+  },
+  {
+    "Endpoint": "roleManagement/directory/transitiveRoleAssignments/{unifiedRoleAssignment-id}/appScope",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/transitiveRoleAssignments/{unifiedRoleAssignment-id}/appScope",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "transitiveRoleAssignments",
+      "{unifiedRoleAssignment-id}",
+      "appScope"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "appScope"
+  },
+  {
+    "Endpoint": "roleManagement/directory/transitiveRoleAssignments/{unifiedRoleAssignment-id}/directoryScope",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/transitiveRoleAssignments/{unifiedRoleAssignment-id}/directoryScope",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "transitiveRoleAssignments",
+      "{unifiedRoleAssignment-id}",
+      "directoryScope"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "directoryScope"
+  },
+  {
+    "Endpoint": "roleManagement/directory/transitiveRoleAssignments/{unifiedRoleAssignment-id}/principal",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/transitiveRoleAssignments/{unifiedRoleAssignment-id}/principal",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "transitiveRoleAssignments",
+      "{unifiedRoleAssignment-id}",
+      "principal"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "principal"
+  },
+  {
+    "Endpoint": "roleManagement/directory/transitiveRoleAssignments/{unifiedRoleAssignment-id}/roleDefinition",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/directory/transitiveRoleAssignments/{unifiedRoleAssignment-id}/roleDefinition",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "directory",
+      "transitiveRoleAssignments",
+      "{unifiedRoleAssignment-id}",
+      "roleDefinition"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "roleDefinition"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement"
+    ],
+    "Root": "roleManagement",
+    "Children": 13,
+    "Segment": "entitlementManagement"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/microsoft.graph.roleScheduleInstances(directoryScopeId='@directoryScopeId',appScopeId='@appScopeId',principalId='@principalId',roleDefinitionId='@roleDefinitionId')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/microsoft.graph.roleScheduleInstances(directoryScopeId='@directoryScopeId',appScopeId='@appScopeId',principalId='@principalId',roleDefinitionId='@roleDefinitionId')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "microsoft.graph.roleScheduleInstances(directoryScopeId='@directoryScopeId',appScopeId='@appScopeId',principalId='@principalId',roleDefinitionId='@roleDefinitionId')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.roleScheduleInstances(directoryScopeId='@directoryScopeId',appScopeId='@appScopeId',principalId='@principalId',roleDefinitionId='@roleDefinitionId')"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/microsoft.graph.roleSchedules(directoryScopeId='@directoryScopeId',appScopeId='@appScopeId',principalId='@principalId',roleDefinitionId='@roleDefinitionId')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/microsoft.graph.roleSchedules(directoryScopeId='@directoryScopeId',appScopeId='@appScopeId',principalId='@principalId',roleDefinitionId='@roleDefinitionId')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "microsoft.graph.roleSchedules(directoryScopeId='@directoryScopeId',appScopeId='@appScopeId',principalId='@principalId',roleDefinitionId='@roleDefinitionId')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.roleSchedules(directoryScopeId='@directoryScopeId',appScopeId='@appScopeId',principalId='@principalId',roleDefinitionId='@roleDefinitionId')"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/resourceNamespaces",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/resourceNamespaces",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "resourceNamespaces"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "resourceNamespaces"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/resourceNamespaces/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/resourceNamespaces/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "resourceNamespaces",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/resourceNamespaces/{unifiedRbacResourceNamespace-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/resourceNamespaces/{unifiedRbacResourceNamespace-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "resourceNamespaces",
+      "{unifiedRbacResourceNamespace-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "{unifiedRbacResourceNamespace-id}"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/resourceNamespaces/{unifiedRbacResourceNamespace-id}/microsoft.graph.importResourceActions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/resourceNamespaces/{unifiedRbacResourceNamespace-id}/microsoft.graph.importResourceActions",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "resourceNamespaces",
+      "{unifiedRbacResourceNamespace-id}",
+      "microsoft.graph.importResourceActions"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.importResourceActions"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "resourceNamespaces",
+      "{unifiedRbacResourceNamespace-id}",
+      "resourceActions"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "resourceActions"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "resourceNamespaces",
+      "{unifiedRbacResourceNamespace-id}",
+      "resourceActions",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions/{unifiedRbacResourceAction-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions/{unifiedRbacResourceAction-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "resourceNamespaces",
+      "{unifiedRbacResourceNamespace-id}",
+      "resourceActions",
+      "{unifiedRbacResourceAction-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 1,
+    "Segment": "{unifiedRbacResourceAction-id}"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions/{unifiedRbacResourceAction-id}/resourceScope",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/resourceNamespaces/{unifiedRbacResourceNamespace-id}/resourceActions/{unifiedRbacResourceAction-id}/resourceScope",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "resourceNamespaces",
+      "{unifiedRbacResourceNamespace-id}",
+      "resourceActions",
+      "{unifiedRbacResourceAction-id}",
+      "resourceScope"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "resourceScope"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentApprovals",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentApprovals",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentApprovals"
+    ],
+    "Root": "roleManagement",
+    "Children": 3,
+    "Segment": "roleAssignmentApprovals"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentApprovals/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentApprovals/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentApprovals",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentApprovals/{approval-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentApprovals/{approval-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentApprovals",
+      "{approval-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 1,
+    "Segment": "{approval-id}"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentApprovals/{approval-id}/steps",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentApprovals/{approval-id}/steps",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentApprovals",
+      "{approval-id}",
+      "steps"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "steps"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentApprovals/{approval-id}/steps/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentApprovals/{approval-id}/steps/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentApprovals",
+      "{approval-id}",
+      "steps",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentApprovals/{approval-id}/steps/{approvalStep-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentApprovals/{approval-id}/steps/{approvalStep-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentApprovals",
+      "{approval-id}",
+      "steps",
+      "{approvalStep-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "{approvalStep-id}"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentApprovals/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentApprovals/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentApprovals",
+      "microsoft.graph.filterByCurrentUser(on='{on}')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.filterByCurrentUser(on='{on}')"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignments",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignments",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignments",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignments"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "roleAssignments"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignments/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignments/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignments",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignments/{unifiedRoleAssignment-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignments/{unifiedRoleAssignment-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignments/{unifiedRoleAssignment-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignments",
+      "{unifiedRoleAssignment-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 4,
+    "Segment": "{unifiedRoleAssignment-id}"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignments/{unifiedRoleAssignment-id}/appScope",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignments/{unifiedRoleAssignment-id}/appScope",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignments/{unifiedRoleAssignment-id}/appScope",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignments",
+      "{unifiedRoleAssignment-id}",
+      "appScope"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "appScope"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignments/{unifiedRoleAssignment-id}/directoryScope",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignments/{unifiedRoleAssignment-id}/directoryScope",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignments/{unifiedRoleAssignment-id}/directoryScope",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignments",
+      "{unifiedRoleAssignment-id}",
+      "directoryScope"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "directoryScope"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignments/{unifiedRoleAssignment-id}/principal",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignments/{unifiedRoleAssignment-id}/principal",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignments/{unifiedRoleAssignment-id}/principal",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignments",
+      "{unifiedRoleAssignment-id}",
+      "principal"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "principal"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignments/{unifiedRoleAssignment-id}/roleDefinition",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignments/{unifiedRoleAssignment-id}/roleDefinition",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignments/{unifiedRoleAssignment-id}/roleDefinition",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignments",
+      "{unifiedRoleAssignment-id}",
+      "roleDefinition"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "roleDefinition"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentScheduleInstances",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignmentScheduleInstances",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentScheduleInstances",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentScheduleInstances"
+    ],
+    "Root": "roleManagement",
+    "Children": 3,
+    "Segment": "roleAssignmentScheduleInstances"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentScheduleInstances/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignmentScheduleInstances/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentScheduleInstances/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentScheduleInstances",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentScheduleInstances/{unifiedRoleAssignmentScheduleInstance-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignmentScheduleInstances/{unifiedRoleAssignmentScheduleInstance-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentScheduleInstances/{unifiedRoleAssignmentScheduleInstance-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentScheduleInstances",
+      "{unifiedRoleAssignmentScheduleInstance-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 1,
+    "Segment": "{unifiedRoleAssignmentScheduleInstance-id}"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentScheduleInstances/{unifiedRoleAssignmentScheduleInstance-id}/activatedUsing",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignmentScheduleInstances/{unifiedRoleAssignmentScheduleInstance-id}/activatedUsing",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentScheduleInstances/{unifiedRoleAssignmentScheduleInstance-id}/activatedUsing",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentScheduleInstances",
+      "{unifiedRoleAssignmentScheduleInstance-id}",
+      "activatedUsing"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "activatedUsing"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentScheduleInstances/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignmentScheduleInstances/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentScheduleInstances/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentScheduleInstances",
+      "microsoft.graph.filterByCurrentUser(on='{on}')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.filterByCurrentUser(on='{on}')"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentScheduleRequests",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignmentScheduleRequests",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentScheduleRequests",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentScheduleRequests"
+    ],
+    "Root": "roleManagement",
+    "Children": 3,
+    "Segment": "roleAssignmentScheduleRequests"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentScheduleRequests/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignmentScheduleRequests/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentScheduleRequests/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentScheduleRequests",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentScheduleRequests",
+      "{unifiedRoleAssignmentScheduleRequest-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 7,
+    "Segment": "{unifiedRoleAssignmentScheduleRequest-id}"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/activatedUsing",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/activatedUsing",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/activatedUsing",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentScheduleRequests",
+      "{unifiedRoleAssignmentScheduleRequest-id}",
+      "activatedUsing"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "activatedUsing"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/appScope",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/appScope",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/appScope",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentScheduleRequests",
+      "{unifiedRoleAssignmentScheduleRequest-id}",
+      "appScope"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "appScope"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/directoryScope",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/directoryScope",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/directoryScope",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentScheduleRequests",
+      "{unifiedRoleAssignmentScheduleRequest-id}",
+      "directoryScope"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "directoryScope"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/microsoft.graph.cancel",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/microsoft.graph.cancel",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/microsoft.graph.cancel",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentScheduleRequests",
+      "{unifiedRoleAssignmentScheduleRequest-id}",
+      "microsoft.graph.cancel"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.cancel"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/principal",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/principal",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/principal",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentScheduleRequests",
+      "{unifiedRoleAssignmentScheduleRequest-id}",
+      "principal"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "principal"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/roleDefinition",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/roleDefinition",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/roleDefinition",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentScheduleRequests",
+      "{unifiedRoleAssignmentScheduleRequest-id}",
+      "roleDefinition"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "roleDefinition"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/targetSchedule",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/targetSchedule",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentScheduleRequests/{unifiedRoleAssignmentScheduleRequest-id}/targetSchedule",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentScheduleRequests",
+      "{unifiedRoleAssignmentScheduleRequest-id}",
+      "targetSchedule"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "targetSchedule"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentScheduleRequests/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignmentScheduleRequests/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentScheduleRequests/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentScheduleRequests",
+      "microsoft.graph.filterByCurrentUser(on='{on}')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.filterByCurrentUser(on='{on}')"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentSchedules",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignmentSchedules",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentSchedules",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentSchedules"
+    ],
+    "Root": "roleManagement",
+    "Children": 3,
+    "Segment": "roleAssignmentSchedules"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentSchedules/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignmentSchedules/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentSchedules/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentSchedules",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentSchedules/{unifiedRoleAssignmentSchedule-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignmentSchedules/{unifiedRoleAssignmentSchedule-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentSchedules/{unifiedRoleAssignmentSchedule-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentSchedules",
+      "{unifiedRoleAssignmentSchedule-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 1,
+    "Segment": "{unifiedRoleAssignmentSchedule-id}"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentSchedules/{unifiedRoleAssignmentSchedule-id}/activatedUsing",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignmentSchedules/{unifiedRoleAssignmentSchedule-id}/activatedUsing",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentSchedules/{unifiedRoleAssignmentSchedule-id}/activatedUsing",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentSchedules",
+      "{unifiedRoleAssignmentSchedule-id}",
+      "activatedUsing"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "activatedUsing"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleAssignmentSchedules/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleAssignmentSchedules/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleAssignmentSchedules/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleAssignmentSchedules",
+      "microsoft.graph.filterByCurrentUser(on='{on}')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.filterByCurrentUser(on='{on}')"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleDefinitions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleDefinitions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleDefinitions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleDefinitions"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "roleDefinitions"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleDefinitions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleDefinitions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleDefinitions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleDefinitions",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleDefinitions/{unifiedRoleDefinition-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleDefinitions/{unifiedRoleDefinition-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleDefinitions/{unifiedRoleDefinition-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleDefinitions",
+      "{unifiedRoleDefinition-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "{unifiedRoleDefinition-id}"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleDefinitions",
+      "{unifiedRoleDefinition-id}",
+      "inheritsPermissionsFrom"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "inheritsPermissionsFrom"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleDefinitions",
+      "{unifiedRoleDefinition-id}",
+      "inheritsPermissionsFrom",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/{unifiedRoleDefinition-id1}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/{unifiedRoleDefinition-id1}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/{unifiedRoleDefinition-id1}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleDefinitions",
+      "{unifiedRoleDefinition-id}",
+      "inheritsPermissionsFrom",
+      "{unifiedRoleDefinition-id1}"
+    ],
+    "Root": "roleManagement",
+    "Children": 1,
+    "Segment": "{unifiedRoleDefinition-id1}"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/{unifiedRoleDefinition-id1}/microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleDefinitions/{unifiedRoleDefinition-id}/inheritsPermissionsFrom/{unifiedRoleDefinition-id1}/microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleDefinitions",
+      "{unifiedRoleDefinition-id}",
+      "inheritsPermissionsFrom",
+      "{unifiedRoleDefinition-id1}",
+      "microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleDefinitions/{unifiedRoleDefinition-id}/microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleDefinitions/{unifiedRoleDefinition-id}/microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleDefinitions",
+      "{unifiedRoleDefinition-id}",
+      "microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.assignedPrincipals(transitive=@transitive,directoryScopeType='@directoryScopeType',directoryScopeId='@directoryScopeId')"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleEligibilityScheduleInstances",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleEligibilityScheduleInstances",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleEligibilityScheduleInstances",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleEligibilityScheduleInstances"
+    ],
+    "Root": "roleManagement",
+    "Children": 3,
+    "Segment": "roleEligibilityScheduleInstances"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleEligibilityScheduleInstances/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleEligibilityScheduleInstances/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleEligibilityScheduleInstances/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleEligibilityScheduleInstances",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleEligibilityScheduleInstances/{unifiedRoleEligibilityScheduleInstance-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleEligibilityScheduleInstances/{unifiedRoleEligibilityScheduleInstance-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleEligibilityScheduleInstances/{unifiedRoleEligibilityScheduleInstance-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleEligibilityScheduleInstances",
+      "{unifiedRoleEligibilityScheduleInstance-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "{unifiedRoleEligibilityScheduleInstance-id}"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleEligibilityScheduleInstances/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleEligibilityScheduleInstances/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleEligibilityScheduleInstances/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleEligibilityScheduleInstances",
+      "microsoft.graph.filterByCurrentUser(on='{on}')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.filterByCurrentUser(on='{on}')"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleEligibilityScheduleRequests",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleEligibilityScheduleRequests",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleEligibilityScheduleRequests",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleEligibilityScheduleRequests"
+    ],
+    "Root": "roleManagement",
+    "Children": 3,
+    "Segment": "roleEligibilityScheduleRequests"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleEligibilityScheduleRequests/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleEligibilityScheduleRequests/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleEligibilityScheduleRequests/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleEligibilityScheduleRequests",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleEligibilityScheduleRequests",
+      "{unifiedRoleEligibilityScheduleRequest-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 6,
+    "Segment": "{unifiedRoleEligibilityScheduleRequest-id}"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/appScope",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/appScope",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/appScope",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleEligibilityScheduleRequests",
+      "{unifiedRoleEligibilityScheduleRequest-id}",
+      "appScope"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "appScope"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/directoryScope",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/directoryScope",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/directoryScope",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleEligibilityScheduleRequests",
+      "{unifiedRoleEligibilityScheduleRequest-id}",
+      "directoryScope"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "directoryScope"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/microsoft.graph.cancel",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/microsoft.graph.cancel",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/microsoft.graph.cancel",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleEligibilityScheduleRequests",
+      "{unifiedRoleEligibilityScheduleRequest-id}",
+      "microsoft.graph.cancel"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.cancel"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/principal",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/principal",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/principal",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleEligibilityScheduleRequests",
+      "{unifiedRoleEligibilityScheduleRequest-id}",
+      "principal"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "principal"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/roleDefinition",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/roleDefinition",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/roleDefinition",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleEligibilityScheduleRequests",
+      "{unifiedRoleEligibilityScheduleRequest-id}",
+      "roleDefinition"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "roleDefinition"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/targetSchedule",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/targetSchedule",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleEligibilityScheduleRequests/{unifiedRoleEligibilityScheduleRequest-id}/targetSchedule",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleEligibilityScheduleRequests",
+      "{unifiedRoleEligibilityScheduleRequest-id}",
+      "targetSchedule"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "targetSchedule"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleEligibilityScheduleRequests/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleEligibilityScheduleRequests/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleEligibilityScheduleRequests/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleEligibilityScheduleRequests",
+      "microsoft.graph.filterByCurrentUser(on='{on}')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.filterByCurrentUser(on='{on}')"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleEligibilitySchedules",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleEligibilitySchedules",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleEligibilitySchedules",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleEligibilitySchedules"
+    ],
+    "Root": "roleManagement",
+    "Children": 3,
+    "Segment": "roleEligibilitySchedules"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleEligibilitySchedules/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleEligibilitySchedules/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleEligibilitySchedules/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleEligibilitySchedules",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleEligibilitySchedules/{unifiedRoleEligibilitySchedule-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleEligibilitySchedules/{unifiedRoleEligibilitySchedule-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleEligibilitySchedules/{unifiedRoleEligibilitySchedule-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleEligibilitySchedules",
+      "{unifiedRoleEligibilitySchedule-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "{unifiedRoleEligibilitySchedule-id}"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/roleEligibilitySchedules/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/roleManagement/entitlementManagement/roleEligibilitySchedules/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/roleEligibilitySchedules/microsoft.graph.filterByCurrentUser(on='{on}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "roleEligibilitySchedules",
+      "microsoft.graph.filterByCurrentUser(on='{on}')"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "microsoft.graph.filterByCurrentUser(on='{on}')"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/transitiveRoleAssignments",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/transitiveRoleAssignments",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "transitiveRoleAssignments"
+    ],
+    "Root": "roleManagement",
+    "Children": 2,
+    "Segment": "transitiveRoleAssignments"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/transitiveRoleAssignments/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/transitiveRoleAssignments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "transitiveRoleAssignments",
+      "$count"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/transitiveRoleAssignments/{unifiedRoleAssignment-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/transitiveRoleAssignments/{unifiedRoleAssignment-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "transitiveRoleAssignments",
+      "{unifiedRoleAssignment-id}"
+    ],
+    "Root": "roleManagement",
+    "Children": 4,
+    "Segment": "{unifiedRoleAssignment-id}"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/transitiveRoleAssignments/{unifiedRoleAssignment-id}/appScope",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/transitiveRoleAssignments/{unifiedRoleAssignment-id}/appScope",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "transitiveRoleAssignments",
+      "{unifiedRoleAssignment-id}",
+      "appScope"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "appScope"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/transitiveRoleAssignments/{unifiedRoleAssignment-id}/directoryScope",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/transitiveRoleAssignments/{unifiedRoleAssignment-id}/directoryScope",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "transitiveRoleAssignments",
+      "{unifiedRoleAssignment-id}",
+      "directoryScope"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "directoryScope"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/transitiveRoleAssignments/{unifiedRoleAssignment-id}/principal",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/transitiveRoleAssignments/{unifiedRoleAssignment-id}/principal",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "transitiveRoleAssignments",
+      "{unifiedRoleAssignment-id}",
+      "principal"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "principal"
+  },
+  {
+    "Endpoint": "roleManagement/entitlementManagement/transitiveRoleAssignments/{unifiedRoleAssignment-id}/roleDefinition",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/roleManagement/entitlementManagement/transitiveRoleAssignments/{unifiedRoleAssignment-id}/roleDefinition",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "roleManagement",
+      "entitlementManagement",
+      "transitiveRoleAssignments",
+      "{unifiedRoleAssignment-id}",
+      "roleDefinition"
+    ],
+    "Root": "roleManagement",
+    "Children": 0,
+    "Segment": "roleDefinition"
+  }
+]

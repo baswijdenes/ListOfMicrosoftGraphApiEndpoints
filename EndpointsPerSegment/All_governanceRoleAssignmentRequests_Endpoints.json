@@ -1,0 +1,197 @@
+[
+  {
+    "Endpoint": "governanceRoleAssignmentRequests",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/governanceRoleAssignmentRequests",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "governanceRoleAssignmentRequests"
+    ],
+    "Root": "governanceRoleAssignmentRequests",
+    "Children": 2,
+    "Segment": "governanceRoleAssignmentRequests"
+  },
+  {
+    "Endpoint": "governanceRoleAssignmentRequests/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/governanceRoleAssignmentRequests/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "governanceRoleAssignmentRequests",
+      "$count"
+    ],
+    "Root": "governanceRoleAssignmentRequests",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "governanceRoleAssignmentRequests/{governanceRoleAssignmentRequest-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/governanceRoleAssignmentRequests/{governanceRoleAssignmentRequest-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "governanceRoleAssignmentRequests",
+      "{governanceRoleAssignmentRequest-id}"
+    ],
+    "Root": "governanceRoleAssignmentRequests",
+    "Children": 5,
+    "Segment": "{governanceRoleAssignmentRequest-id}"
+  },
+  {
+    "Endpoint": "governanceRoleAssignmentRequests/{governanceRoleAssignmentRequest-id}/microsoft.graph.cancel",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/governanceRoleAssignmentRequests/{governanceRoleAssignmentRequest-id}/microsoft.graph.cancel",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "governanceRoleAssignmentRequests",
+      "{governanceRoleAssignmentRequest-id}",
+      "microsoft.graph.cancel"
+    ],
+    "Root": "governanceRoleAssignmentRequests",
+    "Children": 0,
+    "Segment": "microsoft.graph.cancel"
+  },
+  {
+    "Endpoint": "governanceRoleAssignmentRequests/{governanceRoleAssignmentRequest-id}/microsoft.graph.updateRequest",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/governanceRoleAssignmentRequests/{governanceRoleAssignmentRequest-id}/microsoft.graph.updateRequest",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "governanceRoleAssignmentRequests",
+      "{governanceRoleAssignmentRequest-id}",
+      "microsoft.graph.updateRequest"
+    ],
+    "Root": "governanceRoleAssignmentRequests",
+    "Children": 0,
+    "Segment": "microsoft.graph.updateRequest"
+  },
+  {
+    "Endpoint": "governanceRoleAssignmentRequests/{governanceRoleAssignmentRequest-id}/resource",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/governanceRoleAssignmentRequests/{governanceRoleAssignmentRequest-id}/resource",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "governanceRoleAssignmentRequests",
+      "{governanceRoleAssignmentRequest-id}",
+      "resource"
+    ],
+    "Root": "governanceRoleAssignmentRequests",
+    "Children": 0,
+    "Segment": "resource"
+  },
+  {
+    "Endpoint": "governanceRoleAssignmentRequests/{governanceRoleAssignmentRequest-id}/roleDefinition",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/governanceRoleAssignmentRequests/{governanceRoleAssignmentRequest-id}/roleDefinition",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "governanceRoleAssignmentRequests",
+      "{governanceRoleAssignmentRequest-id}",
+      "roleDefinition"
+    ],
+    "Root": "governanceRoleAssignmentRequests",
+    "Children": 2,
+    "Segment": "roleDefinition"
+  },
+  {
+    "Endpoint": "governanceRoleAssignmentRequests/{governanceRoleAssignmentRequest-id}/roleDefinition/resource",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/governanceRoleAssignmentRequests/{governanceRoleAssignmentRequest-id}/roleDefinition/resource",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "governanceRoleAssignmentRequests",
+      "{governanceRoleAssignmentRequest-id}",
+      "roleDefinition",
+      "resource"
+    ],
+    "Root": "governanceRoleAssignmentRequests",
+    "Children": 0,
+    "Segment": "resource"
+  },
+  {
+    "Endpoint": "governanceRoleAssignmentRequests/{governanceRoleAssignmentRequest-id}/roleDefinition/roleSetting",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/governanceRoleAssignmentRequests/{governanceRoleAssignmentRequest-id}/roleDefinition/roleSetting",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "governanceRoleAssignmentRequests",
+      "{governanceRoleAssignmentRequest-id}",
+      "roleDefinition",
+      "roleSetting"
+    ],
+    "Root": "governanceRoleAssignmentRequests",
+    "Children": 0,
+    "Segment": "roleSetting"
+  },
+  {
+    "Endpoint": "governanceRoleAssignmentRequests/{governanceRoleAssignmentRequest-id}/subject",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/governanceRoleAssignmentRequests/{governanceRoleAssignmentRequest-id}/subject",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "governanceRoleAssignmentRequests",
+      "{governanceRoleAssignmentRequest-id}",
+      "subject"
+    ],
+    "Root": "governanceRoleAssignmentRequests",
+    "Children": 0,
+    "Segment": "subject"
+  }
+]

@@ -1,0 +1,228 @@
+[
+  {
+    "Endpoint": "permissionGrants",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/permissionGrants",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/permissionGrants",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "permissionGrants"
+    ],
+    "Root": "permissionGrants",
+    "Children": 5,
+    "Segment": "permissionGrants"
+  },
+  {
+    "Endpoint": "permissionGrants/{resourceSpecificPermissionGrant-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/permissionGrants/{resourceSpecificPermissionGrant-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/permissionGrants/{resourceSpecificPermissionGrant-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "permissionGrants",
+      "{resourceSpecificPermissionGrant-id}"
+    ],
+    "Root": "permissionGrants",
+    "Children": 5,
+    "Segment": "{resourceSpecificPermissionGrant-id}"
+  },
+  {
+    "Endpoint": "permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.checkMemberGroups",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.checkMemberGroups",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.checkMemberGroups",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "permissionGrants",
+      "{resourceSpecificPermissionGrant-id}",
+      "microsoft.graph.checkMemberGroups"
+    ],
+    "Root": "permissionGrants",
+    "Children": 0,
+    "Segment": "microsoft.graph.checkMemberGroups"
+  },
+  {
+    "Endpoint": "permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.checkMemberObjects",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.checkMemberObjects",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.checkMemberObjects",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "permissionGrants",
+      "{resourceSpecificPermissionGrant-id}",
+      "microsoft.graph.checkMemberObjects"
+    ],
+    "Root": "permissionGrants",
+    "Children": 0,
+    "Segment": "microsoft.graph.checkMemberObjects"
+  },
+  {
+    "Endpoint": "permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.getMemberGroups",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.getMemberGroups",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.getMemberGroups",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "permissionGrants",
+      "{resourceSpecificPermissionGrant-id}",
+      "microsoft.graph.getMemberGroups"
+    ],
+    "Root": "permissionGrants",
+    "Children": 0,
+    "Segment": "microsoft.graph.getMemberGroups"
+  },
+  {
+    "Endpoint": "permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.getMemberObjects",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.getMemberObjects",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.getMemberObjects",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "permissionGrants",
+      "{resourceSpecificPermissionGrant-id}",
+      "microsoft.graph.getMemberObjects"
+    ],
+    "Root": "permissionGrants",
+    "Children": 0,
+    "Segment": "microsoft.graph.getMemberObjects"
+  },
+  {
+    "Endpoint": "permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.restore",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.restore",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.restore",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "permissionGrants",
+      "{resourceSpecificPermissionGrant-id}",
+      "microsoft.graph.restore"
+    ],
+    "Root": "permissionGrants",
+    "Children": 0,
+    "Segment": "microsoft.graph.restore"
+  },
+  {
+    "Endpoint": "permissionGrants/microsoft.graph.getAvailableExtensionProperties",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/permissionGrants/microsoft.graph.getAvailableExtensionProperties",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "permissionGrants",
+      "microsoft.graph.getAvailableExtensionProperties"
+    ],
+    "Root": "permissionGrants",
+    "Children": 0,
+    "Segment": "microsoft.graph.getAvailableExtensionProperties"
+  },
+  {
+    "Endpoint": "permissionGrants/microsoft.graph.getByIds",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/permissionGrants/microsoft.graph.getByIds",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/permissionGrants/microsoft.graph.getByIds",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "permissionGrants",
+      "microsoft.graph.getByIds"
+    ],
+    "Root": "permissionGrants",
+    "Children": 0,
+    "Segment": "microsoft.graph.getByIds"
+  },
+  {
+    "Endpoint": "permissionGrants/microsoft.graph.getUserOwnedObjects",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/permissionGrants/microsoft.graph.getUserOwnedObjects",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "permissionGrants",
+      "microsoft.graph.getUserOwnedObjects"
+    ],
+    "Root": "permissionGrants",
+    "Children": 0,
+    "Segment": "microsoft.graph.getUserOwnedObjects"
+  },
+  {
+    "Endpoint": "permissionGrants/microsoft.graph.validateProperties",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/permissionGrants/microsoft.graph.validateProperties",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/permissionGrants/microsoft.graph.validateProperties",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "permissionGrants",
+      "microsoft.graph.validateProperties"
+    ],
+    "Root": "permissionGrants",
+    "Children": 0,
+    "Segment": "microsoft.graph.validateProperties"
+  }
+]

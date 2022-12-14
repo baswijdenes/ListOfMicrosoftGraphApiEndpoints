@@ -1,0 +1,207 @@
+[
+  {
+    "Endpoint": "groupSettingTemplates",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettingTemplates",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "groupSettingTemplates"
+    ],
+    "Root": "groupSettingTemplates",
+    "Children": 5,
+    "Segment": "groupSettingTemplates"
+  },
+  {
+    "Endpoint": "groupSettingTemplates/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettingTemplates/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "groupSettingTemplates",
+      "$count"
+    ],
+    "Root": "groupSettingTemplates",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "groupSettingTemplates/{groupSettingTemplate-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettingTemplates/{groupSettingTemplate-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "groupSettingTemplates",
+      "{groupSettingTemplate-id}"
+    ],
+    "Root": "groupSettingTemplates",
+    "Children": 5,
+    "Segment": "{groupSettingTemplate-id}"
+  },
+  {
+    "Endpoint": "groupSettingTemplates/{groupSettingTemplate-id}/microsoft.graph.checkMemberGroups",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettingTemplates/{groupSettingTemplate-id}/microsoft.graph.checkMemberGroups",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "groupSettingTemplates",
+      "{groupSettingTemplate-id}",
+      "microsoft.graph.checkMemberGroups"
+    ],
+    "Root": "groupSettingTemplates",
+    "Children": 0,
+    "Segment": "microsoft.graph.checkMemberGroups"
+  },
+  {
+    "Endpoint": "groupSettingTemplates/{groupSettingTemplate-id}/microsoft.graph.checkMemberObjects",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettingTemplates/{groupSettingTemplate-id}/microsoft.graph.checkMemberObjects",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "groupSettingTemplates",
+      "{groupSettingTemplate-id}",
+      "microsoft.graph.checkMemberObjects"
+    ],
+    "Root": "groupSettingTemplates",
+    "Children": 0,
+    "Segment": "microsoft.graph.checkMemberObjects"
+  },
+  {
+    "Endpoint": "groupSettingTemplates/{groupSettingTemplate-id}/microsoft.graph.getMemberGroups",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettingTemplates/{groupSettingTemplate-id}/microsoft.graph.getMemberGroups",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "groupSettingTemplates",
+      "{groupSettingTemplate-id}",
+      "microsoft.graph.getMemberGroups"
+    ],
+    "Root": "groupSettingTemplates",
+    "Children": 0,
+    "Segment": "microsoft.graph.getMemberGroups"
+  },
+  {
+    "Endpoint": "groupSettingTemplates/{groupSettingTemplate-id}/microsoft.graph.getMemberObjects",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettingTemplates/{groupSettingTemplate-id}/microsoft.graph.getMemberObjects",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "groupSettingTemplates",
+      "{groupSettingTemplate-id}",
+      "microsoft.graph.getMemberObjects"
+    ],
+    "Root": "groupSettingTemplates",
+    "Children": 0,
+    "Segment": "microsoft.graph.getMemberObjects"
+  },
+  {
+    "Endpoint": "groupSettingTemplates/{groupSettingTemplate-id}/microsoft.graph.restore",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettingTemplates/{groupSettingTemplate-id}/microsoft.graph.restore",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "groupSettingTemplates",
+      "{groupSettingTemplate-id}",
+      "microsoft.graph.restore"
+    ],
+    "Root": "groupSettingTemplates",
+    "Children": 0,
+    "Segment": "microsoft.graph.restore"
+  },
+  {
+    "Endpoint": "groupSettingTemplates/microsoft.graph.getAvailableExtensionProperties",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettingTemplates/microsoft.graph.getAvailableExtensionProperties",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "groupSettingTemplates",
+      "microsoft.graph.getAvailableExtensionProperties"
+    ],
+    "Root": "groupSettingTemplates",
+    "Children": 0,
+    "Segment": "microsoft.graph.getAvailableExtensionProperties"
+  },
+  {
+    "Endpoint": "groupSettingTemplates/microsoft.graph.getByIds",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettingTemplates/microsoft.graph.getByIds",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "groupSettingTemplates",
+      "microsoft.graph.getByIds"
+    ],
+    "Root": "groupSettingTemplates",
+    "Children": 0,
+    "Segment": "microsoft.graph.getByIds"
+  },
+  {
+    "Endpoint": "groupSettingTemplates/microsoft.graph.validateProperties",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettingTemplates/microsoft.graph.validateProperties",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "groupSettingTemplates",
+      "microsoft.graph.validateProperties"
+    ],
+    "Root": "groupSettingTemplates",
+    "Children": 0,
+    "Segment": "microsoft.graph.validateProperties"
+  }
+]

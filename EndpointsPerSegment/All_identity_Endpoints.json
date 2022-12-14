@@ -1,0 +1,2389 @@
+[
+  {
+    "Endpoint": "identity",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Path": [
+      "identity"
+    ],
+    "Root": "identity",
+    "Children": 10,
+    "Segment": "identity"
+  },
+  {
+    "Endpoint": "identity/apiConnectors",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/apiConnectors",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/apiConnectors",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "apiConnectors"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "apiConnectors"
+  },
+  {
+    "Endpoint": "identity/apiConnectors/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/apiConnectors/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/apiConnectors/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "apiConnectors",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/apiConnectors/{identityApiConnector-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/apiConnectors/{identityApiConnector-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/apiConnectors/{identityApiConnector-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "apiConnectors",
+      "{identityApiConnector-id}"
+    ],
+    "Root": "identity",
+    "Children": 1,
+    "Segment": "{identityApiConnector-id}"
+  },
+  {
+    "Endpoint": "identity/apiConnectors/{identityApiConnector-id}/microsoft.graph.uploadClientCertificate",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/apiConnectors/{identityApiConnector-id}/microsoft.graph.uploadClientCertificate",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/apiConnectors/{identityApiConnector-id}/microsoft.graph.uploadClientCertificate",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "apiConnectors",
+      "{identityApiConnector-id}",
+      "microsoft.graph.uploadClientCertificate"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "microsoft.graph.uploadClientCertificate"
+  },
+  {
+    "Endpoint": "identity/authenticationEventListeners",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventListeners",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "authenticationEventListeners"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "authenticationEventListeners"
+  },
+  {
+    "Endpoint": "identity/authenticationEventListeners/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventListeners/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "authenticationEventListeners",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/authenticationEventListeners/{authenticationEventListener-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventListeners/{authenticationEventListener-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "authenticationEventListeners",
+      "{authenticationEventListener-id}"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "{authenticationEventListener-id}"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "b2cUserFlows"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}"
+    ],
+    "Root": "identity",
+    "Children": 4,
+    "Segment": "{b2cIdentityUserFlow-id}"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/identityProviders",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/identityProviders",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "identityProviders"
+    ],
+    "Root": "identity",
+    "Children": 3,
+    "Segment": "identityProviders"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/identityProviders/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/identityProviders/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "identityProviders",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/identityProviders/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/identityProviders/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "identityProviders",
+      "$ref"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/identityProviders/{identityProvider-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "identityProviders",
+      "{identityProvider-id}"
+    ],
+    "Root": "identity",
+    "Children": 1,
+    "Segment": "{identityProvider-id}"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/identityProviders/{identityProvider-id}/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/identityProviders/{identityProvider-id}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "identityProviders",
+      "{identityProvider-id}",
+      "$ref"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "languages"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "languages"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "languages",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "languages",
+      "{userFlowLanguageConfiguration-id}"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "{userFlowLanguageConfiguration-id}"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "languages",
+      "{userFlowLanguageConfiguration-id}",
+      "defaultPages"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "defaultPages"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "languages",
+      "{userFlowLanguageConfiguration-id}",
+      "defaultPages",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/{userFlowLanguagePage-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/{userFlowLanguagePage-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "languages",
+      "{userFlowLanguageConfiguration-id}",
+      "defaultPages",
+      "{userFlowLanguagePage-id}"
+    ],
+    "Root": "identity",
+    "Children": 1,
+    "Segment": "{userFlowLanguagePage-id}"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/{userFlowLanguagePage-id}/$value",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/{userFlowLanguagePage-id}/$value",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "languages",
+      "{userFlowLanguageConfiguration-id}",
+      "defaultPages",
+      "{userFlowLanguagePage-id}",
+      "$value"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$value"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "languages",
+      "{userFlowLanguageConfiguration-id}",
+      "overridesPages"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "overridesPages"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "languages",
+      "{userFlowLanguageConfiguration-id}",
+      "overridesPages",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/{userFlowLanguagePage-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/{userFlowLanguagePage-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "languages",
+      "{userFlowLanguageConfiguration-id}",
+      "overridesPages",
+      "{userFlowLanguagePage-id}"
+    ],
+    "Root": "identity",
+    "Children": 1,
+    "Segment": "{userFlowLanguagePage-id}"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/{userFlowLanguagePage-id}/$value",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/{userFlowLanguagePage-id}/$value",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "languages",
+      "{userFlowLanguageConfiguration-id}",
+      "overridesPages",
+      "{userFlowLanguagePage-id}",
+      "$value"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$value"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userAttributeAssignments",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userAttributeAssignments",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "userAttributeAssignments"
+    ],
+    "Root": "identity",
+    "Children": 4,
+    "Segment": "userAttributeAssignments"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userAttributeAssignments/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userAttributeAssignments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "userAttributeAssignments",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userAttributeAssignments/{identityUserFlowAttributeAssignment-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userAttributeAssignments/{identityUserFlowAttributeAssignment-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "userAttributeAssignments",
+      "{identityUserFlowAttributeAssignment-id}"
+    ],
+    "Root": "identity",
+    "Children": 1,
+    "Segment": "{identityUserFlowAttributeAssignment-id}"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userAttributeAssignments/{identityUserFlowAttributeAssignment-id}/userAttribute",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userAttributeAssignments/{identityUserFlowAttributeAssignment-id}/userAttribute",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "userAttributeAssignments",
+      "{identityUserFlowAttributeAssignment-id}",
+      "userAttribute"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "userAttribute"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userAttributeAssignments/microsoft.graph.getOrder()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userAttributeAssignments/microsoft.graph.getOrder()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "userAttributeAssignments",
+      "microsoft.graph.getOrder()"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOrder()"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userAttributeAssignments/microsoft.graph.setOrder",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userAttributeAssignments/microsoft.graph.setOrder",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "userAttributeAssignments",
+      "microsoft.graph.setOrder"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "microsoft.graph.setOrder"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userFlowIdentityProviders",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userFlowIdentityProviders",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "userFlowIdentityProviders"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "userFlowIdentityProviders"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userFlowIdentityProviders/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userFlowIdentityProviders/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "userFlowIdentityProviders",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userFlowIdentityProviders/{identityProviderBase-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userFlowIdentityProviders/{identityProviderBase-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "userFlowIdentityProviders",
+      "{identityProviderBase-id}"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "{identityProviderBase-id}"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "b2xUserFlows"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}"
+    ],
+    "Root": "identity",
+    "Children": 4,
+    "Segment": "{b2xIdentityUserFlow-id}"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/identityProviders",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/identityProviders",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/identityProviders",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "identityProviders"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "identityProviders"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/identityProviders/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/identityProviders/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/identityProviders/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "identityProviders",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/identityProviders/{identityProvider-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/identityProviders/{identityProvider-id}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/identityProviders/{identityProvider-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "identityProviders",
+      "{identityProvider-id}"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "{identityProvider-id}"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "languages"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "languages"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "languages",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "languages",
+      "{userFlowLanguageConfiguration-id}"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "{userFlowLanguageConfiguration-id}"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "languages",
+      "{userFlowLanguageConfiguration-id}",
+      "defaultPages"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "defaultPages"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "languages",
+      "{userFlowLanguageConfiguration-id}",
+      "defaultPages",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/{userFlowLanguagePage-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/{userFlowLanguagePage-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/{userFlowLanguagePage-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "languages",
+      "{userFlowLanguageConfiguration-id}",
+      "defaultPages",
+      "{userFlowLanguagePage-id}"
+    ],
+    "Root": "identity",
+    "Children": 1,
+    "Segment": "{userFlowLanguagePage-id}"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/{userFlowLanguagePage-id}/$value",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/{userFlowLanguagePage-id}/$value",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/{userFlowLanguagePage-id}/$value",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "languages",
+      "{userFlowLanguageConfiguration-id}",
+      "defaultPages",
+      "{userFlowLanguagePage-id}",
+      "$value"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$value"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "languages",
+      "{userFlowLanguageConfiguration-id}",
+      "overridesPages"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "overridesPages"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "languages",
+      "{userFlowLanguageConfiguration-id}",
+      "overridesPages",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/{userFlowLanguagePage-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/{userFlowLanguagePage-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/{userFlowLanguagePage-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "languages",
+      "{userFlowLanguageConfiguration-id}",
+      "overridesPages",
+      "{userFlowLanguagePage-id}"
+    ],
+    "Root": "identity",
+    "Children": 1,
+    "Segment": "{userFlowLanguagePage-id}"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/{userFlowLanguagePage-id}/$value",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/{userFlowLanguagePage-id}/$value",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/{userFlowLanguagePage-id}/$value",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "languages",
+      "{userFlowLanguageConfiguration-id}",
+      "overridesPages",
+      "{userFlowLanguagePage-id}",
+      "$value"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$value"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "userAttributeAssignments"
+    ],
+    "Root": "identity",
+    "Children": 4,
+    "Segment": "userAttributeAssignments"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "userAttributeAssignments",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/{identityUserFlowAttributeAssignment-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/{identityUserFlowAttributeAssignment-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/{identityUserFlowAttributeAssignment-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "userAttributeAssignments",
+      "{identityUserFlowAttributeAssignment-id}"
+    ],
+    "Root": "identity",
+    "Children": 1,
+    "Segment": "{identityUserFlowAttributeAssignment-id}"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/{identityUserFlowAttributeAssignment-id}/userAttribute",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/{identityUserFlowAttributeAssignment-id}/userAttribute",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/{identityUserFlowAttributeAssignment-id}/userAttribute",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "userAttributeAssignments",
+      "{identityUserFlowAttributeAssignment-id}",
+      "userAttribute"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "userAttribute"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/microsoft.graph.getOrder()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/microsoft.graph.getOrder()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/microsoft.graph.getOrder()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "userAttributeAssignments",
+      "microsoft.graph.getOrder()"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOrder()"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/microsoft.graph.setOrder",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/microsoft.graph.setOrder",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/microsoft.graph.setOrder",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "userAttributeAssignments",
+      "microsoft.graph.setOrder"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "microsoft.graph.setOrder"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "userFlowIdentityProviders"
+    ],
+    "Root": "identity",
+    "Children": 3,
+    "Segment": "userFlowIdentityProviders"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "userFlowIdentityProviders",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders/$ref",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "userFlowIdentityProviders",
+      "$ref"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders/{identityProviderBase-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "userFlowIdentityProviders",
+      "{identityProviderBase-id}"
+    ],
+    "Root": "identity",
+    "Children": 1,
+    "Segment": "{identityProviderBase-id}"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders/{identityProviderBase-id}/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders/{identityProviderBase-id}/$ref",
+    "v1.0-Methods": [
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders/{identityProviderBase-id}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "userFlowIdentityProviders",
+      "{identityProviderBase-id}",
+      "$ref"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess"
+    ],
+    "Root": "identity",
+    "Children": 5,
+    "Segment": "conditionalAccess"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationContextClassReferences",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/authenticationContextClassReferences",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationContextClassReferences",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationContextClassReferences"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "authenticationContextClassReferences"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationContextClassReferences/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/authenticationContextClassReferences/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationContextClassReferences/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationContextClassReferences",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationContextClassReferences/{authenticationContextClassReference-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/authenticationContextClassReferences/{authenticationContextClassReference-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationContextClassReferences/{authenticationContextClassReference-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationContextClassReferences",
+      "{authenticationContextClassReference-id}"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "{authenticationContextClassReference-id}"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrengths",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrengths"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "authenticationStrengths"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrengths/authenticationMethodModes",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/authenticationMethodModes",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrengths",
+      "authenticationMethodModes"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "authenticationMethodModes"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrengths/authenticationMethodModes/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/authenticationMethodModes/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrengths",
+      "authenticationMethodModes",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrengths/authenticationMethodModes/{authenticationMethodModeDetail-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/authenticationMethodModes/{authenticationMethodModeDetail-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrengths",
+      "authenticationMethodModes",
+      "{authenticationMethodModeDetail-id}"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "{authenticationMethodModeDetail-id}"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrengths/policies",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/policies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrengths",
+      "policies"
+    ],
+    "Root": "identity",
+    "Children": 3,
+    "Segment": "policies"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrengths/policies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/policies/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrengths",
+      "policies",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrengths/policies/{authenticationStrengthPolicy-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/policies/{authenticationStrengthPolicy-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrengths",
+      "policies",
+      "{authenticationStrengthPolicy-id}"
+    ],
+    "Root": "identity",
+    "Children": 3,
+    "Segment": "{authenticationStrengthPolicy-id}"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrengths/policies/{authenticationStrengthPolicy-id}/combinationConfigurations",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/policies/{authenticationStrengthPolicy-id}/combinationConfigurations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrengths",
+      "policies",
+      "{authenticationStrengthPolicy-id}",
+      "combinationConfigurations"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "combinationConfigurations"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrengths/policies/{authenticationStrengthPolicy-id}/combinationConfigurations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/policies/{authenticationStrengthPolicy-id}/combinationConfigurations/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrengths",
+      "policies",
+      "{authenticationStrengthPolicy-id}",
+      "combinationConfigurations",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrengths/policies/{authenticationStrengthPolicy-id}/combinationConfigurations/{authenticationCombinationConfiguration-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/policies/{authenticationStrengthPolicy-id}/combinationConfigurations/{authenticationCombinationConfiguration-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrengths",
+      "policies",
+      "{authenticationStrengthPolicy-id}",
+      "combinationConfigurations",
+      "{authenticationCombinationConfiguration-id}"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "{authenticationCombinationConfiguration-id}"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrengths/policies/{authenticationStrengthPolicy-id}/microsoft.graph.updateAllowedCombinations",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/policies/{authenticationStrengthPolicy-id}/microsoft.graph.updateAllowedCombinations",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrengths",
+      "policies",
+      "{authenticationStrengthPolicy-id}",
+      "microsoft.graph.updateAllowedCombinations"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "microsoft.graph.updateAllowedCombinations"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrengths/policies/{authenticationStrengthPolicy-id}/microsoft.graph.usage()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/policies/{authenticationStrengthPolicy-id}/microsoft.graph.usage()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrengths",
+      "policies",
+      "{authenticationStrengthPolicy-id}",
+      "microsoft.graph.usage()"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "microsoft.graph.usage()"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrengths/policies/microsoft.graph.findByMethodMode(authenticationMethodModes={authenticationMethodModes})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/policies/microsoft.graph.findByMethodMode(authenticationMethodModes={authenticationMethodModes})",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrengths",
+      "policies",
+      "microsoft.graph.findByMethodMode(authenticationMethodModes={authenticationMethodModes})"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "microsoft.graph.findByMethodMode(authenticationMethodModes={authenticationMethodModes})"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/namedLocations",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/namedLocations",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/namedLocations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "namedLocations"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "namedLocations"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/namedLocations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/namedLocations/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/namedLocations/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "namedLocations",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/namedLocations/{namedLocation-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/namedLocations/{namedLocation-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/namedLocations/{namedLocation-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "namedLocations",
+      "{namedLocation-id}"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "{namedLocation-id}"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/policies",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/policies",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/policies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "policies"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "policies"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/policies/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/policies/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/policies/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "policies",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/policies/{conditionalAccessPolicy-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/policies/{conditionalAccessPolicy-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/policies/{conditionalAccessPolicy-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "policies",
+      "{conditionalAccessPolicy-id}"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "{conditionalAccessPolicy-id}"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/templates",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/templates",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/templates",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "templates"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "templates"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/templates/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/templates/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/templates/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "templates",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/templates/{conditionalAccessTemplate-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/templates/{conditionalAccessTemplate-id}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/templates/{conditionalAccessTemplate-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "templates",
+      "{conditionalAccessTemplate-id}"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "{conditionalAccessTemplate-id}"
+  },
+  {
+    "Endpoint": "identity/continuousAccessEvaluationPolicy",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/continuousAccessEvaluationPolicy",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "continuousAccessEvaluationPolicy"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "continuousAccessEvaluationPolicy"
+  },
+  {
+    "Endpoint": "identity/customAuthenticationExtensions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/customAuthenticationExtensions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "customAuthenticationExtensions"
+    ],
+    "Root": "identity",
+    "Children": 3,
+    "Segment": "customAuthenticationExtensions"
+  },
+  {
+    "Endpoint": "identity/customAuthenticationExtensions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/customAuthenticationExtensions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "customAuthenticationExtensions",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/customAuthenticationExtensions/{customAuthenticationExtension-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/customAuthenticationExtensions/{customAuthenticationExtension-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "customAuthenticationExtensions",
+      "{customAuthenticationExtension-id}"
+    ],
+    "Root": "identity",
+    "Children": 1,
+    "Segment": "{customAuthenticationExtension-id}"
+  },
+  {
+    "Endpoint": "identity/customAuthenticationExtensions/{customAuthenticationExtension-id}/microsoft.graph.validateAuthenticationConfiguration",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/customAuthenticationExtensions/{customAuthenticationExtension-id}/microsoft.graph.validateAuthenticationConfiguration",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "customAuthenticationExtensions",
+      "{customAuthenticationExtension-id}",
+      "microsoft.graph.validateAuthenticationConfiguration"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "microsoft.graph.validateAuthenticationConfiguration"
+  },
+  {
+    "Endpoint": "identity/customAuthenticationExtensions/microsoft.graph.validateAuthenticationConfiguration",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/customAuthenticationExtensions/microsoft.graph.validateAuthenticationConfiguration",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "customAuthenticationExtensions",
+      "microsoft.graph.validateAuthenticationConfiguration"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "microsoft.graph.validateAuthenticationConfiguration"
+  },
+  {
+    "Endpoint": "identity/identityProviders",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/identityProviders",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/identityProviders",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "identityProviders"
+    ],
+    "Root": "identity",
+    "Children": 3,
+    "Segment": "identityProviders"
+  },
+  {
+    "Endpoint": "identity/identityProviders/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/identityProviders/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/identityProviders/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "identityProviders",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/identityProviders/{identityProviderBase-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/identityProviders/{identityProviderBase-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/identityProviders/{identityProviderBase-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "identityProviders",
+      "{identityProviderBase-id}"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "{identityProviderBase-id}"
+  },
+  {
+    "Endpoint": "identity/identityProviders/microsoft.graph.availableProviderTypes()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/identityProviders/microsoft.graph.availableProviderTypes()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/identityProviders/microsoft.graph.availableProviderTypes()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "identityProviders",
+      "microsoft.graph.availableProviderTypes()"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "microsoft.graph.availableProviderTypes()"
+  },
+  {
+    "Endpoint": "identity/userFlowAttributes",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/userFlowAttributes",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/userFlowAttributes",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "userFlowAttributes"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "userFlowAttributes"
+  },
+  {
+    "Endpoint": "identity/userFlowAttributes/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/userFlowAttributes/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/userFlowAttributes/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "userFlowAttributes",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/userFlowAttributes/{identityUserFlowAttribute-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/userFlowAttributes/{identityUserFlowAttribute-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/userFlowAttributes/{identityUserFlowAttribute-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "userFlowAttributes",
+      "{identityUserFlowAttribute-id}"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "{identityUserFlowAttribute-id}"
+  },
+  {
+    "Endpoint": "identity/userFlows",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/userFlows",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identity",
+      "userFlows"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "userFlows"
+  },
+  {
+    "Endpoint": "identity/userFlows/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/userFlows/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identity",
+      "userFlows",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/userFlows/{identityUserFlow-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/userFlows/{identityUserFlow-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identity",
+      "userFlows",
+      "{identityUserFlow-id}"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "{identityUserFlow-id}"
+  }
+]

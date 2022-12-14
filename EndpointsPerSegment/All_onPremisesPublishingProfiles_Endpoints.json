@@ -1,0 +1,1269 @@
+[
+  {
+    "Endpoint": "onPremisesPublishingProfiles",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 2,
+    "Segment": "onPremisesPublishingProfiles"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 5,
+    "Segment": "{onPremisesPublishingProfile-id}"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 2,
+    "Segment": "agentGroups"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 2,
+    "Segment": "{onPremisesAgentGroup-id}"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}",
+      "agents"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 2,
+    "Segment": "agents"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}",
+      "agents",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/{onPremisesAgent-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/{onPremisesAgent-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}",
+      "agents",
+      "{onPremisesAgent-id}"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 1,
+    "Segment": "{onPremisesAgent-id}"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/{onPremisesAgent-id}/agentGroups",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/{onPremisesAgent-id}/agentGroups",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}",
+      "agents",
+      "{onPremisesAgent-id}",
+      "agentGroups"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 3,
+    "Segment": "agentGroups"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/{onPremisesAgent-id}/agentGroups/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/{onPremisesAgent-id}/agentGroups/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}",
+      "agents",
+      "{onPremisesAgent-id}",
+      "agentGroups",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/{onPremisesAgent-id}/agentGroups/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/{onPremisesAgent-id}/agentGroups/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}",
+      "agents",
+      "{onPremisesAgent-id}",
+      "agentGroups",
+      "$ref"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/{onPremisesAgent-id}/agentGroups/{onPremisesAgentGroup-id1}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}",
+      "agents",
+      "{onPremisesAgent-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id1}"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 1,
+    "Segment": "{onPremisesAgentGroup-id1}"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/{onPremisesAgent-id}/agentGroups/{onPremisesAgentGroup-id1}/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/{onPremisesAgent-id}/agentGroups/{onPremisesAgentGroup-id1}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}",
+      "agents",
+      "{onPremisesAgent-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id1}",
+      "$ref"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}",
+      "publishedResources"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 2,
+    "Segment": "publishedResources"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}",
+      "publishedResources",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/{publishedResource-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/{publishedResource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}",
+      "publishedResources",
+      "{publishedResource-id}"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 1,
+    "Segment": "{publishedResource-id}"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/{publishedResource-id}/agentGroups",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/{publishedResource-id}/agentGroups",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}",
+      "publishedResources",
+      "{publishedResource-id}",
+      "agentGroups"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 3,
+    "Segment": "agentGroups"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/{publishedResource-id}/agentGroups/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/{publishedResource-id}/agentGroups/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}",
+      "publishedResources",
+      "{publishedResource-id}",
+      "agentGroups",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/{publishedResource-id}/agentGroups/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/{publishedResource-id}/agentGroups/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}",
+      "publishedResources",
+      "{publishedResource-id}",
+      "agentGroups",
+      "$ref"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/{publishedResource-id}/agentGroups/{onPremisesAgentGroup-id1}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}",
+      "publishedResources",
+      "{publishedResource-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id1}"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 1,
+    "Segment": "{onPremisesAgentGroup-id1}"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/{publishedResource-id}/agentGroups/{onPremisesAgentGroup-id1}/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/{publishedResource-id}/agentGroups/{onPremisesAgentGroup-id1}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}",
+      "publishedResources",
+      "{publishedResource-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id1}",
+      "$ref"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agents"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 2,
+    "Segment": "agents"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agents",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agents",
+      "{onPremisesAgent-id}"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 1,
+    "Segment": "{onPremisesAgent-id}"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}/agentGroups",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}/agentGroups",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agents",
+      "{onPremisesAgent-id}",
+      "agentGroups"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 3,
+    "Segment": "agentGroups"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}/agentGroups/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}/agentGroups/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agents",
+      "{onPremisesAgent-id}",
+      "agentGroups",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}/agentGroups/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}/agentGroups/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agents",
+      "{onPremisesAgent-id}",
+      "agentGroups",
+      "$ref"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}/agentGroups/{onPremisesAgentGroup-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agents",
+      "{onPremisesAgent-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 1,
+    "Segment": "{onPremisesAgentGroup-id}"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}/agentGroups/{onPremisesAgentGroup-id}/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}/agentGroups/{onPremisesAgentGroup-id}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agents",
+      "{onPremisesAgent-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}",
+      "$ref"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectorGroups"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 2,
+    "Segment": "connectorGroups"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectorGroups",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectorGroups",
+      "{connectorGroup-id}"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 2,
+    "Segment": "{connectorGroup-id}"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/applications",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/applications",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectorGroups",
+      "{connectorGroup-id}",
+      "applications"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 2,
+    "Segment": "applications"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/applications/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/applications/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectorGroups",
+      "{connectorGroup-id}",
+      "applications",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/applications/{application-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/applications/{application-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectorGroups",
+      "{connectorGroup-id}",
+      "applications",
+      "{application-id}"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 1,
+    "Segment": "{application-id}"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/applications/{application-id}/logo",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/applications/{application-id}/logo",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectorGroups",
+      "{connectorGroup-id}",
+      "applications",
+      "{application-id}",
+      "logo"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "logo"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/members",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/members",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectorGroups",
+      "{connectorGroup-id}",
+      "members"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 3,
+    "Segment": "members"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/members/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/members/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectorGroups",
+      "{connectorGroup-id}",
+      "members",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/members/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/members/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectorGroups",
+      "{connectorGroup-id}",
+      "members",
+      "$ref"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/members/{connector-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectorGroups",
+      "{connectorGroup-id}",
+      "members",
+      "{connector-id}"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 1,
+    "Segment": "{connector-id}"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/members/{connector-id}/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/members/{connector-id}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectorGroups",
+      "{connectorGroup-id}",
+      "members",
+      "{connector-id}",
+      "$ref"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectors"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 2,
+    "Segment": "connectors"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectors",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectors",
+      "{connector-id}"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 1,
+    "Segment": "{connector-id}"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}/memberOf",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}/memberOf",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectors",
+      "{connector-id}",
+      "memberOf"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 3,
+    "Segment": "memberOf"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}/memberOf/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}/memberOf/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectors",
+      "{connector-id}",
+      "memberOf",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}/memberOf/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}/memberOf/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectors",
+      "{connector-id}",
+      "memberOf",
+      "$ref"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}/memberOf/{connectorGroup-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectors",
+      "{connector-id}",
+      "memberOf",
+      "{connectorGroup-id}"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 1,
+    "Segment": "{connectorGroup-id}"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}/memberOf/{connectorGroup-id}/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}/memberOf/{connectorGroup-id}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectors",
+      "{connector-id}",
+      "memberOf",
+      "{connectorGroup-id}",
+      "$ref"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "publishedResources"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 2,
+    "Segment": "publishedResources"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "publishedResources",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/{publishedResource-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/{publishedResource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "publishedResources",
+      "{publishedResource-id}"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 1,
+    "Segment": "{publishedResource-id}"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/{publishedResource-id}/agentGroups",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/{publishedResource-id}/agentGroups",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "publishedResources",
+      "{publishedResource-id}",
+      "agentGroups"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 3,
+    "Segment": "agentGroups"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/{publishedResource-id}/agentGroups/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/{publishedResource-id}/agentGroups/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "publishedResources",
+      "{publishedResource-id}",
+      "agentGroups",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/{publishedResource-id}/agentGroups/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/{publishedResource-id}/agentGroups/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "publishedResources",
+      "{publishedResource-id}",
+      "agentGroups",
+      "$ref"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/{publishedResource-id}/agentGroups/{onPremisesAgentGroup-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "publishedResources",
+      "{publishedResource-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 1,
+    "Segment": "{onPremisesAgentGroup-id}"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/{publishedResource-id}/agentGroups/{onPremisesAgentGroup-id}/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/{publishedResource-id}/agentGroups/{onPremisesAgentGroup-id}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "publishedResources",
+      "{publishedResource-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}",
+      "$ref"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$ref"
+  }
+]

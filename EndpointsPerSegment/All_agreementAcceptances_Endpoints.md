@@ -1,0 +1,4 @@
+| Endpoint | v1.0 | V1.0-Url | v1.0-Methods | beta | Beta-Url | Beta-Methods | Path | Root | Children | Segment |
+| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------|
+| agreementAcceptances| True| https://graph.microsoft.com/v1.0/agreementAcceptances| Get Post| True| https://graph.microsoft.com/beta/agreementAcceptances| Get Post| agreementAcceptances| agreementAcceptances| 1| agreementAcceptances|
+| agreementAcceptances/{agreementAcceptance-id}| True| https://graph.microsoft.com/v1.0/agreementAcceptances/{agreementAcceptance-id}| Get Patch Delete| True| https://graph.microsoft.com/beta/agreementAcceptances/{agreementAcceptance-id}| Get Patch Delete| agreementAcceptances {agreementAcceptance-id}| agreementAcceptances| 0| {agreementAcceptance-id}|

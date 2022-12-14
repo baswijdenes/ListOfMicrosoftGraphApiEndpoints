@@ -1,0 +1,67 @@
+[
+  {
+    "Endpoint": "scopedRoleMemberships",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/scopedRoleMemberships",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/scopedRoleMemberships",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "scopedRoleMemberships"
+    ],
+    "Root": "scopedRoleMemberships",
+    "Children": 2,
+    "Segment": "scopedRoleMemberships"
+  },
+  {
+    "Endpoint": "scopedRoleMemberships/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/scopedRoleMemberships/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/scopedRoleMemberships/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "scopedRoleMemberships",
+      "$count"
+    ],
+    "Root": "scopedRoleMemberships",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "scopedRoleMemberships/{scopedRoleMembership-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/scopedRoleMemberships/{scopedRoleMembership-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/scopedRoleMemberships/{scopedRoleMembership-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "scopedRoleMemberships",
+      "{scopedRoleMembership-id}"
+    ],
+    "Root": "scopedRoleMemberships",
+    "Children": 0,
+    "Segment": "{scopedRoleMembership-id}"
+  }
+]

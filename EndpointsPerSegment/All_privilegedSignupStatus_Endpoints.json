@@ -1,0 +1,130 @@
+[
+  {
+    "Endpoint": "privilegedSignupStatus",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedSignupStatus",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "privilegedSignupStatus"
+    ],
+    "Root": "privilegedSignupStatus",
+    "Children": 6,
+    "Segment": "privilegedSignupStatus"
+  },
+  {
+    "Endpoint": "privilegedSignupStatus/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedSignupStatus/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "privilegedSignupStatus",
+      "$count"
+    ],
+    "Root": "privilegedSignupStatus",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "privilegedSignupStatus/{privilegedSignupStatus-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedSignupStatus/{privilegedSignupStatus-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "privilegedSignupStatus",
+      "{privilegedSignupStatus-id}"
+    ],
+    "Root": "privilegedSignupStatus",
+    "Children": 0,
+    "Segment": "{privilegedSignupStatus-id}"
+  },
+  {
+    "Endpoint": "privilegedSignupStatus/microsoft.graph.canSignUp()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedSignupStatus/microsoft.graph.canSignUp()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "privilegedSignupStatus",
+      "microsoft.graph.canSignUp()"
+    ],
+    "Root": "privilegedSignupStatus",
+    "Children": 0,
+    "Segment": "microsoft.graph.canSignUp()"
+  },
+  {
+    "Endpoint": "privilegedSignupStatus/microsoft.graph.completeSetup",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedSignupStatus/microsoft.graph.completeSetup",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "privilegedSignupStatus",
+      "microsoft.graph.completeSetup"
+    ],
+    "Root": "privilegedSignupStatus",
+    "Children": 0,
+    "Segment": "microsoft.graph.completeSetup"
+  },
+  {
+    "Endpoint": "privilegedSignupStatus/microsoft.graph.isSignedUp()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedSignupStatus/microsoft.graph.isSignedUp()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "privilegedSignupStatus",
+      "microsoft.graph.isSignedUp()"
+    ],
+    "Root": "privilegedSignupStatus",
+    "Children": 0,
+    "Segment": "microsoft.graph.isSignedUp()"
+  },
+  {
+    "Endpoint": "privilegedSignupStatus/microsoft.graph.signUp",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedSignupStatus/microsoft.graph.signUp",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "privilegedSignupStatus",
+      "microsoft.graph.signUp"
+    ],
+    "Root": "privilegedSignupStatus",
+    "Children": 0,
+    "Segment": "microsoft.graph.signUp"
+  }
+]

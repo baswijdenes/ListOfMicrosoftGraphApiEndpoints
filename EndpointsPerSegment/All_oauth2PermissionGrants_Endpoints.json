@@ -1,0 +1,87 @@
+[
+  {
+    "Endpoint": "oauth2PermissionGrants",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/oauth2PermissionGrants",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/oauth2PermissionGrants",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "oauth2PermissionGrants"
+    ],
+    "Root": "oauth2PermissionGrants",
+    "Children": 3,
+    "Segment": "oauth2PermissionGrants"
+  },
+  {
+    "Endpoint": "oauth2PermissionGrants/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/oauth2PermissionGrants/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/oauth2PermissionGrants/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "oauth2PermissionGrants",
+      "$count"
+    ],
+    "Root": "oauth2PermissionGrants",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "oauth2PermissionGrants/{oAuth2PermissionGrant-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/oauth2PermissionGrants/{oAuth2PermissionGrant-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/oauth2PermissionGrants/{oAuth2PermissionGrant-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "oauth2PermissionGrants",
+      "{oAuth2PermissionGrant-id}"
+    ],
+    "Root": "oauth2PermissionGrants",
+    "Children": 0,
+    "Segment": "{oAuth2PermissionGrant-id}"
+  },
+  {
+    "Endpoint": "oauth2PermissionGrants/microsoft.graph.delta()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/oauth2PermissionGrants/microsoft.graph.delta()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/oauth2PermissionGrants/microsoft.graph.delta()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "oauth2PermissionGrants",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "oauth2PermissionGrants",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  }
+]

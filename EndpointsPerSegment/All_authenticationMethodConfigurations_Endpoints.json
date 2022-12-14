@@ -1,0 +1,67 @@
+[
+  {
+    "Endpoint": "authenticationMethodConfigurations",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/authenticationMethodConfigurations",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/authenticationMethodConfigurations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "authenticationMethodConfigurations"
+    ],
+    "Root": "authenticationMethodConfigurations",
+    "Children": 2,
+    "Segment": "authenticationMethodConfigurations"
+  },
+  {
+    "Endpoint": "authenticationMethodConfigurations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/authenticationMethodConfigurations/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/authenticationMethodConfigurations/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "authenticationMethodConfigurations",
+      "$count"
+    ],
+    "Root": "authenticationMethodConfigurations",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "authenticationMethodConfigurations/{authenticationMethodConfiguration-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/authenticationMethodConfigurations/{authenticationMethodConfiguration-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/authenticationMethodConfigurations/{authenticationMethodConfiguration-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "authenticationMethodConfigurations",
+      "{authenticationMethodConfiguration-id}"
+    ],
+    "Root": "authenticationMethodConfigurations",
+    "Children": 0,
+    "Segment": "{authenticationMethodConfiguration-id}"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "Endpoint": "activitystatistics",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/activitystatistics",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "activitystatistics"
+    ],
+    "Root": "activitystatistics",
+    "Children": 2,
+    "Segment": "activitystatistics"
+  },
+  {
+    "Endpoint": "activitystatistics/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/activitystatistics/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "activitystatistics",
+      "$count"
+    ],
+    "Root": "activitystatistics",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "activitystatistics/{activityStatistics-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/activitystatistics/{activityStatistics-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "activitystatistics",
+      "{activityStatistics-id}"
+    ],
+    "Root": "activitystatistics",
+    "Children": 0,
+    "Segment": "{activityStatistics-id}"
+  }
+]

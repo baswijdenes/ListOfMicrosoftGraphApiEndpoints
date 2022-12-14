@@ -1,0 +1,58 @@
+[
+  {
+    "Endpoint": "programControlTypes",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/programControlTypes",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "programControlTypes"
+    ],
+    "Root": "programControlTypes",
+    "Children": 2,
+    "Segment": "programControlTypes"
+  },
+  {
+    "Endpoint": "programControlTypes/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/programControlTypes/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "programControlTypes",
+      "$count"
+    ],
+    "Root": "programControlTypes",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "programControlTypes/{programControlType-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/programControlTypes/{programControlType-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "programControlTypes",
+      "{programControlType-id}"
+    ],
+    "Root": "programControlTypes",
+    "Children": 0,
+    "Segment": "{programControlType-id}"
+  }
+]

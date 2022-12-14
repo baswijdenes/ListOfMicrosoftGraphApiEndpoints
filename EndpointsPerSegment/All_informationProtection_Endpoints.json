@@ -1,0 +1,746 @@
+[
+  {
+    "Endpoint": "informationProtection",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/informationProtection",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Path": [
+      "informationProtection"
+    ],
+    "Root": "informationProtection",
+    "Children": 10,
+    "Segment": "informationProtection"
+  },
+  {
+    "Endpoint": "informationProtection/bitlocker",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/informationProtection/bitlocker",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/bitlocker",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "informationProtection",
+      "bitlocker"
+    ],
+    "Root": "informationProtection",
+    "Children": 1,
+    "Segment": "bitlocker"
+  },
+  {
+    "Endpoint": "informationProtection/bitlocker/recoveryKeys",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/informationProtection/bitlocker/recoveryKeys",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/bitlocker/recoveryKeys",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "informationProtection",
+      "bitlocker",
+      "recoveryKeys"
+    ],
+    "Root": "informationProtection",
+    "Children": 2,
+    "Segment": "recoveryKeys"
+  },
+  {
+    "Endpoint": "informationProtection/bitlocker/recoveryKeys/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/informationProtection/bitlocker/recoveryKeys/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/bitlocker/recoveryKeys/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "informationProtection",
+      "bitlocker",
+      "recoveryKeys",
+      "$count"
+    ],
+    "Root": "informationProtection",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "informationProtection/bitlocker/recoveryKeys/{bitlockerRecoveryKey-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/informationProtection/bitlocker/recoveryKeys/{bitlockerRecoveryKey-id}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/bitlocker/recoveryKeys/{bitlockerRecoveryKey-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "informationProtection",
+      "bitlocker",
+      "recoveryKeys",
+      "{bitlockerRecoveryKey-id}"
+    ],
+    "Root": "informationProtection",
+    "Children": 0,
+    "Segment": "{bitlockerRecoveryKey-id}"
+  },
+  {
+    "Endpoint": "informationProtection/dataLossPreventionPolicies",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/dataLossPreventionPolicies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "informationProtection",
+      "dataLossPreventionPolicies"
+    ],
+    "Root": "informationProtection",
+    "Children": 3,
+    "Segment": "dataLossPreventionPolicies"
+  },
+  {
+    "Endpoint": "informationProtection/dataLossPreventionPolicies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/dataLossPreventionPolicies/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "informationProtection",
+      "dataLossPreventionPolicies",
+      "$count"
+    ],
+    "Root": "informationProtection",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "informationProtection/dataLossPreventionPolicies/{dataLossPreventionPolicy-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/dataLossPreventionPolicies/{dataLossPreventionPolicy-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "informationProtection",
+      "dataLossPreventionPolicies",
+      "{dataLossPreventionPolicy-id}"
+    ],
+    "Root": "informationProtection",
+    "Children": 0,
+    "Segment": "{dataLossPreventionPolicy-id}"
+  },
+  {
+    "Endpoint": "informationProtection/dataLossPreventionPolicies/microsoft.graph.evaluate",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/dataLossPreventionPolicies/microsoft.graph.evaluate",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "informationProtection",
+      "dataLossPreventionPolicies",
+      "microsoft.graph.evaluate"
+    ],
+    "Root": "informationProtection",
+    "Children": 0,
+    "Segment": "microsoft.graph.evaluate"
+  },
+  {
+    "Endpoint": "informationProtection/microsoft.graph.decryptBuffer",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/microsoft.graph.decryptBuffer",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "informationProtection",
+      "microsoft.graph.decryptBuffer"
+    ],
+    "Root": "informationProtection",
+    "Children": 0,
+    "Segment": "microsoft.graph.decryptBuffer"
+  },
+  {
+    "Endpoint": "informationProtection/microsoft.graph.encryptBuffer",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/microsoft.graph.encryptBuffer",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "informationProtection",
+      "microsoft.graph.encryptBuffer"
+    ],
+    "Root": "informationProtection",
+    "Children": 0,
+    "Segment": "microsoft.graph.encryptBuffer"
+  },
+  {
+    "Endpoint": "informationProtection/microsoft.graph.signDigest",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/microsoft.graph.signDigest",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "informationProtection",
+      "microsoft.graph.signDigest"
+    ],
+    "Root": "informationProtection",
+    "Children": 0,
+    "Segment": "microsoft.graph.signDigest"
+  },
+  {
+    "Endpoint": "informationProtection/microsoft.graph.verifySignature",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/microsoft.graph.verifySignature",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "informationProtection",
+      "microsoft.graph.verifySignature"
+    ],
+    "Root": "informationProtection",
+    "Children": 0,
+    "Segment": "microsoft.graph.verifySignature"
+  },
+  {
+    "Endpoint": "informationProtection/policy",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/policy",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "informationProtection",
+      "policy"
+    ],
+    "Root": "informationProtection",
+    "Children": 1,
+    "Segment": "policy"
+  },
+  {
+    "Endpoint": "informationProtection/policy/labels",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/policy/labels",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "informationProtection",
+      "policy",
+      "labels"
+    ],
+    "Root": "informationProtection",
+    "Children": 6,
+    "Segment": "labels"
+  },
+  {
+    "Endpoint": "informationProtection/policy/labels/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/policy/labels/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "informationProtection",
+      "policy",
+      "labels",
+      "$count"
+    ],
+    "Root": "informationProtection",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "informationProtection/policy/labels/{informationProtectionLabel-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/policy/labels/{informationProtectionLabel-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "informationProtection",
+      "policy",
+      "labels",
+      "{informationProtectionLabel-id}"
+    ],
+    "Root": "informationProtection",
+    "Children": 0,
+    "Segment": "{informationProtectionLabel-id}"
+  },
+  {
+    "Endpoint": "informationProtection/policy/labels/microsoft.graph.evaluateApplication",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/policy/labels/microsoft.graph.evaluateApplication",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "informationProtection",
+      "policy",
+      "labels",
+      "microsoft.graph.evaluateApplication"
+    ],
+    "Root": "informationProtection",
+    "Children": 0,
+    "Segment": "microsoft.graph.evaluateApplication"
+  },
+  {
+    "Endpoint": "informationProtection/policy/labels/microsoft.graph.evaluateClassificationResults",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/policy/labels/microsoft.graph.evaluateClassificationResults",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "informationProtection",
+      "policy",
+      "labels",
+      "microsoft.graph.evaluateClassificationResults"
+    ],
+    "Root": "informationProtection",
+    "Children": 0,
+    "Segment": "microsoft.graph.evaluateClassificationResults"
+  },
+  {
+    "Endpoint": "informationProtection/policy/labels/microsoft.graph.evaluateRemoval",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/policy/labels/microsoft.graph.evaluateRemoval",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "informationProtection",
+      "policy",
+      "labels",
+      "microsoft.graph.evaluateRemoval"
+    ],
+    "Root": "informationProtection",
+    "Children": 0,
+    "Segment": "microsoft.graph.evaluateRemoval"
+  },
+  {
+    "Endpoint": "informationProtection/policy/labels/microsoft.graph.extractLabel",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/policy/labels/microsoft.graph.extractLabel",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "informationProtection",
+      "policy",
+      "labels",
+      "microsoft.graph.extractLabel"
+    ],
+    "Root": "informationProtection",
+    "Children": 0,
+    "Segment": "microsoft.graph.extractLabel"
+  },
+  {
+    "Endpoint": "informationProtection/sensitivityLabels",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/sensitivityLabels",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "informationProtection",
+      "sensitivityLabels"
+    ],
+    "Root": "informationProtection",
+    "Children": 3,
+    "Segment": "sensitivityLabels"
+  },
+  {
+    "Endpoint": "informationProtection/sensitivityLabels/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/sensitivityLabels/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "informationProtection",
+      "sensitivityLabels",
+      "$count"
+    ],
+    "Root": "informationProtection",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "informationProtection/sensitivityLabels/{sensitivityLabel-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/sensitivityLabels/{sensitivityLabel-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "informationProtection",
+      "sensitivityLabels",
+      "{sensitivityLabel-id}"
+    ],
+    "Root": "informationProtection",
+    "Children": 1,
+    "Segment": "{sensitivityLabel-id}"
+  },
+  {
+    "Endpoint": "informationProtection/sensitivityLabels/{sensitivityLabel-id}/sublabels",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/sensitivityLabels/{sensitivityLabel-id}/sublabels",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "informationProtection",
+      "sensitivityLabels",
+      "{sensitivityLabel-id}",
+      "sublabels"
+    ],
+    "Root": "informationProtection",
+    "Children": 3,
+    "Segment": "sublabels"
+  },
+  {
+    "Endpoint": "informationProtection/sensitivityLabels/{sensitivityLabel-id}/sublabels/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/sensitivityLabels/{sensitivityLabel-id}/sublabels/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "informationProtection",
+      "sensitivityLabels",
+      "{sensitivityLabel-id}",
+      "sublabels",
+      "$count"
+    ],
+    "Root": "informationProtection",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "informationProtection/sensitivityLabels/{sensitivityLabel-id}/sublabels/{sensitivityLabel-id1}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/sensitivityLabels/{sensitivityLabel-id}/sublabels/{sensitivityLabel-id1}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "informationProtection",
+      "sensitivityLabels",
+      "{sensitivityLabel-id}",
+      "sublabels",
+      "{sensitivityLabel-id1}"
+    ],
+    "Root": "informationProtection",
+    "Children": 0,
+    "Segment": "{sensitivityLabel-id1}"
+  },
+  {
+    "Endpoint": "informationProtection/sensitivityLabels/{sensitivityLabel-id}/sublabels/microsoft.graph.evaluate",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/sensitivityLabels/{sensitivityLabel-id}/sublabels/microsoft.graph.evaluate",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "informationProtection",
+      "sensitivityLabels",
+      "{sensitivityLabel-id}",
+      "sublabels",
+      "microsoft.graph.evaluate"
+    ],
+    "Root": "informationProtection",
+    "Children": 0,
+    "Segment": "microsoft.graph.evaluate"
+  },
+  {
+    "Endpoint": "informationProtection/sensitivityLabels/microsoft.graph.evaluate",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/sensitivityLabels/microsoft.graph.evaluate",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "informationProtection",
+      "sensitivityLabels",
+      "microsoft.graph.evaluate"
+    ],
+    "Root": "informationProtection",
+    "Children": 0,
+    "Segment": "microsoft.graph.evaluate"
+  },
+  {
+    "Endpoint": "informationProtection/sensitivityPolicySettings",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/sensitivityPolicySettings",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "informationProtection",
+      "sensitivityPolicySettings"
+    ],
+    "Root": "informationProtection",
+    "Children": 0,
+    "Segment": "sensitivityPolicySettings"
+  },
+  {
+    "Endpoint": "informationProtection/threatAssessmentRequests",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/informationProtection/threatAssessmentRequests",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/threatAssessmentRequests",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "informationProtection",
+      "threatAssessmentRequests"
+    ],
+    "Root": "informationProtection",
+    "Children": 2,
+    "Segment": "threatAssessmentRequests"
+  },
+  {
+    "Endpoint": "informationProtection/threatAssessmentRequests/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/informationProtection/threatAssessmentRequests/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/threatAssessmentRequests/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "informationProtection",
+      "threatAssessmentRequests",
+      "$count"
+    ],
+    "Root": "informationProtection",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "informationProtection/threatAssessmentRequests/{threatAssessmentRequest-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/informationProtection/threatAssessmentRequests/{threatAssessmentRequest-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/threatAssessmentRequests/{threatAssessmentRequest-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "informationProtection",
+      "threatAssessmentRequests",
+      "{threatAssessmentRequest-id}"
+    ],
+    "Root": "informationProtection",
+    "Children": 1,
+    "Segment": "{threatAssessmentRequest-id}"
+  },
+  {
+    "Endpoint": "informationProtection/threatAssessmentRequests/{threatAssessmentRequest-id}/results",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/informationProtection/threatAssessmentRequests/{threatAssessmentRequest-id}/results",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/threatAssessmentRequests/{threatAssessmentRequest-id}/results",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "informationProtection",
+      "threatAssessmentRequests",
+      "{threatAssessmentRequest-id}",
+      "results"
+    ],
+    "Root": "informationProtection",
+    "Children": 2,
+    "Segment": "results"
+  },
+  {
+    "Endpoint": "informationProtection/threatAssessmentRequests/{threatAssessmentRequest-id}/results/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/informationProtection/threatAssessmentRequests/{threatAssessmentRequest-id}/results/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/threatAssessmentRequests/{threatAssessmentRequest-id}/results/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "informationProtection",
+      "threatAssessmentRequests",
+      "{threatAssessmentRequest-id}",
+      "results",
+      "$count"
+    ],
+    "Root": "informationProtection",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "informationProtection/threatAssessmentRequests/{threatAssessmentRequest-id}/results/{threatAssessmentResult-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/informationProtection/threatAssessmentRequests/{threatAssessmentRequest-id}/results/{threatAssessmentResult-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/informationProtection/threatAssessmentRequests/{threatAssessmentRequest-id}/results/{threatAssessmentResult-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "informationProtection",
+      "threatAssessmentRequests",
+      "{threatAssessmentRequest-id}",
+      "results",
+      "{threatAssessmentResult-id}"
+    ],
+    "Root": "informationProtection",
+    "Children": 0,
+    "Segment": "{threatAssessmentResult-id}"
+  }
+]

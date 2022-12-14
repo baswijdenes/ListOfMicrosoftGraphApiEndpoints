@@ -1,0 +1,4849 @@
+[
+  {
+    "Endpoint": "security",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Path": [
+      "security"
+    ],
+    "Root": "security",
+    "Children": 23,
+    "Segment": "security"
+  },
+  {
+    "Endpoint": "security/alerts",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/alerts",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/alerts",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "alerts"
+    ],
+    "Root": "security",
+    "Children": 3,
+    "Segment": "alerts"
+  },
+  {
+    "Endpoint": "security/alerts/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/alerts/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/alerts/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "alerts",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/alerts/{alert-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/alerts/{alert-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/alerts/{alert-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Path": [
+      "security",
+      "alerts",
+      "{alert-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{alert-id}"
+  },
+  {
+    "Endpoint": "security/alerts/microsoft.graph.updateAlerts",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/alerts/microsoft.graph.updateAlerts",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "alerts",
+      "microsoft.graph.updateAlerts"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.updateAlerts"
+  },
+  {
+    "Endpoint": "security/alerts_v2",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/alerts_v2",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/alerts_v2",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "alerts_v2"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "alerts_v2"
+  },
+  {
+    "Endpoint": "security/alerts_v2/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/alerts_v2/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/alerts_v2/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "alerts_v2",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/alerts_v2/{alert-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/alerts_v2/{alert-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/alerts_v2/{alert-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "alerts_v2",
+      "{alert-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{alert-id}"
+  },
+  {
+    "Endpoint": "security/attackSimulation",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/attackSimulation",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/attackSimulation",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "attackSimulation"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "attackSimulation"
+  },
+  {
+    "Endpoint": "security/attackSimulation/simulationAutomations",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/attackSimulation/simulationAutomations",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/attackSimulation/simulationAutomations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "attackSimulation",
+      "simulationAutomations"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "simulationAutomations"
+  },
+  {
+    "Endpoint": "security/attackSimulation/simulationAutomations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/attackSimulation/simulationAutomations/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/attackSimulation/simulationAutomations/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "attackSimulation",
+      "simulationAutomations",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/attackSimulation/simulationAutomations/{simulationAutomation-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/attackSimulation/simulationAutomations/{simulationAutomation-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/attackSimulation/simulationAutomations/{simulationAutomation-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "attackSimulation",
+      "simulationAutomations",
+      "{simulationAutomation-id}"
+    ],
+    "Root": "security",
+    "Children": 1,
+    "Segment": "{simulationAutomation-id}"
+  },
+  {
+    "Endpoint": "security/attackSimulation/simulationAutomations/{simulationAutomation-id}/runs",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/attackSimulation/simulationAutomations/{simulationAutomation-id}/runs",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/attackSimulation/simulationAutomations/{simulationAutomation-id}/runs",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "attackSimulation",
+      "simulationAutomations",
+      "{simulationAutomation-id}",
+      "runs"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "runs"
+  },
+  {
+    "Endpoint": "security/attackSimulation/simulationAutomations/{simulationAutomation-id}/runs/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/attackSimulation/simulationAutomations/{simulationAutomation-id}/runs/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/attackSimulation/simulationAutomations/{simulationAutomation-id}/runs/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "attackSimulation",
+      "simulationAutomations",
+      "{simulationAutomation-id}",
+      "runs",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/attackSimulation/simulationAutomations/{simulationAutomation-id}/runs/{simulationAutomationRun-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/attackSimulation/simulationAutomations/{simulationAutomation-id}/runs/{simulationAutomationRun-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/attackSimulation/simulationAutomations/{simulationAutomation-id}/runs/{simulationAutomationRun-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "attackSimulation",
+      "simulationAutomations",
+      "{simulationAutomation-id}",
+      "runs",
+      "{simulationAutomationRun-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{simulationAutomationRun-id}"
+  },
+  {
+    "Endpoint": "security/attackSimulation/simulations",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/attackSimulation/simulations",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/attackSimulation/simulations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "attackSimulation",
+      "simulations"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "simulations"
+  },
+  {
+    "Endpoint": "security/attackSimulation/simulations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/attackSimulation/simulations/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/attackSimulation/simulations/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "attackSimulation",
+      "simulations",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/attackSimulation/simulations/{simulation-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/attackSimulation/simulations/{simulation-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/attackSimulation/simulations/{simulation-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "attackSimulation",
+      "simulations",
+      "{simulation-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{simulation-id}"
+  },
+  {
+    "Endpoint": "security/cases",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "cases"
+    ],
+    "Root": "security",
+    "Children": 1,
+    "Segment": "cases"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "ediscoveryCases"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}"
+    ],
+    "Root": "security",
+    "Children": 10,
+    "Segment": "{ediscoveryCase-id}"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "custodians"
+    ],
+    "Root": "security",
+    "Children": 4,
+    "Segment": "custodians"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "custodians",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "custodians",
+      "{ediscoveryCustodian-id}"
+    ],
+    "Root": "security",
+    "Children": 9,
+    "Segment": "{ediscoveryCustodian-id}"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/lastIndexOperation",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/lastIndexOperation",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/lastIndexOperation",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "custodians",
+      "{ediscoveryCustodian-id}",
+      "lastIndexOperation"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "lastIndexOperation"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/microsoft.graph.security.activate",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/microsoft.graph.security.activate",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/microsoft.graph.security.activate",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "custodians",
+      "{ediscoveryCustodian-id}",
+      "microsoft.graph.security.activate"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.activate"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/microsoft.graph.security.applyHold",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/microsoft.graph.security.applyHold",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/microsoft.graph.security.applyHold",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "custodians",
+      "{ediscoveryCustodian-id}",
+      "microsoft.graph.security.applyHold"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.applyHold"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/microsoft.graph.security.release",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/microsoft.graph.security.release",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/microsoft.graph.security.release",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "custodians",
+      "{ediscoveryCustodian-id}",
+      "microsoft.graph.security.release"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.release"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/microsoft.graph.security.removeHold",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/microsoft.graph.security.removeHold",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/microsoft.graph.security.removeHold",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "custodians",
+      "{ediscoveryCustodian-id}",
+      "microsoft.graph.security.removeHold"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.removeHold"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/microsoft.graph.security.updateIndex",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/microsoft.graph.security.updateIndex",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/microsoft.graph.security.updateIndex",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "custodians",
+      "{ediscoveryCustodian-id}",
+      "microsoft.graph.security.updateIndex"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.updateIndex"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/siteSources",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/siteSources",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/siteSources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "custodians",
+      "{ediscoveryCustodian-id}",
+      "siteSources"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "siteSources"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/siteSources/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/siteSources/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/siteSources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "custodians",
+      "{ediscoveryCustodian-id}",
+      "siteSources",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/siteSources/{siteSource-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/siteSources/{siteSource-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/siteSources/{siteSource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "custodians",
+      "{ediscoveryCustodian-id}",
+      "siteSources",
+      "{siteSource-id}"
+    ],
+    "Root": "security",
+    "Children": 1,
+    "Segment": "{siteSource-id}"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/siteSources/{siteSource-id}/site",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/siteSources/{siteSource-id}/site",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/siteSources/{siteSource-id}/site",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "custodians",
+      "{ediscoveryCustodian-id}",
+      "siteSources",
+      "{siteSource-id}",
+      "site"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "site"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/unifiedGroupSources",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/unifiedGroupSources",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/unifiedGroupSources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "custodians",
+      "{ediscoveryCustodian-id}",
+      "unifiedGroupSources"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "unifiedGroupSources"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/unifiedGroupSources/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/unifiedGroupSources/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/unifiedGroupSources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "custodians",
+      "{ediscoveryCustodian-id}",
+      "unifiedGroupSources",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/unifiedGroupSources/{unifiedGroupSource-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/unifiedGroupSources/{unifiedGroupSource-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/unifiedGroupSources/{unifiedGroupSource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "custodians",
+      "{ediscoveryCustodian-id}",
+      "unifiedGroupSources",
+      "{unifiedGroupSource-id}"
+    ],
+    "Root": "security",
+    "Children": 1,
+    "Segment": "{unifiedGroupSource-id}"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/unifiedGroupSources/{unifiedGroupSource-id}/group",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/unifiedGroupSources/{unifiedGroupSource-id}/group",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/unifiedGroupSources/{unifiedGroupSource-id}/group",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "custodians",
+      "{ediscoveryCustodian-id}",
+      "unifiedGroupSources",
+      "{unifiedGroupSource-id}",
+      "group"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "group"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/userSources",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/userSources",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/userSources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "custodians",
+      "{ediscoveryCustodian-id}",
+      "userSources"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "userSources"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/userSources/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/userSources/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/userSources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "custodians",
+      "{ediscoveryCustodian-id}",
+      "userSources",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/userSources/{userSource-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/userSources/{userSource-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/{ediscoveryCustodian-id}/userSources/{userSource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "custodians",
+      "{ediscoveryCustodian-id}",
+      "userSources",
+      "{userSource-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{userSource-id}"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/microsoft.graph.security.applyHold",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/microsoft.graph.security.applyHold",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/microsoft.graph.security.applyHold",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "custodians",
+      "microsoft.graph.security.applyHold"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.applyHold"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/microsoft.graph.security.removeHold",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/microsoft.graph.security.removeHold",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/custodians/microsoft.graph.security.removeHold",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "custodians",
+      "microsoft.graph.security.removeHold"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.removeHold"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/legalHolds",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/legalHolds",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "legalHolds"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "legalHolds"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/legalHolds/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/legalHolds/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "legalHolds",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/legalHolds/{ediscoveryHoldPolicy-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/legalHolds/{ediscoveryHoldPolicy-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "legalHolds",
+      "{ediscoveryHoldPolicy-id}"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "{ediscoveryHoldPolicy-id}"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/legalHolds/{ediscoveryHoldPolicy-id}/siteSources",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/legalHolds/{ediscoveryHoldPolicy-id}/siteSources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "legalHolds",
+      "{ediscoveryHoldPolicy-id}",
+      "siteSources"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "siteSources"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/legalHolds/{ediscoveryHoldPolicy-id}/siteSources/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/legalHolds/{ediscoveryHoldPolicy-id}/siteSources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "legalHolds",
+      "{ediscoveryHoldPolicy-id}",
+      "siteSources",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/legalHolds/{ediscoveryHoldPolicy-id}/siteSources/{siteSource-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/legalHolds/{ediscoveryHoldPolicy-id}/siteSources/{siteSource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "legalHolds",
+      "{ediscoveryHoldPolicy-id}",
+      "siteSources",
+      "{siteSource-id}"
+    ],
+    "Root": "security",
+    "Children": 1,
+    "Segment": "{siteSource-id}"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/legalHolds/{ediscoveryHoldPolicy-id}/siteSources/{siteSource-id}/site",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/legalHolds/{ediscoveryHoldPolicy-id}/siteSources/{siteSource-id}/site",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "legalHolds",
+      "{ediscoveryHoldPolicy-id}",
+      "siteSources",
+      "{siteSource-id}",
+      "site"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "site"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/legalHolds/{ediscoveryHoldPolicy-id}/userSources",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/legalHolds/{ediscoveryHoldPolicy-id}/userSources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "legalHolds",
+      "{ediscoveryHoldPolicy-id}",
+      "userSources"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "userSources"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/legalHolds/{ediscoveryHoldPolicy-id}/userSources/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/legalHolds/{ediscoveryHoldPolicy-id}/userSources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "legalHolds",
+      "{ediscoveryHoldPolicy-id}",
+      "userSources",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/legalHolds/{ediscoveryHoldPolicy-id}/userSources/{userSource-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/legalHolds/{ediscoveryHoldPolicy-id}/userSources/{userSource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "legalHolds",
+      "{ediscoveryHoldPolicy-id}",
+      "userSources",
+      "{userSource-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{userSource-id}"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/microsoft.graph.security.close",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/microsoft.graph.security.close",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/microsoft.graph.security.close",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "microsoft.graph.security.close"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.close"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/microsoft.graph.security.reopen",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/microsoft.graph.security.reopen",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/microsoft.graph.security.reopen",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "microsoft.graph.security.reopen"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.reopen"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "noncustodialDataSources"
+    ],
+    "Root": "security",
+    "Children": 4,
+    "Segment": "noncustodialDataSources"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "noncustodialDataSources",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/{ediscoveryNoncustodialDataSource-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/{ediscoveryNoncustodialDataSource-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/{ediscoveryNoncustodialDataSource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "noncustodialDataSources",
+      "{ediscoveryNoncustodialDataSource-id}"
+    ],
+    "Root": "security",
+    "Children": 6,
+    "Segment": "{ediscoveryNoncustodialDataSource-id}"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/{ediscoveryNoncustodialDataSource-id}/dataSource",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/{ediscoveryNoncustodialDataSource-id}/dataSource",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/{ediscoveryNoncustodialDataSource-id}/dataSource",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "noncustodialDataSources",
+      "{ediscoveryNoncustodialDataSource-id}",
+      "dataSource"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "dataSource"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/{ediscoveryNoncustodialDataSource-id}/lastIndexOperation",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/{ediscoveryNoncustodialDataSource-id}/lastIndexOperation",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/{ediscoveryNoncustodialDataSource-id}/lastIndexOperation",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "noncustodialDataSources",
+      "{ediscoveryNoncustodialDataSource-id}",
+      "lastIndexOperation"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "lastIndexOperation"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/{ediscoveryNoncustodialDataSource-id}/microsoft.graph.security.applyHold",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/{ediscoveryNoncustodialDataSource-id}/microsoft.graph.security.applyHold",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/{ediscoveryNoncustodialDataSource-id}/microsoft.graph.security.applyHold",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "noncustodialDataSources",
+      "{ediscoveryNoncustodialDataSource-id}",
+      "microsoft.graph.security.applyHold"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.applyHold"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/{ediscoveryNoncustodialDataSource-id}/microsoft.graph.security.release",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/{ediscoveryNoncustodialDataSource-id}/microsoft.graph.security.release",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/{ediscoveryNoncustodialDataSource-id}/microsoft.graph.security.release",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "noncustodialDataSources",
+      "{ediscoveryNoncustodialDataSource-id}",
+      "microsoft.graph.security.release"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.release"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/{ediscoveryNoncustodialDataSource-id}/microsoft.graph.security.removeHold",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/{ediscoveryNoncustodialDataSource-id}/microsoft.graph.security.removeHold",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/{ediscoveryNoncustodialDataSource-id}/microsoft.graph.security.removeHold",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "noncustodialDataSources",
+      "{ediscoveryNoncustodialDataSource-id}",
+      "microsoft.graph.security.removeHold"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.removeHold"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/{ediscoveryNoncustodialDataSource-id}/microsoft.graph.security.updateIndex",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/{ediscoveryNoncustodialDataSource-id}/microsoft.graph.security.updateIndex",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/{ediscoveryNoncustodialDataSource-id}/microsoft.graph.security.updateIndex",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "noncustodialDataSources",
+      "{ediscoveryNoncustodialDataSource-id}",
+      "microsoft.graph.security.updateIndex"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.updateIndex"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/microsoft.graph.security.applyHold",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/microsoft.graph.security.applyHold",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/microsoft.graph.security.applyHold",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "noncustodialDataSources",
+      "microsoft.graph.security.applyHold"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.applyHold"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/microsoft.graph.security.removeHold",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/microsoft.graph.security.removeHold",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/noncustodialDataSources/microsoft.graph.security.removeHold",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "noncustodialDataSources",
+      "microsoft.graph.security.removeHold"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.removeHold"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/operations",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/operations",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/operations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "operations"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "operations"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/operations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/operations/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/operations/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "operations",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/operations/{caseOperation-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/operations/{caseOperation-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/operations/{caseOperation-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "operations",
+      "{caseOperation-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{caseOperation-id}"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "reviewSets"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "reviewSets"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "reviewSets",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "reviewSets",
+      "{ediscoveryReviewSet-id}"
+    ],
+    "Root": "security",
+    "Children": 4,
+    "Segment": "{ediscoveryReviewSet-id}"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/files",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/files",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "reviewSets",
+      "{ediscoveryReviewSet-id}",
+      "files"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "files"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/files/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/files/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "reviewSets",
+      "{ediscoveryReviewSet-id}",
+      "files",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/files/{ediscoveryFile-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/files/{ediscoveryFile-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "reviewSets",
+      "{ediscoveryReviewSet-id}",
+      "files",
+      "{ediscoveryFile-id}"
+    ],
+    "Root": "security",
+    "Children": 4,
+    "Segment": "{ediscoveryFile-id}"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/files/{ediscoveryFile-id}/content",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/files/{ediscoveryFile-id}/content",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "reviewSets",
+      "{ediscoveryReviewSet-id}",
+      "files",
+      "{ediscoveryFile-id}",
+      "content"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/files/{ediscoveryFile-id}/custodian",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/files/{ediscoveryFile-id}/custodian",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "reviewSets",
+      "{ediscoveryReviewSet-id}",
+      "files",
+      "{ediscoveryFile-id}",
+      "custodian"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "custodian"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/files/{ediscoveryFile-id}/extractedTextContent",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/files/{ediscoveryFile-id}/extractedTextContent",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "reviewSets",
+      "{ediscoveryReviewSet-id}",
+      "files",
+      "{ediscoveryFile-id}",
+      "extractedTextContent"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "extractedTextContent"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/files/{ediscoveryFile-id}/tags",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/files/{ediscoveryFile-id}/tags",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "reviewSets",
+      "{ediscoveryReviewSet-id}",
+      "files",
+      "{ediscoveryFile-id}",
+      "tags"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "tags"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/files/{ediscoveryFile-id}/tags/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/files/{ediscoveryFile-id}/tags/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "reviewSets",
+      "{ediscoveryReviewSet-id}",
+      "files",
+      "{ediscoveryFile-id}",
+      "tags",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/files/{ediscoveryFile-id}/tags/{ediscoveryReviewTag-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/files/{ediscoveryFile-id}/tags/{ediscoveryReviewTag-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "reviewSets",
+      "{ediscoveryReviewSet-id}",
+      "files",
+      "{ediscoveryFile-id}",
+      "tags",
+      "{ediscoveryReviewTag-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{ediscoveryReviewTag-id}"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/microsoft.graph.security.addToReviewSet",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/microsoft.graph.security.addToReviewSet",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/microsoft.graph.security.addToReviewSet",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "reviewSets",
+      "{ediscoveryReviewSet-id}",
+      "microsoft.graph.security.addToReviewSet"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.addToReviewSet"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/microsoft.graph.security.export",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/microsoft.graph.security.export",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "reviewSets",
+      "{ediscoveryReviewSet-id}",
+      "microsoft.graph.security.export"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.export"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/queries",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/queries",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/queries",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "reviewSets",
+      "{ediscoveryReviewSet-id}",
+      "queries"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "queries"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/queries/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/queries/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/queries/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "reviewSets",
+      "{ediscoveryReviewSet-id}",
+      "queries",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/queries/{ediscoveryReviewSetQuery-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/queries/{ediscoveryReviewSetQuery-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/queries/{ediscoveryReviewSetQuery-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "reviewSets",
+      "{ediscoveryReviewSet-id}",
+      "queries",
+      "{ediscoveryReviewSetQuery-id}"
+    ],
+    "Root": "security",
+    "Children": 3,
+    "Segment": "{ediscoveryReviewSetQuery-id}"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/queries/{ediscoveryReviewSetQuery-id}/microsoft.graph.security.applyTags",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/queries/{ediscoveryReviewSetQuery-id}/microsoft.graph.security.applyTags",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/queries/{ediscoveryReviewSetQuery-id}/microsoft.graph.security.applyTags",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "reviewSets",
+      "{ediscoveryReviewSet-id}",
+      "queries",
+      "{ediscoveryReviewSetQuery-id}",
+      "microsoft.graph.security.applyTags"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.applyTags"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/queries/{ediscoveryReviewSetQuery-id}/microsoft.graph.security.export",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/queries/{ediscoveryReviewSetQuery-id}/microsoft.graph.security.export",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "reviewSets",
+      "{ediscoveryReviewSet-id}",
+      "queries",
+      "{ediscoveryReviewSetQuery-id}",
+      "microsoft.graph.security.export"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.export"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/queries/{ediscoveryReviewSetQuery-id}/microsoft.graph.security.run()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/reviewSets/{ediscoveryReviewSet-id}/queries/{ediscoveryReviewSetQuery-id}/microsoft.graph.security.run()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "reviewSets",
+      "{ediscoveryReviewSet-id}",
+      "queries",
+      "{ediscoveryReviewSetQuery-id}",
+      "microsoft.graph.security.run()"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.run()"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/searches",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "searches"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "searches"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "searches",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "searches",
+      "{ediscoverySearch-id}"
+    ],
+    "Root": "security",
+    "Children": 7,
+    "Segment": "{ediscoverySearch-id}"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/additionalSources",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/additionalSources",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/additionalSources",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "searches",
+      "{ediscoverySearch-id}",
+      "additionalSources"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "additionalSources"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/additionalSources/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/additionalSources/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/additionalSources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "searches",
+      "{ediscoverySearch-id}",
+      "additionalSources",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/additionalSources/{dataSource-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/additionalSources/{dataSource-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/additionalSources/{dataSource-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "searches",
+      "{ediscoverySearch-id}",
+      "additionalSources",
+      "{dataSource-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{dataSource-id}"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/addToReviewSetOperation",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/addToReviewSetOperation",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/addToReviewSetOperation",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "searches",
+      "{ediscoverySearch-id}",
+      "addToReviewSetOperation"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "addToReviewSetOperation"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/custodianSources",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/custodianSources",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/custodianSources",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "searches",
+      "{ediscoverySearch-id}",
+      "custodianSources"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "custodianSources"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/custodianSources/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/custodianSources/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/custodianSources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "searches",
+      "{ediscoverySearch-id}",
+      "custodianSources",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/custodianSources/{dataSource-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/custodianSources/{dataSource-id}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/custodianSources/{dataSource-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "searches",
+      "{ediscoverySearch-id}",
+      "custodianSources",
+      "{dataSource-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{dataSource-id}"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/lastEstimateStatisticsOperation",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/lastEstimateStatisticsOperation",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/lastEstimateStatisticsOperation",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "searches",
+      "{ediscoverySearch-id}",
+      "lastEstimateStatisticsOperation"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "lastEstimateStatisticsOperation"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/microsoft.graph.security.estimateStatistics",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/microsoft.graph.security.estimateStatistics",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/microsoft.graph.security.estimateStatistics",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "searches",
+      "{ediscoverySearch-id}",
+      "microsoft.graph.security.estimateStatistics"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.estimateStatistics"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/microsoft.graph.security.purgeData",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/microsoft.graph.security.purgeData",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/microsoft.graph.security.purgeData",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "searches",
+      "{ediscoverySearch-id}",
+      "microsoft.graph.security.purgeData"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.purgeData"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/noncustodialSources",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/noncustodialSources",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/noncustodialSources",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "searches",
+      "{ediscoverySearch-id}",
+      "noncustodialSources"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "noncustodialSources"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/noncustodialSources/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/noncustodialSources/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/noncustodialSources/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "searches",
+      "{ediscoverySearch-id}",
+      "noncustodialSources",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/noncustodialSources/{ediscoveryNoncustodialDataSource-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/noncustodialSources/{ediscoveryNoncustodialDataSource-id}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/noncustodialSources/{ediscoveryNoncustodialDataSource-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "searches",
+      "{ediscoverySearch-id}",
+      "noncustodialSources",
+      "{ediscoveryNoncustodialDataSource-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{ediscoveryNoncustodialDataSource-id}"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/settings",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/settings",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/settings",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "settings"
+    ],
+    "Root": "security",
+    "Children": 1,
+    "Segment": "settings"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/settings/microsoft.graph.security.resetToDefault",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/settings/microsoft.graph.security.resetToDefault",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/settings/microsoft.graph.security.resetToDefault",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "settings",
+      "microsoft.graph.security.resetToDefault"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.resetToDefault"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/tags",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/tags",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/tags",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "tags"
+    ],
+    "Root": "security",
+    "Children": 3,
+    "Segment": "tags"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/tags/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/tags/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/tags/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "tags",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/tags/{ediscoveryReviewTag-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/tags/{ediscoveryReviewTag-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/tags/{ediscoveryReviewTag-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "tags",
+      "{ediscoveryReviewTag-id}"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "{ediscoveryReviewTag-id}"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/tags/{ediscoveryReviewTag-id}/childTags",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/tags/{ediscoveryReviewTag-id}/childTags",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/tags/{ediscoveryReviewTag-id}/childTags",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "tags",
+      "{ediscoveryReviewTag-id}",
+      "childTags"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "childTags"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/tags/{ediscoveryReviewTag-id}/childTags/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/tags/{ediscoveryReviewTag-id}/childTags/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/tags/{ediscoveryReviewTag-id}/childTags/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "tags",
+      "{ediscoveryReviewTag-id}",
+      "childTags",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/tags/{ediscoveryReviewTag-id}/childTags/{ediscoveryReviewTag-id1}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/tags/{ediscoveryReviewTag-id}/childTags/{ediscoveryReviewTag-id1}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/tags/{ediscoveryReviewTag-id}/childTags/{ediscoveryReviewTag-id1}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "tags",
+      "{ediscoveryReviewTag-id}",
+      "childTags",
+      "{ediscoveryReviewTag-id1}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{ediscoveryReviewTag-id1}"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/tags/{ediscoveryReviewTag-id}/parent",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/tags/{ediscoveryReviewTag-id}/parent",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/tags/{ediscoveryReviewTag-id}/parent",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "tags",
+      "{ediscoveryReviewTag-id}",
+      "parent"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "parent"
+  },
+  {
+    "Endpoint": "security/cases/ediscoveryCases/{ediscoveryCase-id}/tags/microsoft.graph.security.asHierarchy()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/cases/ediscoveryCases/{ediscoveryCase-id}/tags/microsoft.graph.security.asHierarchy()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cases/ediscoveryCases/{ediscoveryCase-id}/tags/microsoft.graph.security.asHierarchy()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cases",
+      "ediscoveryCases",
+      "{ediscoveryCase-id}",
+      "tags",
+      "microsoft.graph.security.asHierarchy()"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.asHierarchy()"
+  },
+  {
+    "Endpoint": "security/cloudAppSecurityProfiles",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cloudAppSecurityProfiles",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "cloudAppSecurityProfiles"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "cloudAppSecurityProfiles"
+  },
+  {
+    "Endpoint": "security/cloudAppSecurityProfiles/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cloudAppSecurityProfiles/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "cloudAppSecurityProfiles",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/cloudAppSecurityProfiles/{cloudAppSecurityProfile-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/cloudAppSecurityProfiles/{cloudAppSecurityProfile-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "cloudAppSecurityProfiles",
+      "{cloudAppSecurityProfile-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{cloudAppSecurityProfile-id}"
+  },
+  {
+    "Endpoint": "security/domainSecurityProfiles",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/domainSecurityProfiles",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "domainSecurityProfiles"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "domainSecurityProfiles"
+  },
+  {
+    "Endpoint": "security/domainSecurityProfiles/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/domainSecurityProfiles/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "domainSecurityProfiles",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/domainSecurityProfiles/{domainSecurityProfile-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/domainSecurityProfiles/{domainSecurityProfile-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "domainSecurityProfiles",
+      "{domainSecurityProfile-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{domainSecurityProfile-id}"
+  },
+  {
+    "Endpoint": "security/fileSecurityProfiles",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/fileSecurityProfiles",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "fileSecurityProfiles"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "fileSecurityProfiles"
+  },
+  {
+    "Endpoint": "security/fileSecurityProfiles/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/fileSecurityProfiles/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "fileSecurityProfiles",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/fileSecurityProfiles/{fileSecurityProfile-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/fileSecurityProfiles/{fileSecurityProfile-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "fileSecurityProfiles",
+      "{fileSecurityProfile-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{fileSecurityProfile-id}"
+  },
+  {
+    "Endpoint": "security/hostSecurityProfiles",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/hostSecurityProfiles",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "hostSecurityProfiles"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "hostSecurityProfiles"
+  },
+  {
+    "Endpoint": "security/hostSecurityProfiles/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/hostSecurityProfiles/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "hostSecurityProfiles",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/hostSecurityProfiles/{hostSecurityProfile-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/hostSecurityProfiles/{hostSecurityProfile-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "hostSecurityProfiles",
+      "{hostSecurityProfile-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{hostSecurityProfile-id}"
+  },
+  {
+    "Endpoint": "security/incidents",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/incidents",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/incidents",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "incidents"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "incidents"
+  },
+  {
+    "Endpoint": "security/incidents/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/incidents/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/incidents/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "incidents",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/incidents/{incident-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/incidents/{incident-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/incidents/{incident-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "incidents",
+      "{incident-id}"
+    ],
+    "Root": "security",
+    "Children": 1,
+    "Segment": "{incident-id}"
+  },
+  {
+    "Endpoint": "security/incidents/{incident-id}/alerts",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/incidents/{incident-id}/alerts",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/incidents/{incident-id}/alerts",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "incidents",
+      "{incident-id}",
+      "alerts"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "alerts"
+  },
+  {
+    "Endpoint": "security/incidents/{incident-id}/alerts/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/incidents/{incident-id}/alerts/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/incidents/{incident-id}/alerts/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "incidents",
+      "{incident-id}",
+      "alerts",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/incidents/{incident-id}/alerts/{alert-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/incidents/{incident-id}/alerts/{alert-id}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/incidents/{incident-id}/alerts/{alert-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "incidents",
+      "{incident-id}",
+      "alerts",
+      "{alert-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{alert-id}"
+  },
+  {
+    "Endpoint": "security/informationProtection",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/informationProtection",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "informationProtection"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "informationProtection"
+  },
+  {
+    "Endpoint": "security/informationProtection/labelPolicySettings",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/informationProtection/labelPolicySettings",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "informationProtection",
+      "labelPolicySettings"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "labelPolicySettings"
+  },
+  {
+    "Endpoint": "security/informationProtection/sensitivityLabels",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/informationProtection/sensitivityLabels",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "informationProtection",
+      "sensitivityLabels"
+    ],
+    "Root": "security",
+    "Children": 6,
+    "Segment": "sensitivityLabels"
+  },
+  {
+    "Endpoint": "security/informationProtection/sensitivityLabels/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/informationProtection/sensitivityLabels/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "informationProtection",
+      "sensitivityLabels",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/informationProtection/sensitivityLabels/{sensitivityLabel-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/informationProtection/sensitivityLabels/{sensitivityLabel-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "informationProtection",
+      "sensitivityLabels",
+      "{sensitivityLabel-id}"
+    ],
+    "Root": "security",
+    "Children": 1,
+    "Segment": "{sensitivityLabel-id}"
+  },
+  {
+    "Endpoint": "security/informationProtection/sensitivityLabels/{sensitivityLabel-id}/parent",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/informationProtection/sensitivityLabels/{sensitivityLabel-id}/parent",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "informationProtection",
+      "sensitivityLabels",
+      "{sensitivityLabel-id}",
+      "parent"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "parent"
+  },
+  {
+    "Endpoint": "security/informationProtection/sensitivityLabels/microsoft.graph.security.evaluateApplication",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/informationProtection/sensitivityLabels/microsoft.graph.security.evaluateApplication",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "informationProtection",
+      "sensitivityLabels",
+      "microsoft.graph.security.evaluateApplication"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.evaluateApplication"
+  },
+  {
+    "Endpoint": "security/informationProtection/sensitivityLabels/microsoft.graph.security.evaluateClassificationResults",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/informationProtection/sensitivityLabels/microsoft.graph.security.evaluateClassificationResults",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "informationProtection",
+      "sensitivityLabels",
+      "microsoft.graph.security.evaluateClassificationResults"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.evaluateClassificationResults"
+  },
+  {
+    "Endpoint": "security/informationProtection/sensitivityLabels/microsoft.graph.security.evaluateRemoval",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/informationProtection/sensitivityLabels/microsoft.graph.security.evaluateRemoval",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "informationProtection",
+      "sensitivityLabels",
+      "microsoft.graph.security.evaluateRemoval"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.evaluateRemoval"
+  },
+  {
+    "Endpoint": "security/informationProtection/sensitivityLabels/microsoft.graph.security.extractContentLabel",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/informationProtection/sensitivityLabels/microsoft.graph.security.extractContentLabel",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "informationProtection",
+      "sensitivityLabels",
+      "microsoft.graph.security.extractContentLabel"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.extractContentLabel"
+  },
+  {
+    "Endpoint": "security/ipSecurityProfiles",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/ipSecurityProfiles",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "ipSecurityProfiles"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "ipSecurityProfiles"
+  },
+  {
+    "Endpoint": "security/ipSecurityProfiles/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/ipSecurityProfiles/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "ipSecurityProfiles",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/ipSecurityProfiles/{ipSecurityProfile-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/ipSecurityProfiles/{ipSecurityProfile-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "ipSecurityProfiles",
+      "{ipSecurityProfile-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{ipSecurityProfile-id}"
+  },
+  {
+    "Endpoint": "security/labels",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/labels",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "labels"
+    ],
+    "Root": "security",
+    "Children": 1,
+    "Segment": "labels"
+  },
+  {
+    "Endpoint": "security/labels/retentionLabels",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/labels/retentionLabels",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "labels",
+      "retentionLabels"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "retentionLabels"
+  },
+  {
+    "Endpoint": "security/labels/retentionLabels/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/labels/retentionLabels/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "labels",
+      "retentionLabels",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/labels/retentionLabels/{retentionLabel-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/labels/retentionLabels/{retentionLabel-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "labels",
+      "retentionLabels",
+      "{retentionLabel-id}"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "{retentionLabel-id}"
+  },
+  {
+    "Endpoint": "security/labels/retentionLabels/{retentionLabel-id}/dispositionReviewStages",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/labels/retentionLabels/{retentionLabel-id}/dispositionReviewStages",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "labels",
+      "retentionLabels",
+      "{retentionLabel-id}",
+      "dispositionReviewStages"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "dispositionReviewStages"
+  },
+  {
+    "Endpoint": "security/labels/retentionLabels/{retentionLabel-id}/dispositionReviewStages/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/labels/retentionLabels/{retentionLabel-id}/dispositionReviewStages/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "labels",
+      "retentionLabels",
+      "{retentionLabel-id}",
+      "dispositionReviewStages",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/labels/retentionLabels/{retentionLabel-id}/dispositionReviewStages/{dispositionReviewStage-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/labels/retentionLabels/{retentionLabel-id}/dispositionReviewStages/{dispositionReviewStage-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "labels",
+      "retentionLabels",
+      "{retentionLabel-id}",
+      "dispositionReviewStages",
+      "{dispositionReviewStage-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{dispositionReviewStage-id}"
+  },
+  {
+    "Endpoint": "security/labels/retentionLabels/{retentionLabel-id}/retentionEventType",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/labels/retentionLabels/{retentionLabel-id}/retentionEventType",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "labels",
+      "retentionLabels",
+      "{retentionLabel-id}",
+      "retentionEventType"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "retentionEventType"
+  },
+  {
+    "Endpoint": "security/microsoft.graph.security.runHuntingQuery",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/microsoft.graph.security.runHuntingQuery",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/microsoft.graph.security.runHuntingQuery",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "microsoft.graph.security.runHuntingQuery"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.security.runHuntingQuery"
+  },
+  {
+    "Endpoint": "security/providerTenantSettings",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/providerTenantSettings",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "providerTenantSettings"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "providerTenantSettings"
+  },
+  {
+    "Endpoint": "security/providerTenantSettings/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/providerTenantSettings/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "providerTenantSettings",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/providerTenantSettings/{providerTenantSetting-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/providerTenantSettings/{providerTenantSetting-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "providerTenantSettings",
+      "{providerTenantSetting-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{providerTenantSetting-id}"
+  },
+  {
+    "Endpoint": "security/secureScoreControlProfiles",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/secureScoreControlProfiles",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/secureScoreControlProfiles",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "secureScoreControlProfiles"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "secureScoreControlProfiles"
+  },
+  {
+    "Endpoint": "security/secureScoreControlProfiles/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/secureScoreControlProfiles/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/secureScoreControlProfiles/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "secureScoreControlProfiles",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/secureScoreControlProfiles/{secureScoreControlProfile-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/secureScoreControlProfiles/{secureScoreControlProfile-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/secureScoreControlProfiles/{secureScoreControlProfile-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "secureScoreControlProfiles",
+      "{secureScoreControlProfile-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{secureScoreControlProfile-id}"
+  },
+  {
+    "Endpoint": "security/secureScores",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/secureScores",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/secureScores",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "secureScores"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "secureScores"
+  },
+  {
+    "Endpoint": "security/secureScores/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/secureScores/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/secureScores/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "secureScores",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/secureScores/{secureScore-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/security/secureScores/{secureScore-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/secureScores/{secureScore-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "secureScores",
+      "{secureScore-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{secureScore-id}"
+  },
+  {
+    "Endpoint": "security/securityActions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/securityActions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "securityActions"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "securityActions"
+  },
+  {
+    "Endpoint": "security/securityActions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/securityActions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "securityActions",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/securityActions/{securityAction-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/securityActions/{securityAction-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "securityActions",
+      "{securityAction-id}"
+    ],
+    "Root": "security",
+    "Children": 1,
+    "Segment": "{securityAction-id}"
+  },
+  {
+    "Endpoint": "security/securityActions/{securityAction-id}/microsoft.graph.cancelSecurityAction",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/securityActions/{securityAction-id}/microsoft.graph.cancelSecurityAction",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "securityActions",
+      "{securityAction-id}",
+      "microsoft.graph.cancelSecurityAction"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.cancelSecurityAction"
+  },
+  {
+    "Endpoint": "security/subjectRightsRequests",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/subjectRightsRequests",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "subjectRightsRequests"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "subjectRightsRequests"
+  },
+  {
+    "Endpoint": "security/subjectRightsRequests/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/subjectRightsRequests/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "subjectRightsRequests",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/subjectRightsRequests/{subjectRightsRequest-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/subjectRightsRequests/{subjectRightsRequest-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "subjectRightsRequests",
+      "{subjectRightsRequest-id}"
+    ],
+    "Root": "security",
+    "Children": 4,
+    "Segment": "{subjectRightsRequest-id}"
+  },
+  {
+    "Endpoint": "security/subjectRightsRequests/{subjectRightsRequest-id}/microsoft.graph.getFinalAttachment()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/subjectRightsRequests/{subjectRightsRequest-id}/microsoft.graph.getFinalAttachment()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "subjectRightsRequests",
+      "{subjectRightsRequest-id}",
+      "microsoft.graph.getFinalAttachment()"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.getFinalAttachment()"
+  },
+  {
+    "Endpoint": "security/subjectRightsRequests/{subjectRightsRequest-id}/microsoft.graph.getFinalReport()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/subjectRightsRequests/{subjectRightsRequest-id}/microsoft.graph.getFinalReport()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "subjectRightsRequests",
+      "{subjectRightsRequest-id}",
+      "microsoft.graph.getFinalReport()"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.getFinalReport()"
+  },
+  {
+    "Endpoint": "security/subjectRightsRequests/{subjectRightsRequest-id}/notes",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/subjectRightsRequests/{subjectRightsRequest-id}/notes",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "subjectRightsRequests",
+      "{subjectRightsRequest-id}",
+      "notes"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "notes"
+  },
+  {
+    "Endpoint": "security/subjectRightsRequests/{subjectRightsRequest-id}/notes/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/subjectRightsRequests/{subjectRightsRequest-id}/notes/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "subjectRightsRequests",
+      "{subjectRightsRequest-id}",
+      "notes",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/subjectRightsRequests/{subjectRightsRequest-id}/notes/{authoredNote-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/subjectRightsRequests/{subjectRightsRequest-id}/notes/{authoredNote-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "subjectRightsRequests",
+      "{subjectRightsRequest-id}",
+      "notes",
+      "{authoredNote-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{authoredNote-id}"
+  },
+  {
+    "Endpoint": "security/subjectRightsRequests/{subjectRightsRequest-id}/team",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/subjectRightsRequests/{subjectRightsRequest-id}/team",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "subjectRightsRequests",
+      "{subjectRightsRequest-id}",
+      "team"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "team"
+  },
+  {
+    "Endpoint": "security/threatSubmission",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/threatSubmission",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "threatSubmission"
+    ],
+    "Root": "security",
+    "Children": 4,
+    "Segment": "threatSubmission"
+  },
+  {
+    "Endpoint": "security/threatSubmission/emailThreats",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/threatSubmission/emailThreats",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "threatSubmission",
+      "emailThreats"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "emailThreats"
+  },
+  {
+    "Endpoint": "security/threatSubmission/emailThreats/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/threatSubmission/emailThreats/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "threatSubmission",
+      "emailThreats",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/threatSubmission/emailThreats/{emailThreatSubmission-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/threatSubmission/emailThreats/{emailThreatSubmission-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "threatSubmission",
+      "emailThreats",
+      "{emailThreatSubmission-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{emailThreatSubmission-id}"
+  },
+  {
+    "Endpoint": "security/threatSubmission/emailThreatSubmissionPolicies",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/threatSubmission/emailThreatSubmissionPolicies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "threatSubmission",
+      "emailThreatSubmissionPolicies"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "emailThreatSubmissionPolicies"
+  },
+  {
+    "Endpoint": "security/threatSubmission/emailThreatSubmissionPolicies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/threatSubmission/emailThreatSubmissionPolicies/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "threatSubmission",
+      "emailThreatSubmissionPolicies",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/threatSubmission/emailThreatSubmissionPolicies/{emailThreatSubmissionPolicy-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/threatSubmission/emailThreatSubmissionPolicies/{emailThreatSubmissionPolicy-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "threatSubmission",
+      "emailThreatSubmissionPolicies",
+      "{emailThreatSubmissionPolicy-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{emailThreatSubmissionPolicy-id}"
+  },
+  {
+    "Endpoint": "security/threatSubmission/fileThreats",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/threatSubmission/fileThreats",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "threatSubmission",
+      "fileThreats"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "fileThreats"
+  },
+  {
+    "Endpoint": "security/threatSubmission/fileThreats/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/threatSubmission/fileThreats/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "threatSubmission",
+      "fileThreats",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/threatSubmission/fileThreats/{fileThreatSubmission-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/threatSubmission/fileThreats/{fileThreatSubmission-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "threatSubmission",
+      "fileThreats",
+      "{fileThreatSubmission-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{fileThreatSubmission-id}"
+  },
+  {
+    "Endpoint": "security/threatSubmission/urlThreats",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/threatSubmission/urlThreats",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "threatSubmission",
+      "urlThreats"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "urlThreats"
+  },
+  {
+    "Endpoint": "security/threatSubmission/urlThreats/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/threatSubmission/urlThreats/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "threatSubmission",
+      "urlThreats",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/threatSubmission/urlThreats/{urlThreatSubmission-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/threatSubmission/urlThreats/{urlThreatSubmission-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "threatSubmission",
+      "urlThreats",
+      "{urlThreatSubmission-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{urlThreatSubmission-id}"
+  },
+  {
+    "Endpoint": "security/tiIndicators",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/tiIndicators",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "tiIndicators"
+    ],
+    "Root": "security",
+    "Children": 6,
+    "Segment": "tiIndicators"
+  },
+  {
+    "Endpoint": "security/tiIndicators/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/tiIndicators/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "tiIndicators",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/tiIndicators/{tiIndicator-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/tiIndicators/{tiIndicator-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "tiIndicators",
+      "{tiIndicator-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{tiIndicator-id}"
+  },
+  {
+    "Endpoint": "security/tiIndicators/microsoft.graph.deleteTiIndicators",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/tiIndicators/microsoft.graph.deleteTiIndicators",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "tiIndicators",
+      "microsoft.graph.deleteTiIndicators"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.deleteTiIndicators"
+  },
+  {
+    "Endpoint": "security/tiIndicators/microsoft.graph.deleteTiIndicatorsByExternalId",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/tiIndicators/microsoft.graph.deleteTiIndicatorsByExternalId",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "tiIndicators",
+      "microsoft.graph.deleteTiIndicatorsByExternalId"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.deleteTiIndicatorsByExternalId"
+  },
+  {
+    "Endpoint": "security/tiIndicators/microsoft.graph.submitTiIndicators",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/tiIndicators/microsoft.graph.submitTiIndicators",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "tiIndicators",
+      "microsoft.graph.submitTiIndicators"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.submitTiIndicators"
+  },
+  {
+    "Endpoint": "security/tiIndicators/microsoft.graph.updateTiIndicators",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/tiIndicators/microsoft.graph.updateTiIndicators",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "tiIndicators",
+      "microsoft.graph.updateTiIndicators"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "microsoft.graph.updateTiIndicators"
+  },
+  {
+    "Endpoint": "security/triggers",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/triggers",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "triggers"
+    ],
+    "Root": "security",
+    "Children": 1,
+    "Segment": "triggers"
+  },
+  {
+    "Endpoint": "security/triggers/retentionEvents",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/triggers/retentionEvents",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "triggers",
+      "retentionEvents"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "retentionEvents"
+  },
+  {
+    "Endpoint": "security/triggers/retentionEvents/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/triggers/retentionEvents/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "triggers",
+      "retentionEvents",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/triggers/retentionEvents/{retentionEvent-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/triggers/retentionEvents/{retentionEvent-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "triggers",
+      "retentionEvents",
+      "{retentionEvent-id}"
+    ],
+    "Root": "security",
+    "Children": 1,
+    "Segment": "{retentionEvent-id}"
+  },
+  {
+    "Endpoint": "security/triggers/retentionEvents/{retentionEvent-id}/retentionEventType",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/triggers/retentionEvents/{retentionEvent-id}/retentionEventType",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "triggers",
+      "retentionEvents",
+      "{retentionEvent-id}",
+      "retentionEventType"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "retentionEventType"
+  },
+  {
+    "Endpoint": "security/triggerTypes",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/triggerTypes",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "triggerTypes"
+    ],
+    "Root": "security",
+    "Children": 1,
+    "Segment": "triggerTypes"
+  },
+  {
+    "Endpoint": "security/triggerTypes/retentionEventTypes",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/triggerTypes/retentionEventTypes",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "triggerTypes",
+      "retentionEventTypes"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "retentionEventTypes"
+  },
+  {
+    "Endpoint": "security/triggerTypes/retentionEventTypes/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/triggerTypes/retentionEventTypes/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "triggerTypes",
+      "retentionEventTypes",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/triggerTypes/retentionEventTypes/{retentionEventType-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/triggerTypes/retentionEventTypes/{retentionEventType-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "triggerTypes",
+      "retentionEventTypes",
+      "{retentionEventType-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{retentionEventType-id}"
+  },
+  {
+    "Endpoint": "security/userSecurityProfiles",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/userSecurityProfiles",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "security",
+      "userSecurityProfiles"
+    ],
+    "Root": "security",
+    "Children": 2,
+    "Segment": "userSecurityProfiles"
+  },
+  {
+    "Endpoint": "security/userSecurityProfiles/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/userSecurityProfiles/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "security",
+      "userSecurityProfiles",
+      "$count"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "security/userSecurityProfiles/{userSecurityProfile-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/security/userSecurityProfiles/{userSecurityProfile-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "security",
+      "userSecurityProfiles",
+      "{userSecurityProfile-id}"
+    ],
+    "Root": "security",
+    "Children": 0,
+    "Segment": "{userSecurityProfile-id}"
+  }
+]

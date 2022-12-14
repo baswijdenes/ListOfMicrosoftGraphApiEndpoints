@@ -1,0 +1,156 @@
+[
+  {
+    "Endpoint": "riskyUsers",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/riskyUsers",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "riskyUsers"
+    ],
+    "Root": "riskyUsers",
+    "Children": 4,
+    "Segment": "riskyUsers"
+  },
+  {
+    "Endpoint": "riskyUsers/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/riskyUsers/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "riskyUsers",
+      "$count"
+    ],
+    "Root": "riskyUsers",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "riskyUsers/{riskyUser-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/riskyUsers/{riskyUser-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "riskyUsers",
+      "{riskyUser-id}"
+    ],
+    "Root": "riskyUsers",
+    "Children": 1,
+    "Segment": "{riskyUser-id}"
+  },
+  {
+    "Endpoint": "riskyUsers/{riskyUser-id}/history",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/riskyUsers/{riskyUser-id}/history",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "riskyUsers",
+      "{riskyUser-id}",
+      "history"
+    ],
+    "Root": "riskyUsers",
+    "Children": 2,
+    "Segment": "history"
+  },
+  {
+    "Endpoint": "riskyUsers/{riskyUser-id}/history/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/riskyUsers/{riskyUser-id}/history/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "riskyUsers",
+      "{riskyUser-id}",
+      "history",
+      "$count"
+    ],
+    "Root": "riskyUsers",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "riskyUsers/{riskyUser-id}/history/{riskyUserHistoryItem-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/riskyUsers/{riskyUser-id}/history/{riskyUserHistoryItem-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "riskyUsers",
+      "{riskyUser-id}",
+      "history",
+      "{riskyUserHistoryItem-id}"
+    ],
+    "Root": "riskyUsers",
+    "Children": 0,
+    "Segment": "{riskyUserHistoryItem-id}"
+  },
+  {
+    "Endpoint": "riskyUsers/microsoft.graph.confirmCompromised",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/riskyUsers/microsoft.graph.confirmCompromised",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "riskyUsers",
+      "microsoft.graph.confirmCompromised"
+    ],
+    "Root": "riskyUsers",
+    "Children": 0,
+    "Segment": "microsoft.graph.confirmCompromised"
+  },
+  {
+    "Endpoint": "riskyUsers/microsoft.graph.dismiss",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/riskyUsers/microsoft.graph.dismiss",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "riskyUsers",
+      "microsoft.graph.dismiss"
+    ],
+    "Root": "riskyUsers",
+    "Children": 0,
+    "Segment": "microsoft.graph.dismiss"
+  }
+]

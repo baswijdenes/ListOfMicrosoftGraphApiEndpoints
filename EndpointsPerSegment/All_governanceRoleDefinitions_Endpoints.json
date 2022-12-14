@@ -1,0 +1,96 @@
+[
+  {
+    "Endpoint": "governanceRoleDefinitions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/governanceRoleDefinitions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "governanceRoleDefinitions"
+    ],
+    "Root": "governanceRoleDefinitions",
+    "Children": 2,
+    "Segment": "governanceRoleDefinitions"
+  },
+  {
+    "Endpoint": "governanceRoleDefinitions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/governanceRoleDefinitions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "governanceRoleDefinitions",
+      "$count"
+    ],
+    "Root": "governanceRoleDefinitions",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "governanceRoleDefinitions/{governanceRoleDefinition-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/governanceRoleDefinitions/{governanceRoleDefinition-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "governanceRoleDefinitions",
+      "{governanceRoleDefinition-id}"
+    ],
+    "Root": "governanceRoleDefinitions",
+    "Children": 2,
+    "Segment": "{governanceRoleDefinition-id}"
+  },
+  {
+    "Endpoint": "governanceRoleDefinitions/{governanceRoleDefinition-id}/resource",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/governanceRoleDefinitions/{governanceRoleDefinition-id}/resource",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "governanceRoleDefinitions",
+      "{governanceRoleDefinition-id}",
+      "resource"
+    ],
+    "Root": "governanceRoleDefinitions",
+    "Children": 0,
+    "Segment": "resource"
+  },
+  {
+    "Endpoint": "governanceRoleDefinitions/{governanceRoleDefinition-id}/roleSetting",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/governanceRoleDefinitions/{governanceRoleDefinition-id}/roleSetting",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "governanceRoleDefinitions",
+      "{governanceRoleDefinition-id}",
+      "roleSetting"
+    ],
+    "Root": "governanceRoleDefinitions",
+    "Children": 0,
+    "Segment": "roleSetting"
+  }
+]

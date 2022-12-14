@@ -1,0 +1,68 @@
+[
+  {
+    "Endpoint": "subscriptions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/subscriptions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/subscriptions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "subscriptions"
+    ],
+    "Root": "subscriptions",
+    "Children": 1,
+    "Segment": "subscriptions"
+  },
+  {
+    "Endpoint": "subscriptions/{subscription-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/subscriptions/{subscription-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/subscriptions/{subscription-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "subscriptions",
+      "{subscription-id}"
+    ],
+    "Root": "subscriptions",
+    "Children": 1,
+    "Segment": "{subscription-id}"
+  },
+  {
+    "Endpoint": "subscriptions/{subscription-id}/microsoft.graph.reauthorize",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/subscriptions/{subscription-id}/microsoft.graph.reauthorize",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/subscriptions/{subscription-id}/microsoft.graph.reauthorize",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "subscriptions",
+      "{subscription-id}",
+      "microsoft.graph.reauthorize"
+    ],
+    "Root": "subscriptions",
+    "Children": 0,
+    "Segment": "microsoft.graph.reauthorize"
+  }
+]

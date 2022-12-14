@@ -1,0 +1,58 @@
+[
+  {
+    "Endpoint": "privilegedOperationEvents",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedOperationEvents",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "privilegedOperationEvents"
+    ],
+    "Root": "privilegedOperationEvents",
+    "Children": 2,
+    "Segment": "privilegedOperationEvents"
+  },
+  {
+    "Endpoint": "privilegedOperationEvents/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedOperationEvents/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "privilegedOperationEvents",
+      "$count"
+    ],
+    "Root": "privilegedOperationEvents",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "privilegedOperationEvents/{privilegedOperationEvent-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedOperationEvents/{privilegedOperationEvent-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "privilegedOperationEvents",
+      "{privilegedOperationEvent-id}"
+    ],
+    "Root": "privilegedOperationEvents",
+    "Children": 0,
+    "Segment": "{privilegedOperationEvent-id}"
+  }
+]

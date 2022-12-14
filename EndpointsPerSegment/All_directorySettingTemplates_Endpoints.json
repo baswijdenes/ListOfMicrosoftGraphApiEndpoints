@@ -1,0 +1,207 @@
+[
+  {
+    "Endpoint": "directorySettingTemplates",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directorySettingTemplates",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "directorySettingTemplates"
+    ],
+    "Root": "directorySettingTemplates",
+    "Children": 5,
+    "Segment": "directorySettingTemplates"
+  },
+  {
+    "Endpoint": "directorySettingTemplates/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directorySettingTemplates/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "directorySettingTemplates",
+      "$count"
+    ],
+    "Root": "directorySettingTemplates",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "directorySettingTemplates/{directorySettingTemplate-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directorySettingTemplates/{directorySettingTemplate-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "directorySettingTemplates",
+      "{directorySettingTemplate-id}"
+    ],
+    "Root": "directorySettingTemplates",
+    "Children": 5,
+    "Segment": "{directorySettingTemplate-id}"
+  },
+  {
+    "Endpoint": "directorySettingTemplates/{directorySettingTemplate-id}/microsoft.graph.checkMemberGroups",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directorySettingTemplates/{directorySettingTemplate-id}/microsoft.graph.checkMemberGroups",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "directorySettingTemplates",
+      "{directorySettingTemplate-id}",
+      "microsoft.graph.checkMemberGroups"
+    ],
+    "Root": "directorySettingTemplates",
+    "Children": 0,
+    "Segment": "microsoft.graph.checkMemberGroups"
+  },
+  {
+    "Endpoint": "directorySettingTemplates/{directorySettingTemplate-id}/microsoft.graph.checkMemberObjects",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directorySettingTemplates/{directorySettingTemplate-id}/microsoft.graph.checkMemberObjects",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "directorySettingTemplates",
+      "{directorySettingTemplate-id}",
+      "microsoft.graph.checkMemberObjects"
+    ],
+    "Root": "directorySettingTemplates",
+    "Children": 0,
+    "Segment": "microsoft.graph.checkMemberObjects"
+  },
+  {
+    "Endpoint": "directorySettingTemplates/{directorySettingTemplate-id}/microsoft.graph.getMemberGroups",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directorySettingTemplates/{directorySettingTemplate-id}/microsoft.graph.getMemberGroups",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "directorySettingTemplates",
+      "{directorySettingTemplate-id}",
+      "microsoft.graph.getMemberGroups"
+    ],
+    "Root": "directorySettingTemplates",
+    "Children": 0,
+    "Segment": "microsoft.graph.getMemberGroups"
+  },
+  {
+    "Endpoint": "directorySettingTemplates/{directorySettingTemplate-id}/microsoft.graph.getMemberObjects",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directorySettingTemplates/{directorySettingTemplate-id}/microsoft.graph.getMemberObjects",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "directorySettingTemplates",
+      "{directorySettingTemplate-id}",
+      "microsoft.graph.getMemberObjects"
+    ],
+    "Root": "directorySettingTemplates",
+    "Children": 0,
+    "Segment": "microsoft.graph.getMemberObjects"
+  },
+  {
+    "Endpoint": "directorySettingTemplates/{directorySettingTemplate-id}/microsoft.graph.restore",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directorySettingTemplates/{directorySettingTemplate-id}/microsoft.graph.restore",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "directorySettingTemplates",
+      "{directorySettingTemplate-id}",
+      "microsoft.graph.restore"
+    ],
+    "Root": "directorySettingTemplates",
+    "Children": 0,
+    "Segment": "microsoft.graph.restore"
+  },
+  {
+    "Endpoint": "directorySettingTemplates/microsoft.graph.getByIds",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directorySettingTemplates/microsoft.graph.getByIds",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "directorySettingTemplates",
+      "microsoft.graph.getByIds"
+    ],
+    "Root": "directorySettingTemplates",
+    "Children": 0,
+    "Segment": "microsoft.graph.getByIds"
+  },
+  {
+    "Endpoint": "directorySettingTemplates/microsoft.graph.getUserOwnedObjects",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directorySettingTemplates/microsoft.graph.getUserOwnedObjects",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "directorySettingTemplates",
+      "microsoft.graph.getUserOwnedObjects"
+    ],
+    "Root": "directorySettingTemplates",
+    "Children": 0,
+    "Segment": "microsoft.graph.getUserOwnedObjects"
+  },
+  {
+    "Endpoint": "directorySettingTemplates/microsoft.graph.validateProperties",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directorySettingTemplates/microsoft.graph.validateProperties",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "directorySettingTemplates",
+      "microsoft.graph.validateProperties"
+    ],
+    "Root": "directorySettingTemplates",
+    "Children": 0,
+    "Segment": "microsoft.graph.validateProperties"
+  }
+]

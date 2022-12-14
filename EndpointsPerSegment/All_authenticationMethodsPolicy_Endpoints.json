@@ -1,0 +1,91 @@
+[
+  {
+    "Endpoint": "authenticationMethodsPolicy",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/authenticationMethodsPolicy",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/authenticationMethodsPolicy",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Path": [
+      "authenticationMethodsPolicy"
+    ],
+    "Root": "authenticationMethodsPolicy",
+    "Children": 1,
+    "Segment": "authenticationMethodsPolicy"
+  },
+  {
+    "Endpoint": "authenticationMethodsPolicy/authenticationMethodConfigurations",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/authenticationMethodsPolicy/authenticationMethodConfigurations",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/authenticationMethodsPolicy/authenticationMethodConfigurations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "authenticationMethodsPolicy",
+      "authenticationMethodConfigurations"
+    ],
+    "Root": "authenticationMethodsPolicy",
+    "Children": 2,
+    "Segment": "authenticationMethodConfigurations"
+  },
+  {
+    "Endpoint": "authenticationMethodsPolicy/authenticationMethodConfigurations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/authenticationMethodsPolicy/authenticationMethodConfigurations/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/authenticationMethodsPolicy/authenticationMethodConfigurations/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "authenticationMethodsPolicy",
+      "authenticationMethodConfigurations",
+      "$count"
+    ],
+    "Root": "authenticationMethodsPolicy",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "authenticationMethodsPolicy/authenticationMethodConfigurations/{authenticationMethodConfiguration-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/authenticationMethodsPolicy/authenticationMethodConfigurations/{authenticationMethodConfiguration-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/authenticationMethodsPolicy/authenticationMethodConfigurations/{authenticationMethodConfiguration-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "authenticationMethodsPolicy",
+      "authenticationMethodConfigurations",
+      "{authenticationMethodConfiguration-id}"
+    ],
+    "Root": "authenticationMethodsPolicy",
+    "Children": 0,
+    "Segment": "{authenticationMethodConfiguration-id}"
+  }
+]

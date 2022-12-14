@@ -1,0 +1,7 @@
+| Endpoint | v1.0 | V1.0-Url | v1.0-Methods | beta | Beta-Url | Beta-Methods | Path | Root | Children | Segment |
+| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------|
+| governanceRoleDefinitions| False| | | True| https://graph.microsoft.com/beta/governanceRoleDefinitions| Get Post| governanceRoleDefinitions| governanceRoleDefinitions| 2| governanceRoleDefinitions|
+| governanceRoleDefinitions/$count| False| | | True| https://graph.microsoft.com/beta/governanceRoleDefinitions/$count| Get| governanceRoleDefinitions $count| governanceRoleDefinitions| 0| $count|
+| governanceRoleDefinitions/{governanceRoleDefinition-id}| False| | | True| https://graph.microsoft.com/beta/governanceRoleDefinitions/{governanceRoleDefinition-id}| Get Patch Delete| governanceRoleDefinitions {governanceRoleDefinition-id}| governanceRoleDefinitions| 2| {governanceRoleDefinition-id}|
+| governanceRoleDefinitions/{governanceRoleDefinition-id}/resource| False| | | True| https://graph.microsoft.com/beta/governanceRoleDefinitions/{governanceRoleDefinition-id}/resource| Get| governanceRoleDefinitions {governanceRoleDefinition-id} resource| governanceRoleDefinitions| 0| resource|
+| governanceRoleDefinitions/{governanceRoleDefinition-id}/roleSetting| False| | | True| https://graph.microsoft.com/beta/governanceRoleDefinitions/{governanceRoleDefinition-id}/roleSetting| Get| governanceRoleDefinitions {governanceRoleDefinition-id} roleSetting| governanceRoleDefinitions| 0| roleSetting|

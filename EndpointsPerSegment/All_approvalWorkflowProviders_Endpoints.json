@@ -1,0 +1,286 @@
+[
+  {
+    "Endpoint": "approvalWorkflowProviders",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/approvalWorkflowProviders",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "approvalWorkflowProviders"
+    ],
+    "Root": "approvalWorkflowProviders",
+    "Children": 2,
+    "Segment": "approvalWorkflowProviders"
+  },
+  {
+    "Endpoint": "approvalWorkflowProviders/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/approvalWorkflowProviders/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "approvalWorkflowProviders",
+      "$count"
+    ],
+    "Root": "approvalWorkflowProviders",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "approvalWorkflowProviders/{approvalWorkflowProvider-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/approvalWorkflowProviders/{approvalWorkflowProvider-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "approvalWorkflowProviders",
+      "{approvalWorkflowProvider-id}"
+    ],
+    "Root": "approvalWorkflowProviders",
+    "Children": 3,
+    "Segment": "{approvalWorkflowProvider-id}"
+  },
+  {
+    "Endpoint": "approvalWorkflowProviders/{approvalWorkflowProvider-id}/businessFlows",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/approvalWorkflowProviders/{approvalWorkflowProvider-id}/businessFlows",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "approvalWorkflowProviders",
+      "{approvalWorkflowProvider-id}",
+      "businessFlows"
+    ],
+    "Root": "approvalWorkflowProviders",
+    "Children": 2,
+    "Segment": "businessFlows"
+  },
+  {
+    "Endpoint": "approvalWorkflowProviders/{approvalWorkflowProvider-id}/businessFlows/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/approvalWorkflowProviders/{approvalWorkflowProvider-id}/businessFlows/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "approvalWorkflowProviders",
+      "{approvalWorkflowProvider-id}",
+      "businessFlows",
+      "$count"
+    ],
+    "Root": "approvalWorkflowProviders",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "approvalWorkflowProviders/{approvalWorkflowProvider-id}/businessFlows/{businessFlow-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/approvalWorkflowProviders/{approvalWorkflowProvider-id}/businessFlows/{businessFlow-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "approvalWorkflowProviders",
+      "{approvalWorkflowProvider-id}",
+      "businessFlows",
+      "{businessFlow-id}"
+    ],
+    "Root": "approvalWorkflowProviders",
+    "Children": 1,
+    "Segment": "{businessFlow-id}"
+  },
+  {
+    "Endpoint": "approvalWorkflowProviders/{approvalWorkflowProvider-id}/businessFlows/{businessFlow-id}/microsoft.graph.recordDecisions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/approvalWorkflowProviders/{approvalWorkflowProvider-id}/businessFlows/{businessFlow-id}/microsoft.graph.recordDecisions",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "approvalWorkflowProviders",
+      "{approvalWorkflowProvider-id}",
+      "businessFlows",
+      "{businessFlow-id}",
+      "microsoft.graph.recordDecisions"
+    ],
+    "Root": "approvalWorkflowProviders",
+    "Children": 0,
+    "Segment": "microsoft.graph.recordDecisions"
+  },
+  {
+    "Endpoint": "approvalWorkflowProviders/{approvalWorkflowProvider-id}/businessFlowsWithRequestsAwaitingMyDecision",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/approvalWorkflowProviders/{approvalWorkflowProvider-id}/businessFlowsWithRequestsAwaitingMyDecision",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "approvalWorkflowProviders",
+      "{approvalWorkflowProvider-id}",
+      "businessFlowsWithRequestsAwaitingMyDecision"
+    ],
+    "Root": "approvalWorkflowProviders",
+    "Children": 2,
+    "Segment": "businessFlowsWithRequestsAwaitingMyDecision"
+  },
+  {
+    "Endpoint": "approvalWorkflowProviders/{approvalWorkflowProvider-id}/businessFlowsWithRequestsAwaitingMyDecision/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/approvalWorkflowProviders/{approvalWorkflowProvider-id}/businessFlowsWithRequestsAwaitingMyDecision/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "approvalWorkflowProviders",
+      "{approvalWorkflowProvider-id}",
+      "businessFlowsWithRequestsAwaitingMyDecision",
+      "$count"
+    ],
+    "Root": "approvalWorkflowProviders",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "approvalWorkflowProviders/{approvalWorkflowProvider-id}/businessFlowsWithRequestsAwaitingMyDecision/{businessFlow-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/approvalWorkflowProviders/{approvalWorkflowProvider-id}/businessFlowsWithRequestsAwaitingMyDecision/{businessFlow-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "approvalWorkflowProviders",
+      "{approvalWorkflowProvider-id}",
+      "businessFlowsWithRequestsAwaitingMyDecision",
+      "{businessFlow-id}"
+    ],
+    "Root": "approvalWorkflowProviders",
+    "Children": 1,
+    "Segment": "{businessFlow-id}"
+  },
+  {
+    "Endpoint": "approvalWorkflowProviders/{approvalWorkflowProvider-id}/businessFlowsWithRequestsAwaitingMyDecision/{businessFlow-id}/microsoft.graph.recordDecisions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/approvalWorkflowProviders/{approvalWorkflowProvider-id}/businessFlowsWithRequestsAwaitingMyDecision/{businessFlow-id}/microsoft.graph.recordDecisions",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "approvalWorkflowProviders",
+      "{approvalWorkflowProvider-id}",
+      "businessFlowsWithRequestsAwaitingMyDecision",
+      "{businessFlow-id}",
+      "microsoft.graph.recordDecisions"
+    ],
+    "Root": "approvalWorkflowProviders",
+    "Children": 0,
+    "Segment": "microsoft.graph.recordDecisions"
+  },
+  {
+    "Endpoint": "approvalWorkflowProviders/{approvalWorkflowProvider-id}/policyTemplates",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/approvalWorkflowProviders/{approvalWorkflowProvider-id}/policyTemplates",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "approvalWorkflowProviders",
+      "{approvalWorkflowProvider-id}",
+      "policyTemplates"
+    ],
+    "Root": "approvalWorkflowProviders",
+    "Children": 2,
+    "Segment": "policyTemplates"
+  },
+  {
+    "Endpoint": "approvalWorkflowProviders/{approvalWorkflowProvider-id}/policyTemplates/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/approvalWorkflowProviders/{approvalWorkflowProvider-id}/policyTemplates/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "approvalWorkflowProviders",
+      "{approvalWorkflowProvider-id}",
+      "policyTemplates",
+      "$count"
+    ],
+    "Root": "approvalWorkflowProviders",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "approvalWorkflowProviders/{approvalWorkflowProvider-id}/policyTemplates/{governancePolicyTemplate-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/approvalWorkflowProviders/{approvalWorkflowProvider-id}/policyTemplates/{governancePolicyTemplate-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "approvalWorkflowProviders",
+      "{approvalWorkflowProvider-id}",
+      "policyTemplates",
+      "{governancePolicyTemplate-id}"
+    ],
+    "Root": "approvalWorkflowProviders",
+    "Children": 0,
+    "Segment": "{governancePolicyTemplate-id}"
+  }
+]

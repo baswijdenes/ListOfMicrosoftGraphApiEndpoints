@@ -1,0 +1,77 @@
+[
+  {
+    "Endpoint": "commands",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/commands",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "commands"
+    ],
+    "Root": "commands",
+    "Children": 2,
+    "Segment": "commands"
+  },
+  {
+    "Endpoint": "commands/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/commands/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "commands",
+      "$count"
+    ],
+    "Root": "commands",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "commands/{command-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/commands/{command-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "commands",
+      "{command-id}"
+    ],
+    "Root": "commands",
+    "Children": 1,
+    "Segment": "{command-id}"
+  },
+  {
+    "Endpoint": "commands/{command-id}/responsepayload",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/commands/{command-id}/responsepayload",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "commands",
+      "{command-id}",
+      "responsepayload"
+    ],
+    "Root": "commands",
+    "Children": 0,
+    "Segment": "responsepayload"
+  }
+]

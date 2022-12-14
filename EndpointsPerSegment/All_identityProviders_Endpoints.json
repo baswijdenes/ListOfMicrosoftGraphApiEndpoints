@@ -1,0 +1,87 @@
+[
+  {
+    "Endpoint": "identityProviders",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProviders",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identityProviders",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "identityProviders"
+    ],
+    "Root": "identityProviders",
+    "Children": 3,
+    "Segment": "identityProviders"
+  },
+  {
+    "Endpoint": "identityProviders/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProviders/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identityProviders/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identityProviders",
+      "$count"
+    ],
+    "Root": "identityProviders",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identityProviders/{identityProvider-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProviders/{identityProvider-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identityProviders/{identityProvider-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "identityProviders",
+      "{identityProvider-id}"
+    ],
+    "Root": "identityProviders",
+    "Children": 0,
+    "Segment": "{identityProvider-id}"
+  },
+  {
+    "Endpoint": "identityProviders/microsoft.graph.availableProviderTypes()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProviders/microsoft.graph.availableProviderTypes()",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identityProviders/microsoft.graph.availableProviderTypes()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "identityProviders",
+      "microsoft.graph.availableProviderTypes()"
+    ],
+    "Root": "identityProviders",
+    "Children": 0,
+    "Segment": "microsoft.graph.availableProviderTypes()"
+  }
+]

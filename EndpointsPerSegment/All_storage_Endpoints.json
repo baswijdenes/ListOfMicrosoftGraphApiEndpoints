@@ -1,0 +1,18 @@
+{
+  "Endpoint": "storage",
+  "v1.0": false,
+  "V1.0-Url": null,
+  "v1.0-Methods": null,
+  "beta": true,
+  "Beta-Url": "https://graph.microsoft.com/beta/storage",
+  "Beta-Methods": [
+    "Get",
+    "Patch"
+  ],
+  "Path": [
+    "storage"
+  ],
+  "Root": "storage",
+  "Children": 0,
+  "Segment": "storage"
+}

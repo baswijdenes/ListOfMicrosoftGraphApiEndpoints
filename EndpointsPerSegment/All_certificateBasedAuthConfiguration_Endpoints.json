@@ -1,0 +1,67 @@
+[
+  {
+    "Endpoint": "certificateBasedAuthConfiguration",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/certificateBasedAuthConfiguration",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/certificateBasedAuthConfiguration",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "certificateBasedAuthConfiguration"
+    ],
+    "Root": "certificateBasedAuthConfiguration",
+    "Children": 2,
+    "Segment": "certificateBasedAuthConfiguration"
+  },
+  {
+    "Endpoint": "certificateBasedAuthConfiguration/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/certificateBasedAuthConfiguration/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/certificateBasedAuthConfiguration/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "certificateBasedAuthConfiguration",
+      "$count"
+    ],
+    "Root": "certificateBasedAuthConfiguration",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "certificateBasedAuthConfiguration/{certificateBasedAuthConfiguration-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/certificateBasedAuthConfiguration/{certificateBasedAuthConfiguration-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/certificateBasedAuthConfiguration/{certificateBasedAuthConfiguration-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "certificateBasedAuthConfiguration",
+      "{certificateBasedAuthConfiguration-id}"
+    ],
+    "Root": "certificateBasedAuthConfiguration",
+    "Children": 0,
+    "Segment": "{certificateBasedAuthConfiguration-id}"
+  }
+]

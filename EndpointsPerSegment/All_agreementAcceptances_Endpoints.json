@@ -1,0 +1,47 @@
+[
+  {
+    "Endpoint": "agreementAcceptances",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/agreementAcceptances",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/agreementAcceptances",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "agreementAcceptances"
+    ],
+    "Root": "agreementAcceptances",
+    "Children": 1,
+    "Segment": "agreementAcceptances"
+  },
+  {
+    "Endpoint": "agreementAcceptances/{agreementAcceptance-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/agreementAcceptances/{agreementAcceptance-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/agreementAcceptances/{agreementAcceptance-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "agreementAcceptances",
+      "{agreementAcceptance-id}"
+    ],
+    "Root": "agreementAcceptances",
+    "Children": 0,
+    "Segment": "{agreementAcceptance-id}"
+  }
+]

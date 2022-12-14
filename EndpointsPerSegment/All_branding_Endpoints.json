@@ -1,0 +1,389 @@
+[
+  {
+    "Endpoint": "branding",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/branding",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/branding",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Path": [
+      "branding"
+    ],
+    "Root": "branding",
+    "Children": 8,
+    "Segment": "branding"
+  },
+  {
+    "Endpoint": "branding/backgroundImage",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/branding/backgroundImage",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/branding/backgroundImage",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "branding",
+      "backgroundImage"
+    ],
+    "Root": "branding",
+    "Children": 0,
+    "Segment": "backgroundImage"
+  },
+  {
+    "Endpoint": "branding/bannerLogo",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/branding/bannerLogo",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/branding/bannerLogo",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "branding",
+      "bannerLogo"
+    ],
+    "Root": "branding",
+    "Children": 0,
+    "Segment": "bannerLogo"
+  },
+  {
+    "Endpoint": "branding/customCSS",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/branding/customCSS",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "branding",
+      "customCSS"
+    ],
+    "Root": "branding",
+    "Children": 0,
+    "Segment": "customCSS"
+  },
+  {
+    "Endpoint": "branding/favicon",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/branding/favicon",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "branding",
+      "favicon"
+    ],
+    "Root": "branding",
+    "Children": 0,
+    "Segment": "favicon"
+  },
+  {
+    "Endpoint": "branding/headerLogo",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/branding/headerLogo",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "branding",
+      "headerLogo"
+    ],
+    "Root": "branding",
+    "Children": 0,
+    "Segment": "headerLogo"
+  },
+  {
+    "Endpoint": "branding/localizations",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/branding/localizations",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/branding/localizations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "branding",
+      "localizations"
+    ],
+    "Root": "branding",
+    "Children": 2,
+    "Segment": "localizations"
+  },
+  {
+    "Endpoint": "branding/localizations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/branding/localizations/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/branding/localizations/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "branding",
+      "localizations",
+      "$count"
+    ],
+    "Root": "branding",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "branding/localizations/{organizationalBrandingLocalization-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/branding/localizations/{organizationalBrandingLocalization-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/branding/localizations/{organizationalBrandingLocalization-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "branding",
+      "localizations",
+      "{organizationalBrandingLocalization-id}"
+    ],
+    "Root": "branding",
+    "Children": 7,
+    "Segment": "{organizationalBrandingLocalization-id}"
+  },
+  {
+    "Endpoint": "branding/localizations/{organizationalBrandingLocalization-id}/backgroundImage",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/branding/localizations/{organizationalBrandingLocalization-id}/backgroundImage",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/branding/localizations/{organizationalBrandingLocalization-id}/backgroundImage",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "branding",
+      "localizations",
+      "{organizationalBrandingLocalization-id}",
+      "backgroundImage"
+    ],
+    "Root": "branding",
+    "Children": 0,
+    "Segment": "backgroundImage"
+  },
+  {
+    "Endpoint": "branding/localizations/{organizationalBrandingLocalization-id}/bannerLogo",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/branding/localizations/{organizationalBrandingLocalization-id}/bannerLogo",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/branding/localizations/{organizationalBrandingLocalization-id}/bannerLogo",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "branding",
+      "localizations",
+      "{organizationalBrandingLocalization-id}",
+      "bannerLogo"
+    ],
+    "Root": "branding",
+    "Children": 0,
+    "Segment": "bannerLogo"
+  },
+  {
+    "Endpoint": "branding/localizations/{organizationalBrandingLocalization-id}/customCSS",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/branding/localizations/{organizationalBrandingLocalization-id}/customCSS",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "branding",
+      "localizations",
+      "{organizationalBrandingLocalization-id}",
+      "customCSS"
+    ],
+    "Root": "branding",
+    "Children": 0,
+    "Segment": "customCSS"
+  },
+  {
+    "Endpoint": "branding/localizations/{organizationalBrandingLocalization-id}/favicon",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/branding/localizations/{organizationalBrandingLocalization-id}/favicon",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "branding",
+      "localizations",
+      "{organizationalBrandingLocalization-id}",
+      "favicon"
+    ],
+    "Root": "branding",
+    "Children": 0,
+    "Segment": "favicon"
+  },
+  {
+    "Endpoint": "branding/localizations/{organizationalBrandingLocalization-id}/headerLogo",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/branding/localizations/{organizationalBrandingLocalization-id}/headerLogo",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "branding",
+      "localizations",
+      "{organizationalBrandingLocalization-id}",
+      "headerLogo"
+    ],
+    "Root": "branding",
+    "Children": 0,
+    "Segment": "headerLogo"
+  },
+  {
+    "Endpoint": "branding/localizations/{organizationalBrandingLocalization-id}/squareLogo",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/branding/localizations/{organizationalBrandingLocalization-id}/squareLogo",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/branding/localizations/{organizationalBrandingLocalization-id}/squareLogo",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "branding",
+      "localizations",
+      "{organizationalBrandingLocalization-id}",
+      "squareLogo"
+    ],
+    "Root": "branding",
+    "Children": 0,
+    "Segment": "squareLogo"
+  },
+  {
+    "Endpoint": "branding/localizations/{organizationalBrandingLocalization-id}/squareLogoDark",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/branding/localizations/{organizationalBrandingLocalization-id}/squareLogoDark",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "branding",
+      "localizations",
+      "{organizationalBrandingLocalization-id}",
+      "squareLogoDark"
+    ],
+    "Root": "branding",
+    "Children": 0,
+    "Segment": "squareLogoDark"
+  },
+  {
+    "Endpoint": "branding/squareLogo",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/branding/squareLogo",
+    "v1.0-Methods": [
+      "Get",
+      "Put"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/branding/squareLogo",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "branding",
+      "squareLogo"
+    ],
+    "Root": "branding",
+    "Children": 0,
+    "Segment": "squareLogo"
+  },
+  {
+    "Endpoint": "branding/squareLogoDark",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/branding/squareLogoDark",
+    "Beta-Methods": [
+      "Get",
+      "Put"
+    ],
+    "Path": [
+      "branding",
+      "squareLogoDark"
+    ],
+    "Root": "branding",
+    "Children": 0,
+    "Segment": "squareLogoDark"
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "Endpoint": "messageRecipients",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/messageRecipients",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "messageRecipients"
+    ],
+    "Root": "messageRecipients",
+    "Children": 2,
+    "Segment": "messageRecipients"
+  },
+  {
+    "Endpoint": "messageRecipients/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/messageRecipients/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "messageRecipients",
+      "$count"
+    ],
+    "Root": "messageRecipients",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "messageRecipients/{messageRecipient-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/messageRecipients/{messageRecipient-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "messageRecipients",
+      "{messageRecipient-id}"
+    ],
+    "Root": "messageRecipients",
+    "Children": 1,
+    "Segment": "{messageRecipient-id}"
+  },
+  {
+    "Endpoint": "messageRecipients/{messageRecipient-id}/events",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/messageRecipients/{messageRecipient-id}/events",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "messageRecipients",
+      "{messageRecipient-id}",
+      "events"
+    ],
+    "Root": "messageRecipients",
+    "Children": 2,
+    "Segment": "events"
+  },
+  {
+    "Endpoint": "messageRecipients/{messageRecipient-id}/events/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/messageRecipients/{messageRecipient-id}/events/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "messageRecipients",
+      "{messageRecipient-id}",
+      "events",
+      "$count"
+    ],
+    "Root": "messageRecipients",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "messageRecipients/{messageRecipient-id}/events/{messageEvent-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/messageRecipients/{messageRecipient-id}/events/{messageEvent-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "messageRecipients",
+      "{messageRecipient-id}",
+      "events",
+      "{messageEvent-id}"
+    ],
+    "Root": "messageRecipients",
+    "Children": 0,
+    "Segment": "{messageEvent-id}"
+  }
+]

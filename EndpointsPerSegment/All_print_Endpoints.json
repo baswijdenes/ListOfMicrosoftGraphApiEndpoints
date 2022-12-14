@@ -1,0 +1,4809 @@
+[
+  {
+    "Endpoint": "print",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Path": [
+      "print"
+    ],
+    "Root": "print",
+    "Children": 8,
+    "Segment": "print"
+  },
+  {
+    "Endpoint": "print/connectors",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/connectors",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/connectors",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "connectors"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "connectors"
+  },
+  {
+    "Endpoint": "print/connectors/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/connectors/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/connectors/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "connectors",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/connectors/{printConnector-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/connectors/{printConnector-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/connectors/{printConnector-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "connectors",
+      "{printConnector-id}"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "{printConnector-id}"
+  },
+  {
+    "Endpoint": "print/operations",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/operations",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/operations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "operations"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "operations"
+  },
+  {
+    "Endpoint": "print/operations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/operations/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/operations/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "operations",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/operations/{printOperation-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/operations/{printOperation-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/operations/{printOperation-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "operations",
+      "{printOperation-id}"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "{printOperation-id}"
+  },
+  {
+    "Endpoint": "print/printers",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/printers",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printers",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "printers"
+    ],
+    "Root": "print",
+    "Children": 3,
+    "Segment": "printers"
+  },
+  {
+    "Endpoint": "print/printers/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/printers/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printers/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "printers",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/printers/{printer-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/printers/{printer-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printers/{printer-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "printers",
+      "{printer-id}"
+    ],
+    "Root": "print",
+    "Children": 7,
+    "Segment": "{printer-id}"
+  },
+  {
+    "Endpoint": "print/printers/{printer-id}/connectors",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/printers/{printer-id}/connectors",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printers/{printer-id}/connectors",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "printers",
+      "{printer-id}",
+      "connectors"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "connectors"
+  },
+  {
+    "Endpoint": "print/printers/{printer-id}/connectors/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/printers/{printer-id}/connectors/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printers/{printer-id}/connectors/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "printers",
+      "{printer-id}",
+      "connectors",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/printers/{printer-id}/connectors/{printConnector-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/printers/{printer-id}/connectors/{printConnector-id}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printers/{printer-id}/connectors/{printConnector-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "printers",
+      "{printer-id}",
+      "connectors",
+      "{printConnector-id}"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "{printConnector-id}"
+  },
+  {
+    "Endpoint": "print/printers/{printer-id}/microsoft.graph.getCapabilities()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printers/{printer-id}/microsoft.graph.getCapabilities()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "printers",
+      "{printer-id}",
+      "microsoft.graph.getCapabilities()"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getCapabilities()"
+  },
+  {
+    "Endpoint": "print/printers/{printer-id}/microsoft.graph.resetDefaults",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printers/{printer-id}/microsoft.graph.resetDefaults",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "printers",
+      "{printer-id}",
+      "microsoft.graph.resetDefaults"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.resetDefaults"
+  },
+  {
+    "Endpoint": "print/printers/{printer-id}/microsoft.graph.restoreFactoryDefaults",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/printers/{printer-id}/microsoft.graph.restoreFactoryDefaults",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printers/{printer-id}/microsoft.graph.restoreFactoryDefaults",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "printers",
+      "{printer-id}",
+      "microsoft.graph.restoreFactoryDefaults"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.restoreFactoryDefaults"
+  },
+  {
+    "Endpoint": "print/printers/{printer-id}/share",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printers/{printer-id}/share",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "printers",
+      "{printer-id}",
+      "share"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "share"
+  },
+  {
+    "Endpoint": "print/printers/{printer-id}/shares",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/printers/{printer-id}/shares",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printers/{printer-id}/shares",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "printers",
+      "{printer-id}",
+      "shares"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "shares"
+  },
+  {
+    "Endpoint": "print/printers/{printer-id}/shares/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/printers/{printer-id}/shares/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printers/{printer-id}/shares/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "printers",
+      "{printer-id}",
+      "shares",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/printers/{printer-id}/shares/{printerShare-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/printers/{printer-id}/shares/{printerShare-id}",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printers/{printer-id}/shares/{printerShare-id}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "printers",
+      "{printer-id}",
+      "shares",
+      "{printerShare-id}"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "{printerShare-id}"
+  },
+  {
+    "Endpoint": "print/printers/{printer-id}/taskTriggers",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/printers/{printer-id}/taskTriggers",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printers/{printer-id}/taskTriggers",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "printers",
+      "{printer-id}",
+      "taskTriggers"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "taskTriggers"
+  },
+  {
+    "Endpoint": "print/printers/{printer-id}/taskTriggers/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/printers/{printer-id}/taskTriggers/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printers/{printer-id}/taskTriggers/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "printers",
+      "{printer-id}",
+      "taskTriggers",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/printers/{printer-id}/taskTriggers/{printTaskTrigger-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/printers/{printer-id}/taskTriggers/{printTaskTrigger-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printers/{printer-id}/taskTriggers/{printTaskTrigger-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "printers",
+      "{printer-id}",
+      "taskTriggers",
+      "{printTaskTrigger-id}"
+    ],
+    "Root": "print",
+    "Children": 1,
+    "Segment": "{printTaskTrigger-id}"
+  },
+  {
+    "Endpoint": "print/printers/{printer-id}/taskTriggers/{printTaskTrigger-id}/definition",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/printers/{printer-id}/taskTriggers/{printTaskTrigger-id}/definition",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printers/{printer-id}/taskTriggers/{printTaskTrigger-id}/definition",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "printers",
+      "{printer-id}",
+      "taskTriggers",
+      "{printTaskTrigger-id}",
+      "definition"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "definition"
+  },
+  {
+    "Endpoint": "print/printers/microsoft.graph.create",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/printers/microsoft.graph.create",
+    "v1.0-Methods": [
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printers/microsoft.graph.create",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "printers",
+      "microsoft.graph.create"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.create"
+  },
+  {
+    "Endpoint": "print/printerShares",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printerShares",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "printerShares"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "printerShares"
+  },
+  {
+    "Endpoint": "print/printerShares/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printerShares/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "printerShares",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/printerShares/{printerShare-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printerShares/{printerShare-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "printerShares",
+      "{printerShare-id}"
+    ],
+    "Root": "print",
+    "Children": 3,
+    "Segment": "{printerShare-id}"
+  },
+  {
+    "Endpoint": "print/printerShares/{printerShare-id}/allowedGroups",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printerShares/{printerShare-id}/allowedGroups",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "printerShares",
+      "{printerShare-id}",
+      "allowedGroups"
+    ],
+    "Root": "print",
+    "Children": 3,
+    "Segment": "allowedGroups"
+  },
+  {
+    "Endpoint": "print/printerShares/{printerShare-id}/allowedGroups/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printerShares/{printerShare-id}/allowedGroups/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "printerShares",
+      "{printerShare-id}",
+      "allowedGroups",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/printerShares/{printerShare-id}/allowedGroups/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printerShares/{printerShare-id}/allowedGroups/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "printerShares",
+      "{printerShare-id}",
+      "allowedGroups",
+      "$ref"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "print/printerShares/{printerShare-id}/allowedGroups/{group-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "print",
+      "printerShares",
+      "{printerShare-id}",
+      "allowedGroups",
+      "{group-id}"
+    ],
+    "Root": "print",
+    "Children": 1,
+    "Segment": "{group-id}"
+  },
+  {
+    "Endpoint": "print/printerShares/{printerShare-id}/allowedGroups/{group-id}/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printerShares/{printerShare-id}/allowedGroups/{group-id}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "printerShares",
+      "{printerShare-id}",
+      "allowedGroups",
+      "{group-id}",
+      "$ref"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "print/printerShares/{printerShare-id}/allowedUsers",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printerShares/{printerShare-id}/allowedUsers",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "printerShares",
+      "{printerShare-id}",
+      "allowedUsers"
+    ],
+    "Root": "print",
+    "Children": 3,
+    "Segment": "allowedUsers"
+  },
+  {
+    "Endpoint": "print/printerShares/{printerShare-id}/allowedUsers/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printerShares/{printerShare-id}/allowedUsers/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "printerShares",
+      "{printerShare-id}",
+      "allowedUsers",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/printerShares/{printerShare-id}/allowedUsers/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printerShares/{printerShare-id}/allowedUsers/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "printerShares",
+      "{printerShare-id}",
+      "allowedUsers",
+      "$ref"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "print/printerShares/{printerShare-id}/allowedUsers/{user-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "print",
+      "printerShares",
+      "{printerShare-id}",
+      "allowedUsers",
+      "{user-id}"
+    ],
+    "Root": "print",
+    "Children": 1,
+    "Segment": "{user-id}"
+  },
+  {
+    "Endpoint": "print/printerShares/{printerShare-id}/allowedUsers/{user-id}/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printerShares/{printerShare-id}/allowedUsers/{user-id}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "printerShares",
+      "{printerShare-id}",
+      "allowedUsers",
+      "{user-id}",
+      "$ref"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "print/printerShares/{printerShare-id}/printer",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/printerShares/{printerShare-id}/printer",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "printerShares",
+      "{printerShare-id}",
+      "printer"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "printer"
+  },
+  {
+    "Endpoint": "print/reports",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "reports"
+    ],
+    "Root": "print",
+    "Children": 135,
+    "Segment": "reports"
+  },
+  {
+    "Endpoint": "print/reports/applicationSignInDetailedSummary",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/applicationSignInDetailedSummary",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "applicationSignInDetailedSummary"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "applicationSignInDetailedSummary"
+  },
+  {
+    "Endpoint": "print/reports/applicationSignInDetailedSummary/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/applicationSignInDetailedSummary/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "applicationSignInDetailedSummary",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/reports/applicationSignInDetailedSummary/{applicationSignInDetailedSummary-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/applicationSignInDetailedSummary/{applicationSignInDetailedSummary-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "applicationSignInDetailedSummary",
+      "{applicationSignInDetailedSummary-id}"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "{applicationSignInDetailedSummary-id}"
+  },
+  {
+    "Endpoint": "print/reports/authenticationMethods",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/authenticationMethods",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "authenticationMethods"
+    ],
+    "Root": "print",
+    "Children": 5,
+    "Segment": "authenticationMethods"
+  },
+  {
+    "Endpoint": "print/reports/authenticationMethods/microsoft.graph.usersRegisteredByFeature()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/authenticationMethods/microsoft.graph.usersRegisteredByFeature()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "authenticationMethods",
+      "microsoft.graph.usersRegisteredByFeature()"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.usersRegisteredByFeature()"
+  },
+  {
+    "Endpoint": "print/reports/authenticationMethods/microsoft.graph.usersRegisteredByFeature(includedUserTypes='{includedUserTypes}',includedUserRoles='{includedUserRoles}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/authenticationMethods/microsoft.graph.usersRegisteredByFeature(includedUserTypes='{includedUserTypes}',includedUserRoles='{includedUserRoles}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "authenticationMethods",
+      "microsoft.graph.usersRegisteredByFeature(includedUserTypes='{includedUserTypes}',includedUserRoles='{includedUserRoles}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.usersRegisteredByFeature(includedUserTypes='{includedUserTypes}',includedUserRoles='{includedUserRoles}')"
+  },
+  {
+    "Endpoint": "print/reports/authenticationMethods/microsoft.graph.usersRegisteredByMethod()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/authenticationMethods/microsoft.graph.usersRegisteredByMethod()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "authenticationMethods",
+      "microsoft.graph.usersRegisteredByMethod()"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.usersRegisteredByMethod()"
+  },
+  {
+    "Endpoint": "print/reports/authenticationMethods/microsoft.graph.usersRegisteredByMethod(includedUserTypes='{includedUserTypes}',includedUserRoles='{includedUserRoles}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/authenticationMethods/microsoft.graph.usersRegisteredByMethod(includedUserTypes='{includedUserTypes}',includedUserRoles='{includedUserRoles}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "authenticationMethods",
+      "microsoft.graph.usersRegisteredByMethod(includedUserTypes='{includedUserTypes}',includedUserRoles='{includedUserRoles}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.usersRegisteredByMethod(includedUserTypes='{includedUserTypes}',includedUserRoles='{includedUserRoles}')"
+  },
+  {
+    "Endpoint": "print/reports/authenticationMethods/userRegistrationDetails",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/authenticationMethods/userRegistrationDetails",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "authenticationMethods",
+      "userRegistrationDetails"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "userRegistrationDetails"
+  },
+  {
+    "Endpoint": "print/reports/authenticationMethods/userRegistrationDetails/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/authenticationMethods/userRegistrationDetails/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "authenticationMethods",
+      "userRegistrationDetails",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/reports/authenticationMethods/userRegistrationDetails/{userRegistrationDetails-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/authenticationMethods/userRegistrationDetails/{userRegistrationDetails-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "authenticationMethods",
+      "userRegistrationDetails",
+      "{userRegistrationDetails-id}"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "{userRegistrationDetails-id}"
+  },
+  {
+    "Endpoint": "print/reports/credentialUserRegistrationDetails",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/credentialUserRegistrationDetails",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "credentialUserRegistrationDetails"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "credentialUserRegistrationDetails"
+  },
+  {
+    "Endpoint": "print/reports/credentialUserRegistrationDetails/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/credentialUserRegistrationDetails/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "credentialUserRegistrationDetails",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/reports/credentialUserRegistrationDetails/{credentialUserRegistrationDetails-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/credentialUserRegistrationDetails/{credentialUserRegistrationDetails-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "credentialUserRegistrationDetails",
+      "{credentialUserRegistrationDetails-id}"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "{credentialUserRegistrationDetails-id}"
+  },
+  {
+    "Endpoint": "print/reports/dailyPrintUsage",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/dailyPrintUsage",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "dailyPrintUsage"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "dailyPrintUsage"
+  },
+  {
+    "Endpoint": "print/reports/dailyPrintUsage/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/dailyPrintUsage/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "dailyPrintUsage",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/reports/dailyPrintUsage/{printUsage-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/dailyPrintUsage/{printUsage-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "dailyPrintUsage",
+      "{printUsage-id}"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "{printUsage-id}"
+  },
+  {
+    "Endpoint": "print/reports/dailyPrintUsageByPrinter",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/dailyPrintUsageByPrinter",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "dailyPrintUsageByPrinter"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "dailyPrintUsageByPrinter"
+  },
+  {
+    "Endpoint": "print/reports/dailyPrintUsageByPrinter/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/dailyPrintUsageByPrinter/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "dailyPrintUsageByPrinter",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/reports/dailyPrintUsageByPrinter/{printUsageByPrinter-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/dailyPrintUsageByPrinter/{printUsageByPrinter-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "dailyPrintUsageByPrinter",
+      "{printUsageByPrinter-id}"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "{printUsageByPrinter-id}"
+  },
+  {
+    "Endpoint": "print/reports/dailyPrintUsageByUser",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/dailyPrintUsageByUser",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "dailyPrintUsageByUser"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "dailyPrintUsageByUser"
+  },
+  {
+    "Endpoint": "print/reports/dailyPrintUsageByUser/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/dailyPrintUsageByUser/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "dailyPrintUsageByUser",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/reports/dailyPrintUsageByUser/{printUsageByUser-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/dailyPrintUsageByUser/{printUsageByUser-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "dailyPrintUsageByUser",
+      "{printUsageByUser-id}"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "{printUsageByUser-id}"
+  },
+  {
+    "Endpoint": "print/reports/dailyPrintUsageSummariesByPrinter",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/dailyPrintUsageSummariesByPrinter",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "dailyPrintUsageSummariesByPrinter"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "dailyPrintUsageSummariesByPrinter"
+  },
+  {
+    "Endpoint": "print/reports/dailyPrintUsageSummariesByPrinter/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/dailyPrintUsageSummariesByPrinter/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "dailyPrintUsageSummariesByPrinter",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/reports/dailyPrintUsageSummariesByPrinter/{printUsageByPrinter-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/dailyPrintUsageSummariesByPrinter/{printUsageByPrinter-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "dailyPrintUsageSummariesByPrinter",
+      "{printUsageByPrinter-id}"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "{printUsageByPrinter-id}"
+  },
+  {
+    "Endpoint": "print/reports/dailyPrintUsageSummariesByUser",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/dailyPrintUsageSummariesByUser",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "dailyPrintUsageSummariesByUser"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "dailyPrintUsageSummariesByUser"
+  },
+  {
+    "Endpoint": "print/reports/dailyPrintUsageSummariesByUser/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/dailyPrintUsageSummariesByUser/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "dailyPrintUsageSummariesByUser",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/reports/dailyPrintUsageSummariesByUser/{printUsageByUser-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/dailyPrintUsageSummariesByUser/{printUsageByUser-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "dailyPrintUsageSummariesByUser",
+      "{printUsageByUser-id}"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "{printUsageByUser-id}"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.deviceConfigurationDeviceActivity()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.deviceConfigurationDeviceActivity()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.deviceConfigurationDeviceActivity()"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.deviceConfigurationDeviceActivity()"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.deviceConfigurationUserActivity()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.deviceConfigurationUserActivity()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.deviceConfigurationUserActivity()"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.deviceConfigurationUserActivity()"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getAttackSimulationRepeatOffenders()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getAttackSimulationRepeatOffenders()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getAttackSimulationRepeatOffenders()"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getAttackSimulationRepeatOffenders()"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getAttackSimulationSimulationUserCoverage()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getAttackSimulationSimulationUserCoverage()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getAttackSimulationSimulationUserCoverage()"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getAttackSimulationSimulationUserCoverage()"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getAttackSimulationTrainingUserCoverage()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getAttackSimulationTrainingUserCoverage()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getAttackSimulationTrainingUserCoverage()"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getAttackSimulationTrainingUserCoverage()"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getAzureADApplicationSignInSummary(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getAzureADApplicationSignInSummary(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getAzureADApplicationSignInSummary(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getAzureADApplicationSignInSummary(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getBrowserDistributionUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getBrowserDistributionUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getBrowserDistributionUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getBrowserDistributionUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getBrowserUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getBrowserUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getBrowserUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getBrowserUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getBrowserUserDetail(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getBrowserUserDetail(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getBrowserUserDetail(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getBrowserUserDetail(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getCredentialUsageSummary(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getCredentialUsageSummary(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getCredentialUsageSummary(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getCredentialUsageSummary(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getCredentialUserRegistrationCount()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getCredentialUserRegistrationCount()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getCredentialUserRegistrationCount()"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getCredentialUserRegistrationCount()"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getEmailActivityCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getEmailActivityCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getEmailActivityCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getEmailActivityCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getEmailActivityUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getEmailActivityUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getEmailActivityUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getEmailActivityUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getEmailActivityUserDetail(date={date})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getEmailActivityUserDetail(date={date})",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getEmailActivityUserDetail(date={date})"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getEmailActivityUserDetail(date={date})"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getEmailActivityUserDetail(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getEmailActivityUserDetail(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getEmailActivityUserDetail(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getEmailActivityUserDetail(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getEmailAppUsageAppsUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getEmailAppUsageAppsUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getEmailAppUsageAppsUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getEmailAppUsageAppsUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getEmailAppUsageUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getEmailAppUsageUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getEmailAppUsageUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getEmailAppUsageUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getEmailAppUsageUserDetail(date={date})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getEmailAppUsageUserDetail(date={date})",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getEmailAppUsageUserDetail(date={date})"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getEmailAppUsageUserDetail(date={date})"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getEmailAppUsageUserDetail(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getEmailAppUsageUserDetail(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getEmailAppUsageUserDetail(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getEmailAppUsageUserDetail(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getEmailAppUsageVersionsUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getEmailAppUsageVersionsUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getEmailAppUsageVersionsUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getEmailAppUsageVersionsUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getGroupArchivedPrintJobs(groupId='{groupId}',startDateTime={startDateTime},endDateTime={endDateTime})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getGroupArchivedPrintJobs(groupId='{groupId}',startDateTime={startDateTime},endDateTime={endDateTime})",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getGroupArchivedPrintJobs(groupId='{groupId}',startDateTime={startDateTime},endDateTime={endDateTime})"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getGroupArchivedPrintJobs(groupId='{groupId}',startDateTime={startDateTime},endDateTime={endDateTime})"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getM365AppPlatformUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getM365AppPlatformUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getM365AppPlatformUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getM365AppPlatformUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getM365AppUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getM365AppUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getM365AppUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getM365AppUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getM365AppUserDetail(date={date})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getM365AppUserDetail(date={date})",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getM365AppUserDetail(date={date})"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getM365AppUserDetail(date={date})"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getM365AppUserDetail(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getM365AppUserDetail(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getM365AppUserDetail(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getM365AppUserDetail(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getMailboxUsageDetail(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getMailboxUsageDetail(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getMailboxUsageDetail(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getMailboxUsageDetail(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getMailboxUsageMailboxCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getMailboxUsageMailboxCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getMailboxUsageMailboxCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getMailboxUsageMailboxCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getMailboxUsageQuotaStatusMailboxCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getMailboxUsageQuotaStatusMailboxCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getMailboxUsageQuotaStatusMailboxCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getMailboxUsageQuotaStatusMailboxCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getMailboxUsageStorage(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getMailboxUsageStorage(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getMailboxUsageStorage(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getMailboxUsageStorage(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getOffice365ActivationCounts()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getOffice365ActivationCounts()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getOffice365ActivationCounts()"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOffice365ActivationCounts()"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getOffice365ActivationsUserCounts()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getOffice365ActivationsUserCounts()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getOffice365ActivationsUserCounts()"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOffice365ActivationsUserCounts()"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getOffice365ActivationsUserDetail()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getOffice365ActivationsUserDetail()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getOffice365ActivationsUserDetail()"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOffice365ActivationsUserDetail()"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getOffice365ActiveUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getOffice365ActiveUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getOffice365ActiveUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOffice365ActiveUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getOffice365ActiveUserDetail(date={date})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getOffice365ActiveUserDetail(date={date})",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getOffice365ActiveUserDetail(date={date})"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOffice365ActiveUserDetail(date={date})"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getOffice365ActiveUserDetail(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getOffice365ActiveUserDetail(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getOffice365ActiveUserDetail(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOffice365ActiveUserDetail(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getOffice365GroupsActivityCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getOffice365GroupsActivityCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getOffice365GroupsActivityCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOffice365GroupsActivityCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getOffice365GroupsActivityDetail(date={date})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getOffice365GroupsActivityDetail(date={date})",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getOffice365GroupsActivityDetail(date={date})"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOffice365GroupsActivityDetail(date={date})"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getOffice365GroupsActivityDetail(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getOffice365GroupsActivityDetail(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getOffice365GroupsActivityDetail(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOffice365GroupsActivityDetail(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getOffice365GroupsActivityFileCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getOffice365GroupsActivityFileCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getOffice365GroupsActivityFileCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOffice365GroupsActivityFileCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getOffice365GroupsActivityGroupCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getOffice365GroupsActivityGroupCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getOffice365GroupsActivityGroupCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOffice365GroupsActivityGroupCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getOffice365GroupsActivityStorage(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getOffice365GroupsActivityStorage(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getOffice365GroupsActivityStorage(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOffice365GroupsActivityStorage(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getOffice365ServicesUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getOffice365ServicesUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getOffice365ServicesUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOffice365ServicesUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getOneDriveActivityFileCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getOneDriveActivityFileCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getOneDriveActivityFileCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOneDriveActivityFileCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getOneDriveActivityUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getOneDriveActivityUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getOneDriveActivityUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOneDriveActivityUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getOneDriveActivityUserDetail(date={date})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getOneDriveActivityUserDetail(date={date})",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getOneDriveActivityUserDetail(date={date})"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOneDriveActivityUserDetail(date={date})"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getOneDriveActivityUserDetail(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getOneDriveActivityUserDetail(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getOneDriveActivityUserDetail(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOneDriveActivityUserDetail(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getOneDriveUsageAccountCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getOneDriveUsageAccountCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getOneDriveUsageAccountCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOneDriveUsageAccountCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getOneDriveUsageAccountDetail(date={date})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getOneDriveUsageAccountDetail(date={date})",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getOneDriveUsageAccountDetail(date={date})"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOneDriveUsageAccountDetail(date={date})"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getOneDriveUsageAccountDetail(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getOneDriveUsageAccountDetail(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getOneDriveUsageAccountDetail(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOneDriveUsageAccountDetail(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getOneDriveUsageFileCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getOneDriveUsageFileCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getOneDriveUsageFileCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOneDriveUsageFileCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getOneDriveUsageStorage(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getOneDriveUsageStorage(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getOneDriveUsageStorage(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOneDriveUsageStorage(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getPrinterArchivedPrintJobs(printerId='{printerId}',startDateTime={startDateTime},endDateTime={endDateTime})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getPrinterArchivedPrintJobs(printerId='{printerId}',startDateTime={startDateTime},endDateTime={endDateTime})",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getPrinterArchivedPrintJobs(printerId='{printerId}',startDateTime={startDateTime},endDateTime={endDateTime})"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getPrinterArchivedPrintJobs(printerId='{printerId}',startDateTime={startDateTime},endDateTime={endDateTime})"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getRelyingPartyDetailedSummary(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getRelyingPartyDetailedSummary(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getRelyingPartyDetailedSummary(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getRelyingPartyDetailedSummary(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSharePointActivityFileCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSharePointActivityFileCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSharePointActivityFileCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSharePointActivityFileCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSharePointActivityPages(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSharePointActivityPages(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSharePointActivityPages(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSharePointActivityPages(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSharePointActivityUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSharePointActivityUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSharePointActivityUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSharePointActivityUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSharePointActivityUserDetail(date={date})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSharePointActivityUserDetail(date={date})",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSharePointActivityUserDetail(date={date})"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSharePointActivityUserDetail(date={date})"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSharePointActivityUserDetail(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSharePointActivityUserDetail(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSharePointActivityUserDetail(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSharePointActivityUserDetail(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSharePointSiteUsageDetail(date={date})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSharePointSiteUsageDetail(date={date})",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSharePointSiteUsageDetail(date={date})"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSharePointSiteUsageDetail(date={date})"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSharePointSiteUsageDetail(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSharePointSiteUsageDetail(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSharePointSiteUsageDetail(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSharePointSiteUsageDetail(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSharePointSiteUsageFileCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSharePointSiteUsageFileCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSharePointSiteUsageFileCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSharePointSiteUsageFileCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSharePointSiteUsagePages(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSharePointSiteUsagePages(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSharePointSiteUsagePages(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSharePointSiteUsagePages(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSharePointSiteUsageSiteCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSharePointSiteUsageSiteCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSharePointSiteUsageSiteCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSharePointSiteUsageSiteCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSharePointSiteUsageStorage(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSharePointSiteUsageStorage(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSharePointSiteUsageStorage(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSharePointSiteUsageStorage(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSkypeForBusinessActivityCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSkypeForBusinessActivityCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSkypeForBusinessActivityCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSkypeForBusinessActivityCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSkypeForBusinessActivityUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSkypeForBusinessActivityUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSkypeForBusinessActivityUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSkypeForBusinessActivityUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSkypeForBusinessActivityUserDetail(date={date})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSkypeForBusinessActivityUserDetail(date={date})",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSkypeForBusinessActivityUserDetail(date={date})"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSkypeForBusinessActivityUserDetail(date={date})"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSkypeForBusinessActivityUserDetail(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSkypeForBusinessActivityUserDetail(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSkypeForBusinessActivityUserDetail(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSkypeForBusinessActivityUserDetail(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSkypeForBusinessDeviceUsageDistributionUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSkypeForBusinessDeviceUsageDistributionUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSkypeForBusinessDeviceUsageDistributionUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSkypeForBusinessDeviceUsageDistributionUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSkypeForBusinessDeviceUsageUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSkypeForBusinessDeviceUsageUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSkypeForBusinessDeviceUsageUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSkypeForBusinessDeviceUsageUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSkypeForBusinessDeviceUsageUserDetail(date={date})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSkypeForBusinessDeviceUsageUserDetail(date={date})",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSkypeForBusinessDeviceUsageUserDetail(date={date})"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSkypeForBusinessDeviceUsageUserDetail(date={date})"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSkypeForBusinessDeviceUsageUserDetail(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSkypeForBusinessDeviceUsageUserDetail(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSkypeForBusinessDeviceUsageUserDetail(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSkypeForBusinessDeviceUsageUserDetail(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSkypeForBusinessOrganizerActivityCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSkypeForBusinessOrganizerActivityCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSkypeForBusinessOrganizerActivityCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSkypeForBusinessOrganizerActivityCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSkypeForBusinessOrganizerActivityMinuteCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSkypeForBusinessOrganizerActivityMinuteCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSkypeForBusinessOrganizerActivityMinuteCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSkypeForBusinessOrganizerActivityMinuteCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSkypeForBusinessOrganizerActivityUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSkypeForBusinessOrganizerActivityUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSkypeForBusinessOrganizerActivityUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSkypeForBusinessOrganizerActivityUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSkypeForBusinessParticipantActivityCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSkypeForBusinessParticipantActivityCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSkypeForBusinessParticipantActivityCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSkypeForBusinessParticipantActivityCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSkypeForBusinessParticipantActivityMinuteCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSkypeForBusinessParticipantActivityMinuteCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSkypeForBusinessParticipantActivityMinuteCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSkypeForBusinessParticipantActivityMinuteCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSkypeForBusinessParticipantActivityUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSkypeForBusinessParticipantActivityUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSkypeForBusinessParticipantActivityUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSkypeForBusinessParticipantActivityUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSkypeForBusinessPeerToPeerActivityCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSkypeForBusinessPeerToPeerActivityCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSkypeForBusinessPeerToPeerActivityCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSkypeForBusinessPeerToPeerActivityCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSkypeForBusinessPeerToPeerActivityMinuteCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSkypeForBusinessPeerToPeerActivityMinuteCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSkypeForBusinessPeerToPeerActivityMinuteCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSkypeForBusinessPeerToPeerActivityMinuteCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getSkypeForBusinessPeerToPeerActivityUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getSkypeForBusinessPeerToPeerActivityUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getSkypeForBusinessPeerToPeerActivityUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getSkypeForBusinessPeerToPeerActivityUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getTeamsDeviceUsageDistributionTotalUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getTeamsDeviceUsageDistributionTotalUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getTeamsDeviceUsageDistributionTotalUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getTeamsDeviceUsageDistributionTotalUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getTeamsDeviceUsageDistributionUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getTeamsDeviceUsageDistributionUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getTeamsDeviceUsageDistributionUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getTeamsDeviceUsageDistributionUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getTeamsDeviceUsageTotalUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getTeamsDeviceUsageTotalUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getTeamsDeviceUsageTotalUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getTeamsDeviceUsageTotalUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getTeamsDeviceUsageUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getTeamsDeviceUsageUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getTeamsDeviceUsageUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getTeamsDeviceUsageUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getTeamsDeviceUsageUserDetail(date={date})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getTeamsDeviceUsageUserDetail(date={date})",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getTeamsDeviceUsageUserDetail(date={date})"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getTeamsDeviceUsageUserDetail(date={date})"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getTeamsDeviceUsageUserDetail(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getTeamsDeviceUsageUserDetail(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getTeamsDeviceUsageUserDetail(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getTeamsDeviceUsageUserDetail(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getTeamsTeamActivityCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getTeamsTeamActivityCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getTeamsTeamActivityCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getTeamsTeamActivityCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getTeamsTeamActivityDetail(date={date})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getTeamsTeamActivityDetail(date={date})",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getTeamsTeamActivityDetail(date={date})"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getTeamsTeamActivityDetail(date={date})"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getTeamsTeamActivityDetail(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getTeamsTeamActivityDetail(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getTeamsTeamActivityDetail(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getTeamsTeamActivityDetail(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getTeamsTeamActivityDistributionCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getTeamsTeamActivityDistributionCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getTeamsTeamActivityDistributionCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getTeamsTeamActivityDistributionCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getTeamsTeamCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getTeamsTeamCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getTeamsTeamCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getTeamsTeamCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getTeamsUserActivityCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getTeamsUserActivityCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getTeamsUserActivityCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getTeamsUserActivityCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getTeamsUserActivityDistributionTotalUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getTeamsUserActivityDistributionTotalUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getTeamsUserActivityDistributionTotalUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getTeamsUserActivityDistributionTotalUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getTeamsUserActivityDistributionUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getTeamsUserActivityDistributionUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getTeamsUserActivityDistributionUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getTeamsUserActivityDistributionUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getTeamsUserActivityTotalCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getTeamsUserActivityTotalCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getTeamsUserActivityTotalCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getTeamsUserActivityTotalCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getTeamsUserActivityTotalDistributionCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getTeamsUserActivityTotalDistributionCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getTeamsUserActivityTotalDistributionCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getTeamsUserActivityTotalDistributionCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getTeamsUserActivityTotalUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getTeamsUserActivityTotalUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getTeamsUserActivityTotalUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getTeamsUserActivityTotalUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getTeamsUserActivityUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getTeamsUserActivityUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getTeamsUserActivityUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getTeamsUserActivityUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getTeamsUserActivityUserDetail(date={date})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getTeamsUserActivityUserDetail(date={date})",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getTeamsUserActivityUserDetail(date={date})"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getTeamsUserActivityUserDetail(date={date})"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getTeamsUserActivityUserDetail(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getTeamsUserActivityUserDetail(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getTeamsUserActivityUserDetail(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getTeamsUserActivityUserDetail(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getUserArchivedPrintJobs(userId='{userId}',startDateTime={startDateTime},endDateTime={endDateTime})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getUserArchivedPrintJobs(userId='{userId}',startDateTime={startDateTime},endDateTime={endDateTime})",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getUserArchivedPrintJobs(userId='{userId}',startDateTime={startDateTime},endDateTime={endDateTime})"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getUserArchivedPrintJobs(userId='{userId}',startDateTime={startDateTime},endDateTime={endDateTime})"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getYammerActivityCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getYammerActivityCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getYammerActivityCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getYammerActivityCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getYammerActivityUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getYammerActivityUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getYammerActivityUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getYammerActivityUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getYammerActivityUserDetail(date={date})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getYammerActivityUserDetail(date={date})",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getYammerActivityUserDetail(date={date})"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getYammerActivityUserDetail(date={date})"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getYammerActivityUserDetail(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getYammerActivityUserDetail(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getYammerActivityUserDetail(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getYammerActivityUserDetail(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getYammerDeviceUsageDistributionUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getYammerDeviceUsageDistributionUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getYammerDeviceUsageDistributionUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getYammerDeviceUsageDistributionUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getYammerDeviceUsageUserCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getYammerDeviceUsageUserCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getYammerDeviceUsageUserCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getYammerDeviceUsageUserCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getYammerDeviceUsageUserDetail(date={date})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getYammerDeviceUsageUserDetail(date={date})",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getYammerDeviceUsageUserDetail(date={date})"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getYammerDeviceUsageUserDetail(date={date})"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getYammerDeviceUsageUserDetail(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getYammerDeviceUsageUserDetail(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getYammerDeviceUsageUserDetail(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getYammerDeviceUsageUserDetail(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getYammerGroupsActivityCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getYammerGroupsActivityCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getYammerGroupsActivityCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getYammerGroupsActivityCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getYammerGroupsActivityDetail(date={date})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getYammerGroupsActivityDetail(date={date})",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getYammerGroupsActivityDetail(date={date})"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getYammerGroupsActivityDetail(date={date})"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getYammerGroupsActivityDetail(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getYammerGroupsActivityDetail(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getYammerGroupsActivityDetail(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getYammerGroupsActivityDetail(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.getYammerGroupsActivityGroupCounts(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.getYammerGroupsActivityGroupCounts(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.getYammerGroupsActivityGroupCounts(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getYammerGroupsActivityGroupCounts(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.managedDeviceEnrollmentAbandonmentDetails(skip={skip},top={top},filter='{filter}',skipToken='{skipToken}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.managedDeviceEnrollmentAbandonmentDetails(skip={skip},top={top},filter='{filter}',skipToken='{skipToken}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.managedDeviceEnrollmentAbandonmentDetails(skip={skip},top={top},filter='{filter}',skipToken='{skipToken}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.managedDeviceEnrollmentAbandonmentDetails(skip={skip},top={top},filter='{filter}',skipToken='{skipToken}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.managedDeviceEnrollmentAbandonmentSummary(skip={skip},top={top},filter='{filter}',skipToken='{skipToken}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.managedDeviceEnrollmentAbandonmentSummary(skip={skip},top={top},filter='{filter}',skipToken='{skipToken}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.managedDeviceEnrollmentAbandonmentSummary(skip={skip},top={top},filter='{filter}',skipToken='{skipToken}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.managedDeviceEnrollmentAbandonmentSummary(skip={skip},top={top},filter='{filter}',skipToken='{skipToken}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.managedDeviceEnrollmentFailureDetails()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.managedDeviceEnrollmentFailureDetails()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.managedDeviceEnrollmentFailureDetails()"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.managedDeviceEnrollmentFailureDetails()"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.managedDeviceEnrollmentFailureDetails(skip={skip},top={top},filter='{filter}',skipToken='{skipToken}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.managedDeviceEnrollmentFailureDetails(skip={skip},top={top},filter='{filter}',skipToken='{skipToken}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.managedDeviceEnrollmentFailureDetails(skip={skip},top={top},filter='{filter}',skipToken='{skipToken}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.managedDeviceEnrollmentFailureDetails(skip={skip},top={top},filter='{filter}',skipToken='{skipToken}')"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.managedDeviceEnrollmentFailureTrends()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.managedDeviceEnrollmentFailureTrends()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.managedDeviceEnrollmentFailureTrends()"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.managedDeviceEnrollmentFailureTrends()"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.managedDeviceEnrollmentTopFailures()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.managedDeviceEnrollmentTopFailures()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.managedDeviceEnrollmentTopFailures()"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.managedDeviceEnrollmentTopFailures()"
+  },
+  {
+    "Endpoint": "print/reports/microsoft.graph.managedDeviceEnrollmentTopFailures(period='{period}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/microsoft.graph.managedDeviceEnrollmentTopFailures(period='{period}')",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "microsoft.graph.managedDeviceEnrollmentTopFailures(period='{period}')"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.managedDeviceEnrollmentTopFailures(period='{period}')"
+  },
+  {
+    "Endpoint": "print/reports/monthlyPrintUsageByPrinter",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/monthlyPrintUsageByPrinter",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "monthlyPrintUsageByPrinter"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "monthlyPrintUsageByPrinter"
+  },
+  {
+    "Endpoint": "print/reports/monthlyPrintUsageByPrinter/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/monthlyPrintUsageByPrinter/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "monthlyPrintUsageByPrinter",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/reports/monthlyPrintUsageByPrinter/{printUsageByPrinter-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/monthlyPrintUsageByPrinter/{printUsageByPrinter-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "monthlyPrintUsageByPrinter",
+      "{printUsageByPrinter-id}"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "{printUsageByPrinter-id}"
+  },
+  {
+    "Endpoint": "print/reports/monthlyPrintUsageByUser",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/monthlyPrintUsageByUser",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "monthlyPrintUsageByUser"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "monthlyPrintUsageByUser"
+  },
+  {
+    "Endpoint": "print/reports/monthlyPrintUsageByUser/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/monthlyPrintUsageByUser/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "monthlyPrintUsageByUser",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/reports/monthlyPrintUsageByUser/{printUsageByUser-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/monthlyPrintUsageByUser/{printUsageByUser-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "monthlyPrintUsageByUser",
+      "{printUsageByUser-id}"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "{printUsageByUser-id}"
+  },
+  {
+    "Endpoint": "print/reports/monthlyPrintUsageSummariesByPrinter",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/monthlyPrintUsageSummariesByPrinter",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "monthlyPrintUsageSummariesByPrinter"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "monthlyPrintUsageSummariesByPrinter"
+  },
+  {
+    "Endpoint": "print/reports/monthlyPrintUsageSummariesByPrinter/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/monthlyPrintUsageSummariesByPrinter/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "monthlyPrintUsageSummariesByPrinter",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/reports/monthlyPrintUsageSummariesByPrinter/{printUsageByPrinter-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/monthlyPrintUsageSummariesByPrinter/{printUsageByPrinter-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "monthlyPrintUsageSummariesByPrinter",
+      "{printUsageByPrinter-id}"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "{printUsageByPrinter-id}"
+  },
+  {
+    "Endpoint": "print/reports/monthlyPrintUsageSummariesByUser",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/monthlyPrintUsageSummariesByUser",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "monthlyPrintUsageSummariesByUser"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "monthlyPrintUsageSummariesByUser"
+  },
+  {
+    "Endpoint": "print/reports/monthlyPrintUsageSummariesByUser/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/monthlyPrintUsageSummariesByUser/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "monthlyPrintUsageSummariesByUser",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/reports/monthlyPrintUsageSummariesByUser/{printUsageByUser-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/monthlyPrintUsageSummariesByUser/{printUsageByUser-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "monthlyPrintUsageSummariesByUser",
+      "{printUsageByUser-id}"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "{printUsageByUser-id}"
+  },
+  {
+    "Endpoint": "print/reports/security",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/security",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "security"
+    ],
+    "Root": "print",
+    "Children": 3,
+    "Segment": "security"
+  },
+  {
+    "Endpoint": "print/reports/security/microsoft.graph.getAttackSimulationRepeatOffenders()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/security/microsoft.graph.getAttackSimulationRepeatOffenders()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "security",
+      "microsoft.graph.getAttackSimulationRepeatOffenders()"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getAttackSimulationRepeatOffenders()"
+  },
+  {
+    "Endpoint": "print/reports/security/microsoft.graph.getAttackSimulationSimulationUserCoverage()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/security/microsoft.graph.getAttackSimulationSimulationUserCoverage()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "security",
+      "microsoft.graph.getAttackSimulationSimulationUserCoverage()"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getAttackSimulationSimulationUserCoverage()"
+  },
+  {
+    "Endpoint": "print/reports/security/microsoft.graph.getAttackSimulationTrainingUserCoverage()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/security/microsoft.graph.getAttackSimulationTrainingUserCoverage()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "security",
+      "microsoft.graph.getAttackSimulationTrainingUserCoverage()"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "microsoft.graph.getAttackSimulationTrainingUserCoverage()"
+  },
+  {
+    "Endpoint": "print/reports/userCredentialUsageDetails",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/userCredentialUsageDetails",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "userCredentialUsageDetails"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "userCredentialUsageDetails"
+  },
+  {
+    "Endpoint": "print/reports/userCredentialUsageDetails/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/userCredentialUsageDetails/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "userCredentialUsageDetails",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/reports/userCredentialUsageDetails/{userCredentialUsageDetails-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/reports/userCredentialUsageDetails/{userCredentialUsageDetails-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "reports",
+      "userCredentialUsageDetails",
+      "{userCredentialUsageDetails-id}"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "{userCredentialUsageDetails-id}"
+  },
+  {
+    "Endpoint": "print/services",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/services",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/services",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "services"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "services"
+  },
+  {
+    "Endpoint": "print/services/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/services/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/services/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "services",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/services/{printService-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/services/{printService-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/services/{printService-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "services",
+      "{printService-id}"
+    ],
+    "Root": "print",
+    "Children": 1,
+    "Segment": "{printService-id}"
+  },
+  {
+    "Endpoint": "print/services/{printService-id}/endpoints",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/services/{printService-id}/endpoints",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/services/{printService-id}/endpoints",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "services",
+      "{printService-id}",
+      "endpoints"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "endpoints"
+  },
+  {
+    "Endpoint": "print/services/{printService-id}/endpoints/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/services/{printService-id}/endpoints/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/services/{printService-id}/endpoints/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "services",
+      "{printService-id}",
+      "endpoints",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/services/{printService-id}/endpoints/{printServiceEndpoint-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/services/{printService-id}/endpoints/{printServiceEndpoint-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/services/{printService-id}/endpoints/{printServiceEndpoint-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "services",
+      "{printService-id}",
+      "endpoints",
+      "{printServiceEndpoint-id}"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "{printServiceEndpoint-id}"
+  },
+  {
+    "Endpoint": "print/shares",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/shares",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/shares",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "shares"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "shares"
+  },
+  {
+    "Endpoint": "print/shares/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/shares/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/shares/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "shares",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/shares/{printerShare-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/shares/{printerShare-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/shares/{printerShare-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "shares",
+      "{printerShare-id}"
+    ],
+    "Root": "print",
+    "Children": 3,
+    "Segment": "{printerShare-id}"
+  },
+  {
+    "Endpoint": "print/shares/{printerShare-id}/allowedGroups",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/shares/{printerShare-id}/allowedGroups",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/shares/{printerShare-id}/allowedGroups",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "shares",
+      "{printerShare-id}",
+      "allowedGroups"
+    ],
+    "Root": "print",
+    "Children": 3,
+    "Segment": "allowedGroups"
+  },
+  {
+    "Endpoint": "print/shares/{printerShare-id}/allowedGroups/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/shares/{printerShare-id}/allowedGroups/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/shares/{printerShare-id}/allowedGroups/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "shares",
+      "{printerShare-id}",
+      "allowedGroups",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/shares/{printerShare-id}/allowedGroups/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/shares/{printerShare-id}/allowedGroups/$ref",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/shares/{printerShare-id}/allowedGroups/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "shares",
+      "{printerShare-id}",
+      "allowedGroups",
+      "$ref"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "print/shares/{printerShare-id}/allowedGroups/{group-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "print",
+      "shares",
+      "{printerShare-id}",
+      "allowedGroups",
+      "{group-id}"
+    ],
+    "Root": "print",
+    "Children": 1,
+    "Segment": "{group-id}"
+  },
+  {
+    "Endpoint": "print/shares/{printerShare-id}/allowedGroups/{group-id}/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/shares/{printerShare-id}/allowedGroups/{group-id}/$ref",
+    "v1.0-Methods": [
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/shares/{printerShare-id}/allowedGroups/{group-id}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "shares",
+      "{printerShare-id}",
+      "allowedGroups",
+      "{group-id}",
+      "$ref"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "print/shares/{printerShare-id}/allowedUsers",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/shares/{printerShare-id}/allowedUsers",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/shares/{printerShare-id}/allowedUsers",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "shares",
+      "{printerShare-id}",
+      "allowedUsers"
+    ],
+    "Root": "print",
+    "Children": 3,
+    "Segment": "allowedUsers"
+  },
+  {
+    "Endpoint": "print/shares/{printerShare-id}/allowedUsers/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/shares/{printerShare-id}/allowedUsers/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/shares/{printerShare-id}/allowedUsers/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "shares",
+      "{printerShare-id}",
+      "allowedUsers",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/shares/{printerShare-id}/allowedUsers/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/shares/{printerShare-id}/allowedUsers/$ref",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/shares/{printerShare-id}/allowedUsers/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "shares",
+      "{printerShare-id}",
+      "allowedUsers",
+      "$ref"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "print/shares/{printerShare-id}/allowedUsers/{user-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Path": [
+      "print",
+      "shares",
+      "{printerShare-id}",
+      "allowedUsers",
+      "{user-id}"
+    ],
+    "Root": "print",
+    "Children": 1,
+    "Segment": "{user-id}"
+  },
+  {
+    "Endpoint": "print/shares/{printerShare-id}/allowedUsers/{user-id}/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/shares/{printerShare-id}/allowedUsers/{user-id}/$ref",
+    "v1.0-Methods": [
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/shares/{printerShare-id}/allowedUsers/{user-id}/$ref",
+    "Beta-Methods": [
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "shares",
+      "{printerShare-id}",
+      "allowedUsers",
+      "{user-id}",
+      "$ref"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "print/shares/{printerShare-id}/printer",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/shares/{printerShare-id}/printer",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/shares/{printerShare-id}/printer",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "shares",
+      "{printerShare-id}",
+      "printer"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "printer"
+  },
+  {
+    "Endpoint": "print/taskDefinitions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/taskDefinitions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/taskDefinitions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "taskDefinitions"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "taskDefinitions"
+  },
+  {
+    "Endpoint": "print/taskDefinitions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/taskDefinitions/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/taskDefinitions/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "taskDefinitions",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/taskDefinitions/{printTaskDefinition-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/taskDefinitions/{printTaskDefinition-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/taskDefinitions/{printTaskDefinition-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "taskDefinitions",
+      "{printTaskDefinition-id}"
+    ],
+    "Root": "print",
+    "Children": 1,
+    "Segment": "{printTaskDefinition-id}"
+  },
+  {
+    "Endpoint": "print/taskDefinitions/{printTaskDefinition-id}/tasks",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/taskDefinitions/{printTaskDefinition-id}/tasks",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/taskDefinitions/{printTaskDefinition-id}/tasks",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "print",
+      "taskDefinitions",
+      "{printTaskDefinition-id}",
+      "tasks"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "tasks"
+  },
+  {
+    "Endpoint": "print/taskDefinitions/{printTaskDefinition-id}/tasks/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/taskDefinitions/{printTaskDefinition-id}/tasks/$count",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/taskDefinitions/{printTaskDefinition-id}/tasks/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "taskDefinitions",
+      "{printTaskDefinition-id}",
+      "tasks",
+      "$count"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "print/taskDefinitions/{printTaskDefinition-id}/tasks/{printTask-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/taskDefinitions/{printTaskDefinition-id}/tasks/{printTask-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/taskDefinitions/{printTaskDefinition-id}/tasks/{printTask-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "print",
+      "taskDefinitions",
+      "{printTaskDefinition-id}",
+      "tasks",
+      "{printTask-id}"
+    ],
+    "Root": "print",
+    "Children": 2,
+    "Segment": "{printTask-id}"
+  },
+  {
+    "Endpoint": "print/taskDefinitions/{printTaskDefinition-id}/tasks/{printTask-id}/definition",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/taskDefinitions/{printTaskDefinition-id}/tasks/{printTask-id}/definition",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/taskDefinitions/{printTaskDefinition-id}/tasks/{printTask-id}/definition",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "taskDefinitions",
+      "{printTaskDefinition-id}",
+      "tasks",
+      "{printTask-id}",
+      "definition"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "definition"
+  },
+  {
+    "Endpoint": "print/taskDefinitions/{printTaskDefinition-id}/tasks/{printTask-id}/trigger",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/print/taskDefinitions/{printTaskDefinition-id}/tasks/{printTask-id}/trigger",
+    "v1.0-Methods": [
+      "Get"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/print/taskDefinitions/{printTaskDefinition-id}/tasks/{printTask-id}/trigger",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "print",
+      "taskDefinitions",
+      "{printTaskDefinition-id}",
+      "tasks",
+      "{printTask-id}",
+      "trigger"
+    ],
+    "Root": "print",
+    "Children": 0,
+    "Segment": "trigger"
+  }
+]

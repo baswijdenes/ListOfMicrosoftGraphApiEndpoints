@@ -1,0 +1,177 @@
+[
+  {
+    "Endpoint": "monitoring",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/monitoring",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Path": [
+      "monitoring"
+    ],
+    "Root": "monitoring",
+    "Children": 2,
+    "Segment": "monitoring"
+  },
+  {
+    "Endpoint": "monitoring/alertRecords",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/monitoring/alertRecords",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "monitoring",
+      "alertRecords"
+    ],
+    "Root": "monitoring",
+    "Children": 3,
+    "Segment": "alertRecords"
+  },
+  {
+    "Endpoint": "monitoring/alertRecords/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/monitoring/alertRecords/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "monitoring",
+      "alertRecords",
+      "$count"
+    ],
+    "Root": "monitoring",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "monitoring/alertRecords/{alertRecord-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/monitoring/alertRecords/{alertRecord-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "monitoring",
+      "alertRecords",
+      "{alertRecord-id}"
+    ],
+    "Root": "monitoring",
+    "Children": 1,
+    "Segment": "{alertRecord-id}"
+  },
+  {
+    "Endpoint": "monitoring/alertRecords/{alertRecord-id}/microsoft.graph.deviceManagement.setPortalNotificationAsSent",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/monitoring/alertRecords/{alertRecord-id}/microsoft.graph.deviceManagement.setPortalNotificationAsSent",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "monitoring",
+      "alertRecords",
+      "{alertRecord-id}",
+      "microsoft.graph.deviceManagement.setPortalNotificationAsSent"
+    ],
+    "Root": "monitoring",
+    "Children": 0,
+    "Segment": "microsoft.graph.deviceManagement.setPortalNotificationAsSent"
+  },
+  {
+    "Endpoint": "monitoring/alertRecords/microsoft.graph.deviceManagement.getPortalNotifications()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/monitoring/alertRecords/microsoft.graph.deviceManagement.getPortalNotifications()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "monitoring",
+      "alertRecords",
+      "microsoft.graph.deviceManagement.getPortalNotifications()"
+    ],
+    "Root": "monitoring",
+    "Children": 0,
+    "Segment": "microsoft.graph.deviceManagement.getPortalNotifications()"
+  },
+  {
+    "Endpoint": "monitoring/alertRules",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/monitoring/alertRules",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "monitoring",
+      "alertRules"
+    ],
+    "Root": "monitoring",
+    "Children": 2,
+    "Segment": "alertRules"
+  },
+  {
+    "Endpoint": "monitoring/alertRules/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/monitoring/alertRules/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "monitoring",
+      "alertRules",
+      "$count"
+    ],
+    "Root": "monitoring",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "monitoring/alertRules/{alertRule-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/monitoring/alertRules/{alertRule-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "monitoring",
+      "alertRules",
+      "{alertRule-id}"
+    ],
+    "Root": "monitoring",
+    "Children": 0,
+    "Segment": "{alertRule-id}"
+  }
+]

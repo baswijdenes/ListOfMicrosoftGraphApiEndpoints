@@ -1,0 +1,281 @@
+[
+  {
+    "Endpoint": "privilegedRoleAssignments",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoleAssignments",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Path": [
+      "privilegedRoleAssignments"
+    ],
+    "Root": "privilegedRoleAssignments",
+    "Children": 3,
+    "Segment": "privilegedRoleAssignments"
+  },
+  {
+    "Endpoint": "privilegedRoleAssignments/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoleAssignments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "privilegedRoleAssignments",
+      "$count"
+    ],
+    "Root": "privilegedRoleAssignments",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "privilegedRoleAssignments/{privilegedRoleAssignment-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoleAssignments/{privilegedRoleAssignment-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "privilegedRoleAssignments",
+      "{privilegedRoleAssignment-id}"
+    ],
+    "Root": "privilegedRoleAssignments",
+    "Children": 3,
+    "Segment": "{privilegedRoleAssignment-id}"
+  },
+  {
+    "Endpoint": "privilegedRoleAssignments/{privilegedRoleAssignment-id}/microsoft.graph.makeEligible",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoleAssignments/{privilegedRoleAssignment-id}/microsoft.graph.makeEligible",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "privilegedRoleAssignments",
+      "{privilegedRoleAssignment-id}",
+      "microsoft.graph.makeEligible"
+    ],
+    "Root": "privilegedRoleAssignments",
+    "Children": 0,
+    "Segment": "microsoft.graph.makeEligible"
+  },
+  {
+    "Endpoint": "privilegedRoleAssignments/{privilegedRoleAssignment-id}/microsoft.graph.makePermanent",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoleAssignments/{privilegedRoleAssignment-id}/microsoft.graph.makePermanent",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "privilegedRoleAssignments",
+      "{privilegedRoleAssignment-id}",
+      "microsoft.graph.makePermanent"
+    ],
+    "Root": "privilegedRoleAssignments",
+    "Children": 0,
+    "Segment": "microsoft.graph.makePermanent"
+  },
+  {
+    "Endpoint": "privilegedRoleAssignments/{privilegedRoleAssignment-id}/roleInfo",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoleAssignments/{privilegedRoleAssignment-id}/roleInfo",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "privilegedRoleAssignments",
+      "{privilegedRoleAssignment-id}",
+      "roleInfo"
+    ],
+    "Root": "privilegedRoleAssignments",
+    "Children": 5,
+    "Segment": "roleInfo"
+  },
+  {
+    "Endpoint": "privilegedRoleAssignments/{privilegedRoleAssignment-id}/roleInfo/assignments",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoleAssignments/{privilegedRoleAssignment-id}/roleInfo/assignments",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "privilegedRoleAssignments",
+      "{privilegedRoleAssignment-id}",
+      "roleInfo",
+      "assignments"
+    ],
+    "Root": "privilegedRoleAssignments",
+    "Children": 2,
+    "Segment": "assignments"
+  },
+  {
+    "Endpoint": "privilegedRoleAssignments/{privilegedRoleAssignment-id}/roleInfo/assignments/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoleAssignments/{privilegedRoleAssignment-id}/roleInfo/assignments/$count",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "privilegedRoleAssignments",
+      "{privilegedRoleAssignment-id}",
+      "roleInfo",
+      "assignments",
+      "$count"
+    ],
+    "Root": "privilegedRoleAssignments",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "privilegedRoleAssignments/{privilegedRoleAssignment-id}/roleInfo/assignments/{privilegedRoleAssignment-id1}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoleAssignments/{privilegedRoleAssignment-id}/roleInfo/assignments/{privilegedRoleAssignment-id1}",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "privilegedRoleAssignments",
+      "{privilegedRoleAssignment-id}",
+      "roleInfo",
+      "assignments",
+      "{privilegedRoleAssignment-id1}"
+    ],
+    "Root": "privilegedRoleAssignments",
+    "Children": 0,
+    "Segment": "{privilegedRoleAssignment-id1}"
+  },
+  {
+    "Endpoint": "privilegedRoleAssignments/{privilegedRoleAssignment-id}/roleInfo/microsoft.graph.selfActivate",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoleAssignments/{privilegedRoleAssignment-id}/roleInfo/microsoft.graph.selfActivate",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "privilegedRoleAssignments",
+      "{privilegedRoleAssignment-id}",
+      "roleInfo",
+      "microsoft.graph.selfActivate"
+    ],
+    "Root": "privilegedRoleAssignments",
+    "Children": 0,
+    "Segment": "microsoft.graph.selfActivate"
+  },
+  {
+    "Endpoint": "privilegedRoleAssignments/{privilegedRoleAssignment-id}/roleInfo/microsoft.graph.selfDeactivate",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoleAssignments/{privilegedRoleAssignment-id}/roleInfo/microsoft.graph.selfDeactivate",
+    "Beta-Methods": [
+      "Post"
+    ],
+    "Path": [
+      "privilegedRoleAssignments",
+      "{privilegedRoleAssignment-id}",
+      "roleInfo",
+      "microsoft.graph.selfDeactivate"
+    ],
+    "Root": "privilegedRoleAssignments",
+    "Children": 0,
+    "Segment": "microsoft.graph.selfDeactivate"
+  },
+  {
+    "Endpoint": "privilegedRoleAssignments/{privilegedRoleAssignment-id}/roleInfo/settings",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoleAssignments/{privilegedRoleAssignment-id}/roleInfo/settings",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "privilegedRoleAssignments",
+      "{privilegedRoleAssignment-id}",
+      "roleInfo",
+      "settings"
+    ],
+    "Root": "privilegedRoleAssignments",
+    "Children": 0,
+    "Segment": "settings"
+  },
+  {
+    "Endpoint": "privilegedRoleAssignments/{privilegedRoleAssignment-id}/roleInfo/summary",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoleAssignments/{privilegedRoleAssignment-id}/roleInfo/summary",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Path": [
+      "privilegedRoleAssignments",
+      "{privilegedRoleAssignment-id}",
+      "roleInfo",
+      "summary"
+    ],
+    "Root": "privilegedRoleAssignments",
+    "Children": 0,
+    "Segment": "summary"
+  },
+  {
+    "Endpoint": "privilegedRoleAssignments/microsoft.graph.my()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoleAssignments/microsoft.graph.my()",
+    "Beta-Methods": [
+      "Get"
+    ],
+    "Path": [
+      "privilegedRoleAssignments",
+      "microsoft.graph.my()"
+    ],
+    "Root": "privilegedRoleAssignments",
+    "Children": 0,
+    "Segment": "microsoft.graph.my()"
+  }
+]
