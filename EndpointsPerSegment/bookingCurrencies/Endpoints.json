@@ -4,11 +4,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/bookingCurrencies",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "bookingCurrencies"
@@ -18,34 +26,25 @@
     "Segment": "bookingCurrencies"
   },
   {
-    "Endpoint": "bookingCurrencies/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/bookingCurrencies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "bookingCurrencies",
-      "$count"
-    ],
-    "Root": "bookingCurrencies",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "bookingCurrencies/{bookingCurrency-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/bookingCurrencies/{bookingCurrency-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "bookingCurrencies",
@@ -54,5 +53,26 @@
     "Root": "bookingCurrencies",
     "Children": 0,
     "Segment": "{bookingCurrency-id}"
+  },
+  {
+    "Endpoint": "bookingCurrencies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/bookingCurrencies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "bookingCurrencies",
+      "$count"
+    ],
+    "Root": "bookingCurrencies",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

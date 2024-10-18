@@ -7,11 +7,19 @@
       "Get",
       "Patch"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner",
     "Beta-Methods": [
       "Get",
       "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "planner"
@@ -28,40 +36,27 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/planner-list-buckets?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/planner-post-buckets?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/buckets",
     "Beta-Methods": [
       "Get",
       "Post"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/planner-list-buckets?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/planner-post-buckets?view=graph-rest-beta"
+    ],
     "Path": [
       "planner",
       "buckets"
     ],
     "Root": "planner",
-    "Children": 2,
+    "Children": 3,
     "Segment": "buckets"
-  },
-  {
-    "Endpoint": "planner/buckets/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/buckets/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/planner/buckets/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "planner",
-      "buckets",
-      "$count"
-    ],
-    "Root": "planner",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "planner/buckets/{plannerBucket-id}",
@@ -72,12 +67,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/plannerbucket-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/plannerbucket-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/plannerbucket-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/buckets/{plannerBucket-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/plannerbucket-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/plannerbucket-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/plannerbucket-delete?view=graph-rest-beta"
     ],
     "Path": [
       "planner",
@@ -96,11 +101,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/plannerbucket-list-tasks?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/buckets/{plannerBucket-id}/tasks",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/plannerbucket-list-tasks?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "planner",
@@ -109,31 +122,8 @@
       "tasks"
     ],
     "Root": "planner",
-    "Children": 2,
+    "Children": 3,
     "Segment": "tasks"
-  },
-  {
-    "Endpoint": "planner/buckets/{plannerBucket-id}/tasks/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/buckets/{plannerBucket-id}/tasks/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/planner/buckets/{plannerBucket-id}/tasks/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "planner",
-      "buckets",
-      "{plannerBucket-id}",
-      "tasks",
-      "$count"
-    ],
-    "Root": "planner",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "planner/buckets/{plannerBucket-id}/tasks/{plannerTask-id}",
@@ -144,12 +134,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/buckets/{plannerBucket-id}/tasks/{plannerTask-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "planner",
@@ -171,12 +171,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/assignedToTaskBoardFormat",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "planner",
@@ -199,12 +209,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/bucketTaskBoardFormat",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "planner",
@@ -227,12 +247,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/details",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "planner",
@@ -255,12 +285,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/progressTaskBoardFormat",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "planner",
@@ -275,6 +315,86 @@
     "Segment": "progressTaskBoardFormat"
   },
   {
+    "Endpoint": "planner/buckets/{plannerBucket-id}/tasks/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/buckets/{plannerBucket-id}/tasks/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/buckets/{plannerBucket-id}/tasks/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "planner",
+      "buckets",
+      "{plannerBucket-id}",
+      "tasks",
+      "$count"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "planner/buckets/{plannerBucket-id}/tasks/microsoft.graph.delta()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/buckets/{plannerBucket-id}/tasks/microsoft.graph.delta()",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/plannertask-delta?view=graph-rest-beta",
+    "Path": [
+      "planner",
+      "buckets",
+      "{plannerBucket-id}",
+      "tasks",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "planner/buckets/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/buckets/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/buckets/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "planner",
+      "buckets",
+      "$count"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "planner/buckets/microsoft.graph.delta()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/buckets/microsoft.graph.delta()",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/plannerbucket-delta?view=graph-rest-beta",
+    "Path": [
+      "planner",
+      "buckets",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
     "Endpoint": "planner/plans",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans",
@@ -282,40 +402,27 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/planner-list-plans?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/planner-post-plans?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/plans",
     "Beta-Methods": [
       "Get",
       "Post"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/planner-list-plans?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/planner-post-plans?view=graph-rest-beta"
+    ],
     "Path": [
       "planner",
       "plans"
     ],
     "Root": "planner",
-    "Children": 2,
+    "Children": 3,
     "Segment": "plans"
-  },
-  {
-    "Endpoint": "planner/plans/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "planner",
-      "plans",
-      "$count"
-    ],
-    "Root": "planner",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "planner/plans/{plannerPlan-id}",
@@ -326,6 +433,11 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/plannerplan-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/plannerplan-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/plannerplan-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}",
     "Beta-Methods": [
@@ -333,13 +445,18 @@
       "Patch",
       "Delete"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/plannerplan-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/plannerplan-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/plannerplan-delete?view=graph-rest-beta"
+    ],
     "Path": [
       "planner",
       "plans",
       "{plannerPlan-id}"
     ],
     "Root": "planner",
-    "Children": 3,
+    "Children": 6,
     "Segment": "{plannerPlan-id}"
   },
   {
@@ -350,11 +467,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/plannerplan-list-buckets?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/buckets",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/plannerplan-list-buckets?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "planner",
@@ -363,31 +488,8 @@
       "buckets"
     ],
     "Root": "planner",
-    "Children": 2,
+    "Children": 3,
     "Segment": "buckets"
-  },
-  {
-    "Endpoint": "planner/plans/{plannerPlan-id}/buckets/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/buckets/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/buckets/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "planner",
-      "plans",
-      "{plannerPlan-id}",
-      "buckets",
-      "$count"
-    ],
-    "Root": "planner",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}",
@@ -398,12 +500,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "planner",
@@ -424,11 +536,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "planner",
@@ -439,33 +559,8 @@
       "tasks"
     ],
     "Root": "planner",
-    "Children": 2,
+    "Children": 3,
     "Segment": "tasks"
-  },
-  {
-    "Endpoint": "planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "planner",
-      "plans",
-      "{plannerPlan-id}",
-      "buckets",
-      "{plannerBucket-id}",
-      "tasks",
-      "$count"
-    ],
-    "Root": "planner",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/{plannerTask-id}",
@@ -476,12 +571,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/{plannerTask-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "planner",
@@ -505,12 +610,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/assignedToTaskBoardFormat",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "planner",
@@ -535,12 +650,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/bucketTaskBoardFormat",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "planner",
@@ -565,12 +690,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/details",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "planner",
@@ -595,12 +730,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/{plannerTask-id}/progressTaskBoardFormat",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "planner",
@@ -617,6 +762,94 @@
     "Segment": "progressTaskBoardFormat"
   },
   {
+    "Endpoint": "planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "buckets",
+      "{plannerBucket-id}",
+      "tasks",
+      "$count"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/microsoft.graph.delta()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/buckets/{plannerBucket-id}/tasks/microsoft.graph.delta()",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/plannertask-delta?view=graph-rest-beta",
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "buckets",
+      "{plannerBucket-id}",
+      "tasks",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}/buckets/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/buckets/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/buckets/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "buckets",
+      "$count"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}/buckets/microsoft.graph.delta()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/buckets/microsoft.graph.delta()",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/plannerbucket-delta?view=graph-rest-beta",
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "buckets",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
     "Endpoint": "planner/plans/{plannerPlan-id}/details",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/details",
@@ -625,12 +858,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/plannerplandetails-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/plannerplandetails-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/details",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/plannerplandetails-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/plannerplandetails-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "planner",
@@ -643,6 +886,78 @@
     "Segment": "details"
   },
   {
+    "Endpoint": "planner/plans/{plannerPlan-id}/microsoft.graph.archive",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/plannerplandetails-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/plannerplandetails-update?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/microsoft.graph.archive",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/plannerplan-archive?view=graph-rest-beta",
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "microsoft.graph.archive"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "microsoft.graph.archive"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}/microsoft.graph.moveToContainer",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/plannerplandetails-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/plannerplandetails-update?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/microsoft.graph.moveToContainer",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/plannerplan-movetocontainer?view=graph-rest-beta",
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "microsoft.graph.moveToContainer"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "microsoft.graph.moveToContainer"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}/microsoft.graph.unarchive",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/plannerplandetails-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/plannerplandetails-update?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/microsoft.graph.unarchive",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/plannerplan-unarchive?view=graph-rest-beta",
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "microsoft.graph.unarchive"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "microsoft.graph.unarchive"
+  },
+  {
     "Endpoint": "planner/plans/{plannerPlan-id}/tasks",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/tasks",
@@ -650,11 +965,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/plannerplan-list-tasks?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/tasks",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/plannerplan-list-tasks?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "planner",
@@ -663,31 +986,8 @@
       "tasks"
     ],
     "Root": "planner",
-    "Children": 2,
+    "Children": 3,
     "Segment": "tasks"
-  },
-  {
-    "Endpoint": "planner/plans/{plannerPlan-id}/tasks/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/tasks/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/tasks/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "planner",
-      "plans",
-      "{plannerPlan-id}",
-      "tasks",
-      "$count"
-    ],
-    "Root": "planner",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "planner/plans/{plannerPlan-id}/tasks/{plannerTask-id}",
@@ -698,12 +998,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/tasks/{plannerTask-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "planner",
@@ -725,12 +1035,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/tasks/{plannerTask-id}/assignedToTaskBoardFormat",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "planner",
@@ -753,12 +1073,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/tasks/{plannerTask-id}/bucketTaskBoardFormat",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "planner",
@@ -781,12 +1111,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/tasks/{plannerTask-id}/details",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "planner",
@@ -809,12 +1149,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/tasks/{plannerTask-id}/progressTaskBoardFormat",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "planner",
@@ -829,15 +1179,103 @@
     "Segment": "progressTaskBoardFormat"
   },
   {
+    "Endpoint": "planner/plans/{plannerPlan-id}/tasks/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/{plannerPlan-id}/tasks/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/tasks/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "tasks",
+      "$count"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "planner/plans/{plannerPlan-id}/tasks/microsoft.graph.delta()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/{plannerPlan-id}/tasks/microsoft.graph.delta()",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/plannertask-delta?view=graph-rest-beta",
+    "Path": [
+      "planner",
+      "plans",
+      "{plannerPlan-id}",
+      "tasks",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "planner/plans/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/plans/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "planner",
+      "plans",
+      "$count"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "planner/plans/microsoft.graph.delta()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/plans/microsoft.graph.delta()",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/plannerplan-delta?view=graph-rest-beta",
+    "Path": [
+      "planner",
+      "plans",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
     "Endpoint": "planner/rosters",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/planner-list-plans?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/planner-post-plans?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/rosters",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/planner-post-rosters?view=graph-rest-beta"
     ],
     "Path": [
       "planner",
@@ -848,29 +1286,14 @@
     "Segment": "rosters"
   },
   {
-    "Endpoint": "planner/rosters/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/planner/rosters/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "planner",
-      "rosters",
-      "$count"
-    ],
-    "Root": "planner",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "planner/rosters/{plannerRoster-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/planner-list-plans?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/planner-post-plans?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/rosters/{plannerRoster-id}",
     "Beta-Methods": [
@@ -878,13 +1301,18 @@
       "Patch",
       "Delete"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/plannerroster-get?view=graph-rest-beta",
+      null,
+      "https://learn.microsoft.com/graph/api/plannerroster-delete?view=graph-rest-beta"
+    ],
     "Path": [
       "planner",
       "rosters",
       "{plannerRoster-id}"
     ],
     "Root": "planner",
-    "Children": 2,
+    "Children": 3,
     "Segment": "{plannerRoster-id}"
   },
   {
@@ -892,11 +1320,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/planner-list-plans?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/planner-post-plans?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/rosters/{plannerRoster-id}/members",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/plannerroster-list-members?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/plannerroster-post-members?view=graph-rest-beta"
     ],
     "Path": [
       "planner",
@@ -909,37 +1345,25 @@
     "Segment": "members"
   },
   {
-    "Endpoint": "planner/rosters/{plannerRoster-id}/members/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/planner/rosters/{plannerRoster-id}/members/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "planner",
-      "rosters",
-      "{plannerRoster-id}",
-      "members",
-      "$count"
-    ],
-    "Root": "planner",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "planner/rosters/{plannerRoster-id}/members/{plannerRosterMember-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/planner-list-plans?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/planner-post-plans?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/rosters/{plannerRoster-id}/members/{plannerRosterMember-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/plannerrostermember-get?view=graph-rest-beta",
+      null,
+      "https://learn.microsoft.com/graph/api/plannerrostermember-delete?view=graph-rest-beta"
     ],
     "Path": [
       "planner",
@@ -953,15 +1377,65 @@
     "Segment": "{plannerRosterMember-id}"
   },
   {
+    "Endpoint": "planner/rosters/{plannerRoster-id}/members/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/planner-list-plans?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/planner-post-plans?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/rosters/{plannerRoster-id}/members/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "planner",
+      "rosters",
+      "{plannerRoster-id}",
+      "members",
+      "$count"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "planner/rosters/{plannerRoster-id}/microsoft.graph.assignSensitivityLabel",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/planner-list-plans?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/planner-post-plans?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/rosters/{plannerRoster-id}/microsoft.graph.assignSensitivityLabel",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/plannerroster-assignsensitivitylabel?view=graph-rest-beta",
+    "Path": [
+      "planner",
+      "rosters",
+      "{plannerRoster-id}",
+      "microsoft.graph.assignSensitivityLabel"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "microsoft.graph.assignSensitivityLabel"
+  },
+  {
     "Endpoint": "planner/rosters/{plannerRoster-id}/plans",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/planner-list-plans?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/planner-post-plans?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/rosters/{plannerRoster-id}/plans",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/plannerroster-list-plans?view=graph-rest-beta",
     "Path": [
       "planner",
       "rosters",
@@ -973,36 +1447,18 @@
     "Segment": "plans"
   },
   {
-    "Endpoint": "planner/rosters/{plannerRoster-id}/plans/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/planner/rosters/{plannerRoster-id}/plans/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "planner",
-      "rosters",
-      "{plannerRoster-id}",
-      "plans",
-      "$count"
-    ],
-    "Root": "planner",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "planner/rosters/{plannerRoster-id}/plans/{plannerPlan-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/planner-list-plans?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/planner-post-plans?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/rosters/{plannerRoster-id}/plans/{plannerPlan-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "planner",
       "rosters",
@@ -1015,6 +1471,52 @@
     "Segment": "{plannerPlan-id}"
   },
   {
+    "Endpoint": "planner/rosters/{plannerRoster-id}/plans/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/planner-list-plans?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/planner-post-plans?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/rosters/{plannerRoster-id}/plans/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "planner",
+      "rosters",
+      "{plannerRoster-id}",
+      "plans",
+      "$count"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "planner/rosters/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/planner-list-plans?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/planner-post-plans?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/rosters/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "planner",
+      "rosters",
+      "$count"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "planner/tasks",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/tasks",
@@ -1022,40 +1524,27 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/planner-list-tasks?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/planner-post-tasks?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/tasks",
     "Beta-Methods": [
       "Get",
       "Post"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/planner-list-tasks?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/planner-post-tasks?view=graph-rest-beta"
+    ],
     "Path": [
       "planner",
       "tasks"
     ],
     "Root": "planner",
-    "Children": 2,
+    "Children": 3,
     "Segment": "tasks"
-  },
-  {
-    "Endpoint": "planner/tasks/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/tasks/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/planner/tasks/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "planner",
-      "tasks",
-      "$count"
-    ],
-    "Root": "planner",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "planner/tasks/{plannerTask-id}",
@@ -1066,12 +1555,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/plannertask-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/plannertask-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/plannertask-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/tasks/{plannerTask-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/plannertask-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/plannertask-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/plannertask-delete?view=graph-rest-beta"
     ],
     "Path": [
       "planner",
@@ -1091,12 +1590,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/plannerassignedtotaskboardtaskformat-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/plannerassignedtotaskboardtaskformat-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/tasks/{plannerTask-id}/assignedToTaskBoardFormat",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/plannerassignedtotaskboardtaskformat-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/plannerassignedtotaskboardtaskformat-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "planner",
@@ -1117,12 +1626,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/plannerbuckettaskboardtaskformat-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/plannerbuckettaskboardtaskformat-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/tasks/{plannerTask-id}/bucketTaskBoardFormat",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/plannerbuckettaskboardtaskformat-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/plannerbuckettaskboardtaskformat-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "planner",
@@ -1143,12 +1662,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/plannertaskdetails-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/plannertaskdetails-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/tasks/{plannerTask-id}/details",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/plannertaskdetails-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/plannertaskdetails-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "planner",
@@ -1169,12 +1698,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/plannerprogresstaskboardtaskformat-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/plannerprogresstaskboardtaskformat-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/planner/tasks/{plannerTask-id}/progressTaskBoardFormat",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/plannerprogresstaskboardtaskformat-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/plannerprogresstaskboardtaskformat-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "planner",
@@ -1185,5 +1724,43 @@
     "Root": "planner",
     "Children": 0,
     "Segment": "progressTaskBoardFormat"
+  },
+  {
+    "Endpoint": "planner/tasks/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/planner/tasks/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/tasks/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "planner",
+      "tasks",
+      "$count"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "planner/tasks/microsoft.graph.delta()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/planner/tasks/microsoft.graph.delta()",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/plannertask-delta?view=graph-rest-beta",
+    "Path": [
+      "planner",
+      "tasks",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "planner",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
   }
 ]

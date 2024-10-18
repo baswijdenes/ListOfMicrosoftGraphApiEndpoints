@@ -4,11 +4,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "onPremisesPublishingProfiles"
@@ -18,28 +26,14 @@
     "Segment": "onPremisesPublishingProfiles"
   },
   {
-    "Endpoint": "onPremisesPublishingProfiles/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "onPremisesPublishingProfiles",
-      "$count"
-    ],
-    "Root": "onPremisesPublishingProfiles",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}",
     "Beta-Methods": [
@@ -47,12 +41,17 @@
       "Patch",
       "Delete"
     ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
     "Path": [
       "onPremisesPublishingProfiles",
       "{onPremisesPublishingProfile-id}"
     ],
     "Root": "onPremisesPublishingProfiles",
-    "Children": 5,
+    "Children": 6,
     "Segment": "{onPremisesPublishingProfile-id}"
   },
   {
@@ -60,11 +59,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "onPremisesPublishingProfiles",
@@ -76,36 +83,25 @@
     "Segment": "agentGroups"
   },
   {
-    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "onPremisesPublishingProfiles",
-      "{onPremisesPublishingProfile-id}",
-      "agentGroups",
-      "$count"
-    ],
-    "Root": "onPremisesPublishingProfiles",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "onPremisesPublishingProfiles",
@@ -122,11 +118,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "onPremisesPublishingProfiles",
@@ -140,38 +144,25 @@
     "Segment": "agents"
   },
   {
-    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "onPremisesPublishingProfiles",
-      "{onPremisesPublishingProfile-id}",
-      "agentGroups",
-      "{onPremisesAgentGroup-id}",
-      "agents",
-      "$count"
-    ],
-    "Root": "onPremisesPublishingProfiles",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/{onPremisesAgent-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/{onPremisesAgent-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "onPremisesPublishingProfiles",
@@ -190,11 +181,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/{onPremisesAgent-id}/agentGroups",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "onPremisesPublishingProfiles",
       "{onPremisesPublishingProfile-id}",
@@ -209,62 +203,18 @@
     "Segment": "agentGroups"
   },
   {
-    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/{onPremisesAgent-id}/agentGroups/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/{onPremisesAgent-id}/agentGroups/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "onPremisesPublishingProfiles",
-      "{onPremisesPublishingProfile-id}",
-      "agentGroups",
-      "{onPremisesAgentGroup-id}",
-      "agents",
-      "{onPremisesAgent-id}",
-      "agentGroups",
-      "$count"
-    ],
-    "Root": "onPremisesPublishingProfiles",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
-    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/{onPremisesAgent-id}/agentGroups/$ref",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/{onPremisesAgent-id}/agentGroups/$ref",
-    "Beta-Methods": [
-      "Get",
-      "Post"
-    ],
-    "Path": [
-      "onPremisesPublishingProfiles",
-      "{onPremisesPublishingProfile-id}",
-      "agentGroups",
-      "{onPremisesAgentGroup-id}",
-      "agents",
-      "{onPremisesAgent-id}",
-      "agentGroups",
-      "$ref"
-    ],
-    "Root": "onPremisesPublishingProfiles",
-    "Children": 0,
-    "Segment": "$ref"
-  },
-  {
     "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/{onPremisesAgent-id}/agentGroups/{onPremisesAgentGroup-id1}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": null,
     "Path": [
       "onPremisesPublishingProfiles",
       "{onPremisesPublishingProfile-id}",
@@ -284,11 +234,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/{onPremisesAgent-id}/agentGroups/{onPremisesAgentGroup-id1}/$ref",
-    "Beta-Methods": [
-      "Delete"
-    ],
+    "Beta-Methods": "Delete",
+    "Beta-Docs": null,
     "Path": [
       "onPremisesPublishingProfiles",
       "{onPremisesPublishingProfile-id}",
@@ -305,15 +258,110 @@
     "Segment": "$ref"
   },
   {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/{onPremisesAgent-id}/agentGroups/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/{onPremisesAgent-id}/agentGroups/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}",
+      "agents",
+      "{onPremisesAgent-id}",
+      "agentGroups",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/{onPremisesAgent-id}/agentGroups/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/{onPremisesAgent-id}/agentGroups/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}",
+      "agents",
+      "{onPremisesAgent-id}",
+      "agentGroups",
+      "$ref"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/agents/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}",
+      "agents",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "onPremisesPublishingProfiles",
@@ -327,38 +375,25 @@
     "Segment": "publishedResources"
   },
   {
-    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "onPremisesPublishingProfiles",
-      "{onPremisesPublishingProfile-id}",
-      "agentGroups",
-      "{onPremisesAgentGroup-id}",
-      "publishedResources",
-      "$count"
-    ],
-    "Root": "onPremisesPublishingProfiles",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/{publishedResource-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/{publishedResource-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "onPremisesPublishingProfiles",
@@ -377,11 +412,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/{publishedResource-id}/agentGroups",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "onPremisesPublishingProfiles",
@@ -397,62 +440,21 @@
     "Segment": "agentGroups"
   },
   {
-    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/{publishedResource-id}/agentGroups/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/{publishedResource-id}/agentGroups/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "onPremisesPublishingProfiles",
-      "{onPremisesPublishingProfile-id}",
-      "agentGroups",
-      "{onPremisesAgentGroup-id}",
-      "publishedResources",
-      "{publishedResource-id}",
-      "agentGroups",
-      "$count"
-    ],
-    "Root": "onPremisesPublishingProfiles",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
-    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/{publishedResource-id}/agentGroups/$ref",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/{publishedResource-id}/agentGroups/$ref",
-    "Beta-Methods": [
-      "Get",
-      "Post"
-    ],
-    "Path": [
-      "onPremisesPublishingProfiles",
-      "{onPremisesPublishingProfile-id}",
-      "agentGroups",
-      "{onPremisesAgentGroup-id}",
-      "publishedResources",
-      "{publishedResource-id}",
-      "agentGroups",
-      "$ref"
-    ],
-    "Root": "onPremisesPublishingProfiles",
-    "Children": 0,
-    "Segment": "$ref"
-  },
-  {
     "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/{publishedResource-id}/agentGroups/{onPremisesAgentGroup-id1}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": [
+      null,
+      null
+    ],
     "Path": [
       "onPremisesPublishingProfiles",
       "{onPremisesPublishingProfile-id}",
@@ -472,11 +474,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/{publishedResource-id}/agentGroups/{onPremisesAgentGroup-id1}/$ref",
-    "Beta-Methods": [
-      "Delete"
-    ],
+    "Beta-Methods": "Delete",
+    "Beta-Docs": null,
     "Path": [
       "onPremisesPublishingProfiles",
       "{onPremisesPublishingProfile-id}",
@@ -493,15 +498,133 @@
     "Segment": "$ref"
   },
   {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/{publishedResource-id}/agentGroups/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/{publishedResource-id}/agentGroups/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}",
+      "publishedResources",
+      "{publishedResource-id}",
+      "agentGroups",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/{publishedResource-id}/agentGroups/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/{publishedResource-id}/agentGroups/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}",
+      "publishedResources",
+      "{publishedResource-id}",
+      "agentGroups",
+      "$ref"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/{onPremisesAgentGroup-id}/publishedResources/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "{onPremisesAgentGroup-id}",
+      "publishedResources",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agentGroups/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agentGroups",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "onPremisesPublishingProfiles",
@@ -513,36 +636,25 @@
     "Segment": "agents"
   },
   {
-    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "onPremisesPublishingProfiles",
-      "{onPremisesPublishingProfile-id}",
-      "agents",
-      "$count"
-    ],
-    "Root": "onPremisesPublishingProfiles",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "onPremisesPublishingProfiles",
@@ -559,11 +671,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}/agentGroups",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "onPremisesPublishingProfiles",
       "{onPremisesPublishingProfile-id}",
@@ -576,58 +691,18 @@
     "Segment": "agentGroups"
   },
   {
-    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}/agentGroups/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}/agentGroups/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "onPremisesPublishingProfiles",
-      "{onPremisesPublishingProfile-id}",
-      "agents",
-      "{onPremisesAgent-id}",
-      "agentGroups",
-      "$count"
-    ],
-    "Root": "onPremisesPublishingProfiles",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
-    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}/agentGroups/$ref",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}/agentGroups/$ref",
-    "Beta-Methods": [
-      "Get",
-      "Post"
-    ],
-    "Path": [
-      "onPremisesPublishingProfiles",
-      "{onPremisesPublishingProfile-id}",
-      "agents",
-      "{onPremisesAgent-id}",
-      "agentGroups",
-      "$ref"
-    ],
-    "Root": "onPremisesPublishingProfiles",
-    "Children": 0,
-    "Segment": "$ref"
-  },
-  {
     "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}/agentGroups/{onPremisesAgentGroup-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": null,
     "Path": [
       "onPremisesPublishingProfiles",
       "{onPremisesPublishingProfile-id}",
@@ -645,11 +720,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}/agentGroups/{onPremisesAgentGroup-id}/$ref",
-    "Beta-Methods": [
-      "Delete"
-    ],
+    "Beta-Methods": "Delete",
+    "Beta-Docs": null,
     "Path": [
       "onPremisesPublishingProfiles",
       "{onPremisesPublishingProfile-id}",
@@ -664,15 +742,172 @@
     "Segment": "$ref"
   },
   {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}/agentGroups/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}/agentGroups/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agents",
+      "{onPremisesAgent-id}",
+      "agentGroups",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}/agentGroups/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}/agentGroups/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agents",
+      "{onPremisesAgent-id}",
+      "agentGroups",
+      "$ref"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "agents",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/applicationSegments",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/applicationSegments",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "applicationSegments"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 2,
+    "Segment": "applicationSegments"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/applicationSegments/{ipApplicationSegment-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/applicationSegments/{ipApplicationSegment-id}",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "applicationSegments",
+      "{ipApplicationSegment-id}"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "{ipApplicationSegment-id}"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/applicationSegments/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/applicationSegments/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "applicationSegments",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "onPremisesPublishingProfiles",
@@ -684,36 +919,25 @@
     "Segment": "connectorGroups"
   },
   {
-    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "onPremisesPublishingProfiles",
-      "{onPremisesPublishingProfile-id}",
-      "connectorGroups",
-      "$count"
-    ],
-    "Root": "onPremisesPublishingProfiles",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "onPremisesPublishingProfiles",
@@ -722,7 +946,7 @@
       "{connectorGroup-id}"
     ],
     "Root": "onPremisesPublishingProfiles",
-    "Children": 2,
+    "Children": 4,
     "Segment": "{connectorGroup-id}"
   },
   {
@@ -730,11 +954,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/applications",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "onPremisesPublishingProfiles",
       "{onPremisesPublishingProfile-id}",
@@ -747,37 +974,18 @@
     "Segment": "applications"
   },
   {
-    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/applications/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/applications/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "onPremisesPublishingProfiles",
-      "{onPremisesPublishingProfile-id}",
-      "connectorGroups",
-      "{connectorGroup-id}",
-      "applications",
-      "$count"
-    ],
-    "Root": "onPremisesPublishingProfiles",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/applications/{application-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/applications/{application-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "onPremisesPublishingProfiles",
       "{onPremisesPublishingProfile-id}",
@@ -795,11 +1003,21 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/applications/{application-id}/logo",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "onPremisesPublishingProfiles",
@@ -815,15 +1033,91 @@
     "Segment": "logo"
   },
   {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/applications/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/applications/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectorGroups",
+      "{connectorGroup-id}",
+      "applications",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/applications(appId='{appId}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/applications(appId='{appId}')",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectorGroups",
+      "{connectorGroup-id}",
+      "applications(appId='{appId}')"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "applications(appId='{appId}')"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/applications(uniqueName='{uniqueName}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/applications(uniqueName='{uniqueName}')",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectorGroups",
+      "{connectorGroup-id}",
+      "applications(uniqueName='{uniqueName}')"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "applications(uniqueName='{uniqueName}')"
+  },
+  {
     "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/members",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/members",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "onPremisesPublishingProfiles",
       "{onPremisesPublishingProfile-id}",
@@ -836,58 +1130,18 @@
     "Segment": "members"
   },
   {
-    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/members/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/members/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "onPremisesPublishingProfiles",
-      "{onPremisesPublishingProfile-id}",
-      "connectorGroups",
-      "{connectorGroup-id}",
-      "members",
-      "$count"
-    ],
-    "Root": "onPremisesPublishingProfiles",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
-    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/members/$ref",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/members/$ref",
-    "Beta-Methods": [
-      "Get",
-      "Post"
-    ],
-    "Path": [
-      "onPremisesPublishingProfiles",
-      "{onPremisesPublishingProfile-id}",
-      "connectorGroups",
-      "{connectorGroup-id}",
-      "members",
-      "$ref"
-    ],
-    "Root": "onPremisesPublishingProfiles",
-    "Children": 0,
-    "Segment": "$ref"
-  },
-  {
     "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/members/{connector-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": null,
     "Path": [
       "onPremisesPublishingProfiles",
       "{onPremisesPublishingProfile-id}",
@@ -905,11 +1159,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/members/{connector-id}/$ref",
-    "Beta-Methods": [
-      "Delete"
-    ],
+    "Beta-Methods": "Delete",
+    "Beta-Docs": null,
     "Path": [
       "onPremisesPublishingProfiles",
       "{onPremisesPublishingProfile-id}",
@@ -924,15 +1181,104 @@
     "Segment": "$ref"
   },
   {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/members/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/members/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectorGroups",
+      "{connectorGroup-id}",
+      "members",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/members/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/{connectorGroup-id}/members/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectorGroups",
+      "{connectorGroup-id}",
+      "members",
+      "$ref"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectorGroups/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectorGroups",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "onPremisesPublishingProfiles",
@@ -944,36 +1290,25 @@
     "Segment": "connectors"
   },
   {
-    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "onPremisesPublishingProfiles",
-      "{onPremisesPublishingProfile-id}",
-      "connectors",
-      "$count"
-    ],
-    "Root": "onPremisesPublishingProfiles",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "onPremisesPublishingProfiles",
@@ -990,11 +1325,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}/memberOf",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "onPremisesPublishingProfiles",
       "{onPremisesPublishingProfile-id}",
@@ -1007,58 +1345,18 @@
     "Segment": "memberOf"
   },
   {
-    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}/memberOf/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}/memberOf/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "onPremisesPublishingProfiles",
-      "{onPremisesPublishingProfile-id}",
-      "connectors",
-      "{connector-id}",
-      "memberOf",
-      "$count"
-    ],
-    "Root": "onPremisesPublishingProfiles",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
-    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}/memberOf/$ref",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}/memberOf/$ref",
-    "Beta-Methods": [
-      "Get",
-      "Post"
-    ],
-    "Path": [
-      "onPremisesPublishingProfiles",
-      "{onPremisesPublishingProfile-id}",
-      "connectors",
-      "{connector-id}",
-      "memberOf",
-      "$ref"
-    ],
-    "Root": "onPremisesPublishingProfiles",
-    "Children": 0,
-    "Segment": "$ref"
-  },
-  {
     "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}/memberOf/{connectorGroup-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": null,
     "Path": [
       "onPremisesPublishingProfiles",
       "{onPremisesPublishingProfile-id}",
@@ -1076,11 +1374,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}/memberOf/{connectorGroup-id}/$ref",
-    "Beta-Methods": [
-      "Delete"
-    ],
+    "Beta-Methods": "Delete",
+    "Beta-Docs": null,
     "Path": [
       "onPremisesPublishingProfiles",
       "{onPremisesPublishingProfile-id}",
@@ -1095,15 +1396,104 @@
     "Segment": "$ref"
   },
   {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}/memberOf/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}/memberOf/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectors",
+      "{connector-id}",
+      "memberOf",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}/memberOf/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/{connector-id}/memberOf/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectors",
+      "{connector-id}",
+      "memberOf",
+      "$ref"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/connectors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "connectors",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/publishedresource-list?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "onPremisesPublishingProfiles",
@@ -1115,36 +1505,25 @@
     "Segment": "publishedResources"
   },
   {
-    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "onPremisesPublishingProfiles",
-      "{onPremisesPublishingProfile-id}",
-      "publishedResources",
-      "$count"
-    ],
-    "Root": "onPremisesPublishingProfiles",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/{publishedResource-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/{publishedResource-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "onPremisesPublishingProfiles",
@@ -1161,11 +1540,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/{publishedResource-id}/agentGroups",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "onPremisesPublishingProfiles",
@@ -1179,58 +1566,21 @@
     "Segment": "agentGroups"
   },
   {
-    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/{publishedResource-id}/agentGroups/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/{publishedResource-id}/agentGroups/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "onPremisesPublishingProfiles",
-      "{onPremisesPublishingProfile-id}",
-      "publishedResources",
-      "{publishedResource-id}",
-      "agentGroups",
-      "$count"
-    ],
-    "Root": "onPremisesPublishingProfiles",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
-    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/{publishedResource-id}/agentGroups/$ref",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/{publishedResource-id}/agentGroups/$ref",
-    "Beta-Methods": [
-      "Get",
-      "Post"
-    ],
-    "Path": [
-      "onPremisesPublishingProfiles",
-      "{onPremisesPublishingProfile-id}",
-      "publishedResources",
-      "{publishedResource-id}",
-      "agentGroups",
-      "$ref"
-    ],
-    "Root": "onPremisesPublishingProfiles",
-    "Children": 0,
-    "Segment": "$ref"
-  },
-  {
     "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/{publishedResource-id}/agentGroups/{onPremisesAgentGroup-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": [
+      null,
+      null
+    ],
     "Path": [
       "onPremisesPublishingProfiles",
       "{onPremisesPublishingProfile-id}",
@@ -1248,11 +1598,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/{publishedResource-id}/agentGroups/{onPremisesAgentGroup-id}/$ref",
-    "Beta-Methods": [
-      "Delete"
-    ],
+    "Beta-Methods": "Delete",
+    "Beta-Docs": null,
     "Path": [
       "onPremisesPublishingProfiles",
       "{onPremisesPublishingProfile-id}",
@@ -1265,5 +1618,107 @@
     "Root": "onPremisesPublishingProfiles",
     "Children": 0,
     "Segment": "$ref"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/{publishedResource-id}/agentGroups/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/{publishedResource-id}/agentGroups/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "publishedResources",
+      "{publishedResource-id}",
+      "agentGroups",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/{publishedResource-id}/agentGroups/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/{publishedResource-id}/agentGroups/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "publishedResources",
+      "{publishedResource-id}",
+      "agentGroups",
+      "$ref"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/publishedResources/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "{onPremisesPublishingProfile-id}",
+      "publishedResources",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "onPremisesPublishingProfiles/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/oauth2permissiongrant-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/onPremisesPublishingProfiles/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "onPremisesPublishingProfiles",
+      "$count"
+    ],
+    "Root": "onPremisesPublishingProfiles",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

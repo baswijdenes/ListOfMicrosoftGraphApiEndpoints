@@ -1,18 +1,2242 @@
-{
-  "Endpoint": "storage",
-  "v1.0": false,
-  "V1.0-Url": null,
-  "v1.0-Methods": null,
-  "beta": true,
-  "Beta-Url": "https://graph.microsoft.com/beta/storage",
-  "Beta-Methods": [
-    "Get",
-    "Patch"
-  ],
-  "Path": [
-    "storage"
-  ],
-  "Root": "storage",
-  "Children": 0,
-  "Segment": "storage"
-}
+[
+  {
+    "Endpoint": "storage",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/storage",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "storage"
+    ],
+    "Root": "storage",
+    "Children": 2,
+    "Segment": "storage"
+  },
+  {
+    "Endpoint": "storage/fileStorage",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/storage/fileStorage",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage"
+    ],
+    "Root": "storage",
+    "Children": 2,
+    "Segment": "fileStorage"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/storage/fileStorage/containers",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-beta"
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers"
+    ],
+    "Root": "storage",
+    "Children": 2,
+    "Segment": "containers"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/storage/fileStorage/containers/{fileStorageContainer-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-get?view=graph-rest-beta",
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}"
+    ],
+    "Root": "storage",
+    "Children": 7,
+    "Segment": "{fileStorageContainer-id}"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/columns",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/columns",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "columns"
+    ],
+    "Root": "storage",
+    "Children": 2,
+    "Segment": "columns"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/columns/{columnDefinition-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/columns/{columnDefinition-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "columns",
+      "{columnDefinition-id}"
+    ],
+    "Root": "storage",
+    "Children": 1,
+    "Segment": "{columnDefinition-id}"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/columns/{columnDefinition-id}/sourceColumn",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/columns/{columnDefinition-id}/sourceColumn",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "columns",
+      "{columnDefinition-id}",
+      "sourceColumn"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "sourceColumn"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/columns/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/columns/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "columns",
+      "$count"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/drive",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/storage/fileStorage/containers/{fileStorageContainer-id}/drive",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/drive",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/filestoragecontainer-get-drive?view=graph-rest-beta",
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "drive"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "drive"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/microsoft.graph.activate",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/storage/fileStorage/containers/{fileStorageContainer-id}/microsoft.graph.activate",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/microsoft.graph.activate",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/filestoragecontainer-activate?view=graph-rest-beta",
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "microsoft.graph.activate"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "microsoft.graph.activate"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/microsoft.graph.permanentDelete",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/storage/fileStorage/containers/{fileStorageContainer-id}/microsoft.graph.permanentDelete",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/microsoft.graph.permanentDelete",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/filestoragecontainer-permanentdelete?view=graph-rest-beta",
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "microsoft.graph.permanentDelete"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "microsoft.graph.permanentDelete"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/microsoft.graph.restore",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/microsoft.graph.restore",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "microsoft.graph.restore"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "microsoft.graph.restore"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/permissions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/storage/fileStorage/containers/{fileStorageContainer-id}/permissions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/permissions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "permissions"
+    ],
+    "Root": "storage",
+    "Children": 2,
+    "Segment": "permissions"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/permissions/{permission-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/storage/fileStorage/containers/{fileStorageContainer-id}/permissions/{permission-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/permissions/{permission-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "permissions",
+      "{permission-id}"
+    ],
+    "Root": "storage",
+    "Children": 2,
+    "Segment": "{permission-id}"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/permissions/{permission-id}/microsoft.graph.grant",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/storage/fileStorage/containers/{fileStorageContainer-id}/permissions/{permission-id}/microsoft.graph.grant",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/permission-grant?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/permissions/{permission-id}/microsoft.graph.grant",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/permission-grant?view=graph-rest-beta",
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "permissions",
+      "{permission-id}",
+      "microsoft.graph.grant"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "microsoft.graph.grant"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/permissions/{permission-id}/microsoft.graph.revokeGrants",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/permission-grant?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/permissions/{permission-id}/microsoft.graph.revokeGrants",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/permission-revokegrants?view=graph-rest-beta",
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "permissions",
+      "{permission-id}",
+      "microsoft.graph.revokeGrants"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "microsoft.graph.revokeGrants"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/permissions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/storage/fileStorage/containers/{fileStorageContainer-id}/permissions/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/permissions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "permissions",
+      "$count"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "recycleBin"
+    ],
+    "Root": "storage",
+    "Children": 3,
+    "Segment": "recycleBin"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/createdByUser",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/createdByUser",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "createdByUser"
+    ],
+    "Root": "storage",
+    "Children": 2,
+    "Segment": "createdByUser"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/createdByUser/mailboxSettings",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/createdByUser/mailboxSettings",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "createdByUser",
+      "mailboxSettings"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "mailboxSettings"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/createdByUser/serviceProvisioningErrors",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/createdByUser/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "createdByUser",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "storage",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/createdByUser/serviceProvisioningErrors/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/createdByUser/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "createdByUser",
+      "serviceProvisioningErrors",
+      "$count"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/items",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/items",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "items"
+    ],
+    "Root": "storage",
+    "Children": 2,
+    "Segment": "items"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "items",
+      "{recycleBinItem-id}"
+    ],
+    "Root": "storage",
+    "Children": 2,
+    "Segment": "{recycleBinItem-id}"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/createdByUser",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/createdByUser",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "items",
+      "{recycleBinItem-id}",
+      "createdByUser"
+    ],
+    "Root": "storage",
+    "Children": 2,
+    "Segment": "createdByUser"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/createdByUser/mailboxSettings",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/createdByUser/mailboxSettings",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "items",
+      "{recycleBinItem-id}",
+      "createdByUser",
+      "mailboxSettings"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "mailboxSettings"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/createdByUser/serviceProvisioningErrors",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/createdByUser/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "items",
+      "{recycleBinItem-id}",
+      "createdByUser",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "storage",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/createdByUser/serviceProvisioningErrors/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/createdByUser/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "items",
+      "{recycleBinItem-id}",
+      "createdByUser",
+      "serviceProvisioningErrors",
+      "$count"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/lastModifiedByUser",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/lastModifiedByUser",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "items",
+      "{recycleBinItem-id}",
+      "lastModifiedByUser"
+    ],
+    "Root": "storage",
+    "Children": 2,
+    "Segment": "lastModifiedByUser"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/lastModifiedByUser/mailboxSettings",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/lastModifiedByUser/mailboxSettings",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "items",
+      "{recycleBinItem-id}",
+      "lastModifiedByUser",
+      "mailboxSettings"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "mailboxSettings"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/lastModifiedByUser/serviceProvisioningErrors",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/lastModifiedByUser/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "items",
+      "{recycleBinItem-id}",
+      "lastModifiedByUser",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "storage",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/lastModifiedByUser/serviceProvisioningErrors/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/lastModifiedByUser/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "items",
+      "{recycleBinItem-id}",
+      "lastModifiedByUser",
+      "serviceProvisioningErrors",
+      "$count"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/items/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/items/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "items",
+      "$count"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/lastModifiedByUser",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/lastModifiedByUser",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "lastModifiedByUser"
+    ],
+    "Root": "storage",
+    "Children": 2,
+    "Segment": "lastModifiedByUser"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/lastModifiedByUser/mailboxSettings",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/lastModifiedByUser/mailboxSettings",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "lastModifiedByUser",
+      "mailboxSettings"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "mailboxSettings"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/lastModifiedByUser/serviceProvisioningErrors",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/lastModifiedByUser/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "lastModifiedByUser",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "storage",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/lastModifiedByUser/serviceProvisioningErrors/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/{fileStorageContainer-id}/recycleBin/lastModifiedByUser/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "lastModifiedByUser",
+      "serviceProvisioningErrors",
+      "$count"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "storage/fileStorage/containers/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/storage/fileStorage/containers/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/containers/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "containers",
+      "$count"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers"
+    ],
+    "Root": "storage",
+    "Children": 2,
+    "Segment": "deletedContainers"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}"
+    ],
+    "Root": "storage",
+    "Children": 7,
+    "Segment": "{fileStorageContainer-id}"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/columns",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/columns",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "columns"
+    ],
+    "Root": "storage",
+    "Children": 2,
+    "Segment": "columns"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/columns/{columnDefinition-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/columns/{columnDefinition-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "columns",
+      "{columnDefinition-id}"
+    ],
+    "Root": "storage",
+    "Children": 1,
+    "Segment": "{columnDefinition-id}"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/columns/{columnDefinition-id}/sourceColumn",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/columns/{columnDefinition-id}/sourceColumn",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "columns",
+      "{columnDefinition-id}",
+      "sourceColumn"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "sourceColumn"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/columns/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/columns/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "columns",
+      "$count"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/drive",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/drive",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "drive"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "drive"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/microsoft.graph.activate",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/microsoft.graph.activate",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/filestoragecontainer-activate?view=graph-rest-beta",
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "microsoft.graph.activate"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "microsoft.graph.activate"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/microsoft.graph.permanentDelete",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/microsoft.graph.permanentDelete",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/filestoragecontainer-permanentdelete?view=graph-rest-beta",
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "microsoft.graph.permanentDelete"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "microsoft.graph.permanentDelete"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/microsoft.graph.restore",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/microsoft.graph.restore",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "microsoft.graph.restore"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "microsoft.graph.restore"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/permissions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/permissions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "permissions"
+    ],
+    "Root": "storage",
+    "Children": 2,
+    "Segment": "permissions"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/permissions/{permission-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/permissions/{permission-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "permissions",
+      "{permission-id}"
+    ],
+    "Root": "storage",
+    "Children": 2,
+    "Segment": "{permission-id}"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/permissions/{permission-id}/microsoft.graph.grant",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/permissions/{permission-id}/microsoft.graph.grant",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/permission-grant?view=graph-rest-beta",
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "permissions",
+      "{permission-id}",
+      "microsoft.graph.grant"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "microsoft.graph.grant"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/permissions/{permission-id}/microsoft.graph.revokeGrants",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/permissions/{permission-id}/microsoft.graph.revokeGrants",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/permission-revokegrants?view=graph-rest-beta",
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "permissions",
+      "{permission-id}",
+      "microsoft.graph.revokeGrants"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "microsoft.graph.revokeGrants"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/permissions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/permissions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "permissions",
+      "$count"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "recycleBin"
+    ],
+    "Root": "storage",
+    "Children": 3,
+    "Segment": "recycleBin"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/createdByUser",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/createdByUser",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "createdByUser"
+    ],
+    "Root": "storage",
+    "Children": 2,
+    "Segment": "createdByUser"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/createdByUser/mailboxSettings",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/createdByUser/mailboxSettings",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "createdByUser",
+      "mailboxSettings"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "mailboxSettings"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/createdByUser/serviceProvisioningErrors",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/createdByUser/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "createdByUser",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "storage",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/createdByUser/serviceProvisioningErrors/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/createdByUser/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "createdByUser",
+      "serviceProvisioningErrors",
+      "$count"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/items",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/items",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "items"
+    ],
+    "Root": "storage",
+    "Children": 2,
+    "Segment": "items"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "items",
+      "{recycleBinItem-id}"
+    ],
+    "Root": "storage",
+    "Children": 2,
+    "Segment": "{recycleBinItem-id}"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/createdByUser",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/createdByUser",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "items",
+      "{recycleBinItem-id}",
+      "createdByUser"
+    ],
+    "Root": "storage",
+    "Children": 2,
+    "Segment": "createdByUser"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/createdByUser/mailboxSettings",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/createdByUser/mailboxSettings",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "items",
+      "{recycleBinItem-id}",
+      "createdByUser",
+      "mailboxSettings"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "mailboxSettings"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/createdByUser/serviceProvisioningErrors",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/createdByUser/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "items",
+      "{recycleBinItem-id}",
+      "createdByUser",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "storage",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/createdByUser/serviceProvisioningErrors/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/createdByUser/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "items",
+      "{recycleBinItem-id}",
+      "createdByUser",
+      "serviceProvisioningErrors",
+      "$count"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/lastModifiedByUser",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/lastModifiedByUser",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "items",
+      "{recycleBinItem-id}",
+      "lastModifiedByUser"
+    ],
+    "Root": "storage",
+    "Children": 2,
+    "Segment": "lastModifiedByUser"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/lastModifiedByUser/mailboxSettings",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/lastModifiedByUser/mailboxSettings",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "items",
+      "{recycleBinItem-id}",
+      "lastModifiedByUser",
+      "mailboxSettings"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "mailboxSettings"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/lastModifiedByUser/serviceProvisioningErrors",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/lastModifiedByUser/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "items",
+      "{recycleBinItem-id}",
+      "lastModifiedByUser",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "storage",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/lastModifiedByUser/serviceProvisioningErrors/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/items/{recycleBinItem-id}/lastModifiedByUser/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "items",
+      "{recycleBinItem-id}",
+      "lastModifiedByUser",
+      "serviceProvisioningErrors",
+      "$count"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/items/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/items/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "items",
+      "$count"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/lastModifiedByUser",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/lastModifiedByUser",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "lastModifiedByUser"
+    ],
+    "Root": "storage",
+    "Children": 2,
+    "Segment": "lastModifiedByUser"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/lastModifiedByUser/mailboxSettings",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/lastModifiedByUser/mailboxSettings",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "lastModifiedByUser",
+      "mailboxSettings"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "mailboxSettings"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/lastModifiedByUser/serviceProvisioningErrors",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/lastModifiedByUser/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "lastModifiedByUser",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "storage",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/lastModifiedByUser/serviceProvisioningErrors/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/{fileStorageContainer-id}/recycleBin/lastModifiedByUser/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "{fileStorageContainer-id}",
+      "recycleBin",
+      "lastModifiedByUser",
+      "serviceProvisioningErrors",
+      "$count"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "storage/fileStorage/deletedContainers/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/filestorage-list-containers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/filestoragecontainer-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/fileStorage/deletedContainers/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "fileStorage",
+      "deletedContainers",
+      "$count"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "storage/settings",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/storage/settings",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/settings",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "settings"
+    ],
+    "Root": "storage",
+    "Children": 1,
+    "Segment": "settings"
+  },
+  {
+    "Endpoint": "storage/settings/quota",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/storage/settings/quota",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/settings/quota",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "settings",
+      "quota"
+    ],
+    "Root": "storage",
+    "Children": 1,
+    "Segment": "quota"
+  },
+  {
+    "Endpoint": "storage/settings/quota/services",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/storage/settings/quota/services",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/settings/quota/services",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "settings",
+      "quota",
+      "services"
+    ],
+    "Root": "storage",
+    "Children": 2,
+    "Segment": "services"
+  },
+  {
+    "Endpoint": "storage/settings/quota/services/{serviceStorageQuotaBreakdown-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/storage/settings/quota/services/{serviceStorageQuotaBreakdown-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/settings/quota/services/{serviceStorageQuotaBreakdown-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "storage",
+      "settings",
+      "quota",
+      "services",
+      "{serviceStorageQuotaBreakdown-id}"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "{serviceStorageQuotaBreakdown-id}"
+  },
+  {
+    "Endpoint": "storage/settings/quota/services/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/storage/settings/quota/services/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/storage/settings/quota/services/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "storage",
+      "settings",
+      "quota",
+      "services",
+      "$count"
+    ],
+    "Root": "storage",
+    "Children": 0,
+    "Segment": "$count"
+  }
+]

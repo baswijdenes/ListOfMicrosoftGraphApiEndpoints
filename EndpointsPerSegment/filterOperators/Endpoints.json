@@ -1,14 +1,25 @@
 [
   {
     "Endpoint": "filterOperators",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/filterOperators",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/filterOperators",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "filterOperators"
@@ -18,34 +29,30 @@
     "Segment": "filterOperators"
   },
   {
-    "Endpoint": "filterOperators/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/filterOperators/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "filterOperators",
-      "$count"
-    ],
-    "Root": "filterOperators",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "filterOperators/{filterOperatorSchema-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/filterOperators/{filterOperatorSchema-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/filterOperators/{filterOperatorSchema-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "filterOperators",
@@ -54,5 +61,23 @@
     "Root": "filterOperators",
     "Children": 0,
     "Segment": "{filterOperatorSchema-id}"
+  },
+  {
+    "Endpoint": "filterOperators/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/filterOperators/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/filterOperators/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "filterOperators",
+      "$count"
+    ],
+    "Root": "filterOperators",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

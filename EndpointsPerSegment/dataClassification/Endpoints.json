@@ -4,11 +4,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification",
     "Beta-Methods": [
       "Get",
       "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "dataClassification"
@@ -22,11 +30,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/classifyFileJobs",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "dataClassification",
@@ -37,35 +53,25 @@
     "Segment": "classifyFileJobs"
   },
   {
-    "Endpoint": "dataClassification/classifyFileJobs/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/classifyFileJobs/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "dataClassification",
-      "classifyFileJobs",
-      "$count"
-    ],
-    "Root": "dataClassification",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "dataClassification/classifyFileJobs/{jobResponseBase-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/classifyFileJobs/{jobResponseBase-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "dataClassification",
@@ -77,15 +83,45 @@
     "Segment": "{jobResponseBase-id}"
   },
   {
+    "Endpoint": "dataClassification/classifyFileJobs/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/classifyFileJobs/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "dataClassification",
+      "classifyFileJobs",
+      "$count"
+    ],
+    "Root": "dataClassification",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "dataClassification/classifyTextJobs",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/classifyTextJobs",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "dataClassification",
@@ -96,35 +132,25 @@
     "Segment": "classifyTextJobs"
   },
   {
-    "Endpoint": "dataClassification/classifyTextJobs/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/classifyTextJobs/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "dataClassification",
-      "classifyTextJobs",
-      "$count"
-    ],
-    "Root": "dataClassification",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "dataClassification/classifyTextJobs/{jobResponseBase-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/classifyTextJobs/{jobResponseBase-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "dataClassification",
@@ -136,15 +162,45 @@
     "Segment": "{jobResponseBase-id}"
   },
   {
+    "Endpoint": "dataClassification/classifyTextJobs/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/classifyTextJobs/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "dataClassification",
+      "classifyTextJobs",
+      "$count"
+    ],
+    "Root": "dataClassification",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "dataClassification/evaluateDlpPoliciesJobs",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/evaluateDlpPoliciesJobs",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "dataClassification",
@@ -155,35 +211,25 @@
     "Segment": "evaluateDlpPoliciesJobs"
   },
   {
-    "Endpoint": "dataClassification/evaluateDlpPoliciesJobs/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/evaluateDlpPoliciesJobs/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "dataClassification",
-      "evaluateDlpPoliciesJobs",
-      "$count"
-    ],
-    "Root": "dataClassification",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "dataClassification/evaluateDlpPoliciesJobs/{jobResponseBase-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/evaluateDlpPoliciesJobs/{jobResponseBase-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "dataClassification",
@@ -195,15 +241,45 @@
     "Segment": "{jobResponseBase-id}"
   },
   {
+    "Endpoint": "dataClassification/evaluateDlpPoliciesJobs/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/evaluateDlpPoliciesJobs/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "dataClassification",
+      "evaluateDlpPoliciesJobs",
+      "$count"
+    ],
+    "Root": "dataClassification",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "dataClassification/evaluateLabelJobs",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/evaluateLabelJobs",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "dataClassification",
@@ -214,35 +290,25 @@
     "Segment": "evaluateLabelJobs"
   },
   {
-    "Endpoint": "dataClassification/evaluateLabelJobs/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/evaluateLabelJobs/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "dataClassification",
-      "evaluateLabelJobs",
-      "$count"
-    ],
-    "Root": "dataClassification",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "dataClassification/evaluateLabelJobs/{jobResponseBase-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/evaluateLabelJobs/{jobResponseBase-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "dataClassification",
@@ -254,15 +320,45 @@
     "Segment": "{jobResponseBase-id}"
   },
   {
+    "Endpoint": "dataClassification/evaluateLabelJobs/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/evaluateLabelJobs/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "dataClassification",
+      "evaluateLabelJobs",
+      "$count"
+    ],
+    "Root": "dataClassification",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "dataClassification/exactMatchDataStores",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/exactMatchDataStores",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "dataClassification",
@@ -273,35 +369,25 @@
     "Segment": "exactMatchDataStores"
   },
   {
-    "Endpoint": "dataClassification/exactMatchDataStores/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/exactMatchDataStores/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "dataClassification",
-      "exactMatchDataStores",
-      "$count"
-    ],
-    "Root": "dataClassification",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "dataClassification/exactMatchDataStores/{exactMatchDataStore-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/exactMatchDataStores/{exactMatchDataStore-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "dataClassification",
@@ -317,11 +403,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/exactMatchDataStores/{exactMatchDataStore-id}/microsoft.graph.lookup",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "dataClassification",
       "exactMatchDataStores",
@@ -337,11 +426,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/exactMatchDataStores/{exactMatchDataStore-id}/sessions",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "dataClassification",
@@ -354,37 +451,25 @@
     "Segment": "sessions"
   },
   {
-    "Endpoint": "dataClassification/exactMatchDataStores/{exactMatchDataStore-id}/sessions/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/exactMatchDataStores/{exactMatchDataStore-id}/sessions/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "dataClassification",
-      "exactMatchDataStores",
-      "{exactMatchDataStore-id}",
-      "sessions",
-      "$count"
-    ],
-    "Root": "dataClassification",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "dataClassification/exactMatchDataStores/{exactMatchDataStore-id}/sessions/{exactMatchSession-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/exactMatchDataStores/{exactMatchDataStore-id}/sessions/{exactMatchSession-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "dataClassification",
@@ -402,11 +487,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/exactMatchDataStores/{exactMatchDataStore-id}/sessions/{exactMatchSession-id}/microsoft.graph.cancel",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "dataClassification",
       "exactMatchDataStores",
@@ -424,11 +512,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/exactMatchDataStores/{exactMatchDataStore-id}/sessions/{exactMatchSession-id}/microsoft.graph.commit",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "dataClassification",
       "exactMatchDataStores",
@@ -446,11 +537,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/exactMatchDataStores/{exactMatchDataStore-id}/sessions/{exactMatchSession-id}/microsoft.graph.renew",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "dataClassification",
       "exactMatchDataStores",
@@ -468,12 +562,21 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/exactMatchDataStores/{exactMatchDataStore-id}/sessions/{exactMatchSession-id}/uploadAgent",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "dataClassification",
@@ -488,15 +591,69 @@
     "Segment": "uploadAgent"
   },
   {
+    "Endpoint": "dataClassification/exactMatchDataStores/{exactMatchDataStore-id}/sessions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/exactMatchDataStores/{exactMatchDataStore-id}/sessions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "dataClassification",
+      "exactMatchDataStores",
+      "{exactMatchDataStore-id}",
+      "sessions",
+      "$count"
+    ],
+    "Root": "dataClassification",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "dataClassification/exactMatchDataStores/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/exactMatchDataStores/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "dataClassification",
+      "exactMatchDataStores",
+      "$count"
+    ],
+    "Root": "dataClassification",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "dataClassification/exactMatchUploadAgents",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/exactMatchUploadAgents",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "dataClassification",
@@ -507,35 +664,25 @@
     "Segment": "exactMatchUploadAgents"
   },
   {
-    "Endpoint": "dataClassification/exactMatchUploadAgents/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/exactMatchUploadAgents/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "dataClassification",
-      "exactMatchUploadAgents",
-      "$count"
-    ],
-    "Root": "dataClassification",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "dataClassification/exactMatchUploadAgents/{exactMatchUploadAgent-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/exactMatchUploadAgents/{exactMatchUploadAgent-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "dataClassification",
@@ -547,15 +694,45 @@
     "Segment": "{exactMatchUploadAgent-id}"
   },
   {
+    "Endpoint": "dataClassification/exactMatchUploadAgents/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/exactMatchUploadAgents/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "dataClassification",
+      "exactMatchUploadAgents",
+      "$count"
+    ],
+    "Root": "dataClassification",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "dataClassification/jobs",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/jobs",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "dataClassification",
@@ -566,35 +743,25 @@
     "Segment": "jobs"
   },
   {
-    "Endpoint": "dataClassification/jobs/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/jobs/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "dataClassification",
-      "jobs",
-      "$count"
-    ],
-    "Root": "dataClassification",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "dataClassification/jobs/{jobResponseBase-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/jobs/{jobResponseBase-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "dataClassification",
@@ -606,15 +773,40 @@
     "Segment": "{jobResponseBase-id}"
   },
   {
+    "Endpoint": "dataClassification/jobs/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/jobs/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "dataClassification",
+      "jobs",
+      "$count"
+    ],
+    "Root": "dataClassification",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "dataClassification/microsoft.graph.classifyExactMatches",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/microsoft.graph.classifyExactMatches",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "dataClassification",
       "microsoft.graph.classifyExactMatches"
@@ -628,11 +820,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/microsoft.graph.classifyFile",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "dataClassification",
       "microsoft.graph.classifyFile"
@@ -646,11 +841,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/sensitiveTypes",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "dataClassification",
@@ -661,35 +864,25 @@
     "Segment": "sensitiveTypes"
   },
   {
-    "Endpoint": "dataClassification/sensitiveTypes/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/sensitiveTypes/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "dataClassification",
-      "sensitiveTypes",
-      "$count"
-    ],
-    "Root": "dataClassification",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "dataClassification/sensitiveTypes/{sensitiveType-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/sensitiveTypes/{sensitiveType-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "dataClassification",
@@ -701,15 +894,45 @@
     "Segment": "{sensitiveType-id}"
   },
   {
+    "Endpoint": "dataClassification/sensitiveTypes/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/sensitiveTypes/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "dataClassification",
+      "sensitiveTypes",
+      "$count"
+    ],
+    "Root": "dataClassification",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "dataClassification/sensitivityLabels",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/sensitivityLabels",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "dataClassification",
@@ -720,35 +943,25 @@
     "Segment": "sensitivityLabels"
   },
   {
-    "Endpoint": "dataClassification/sensitivityLabels/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/sensitivityLabels/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "dataClassification",
-      "sensitivityLabels",
-      "$count"
-    ],
-    "Root": "dataClassification",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "dataClassification/sensitivityLabels/{sensitivityLabel-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/sensitivityLabels/{sensitivityLabel-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "dataClassification",
@@ -764,11 +977,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/sensitivityLabels/{sensitivityLabel-id}/sublabels",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "dataClassification",
@@ -781,37 +1002,25 @@
     "Segment": "sublabels"
   },
   {
-    "Endpoint": "dataClassification/sensitivityLabels/{sensitivityLabel-id}/sublabels/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/sensitivityLabels/{sensitivityLabel-id}/sublabels/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "dataClassification",
-      "sensitivityLabels",
-      "{sensitivityLabel-id}",
-      "sublabels",
-      "$count"
-    ],
-    "Root": "dataClassification",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "dataClassification/sensitivityLabels/{sensitivityLabel-id}/sublabels/{sensitivityLabel-id1}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/sensitivityLabels/{sensitivityLabel-id}/sublabels/{sensitivityLabel-id1}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "dataClassification",
@@ -825,15 +1034,42 @@
     "Segment": "{sensitivityLabel-id1}"
   },
   {
+    "Endpoint": "dataClassification/sensitivityLabels/{sensitivityLabel-id}/sublabels/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/sensitivityLabels/{sensitivityLabel-id}/sublabels/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "dataClassification",
+      "sensitivityLabels",
+      "{sensitivityLabel-id}",
+      "sublabels",
+      "$count"
+    ],
+    "Root": "dataClassification",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "dataClassification/sensitivityLabels/{sensitivityLabel-id}/sublabels/microsoft.graph.evaluate",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/sensitivityLabels/{sensitivityLabel-id}/sublabels/microsoft.graph.evaluate",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "dataClassification",
       "sensitivityLabels",
@@ -846,15 +1082,40 @@
     "Segment": "microsoft.graph.evaluate"
   },
   {
+    "Endpoint": "dataClassification/sensitivityLabels/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/sensitivityLabels/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "dataClassification",
+      "sensitivityLabels",
+      "$count"
+    ],
+    "Root": "dataClassification",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "dataClassification/sensitivityLabels/microsoft.graph.evaluate",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contract-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/dataClassification/sensitivityLabels/microsoft.graph.evaluate",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "dataClassification",
       "sensitivityLabels",

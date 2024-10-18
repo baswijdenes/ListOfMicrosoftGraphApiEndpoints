@@ -7,11 +7,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/domain-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/domain-post-domains?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/domains",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/domain-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/domain-post-domains?view=graph-rest-beta"
     ],
     "Path": [
       "domains"
@@ -19,26 +27,6 @@
     "Root": "domains",
     "Children": 2,
     "Segment": "domains"
-  },
-  {
-    "Endpoint": "domains/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/domains/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "domains",
-      "$count"
-    ],
-    "Root": "domains",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "domains/{domain-id}",
@@ -49,6 +37,11 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/domain-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/domain-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/domain-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}",
     "Beta-Methods": [
@@ -56,26 +49,29 @@
       "Patch",
       "Delete"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/domain-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/domain-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/domain-delete?view=graph-rest-beta"
+    ],
     "Path": [
       "domains",
       "{domain-id}"
     ],
     "Root": "domains",
-    "Children": 8,
+    "Children": 10,
     "Segment": "{domain-id}"
   },
   {
     "Endpoint": "domains/{domain-id}/domainNameReferences",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/domainNameReferences",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/domain-list-domainnamereferences?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/domainNameReferences",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/domain-list-domainnamereferences?view=graph-rest-beta",
     "Path": [
       "domains",
       "{domain-id}",
@@ -86,39 +82,15 @@
     "Segment": "domainNameReferences"
   },
   {
-    "Endpoint": "domains/{domain-id}/domainNameReferences/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/domainNameReferences/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/domainNameReferences/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "domains",
-      "{domain-id}",
-      "domainNameReferences",
-      "$count"
-    ],
-    "Root": "domains",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "domains/{domain-id}/domainNameReferences/{directoryObject-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/domainNameReferences/{directoryObject-id}",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/domainNameReferences/{directoryObject-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "domains",
       "{domain-id}",
@@ -130,6 +102,26 @@
     "Segment": "{directoryObject-id}"
   },
   {
+    "Endpoint": "domains/{domain-id}/domainNameReferences/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/domainNameReferences/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/domainNameReferences/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "domainNameReferences",
+      "$count"
+    ],
+    "Root": "domains",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "domains/{domain-id}/federationConfiguration",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/federationConfiguration",
@@ -137,11 +129,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/domain-list-federationconfiguration?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/domain-post-federationconfiguration?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/federationConfiguration",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/domain-list-federationconfiguration?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/domain-post-federationconfiguration?view=graph-rest-beta"
     ],
     "Path": [
       "domains",
@@ -153,28 +153,6 @@
     "Segment": "federationConfiguration"
   },
   {
-    "Endpoint": "domains/{domain-id}/federationConfiguration/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/federationConfiguration/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/federationConfiguration/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "domains",
-      "{domain-id}",
-      "federationConfiguration",
-      "$count"
-    ],
-    "Root": "domains",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "domains/{domain-id}/federationConfiguration/{internalDomainFederation-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/federationConfiguration/{internalDomainFederation-id}",
@@ -183,12 +161,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/internaldomainfederation-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/internaldomainfederation-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/internaldomainfederation-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/federationConfiguration/{internalDomainFederation-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/internaldomainfederation-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/internaldomainfederation-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/internaldomainfederation-delete?view=graph-rest-beta"
     ],
     "Path": [
       "domains",
@@ -201,17 +189,35 @@
     "Segment": "{internalDomainFederation-id}"
   },
   {
+    "Endpoint": "domains/{domain-id}/federationConfiguration/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/federationConfiguration/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/federationConfiguration/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "federationConfiguration",
+      "$count"
+    ],
+    "Root": "domains",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "domains/{domain-id}/microsoft.graph.forceDelete",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/microsoft.graph.forceDelete",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/domain-forcedelete?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/microsoft.graph.forceDelete",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/domain-forcedelete?view=graph-rest-beta",
     "Path": [
       "domains",
       "{domain-id}",
@@ -225,14 +231,12 @@
     "Endpoint": "domains/{domain-id}/microsoft.graph.promote",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/microsoft.graph.promote",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/domain-promote?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/microsoft.graph.promote",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/domain-promote?view=graph-rest-beta",
     "Path": [
       "domains",
       "{domain-id}",
@@ -243,17 +247,34 @@
     "Segment": "microsoft.graph.promote"
   },
   {
+    "Endpoint": "domains/{domain-id}/microsoft.graph.promoteToInitial",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/domain-promote?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/microsoft.graph.promoteToInitial",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "microsoft.graph.promoteToInitial"
+    ],
+    "Root": "domains",
+    "Children": 0,
+    "Segment": "microsoft.graph.promoteToInitial"
+  },
+  {
     "Endpoint": "domains/{domain-id}/microsoft.graph.verify",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/microsoft.graph.verify",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/domain-verify?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/microsoft.graph.verify",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/domain-verify?view=graph-rest-beta",
     "Path": [
       "domains",
       "{domain-id}",
@@ -264,6 +285,25 @@
     "Segment": "microsoft.graph.verify"
   },
   {
+    "Endpoint": "domains/{domain-id}/rootDomain",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/rootDomain",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/domain-get-rootdomain?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/rootDomain",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/domain-list-rootdomain?view=graph-rest-beta",
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "rootDomain"
+    ],
+    "Root": "domains",
+    "Children": 0,
+    "Segment": "rootDomain"
+  },
+  {
     "Endpoint": "domains/{domain-id}/serviceConfigurationRecords",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/serviceConfigurationRecords",
@@ -271,11 +311,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/domain-list-serviceconfigurationrecords?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/serviceConfigurationRecords",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/domain-list-serviceconfigurationrecords?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "domains",
@@ -287,28 +335,6 @@
     "Segment": "serviceConfigurationRecords"
   },
   {
-    "Endpoint": "domains/{domain-id}/serviceConfigurationRecords/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/serviceConfigurationRecords/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/serviceConfigurationRecords/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "domains",
-      "{domain-id}",
-      "serviceConfigurationRecords",
-      "$count"
-    ],
-    "Root": "domains",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "domains/{domain-id}/serviceConfigurationRecords/{domainDnsRecord-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/serviceConfigurationRecords/{domainDnsRecord-id}",
@@ -317,12 +343,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/serviceConfigurationRecords/{domainDnsRecord-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "domains",
@@ -335,15 +371,43 @@
     "Segment": "{domainDnsRecord-id}"
   },
   {
+    "Endpoint": "domains/{domain-id}/serviceConfigurationRecords/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/serviceConfigurationRecords/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/serviceConfigurationRecords/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "serviceConfigurationRecords",
+      "$count"
+    ],
+    "Root": "domains",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "domains/{domain-id}/sharedEmailDomainInvitations",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/domain-list-serviceconfigurationrecords?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/sharedEmailDomainInvitations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "domains",
@@ -355,36 +419,25 @@
     "Segment": "sharedEmailDomainInvitations"
   },
   {
-    "Endpoint": "domains/{domain-id}/sharedEmailDomainInvitations/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/sharedEmailDomainInvitations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "domains",
-      "{domain-id}",
-      "sharedEmailDomainInvitations",
-      "$count"
-    ],
-    "Root": "domains",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "domains/{domain-id}/sharedEmailDomainInvitations/{sharedEmailDomainInvitation-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/domain-list-serviceconfigurationrecords?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/sharedEmailDomainInvitations/{sharedEmailDomainInvitation-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "domains",
@@ -397,6 +450,29 @@
     "Segment": "{sharedEmailDomainInvitation-id}"
   },
   {
+    "Endpoint": "domains/{domain-id}/sharedEmailDomainInvitations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/domain-list-serviceconfigurationrecords?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/sharedEmailDomainInvitations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "sharedEmailDomainInvitations",
+      "$count"
+    ],
+    "Root": "domains",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "domains/{domain-id}/verificationDnsRecords",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/verificationDnsRecords",
@@ -404,11 +480,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/domain-list-verificationdnsrecords?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/verificationDnsRecords",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/domain-list-verificationdnsrecords?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "domains",
@@ -420,17 +504,51 @@
     "Segment": "verificationDnsRecords"
   },
   {
+    "Endpoint": "domains/{domain-id}/verificationDnsRecords/{domainDnsRecord-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/verificationDnsRecords/{domainDnsRecord-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/verificationDnsRecords/{domainDnsRecord-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "domains",
+      "{domain-id}",
+      "verificationDnsRecords",
+      "{domainDnsRecord-id}"
+    ],
+    "Root": "domains",
+    "Children": 0,
+    "Segment": "{domainDnsRecord-id}"
+  },
+  {
     "Endpoint": "domains/{domain-id}/verificationDnsRecords/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/verificationDnsRecords/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/verificationDnsRecords/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "domains",
       "{domain-id}",
@@ -442,29 +560,21 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "domains/{domain-id}/verificationDnsRecords/{domainDnsRecord-id}",
+    "Endpoint": "domains/$count",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/{domain-id}/verificationDnsRecords/{domainDnsRecord-id}",
-    "v1.0-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/domains/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/domains/{domain-id}/verificationDnsRecords/{domainDnsRecord-id}",
-    "Beta-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/domains/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "domains",
-      "{domain-id}",
-      "verificationDnsRecords",
-      "{domainDnsRecord-id}"
+      "$count"
     ],
     "Root": "domains",
     "Children": 0,
-    "Segment": "{domainDnsRecord-id}"
+    "Segment": "$count"
   }
 ]

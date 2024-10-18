@@ -7,17 +7,25 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/permissionGrants",
     "Beta-Methods": [
       "Get",
       "Post"
     ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
     "Path": [
       "permissionGrants"
     ],
     "Root": "permissionGrants",
-    "Children": 5,
+    "Children": 6,
     "Segment": "permissionGrants"
   },
   {
@@ -29,12 +37,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/permissionGrants/{resourceSpecificPermissionGrant-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "permissionGrants",
@@ -48,14 +66,12 @@
     "Endpoint": "permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.checkMemberGroups",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.checkMemberGroups",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-checkmembergroups?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.checkMemberGroups",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-checkmembergroups?view=graph-rest-beta",
     "Path": [
       "permissionGrants",
       "{resourceSpecificPermissionGrant-id}",
@@ -69,14 +85,12 @@
     "Endpoint": "permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.checkMemberObjects",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.checkMemberObjects",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.checkMemberObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "permissionGrants",
       "{resourceSpecificPermissionGrant-id}",
@@ -90,14 +104,12 @@
     "Endpoint": "permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.getMemberGroups",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.getMemberGroups",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getmembergroups?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.getMemberGroups",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-getmembergroups?view=graph-rest-beta",
     "Path": [
       "permissionGrants",
       "{resourceSpecificPermissionGrant-id}",
@@ -111,14 +123,12 @@
     "Endpoint": "permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.getMemberObjects",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.getMemberObjects",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getmemberobjects?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.getMemberObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "permissionGrants",
       "{resourceSpecificPermissionGrant-id}",
@@ -132,14 +142,12 @@
     "Endpoint": "permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.restore",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.restore",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-restore?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.restore",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-restore?view=graph-rest-beta",
     "Path": [
       "permissionGrants",
       "{resourceSpecificPermissionGrant-id}",
@@ -150,15 +158,33 @@
     "Segment": "microsoft.graph.restore"
   },
   {
+    "Endpoint": "permissionGrants/microsoft.graph.delta()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/permissionGrants/microsoft.graph.delta()",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-delta?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/permissionGrants/microsoft.graph.delta()",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-delta?view=graph-rest-beta",
+    "Path": [
+      "permissionGrants",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "permissionGrants",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
     "Endpoint": "permissionGrants/microsoft.graph.getAvailableExtensionProperties",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/permissionGrants/microsoft.graph.getAvailableExtensionProperties",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getavailableextensionproperties?view=graph-rest-1.0",
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-delta?view=graph-rest-beta",
     "Path": [
       "permissionGrants",
       "microsoft.graph.getAvailableExtensionProperties"
@@ -171,14 +197,12 @@
     "Endpoint": "permissionGrants/microsoft.graph.getByIds",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/permissionGrants/microsoft.graph.getByIds",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getbyids?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/permissionGrants/microsoft.graph.getByIds",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-getbyids?view=graph-rest-beta",
     "Path": [
       "permissionGrants",
       "microsoft.graph.getByIds"
@@ -192,11 +216,11 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getbyids?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/permissionGrants/microsoft.graph.getUserOwnedObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-getuserownedobjects?view=graph-rest-beta",
     "Path": [
       "permissionGrants",
       "microsoft.graph.getUserOwnedObjects"
@@ -209,14 +233,12 @@
     "Endpoint": "permissionGrants/microsoft.graph.validateProperties",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/permissionGrants/microsoft.graph.validateProperties",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-validateproperties?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/permissionGrants/microsoft.graph.validateProperties",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-validateproperties?view=graph-rest-beta",
     "Path": [
       "permissionGrants",
       "microsoft.graph.validateProperties"

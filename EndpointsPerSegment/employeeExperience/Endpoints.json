@@ -1,32 +1,687 @@
 [
   {
     "Endpoint": "employeeExperience",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience",
     "Beta-Methods": [
       "Get",
       "Patch"
     ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
     "Path": [
       "employeeExperience"
     ],
     "Root": "employeeExperience",
-    "Children": 1,
+    "Children": 6,
     "Segment": "employeeExperience"
   },
   {
-    "Endpoint": "employeeExperience/learningProviders",
+    "Endpoint": "employeeExperience/communities",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/communities",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/employeeexperience-list-communities?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/employeeexperience-post-communities?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/communities",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/employeeexperience-list-communities?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/employeeexperience-post-communities?view=graph-rest-beta"
+    ],
+    "Path": [
+      "employeeExperience",
+      "communities"
+    ],
+    "Root": "employeeExperience",
+    "Children": 2,
+    "Segment": "communities"
+  },
+  {
+    "Endpoint": "employeeExperience/communities/{community-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/communities/{community-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/community-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/community-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/community-delete?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/communities/{community-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/community-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/community-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/community-delete?view=graph-rest-beta"
+    ],
+    "Path": [
+      "employeeExperience",
+      "communities",
+      "{community-id}"
+    ],
+    "Root": "employeeExperience",
+    "Children": 2,
+    "Segment": "{community-id}"
+  },
+  {
+    "Endpoint": "employeeExperience/communities/{community-id}/group",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/communities/{community-id}/group",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/communities/{community-id}/group",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "employeeExperience",
+      "communities",
+      "{community-id}",
+      "group"
+    ],
+    "Root": "employeeExperience",
+    "Children": 1,
+    "Segment": "group"
+  },
+  {
+    "Endpoint": "employeeExperience/communities/{community-id}/group/serviceProvisioningErrors",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/communities/{community-id}/group/serviceProvisioningErrors",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/communities/{community-id}/group/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "employeeExperience",
+      "communities",
+      "{community-id}",
+      "group",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "employeeExperience",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "employeeExperience/communities/{community-id}/group/serviceProvisioningErrors/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/communities/{community-id}/group/serviceProvisioningErrors/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/communities/{community-id}/group/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "employeeExperience",
+      "communities",
+      "{community-id}",
+      "group",
+      "serviceProvisioningErrors",
+      "$count"
+    ],
+    "Root": "employeeExperience",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "employeeExperience/communities/{community-id}/owners",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/communities/{community-id}/owners",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/communities/{community-id}/owners",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "employeeExperience",
+      "communities",
+      "{community-id}",
+      "owners"
+    ],
+    "Root": "employeeExperience",
+    "Children": 2,
+    "Segment": "owners"
+  },
+  {
+    "Endpoint": "employeeExperience/communities/{community-id}/owners/{user-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/communities/{community-id}/owners/{user-id}",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/communities/{community-id}/owners/{user-id}",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "employeeExperience",
+      "communities",
+      "{community-id}",
+      "owners",
+      "{user-id}"
+    ],
+    "Root": "employeeExperience",
+    "Children": 2,
+    "Segment": "{user-id}"
+  },
+  {
+    "Endpoint": "employeeExperience/communities/{community-id}/owners/{user-id}/mailboxSettings",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/communities/{community-id}/owners/{user-id}/mailboxSettings",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/communities/{community-id}/owners/{user-id}/mailboxSettings",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "employeeExperience",
+      "communities",
+      "{community-id}",
+      "owners",
+      "{user-id}",
+      "mailboxSettings"
+    ],
+    "Root": "employeeExperience",
+    "Children": 0,
+    "Segment": "mailboxSettings"
+  },
+  {
+    "Endpoint": "employeeExperience/communities/{community-id}/owners/{user-id}/serviceProvisioningErrors",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/communities/{community-id}/owners/{user-id}/serviceProvisioningErrors",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/communities/{community-id}/owners/{user-id}/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "employeeExperience",
+      "communities",
+      "{community-id}",
+      "owners",
+      "{user-id}",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "employeeExperience",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "employeeExperience/communities/{community-id}/owners/{user-id}/serviceProvisioningErrors/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/communities/{community-id}/owners/{user-id}/serviceProvisioningErrors/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/communities/{community-id}/owners/{user-id}/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "employeeExperience",
+      "communities",
+      "{community-id}",
+      "owners",
+      "{user-id}",
+      "serviceProvisioningErrors",
+      "$count"
+    ],
+    "Root": "employeeExperience",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "employeeExperience/communities/{community-id}/owners/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/communities/{community-id}/owners/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/communities/{community-id}/owners/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "employeeExperience",
+      "communities",
+      "{community-id}",
+      "owners",
+      "$count"
+    ],
+    "Root": "employeeExperience",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "employeeExperience/communities/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/communities/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/communities/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "employeeExperience",
+      "communities",
+      "$count"
+    ],
+    "Root": "employeeExperience",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "employeeExperience/engagementAsyncOperations",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/engagementAsyncOperations",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/engagementAsyncOperations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "employeeExperience",
+      "engagementAsyncOperations"
+    ],
+    "Root": "employeeExperience",
+    "Children": 2,
+    "Segment": "engagementAsyncOperations"
+  },
+  {
+    "Endpoint": "employeeExperience/engagementAsyncOperations/{engagementAsyncOperation-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/engagementAsyncOperations/{engagementAsyncOperation-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/engagementasyncoperation-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/engagementAsyncOperations/{engagementAsyncOperation-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/engagementasyncoperation-get?view=graph-rest-beta",
+      null,
+      null
+    ],
+    "Path": [
+      "employeeExperience",
+      "engagementAsyncOperations",
+      "{engagementAsyncOperation-id}"
+    ],
+    "Root": "employeeExperience",
+    "Children": 0,
+    "Segment": "{engagementAsyncOperation-id}"
+  },
+  {
+    "Endpoint": "employeeExperience/engagementAsyncOperations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/engagementAsyncOperations/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/engagementAsyncOperations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "employeeExperience",
+      "engagementAsyncOperations",
+      "$count"
+    ],
+    "Root": "employeeExperience",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "employeeExperience/goals",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/goals",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "employeeExperience",
+      "goals"
+    ],
+    "Root": "employeeExperience",
+    "Children": 1,
+    "Segment": "goals"
+  },
+  {
+    "Endpoint": "employeeExperience/goals/exportJobs",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/goals/exportJobs",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/goals-list-exportjobs?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/goals-post-exportjobs?view=graph-rest-beta"
+    ],
+    "Path": [
+      "employeeExperience",
+      "goals",
+      "exportJobs"
+    ],
+    "Root": "employeeExperience",
+    "Children": 2,
+    "Segment": "exportJobs"
+  },
+  {
+    "Endpoint": "employeeExperience/goals/exportJobs/{goalsExportJob-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/goals/exportJobs/{goalsExportJob-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "employeeExperience",
+      "goals",
+      "exportJobs",
+      "{goalsExportJob-id}"
+    ],
+    "Root": "employeeExperience",
+    "Children": 1,
+    "Segment": "{goalsExportJob-id}"
+  },
+  {
+    "Endpoint": "employeeExperience/goals/exportJobs/{goalsExportJob-id}/content",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/goals/exportJobs/{goalsExportJob-id}/content",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "employeeExperience",
+      "goals",
+      "exportJobs",
+      "{goalsExportJob-id}",
+      "content"
+    ],
+    "Root": "employeeExperience",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "employeeExperience/goals/exportJobs/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/goals/exportJobs/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "employeeExperience",
+      "goals",
+      "exportJobs",
+      "$count"
+    ],
+    "Root": "employeeExperience",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "employeeExperience/learningCourseActivities",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/learningCourseActivities",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/learningCourseActivities",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "employeeExperience",
+      "learningCourseActivities"
+    ],
+    "Root": "employeeExperience",
+    "Children": 2,
+    "Segment": "learningCourseActivities"
+  },
+  {
+    "Endpoint": "employeeExperience/learningCourseActivities/{learningCourseActivity-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/learningCourseActivities/{learningCourseActivity-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/learningcourseactivity-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/learningCourseActivities/{learningCourseActivity-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/learningcourseactivity-get?view=graph-rest-beta",
+      null,
+      null
+    ],
+    "Path": [
+      "employeeExperience",
+      "learningCourseActivities",
+      "{learningCourseActivity-id}"
+    ],
+    "Root": "employeeExperience",
+    "Children": 0,
+    "Segment": "{learningCourseActivity-id}"
+  },
+  {
+    "Endpoint": "employeeExperience/learningCourseActivities/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/learningCourseActivities/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/learningCourseActivities/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "employeeExperience",
+      "learningCourseActivities",
+      "$count"
+    ],
+    "Root": "employeeExperience",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "employeeExperience/learningCourseActivities(externalcourseActivityId='{externalcourseActivityId}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/learningCourseActivities(externalcourseActivityId='{externalcourseActivityId}')",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/learningcourseactivity-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/learningCourseActivities(externalcourseActivityId='{externalcourseActivityId}')",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/learningcourseactivity-get?view=graph-rest-beta",
+      null,
+      null
+    ],
+    "Path": [
+      "employeeExperience",
+      "learningCourseActivities(externalcourseActivityId='{externalcourseActivityId}')"
+    ],
+    "Root": "employeeExperience",
+    "Children": 0,
+    "Segment": "learningCourseActivities(externalcourseActivityId='{externalcourseActivityId}')"
+  },
+  {
+    "Endpoint": "employeeExperience/learningProviders",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/learningProviders",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/employeeexperience-list-learningproviders?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/employeeexperience-post-learningproviders?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/learningProviders",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/employeeexperience-list-learningproviders?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/employeeexperience-post-learningproviders?view=graph-rest-beta"
     ],
     "Path": [
       "employeeExperience",
@@ -37,29 +692,19 @@
     "Segment": "learningProviders"
   },
   {
-    "Endpoint": "employeeExperience/learningProviders/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/learningProviders/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "employeeExperience",
-      "learningProviders",
-      "$count"
-    ],
-    "Root": "employeeExperience",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "employeeExperience/learningProviders/{learningProvider-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/learningProviders/{learningProvider-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/learningprovider-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/learningprovider-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/employeeexperience-delete-learningproviders?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/learningProviders/{learningProvider-id}",
     "Beta-Methods": [
@@ -67,25 +712,41 @@
       "Patch",
       "Delete"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/learningprovider-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/learningprovider-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/employeeexperience-delete-learningproviders?view=graph-rest-beta"
+    ],
     "Path": [
       "employeeExperience",
       "learningProviders",
       "{learningProvider-id}"
     ],
     "Root": "employeeExperience",
-    "Children": 1,
+    "Children": 4,
     "Segment": "{learningProvider-id}"
   },
   {
     "Endpoint": "employeeExperience/learningProviders/{learningProvider-id}/learningContents",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/learningProviders/{learningProvider-id}/learningContents",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/learningprovider-list-learningcontents?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/learningProviders/{learningProvider-id}/learningContents",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/learningprovider-list-learningcontents?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "employeeExperience",
@@ -98,15 +759,52 @@
     "Segment": "learningContents"
   },
   {
+    "Endpoint": "employeeExperience/learningProviders/{learningProvider-id}/learningContents/{learningContent-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/learningProviders/{learningProvider-id}/learningContents/{learningContent-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/learningcontent-get?view=graph-rest-1.0",
+      null,
+      "https://learn.microsoft.com/graph/api/learningprovider-delete-learningcontents?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/learningProviders/{learningProvider-id}/learningContents/{learningContent-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/learningcontent-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/learningcontent-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/learningprovider-delete-learningcontents?view=graph-rest-beta"
+    ],
+    "Path": [
+      "employeeExperience",
+      "learningProviders",
+      "{learningProvider-id}",
+      "learningContents",
+      "{learningContent-id}"
+    ],
+    "Root": "employeeExperience",
+    "Children": 0,
+    "Segment": "{learningContent-id}"
+  },
+  {
     "Endpoint": "employeeExperience/learningProviders/{learningProvider-id}/learningContents/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/learningProviders/{learningProvider-id}/learningContents/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/learningProviders/{learningProvider-id}/learningContents/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "employeeExperience",
       "learningProviders",
@@ -119,26 +817,184 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "employeeExperience/learningProviders/{learningProvider-id}/learningContents/{learningContent-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "Endpoint": "employeeExperience/learningProviders/{learningProvider-id}/learningContents(externalId='{externalId}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/learningProviders/{learningProvider-id}/learningContents(externalId='{externalId}')",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/learningcontent-get?view=graph-rest-1.0",
+      null,
+      "https://learn.microsoft.com/graph/api/learningprovider-delete-learningcontents?view=graph-rest-1.0"
+    ],
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/learningProviders/{learningProvider-id}/learningContents/{learningContent-id}",
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/learningProviders/{learningProvider-id}/learningContents(externalId='{externalId}')",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/learningcontent-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/learningcontent-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/learningprovider-delete-learningcontents?view=graph-rest-beta"
+    ],
     "Path": [
       "employeeExperience",
       "learningProviders",
       "{learningProvider-id}",
-      "learningContents",
-      "{learningContent-id}"
+      "learningContents(externalId='{externalId}')"
     ],
     "Root": "employeeExperience",
     "Children": 0,
-    "Segment": "{learningContent-id}"
+    "Segment": "learningContents(externalId='{externalId}')"
+  },
+  {
+    "Endpoint": "employeeExperience/learningProviders/{learningProvider-id}/learningCourseActivities",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/learningProviders/{learningProvider-id}/learningCourseActivities",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/learningcourseactivity-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/employeeexperienceuser-post-learningcourseactivities?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/learningProviders/{learningProvider-id}/learningCourseActivities",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/learningcourseactivity-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/employeeexperienceuser-post-learningcourseactivities?view=graph-rest-beta"
+    ],
+    "Path": [
+      "employeeExperience",
+      "learningProviders",
+      "{learningProvider-id}",
+      "learningCourseActivities"
+    ],
+    "Root": "employeeExperience",
+    "Children": 2,
+    "Segment": "learningCourseActivities"
+  },
+  {
+    "Endpoint": "employeeExperience/learningProviders/{learningProvider-id}/learningCourseActivities/{learningCourseActivity-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/learningProviders/{learningProvider-id}/learningCourseActivities/{learningCourseActivity-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/learningcourseactivity-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/learningcourseactivity-delete?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/learningProviders/{learningProvider-id}/learningCourseActivities/{learningCourseActivity-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/learningcourseactivity-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/learningcourseactivity-delete?view=graph-rest-beta"
+    ],
+    "Path": [
+      "employeeExperience",
+      "learningProviders",
+      "{learningProvider-id}",
+      "learningCourseActivities",
+      "{learningCourseActivity-id}"
+    ],
+    "Root": "employeeExperience",
+    "Children": 0,
+    "Segment": "{learningCourseActivity-id}"
+  },
+  {
+    "Endpoint": "employeeExperience/learningProviders/{learningProvider-id}/learningCourseActivities/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/learningProviders/{learningProvider-id}/learningCourseActivities/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/learningProviders/{learningProvider-id}/learningCourseActivities/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "employeeExperience",
+      "learningProviders",
+      "{learningProvider-id}",
+      "learningCourseActivities",
+      "$count"
+    ],
+    "Root": "employeeExperience",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "employeeExperience/learningProviders/{learningProvider-id}/learningCourseActivities(externalcourseActivityId='{externalcourseActivityId}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/learningProviders/{learningProvider-id}/learningCourseActivities(externalcourseActivityId='{externalcourseActivityId}')",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/learningcourseactivity-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/learningcourseactivity-delete?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/learningProviders/{learningProvider-id}/learningCourseActivities(externalcourseActivityId='{externalcourseActivityId}')",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/learningcourseactivity-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/learningcourseactivity-delete?view=graph-rest-beta"
+    ],
+    "Path": [
+      "employeeExperience",
+      "learningProviders",
+      "{learningProvider-id}",
+      "learningCourseActivities(externalcourseActivityId='{externalcourseActivityId}')"
+    ],
+    "Root": "employeeExperience",
+    "Children": 0,
+    "Segment": "learningCourseActivities(externalcourseActivityId='{externalcourseActivityId}')"
+  },
+  {
+    "Endpoint": "employeeExperience/learningProviders/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/employeeExperience/learningProviders/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/employeeExperience/learningProviders/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "employeeExperience",
+      "learningProviders",
+      "$count"
+    ],
+    "Root": "employeeExperience",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

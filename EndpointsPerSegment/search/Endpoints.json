@@ -7,11 +7,19 @@
       "Get",
       "Patch"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/search",
     "Beta-Methods": [
       "Get",
       "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "search"
@@ -22,14 +30,25 @@
   },
   {
     "Endpoint": "search/acronyms",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/search/acronyms",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/search-searchentity-list-acronyms?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/search-searchentity-post-acronyms?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/search/acronyms",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/search-searchentity-list-acronyms?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/search-searchentity-post-acronyms?view=graph-rest-beta"
     ],
     "Path": [
       "search",
@@ -40,35 +59,30 @@
     "Segment": "acronyms"
   },
   {
-    "Endpoint": "search/acronyms/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/search/acronyms/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "search",
-      "acronyms",
-      "$count"
-    ],
-    "Root": "search",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "search/acronyms/{acronym-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/search/acronyms/{acronym-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/search-acronym-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/search-acronym-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/search-acronym-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/search/acronyms/{acronym-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/search-acronym-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/search-acronym-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/search-acronym-delete?view=graph-rest-beta"
     ],
     "Path": [
       "search",
@@ -80,15 +94,45 @@
     "Segment": "{acronym-id}"
   },
   {
+    "Endpoint": "search/acronyms/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/search/acronyms/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/search/acronyms/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "search",
+      "acronyms",
+      "$count"
+    ],
+    "Root": "search",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "search/bookmarks",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/search/bookmarks",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/search-searchentity-list-bookmarks?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/search-searchentity-post-bookmarks?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/search/bookmarks",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/search-searchentity-list-bookmarks?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/search-searchentity-post-bookmarks?view=graph-rest-beta"
     ],
     "Path": [
       "search",
@@ -99,35 +143,30 @@
     "Segment": "bookmarks"
   },
   {
-    "Endpoint": "search/bookmarks/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/search/bookmarks/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "search",
-      "bookmarks",
-      "$count"
-    ],
-    "Root": "search",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "search/bookmarks/{bookmark-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/search/bookmarks/{bookmark-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/search-bookmark-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/search-bookmark-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/search-bookmark-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/search/bookmarks/{bookmark-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/search-bookmark-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/search-bookmark-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/search-bookmark-delete?view=graph-rest-beta"
     ],
     "Path": [
       "search",
@@ -139,17 +178,34 @@
     "Segment": "{bookmark-id}"
   },
   {
+    "Endpoint": "search/bookmarks/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/search/bookmarks/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/search/bookmarks/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "search",
+      "bookmarks",
+      "$count"
+    ],
+    "Root": "search",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "search/microsoft.graph.query",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/search/microsoft.graph.query",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/search-query?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/search/microsoft.graph.query",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/search-query?view=graph-rest-beta",
     "Path": [
       "search",
       "microsoft.graph.query"
@@ -160,14 +216,25 @@
   },
   {
     "Endpoint": "search/qnas",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/search/qnas",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/search-searchentity-list-qnas?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/search-searchentity-post-qnas?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/search/qnas",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/search-searchentity-list-qnas?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/search-searchentity-post-qnas?view=graph-rest-beta"
     ],
     "Path": [
       "search",
@@ -178,35 +245,30 @@
     "Segment": "qnas"
   },
   {
-    "Endpoint": "search/qnas/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/search/qnas/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "search",
-      "qnas",
-      "$count"
-    ],
-    "Root": "search",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "search/qnas/{qna-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/search/qnas/{qna-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/search-qna-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/search-qna-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/search-qna-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/search/qnas/{qna-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/search-qna-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/search-qna-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/search-qna-delete?view=graph-rest-beta"
     ],
     "Path": [
       "search",
@@ -216,5 +278,24 @@
     "Root": "search",
     "Children": 0,
     "Segment": "{qna-id}"
+  },
+  {
+    "Endpoint": "search/qnas/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/search/qnas/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/search/qnas/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "search",
+      "qnas",
+      "$count"
+    ],
+    "Root": "search",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

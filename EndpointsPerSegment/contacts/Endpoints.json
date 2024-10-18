@@ -7,11 +7,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/orgcontact-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/orgcontact-list?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "contacts"
@@ -19,26 +27,6 @@
     "Root": "contacts",
     "Children": 7,
     "Segment": "contacts"
-  },
-  {
-    "Endpoint": "contacts/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "$count"
-    ],
-    "Root": "contacts",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "contacts/{orgContact-id}",
@@ -49,6 +37,11 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/orgcontact-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}",
     "Beta-Methods": [
@@ -56,26 +49,29 @@
       "Patch",
       "Delete"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/orgcontact-get?view=graph-rest-beta",
+      null,
+      null
+    ],
     "Path": [
       "contacts",
       "{orgContact-id}"
     ],
     "Root": "contacts",
-    "Children": 10,
+    "Children": 12,
     "Segment": "{orgContact-id}"
   },
   {
     "Endpoint": "contacts/{orgContact-id}/directReports",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/directReports",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/orgcontact-list-directreports?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/directReports",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/orgcontact-list-directreports?view=graph-rest-beta",
     "Path": [
       "contacts",
       "{orgContact-id}",
@@ -86,39 +82,15 @@
     "Segment": "directReports"
   },
   {
-    "Endpoint": "contacts/{orgContact-id}/directReports/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/directReports/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/directReports/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "directReports",
-      "$count"
-    ],
-    "Root": "contacts",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "contacts/{orgContact-id}/directReports/{directoryObject-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/directReports/{directoryObject-id}",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/directReports/{directoryObject-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
@@ -133,14 +105,12 @@
     "Endpoint": "contacts/{orgContact-id}/directReports/{directoryObject-id}/microsoft.graph.orgContact",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/directReports/{directoryObject-id}/microsoft.graph.orgContact",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/directReports/{directoryObject-id}/microsoft.graph.orgContact",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
@@ -156,14 +126,12 @@
     "Endpoint": "contacts/{orgContact-id}/directReports/{directoryObject-id}/microsoft.graph.user",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/directReports/{directoryObject-id}/microsoft.graph.user",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/directReports/{directoryObject-id}/microsoft.graph.user",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
@@ -176,17 +144,35 @@
     "Segment": "microsoft.graph.user"
   },
   {
+    "Endpoint": "contacts/{orgContact-id}/directReports/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/directReports/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/directReports/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "contacts",
+      "{orgContact-id}",
+      "directReports",
+      "$count"
+    ],
+    "Root": "contacts",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "contacts/{orgContact-id}/directReports/microsoft.graph.orgContact",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/directReports/microsoft.graph.orgContact",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/directReports/microsoft.graph.orgContact",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
@@ -201,14 +187,12 @@
     "Endpoint": "contacts/{orgContact-id}/directReports/microsoft.graph.orgContact/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/directReports/microsoft.graph.orgContact/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/directReports/microsoft.graph.orgContact/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
@@ -224,14 +208,12 @@
     "Endpoint": "contacts/{orgContact-id}/directReports/microsoft.graph.user",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/directReports/microsoft.graph.user",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/directReports/microsoft.graph.user",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
@@ -246,14 +228,12 @@
     "Endpoint": "contacts/{orgContact-id}/directReports/microsoft.graph.user/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/directReports/microsoft.graph.user/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/directReports/microsoft.graph.user/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
@@ -269,14 +249,12 @@
     "Endpoint": "contacts/{orgContact-id}/manager",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/manager",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/orgcontact-get-manager?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/manager",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/orgcontact-get-manager?view=graph-rest-beta",
     "Path": [
       "contacts",
       "{orgContact-id}",
@@ -290,57 +268,31 @@
     "Endpoint": "contacts/{orgContact-id}/memberOf",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/orgcontact-list-memberof?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/orgcontact-list-memberof?view=graph-rest-beta",
     "Path": [
       "contacts",
       "{orgContact-id}",
       "memberOf"
     ],
     "Root": "contacts",
-    "Children": 8,
+    "Children": 4,
     "Segment": "memberOf"
-  },
-  {
-    "Endpoint": "contacts/{orgContact-id}/memberOf/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "memberOf",
-      "$count"
-    ],
-    "Root": "contacts",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "contacts/{orgContact-id}/memberOf/{directoryObject-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf/{directoryObject-id}",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf/{directoryObject-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
@@ -348,67 +300,40 @@
       "{directoryObject-id}"
     ],
     "Root": "contacts",
-    "Children": 6,
+    "Children": 2,
     "Segment": "{directoryObject-id}"
   },
   {
-    "Endpoint": "contacts/{orgContact-id}/memberOf/{directoryObject-id}/microsoft.graph.application",
+    "Endpoint": "contacts/{orgContact-id}/memberOf/{directoryObject-id}/microsoft.graph.administrativeUnit",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf/{directoryObject-id}/microsoft.graph.application",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf/{directoryObject-id}/microsoft.graph.administrativeUnit",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf/{directoryObject-id}/microsoft.graph.application",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf/{directoryObject-id}/microsoft.graph.administrativeUnit",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
       "memberOf",
       "{directoryObject-id}",
-      "microsoft.graph.application"
+      "microsoft.graph.administrativeUnit"
     ],
     "Root": "contacts",
     "Children": 0,
-    "Segment": "microsoft.graph.application"
-  },
-  {
-    "Endpoint": "contacts/{orgContact-id}/memberOf/{directoryObject-id}/microsoft.graph.device",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf/{directoryObject-id}/microsoft.graph.device",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf/{directoryObject-id}/microsoft.graph.device",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "memberOf",
-      "{directoryObject-id}",
-      "microsoft.graph.device"
-    ],
-    "Root": "contacts",
-    "Children": 0,
-    "Segment": "microsoft.graph.device"
+    "Segment": "microsoft.graph.administrativeUnit"
   },
   {
     "Endpoint": "contacts/{orgContact-id}/memberOf/{directoryObject-id}/microsoft.graph.group",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf/{directoryObject-id}/microsoft.graph.group",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf/{directoryObject-id}/microsoft.graph.group",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
@@ -421,113 +346,19 @@
     "Segment": "microsoft.graph.group"
   },
   {
-    "Endpoint": "contacts/{orgContact-id}/memberOf/{directoryObject-id}/microsoft.graph.orgContact",
+    "Endpoint": "contacts/{orgContact-id}/memberOf/$count",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf/{directoryObject-id}/microsoft.graph.orgContact",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf/{directoryObject-id}/microsoft.graph.orgContact",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
       "memberOf",
-      "{directoryObject-id}",
-      "microsoft.graph.orgContact"
-    ],
-    "Root": "contacts",
-    "Children": 0,
-    "Segment": "microsoft.graph.orgContact"
-  },
-  {
-    "Endpoint": "contacts/{orgContact-id}/memberOf/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "memberOf",
-      "{directoryObject-id}",
-      "microsoft.graph.servicePrincipal"
-    ],
-    "Root": "contacts",
-    "Children": 0,
-    "Segment": "microsoft.graph.servicePrincipal"
-  },
-  {
-    "Endpoint": "contacts/{orgContact-id}/memberOf/{directoryObject-id}/microsoft.graph.user",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf/{directoryObject-id}/microsoft.graph.user",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf/{directoryObject-id}/microsoft.graph.user",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "memberOf",
-      "{directoryObject-id}",
-      "microsoft.graph.user"
-    ],
-    "Root": "contacts",
-    "Children": 0,
-    "Segment": "microsoft.graph.user"
-  },
-  {
-    "Endpoint": "contacts/{orgContact-id}/memberOf/microsoft.graph.application",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf/microsoft.graph.application",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf/microsoft.graph.application",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "memberOf",
-      "microsoft.graph.application"
-    ],
-    "Root": "contacts",
-    "Children": 1,
-    "Segment": "microsoft.graph.application"
-  },
-  {
-    "Endpoint": "contacts/{orgContact-id}/memberOf/microsoft.graph.application/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf/microsoft.graph.application/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf/microsoft.graph.application/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "memberOf",
-      "microsoft.graph.application",
       "$count"
     ],
     "Root": "contacts",
@@ -535,44 +366,40 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "contacts/{orgContact-id}/memberOf/microsoft.graph.device",
+    "Endpoint": "contacts/{orgContact-id}/memberOf/microsoft.graph.administrativeUnit",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf/microsoft.graph.device",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf/microsoft.graph.administrativeUnit",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf/microsoft.graph.device",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf/microsoft.graph.administrativeUnit",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
       "memberOf",
-      "microsoft.graph.device"
+      "microsoft.graph.administrativeUnit"
     ],
     "Root": "contacts",
     "Children": 1,
-    "Segment": "microsoft.graph.device"
+    "Segment": "microsoft.graph.administrativeUnit"
   },
   {
-    "Endpoint": "contacts/{orgContact-id}/memberOf/microsoft.graph.device/$count",
+    "Endpoint": "contacts/{orgContact-id}/memberOf/microsoft.graph.administrativeUnit/$count",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf/microsoft.graph.device/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf/microsoft.graph.administrativeUnit/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf/microsoft.graph.device/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf/microsoft.graph.administrativeUnit/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
       "memberOf",
-      "microsoft.graph.device",
+      "microsoft.graph.administrativeUnit",
       "$count"
     ],
     "Root": "contacts",
@@ -583,14 +410,12 @@
     "Endpoint": "contacts/{orgContact-id}/memberOf/microsoft.graph.group",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf/microsoft.graph.group",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf/microsoft.graph.group",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
@@ -605,14 +430,12 @@
     "Endpoint": "contacts/{orgContact-id}/memberOf/microsoft.graph.group/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf/microsoft.graph.group/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf/microsoft.graph.group/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
@@ -625,152 +448,15 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "contacts/{orgContact-id}/memberOf/microsoft.graph.orgContact",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf/microsoft.graph.orgContact",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf/microsoft.graph.orgContact",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "memberOf",
-      "microsoft.graph.orgContact"
-    ],
-    "Root": "contacts",
-    "Children": 1,
-    "Segment": "microsoft.graph.orgContact"
-  },
-  {
-    "Endpoint": "contacts/{orgContact-id}/memberOf/microsoft.graph.orgContact/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf/microsoft.graph.orgContact/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf/microsoft.graph.orgContact/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "memberOf",
-      "microsoft.graph.orgContact",
-      "$count"
-    ],
-    "Root": "contacts",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
-    "Endpoint": "contacts/{orgContact-id}/memberOf/microsoft.graph.servicePrincipal",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf/microsoft.graph.servicePrincipal",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "memberOf",
-      "microsoft.graph.servicePrincipal"
-    ],
-    "Root": "contacts",
-    "Children": 1,
-    "Segment": "microsoft.graph.servicePrincipal"
-  },
-  {
-    "Endpoint": "contacts/{orgContact-id}/memberOf/microsoft.graph.servicePrincipal/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf/microsoft.graph.servicePrincipal/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf/microsoft.graph.servicePrincipal/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "memberOf",
-      "microsoft.graph.servicePrincipal",
-      "$count"
-    ],
-    "Root": "contacts",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
-    "Endpoint": "contacts/{orgContact-id}/memberOf/microsoft.graph.user",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf/microsoft.graph.user",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf/microsoft.graph.user",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "memberOf",
-      "microsoft.graph.user"
-    ],
-    "Root": "contacts",
-    "Children": 1,
-    "Segment": "microsoft.graph.user"
-  },
-  {
-    "Endpoint": "contacts/{orgContact-id}/memberOf/microsoft.graph.user/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/memberOf/microsoft.graph.user/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/memberOf/microsoft.graph.user/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "memberOf",
-      "microsoft.graph.user",
-      "$count"
-    ],
-    "Root": "contacts",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "contacts/{orgContact-id}/microsoft.graph.checkMemberGroups",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/microsoft.graph.checkMemberGroups",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-checkmembergroups?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/microsoft.graph.checkMemberGroups",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-checkmembergroups?view=graph-rest-beta",
     "Path": [
       "contacts",
       "{orgContact-id}",
@@ -784,14 +470,12 @@
     "Endpoint": "contacts/{orgContact-id}/microsoft.graph.checkMemberObjects",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/microsoft.graph.checkMemberObjects",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/microsoft.graph.checkMemberObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
@@ -805,14 +489,12 @@
     "Endpoint": "contacts/{orgContact-id}/microsoft.graph.getMemberGroups",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/microsoft.graph.getMemberGroups",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getmembergroups?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/microsoft.graph.getMemberGroups",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-getmembergroups?view=graph-rest-beta",
     "Path": [
       "contacts",
       "{orgContact-id}",
@@ -826,14 +508,12 @@
     "Endpoint": "contacts/{orgContact-id}/microsoft.graph.getMemberObjects",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/microsoft.graph.getMemberObjects",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getmemberobjects?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/microsoft.graph.getMemberObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
@@ -847,14 +527,12 @@
     "Endpoint": "contacts/{orgContact-id}/microsoft.graph.restore",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/microsoft.graph.restore",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-restore?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/microsoft.graph.restore",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-restore?view=graph-rest-beta",
     "Path": [
       "contacts",
       "{orgContact-id}",
@@ -865,42 +543,57 @@
     "Segment": "microsoft.graph.restore"
   },
   {
-    "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf",
+    "Endpoint": "contacts/{orgContact-id}/microsoft.graph.retryServiceProvisioning",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/microsoft.graph.retryServiceProvisioning",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/microsoft.graph.retryServiceProvisioning",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/orgcontact-retryserviceprovisioning?view=graph-rest-beta",
     "Path": [
       "contacts",
       "{orgContact-id}",
-      "transitiveMemberOf"
+      "microsoft.graph.retryServiceProvisioning"
     ],
     "Root": "contacts",
-    "Children": 8,
-    "Segment": "transitiveMemberOf"
+    "Children": 0,
+    "Segment": "microsoft.graph.retryServiceProvisioning"
   },
   {
-    "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf/$count",
+    "Endpoint": "contacts/{orgContact-id}/serviceProvisioningErrors",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/serviceProvisioningErrors",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
-      "transitiveMemberOf",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "contacts",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "contacts/{orgContact-id}/serviceProvisioningErrors/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/serviceProvisioningErrors/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "contacts",
+      "{orgContact-id}",
+      "serviceProvisioningErrors",
       "$count"
     ],
     "Root": "contacts",
@@ -908,17 +601,34 @@
     "Segment": "$count"
   },
   {
+    "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/orgcontact-list-transitivememberof?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/orgcontact-list-transitivememberof?view=graph-rest-beta",
+    "Path": [
+      "contacts",
+      "{orgContact-id}",
+      "transitiveMemberOf"
+    ],
+    "Root": "contacts",
+    "Children": 4,
+    "Segment": "transitiveMemberOf"
+  },
+  {
     "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf/{directoryObject-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf/{directoryObject-id}",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf/{directoryObject-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
@@ -926,67 +636,40 @@
       "{directoryObject-id}"
     ],
     "Root": "contacts",
-    "Children": 6,
+    "Children": 2,
     "Segment": "{directoryObject-id}"
   },
   {
-    "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.application",
+    "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.administrativeUnit",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.application",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.administrativeUnit",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.application",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.administrativeUnit",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
       "transitiveMemberOf",
       "{directoryObject-id}",
-      "microsoft.graph.application"
+      "microsoft.graph.administrativeUnit"
     ],
     "Root": "contacts",
     "Children": 0,
-    "Segment": "microsoft.graph.application"
-  },
-  {
-    "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.device",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.device",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.device",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "transitiveMemberOf",
-      "{directoryObject-id}",
-      "microsoft.graph.device"
-    ],
-    "Root": "contacts",
-    "Children": 0,
-    "Segment": "microsoft.graph.device"
+    "Segment": "microsoft.graph.administrativeUnit"
   },
   {
     "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.group",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.group",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.group",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
@@ -999,113 +682,19 @@
     "Segment": "microsoft.graph.group"
   },
   {
-    "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.orgContact",
+    "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf/$count",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.orgContact",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.orgContact",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
       "transitiveMemberOf",
-      "{directoryObject-id}",
-      "microsoft.graph.orgContact"
-    ],
-    "Root": "contacts",
-    "Children": 0,
-    "Segment": "microsoft.graph.orgContact"
-  },
-  {
-    "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "transitiveMemberOf",
-      "{directoryObject-id}",
-      "microsoft.graph.servicePrincipal"
-    ],
-    "Root": "contacts",
-    "Children": 0,
-    "Segment": "microsoft.graph.servicePrincipal"
-  },
-  {
-    "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.user",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.user",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.user",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "transitiveMemberOf",
-      "{directoryObject-id}",
-      "microsoft.graph.user"
-    ],
-    "Root": "contacts",
-    "Children": 0,
-    "Segment": "microsoft.graph.user"
-  },
-  {
-    "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.application",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.application",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.application",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "transitiveMemberOf",
-      "microsoft.graph.application"
-    ],
-    "Root": "contacts",
-    "Children": 1,
-    "Segment": "microsoft.graph.application"
-  },
-  {
-    "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.application/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.application/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.application/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "transitiveMemberOf",
-      "microsoft.graph.application",
       "$count"
     ],
     "Root": "contacts",
@@ -1113,44 +702,40 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.device",
+    "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.administrativeUnit",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.device",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.administrativeUnit",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.device",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.administrativeUnit",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
       "transitiveMemberOf",
-      "microsoft.graph.device"
+      "microsoft.graph.administrativeUnit"
     ],
     "Root": "contacts",
     "Children": 1,
-    "Segment": "microsoft.graph.device"
+    "Segment": "microsoft.graph.administrativeUnit"
   },
   {
-    "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.device/$count",
+    "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.administrativeUnit/$count",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.device/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.administrativeUnit/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.device/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.administrativeUnit/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
       "transitiveMemberOf",
-      "microsoft.graph.device",
+      "microsoft.graph.administrativeUnit",
       "$count"
     ],
     "Root": "contacts",
@@ -1161,14 +746,12 @@
     "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.group",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.group",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.group",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
@@ -1183,14 +766,12 @@
     "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.group/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.group/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.group/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
@@ -1203,150 +784,15 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.orgContact",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.orgContact",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.orgContact",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "transitiveMemberOf",
-      "microsoft.graph.orgContact"
-    ],
-    "Root": "contacts",
-    "Children": 1,
-    "Segment": "microsoft.graph.orgContact"
-  },
-  {
-    "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.orgContact/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.orgContact/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.orgContact/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "transitiveMemberOf",
-      "microsoft.graph.orgContact",
-      "$count"
-    ],
-    "Root": "contacts",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
-    "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.servicePrincipal",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.servicePrincipal",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "transitiveMemberOf",
-      "microsoft.graph.servicePrincipal"
-    ],
-    "Root": "contacts",
-    "Children": 1,
-    "Segment": "microsoft.graph.servicePrincipal"
-  },
-  {
-    "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.servicePrincipal/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.servicePrincipal/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.servicePrincipal/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "transitiveMemberOf",
-      "microsoft.graph.servicePrincipal",
-      "$count"
-    ],
-    "Root": "contacts",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
-    "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.user",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.user",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.user",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "transitiveMemberOf",
-      "microsoft.graph.user"
-    ],
-    "Root": "contacts",
-    "Children": 1,
-    "Segment": "microsoft.graph.user"
-  },
-  {
-    "Endpoint": "contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.user/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.user/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveMemberOf/microsoft.graph.user/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "transitiveMemberOf",
-      "microsoft.graph.user",
-      "$count"
-    ],
-    "Root": "contacts",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "contacts/{orgContact-id}/transitiveReports",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/orgcontact-list-transitivememberof?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveReports",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/orgcontact-get-transitivereports?view=graph-rest-beta",
     "Path": [
       "contacts",
       "{orgContact-id}",
@@ -1357,35 +803,15 @@
     "Segment": "transitiveReports"
   },
   {
-    "Endpoint": "contacts/{orgContact-id}/transitiveReports/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveReports/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "contacts",
-      "{orgContact-id}",
-      "transitiveReports",
-      "$count"
-    ],
-    "Root": "contacts",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "contacts/{orgContact-id}/transitiveReports/{directoryObject-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/orgcontact-list-transitivememberof?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveReports/{directoryObject-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "contacts",
       "{orgContact-id}",
@@ -1397,17 +823,53 @@
     "Segment": "{directoryObject-id}"
   },
   {
+    "Endpoint": "contacts/{orgContact-id}/transitiveReports/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/orgcontact-list-transitivememberof?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/contacts/{orgContact-id}/transitiveReports/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "contacts",
+      "{orgContact-id}",
+      "transitiveReports",
+      "$count"
+    ],
+    "Root": "contacts",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "contacts/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/contacts/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "contacts",
+      "$count"
+    ],
+    "Root": "contacts",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "contacts/microsoft.graph.delta()",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/microsoft.graph.delta()",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/orgcontact-delta?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/microsoft.graph.delta()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/orgcontact-delta?view=graph-rest-beta",
     "Path": [
       "contacts",
       "microsoft.graph.delta()"
@@ -1420,12 +882,12 @@
     "Endpoint": "contacts/microsoft.graph.getAvailableExtensionProperties",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/microsoft.graph.getAvailableExtensionProperties",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getavailableextensionproperties?view=graph-rest-1.0",
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/orgcontact-delta?view=graph-rest-beta",
     "Path": [
       "contacts",
       "microsoft.graph.getAvailableExtensionProperties"
@@ -1438,14 +900,12 @@
     "Endpoint": "contacts/microsoft.graph.getByIds",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/microsoft.graph.getByIds",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getbyids?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/microsoft.graph.getByIds",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-getbyids?view=graph-rest-beta",
     "Path": [
       "contacts",
       "microsoft.graph.getByIds"
@@ -1459,11 +919,11 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getbyids?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/microsoft.graph.getUserOwnedObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-getuserownedobjects?view=graph-rest-beta",
     "Path": [
       "contacts",
       "microsoft.graph.getUserOwnedObjects"
@@ -1476,14 +936,12 @@
     "Endpoint": "contacts/microsoft.graph.validateProperties",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/contacts/microsoft.graph.validateProperties",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-validateproperties?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/contacts/microsoft.graph.validateProperties",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-validateproperties?view=graph-rest-beta",
     "Path": [
       "contacts",
       "microsoft.graph.validateProperties"

@@ -4,11 +4,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore",
     "Beta-Methods": [
       "Get",
       "Patch"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/termstore-store-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/termstore-store-update?view=graph-rest-beta"
     ],
     "Path": [
       "termStore"
@@ -22,11 +30,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/termstore-list-groups?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/termstore-group-post?view=graph-rest-beta"
     ],
     "Path": [
       "termStore",
@@ -37,35 +53,25 @@
     "Segment": "groups"
   },
   {
-    "Endpoint": "termStore/groups/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "groups",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/groups/{group-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/termstore-group-get?view=graph-rest-beta",
+      null,
+      "https://learn.microsoft.com/graph/api/termstore-group-delete?view=graph-rest-beta"
     ],
     "Path": [
       "termStore",
@@ -81,11 +87,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/termstore-group-list-sets?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "termStore",
@@ -98,37 +112,25 @@
     "Segment": "sets"
   },
   {
-    "Endpoint": "termStore/groups/{group-id}/sets/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "groups",
-      "{group-id}",
-      "sets",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/groups/{group-id}/sets/{set-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -146,11 +148,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/children",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -165,39 +175,25 @@
     "Segment": "children"
   },
   {
-    "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/children/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/children/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "groups",
-      "{group-id}",
-      "sets",
-      "{set-id}",
-      "children",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/children/{term-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -217,11 +213,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -238,41 +242,25 @@
     "Segment": "children"
   },
   {
-    "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "groups",
-      "{group-id}",
-      "sets",
-      "{set-id}",
-      "children",
-      "{term-id}",
-      "children",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children/{term-id1}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children/{term-id1}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -294,11 +282,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children/{term-id1}/relations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -317,43 +313,25 @@
     "Segment": "relations"
   },
   {
-    "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "groups",
-      "{group-id}",
-      "sets",
-      "{set-id}",
-      "children",
-      "{term-id}",
-      "children",
-      "{term-id1}",
-      "relations",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -377,11 +355,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}/fromTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "groups",
@@ -405,11 +386,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "groups",
@@ -433,11 +417,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}/toTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "groups",
@@ -457,15 +444,48 @@
     "Segment": "toTerm"
   },
   {
+    "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "groups",
+      "{group-id}",
+      "sets",
+      "{set-id}",
+      "children",
+      "{term-id}",
+      "children",
+      "{term-id1}",
+      "relations",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children/{term-id1}/set",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children/{term-id1}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "groups",
@@ -483,15 +503,51 @@
     "Segment": "set"
   },
   {
+    "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "groups",
+      "{group-id}",
+      "sets",
+      "{set-id}",
+      "children",
+      "{term-id}",
+      "children",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/relations",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/relations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -508,41 +564,25 @@
     "Segment": "relations"
   },
   {
-    "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/relations/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/relations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "groups",
-      "{group-id}",
-      "sets",
-      "{set-id}",
-      "children",
-      "{term-id}",
-      "relations",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/relations/{relation-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/relations/{relation-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -564,11 +604,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/relations/{relation-id}/fromTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "groups",
@@ -590,11 +633,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/relations/{relation-id}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "groups",
@@ -616,11 +662,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/relations/{relation-id}/toTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "groups",
@@ -638,15 +687,46 @@
     "Segment": "toTerm"
   },
   {
+    "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/relations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/relations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "groups",
+      "{group-id}",
+      "sets",
+      "{set-id}",
+      "children",
+      "{term-id}",
+      "relations",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/set",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "groups",
@@ -662,16 +742,51 @@
     "Segment": "set"
   },
   {
+    "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/children/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/children/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "groups",
+      "{group-id}",
+      "sets",
+      "{set-id}",
+      "children",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/parentGroup",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/parentGroup",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -690,11 +805,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/relations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -709,39 +832,25 @@
     "Segment": "relations"
   },
   {
-    "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/relations/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/relations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "groups",
-      "{group-id}",
-      "sets",
-      "{set-id}",
-      "relations",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/relations/{relation-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/relations/{relation-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -761,11 +870,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/relations/{relation-id}/fromTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "groups",
@@ -785,11 +897,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/relations/{relation-id}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "groups",
@@ -809,11 +924,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/relations/{relation-id}/toTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "groups",
@@ -829,15 +947,49 @@
     "Segment": "toTerm"
   },
   {
+    "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/relations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/relations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "groups",
+      "{group-id}",
+      "sets",
+      "{set-id}",
+      "relations",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/terms",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/terms",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -852,39 +1004,25 @@
     "Segment": "terms"
   },
   {
-    "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/terms/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/terms/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "groups",
-      "{group-id}",
-      "sets",
-      "{set-id}",
-      "terms",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/termstore-term-get?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -904,11 +1042,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -925,41 +1071,25 @@
     "Segment": "children"
   },
   {
-    "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "groups",
-      "{group-id}",
-      "sets",
-      "{set-id}",
-      "terms",
-      "{term-id}",
-      "children",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children/{term-id1}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children/{term-id1}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -981,11 +1111,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -1004,43 +1142,25 @@
     "Segment": "relations"
   },
   {
-    "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "groups",
-      "{group-id}",
-      "sets",
-      "{set-id}",
-      "terms",
-      "{term-id}",
-      "children",
-      "{term-id1}",
-      "relations",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -1064,11 +1184,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/fromTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "groups",
@@ -1092,11 +1215,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "groups",
@@ -1120,11 +1246,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/toTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "groups",
@@ -1144,15 +1273,48 @@
     "Segment": "toTerm"
   },
   {
+    "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "groups",
+      "{group-id}",
+      "sets",
+      "{set-id}",
+      "terms",
+      "{term-id}",
+      "children",
+      "{term-id1}",
+      "relations",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children/{term-id1}/set",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children/{term-id1}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "groups",
@@ -1170,15 +1332,51 @@
     "Segment": "set"
   },
   {
+    "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "groups",
+      "{group-id}",
+      "sets",
+      "{set-id}",
+      "terms",
+      "{term-id}",
+      "children",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/relations",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/relations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -1195,41 +1393,25 @@
     "Segment": "relations"
   },
   {
-    "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/relations/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/relations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "groups",
-      "{group-id}",
-      "sets",
-      "{set-id}",
-      "terms",
-      "{term-id}",
-      "relations",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/relations/{relation-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/relations/{relation-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -1251,11 +1433,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/relations/{relation-id}/fromTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "groups",
@@ -1277,11 +1462,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/relations/{relation-id}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "groups",
@@ -1303,11 +1491,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/relations/{relation-id}/toTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "groups",
@@ -1325,15 +1516,46 @@
     "Segment": "toTerm"
   },
   {
+    "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/relations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/relations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "groups",
+      "{group-id}",
+      "sets",
+      "{set-id}",
+      "terms",
+      "{term-id}",
+      "relations",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/set",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "groups",
@@ -1349,15 +1571,95 @@
     "Segment": "set"
   },
   {
+    "Endpoint": "termStore/groups/{group-id}/sets/{set-id}/terms/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/{set-id}/terms/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "groups",
+      "{group-id}",
+      "sets",
+      "{set-id}",
+      "terms",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "termStore/groups/{group-id}/sets/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/{group-id}/sets/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "groups",
+      "{group-id}",
+      "sets",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "termStore/groups/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/groups/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "groups",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/sets",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -1368,35 +1670,25 @@
     "Segment": "sets"
   },
   {
-    "Endpoint": "termStore/sets/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "sets",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/sets/{set-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/termstore-set-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/termstore-set-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/termstore-set-delete?view=graph-rest-beta"
     ],
     "Path": [
       "termStore",
@@ -1412,11 +1704,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/children",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/termstore-term-list-children?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/termstore-term-post?view=graph-rest-beta"
     ],
     "Path": [
       "termStore",
@@ -1429,37 +1729,25 @@
     "Segment": "children"
   },
   {
-    "Endpoint": "termStore/sets/{set-id}/children/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/children/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "sets",
-      "{set-id}",
-      "children",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/sets/{set-id}/children/{term-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/children/{term-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -1477,11 +1765,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/children/{term-id}/children",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -1496,39 +1792,25 @@
     "Segment": "children"
   },
   {
-    "Endpoint": "termStore/sets/{set-id}/children/{term-id}/children/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/children/{term-id}/children/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "sets",
-      "{set-id}",
-      "children",
-      "{term-id}",
-      "children",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/sets/{set-id}/children/{term-id}/children/{term-id1}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/children/{term-id}/children/{term-id1}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -1548,11 +1830,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/children/{term-id}/children/{term-id1}/relations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -1569,41 +1859,25 @@
     "Segment": "relations"
   },
   {
-    "Endpoint": "termStore/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "sets",
-      "{set-id}",
-      "children",
-      "{term-id}",
-      "children",
-      "{term-id1}",
-      "relations",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -1625,11 +1899,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}/fromTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -1651,11 +1928,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -1677,11 +1957,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}/toTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -1699,15 +1982,46 @@
     "Segment": "toTerm"
   },
   {
+    "Endpoint": "termStore/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "sets",
+      "{set-id}",
+      "children",
+      "{term-id}",
+      "children",
+      "{term-id1}",
+      "relations",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/sets/{set-id}/children/{term-id}/children/{term-id1}/set",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/children/{term-id}/children/{term-id1}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -1723,15 +2037,49 @@
     "Segment": "set"
   },
   {
+    "Endpoint": "termStore/sets/{set-id}/children/{term-id}/children/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/children/{term-id}/children/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "sets",
+      "{set-id}",
+      "children",
+      "{term-id}",
+      "children",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/sets/{set-id}/children/{term-id}/relations",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/children/{term-id}/relations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -1746,39 +2094,25 @@
     "Segment": "relations"
   },
   {
-    "Endpoint": "termStore/sets/{set-id}/children/{term-id}/relations/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/children/{term-id}/relations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "sets",
-      "{set-id}",
-      "children",
-      "{term-id}",
-      "relations",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/sets/{set-id}/children/{term-id}/relations/{relation-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/children/{term-id}/relations/{relation-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -1798,11 +2132,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/children/{term-id}/relations/{relation-id}/fromTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -1822,11 +2159,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/children/{term-id}/relations/{relation-id}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -1846,11 +2186,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/children/{term-id}/relations/{relation-id}/toTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -1866,15 +2209,44 @@
     "Segment": "toTerm"
   },
   {
+    "Endpoint": "termStore/sets/{set-id}/children/{term-id}/relations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/children/{term-id}/relations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "sets",
+      "{set-id}",
+      "children",
+      "{term-id}",
+      "relations",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/sets/{set-id}/children/{term-id}/set",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/children/{term-id}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -1888,16 +2260,49 @@
     "Segment": "set"
   },
   {
+    "Endpoint": "termStore/sets/{set-id}/children/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/children/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "sets",
+      "{set-id}",
+      "children",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/sets/{set-id}/parentGroup",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -1914,11 +2319,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -1932,38 +2345,25 @@
     "Segment": "sets"
   },
   {
-    "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "sets",
-      "{set-id}",
-      "parentGroup",
-      "sets",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -1982,11 +2382,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -2002,40 +2410,25 @@
     "Segment": "children"
   },
   {
-    "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "sets",
-      "{set-id}",
-      "parentGroup",
-      "sets",
-      "{set-id1}",
-      "children",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -2056,11 +2449,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -2078,42 +2479,25 @@
     "Segment": "children"
   },
   {
-    "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "sets",
-      "{set-id}",
-      "parentGroup",
-      "sets",
-      "{set-id1}",
-      "children",
-      "{term-id}",
-      "children",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -2136,11 +2520,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}/relations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -2160,44 +2552,25 @@
     "Segment": "relations"
   },
   {
-    "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}/relations/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}/relations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "sets",
-      "{set-id}",
-      "parentGroup",
-      "sets",
-      "{set-id1}",
-      "children",
-      "{term-id}",
-      "children",
-      "{term-id1}",
-      "relations",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}/relations/{relation-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}/relations/{relation-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -2222,11 +2595,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}/relations/{relation-id}/fromTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -2251,11 +2627,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}/relations/{relation-id}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -2280,11 +2659,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}/relations/{relation-id}/toTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -2305,15 +2687,49 @@
     "Segment": "toTerm"
   },
   {
+    "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}/relations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}/relations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "sets",
+      "{set-id}",
+      "parentGroup",
+      "sets",
+      "{set-id1}",
+      "children",
+      "{term-id}",
+      "children",
+      "{term-id1}",
+      "relations",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}/set",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -2332,15 +2748,52 @@
     "Segment": "set"
   },
   {
+    "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "sets",
+      "{set-id}",
+      "parentGroup",
+      "sets",
+      "{set-id1}",
+      "children",
+      "{term-id}",
+      "children",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/relations",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/relations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -2358,42 +2811,25 @@
     "Segment": "relations"
   },
   {
-    "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/relations/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/relations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "sets",
-      "{set-id}",
-      "parentGroup",
-      "sets",
-      "{set-id1}",
-      "children",
-      "{term-id}",
-      "relations",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/relations/{relation-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/relations/{relation-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -2416,11 +2852,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/relations/{relation-id}/fromTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -2443,11 +2882,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/relations/{relation-id}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -2470,11 +2912,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/relations/{relation-id}/toTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -2493,15 +2938,47 @@
     "Segment": "toTerm"
   },
   {
+    "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/relations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/relations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "sets",
+      "{set-id}",
+      "parentGroup",
+      "sets",
+      "{set-id1}",
+      "children",
+      "{term-id}",
+      "relations",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/set",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -2518,15 +2995,50 @@
     "Segment": "set"
   },
   {
+    "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "sets",
+      "{set-id}",
+      "parentGroup",
+      "sets",
+      "{set-id1}",
+      "children",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/relations",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/relations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -2542,40 +3054,25 @@
     "Segment": "relations"
   },
   {
-    "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/relations/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/relations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "sets",
-      "{set-id}",
-      "parentGroup",
-      "sets",
-      "{set-id1}",
-      "relations",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/relations/{relation-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/relations/{relation-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -2596,11 +3093,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/relations/{relation-id}/fromTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -2621,11 +3121,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/relations/{relation-id}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -2646,11 +3149,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/relations/{relation-id}/toTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -2667,15 +3173,50 @@
     "Segment": "toTerm"
   },
   {
+    "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/relations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/relations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "sets",
+      "{set-id}",
+      "parentGroup",
+      "sets",
+      "{set-id1}",
+      "relations",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -2691,40 +3232,25 @@
     "Segment": "terms"
   },
   {
-    "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "sets",
-      "{set-id}",
-      "parentGroup",
-      "sets",
-      "{set-id1}",
-      "terms",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -2745,11 +3271,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -2767,42 +3301,25 @@
     "Segment": "children"
   },
   {
-    "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "sets",
-      "{set-id}",
-      "parentGroup",
-      "sets",
-      "{set-id1}",
-      "terms",
-      "{term-id}",
-      "children",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -2825,11 +3342,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}/relations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -2849,44 +3374,25 @@
     "Segment": "relations"
   },
   {
-    "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}/relations/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}/relations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "sets",
-      "{set-id}",
-      "parentGroup",
-      "sets",
-      "{set-id1}",
-      "terms",
-      "{term-id}",
-      "children",
-      "{term-id1}",
-      "relations",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}/relations/{relation-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}/relations/{relation-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -2911,11 +3417,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/fromTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -2940,11 +3449,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -2969,11 +3481,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/toTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -2994,15 +3509,49 @@
     "Segment": "toTerm"
   },
   {
+    "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}/relations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}/relations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "sets",
+      "{set-id}",
+      "parentGroup",
+      "sets",
+      "{set-id1}",
+      "terms",
+      "{term-id}",
+      "children",
+      "{term-id1}",
+      "relations",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}/set",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -3021,15 +3570,52 @@
     "Segment": "set"
   },
   {
+    "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "sets",
+      "{set-id}",
+      "parentGroup",
+      "sets",
+      "{set-id1}",
+      "terms",
+      "{term-id}",
+      "children",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/relations",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/relations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -3047,42 +3633,25 @@
     "Segment": "relations"
   },
   {
-    "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/relations/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/relations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "sets",
-      "{set-id}",
-      "parentGroup",
-      "sets",
-      "{set-id1}",
-      "terms",
-      "{term-id}",
-      "relations",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/relations/{relation-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/relations/{relation-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -3105,11 +3674,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/relations/{relation-id}/fromTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -3132,11 +3704,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/relations/{relation-id}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -3159,11 +3734,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/relations/{relation-id}/toTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -3182,15 +3760,47 @@
     "Segment": "toTerm"
   },
   {
+    "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/relations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/relations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "sets",
+      "{set-id}",
+      "parentGroup",
+      "sets",
+      "{set-id1}",
+      "terms",
+      "{term-id}",
+      "relations",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/set",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -3207,15 +3817,75 @@
     "Segment": "set"
   },
   {
+    "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "sets",
+      "{set-id}",
+      "parentGroup",
+      "sets",
+      "{set-id1}",
+      "terms",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "termStore/sets/{set-id}/parentGroup/sets/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/parentGroup/sets/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "sets",
+      "{set-id}",
+      "parentGroup",
+      "sets",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/sets/{set-id}/relations",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/relations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/termstore-term-list-relations?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "termStore",
@@ -3228,37 +3898,25 @@
     "Segment": "relations"
   },
   {
-    "Endpoint": "termStore/sets/{set-id}/relations/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/relations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "sets",
-      "{set-id}",
-      "relations",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/sets/{set-id}/relations/{relation-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/relations/{relation-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -3276,11 +3934,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/relations/{relation-id}/fromTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -3298,11 +3959,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/relations/{relation-id}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -3320,11 +3984,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/relations/{relation-id}/toTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -3338,15 +4005,47 @@
     "Segment": "toTerm"
   },
   {
+    "Endpoint": "termStore/sets/{set-id}/relations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/relations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "sets",
+      "{set-id}",
+      "relations",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/sets/{set-id}/terms",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/terms",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -3359,37 +4058,25 @@
     "Segment": "terms"
   },
   {
-    "Endpoint": "termStore/sets/{set-id}/terms/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/terms/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "sets",
-      "{set-id}",
-      "terms",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/sets/{set-id}/terms/{term-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/terms/{term-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/termstore-term-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/termstore-term-delete?view=graph-rest-beta"
     ],
     "Path": [
       "termStore",
@@ -3407,11 +4094,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/terms/{term-id}/children",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -3426,39 +4121,25 @@
     "Segment": "children"
   },
   {
-    "Endpoint": "termStore/sets/{set-id}/terms/{term-id}/children/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/terms/{term-id}/children/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "sets",
-      "{set-id}",
-      "terms",
-      "{term-id}",
-      "children",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -3478,11 +4159,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -3499,41 +4188,25 @@
     "Segment": "relations"
   },
   {
-    "Endpoint": "termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "sets",
-      "{set-id}",
-      "terms",
-      "{term-id}",
-      "children",
-      "{term-id1}",
-      "relations",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -3555,11 +4228,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/fromTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -3581,11 +4257,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -3607,11 +4286,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/toTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -3629,15 +4311,46 @@
     "Segment": "toTerm"
   },
   {
+    "Endpoint": "termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "sets",
+      "{set-id}",
+      "terms",
+      "{term-id}",
+      "children",
+      "{term-id1}",
+      "relations",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}/set",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -3653,15 +4366,49 @@
     "Segment": "set"
   },
   {
+    "Endpoint": "termStore/sets/{set-id}/terms/{term-id}/children/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/terms/{term-id}/children/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "sets",
+      "{set-id}",
+      "terms",
+      "{term-id}",
+      "children",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/sets/{set-id}/terms/{term-id}/relations",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/terms/{term-id}/relations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -3676,39 +4423,25 @@
     "Segment": "relations"
   },
   {
-    "Endpoint": "termStore/sets/{set-id}/terms/{term-id}/relations/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/terms/{term-id}/relations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "termStore",
-      "sets",
-      "{set-id}",
-      "terms",
-      "{term-id}",
-      "relations",
-      "$count"
-    ],
-    "Root": "termStore",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "termStore/sets/{set-id}/terms/{term-id}/relations/{relation-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/terms/{term-id}/relations/{relation-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "termStore",
@@ -3728,11 +4461,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/terms/{term-id}/relations/{relation-id}/fromTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -3752,11 +4488,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/terms/{term-id}/relations/{relation-id}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -3776,11 +4515,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/terms/{term-id}/relations/{relation-id}/toTerm",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -3796,15 +4538,44 @@
     "Segment": "toTerm"
   },
   {
+    "Endpoint": "termStore/sets/{set-id}/terms/{term-id}/relations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/terms/{term-id}/relations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "sets",
+      "{set-id}",
+      "terms",
+      "{term-id}",
+      "relations",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "termStore/sets/{set-id}/terms/{term-id}/set",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/terms/{term-id}/set",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "termStore",
       "sets",
@@ -3816,5 +4587,51 @@
     "Root": "termStore",
     "Children": 0,
     "Segment": "set"
+  },
+  {
+    "Endpoint": "termStore/sets/{set-id}/terms/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/{set-id}/terms/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "sets",
+      "{set-id}",
+      "terms",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "termStore/sets/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/termStore/sets/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "termStore",
+      "sets",
+      "$count"
+    ],
+    "Root": "termStore",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

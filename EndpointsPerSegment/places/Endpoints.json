@@ -1,81 +1,67 @@
 [
   {
     "Endpoint": "places",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/places",
-    "v1.0-Methods": [
-      "Get",
-      "Post"
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
     ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/places",
-    "Beta-Methods": [
-      "Get",
-      "Post"
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "places"
     ],
     "Root": "places",
-    "Children": 3,
+    "Children": 4,
     "Segment": "places"
-  },
-  {
-    "Endpoint": "places/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/places/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/places/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "places",
-      "$count"
-    ],
-    "Root": "places",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "places/{place-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/places/{place-id}",
     "v1.0-Methods": [
-      "Get",
       "Patch",
       "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/place-update?view=graph-rest-1.0",
+      null
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/places/{place-id}",
     "Beta-Methods": [
-      "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/place-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "places",
       "{place-id}"
     ],
     "Root": "places",
-    "Children": 1,
+    "Children": 2,
     "Segment": "{place-id}"
   },
   {
     "Endpoint": "places/{place-id}/microsoft.graph.room",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/places/{place-id}/microsoft.graph.room",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/place-list?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/places/{place-id}/microsoft.graph.room",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/place-list?view=graph-rest-beta",
     "Path": [
       "places",
       "{place-id}",
@@ -86,17 +72,289 @@
     "Segment": "microsoft.graph.room"
   },
   {
+    "Endpoint": "places/{place-id}/microsoft.graph.roomList",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/places/{place-id}/microsoft.graph.roomList",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/places/{place-id}/microsoft.graph.roomList",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "places",
+      "{place-id}",
+      "microsoft.graph.roomList"
+    ],
+    "Root": "places",
+    "Children": 4,
+    "Segment": "microsoft.graph.roomList"
+  },
+  {
+    "Endpoint": "places/{place-id}/microsoft.graph.roomList/rooms",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/places/{place-id}/microsoft.graph.roomList/rooms",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/places/{place-id}/microsoft.graph.roomList/rooms",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "places",
+      "{place-id}",
+      "microsoft.graph.roomList",
+      "rooms"
+    ],
+    "Root": "places",
+    "Children": 2,
+    "Segment": "rooms"
+  },
+  {
+    "Endpoint": "places/{place-id}/microsoft.graph.roomList/rooms/{room-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/places/{place-id}/microsoft.graph.roomList/rooms/{room-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/places/{place-id}/microsoft.graph.roomList/rooms/{room-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "places",
+      "{place-id}",
+      "microsoft.graph.roomList",
+      "rooms",
+      "{room-id}"
+    ],
+    "Root": "places",
+    "Children": 0,
+    "Segment": "{room-id}"
+  },
+  {
+    "Endpoint": "places/{place-id}/microsoft.graph.roomList/rooms/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/places/{place-id}/microsoft.graph.roomList/rooms/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/places/{place-id}/microsoft.graph.roomList/rooms/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "places",
+      "{place-id}",
+      "microsoft.graph.roomList",
+      "rooms",
+      "$count"
+    ],
+    "Root": "places",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "places/{place-id}/microsoft.graph.roomList/rooms(placeId='{placeId}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/places/{place-id}/microsoft.graph.roomList/rooms(placeId='{placeId}')",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "places",
+      "{place-id}",
+      "microsoft.graph.roomList",
+      "rooms(placeId='{placeId}')"
+    ],
+    "Root": "places",
+    "Children": 0,
+    "Segment": "rooms(placeId='{placeId}')"
+  },
+  {
+    "Endpoint": "places/{place-id}/microsoft.graph.roomList/workspaces",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/places/{place-id}/microsoft.graph.roomList/workspaces",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "places",
+      "{place-id}",
+      "microsoft.graph.roomList",
+      "workspaces"
+    ],
+    "Root": "places",
+    "Children": 2,
+    "Segment": "workspaces"
+  },
+  {
+    "Endpoint": "places/{place-id}/microsoft.graph.roomList/workspaces/{workspace-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/places/{place-id}/microsoft.graph.roomList/workspaces/{workspace-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "places",
+      "{place-id}",
+      "microsoft.graph.roomList",
+      "workspaces",
+      "{workspace-id}"
+    ],
+    "Root": "places",
+    "Children": 0,
+    "Segment": "{workspace-id}"
+  },
+  {
+    "Endpoint": "places/{place-id}/microsoft.graph.roomList/workspaces/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/places/{place-id}/microsoft.graph.roomList/workspaces/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "places",
+      "{place-id}",
+      "microsoft.graph.roomList",
+      "workspaces",
+      "$count"
+    ],
+    "Root": "places",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "places/{place-id}/microsoft.graph.roomList/workspaces(placeId='{placeId}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/places/{place-id}/microsoft.graph.roomList/workspaces(placeId='{placeId}')",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "places",
+      "{place-id}",
+      "microsoft.graph.roomList",
+      "workspaces(placeId='{placeId}')"
+    ],
+    "Root": "places",
+    "Children": 0,
+    "Segment": "workspaces(placeId='{placeId}')"
+  },
+  {
+    "Endpoint": "places/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/places/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/places/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "places",
+      "$count"
+    ],
+    "Root": "places",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "places/microsoft.graph.room",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/places/microsoft.graph.room",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/place-list?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/places/microsoft.graph.room",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/place-list?view=graph-rest-beta",
     "Path": [
       "places",
       "microsoft.graph.room"
@@ -109,17 +367,52 @@
     "Endpoint": "places/microsoft.graph.room/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/places/microsoft.graph.room/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/places/microsoft.graph.room/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "places",
       "microsoft.graph.room",
+      "$count"
+    ],
+    "Root": "places",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "places/microsoft.graph.roomList",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/places/microsoft.graph.roomList",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/places/microsoft.graph.roomList",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "places",
+      "microsoft.graph.roomList"
+    ],
+    "Root": "places",
+    "Children": 1,
+    "Segment": "microsoft.graph.roomList"
+  },
+  {
+    "Endpoint": "places/microsoft.graph.roomList/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/places/microsoft.graph.roomList/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/places/microsoft.graph.roomList/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "places",
+      "microsoft.graph.roomList",
       "$count"
     ],
     "Root": "places",

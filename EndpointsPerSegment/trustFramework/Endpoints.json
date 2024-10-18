@@ -4,11 +4,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/trustFramework",
     "Beta-Methods": [
       "Get",
       "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "trustFramework"
@@ -22,11 +30,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/trustFramework/keySets",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/trustframework-list-keysets?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/trustframework-post-keysets?view=graph-rest-beta"
     ],
     "Path": [
       "trustFramework",
@@ -37,29 +53,14 @@
     "Segment": "keySets"
   },
   {
-    "Endpoint": "trustFramework/keySets/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/trustFramework/keySets/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "trustFramework",
-      "keySets",
-      "$count"
-    ],
-    "Root": "trustFramework",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "trustFramework/keySets/{trustFrameworkKeySet-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/trustFramework/keySets/{trustFrameworkKeySet-id}",
     "Beta-Methods": [
@@ -67,25 +68,104 @@
       "Patch",
       "Delete"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/trustframeworkkeyset-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/trustframeworkkeyset-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/trustframeworkkeyset-delete?view=graph-rest-beta"
+    ],
     "Path": [
       "trustFramework",
       "keySets",
       "{trustFrameworkKeySet-id}"
     ],
     "Root": "trustFramework",
-    "Children": 5,
+    "Children": 6,
     "Segment": "{trustFrameworkKeySet-id}"
+  },
+  {
+    "Endpoint": "trustFramework/keySets/{trustFrameworkKeySet-id}/keys_v2",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/trustFramework/keySets/{trustFrameworkKeySet-id}/keys_v2",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "trustFramework",
+      "keySets",
+      "{trustFrameworkKeySet-id}",
+      "keys_v2"
+    ],
+    "Root": "trustFramework",
+    "Children": 2,
+    "Segment": "keys_v2"
+  },
+  {
+    "Endpoint": "trustFramework/keySets/{trustFrameworkKeySet-id}/keys_v2/{trustFrameworkKey_v2-kid}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/trustFramework/keySets/{trustFrameworkKeySet-id}/keys_v2/{trustFrameworkKey_v2-kid}",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/trustframeworkkey_v2-get?view=graph-rest-beta",
+    "Path": [
+      "trustFramework",
+      "keySets",
+      "{trustFrameworkKeySet-id}",
+      "keys_v2",
+      "{trustFrameworkKey_v2-kid}"
+    ],
+    "Root": "trustFramework",
+    "Children": 0,
+    "Segment": "{trustFrameworkKey_v2-kid}"
+  },
+  {
+    "Endpoint": "trustFramework/keySets/{trustFrameworkKeySet-id}/keys_v2/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/trustFramework/keySets/{trustFrameworkKeySet-id}/keys_v2/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "trustFramework",
+      "keySets",
+      "{trustFrameworkKeySet-id}",
+      "keys_v2",
+      "$count"
+    ],
+    "Root": "trustFramework",
+    "Children": 0,
+    "Segment": "$count"
   },
   {
     "Endpoint": "trustFramework/keySets/{trustFrameworkKeySet-id}/microsoft.graph.generateKey",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/trustFramework/keySets/{trustFrameworkKeySet-id}/microsoft.graph.generateKey",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/trustframeworkkeyset-generatekey?view=graph-rest-beta",
     "Path": [
       "trustFramework",
       "keySets",
@@ -101,11 +181,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/trustFramework/keySets/{trustFrameworkKeySet-id}/microsoft.graph.getActiveKey()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/trustframeworkkeyset-getactivekey?view=graph-rest-beta",
     "Path": [
       "trustFramework",
       "keySets",
@@ -121,11 +204,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/trustFramework/keySets/{trustFrameworkKeySet-id}/microsoft.graph.uploadCertificate",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/trustframeworkkeyset-uploadcertificate?view=graph-rest-beta",
     "Path": [
       "trustFramework",
       "keySets",
@@ -141,11 +227,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/trustFramework/keySets/{trustFrameworkKeySet-id}/microsoft.graph.uploadPkcs12",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/trustframeworkkeyset-uploadpkcs12?view=graph-rest-beta",
     "Path": [
       "trustFramework",
       "keySets",
@@ -161,11 +250,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/trustFramework/keySets/{trustFrameworkKeySet-id}/microsoft.graph.uploadSecret",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/trustframeworkkeyset-uploadsecret?view=graph-rest-beta",
     "Path": [
       "trustFramework",
       "keySets",
@@ -177,15 +269,45 @@
     "Segment": "microsoft.graph.uploadSecret"
   },
   {
+    "Endpoint": "trustFramework/keySets/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/trustFramework/keySets/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "trustFramework",
+      "keySets",
+      "$count"
+    ],
+    "Root": "trustFramework",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "trustFramework/policies",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/trustFramework/policies",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/trustframework-list-trustframeworkpolicies?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "trustFramework",
@@ -196,35 +318,25 @@
     "Segment": "policies"
   },
   {
-    "Endpoint": "trustFramework/policies/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/trustFramework/policies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "trustFramework",
-      "policies",
-      "$count"
-    ],
-    "Root": "trustFramework",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "trustFramework/policies/{trustFrameworkPolicy-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/trustFramework/policies/{trustFrameworkPolicy-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      "https://learn.microsoft.com/graph/api/trustframeworkpolicy-delete?view=graph-rest-beta"
     ],
     "Path": [
       "trustFramework",
@@ -240,11 +352,21 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/trustFramework/policies/{trustFrameworkPolicy-id}/$value",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/trustframework-list-trustframeworkpolicies?view=graph-rest-beta",
+      null,
+      "https://learn.microsoft.com/graph/api/trustframeworkpolicy-delete?view=graph-rest-beta"
     ],
     "Path": [
       "trustFramework",
@@ -255,5 +377,27 @@
     "Root": "trustFramework",
     "Children": 0,
     "Segment": "$value"
+  },
+  {
+    "Endpoint": "trustFramework/policies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/trustFramework/policies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "trustFramework",
+      "policies",
+      "$count"
+    ],
+    "Root": "trustFramework",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

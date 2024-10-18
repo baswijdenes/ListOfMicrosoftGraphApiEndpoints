@@ -1,0 +1,8 @@
+| Endpoint | v1.0 | V1.0-Url | v1.0-Methods | v1.0-docs | beta | Beta-Url | Beta-Methods | Beta-Docs | Path | Root | Children | Segment |
+| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------|
+| filteringPolicies| False| | |  | True| https://graph.microsoft.com/beta/filteringPolicies| Get Post|  | filteringPolicies| filteringPolicies| 2| filteringPolicies|
+| filteringPolicies/{filteringPolicy-id}| False| | |  | True| https://graph.microsoft.com/beta/filteringPolicies/{filteringPolicy-id}| Get Patch Delete|   | filteringPolicies {filteringPolicy-id}| filteringPolicies| 1| {filteringPolicy-id}|
+| filteringPolicies/{filteringPolicy-id}/policyRules| False| | |  | True| https://graph.microsoft.com/beta/filteringPolicies/{filteringPolicy-id}/policyRules| Get Post|  | filteringPolicies {filteringPolicy-id} policyRules| filteringPolicies| 2| policyRules|
+| filteringPolicies/{filteringPolicy-id}/policyRules/{policyRule-id}| False| | |  | True| https://graph.microsoft.com/beta/filteringPolicies/{filteringPolicy-id}/policyRules/{policyRule-id}| Get Patch Delete|   | filteringPolicies {filteringPolicy-id} policyRules {policyRule-id}| filteringPolicies| 0| {policyRule-id}|
+| filteringPolicies/{filteringPolicy-id}/policyRules/$count| False| | |  | True| https://graph.microsoft.com/beta/filteringPolicies/{filteringPolicy-id}/policyRules/$count| Get| | filteringPolicies {filteringPolicy-id} policyRules $count| filteringPolicies| 0| $count|
+| filteringPolicies/$count| False| | |  | True| https://graph.microsoft.com/beta/filteringPolicies/$count| Get| | filteringPolicies $count| filteringPolicies| 0| $count|

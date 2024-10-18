@@ -7,18 +7,105 @@
       "Get",
       "Patch"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/auditLogs",
     "Beta-Methods": [
       "Get",
       "Patch"
     ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
     "Path": [
       "auditLogs"
     ],
     "Root": "auditLogs",
-    "Children": 4,
+    "Children": 5,
     "Segment": "auditLogs"
+  },
+  {
+    "Endpoint": "auditLogs/customSecurityAttributeAudits",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/auditLogs/customSecurityAttributeAudits",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/auditlogroot-list-customsecurityattributeaudits?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "auditLogs",
+      "customSecurityAttributeAudits"
+    ],
+    "Root": "auditLogs",
+    "Children": 2,
+    "Segment": "customSecurityAttributeAudits"
+  },
+  {
+    "Endpoint": "auditLogs/customSecurityAttributeAudits/{customSecurityAttributeAudit-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/auditLogs/customSecurityAttributeAudits/{customSecurityAttributeAudit-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "auditLogs",
+      "customSecurityAttributeAudits",
+      "{customSecurityAttributeAudit-id}"
+    ],
+    "Root": "auditLogs",
+    "Children": 0,
+    "Segment": "{customSecurityAttributeAudit-id}"
+  },
+  {
+    "Endpoint": "auditLogs/customSecurityAttributeAudits/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/auditLogs/customSecurityAttributeAudits/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "auditLogs",
+      "customSecurityAttributeAudits",
+      "$count"
+    ],
+    "Root": "auditLogs",
+    "Children": 0,
+    "Segment": "$count"
   },
   {
     "Endpoint": "auditLogs/directoryAudits",
@@ -28,11 +115,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/directoryaudit-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/auditLogs/directoryAudits",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/directoryaudit-list?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "auditLogs",
@@ -43,27 +138,6 @@
     "Segment": "directoryAudits"
   },
   {
-    "Endpoint": "auditLogs/directoryAudits/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/auditLogs/directoryAudits/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/auditLogs/directoryAudits/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "auditLogs",
-      "directoryAudits",
-      "$count"
-    ],
-    "Root": "auditLogs",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "auditLogs/directoryAudits/{directoryAudit-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/auditLogs/directoryAudits/{directoryAudit-id}",
@@ -72,12 +146,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/directoryaudit-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/auditLogs/directoryAudits/{directoryAudit-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/directoryaudit-get?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "auditLogs",
@@ -89,15 +173,42 @@
     "Segment": "{directoryAudit-id}"
   },
   {
+    "Endpoint": "auditLogs/directoryAudits/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/auditLogs/directoryAudits/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/auditLogs/directoryAudits/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "auditLogs",
+      "directoryAudits",
+      "$count"
+    ],
+    "Root": "auditLogs",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "auditLogs/directoryProvisioning",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/directoryaudit-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/auditLogs/directoryProvisioning",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "auditLogs",
@@ -108,35 +219,25 @@
     "Segment": "directoryProvisioning"
   },
   {
-    "Endpoint": "auditLogs/directoryProvisioning/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/auditLogs/directoryProvisioning/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "auditLogs",
-      "directoryProvisioning",
-      "$count"
-    ],
-    "Root": "auditLogs",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "auditLogs/directoryProvisioning/{provisioningObjectSummary-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/directoryaudit-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/auditLogs/directoryProvisioning/{provisioningObjectSummary-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "auditLogs",
@@ -148,6 +249,28 @@
     "Segment": "{provisioningObjectSummary-id}"
   },
   {
+    "Endpoint": "auditLogs/directoryProvisioning/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/directoryaudit-list?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/auditLogs/directoryProvisioning/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "auditLogs",
+      "directoryProvisioning",
+      "$count"
+    ],
+    "Root": "auditLogs",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "auditLogs/provisioning",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/auditLogs/provisioning",
@@ -155,11 +278,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/provisioningobjectsummary-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/auditLogs/provisioning",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/provisioningobjectsummary-list?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "auditLogs",
@@ -170,27 +301,6 @@
     "Segment": "provisioning"
   },
   {
-    "Endpoint": "auditLogs/provisioning/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/auditLogs/provisioning/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/auditLogs/provisioning/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "auditLogs",
-      "provisioning",
-      "$count"
-    ],
-    "Root": "auditLogs",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "auditLogs/provisioning/{provisioningObjectSummary-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/auditLogs/provisioning/{provisioningObjectSummary-id}",
@@ -199,12 +309,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/auditLogs/provisioning/{provisioningObjectSummary-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "auditLogs",
@@ -216,6 +336,25 @@
     "Segment": "{provisioningObjectSummary-id}"
   },
   {
+    "Endpoint": "auditLogs/provisioning/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/auditLogs/provisioning/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/auditLogs/provisioning/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "auditLogs",
+      "provisioning",
+      "$count"
+    ],
+    "Root": "auditLogs",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "auditLogs/signIns",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/auditLogs/signIns",
@@ -223,11 +362,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/signin-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/auditLogs/signIns",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/signin-list?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "auditLogs",
@@ -238,27 +385,6 @@
     "Segment": "signIns"
   },
   {
-    "Endpoint": "auditLogs/signIns/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/auditLogs/signIns/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/auditLogs/signIns/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "auditLogs",
-      "signIns",
-      "$count"
-    ],
-    "Root": "auditLogs",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "auditLogs/signIns/{signIn-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/auditLogs/signIns/{signIn-id}",
@@ -267,12 +393,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/signin-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/auditLogs/signIns/{signIn-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/signin-get?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "auditLogs",
@@ -284,15 +420,34 @@
     "Segment": "{signIn-id}"
   },
   {
+    "Endpoint": "auditLogs/signIns/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/auditLogs/signIns/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/auditLogs/signIns/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "auditLogs",
+      "signIns",
+      "$count"
+    ],
+    "Root": "auditLogs",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "auditLogs/signIns/microsoft.graph.confirmCompromised",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/auditLogs/signIns/microsoft.graph.confirmCompromised",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/signin-confirmcompromised?view=graph-rest-beta",
     "Path": [
       "auditLogs",
       "signIns",
@@ -307,11 +462,11 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/auditLogs/signIns/microsoft.graph.confirmSafe",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/signin-confirmsafe?view=graph-rest-beta",
     "Path": [
       "auditLogs",
       "signIns",

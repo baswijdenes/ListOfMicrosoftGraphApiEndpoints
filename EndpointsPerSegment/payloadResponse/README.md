@@ -1,5 +1,5 @@
-| Endpoint | v1.0 | V1.0-Url | v1.0-Methods | beta | Beta-Url | Beta-Methods | Path | Root | Children | Segment |
-| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------|
-| payloadResponse| False| | | True| https://graph.microsoft.com/beta/payloadResponse| Get Post| payloadResponse| payloadResponse| 2| payloadResponse|
-| payloadResponse/$count| False| | | True| https://graph.microsoft.com/beta/payloadResponse/$count| Get| payloadResponse $count| payloadResponse| 0| $count|
-| payloadResponse/{payloadResponse-id}| False| | | True| https://graph.microsoft.com/beta/payloadResponse/{payloadResponse-id}| Get Patch Delete| payloadResponse {payloadResponse-id}| payloadResponse| 0| {payloadResponse-id}|
+| Endpoint | v1.0 | V1.0-Url | v1.0-Methods | v1.0-docs | beta | Beta-Url | Beta-Methods | Beta-Docs | Path | Root | Children | Segment |
+| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------|
+| payloadResponse| False| | | https://learn.microsoft.com/graph/api/intune-onboarding-organization-list?view=graph-rest-1.0 | True| https://graph.microsoft.com/beta/payloadResponse| Get Post|  | payloadResponse| payloadResponse| 2| payloadResponse|
+| payloadResponse/{payloadResponse-id}| False| | | https://learn.microsoft.com/graph/api/intune-onboarding-organization-list?view=graph-rest-1.0 | True| https://graph.microsoft.com/beta/payloadResponse/{payloadResponse-id}| Get Patch Delete|   | payloadResponse {payloadResponse-id}| payloadResponse| 0| {payloadResponse-id}|
+| payloadResponse/$count| False| | | https://learn.microsoft.com/graph/api/intune-onboarding-organization-list?view=graph-rest-1.0 | True| https://graph.microsoft.com/beta/payloadResponse/$count| Get| | payloadResponse $count| payloadResponse| 0| $count|

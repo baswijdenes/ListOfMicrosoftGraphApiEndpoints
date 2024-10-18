@@ -7,11 +7,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/directoryrole-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/directoryrole-post-directoryroles?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/directoryrole-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/directoryrole-post-directoryroles?view=graph-rest-beta"
     ],
     "Path": [
       "directoryRoles"
@@ -19,26 +27,6 @@
     "Root": "directoryRoles",
     "Children": 7,
     "Segment": "directoryRoles"
-  },
-  {
-    "Endpoint": "directoryRoles/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "directoryRoles",
-      "$count"
-    ],
-    "Root": "directoryRoles",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "directoryRoles/{directoryRole-id}",
@@ -49,12 +37,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/directoryrole-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/directoryrole-get?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "directoryRoles",
@@ -68,14 +66,12 @@
     "Endpoint": "directoryRoles/{directoryRole-id}/members",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryrole-list-members?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryrole-list-members?view=graph-rest-beta",
     "Path": [
       "directoryRoles",
       "{directoryRole-id}",
@@ -86,17 +82,182 @@
     "Segment": "members"
   },
   {
+    "Endpoint": "directoryRoles/{directoryRole-id}/members/{directoryObject-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryrole-list-members?view=graph-rest-1.0",
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryrole-list-members?view=graph-rest-beta",
+    "Path": [
+      "directoryRoles",
+      "{directoryRole-id}",
+      "members",
+      "{directoryObject-id}"
+    ],
+    "Root": "directoryRoles",
+    "Children": 7,
+    "Segment": "{directoryObject-id}"
+  },
+  {
+    "Endpoint": "directoryRoles/{directoryRole-id}/members/{directoryObject-id}/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/$ref",
+    "v1.0-Methods": "Delete",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryrole-delete-member?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/$ref",
+    "Beta-Methods": "Delete",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryrole-delete-member?view=graph-rest-beta",
+    "Path": [
+      "directoryRoles",
+      "{directoryRole-id}",
+      "members",
+      "{directoryObject-id}",
+      "$ref"
+    ],
+    "Root": "directoryRoles",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.application",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.application",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.application",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "directoryRoles",
+      "{directoryRole-id}",
+      "members",
+      "{directoryObject-id}",
+      "microsoft.graph.application"
+    ],
+    "Root": "directoryRoles",
+    "Children": 0,
+    "Segment": "microsoft.graph.application"
+  },
+  {
+    "Endpoint": "directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.device",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.device",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.device",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "directoryRoles",
+      "{directoryRole-id}",
+      "members",
+      "{directoryObject-id}",
+      "microsoft.graph.device"
+    ],
+    "Root": "directoryRoles",
+    "Children": 0,
+    "Segment": "microsoft.graph.device"
+  },
+  {
+    "Endpoint": "directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.group",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.group",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.group",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "directoryRoles",
+      "{directoryRole-id}",
+      "members",
+      "{directoryObject-id}",
+      "microsoft.graph.group"
+    ],
+    "Root": "directoryRoles",
+    "Children": 0,
+    "Segment": "microsoft.graph.group"
+  },
+  {
+    "Endpoint": "directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.orgContact",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.orgContact",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.orgContact",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "directoryRoles",
+      "{directoryRole-id}",
+      "members",
+      "{directoryObject-id}",
+      "microsoft.graph.orgContact"
+    ],
+    "Root": "directoryRoles",
+    "Children": 0,
+    "Segment": "microsoft.graph.orgContact"
+  },
+  {
+    "Endpoint": "directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.servicePrincipal",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.servicePrincipal",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.servicePrincipal",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "directoryRoles",
+      "{directoryRole-id}",
+      "members",
+      "{directoryObject-id}",
+      "microsoft.graph.servicePrincipal"
+    ],
+    "Root": "directoryRoles",
+    "Children": 0,
+    "Segment": "microsoft.graph.servicePrincipal"
+  },
+  {
+    "Endpoint": "directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.user",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.user",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.user",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "directoryRoles",
+      "{directoryRole-id}",
+      "members",
+      "{directoryObject-id}",
+      "microsoft.graph.user"
+    ],
+    "Root": "directoryRoles",
+    "Children": 0,
+    "Segment": "microsoft.graph.user"
+  },
+  {
     "Endpoint": "directoryRoles/{directoryRole-id}/members/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "directoryRoles",
       "{directoryRole-id}",
@@ -113,13 +274,25 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/$ref",
     "v1.0-Methods": [
       "Get",
-      "Post"
+      "Post",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/directoryrole-list-members?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/directoryrole-post-members?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/directoryrole-delete-member?view=graph-rest-1.0"
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/$ref",
     "Beta-Methods": [
       "Get",
-      "Post"
+      "Post",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/directoryrole-list-members?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/directoryrole-post-members?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/directoryrole-delete-member?view=graph-rest-beta"
     ],
     "Path": [
       "directoryRoles",
@@ -130,198 +303,17 @@
     "Root": "directoryRoles",
     "Children": 0,
     "Segment": "$ref"
-  },
-  {
-    "Endpoint": "directoryRoles/{directoryRole-id}/members/{directoryObject-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": false,
-    "Beta-Url": null,
-    "Beta-Methods": null,
-    "Path": [
-      "directoryRoles",
-      "{directoryRole-id}",
-      "members",
-      "{directoryObject-id}"
-    ],
-    "Root": "directoryRoles",
-    "Children": 7,
-    "Segment": "{directoryObject-id}"
-  },
-  {
-    "Endpoint": "directoryRoles/{directoryRole-id}/members/{directoryObject-id}/$ref",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/$ref",
-    "v1.0-Methods": [
-      "Delete"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/$ref",
-    "Beta-Methods": [
-      "Delete"
-    ],
-    "Path": [
-      "directoryRoles",
-      "{directoryRole-id}",
-      "members",
-      "{directoryObject-id}",
-      "$ref"
-    ],
-    "Root": "directoryRoles",
-    "Children": 0,
-    "Segment": "$ref"
-  },
-  {
-    "Endpoint": "directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.application",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.application",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.application",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "directoryRoles",
-      "{directoryRole-id}",
-      "members",
-      "{directoryObject-id}",
-      "microsoft.graph.application"
-    ],
-    "Root": "directoryRoles",
-    "Children": 0,
-    "Segment": "microsoft.graph.application"
-  },
-  {
-    "Endpoint": "directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.device",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.device",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.device",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "directoryRoles",
-      "{directoryRole-id}",
-      "members",
-      "{directoryObject-id}",
-      "microsoft.graph.device"
-    ],
-    "Root": "directoryRoles",
-    "Children": 0,
-    "Segment": "microsoft.graph.device"
-  },
-  {
-    "Endpoint": "directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.group",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.group",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.group",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "directoryRoles",
-      "{directoryRole-id}",
-      "members",
-      "{directoryObject-id}",
-      "microsoft.graph.group"
-    ],
-    "Root": "directoryRoles",
-    "Children": 0,
-    "Segment": "microsoft.graph.group"
-  },
-  {
-    "Endpoint": "directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.orgContact",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.orgContact",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.orgContact",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "directoryRoles",
-      "{directoryRole-id}",
-      "members",
-      "{directoryObject-id}",
-      "microsoft.graph.orgContact"
-    ],
-    "Root": "directoryRoles",
-    "Children": 0,
-    "Segment": "microsoft.graph.orgContact"
-  },
-  {
-    "Endpoint": "directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "directoryRoles",
-      "{directoryRole-id}",
-      "members",
-      "{directoryObject-id}",
-      "microsoft.graph.servicePrincipal"
-    ],
-    "Root": "directoryRoles",
-    "Children": 0,
-    "Segment": "microsoft.graph.servicePrincipal"
-  },
-  {
-    "Endpoint": "directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.user",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.user",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/{directoryObject-id}/microsoft.graph.user",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "directoryRoles",
-      "{directoryRole-id}",
-      "members",
-      "{directoryObject-id}",
-      "microsoft.graph.user"
-    ],
-    "Root": "directoryRoles",
-    "Children": 0,
-    "Segment": "microsoft.graph.user"
   },
   {
     "Endpoint": "directoryRoles/{directoryRole-id}/members/microsoft.graph.application",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/microsoft.graph.application",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/microsoft.graph.application",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "directoryRoles",
       "{directoryRole-id}",
@@ -336,14 +328,12 @@
     "Endpoint": "directoryRoles/{directoryRole-id}/members/microsoft.graph.application/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/microsoft.graph.application/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/microsoft.graph.application/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "directoryRoles",
       "{directoryRole-id}",
@@ -359,14 +349,12 @@
     "Endpoint": "directoryRoles/{directoryRole-id}/members/microsoft.graph.device",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/microsoft.graph.device",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/microsoft.graph.device",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "directoryRoles",
       "{directoryRole-id}",
@@ -381,14 +369,12 @@
     "Endpoint": "directoryRoles/{directoryRole-id}/members/microsoft.graph.device/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/microsoft.graph.device/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/microsoft.graph.device/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "directoryRoles",
       "{directoryRole-id}",
@@ -404,14 +390,12 @@
     "Endpoint": "directoryRoles/{directoryRole-id}/members/microsoft.graph.group",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/microsoft.graph.group",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/microsoft.graph.group",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "directoryRoles",
       "{directoryRole-id}",
@@ -426,14 +410,12 @@
     "Endpoint": "directoryRoles/{directoryRole-id}/members/microsoft.graph.group/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/microsoft.graph.group/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/microsoft.graph.group/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "directoryRoles",
       "{directoryRole-id}",
@@ -449,14 +431,12 @@
     "Endpoint": "directoryRoles/{directoryRole-id}/members/microsoft.graph.orgContact",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/microsoft.graph.orgContact",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/microsoft.graph.orgContact",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "directoryRoles",
       "{directoryRole-id}",
@@ -471,14 +451,12 @@
     "Endpoint": "directoryRoles/{directoryRole-id}/members/microsoft.graph.orgContact/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/microsoft.graph.orgContact/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/microsoft.graph.orgContact/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "directoryRoles",
       "{directoryRole-id}",
@@ -494,14 +472,12 @@
     "Endpoint": "directoryRoles/{directoryRole-id}/members/microsoft.graph.servicePrincipal",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/microsoft.graph.servicePrincipal",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "directoryRoles",
       "{directoryRole-id}",
@@ -516,14 +492,12 @@
     "Endpoint": "directoryRoles/{directoryRole-id}/members/microsoft.graph.servicePrincipal/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/microsoft.graph.servicePrincipal/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/microsoft.graph.servicePrincipal/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "directoryRoles",
       "{directoryRole-id}",
@@ -539,14 +513,12 @@
     "Endpoint": "directoryRoles/{directoryRole-id}/members/microsoft.graph.user",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/microsoft.graph.user",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/microsoft.graph.user",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "directoryRoles",
       "{directoryRole-id}",
@@ -561,14 +533,12 @@
     "Endpoint": "directoryRoles/{directoryRole-id}/members/microsoft.graph.user/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/members/microsoft.graph.user/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/members/microsoft.graph.user/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "directoryRoles",
       "{directoryRole-id}",
@@ -584,14 +554,12 @@
     "Endpoint": "directoryRoles/{directoryRole-id}/microsoft.graph.checkMemberGroups",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/microsoft.graph.checkMemberGroups",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-checkmembergroups?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/microsoft.graph.checkMemberGroups",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-checkmembergroups?view=graph-rest-beta",
     "Path": [
       "directoryRoles",
       "{directoryRole-id}",
@@ -605,14 +573,12 @@
     "Endpoint": "directoryRoles/{directoryRole-id}/microsoft.graph.checkMemberObjects",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/microsoft.graph.checkMemberObjects",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/microsoft.graph.checkMemberObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "directoryRoles",
       "{directoryRole-id}",
@@ -626,14 +592,12 @@
     "Endpoint": "directoryRoles/{directoryRole-id}/microsoft.graph.getMemberGroups",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/microsoft.graph.getMemberGroups",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getmembergroups?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/microsoft.graph.getMemberGroups",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-getmembergroups?view=graph-rest-beta",
     "Path": [
       "directoryRoles",
       "{directoryRole-id}",
@@ -647,14 +611,12 @@
     "Endpoint": "directoryRoles/{directoryRole-id}/microsoft.graph.getMemberObjects",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/microsoft.graph.getMemberObjects",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getmemberobjects?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/microsoft.graph.getMemberObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "directoryRoles",
       "{directoryRole-id}",
@@ -668,14 +630,12 @@
     "Endpoint": "directoryRoles/{directoryRole-id}/microsoft.graph.restore",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/microsoft.graph.restore",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-restore?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/microsoft.graph.restore",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-restore?view=graph-rest-beta",
     "Path": [
       "directoryRoles",
       "{directoryRole-id}",
@@ -693,11 +653,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/directoryrole-list-scopedmembers?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/scopedMembers",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/directoryrole-list-scopedmembers?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "directoryRoles",
@@ -709,28 +677,6 @@
     "Segment": "scopedMembers"
   },
   {
-    "Endpoint": "directoryRoles/{directoryRole-id}/scopedMembers/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/scopedMembers/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/scopedMembers/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "directoryRoles",
-      "{directoryRole-id}",
-      "scopedMembers",
-      "$count"
-    ],
-    "Root": "directoryRoles",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "directoryRoles/{directoryRole-id}/scopedMembers/{scopedRoleMembership-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/scopedMembers/{scopedRoleMembership-id}",
@@ -739,12 +685,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/scopedMembers/{scopedRoleMembership-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "directoryRoles",
@@ -757,17 +713,53 @@
     "Segment": "{scopedRoleMembership-id}"
   },
   {
+    "Endpoint": "directoryRoles/{directoryRole-id}/scopedMembers/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/{directoryRole-id}/scopedMembers/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/{directoryRole-id}/scopedMembers/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "directoryRoles",
+      "{directoryRole-id}",
+      "scopedMembers",
+      "$count"
+    ],
+    "Root": "directoryRoles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "directoryRoles/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "directoryRoles",
+      "$count"
+    ],
+    "Root": "directoryRoles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "directoryRoles/microsoft.graph.delta()",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/microsoft.graph.delta()",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryrole-delta?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/microsoft.graph.delta()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryrole-delta?view=graph-rest-beta",
     "Path": [
       "directoryRoles",
       "microsoft.graph.delta()"
@@ -780,12 +772,12 @@
     "Endpoint": "directoryRoles/microsoft.graph.getAvailableExtensionProperties",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/microsoft.graph.getAvailableExtensionProperties",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getavailableextensionproperties?view=graph-rest-1.0",
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryrole-delta?view=graph-rest-beta",
     "Path": [
       "directoryRoles",
       "microsoft.graph.getAvailableExtensionProperties"
@@ -798,14 +790,12 @@
     "Endpoint": "directoryRoles/microsoft.graph.getByIds",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/microsoft.graph.getByIds",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getbyids?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/microsoft.graph.getByIds",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-getbyids?view=graph-rest-beta",
     "Path": [
       "directoryRoles",
       "microsoft.graph.getByIds"
@@ -819,11 +809,11 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getbyids?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/microsoft.graph.getUserOwnedObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-getuserownedobjects?view=graph-rest-beta",
     "Path": [
       "directoryRoles",
       "microsoft.graph.getUserOwnedObjects"
@@ -836,14 +826,12 @@
     "Endpoint": "directoryRoles/microsoft.graph.validateProperties",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoles/microsoft.graph.validateProperties",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-validateproperties?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoles/microsoft.graph.validateProperties",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-validateproperties?view=graph-rest-beta",
     "Path": [
       "directoryRoles",
       "microsoft.graph.validateProperties"

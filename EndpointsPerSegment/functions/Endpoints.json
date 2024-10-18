@@ -1,14 +1,25 @@
 [
   {
     "Endpoint": "functions",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/functions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/functions",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "functions"
@@ -18,34 +29,30 @@
     "Segment": "functions"
   },
   {
-    "Endpoint": "functions/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/functions/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "functions",
-      "$count"
-    ],
-    "Root": "functions",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "functions/{attributeMappingFunctionSchema-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/functions/{attributeMappingFunctionSchema-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/functions/{attributeMappingFunctionSchema-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "functions",
@@ -54,5 +61,23 @@
     "Root": "functions",
     "Children": 0,
     "Segment": "{attributeMappingFunctionSchema-id}"
+  },
+  {
+    "Endpoint": "functions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/functions/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/functions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "functions",
+      "$count"
+    ],
+    "Root": "functions",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

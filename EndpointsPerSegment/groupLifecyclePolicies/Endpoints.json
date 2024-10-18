@@ -7,11 +7,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/grouplifecyclepolicy-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/grouplifecyclepolicy-post-grouplifecyclepolicies?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/groupLifecyclePolicies",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/grouplifecyclepolicy-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/grouplifecyclepolicy-post-grouplifecyclepolicies?view=graph-rest-beta"
     ],
     "Path": [
       "groupLifecyclePolicies"
@@ -19,26 +27,6 @@
     "Root": "groupLifecyclePolicies",
     "Children": 3,
     "Segment": "groupLifecyclePolicies"
-  },
-  {
-    "Endpoint": "groupLifecyclePolicies/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/groupLifecyclePolicies/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/groupLifecyclePolicies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "groupLifecyclePolicies",
-      "$count"
-    ],
-    "Root": "groupLifecyclePolicies",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "groupLifecyclePolicies/{groupLifecyclePolicy-id}",
@@ -49,12 +37,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/grouplifecyclepolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/grouplifecyclepolicy-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/grouplifecyclepolicy-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/groupLifecyclePolicies/{groupLifecyclePolicy-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/grouplifecyclepolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/grouplifecyclepolicy-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/grouplifecyclepolicy-delete?view=graph-rest-beta"
     ],
     "Path": [
       "groupLifecyclePolicies",
@@ -68,14 +66,12 @@
     "Endpoint": "groupLifecyclePolicies/{groupLifecyclePolicy-id}/microsoft.graph.addGroup",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/groupLifecyclePolicies/{groupLifecyclePolicy-id}/microsoft.graph.addGroup",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/grouplifecyclepolicy-addgroup?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/groupLifecyclePolicies/{groupLifecyclePolicy-id}/microsoft.graph.addGroup",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "groupLifecyclePolicies",
       "{groupLifecyclePolicy-id}",
@@ -89,14 +85,12 @@
     "Endpoint": "groupLifecyclePolicies/{groupLifecyclePolicy-id}/microsoft.graph.removeGroup",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/groupLifecyclePolicies/{groupLifecyclePolicy-id}/microsoft.graph.removeGroup",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/grouplifecyclepolicy-removegroup?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/groupLifecyclePolicies/{groupLifecyclePolicy-id}/microsoft.graph.removeGroup",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "groupLifecyclePolicies",
       "{groupLifecyclePolicy-id}",
@@ -107,15 +101,33 @@
     "Segment": "microsoft.graph.removeGroup"
   },
   {
+    "Endpoint": "groupLifecyclePolicies/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/groupLifecyclePolicies/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/groupLifecyclePolicies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "groupLifecyclePolicies",
+      "$count"
+    ],
+    "Root": "groupLifecyclePolicies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "groupLifecyclePolicies/microsoft.graph.renewGroup",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/groupLifecyclePolicies/microsoft.graph.renewGroup",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/grouplifecyclepolicy-renewgroup?view=graph-rest-beta",
     "Path": [
       "groupLifecyclePolicies",
       "microsoft.graph.renewGroup"

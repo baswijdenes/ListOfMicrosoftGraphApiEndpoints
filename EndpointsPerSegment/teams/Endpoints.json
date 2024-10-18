@@ -7,38 +7,26 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/teams-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/team-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams",
     "Beta-Methods": [
       "Get",
       "Post"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/teams-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/team-post?view=graph-rest-beta"
+    ],
     "Path": [
       "teams"
     ],
     "Root": "teams",
-    "Children": 4,
+    "Children": 7,
     "Segment": "teams"
-  },
-  {
-    "Endpoint": "teams/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "teams/{team-id}",
@@ -49,12 +37,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/team-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/team-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/team-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/team-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "teams",
@@ -68,14 +66,12 @@
     "Endpoint": "teams/{team-id}/allChannels",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/allChannels",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/team-list-allchannels?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/allChannels",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/team-list-allchannels?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -86,39 +82,15 @@
     "Segment": "allChannels"
   },
   {
-    "Endpoint": "teams/{team-id}/allChannels/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/allChannels/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/allChannels/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "allChannels",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/allChannels/{channel-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/allChannels/{channel-id}",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/allChannels/{channel-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -130,6 +102,26 @@
     "Segment": "{channel-id}"
   },
   {
+    "Endpoint": "teams/{team-id}/allChannels/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/allChannels/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/allChannels/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "allChannels",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/channels",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels",
@@ -137,11 +129,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/channel-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/channel-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/channel-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/channel-post?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -149,30 +149,8 @@
       "channels"
     ],
     "Root": "teams",
-    "Children": 4,
+    "Children": 5,
     "Segment": "channels"
-  },
-  {
-    "Endpoint": "teams/{team-id}/channels/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "channels",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "teams/{team-id}/channels/{channel-id}",
@@ -183,12 +161,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/channel-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/channel-patch?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/channel-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/channel-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/channel-patch?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/channel-delete?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -197,21 +185,19 @@
       "{channel-id}"
     ],
     "Root": "teams",
-    "Children": 9,
+    "Children": 11,
     "Segment": "{channel-id}"
   },
   {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/filesFolder",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/filesFolder",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/channel-get-filesfolder?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/filesFolder",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/channel-get-filesfolder?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -220,7 +206,7 @@
       "filesFolder"
     ],
     "Root": "teams",
-    "Children": 1,
+    "Children": 2,
     "Segment": "filesFolder"
   },
   {
@@ -229,13 +215,25 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/filesFolder/content",
     "v1.0-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/filesFolder/content",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "teams",
@@ -250,6 +248,40 @@
     "Segment": "content"
   },
   {
+    "Endpoint": "teams/{team-id}/channels/{channel-id}/filesFolder/contentStream",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/filesFolder/contentStream",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "teams",
+      "{team-id}",
+      "channels",
+      "{channel-id}",
+      "filesFolder",
+      "contentStream"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "contentStream"
+  },
+  {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/members",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/members",
@@ -257,11 +289,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/channel-list-members?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/channel-post-members?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/members",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/channel-list-members?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/channel-post-members?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -271,32 +311,8 @@
       "members"
     ],
     "Root": "teams",
-    "Children": 3,
+    "Children": 4,
     "Segment": "members"
-  },
-  {
-    "Endpoint": "teams/{team-id}/channels/{channel-id}/members/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/members/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/members/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "channels",
-      "{channel-id}",
-      "members",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/members/{conversationMember-id}",
@@ -307,12 +323,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/channel-get-members?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/conversationmember-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/conversationmember-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/members/{conversationMember-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/channel-get-members?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/channel-update-members?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/channel-delete-members?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -327,17 +353,37 @@
     "Segment": "{conversationMember-id}"
   },
   {
+    "Endpoint": "teams/{team-id}/channels/{channel-id}/members/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/members/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/members/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "channels",
+      "{channel-id}",
+      "members",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/members/microsoft.graph.add",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/members/microsoft.graph.add",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/conversationmembers-add?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/members/microsoft.graph.add",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/conversationmembers-add?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -351,6 +397,28 @@
     "Segment": "microsoft.graph.add"
   },
   {
+    "Endpoint": "teams/{team-id}/channels/{channel-id}/members/microsoft.graph.remove",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/conversationmembers-add?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/members/microsoft.graph.remove",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "channels",
+      "{channel-id}",
+      "members",
+      "microsoft.graph.remove"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "microsoft.graph.remove"
+  },
+  {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/messages",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages",
@@ -358,11 +426,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/channel-list-messages?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/chatmessage-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/channel-list-messages?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/chatmessage-post?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -376,30 +452,6 @@
     "Segment": "messages"
   },
   {
-    "Endpoint": "teams/{team-id}/channels/{channel-id}/messages/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "channels",
-      "{channel-id}",
-      "messages",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}",
@@ -408,12 +460,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/chatmessage-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/chatmessage-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/chatmessage-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/chatmessage-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "teams",
@@ -435,11 +497,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/chatmessage-list-hostedcontents?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/hostedContents",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/chatmessage-list-hostedcontents?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "teams",
@@ -455,17 +525,96 @@
     "Segment": "hostedContents"
   },
   {
+    "Endpoint": "teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "teams",
+      "{team-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "hostedContents",
+      "{chatMessageHostedContent-id}"
+    ],
+    "Root": "teams",
+    "Children": 1,
+    "Segment": "{chatMessageHostedContent-id}"
+  },
+  {
+    "Endpoint": "teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}/$value",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}/$value",
+    "v1.0-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/chatmessage-list-hostedcontents?view=graph-rest-1.0",
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}/$value",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/chatmessage-list-hostedcontents?view=graph-rest-beta",
+      null,
+      null
+    ],
+    "Path": [
+      "teams",
+      "{team-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "hostedContents",
+      "{chatMessageHostedContent-id}",
+      "$value"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$value"
+  },
+  {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/hostedContents/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/hostedContents/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/hostedContents/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -481,45 +630,15 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}",
-    "v1.0-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}",
-    "Beta-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "channels",
-      "{channel-id}",
-      "messages",
-      "{chatMessage-id}",
-      "hostedContents",
-      "{chatMessageHostedContent-id}"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "{chatMessageHostedContent-id}"
-  },
-  {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.setReaction",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.setReaction",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.setReaction",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -535,14 +654,14 @@
   },
   {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.softDelete",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.softDelete",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/chatmessage-softdelete?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.softDelete",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/chatmessage-softdelete?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -558,14 +677,14 @@
   },
   {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.undoSoftDelete",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.undoSoftDelete",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/chatmessage-undosoftdelete?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.undoSoftDelete",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/chatmessage-undosoftdelete?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -581,14 +700,14 @@
   },
   {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.unsetReaction",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.unsetReaction",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/microsoft.graph.unsetReaction",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -610,11 +729,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/chatmessage-list-replies?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/channel-post-messagereply?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/chatmessage-list-replies?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/chatmessage-post-replies?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -630,32 +757,6 @@
     "Segment": "replies"
   },
   {
-    "Endpoint": "teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "channels",
-      "{channel-id}",
-      "messages",
-      "{chatMessage-id}",
-      "replies",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}",
@@ -664,12 +765,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/chatmessage-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/chatmessage-get?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "teams",
@@ -693,11 +804,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/chatmessage-list-hostedcontents?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/chatmessage-list-hostedcontents?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "teams",
@@ -715,17 +834,100 @@
     "Segment": "hostedContents"
   },
   {
+    "Endpoint": "teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/{chatMessageHostedContent-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/{chatMessageHostedContent-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/{chatMessageHostedContent-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "teams",
+      "{team-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "hostedContents",
+      "{chatMessageHostedContent-id}"
+    ],
+    "Root": "teams",
+    "Children": 1,
+    "Segment": "{chatMessageHostedContent-id}"
+  },
+  {
+    "Endpoint": "teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/{chatMessageHostedContent-id}/$value",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/{chatMessageHostedContent-id}/$value",
+    "v1.0-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/chatmessage-list-hostedcontents?view=graph-rest-1.0",
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/{chatMessageHostedContent-id}/$value",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/chatmessage-list-hostedcontents?view=graph-rest-beta",
+      null,
+      null
+    ],
+    "Path": [
+      "teams",
+      "{team-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "hostedContents",
+      "{chatMessageHostedContent-id}",
+      "$value"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$value"
+  },
+  {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -743,47 +945,15 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/{chatMessageHostedContent-id}",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/{chatMessageHostedContent-id}",
-    "v1.0-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/{chatMessageHostedContent-id}",
-    "Beta-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "channels",
-      "{channel-id}",
-      "messages",
-      "{chatMessage-id}",
-      "replies",
-      "{chatMessage-id1}",
-      "hostedContents",
-      "{chatMessageHostedContent-id}"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "{chatMessageHostedContent-id}"
-  },
-  {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.setReaction",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.setReaction",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.setReaction",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -801,14 +971,14 @@
   },
   {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.softDelete",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.softDelete",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/chatmessage-softdelete?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.softDelete",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/chatmessage-softdelete?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -826,14 +996,14 @@
   },
   {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.undoSoftDelete",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.undoSoftDelete",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/chatmessage-undosoftdelete?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.undoSoftDelete",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/chatmessage-undosoftdelete?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -851,14 +1021,14 @@
   },
   {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.unsetReaction",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.unsetReaction",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.unsetReaction",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -875,17 +1045,39 @@
     "Segment": "microsoft.graph.unsetReaction"
   },
   {
+    "Endpoint": "teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/microsoft.graph.delta()",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/microsoft.graph.delta()",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/chatmessage-delta?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/{chatMessage-id}/replies/microsoft.graph.delta()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/chatmessage-delta?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -901,17 +1093,37 @@
     "Segment": "microsoft.graph.delta()"
   },
   {
+    "Endpoint": "teams/{team-id}/channels/{channel-id}/messages/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "channels",
+      "{channel-id}",
+      "messages",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/messages/microsoft.graph.delta()",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/messages/microsoft.graph.delta()",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/chatmessage-delta?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/messages/microsoft.graph.delta()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/chatmessage-delta?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -925,17 +1137,36 @@
     "Segment": "microsoft.graph.delta()"
   },
   {
+    "Endpoint": "teams/{team-id}/channels/{channel-id}/microsoft.graph.archive",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/microsoft.graph.archive",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/channel-archive?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/microsoft.graph.archive",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/channel-archive?view=graph-rest-beta",
+    "Path": [
+      "teams",
+      "{team-id}",
+      "channels",
+      "{channel-id}",
+      "microsoft.graph.archive"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "microsoft.graph.archive"
+  },
+  {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/microsoft.graph.completeMigration",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/microsoft.graph.completeMigration",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/channel-completemigration?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/microsoft.graph.completeMigration",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/channel-completemigration?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -951,14 +1182,12 @@
     "Endpoint": "teams/{team-id}/channels/{channel-id}/microsoft.graph.doesUserHaveAccess(userId='@userId',tenantId='@tenantId',userPrincipalName='@userPrincipalName')",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/microsoft.graph.doesUserHaveAccess(userId='@userId',tenantId='@tenantId',userPrincipalName='@userPrincipalName')",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/channel-doesuserhaveaccess?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/microsoft.graph.doesUserHaveAccess(userId='@userId',tenantId='@tenantId',userPrincipalName='@userPrincipalName')",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/channel-doesuserhaveaccess?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -974,14 +1203,12 @@
     "Endpoint": "teams/{team-id}/channels/{channel-id}/microsoft.graph.provisionEmail",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/microsoft.graph.provisionEmail",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/channel-provisionemail?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/microsoft.graph.provisionEmail",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/channel-provisionemail?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -997,14 +1224,12 @@
     "Endpoint": "teams/{team-id}/channels/{channel-id}/microsoft.graph.removeEmail",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/microsoft.graph.removeEmail",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/channel-removeemail?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/microsoft.graph.removeEmail",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/channel-removeemail?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -1017,6 +1242,27 @@
     "Segment": "microsoft.graph.removeEmail"
   },
   {
+    "Endpoint": "teams/{team-id}/channels/{channel-id}/microsoft.graph.unarchive",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/microsoft.graph.unarchive",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/channel-unarchive?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/microsoft.graph.unarchive",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/channel-unarchive?view=graph-rest-beta",
+    "Path": [
+      "teams",
+      "{team-id}",
+      "channels",
+      "{channel-id}",
+      "microsoft.graph.unarchive"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "microsoft.graph.unarchive"
+  },
+  {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/sharedWithTeams",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/sharedWithTeams",
@@ -1024,11 +1270,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/sharedwithchannelteaminfo-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/sharedWithTeams",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/sharedwithchannelteaminfo-list?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "teams",
@@ -1042,30 +1296,6 @@
     "Segment": "sharedWithTeams"
   },
   {
-    "Endpoint": "teams/{team-id}/channels/{channel-id}/sharedWithTeams/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/sharedWithTeams/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/sharedWithTeams/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "channels",
-      "{channel-id}",
-      "sharedWithTeams",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}",
@@ -1074,12 +1304,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/sharedwithchannelteaminfo-get?view=graph-rest-1.0",
+      null,
+      "https://learn.microsoft.com/graph/api/sharedwithchannelteaminfo-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/sharedwithchannelteaminfo-get?view=graph-rest-beta",
+      null,
+      "https://learn.microsoft.com/graph/api/sharedwithchannelteaminfo-delete?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -1090,21 +1330,19 @@
       "{sharedWithChannelTeamInfo-id}"
     ],
     "Root": "teams",
-    "Children": 1,
+    "Children": 2,
     "Segment": "{sharedWithChannelTeamInfo-id}"
   },
   {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/sharedwithchannelteaminfo-list-allowedmembers?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/sharedwithchannelteaminfo-list-allowedmembers?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -1119,43 +1357,15 @@
     "Segment": "allowedMembers"
   },
   {
-    "Endpoint": "teams/{team-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "channels",
-      "{channel-id}",
-      "sharedWithTeams",
-      "{sharedWithChannelTeamInfo-id}",
-      "allowedMembers",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/{conversationMember-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/{conversationMember-id}",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/{conversationMember-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -1171,6 +1381,75 @@
     "Segment": "{conversationMember-id}"
   },
   {
+    "Endpoint": "teams/{team-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "channels",
+      "{channel-id}",
+      "sharedWithTeams",
+      "{sharedWithChannelTeamInfo-id}",
+      "allowedMembers",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teams/{team-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/team",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/team",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/sharedWithTeams/{sharedWithChannelTeamInfo-id}/team",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "channels",
+      "{channel-id}",
+      "sharedWithTeams",
+      "{sharedWithChannelTeamInfo-id}",
+      "team"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "team"
+  },
+  {
+    "Endpoint": "teams/{team-id}/channels/{channel-id}/sharedWithTeams/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/sharedWithTeams/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/sharedWithTeams/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "channels",
+      "{channel-id}",
+      "sharedWithTeams",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/tabs",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/tabs",
@@ -1178,11 +1457,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/channel-list-tabs?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/channel-post-tabs?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/tabs",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/channel-list-tabs?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "teams",
@@ -1196,30 +1483,6 @@
     "Segment": "tabs"
   },
   {
-    "Endpoint": "teams/{team-id}/channels/{channel-id}/tabs/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/tabs/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/tabs/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "channels",
-      "{channel-id}",
-      "tabs",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/channels/{channel-id}/tabs/{teamsTab-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/tabs/{teamsTab-id}",
@@ -1228,12 +1491,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/channel-get-tabs?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/channel-patch-tabs?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/channel-delete-tabs?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/tabs/{teamsTab-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "teams",
@@ -1251,14 +1524,12 @@
     "Endpoint": "teams/{team-id}/channels/{channel-id}/tabs/{teamsTab-id}/teamsApp",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/tabs/{teamsTab-id}/teamsApp",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/tabs/{teamsTab-id}/teamsApp",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -1273,15 +1544,57 @@
     "Segment": "teamsApp"
   },
   {
+    "Endpoint": "teams/{team-id}/channels/{channel-id}/tabs/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/tabs/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/{channel-id}/tabs/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "channels",
+      "{channel-id}",
+      "tabs",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teams/{team-id}/channels/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "channels",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/channels/microsoft.graph.allMessages()",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/microsoft.graph.allMessages()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -1296,14 +1609,12 @@
     "Endpoint": "teams/{team-id}/channels/microsoft.graph.getAllMessages()",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/microsoft.graph.getAllMessages()",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/channel-getallmessages?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/microsoft.graph.getAllMessages()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/channel-getallmessages?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -1315,38 +1626,95 @@
     "Segment": "microsoft.graph.getAllMessages()"
   },
   {
+    "Endpoint": "teams/{team-id}/channels/microsoft.graph.getAllRetainedMessages()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/channels/microsoft.graph.getAllRetainedMessages()",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/channel-getallretainedmessages?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/channels/microsoft.graph.getAllRetainedMessages()",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/channel-getallretainedmessages?view=graph-rest-beta",
+    "Path": [
+      "teams",
+      "{team-id}",
+      "channels",
+      "microsoft.graph.getAllRetainedMessages()"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "microsoft.graph.getAllRetainedMessages()"
+  },
+  {
     "Endpoint": "teams/{team-id}/group",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/group",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/group",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
       "group"
     ],
     "Root": "teams",
-    "Children": 0,
+    "Children": 1,
     "Segment": "group"
+  },
+  {
+    "Endpoint": "teams/{team-id}/group/serviceProvisioningErrors",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/group/serviceProvisioningErrors",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/group/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "group",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "teams",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "teams/{team-id}/group/serviceProvisioningErrors/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/group/serviceProvisioningErrors/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/group/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "group",
+      "serviceProvisioningErrors",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
   },
   {
     "Endpoint": "teams/{team-id}/incomingChannels",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/incomingChannels",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/team-list-incomingchannels?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/incomingChannels",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/team-list-incomingchannels?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -1357,39 +1725,15 @@
     "Segment": "incomingChannels"
   },
   {
-    "Endpoint": "teams/{team-id}/incomingChannels/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/incomingChannels/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/incomingChannels/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "incomingChannels",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/incomingChannels/{channel-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/incomingChannels/{channel-id}",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/incomingChannels/{channel-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -1401,6 +1745,26 @@
     "Segment": "{channel-id}"
   },
   {
+    "Endpoint": "teams/{team-id}/incomingChannels/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/incomingChannels/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/incomingChannels/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "incomingChannels",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/installedApps",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/installedApps",
@@ -1408,11 +1772,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/team-list-installedapps?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/team-post-installedapps?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/installedApps",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/team-list-installedapps?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/team-post-installedapps?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -1424,28 +1796,6 @@
     "Segment": "installedApps"
   },
   {
-    "Endpoint": "teams/{team-id}/installedApps/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/installedApps/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/installedApps/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "installedApps",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/installedApps/{teamsAppInstallation-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/installedApps/{teamsAppInstallation-id}",
@@ -1454,12 +1804,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/team-get-installedapps?view=graph-rest-1.0",
+      null,
+      "https://learn.microsoft.com/graph/api/team-delete-installedapps?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/installedApps/{teamsAppInstallation-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/team-get-installedapps?view=graph-rest-beta",
+      null,
+      "https://learn.microsoft.com/graph/api/team-delete-installedapps?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -1475,14 +1835,12 @@
     "Endpoint": "teams/{team-id}/installedApps/{teamsAppInstallation-id}/microsoft.graph.upgrade",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/installedApps/{teamsAppInstallation-id}/microsoft.graph.upgrade",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/chat-teamsappinstallation-upgrade?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/installedApps/{teamsAppInstallation-id}/microsoft.graph.upgrade",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/chat-teamsappinstallation-upgrade?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -1498,14 +1856,12 @@
     "Endpoint": "teams/{team-id}/installedApps/{teamsAppInstallation-id}/teamsApp",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/installedApps/{teamsAppInstallation-id}/teamsApp",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/installedApps/{teamsAppInstallation-id}/teamsApp",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -1521,14 +1877,12 @@
     "Endpoint": "teams/{team-id}/installedApps/{teamsAppInstallation-id}/teamsAppDefinition",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/installedApps/{teamsAppInstallation-id}/teamsAppDefinition",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/installedApps/{teamsAppInstallation-id}/teamsAppDefinition",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -1541,6 +1895,26 @@
     "Segment": "teamsAppDefinition"
   },
   {
+    "Endpoint": "teams/{team-id}/installedApps/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/installedApps/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/installedApps/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "installedApps",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/members",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/members",
@@ -1548,11 +1922,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/team-list-members?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/team-post-members?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/members",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/team-list-members?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/team-post-members?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -1560,30 +1942,8 @@
       "members"
     ],
     "Root": "teams",
-    "Children": 3,
+    "Children": 4,
     "Segment": "members"
-  },
-  {
-    "Endpoint": "teams/{team-id}/members/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/members/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/members/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "members",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "teams/{team-id}/members/{conversationMember-id}",
@@ -1594,12 +1954,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/team-get-members?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/team-update-members?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/team-delete-members?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/members/{conversationMember-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/team-get-members?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/team-update-members?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/team-delete-members?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -1612,17 +1982,35 @@
     "Segment": "{conversationMember-id}"
   },
   {
+    "Endpoint": "teams/{team-id}/members/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/members/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/members/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "members",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/members/microsoft.graph.add",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/members/microsoft.graph.add",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/conversationmembers-add?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/members/microsoft.graph.add",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/conversationmembers-add?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -1634,17 +2022,35 @@
     "Segment": "microsoft.graph.add"
   },
   {
+    "Endpoint": "teams/{team-id}/members/microsoft.graph.remove",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/conversationmembers-add?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/members/microsoft.graph.remove",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "members",
+      "microsoft.graph.remove"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "microsoft.graph.remove"
+  },
+  {
     "Endpoint": "teams/{team-id}/microsoft.graph.archive",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/microsoft.graph.archive",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/team-archive?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/microsoft.graph.archive",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/team-archive?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -1658,14 +2064,12 @@
     "Endpoint": "teams/{team-id}/microsoft.graph.clone",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/microsoft.graph.clone",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/team-clone?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/microsoft.graph.clone",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/team-clone?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -1679,14 +2083,12 @@
     "Endpoint": "teams/{team-id}/microsoft.graph.completeMigration",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/microsoft.graph.completeMigration",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/team-completemigration?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/microsoft.graph.completeMigration",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/team-completemigration?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -1700,14 +2102,12 @@
     "Endpoint": "teams/{team-id}/microsoft.graph.sendActivityNotification",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/microsoft.graph.sendActivityNotification",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/team-sendactivitynotification?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/microsoft.graph.sendActivityNotification",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/team-sendactivitynotification?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -1721,14 +2121,12 @@
     "Endpoint": "teams/{team-id}/microsoft.graph.unarchive",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/microsoft.graph.unarchive",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/team-unarchive?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/microsoft.graph.unarchive",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/team-unarchive?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -1746,11 +2144,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/operations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "teams",
@@ -1762,28 +2168,6 @@
     "Segment": "operations"
   },
   {
-    "Endpoint": "teams/{team-id}/operations/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/operations/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/operations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "operations",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/operations/{teamsAsyncOperation-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/operations/{teamsAsyncOperation-id}",
@@ -1792,12 +2176,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/operations/{teamsAsyncOperation-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "teams",
@@ -1810,15 +2204,38 @@
     "Segment": "{teamsAsyncOperation-id}"
   },
   {
+    "Endpoint": "teams/{team-id}/operations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/operations/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/operations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "operations",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/owners",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/owners",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -1829,35 +2246,18 @@
     "Segment": "owners"
   },
   {
-    "Endpoint": "teams/{team-id}/owners/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/owners/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "owners",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/owners/{user-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/owners/{user-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -1865,43 +2265,82 @@
       "{user-id}"
     ],
     "Root": "teams",
-    "Children": 0,
+    "Children": 2,
     "Segment": "{user-id}"
   },
   {
-    "Endpoint": "teams/{team-id}/permissionGrants",
+    "Endpoint": "teams/{team-id}/owners/{user-id}/mailboxSettings",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/permissionGrants",
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/owners/{user-id}/mailboxSettings",
     "Beta-Methods": [
       "Get",
-      "Post"
+      "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "teams",
       "{team-id}",
-      "permissionGrants"
+      "owners",
+      "{user-id}",
+      "mailboxSettings"
     ],
     "Root": "teams",
-    "Children": 5,
-    "Segment": "permissionGrants"
+    "Children": 0,
+    "Segment": "mailboxSettings"
   },
   {
-    "Endpoint": "teams/{team-id}/permissionGrants/$count",
+    "Endpoint": "teams/{team-id}/owners/{user-id}/serviceProvisioningErrors",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/permissionGrants/$count",
-    "Beta-Methods": [
-      "Get"
+    "v1.0-docs": [
+      null,
+      null
     ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/owners/{user-id}/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
-      "permissionGrants",
+      "owners",
+      "{user-id}",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "teams",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "teams/{team-id}/owners/{user-id}/serviceProvisioningErrors/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/owners/{user-id}/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "owners",
+      "{user-id}",
+      "serviceProvisioningErrors",
       "$count"
     ],
     "Root": "teams",
@@ -1909,16 +2348,84 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "teams/{team-id}/permissionGrants/{resourceSpecificPermissionGrant-id}",
+    "Endpoint": "teams/{team-id}/owners/$count",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/owners/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "owners",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teams/{team-id}/permissionGrants",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/permissionGrants",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/team-list-permissiongrants?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/permissionGrants",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/team-list-permissiongrants?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "teams",
+      "{team-id}",
+      "permissionGrants"
+    ],
+    "Root": "teams",
+    "Children": 2,
+    "Segment": "permissionGrants"
+  },
+  {
+    "Endpoint": "teams/{team-id}/permissionGrants/{resourceSpecificPermissionGrant-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/permissionGrants/{resourceSpecificPermissionGrant-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/permissionGrants/{resourceSpecificPermissionGrant-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "teams",
@@ -1927,173 +2434,28 @@
       "{resourceSpecificPermissionGrant-id}"
     ],
     "Root": "teams",
-    "Children": 5,
+    "Children": 0,
     "Segment": "{resourceSpecificPermissionGrant-id}"
   },
   {
-    "Endpoint": "teams/{team-id}/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.checkMemberGroups",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "Endpoint": "teams/{team-id}/permissionGrants/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/permissionGrants/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.checkMemberGroups",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/permissionGrants/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
       "permissionGrants",
-      "{resourceSpecificPermissionGrant-id}",
-      "microsoft.graph.checkMemberGroups"
+      "$count"
     ],
     "Root": "teams",
     "Children": 0,
-    "Segment": "microsoft.graph.checkMemberGroups"
-  },
-  {
-    "Endpoint": "teams/{team-id}/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.checkMemberObjects",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.checkMemberObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "permissionGrants",
-      "{resourceSpecificPermissionGrant-id}",
-      "microsoft.graph.checkMemberObjects"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "microsoft.graph.checkMemberObjects"
-  },
-  {
-    "Endpoint": "teams/{team-id}/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.getMemberGroups",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.getMemberGroups",
-    "Beta-Methods": [
-      "Post"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "permissionGrants",
-      "{resourceSpecificPermissionGrant-id}",
-      "microsoft.graph.getMemberGroups"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "microsoft.graph.getMemberGroups"
-  },
-  {
-    "Endpoint": "teams/{team-id}/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.getMemberObjects",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.getMemberObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "permissionGrants",
-      "{resourceSpecificPermissionGrant-id}",
-      "microsoft.graph.getMemberObjects"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "microsoft.graph.getMemberObjects"
-  },
-  {
-    "Endpoint": "teams/{team-id}/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.restore",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/permissionGrants/{resourceSpecificPermissionGrant-id}/microsoft.graph.restore",
-    "Beta-Methods": [
-      "Post"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "permissionGrants",
-      "{resourceSpecificPermissionGrant-id}",
-      "microsoft.graph.restore"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "microsoft.graph.restore"
-  },
-  {
-    "Endpoint": "teams/{team-id}/permissionGrants/microsoft.graph.getByIds",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/permissionGrants/microsoft.graph.getByIds",
-    "Beta-Methods": [
-      "Post"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "permissionGrants",
-      "microsoft.graph.getByIds"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "microsoft.graph.getByIds"
-  },
-  {
-    "Endpoint": "teams/{team-id}/permissionGrants/microsoft.graph.getUserOwnedObjects",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/permissionGrants/microsoft.graph.getUserOwnedObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "permissionGrants",
-      "microsoft.graph.getUserOwnedObjects"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "microsoft.graph.getUserOwnedObjects"
-  },
-  {
-    "Endpoint": "teams/{team-id}/permissionGrants/microsoft.graph.validateProperties",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/permissionGrants/microsoft.graph.validateProperties",
-    "Beta-Methods": [
-      "Post"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "permissionGrants",
-      "microsoft.graph.validateProperties"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "microsoft.graph.validateProperties"
+    "Segment": "$count"
   },
   {
     "Endpoint": "teams/{team-id}/photo",
@@ -2101,15 +2463,21 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/photo",
     "v1.0-Methods": [
       "Get",
-      "Patch",
-      "Delete"
+      "Patch"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/profilephoto-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/profilephoto-update?view=graph-rest-1.0"
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/photo",
     "Beta-Methods": [
       "Get",
-      "Patch",
-      "Delete"
+      "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/profilephoto-update?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -2126,13 +2494,25 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/photo/$value",
     "v1.0-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/profilephoto-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/profilephoto-update?view=graph-rest-1.0",
+      null
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/photo/$value",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/profilephoto-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "teams",
@@ -2153,6 +2533,11 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/team-get-primarychannel?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel",
     "Beta-Methods": [
@@ -2160,27 +2545,30 @@
       "Patch",
       "Delete"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/team-get-primarychannel?view=graph-rest-beta",
+      null,
+      null
+    ],
     "Path": [
       "teams",
       "{team-id}",
       "primaryChannel"
     ],
     "Root": "teams",
-    "Children": 9,
+    "Children": 11,
     "Segment": "primaryChannel"
   },
   {
     "Endpoint": "teams/{team-id}/primaryChannel/filesFolder",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/filesFolder",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/filesFolder",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -2188,7 +2576,7 @@
       "filesFolder"
     ],
     "Root": "teams",
-    "Children": 1,
+    "Children": 2,
     "Segment": "filesFolder"
   },
   {
@@ -2197,13 +2585,25 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/filesFolder/content",
     "v1.0-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/filesFolder/content",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "teams",
@@ -2217,6 +2617,39 @@
     "Segment": "content"
   },
   {
+    "Endpoint": "teams/{team-id}/primaryChannel/filesFolder/contentStream",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/filesFolder/contentStream",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "teams",
+      "{team-id}",
+      "primaryChannel",
+      "filesFolder",
+      "contentStream"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "contentStream"
+  },
+  {
     "Endpoint": "teams/{team-id}/primaryChannel/members",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/members",
@@ -2224,11 +2657,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/members",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "teams",
@@ -2237,31 +2678,8 @@
       "members"
     ],
     "Root": "teams",
-    "Children": 3,
+    "Children": 4,
     "Segment": "members"
-  },
-  {
-    "Endpoint": "teams/{team-id}/primaryChannel/members/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/members/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/members/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "primaryChannel",
-      "members",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "teams/{team-id}/primaryChannel/members/{conversationMember-id}",
@@ -2272,12 +2690,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/members/{conversationMember-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "teams",
@@ -2291,17 +2719,36 @@
     "Segment": "{conversationMember-id}"
   },
   {
+    "Endpoint": "teams/{team-id}/primaryChannel/members/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/members/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/members/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "primaryChannel",
+      "members",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/primaryChannel/members/microsoft.graph.add",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/members/microsoft.graph.add",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/conversationmembers-add?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/members/microsoft.graph.add",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/conversationmembers-add?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -2314,6 +2761,27 @@
     "Segment": "microsoft.graph.add"
   },
   {
+    "Endpoint": "teams/{team-id}/primaryChannel/members/microsoft.graph.remove",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/conversationmembers-add?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/members/microsoft.graph.remove",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "primaryChannel",
+      "members",
+      "microsoft.graph.remove"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "microsoft.graph.remove"
+  },
+  {
     "Endpoint": "teams/{team-id}/primaryChannel/messages",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages",
@@ -2321,11 +2789,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "teams",
@@ -2338,29 +2814,6 @@
     "Segment": "messages"
   },
   {
-    "Endpoint": "teams/{team-id}/primaryChannel/messages/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "primaryChannel",
-      "messages",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/primaryChannel/messages/{chatMessage-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages/{chatMessage-id}",
@@ -2369,12 +2822,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/{chatMessage-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "teams",
@@ -2395,11 +2858,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/hostedContents",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "teams",
@@ -2414,17 +2885,94 @@
     "Segment": "hostedContents"
   },
   {
+    "Endpoint": "teams/{team-id}/primaryChannel/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "teams",
+      "{team-id}",
+      "primaryChannel",
+      "messages",
+      "{chatMessage-id}",
+      "hostedContents",
+      "{chatMessageHostedContent-id}"
+    ],
+    "Root": "teams",
+    "Children": 1,
+    "Segment": "{chatMessageHostedContent-id}"
+  },
+  {
+    "Endpoint": "teams/{team-id}/primaryChannel/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}/$value",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}/$value",
+    "v1.0-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}/$value",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "teams",
+      "{team-id}",
+      "primaryChannel",
+      "messages",
+      "{chatMessage-id}",
+      "hostedContents",
+      "{chatMessageHostedContent-id}",
+      "$value"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$value"
+  },
+  {
     "Endpoint": "teams/{team-id}/primaryChannel/messages/{chatMessage-id}/hostedContents/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/hostedContents/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/hostedContents/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -2439,44 +2987,15 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "teams/{team-id}/primaryChannel/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}",
-    "v1.0-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/hostedContents/{chatMessageHostedContent-id}",
-    "Beta-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "primaryChannel",
-      "messages",
-      "{chatMessage-id}",
-      "hostedContents",
-      "{chatMessageHostedContent-id}"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "{chatMessageHostedContent-id}"
-  },
-  {
     "Endpoint": "teams/{team-id}/primaryChannel/messages/{chatMessage-id}/microsoft.graph.setReaction",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/microsoft.graph.setReaction",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/microsoft.graph.setReaction",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -2491,14 +3010,14 @@
   },
   {
     "Endpoint": "teams/{team-id}/primaryChannel/messages/{chatMessage-id}/microsoft.graph.softDelete",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/microsoft.graph.softDelete",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/chatmessage-softdelete?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/microsoft.graph.softDelete",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/chatmessage-softdelete?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -2513,14 +3032,14 @@
   },
   {
     "Endpoint": "teams/{team-id}/primaryChannel/messages/{chatMessage-id}/microsoft.graph.undoSoftDelete",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/microsoft.graph.undoSoftDelete",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/chatmessage-undosoftdelete?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/microsoft.graph.undoSoftDelete",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/chatmessage-undosoftdelete?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -2535,14 +3054,14 @@
   },
   {
     "Endpoint": "teams/{team-id}/primaryChannel/messages/{chatMessage-id}/microsoft.graph.unsetReaction",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/microsoft.graph.unsetReaction",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/microsoft.graph.unsetReaction",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -2563,11 +3082,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "teams",
@@ -2582,31 +3109,6 @@
     "Segment": "replies"
   },
   {
-    "Endpoint": "teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "primaryChannel",
-      "messages",
-      "{chatMessage-id}",
-      "replies",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}",
@@ -2615,12 +3117,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "teams",
@@ -2643,11 +3155,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "teams",
@@ -2664,17 +3184,98 @@
     "Segment": "hostedContents"
   },
   {
+    "Endpoint": "teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/{chatMessageHostedContent-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/{chatMessageHostedContent-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/{chatMessageHostedContent-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "teams",
+      "{team-id}",
+      "primaryChannel",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "hostedContents",
+      "{chatMessageHostedContent-id}"
+    ],
+    "Root": "teams",
+    "Children": 1,
+    "Segment": "{chatMessageHostedContent-id}"
+  },
+  {
+    "Endpoint": "teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/{chatMessageHostedContent-id}/$value",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/{chatMessageHostedContent-id}/$value",
+    "v1.0-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/{chatMessageHostedContent-id}/$value",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "teams",
+      "{team-id}",
+      "primaryChannel",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "{chatMessage-id1}",
+      "hostedContents",
+      "{chatMessageHostedContent-id}",
+      "$value"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$value"
+  },
+  {
     "Endpoint": "teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -2691,46 +3292,15 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/{chatMessageHostedContent-id}",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/{chatMessageHostedContent-id}",
-    "v1.0-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/hostedContents/{chatMessageHostedContent-id}",
-    "Beta-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "primaryChannel",
-      "messages",
-      "{chatMessage-id}",
-      "replies",
-      "{chatMessage-id1}",
-      "hostedContents",
-      "{chatMessageHostedContent-id}"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "{chatMessageHostedContent-id}"
-  },
-  {
     "Endpoint": "teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.setReaction",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.setReaction",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.setReaction",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -2747,14 +3317,14 @@
   },
   {
     "Endpoint": "teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.softDelete",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.softDelete",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/chatmessage-softdelete?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.softDelete",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/chatmessage-softdelete?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -2771,14 +3341,14 @@
   },
   {
     "Endpoint": "teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.undoSoftDelete",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.undoSoftDelete",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/chatmessage-undosoftdelete?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.undoSoftDelete",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/chatmessage-undosoftdelete?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -2795,14 +3365,14 @@
   },
   {
     "Endpoint": "teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.unsetReaction",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.unsetReaction",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/{chatMessage-id1}/microsoft.graph.unsetReaction",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -2818,17 +3388,38 @@
     "Segment": "microsoft.graph.unsetReaction"
   },
   {
+    "Endpoint": "teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "primaryChannel",
+      "messages",
+      "{chatMessage-id}",
+      "replies",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/microsoft.graph.delta()",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/microsoft.graph.delta()",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/chatmessage-delta?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/{chatMessage-id}/replies/microsoft.graph.delta()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/chatmessage-delta?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -2843,17 +3434,36 @@
     "Segment": "microsoft.graph.delta()"
   },
   {
+    "Endpoint": "teams/{team-id}/primaryChannel/messages/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "primaryChannel",
+      "messages",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/primaryChannel/messages/microsoft.graph.delta()",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/messages/microsoft.graph.delta()",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/chatmessage-delta?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/messages/microsoft.graph.delta()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/chatmessage-delta?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -2866,17 +3476,35 @@
     "Segment": "microsoft.graph.delta()"
   },
   {
+    "Endpoint": "teams/{team-id}/primaryChannel/microsoft.graph.archive",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/microsoft.graph.archive",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/channel-archive?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/microsoft.graph.archive",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/channel-archive?view=graph-rest-beta",
+    "Path": [
+      "teams",
+      "{team-id}",
+      "primaryChannel",
+      "microsoft.graph.archive"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "microsoft.graph.archive"
+  },
+  {
     "Endpoint": "teams/{team-id}/primaryChannel/microsoft.graph.completeMigration",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/microsoft.graph.completeMigration",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/channel-completemigration?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/microsoft.graph.completeMigration",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/channel-completemigration?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -2891,14 +3519,12 @@
     "Endpoint": "teams/{team-id}/primaryChannel/microsoft.graph.doesUserHaveAccess(userId='@userId',tenantId='@tenantId',userPrincipalName='@userPrincipalName')",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/microsoft.graph.doesUserHaveAccess(userId='@userId',tenantId='@tenantId',userPrincipalName='@userPrincipalName')",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/channel-doesuserhaveaccess?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/microsoft.graph.doesUserHaveAccess(userId='@userId',tenantId='@tenantId',userPrincipalName='@userPrincipalName')",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/channel-doesuserhaveaccess?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -2913,14 +3539,12 @@
     "Endpoint": "teams/{team-id}/primaryChannel/microsoft.graph.provisionEmail",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/microsoft.graph.provisionEmail",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/channel-provisionemail?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/microsoft.graph.provisionEmail",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/channel-provisionemail?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -2935,14 +3559,12 @@
     "Endpoint": "teams/{team-id}/primaryChannel/microsoft.graph.removeEmail",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/microsoft.graph.removeEmail",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/channel-removeemail?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/microsoft.graph.removeEmail",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/channel-removeemail?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -2954,6 +3576,26 @@
     "Segment": "microsoft.graph.removeEmail"
   },
   {
+    "Endpoint": "teams/{team-id}/primaryChannel/microsoft.graph.unarchive",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/microsoft.graph.unarchive",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/channel-unarchive?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/microsoft.graph.unarchive",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/channel-unarchive?view=graph-rest-beta",
+    "Path": [
+      "teams",
+      "{team-id}",
+      "primaryChannel",
+      "microsoft.graph.unarchive"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "microsoft.graph.unarchive"
+  },
+  {
     "Endpoint": "teams/{team-id}/primaryChannel/sharedWithTeams",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/sharedWithTeams",
@@ -2961,11 +3603,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/sharedWithTeams",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "teams",
@@ -2978,29 +3628,6 @@
     "Segment": "sharedWithTeams"
   },
   {
-    "Endpoint": "teams/{team-id}/primaryChannel/sharedWithTeams/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/sharedWithTeams/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/sharedWithTeams/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "primaryChannel",
-      "sharedWithTeams",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}",
@@ -3009,12 +3636,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "teams",
@@ -3024,21 +3661,19 @@
       "{sharedWithChannelTeamInfo-id}"
     ],
     "Root": "teams",
-    "Children": 1,
+    "Children": 2,
     "Segment": "{sharedWithChannelTeamInfo-id}"
   },
   {
     "Endpoint": "teams/{team-id}/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -3052,42 +3687,15 @@
     "Segment": "allowedMembers"
   },
   {
-    "Endpoint": "teams/{team-id}/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "primaryChannel",
-      "sharedWithTeams",
-      "{sharedWithChannelTeamInfo-id}",
-      "allowedMembers",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/{conversationMember-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/{conversationMember-id}",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/{conversationMember-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -3102,6 +3710,72 @@
     "Segment": "{conversationMember-id}"
   },
   {
+    "Endpoint": "teams/{team-id}/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}/allowedMembers/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "primaryChannel",
+      "sharedWithTeams",
+      "{sharedWithChannelTeamInfo-id}",
+      "allowedMembers",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teams/{team-id}/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}/team",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}/team",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/sharedWithTeams/{sharedWithChannelTeamInfo-id}/team",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "primaryChannel",
+      "sharedWithTeams",
+      "{sharedWithChannelTeamInfo-id}",
+      "team"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "team"
+  },
+  {
+    "Endpoint": "teams/{team-id}/primaryChannel/sharedWithTeams/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/sharedWithTeams/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/sharedWithTeams/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "primaryChannel",
+      "sharedWithTeams",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/primaryChannel/tabs",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/tabs",
@@ -3109,11 +3783,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/tabs",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "teams",
@@ -3126,29 +3808,6 @@
     "Segment": "tabs"
   },
   {
-    "Endpoint": "teams/{team-id}/primaryChannel/tabs/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/tabs/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/tabs/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "primaryChannel",
-      "tabs",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/primaryChannel/tabs/{teamsTab-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/tabs/{teamsTab-id}",
@@ -3157,12 +3816,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/tabs/{teamsTab-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "teams",
@@ -3179,14 +3848,12 @@
     "Endpoint": "teams/{team-id}/primaryChannel/tabs/{teamsTab-id}/teamsApp",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/tabs/{teamsTab-id}/teamsApp",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/tabs/{teamsTab-id}/teamsApp",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -3200,6 +3867,27 @@
     "Segment": "teamsApp"
   },
   {
+    "Endpoint": "teams/{team-id}/primaryChannel/tabs/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/primaryChannel/tabs/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/primaryChannel/tabs/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "primaryChannel",
+      "tabs",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/schedule",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule",
@@ -3208,6 +3896,11 @@
       "Put",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/schedule-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/team-put-schedule?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule",
     "Beta-Methods": [
@@ -3215,27 +3908,118 @@
       "Put",
       "Delete"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/schedule-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/team-put-schedule?view=graph-rest-beta",
+      null
+    ],
     "Path": [
       "teams",
       "{team-id}",
       "schedule"
     ],
     "Root": "teams",
-    "Children": 11,
+    "Children": 13,
     "Segment": "schedule"
+  },
+  {
+    "Endpoint": "teams/{team-id}/schedule/dayNotes",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/schedule-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/team-put-schedule?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/dayNotes",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "teams",
+      "{team-id}",
+      "schedule",
+      "dayNotes"
+    ],
+    "Root": "teams",
+    "Children": 2,
+    "Segment": "dayNotes"
+  },
+  {
+    "Endpoint": "teams/{team-id}/schedule/dayNotes/{dayNote-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/schedule-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/team-put-schedule?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/dayNotes/{dayNote-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/daynote-update?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "teams",
+      "{team-id}",
+      "schedule",
+      "dayNotes",
+      "{dayNote-id}"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "{dayNote-id}"
+  },
+  {
+    "Endpoint": "teams/{team-id}/schedule/dayNotes/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/schedule-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/team-put-schedule?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/dayNotes/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "schedule",
+      "dayNotes",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
   },
   {
     "Endpoint": "teams/{team-id}/schedule/microsoft.graph.share",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/microsoft.graph.share",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/schedule-share?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/microsoft.graph.share",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/schedule-share?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -3254,11 +4038,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/offershiftrequest-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/offershiftrequest-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/offerShiftRequests",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/offershiftrequest-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/offershiftrequest-post?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -3271,29 +4063,6 @@
     "Segment": "offerShiftRequests"
   },
   {
-    "Endpoint": "teams/{team-id}/schedule/offerShiftRequests/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/offerShiftRequests/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/offerShiftRequests/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "schedule",
-      "offerShiftRequests",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/schedule/offerShiftRequests/{offerShiftRequest-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/offerShiftRequests/{offerShiftRequest-id}",
@@ -3302,12 +4071,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/offershiftrequest-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/offerShiftRequests/{offerShiftRequest-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/offershiftrequest-get?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "teams",
@@ -3321,6 +4100,27 @@
     "Segment": "{offerShiftRequest-id}"
   },
   {
+    "Endpoint": "teams/{team-id}/schedule/offerShiftRequests/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/offerShiftRequests/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/offerShiftRequests/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "schedule",
+      "offerShiftRequests",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/schedule/openShiftChangeRequests",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/openShiftChangeRequests",
@@ -3328,11 +4128,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/openshiftchangerequest-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/openshiftchangerequest-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/openShiftChangeRequests",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/openshiftchangerequest-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/openshiftchangerequest-post?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -3345,29 +4153,6 @@
     "Segment": "openShiftChangeRequests"
   },
   {
-    "Endpoint": "teams/{team-id}/schedule/openShiftChangeRequests/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/openShiftChangeRequests/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/openShiftChangeRequests/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "schedule",
-      "openShiftChangeRequests",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/schedule/openShiftChangeRequests/{openShiftChangeRequest-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/openShiftChangeRequests/{openShiftChangeRequest-id}",
@@ -3376,12 +4161,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/openshiftchangerequest-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/openShiftChangeRequests/{openShiftChangeRequest-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/openshiftchangerequest-get?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "teams",
@@ -3395,6 +4190,27 @@
     "Segment": "{openShiftChangeRequest-id}"
   },
   {
+    "Endpoint": "teams/{team-id}/schedule/openShiftChangeRequests/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/openShiftChangeRequests/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/openShiftChangeRequests/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "schedule",
+      "openShiftChangeRequests",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/schedule/openShifts",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/openShifts",
@@ -3402,11 +4218,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/openshift-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/openshift-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/openShifts",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/openshift-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/openshift-post?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -3419,29 +4243,6 @@
     "Segment": "openShifts"
   },
   {
-    "Endpoint": "teams/{team-id}/schedule/openShifts/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/openShifts/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/openShifts/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "schedule",
-      "openShifts",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/schedule/openShifts/{openShift-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/openShifts/{openShift-id}",
@@ -3450,12 +4251,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/openshift-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/openshift-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/openshift-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/openShifts/{openShift-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/openshift-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/openshift-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/openshift-delete?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -3469,6 +4280,27 @@
     "Segment": "{openShift-id}"
   },
   {
+    "Endpoint": "teams/{team-id}/schedule/openShifts/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/openShifts/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/openShifts/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "schedule",
+      "openShifts",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/schedule/schedulingGroups",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/schedulingGroups",
@@ -3476,11 +4308,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/schedule-list-schedulinggroups?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/schedule-post-schedulinggroups?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/schedulingGroups",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/schedule-list-schedulinggroups?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/schedule-post-schedulinggroups?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -3493,29 +4333,6 @@
     "Segment": "schedulingGroups"
   },
   {
-    "Endpoint": "teams/{team-id}/schedule/schedulingGroups/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/schedulingGroups/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/schedulingGroups/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "schedule",
-      "schedulingGroups",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/schedule/schedulingGroups/{schedulingGroup-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/schedulingGroups/{schedulingGroup-id}",
@@ -3524,12 +4341,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/schedulinggroup-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/schedulinggroup-put?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/schedulinggroup-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/schedulingGroups/{schedulingGroup-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/schedulinggroup-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/schedulinggroup-put?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/schedulinggroup-delete?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -3543,6 +4370,27 @@
     "Segment": "{schedulingGroup-id}"
   },
   {
+    "Endpoint": "teams/{team-id}/schedule/schedulingGroups/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/schedulingGroups/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/schedulingGroups/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "schedule",
+      "schedulingGroups",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/schedule/shifts",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/shifts",
@@ -3550,11 +4398,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/schedule-list-shifts?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/schedule-post-shifts?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/shifts",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/schedule-list-shifts?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/schedule-post-shifts?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -3567,29 +4423,6 @@
     "Segment": "shifts"
   },
   {
-    "Endpoint": "teams/{team-id}/schedule/shifts/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/shifts/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/shifts/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "schedule",
-      "shifts",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/schedule/shifts/{shift-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/shifts/{shift-id}",
@@ -3598,12 +4431,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/shift-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/shift-put?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/shift-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/shifts/{shift-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/shift-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/shift-put?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/shift-delete?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -3617,6 +4460,112 @@
     "Segment": "{shift-id}"
   },
   {
+    "Endpoint": "teams/{team-id}/schedule/shifts/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/shifts/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/shifts/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "schedule",
+      "shifts",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teams/{team-id}/schedule/shiftsRoleDefinitions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/schedule-list-shifts?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/schedule-post-shifts?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/shiftsRoleDefinitions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "teams",
+      "{team-id}",
+      "schedule",
+      "shiftsRoleDefinitions"
+    ],
+    "Root": "teams",
+    "Children": 2,
+    "Segment": "shiftsRoleDefinitions"
+  },
+  {
+    "Endpoint": "teams/{team-id}/schedule/shiftsRoleDefinitions/{shiftsRoleDefinition-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/schedule-list-shifts?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/schedule-post-shifts?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/shiftsRoleDefinitions/{shiftsRoleDefinition-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "teams",
+      "{team-id}",
+      "schedule",
+      "shiftsRoleDefinitions",
+      "{shiftsRoleDefinition-id}"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "{shiftsRoleDefinition-id}"
+  },
+  {
+    "Endpoint": "teams/{team-id}/schedule/shiftsRoleDefinitions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/schedule-list-shifts?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/schedule-post-shifts?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/shiftsRoleDefinitions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "schedule",
+      "shiftsRoleDefinitions",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/schedule/swapShiftsChangeRequests",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/swapShiftsChangeRequests",
@@ -3624,11 +4573,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/swapshiftschangerequest-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/swapshiftschangerequest-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/swapShiftsChangeRequests",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/swapshiftschangerequest-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/swapshiftschangerequest-post?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -3641,29 +4598,6 @@
     "Segment": "swapShiftsChangeRequests"
   },
   {
-    "Endpoint": "teams/{team-id}/schedule/swapShiftsChangeRequests/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/swapShiftsChangeRequests/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/swapShiftsChangeRequests/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "schedule",
-      "swapShiftsChangeRequests",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/schedule/swapShiftsChangeRequests/{swapShiftsChangeRequest-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/swapShiftsChangeRequests/{swapShiftsChangeRequest-id}",
@@ -3672,12 +4606,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/swapshiftschangerequest-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/swapShiftsChangeRequests/{swapShiftsChangeRequest-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/swapshiftschangerequest-get?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "teams",
@@ -3691,15 +4635,44 @@
     "Segment": "{swapShiftsChangeRequest-id}"
   },
   {
+    "Endpoint": "teams/{team-id}/schedule/swapShiftsChangeRequests/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/swapShiftsChangeRequests/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/swapShiftsChangeRequests/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "schedule",
+      "swapShiftsChangeRequests",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/schedule/timeCards",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/swapshiftschangerequest-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/swapshiftschangerequest-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/timeCards",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/timecard-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/timecard-post?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -3712,37 +4685,25 @@
     "Segment": "timeCards"
   },
   {
-    "Endpoint": "teams/{team-id}/schedule/timeCards/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/timeCards/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "schedule",
-      "timeCards",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/schedule/timeCards/{timeCard-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/swapshiftschangerequest-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/swapshiftschangerequest-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/timeCards/{timeCard-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/timecard-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/timecard-replace?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/timecard-delete?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -3760,11 +4721,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/swapshiftschangerequest-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/swapshiftschangerequest-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/timeCards/{timeCard-id}/microsoft.graph.clockOut",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/timecard-clockout?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -3782,11 +4746,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/swapshiftschangerequest-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/swapshiftschangerequest-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/timeCards/{timeCard-id}/microsoft.graph.confirm",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/timecard-confirm?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -3804,11 +4771,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/swapshiftschangerequest-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/swapshiftschangerequest-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/timeCards/{timeCard-id}/microsoft.graph.endBreak",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/timecard-endbreak?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -3826,11 +4796,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/swapshiftschangerequest-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/swapshiftschangerequest-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/timeCards/{timeCard-id}/microsoft.graph.startBreak",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/timecard-startbreak?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -3844,15 +4817,42 @@
     "Segment": "microsoft.graph.startBreak"
   },
   {
+    "Endpoint": "teams/{team-id}/schedule/timeCards/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/swapshiftschangerequest-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/swapshiftschangerequest-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/timeCards/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "schedule",
+      "timeCards",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/schedule/timeCards/microsoft.graph.clockIn",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/swapshiftschangerequest-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/swapshiftschangerequest-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/timeCards/microsoft.graph.clockIn",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/timecard-clockin?view=graph-rest-beta",
     "Path": [
       "teams",
       "{team-id}",
@@ -3872,11 +4872,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/schedule-list-timeoffreasons?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/schedule-post-timeoffreasons?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/timeOffReasons",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/schedule-list-timeoffreasons?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/schedule-post-timeoffreasons?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -3889,29 +4897,6 @@
     "Segment": "timeOffReasons"
   },
   {
-    "Endpoint": "teams/{team-id}/schedule/timeOffReasons/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/timeOffReasons/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/timeOffReasons/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "schedule",
-      "timeOffReasons",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/schedule/timeOffReasons/{timeOffReason-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/timeOffReasons/{timeOffReason-id}",
@@ -3920,12 +4905,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/timeoffreason-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/timeoffreason-put?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/timeoffreason-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/timeOffReasons/{timeOffReason-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/timeoffreason-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/timeoffreason-put?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/timeoffreason-delete?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -3939,6 +4934,27 @@
     "Segment": "{timeOffReason-id}"
   },
   {
+    "Endpoint": "teams/{team-id}/schedule/timeOffReasons/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/timeOffReasons/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/timeOffReasons/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "schedule",
+      "timeOffReasons",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/schedule/timeOffRequests",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/timeOffRequests",
@@ -3946,11 +4962,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/timeoffrequest-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/timeOffRequests",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/timeoffrequest-list?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "teams",
@@ -3963,29 +4987,6 @@
     "Segment": "timeOffRequests"
   },
   {
-    "Endpoint": "teams/{team-id}/schedule/timeOffRequests/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/timeOffRequests/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/timeOffRequests/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "schedule",
-      "timeOffRequests",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/schedule/timeOffRequests/{timeOffRequest-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/timeOffRequests/{timeOffRequest-id}",
@@ -3994,12 +4995,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/timeoffrequest-get?view=graph-rest-1.0",
+      null,
+      "https://learn.microsoft.com/graph/api/timeoffrequest-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/timeOffRequests/{timeOffRequest-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/timeoffrequest-get?view=graph-rest-beta",
+      null,
+      "https://learn.microsoft.com/graph/api/timeoffrequest-delete?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -4013,6 +5024,27 @@
     "Segment": "{timeOffRequest-id}"
   },
   {
+    "Endpoint": "teams/{team-id}/schedule/timeOffRequests/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/timeOffRequests/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/timeOffRequests/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "schedule",
+      "timeOffRequests",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/schedule/timesOff",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/timesOff",
@@ -4020,11 +5052,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/schedule-list-timesoff?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/schedule-post-timesoff?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/timesOff",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/schedule-list-timesoff?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/schedule-post-timesoff?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -4037,29 +5077,6 @@
     "Segment": "timesOff"
   },
   {
-    "Endpoint": "teams/{team-id}/schedule/timesOff/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/timesOff/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/timesOff/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "schedule",
-      "timesOff",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/schedule/timesOff/{timeOff-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/timesOff/{timeOff-id}",
@@ -4068,12 +5085,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/timeoff-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/timeoff-put?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/timeoff-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/timesOff/{timeOff-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/timeoff-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/timeoff-put?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/timeoff-delete?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -4087,6 +5114,27 @@
     "Segment": "{timeOff-id}"
   },
   {
+    "Endpoint": "teams/{team-id}/schedule/timesOff/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/schedule/timesOff/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/schedule/timesOff/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "schedule",
+      "timesOff",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/tags",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/tags",
@@ -4094,11 +5142,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/teamworktag-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/teamworktag-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/tags",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/teamworktag-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/teamworktag-post?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -4110,28 +5166,6 @@
     "Segment": "tags"
   },
   {
-    "Endpoint": "teams/{team-id}/tags/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/tags/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/tags/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "tags",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/tags/{teamworkTag-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/tags/{teamworkTag-id}",
@@ -4140,12 +5174,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/teamworktag-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/teamworktag-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/teamworktag-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/tags/{teamworkTag-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/teamworktag-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/teamworktag-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/teamworktag-delete?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -4165,11 +5209,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/teamworktagmember-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/teamworktagmember-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/tags/{teamworkTag-id}/members",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/teamworktagmember-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/teamworktagmember-post?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -4183,30 +5235,6 @@
     "Segment": "members"
   },
   {
-    "Endpoint": "teams/{team-id}/tags/{teamworkTag-id}/members/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/tags/{teamworkTag-id}/members/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/tags/{teamworkTag-id}/members/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "teams",
-      "{team-id}",
-      "tags",
-      "{teamworkTag-id}",
-      "members",
-      "$count"
-    ],
-    "Root": "teams",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "teams/{team-id}/tags/{teamworkTag-id}/members/{teamworkTagMember-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/tags/{teamworkTag-id}/members/{teamworkTagMember-id}",
@@ -4215,12 +5243,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/teamworktagmember-get?view=graph-rest-1.0",
+      null,
+      "https://learn.microsoft.com/graph/api/teamworktagmember-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/tags/{teamworkTag-id}/members/{teamworkTagMember-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/teamworktagmember-get?view=graph-rest-beta",
+      null,
+      "https://learn.microsoft.com/graph/api/teamworktagmember-delete?view=graph-rest-beta"
     ],
     "Path": [
       "teams",
@@ -4235,17 +5273,57 @@
     "Segment": "{teamworkTagMember-id}"
   },
   {
+    "Endpoint": "teams/{team-id}/tags/{teamworkTag-id}/members/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/tags/{teamworkTag-id}/members/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/tags/{teamworkTag-id}/members/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "tags",
+      "{teamworkTag-id}",
+      "members",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "teams/{team-id}/tags/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/tags/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/tags/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "{team-id}",
+      "tags",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/{team-id}/template",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/{team-id}/template",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/template",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -4260,11 +5338,11 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/{team-id}/templateDefinition",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "{team-id}",
@@ -4275,15 +5353,33 @@
     "Segment": "templateDefinition"
   },
   {
+    "Endpoint": "teams/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "teams",
+      "$count"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "teams/microsoft.graph.allMessages()",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/microsoft.graph.allMessages()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "microsoft.graph.allMessages()"
@@ -4296,14 +5392,12 @@
     "Endpoint": "teams/microsoft.graph.getAllMessages()",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/teams/microsoft.graph.getAllMessages()",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/teams/microsoft.graph.getAllMessages()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "teams",
       "microsoft.graph.getAllMessages()"
@@ -4311,5 +5405,59 @@
     "Root": "teams",
     "Children": 0,
     "Segment": "microsoft.graph.getAllMessages()"
+  },
+  {
+    "Endpoint": "teams/microsoft.graph.getOpenShifts()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/microsoft.graph.getOpenShifts()",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/team-getopenshifts?view=graph-rest-beta",
+    "Path": [
+      "teams",
+      "microsoft.graph.getOpenShifts()"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "microsoft.graph.getOpenShifts()"
+  },
+  {
+    "Endpoint": "teams/microsoft.graph.getShifts()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/microsoft.graph.getShifts()",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/team-getshifts?view=graph-rest-beta",
+    "Path": [
+      "teams",
+      "microsoft.graph.getShifts()"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "microsoft.graph.getShifts()"
+  },
+  {
+    "Endpoint": "teams/microsoft.graph.getTimesOff()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/teams/microsoft.graph.getTimesOff()",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/team-gettimesoff?view=graph-rest-beta",
+    "Path": [
+      "teams",
+      "microsoft.graph.getTimesOff()"
+    ],
+    "Root": "teams",
+    "Children": 0,
+    "Segment": "microsoft.graph.getTimesOff()"
   }
 ]

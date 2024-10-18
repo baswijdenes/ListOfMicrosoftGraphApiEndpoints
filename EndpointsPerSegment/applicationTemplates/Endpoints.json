@@ -3,16 +3,12 @@
     "Endpoint": "applicationTemplates",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/applicationTemplates",
-    "v1.0-Methods": [
-      "Get",
-      "Post"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/applicationtemplate-list?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/applicationTemplates",
-    "Beta-Methods": [
-      "Get",
-      "Post"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/applicationtemplate-list?view=graph-rest-beta",
     "Path": [
       "applicationTemplates"
     ],
@@ -21,41 +17,15 @@
     "Segment": "applicationTemplates"
   },
   {
-    "Endpoint": "applicationTemplates/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/applicationTemplates/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/applicationTemplates/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "applicationTemplates",
-      "$count"
-    ],
-    "Root": "applicationTemplates",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "applicationTemplates/{applicationTemplate-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/applicationTemplates/{applicationTemplate-id}",
-    "v1.0-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/applicationtemplate-get?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/applicationTemplates/{applicationTemplate-id}",
-    "Beta-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/applicationtemplate-get?view=graph-rest-beta",
     "Path": [
       "applicationTemplates",
       "{applicationTemplate-id}"
@@ -68,14 +38,12 @@
     "Endpoint": "applicationTemplates/{applicationTemplate-id}/microsoft.graph.instantiate",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/applicationTemplates/{applicationTemplate-id}/microsoft.graph.instantiate",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/applicationtemplate-instantiate?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/applicationTemplates/{applicationTemplate-id}/microsoft.graph.instantiate",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/applicationtemplate-instantiate?view=graph-rest-beta",
     "Path": [
       "applicationTemplates",
       "{applicationTemplate-id}",
@@ -84,5 +52,23 @@
     "Root": "applicationTemplates",
     "Children": 0,
     "Segment": "microsoft.graph.instantiate"
+  },
+  {
+    "Endpoint": "applicationTemplates/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/applicationTemplates/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/applicationTemplates/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "applicationTemplates",
+      "$count"
+    ],
+    "Root": "applicationTemplates",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

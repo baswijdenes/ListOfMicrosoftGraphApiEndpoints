@@ -7,17 +7,25 @@
       "Get",
       "Patch"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies",
     "Beta-Methods": [
       "Get",
       "Patch"
     ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
     "Path": [
       "policies"
     ],
     "Root": "policies",
-    "Children": 27,
+    "Children": 29,
     "Segment": "policies"
   },
   {
@@ -25,12 +33,21 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/accessReviewPolicy",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/accessreviewpolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/accessreviewpolicy-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "policies",
@@ -48,11 +65,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/activitybasedtimeoutpolicy-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/activitybasedtimeoutpolicy-post-activitybasedtimeoutpolicies?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/activityBasedTimeoutPolicies",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/activitybasedtimeoutpolicy-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/activitybasedtimeoutpolicy-post-activitybasedtimeoutpolicies?view=graph-rest-beta"
     ],
     "Path": [
       "policies",
@@ -63,17 +88,112 @@
     "Segment": "activityBasedTimeoutPolicies"
   },
   {
+    "Endpoint": "policies/activityBasedTimeoutPolicies/{activityBasedTimeoutPolicy-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/activityBasedTimeoutPolicies/{activityBasedTimeoutPolicy-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/activitybasedtimeoutpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/activitybasedtimeoutpolicy-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/activitybasedtimeoutpolicy-delete?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/activityBasedTimeoutPolicies/{activityBasedTimeoutPolicy-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/activitybasedtimeoutpolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/activitybasedtimeoutpolicy-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/activitybasedtimeoutpolicy-delete?view=graph-rest-beta"
+    ],
+    "Path": [
+      "policies",
+      "activityBasedTimeoutPolicies",
+      "{activityBasedTimeoutPolicy-id}"
+    ],
+    "Root": "policies",
+    "Children": 1,
+    "Segment": "{activityBasedTimeoutPolicy-id}"
+  },
+  {
+    "Endpoint": "policies/activityBasedTimeoutPolicies/{activityBasedTimeoutPolicy-id}/appliesTo",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/activityBasedTimeoutPolicies/{activityBasedTimeoutPolicy-id}/appliesTo",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/activityBasedTimeoutPolicies/{activityBasedTimeoutPolicy-id}/appliesTo",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "activityBasedTimeoutPolicies",
+      "{activityBasedTimeoutPolicy-id}",
+      "appliesTo"
+    ],
+    "Root": "policies",
+    "Children": 2,
+    "Segment": "appliesTo"
+  },
+  {
+    "Endpoint": "policies/activityBasedTimeoutPolicies/{activityBasedTimeoutPolicy-id}/appliesTo/{directoryObject-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/activityBasedTimeoutPolicies/{activityBasedTimeoutPolicy-id}/appliesTo/{directoryObject-id}",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/activityBasedTimeoutPolicies/{activityBasedTimeoutPolicy-id}/appliesTo/{directoryObject-id}",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "activityBasedTimeoutPolicies",
+      "{activityBasedTimeoutPolicy-id}",
+      "appliesTo",
+      "{directoryObject-id}"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "{directoryObject-id}"
+  },
+  {
+    "Endpoint": "policies/activityBasedTimeoutPolicies/{activityBasedTimeoutPolicy-id}/appliesTo/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/activityBasedTimeoutPolicies/{activityBasedTimeoutPolicy-id}/appliesTo/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/activityBasedTimeoutPolicies/{activityBasedTimeoutPolicy-id}/appliesTo/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "activityBasedTimeoutPolicies",
+      "{activityBasedTimeoutPolicy-id}",
+      "appliesTo",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "policies/activityBasedTimeoutPolicies/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/activityBasedTimeoutPolicies/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/activityBasedTimeoutPolicies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "policies",
       "activityBasedTimeoutPolicies",
@@ -84,31 +204,6 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "policies/activityBasedTimeoutPolicies/{activityBasedTimeoutPolicy-id}",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/activityBasedTimeoutPolicies/{activityBasedTimeoutPolicy-id}",
-    "v1.0-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/activityBasedTimeoutPolicies/{activityBasedTimeoutPolicy-id}",
-    "Beta-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
-    "Path": [
-      "policies",
-      "activityBasedTimeoutPolicies",
-      "{activityBasedTimeoutPolicy-id}"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "{activityBasedTimeoutPolicy-id}"
-  },
-  {
     "Endpoint": "policies/adminConsentRequestPolicy",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/adminConsentRequestPolicy",
@@ -117,12 +212,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/adminconsentrequestpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/adminconsentrequestpolicy-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/adminConsentRequestPolicy",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/adminconsentrequestpolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/adminconsentrequestpolicy-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "policies",
@@ -134,14 +239,25 @@
   },
   {
     "Endpoint": "policies/appManagementPolicies",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/appManagementPolicies",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/appmanagementpolicy-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/appmanagementpolicy-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/appManagementPolicies",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/appmanagementpolicy-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/appmanagementpolicy-post?view=graph-rest-beta"
     ],
     "Path": [
       "policies",
@@ -152,35 +268,30 @@
     "Segment": "appManagementPolicies"
   },
   {
-    "Endpoint": "policies/appManagementPolicies/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/appManagementPolicies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "policies",
-      "appManagementPolicies",
-      "$count"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "policies/appManagementPolicies/{appManagementPolicy-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/appManagementPolicies/{appManagementPolicy-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/appmanagementpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/appmanagementpolicy-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/appmanagementpolicy-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/appManagementPolicies/{appManagementPolicy-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/appmanagementpolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/appmanagementpolicy-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/appmanagementpolicy-delete?view=graph-rest-beta"
     ],
     "Path": [
       "policies",
@@ -193,14 +304,14 @@
   },
   {
     "Endpoint": "policies/appManagementPolicies/{appManagementPolicy-id}/appliesTo",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/appManagementPolicies/{appManagementPolicy-id}/appliesTo",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/appmanagementpolicy-list-appliesto?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/appManagementPolicies/{appManagementPolicy-id}/appliesTo",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/appmanagementpolicy-list-appliesto?view=graph-rest-beta",
     "Path": [
       "policies",
       "appManagementPolicies",
@@ -212,36 +323,15 @@
     "Segment": "appliesTo"
   },
   {
-    "Endpoint": "policies/appManagementPolicies/{appManagementPolicy-id}/appliesTo/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/appManagementPolicies/{appManagementPolicy-id}/appliesTo/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "policies",
-      "appManagementPolicies",
-      "{appManagementPolicy-id}",
-      "appliesTo",
-      "$count"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "policies/appManagementPolicies/{appManagementPolicy-id}/appliesTo/{directoryObject-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/appManagementPolicies/{appManagementPolicy-id}/appliesTo/{directoryObject-id}",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/appManagementPolicies/{appManagementPolicy-id}/appliesTo/{directoryObject-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "policies",
       "appManagementPolicies",
@@ -254,6 +344,46 @@
     "Segment": "{directoryObject-id}"
   },
   {
+    "Endpoint": "policies/appManagementPolicies/{appManagementPolicy-id}/appliesTo/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/appManagementPolicies/{appManagementPolicy-id}/appliesTo/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/appManagementPolicies/{appManagementPolicy-id}/appliesTo/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "appManagementPolicies",
+      "{appManagementPolicy-id}",
+      "appliesTo",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "policies/appManagementPolicies/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/appManagementPolicies/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/appManagementPolicies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "appManagementPolicies",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "policies/authenticationFlowsPolicy",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/authenticationFlowsPolicy",
@@ -262,12 +392,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/authenticationflowspolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/authenticationflowspolicy-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/authenticationFlowsPolicy",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/authenticationflowspolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/authenticationflowspolicy-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "policies",
@@ -286,12 +426,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/authenticationmethodspolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/authenticationmethodspolicy-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/authenticationMethodsPolicy",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/authenticationmethodspolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/authenticationmethodspolicy-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "policies",
@@ -309,11 +459,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/authenticationMethodsPolicy/authenticationMethodConfigurations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "policies",
@@ -325,28 +483,6 @@
     "Segment": "authenticationMethodConfigurations"
   },
   {
-    "Endpoint": "policies/authenticationMethodsPolicy/authenticationMethodConfigurations/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/authenticationMethodsPolicy/authenticationMethodConfigurations/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/authenticationMethodsPolicy/authenticationMethodConfigurations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "policies",
-      "authenticationMethodsPolicy",
-      "authenticationMethodConfigurations",
-      "$count"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "policies/authenticationMethodsPolicy/authenticationMethodConfigurations/{authenticationMethodConfiguration-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/authenticationMethodsPolicy/authenticationMethodConfigurations/{authenticationMethodConfiguration-id}",
@@ -355,12 +491,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/authenticationMethodsPolicy/authenticationMethodConfigurations/{authenticationMethodConfiguration-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/externalauthenticationmethodconfiguration-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/externalauthenticationmethodconfiguration-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/externalauthenticationmethodconfiguration-delete?view=graph-rest-beta"
     ],
     "Path": [
       "policies",
@@ -373,15 +519,46 @@
     "Segment": "{authenticationMethodConfiguration-id}"
   },
   {
+    "Endpoint": "policies/authenticationMethodsPolicy/authenticationMethodConfigurations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/authenticationMethodsPolicy/authenticationMethodConfigurations/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/authenticationMethodsPolicy/authenticationMethodConfigurations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "authenticationMethodsPolicy",
+      "authenticationMethodConfigurations",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "policies/authenticationStrengthPolicies",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/authenticationStrengthPolicies",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/authenticationstrengthroot-list-policies?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/authenticationstrengthroot-post-policies?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/authenticationStrengthPolicies",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/authenticationstrengthroot-list-policies?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/authenticationstrengthroot-post-policies?view=graph-rest-beta"
     ],
     "Path": [
       "policies",
@@ -392,35 +569,30 @@
     "Segment": "authenticationStrengthPolicies"
   },
   {
-    "Endpoint": "policies/authenticationStrengthPolicies/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/authenticationStrengthPolicies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "policies",
-      "authenticationStrengthPolicies",
-      "$count"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "policies/authenticationStrengthPolicies/{authenticationStrengthPolicy-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/authenticationStrengthPolicies/{authenticationStrengthPolicy-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/authenticationstrengthpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/authenticationstrengthpolicy-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/authenticationstrengthroot-delete-policies?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/authenticationStrengthPolicies/{authenticationStrengthPolicy-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/authenticationstrengthpolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/authenticationstrengthpolicy-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/authenticationstrengthroot-delete-policies?view=graph-rest-beta"
     ],
     "Path": [
       "policies",
@@ -433,14 +605,25 @@
   },
   {
     "Endpoint": "policies/authenticationStrengthPolicies/{authenticationStrengthPolicy-id}/combinationConfigurations",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/authenticationStrengthPolicies/{authenticationStrengthPolicy-id}/combinationConfigurations",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/authenticationStrengthPolicies/{authenticationStrengthPolicy-id}/combinationConfigurations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "policies",
@@ -453,37 +636,30 @@
     "Segment": "combinationConfigurations"
   },
   {
-    "Endpoint": "policies/authenticationStrengthPolicies/{authenticationStrengthPolicy-id}/combinationConfigurations/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/authenticationStrengthPolicies/{authenticationStrengthPolicy-id}/combinationConfigurations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "policies",
-      "authenticationStrengthPolicies",
-      "{authenticationStrengthPolicy-id}",
-      "combinationConfigurations",
-      "$count"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "policies/authenticationStrengthPolicies/{authenticationStrengthPolicy-id}/combinationConfigurations/{authenticationCombinationConfiguration-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/authenticationStrengthPolicies/{authenticationStrengthPolicy-id}/combinationConfigurations/{authenticationCombinationConfiguration-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/authenticationStrengthPolicies/{authenticationStrengthPolicy-id}/combinationConfigurations/{authenticationCombinationConfiguration-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "policies",
@@ -497,15 +673,36 @@
     "Segment": "{authenticationCombinationConfiguration-id}"
   },
   {
+    "Endpoint": "policies/authenticationStrengthPolicies/{authenticationStrengthPolicy-id}/combinationConfigurations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/authenticationStrengthPolicies/{authenticationStrengthPolicy-id}/combinationConfigurations/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/authenticationStrengthPolicies/{authenticationStrengthPolicy-id}/combinationConfigurations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "authenticationStrengthPolicies",
+      "{authenticationStrengthPolicy-id}",
+      "combinationConfigurations",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "policies/authenticationStrengthPolicies/{authenticationStrengthPolicy-id}/microsoft.graph.updateAllowedCombinations",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/authenticationStrengthPolicies/{authenticationStrengthPolicy-id}/microsoft.graph.updateAllowedCombinations",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/authenticationstrengthpolicy-updateallowedcombinations?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/authenticationStrengthPolicies/{authenticationStrengthPolicy-id}/microsoft.graph.updateAllowedCombinations",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/authenticationstrengthpolicy-updateallowedcombinations?view=graph-rest-beta",
     "Path": [
       "policies",
       "authenticationStrengthPolicies",
@@ -518,14 +715,14 @@
   },
   {
     "Endpoint": "policies/authenticationStrengthPolicies/{authenticationStrengthPolicy-id}/microsoft.graph.usage()",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/authenticationStrengthPolicies/{authenticationStrengthPolicy-id}/microsoft.graph.usage()",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/authenticationstrengthpolicy-usage?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/authenticationStrengthPolicies/{authenticationStrengthPolicy-id}/microsoft.graph.usage()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/authenticationstrengthpolicy-usage?view=graph-rest-beta",
     "Path": [
       "policies",
       "authenticationStrengthPolicies",
@@ -537,15 +734,34 @@
     "Segment": "microsoft.graph.usage()"
   },
   {
+    "Endpoint": "policies/authenticationStrengthPolicies/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/authenticationStrengthPolicies/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/authenticationStrengthPolicies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "authenticationStrengthPolicies",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "policies/authenticationStrengthPolicies/microsoft.graph.findByMethodMode(authenticationMethodModes={authenticationMethodModes})",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/authenticationStrengthPolicies/microsoft.graph.findByMethodMode(authenticationMethodModes={authenticationMethodModes})",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/authenticationstrengthpolicy-findbymethodmode?view=graph-rest-beta",
     "Path": [
       "policies",
       "authenticationStrengthPolicies",
@@ -564,11 +780,20 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/authorizationpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/authorizationpolicy-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/authorizationPolicy",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/authorizationpolicy-get?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "policies",
@@ -579,35 +804,26 @@
     "Segment": "authorizationPolicy"
   },
   {
-    "Endpoint": "policies/authorizationPolicy/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/authorizationPolicy/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "policies",
-      "authorizationPolicy",
-      "$count"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "policies/authorizationPolicy/{authorizationPolicy-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/authorizationpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/authorizationpolicy-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/authorizationPolicy/{authorizationPolicy-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "policies",
@@ -623,11 +839,20 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/authorizationpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/authorizationpolicy-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/authorizationPolicy/{authorizationPolicy-id}/defaultUserRoleOverrides",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "policies",
@@ -640,37 +865,26 @@
     "Segment": "defaultUserRoleOverrides"
   },
   {
-    "Endpoint": "policies/authorizationPolicy/{authorizationPolicy-id}/defaultUserRoleOverrides/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/authorizationPolicy/{authorizationPolicy-id}/defaultUserRoleOverrides/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "policies",
-      "authorizationPolicy",
-      "{authorizationPolicy-id}",
-      "defaultUserRoleOverrides",
-      "$count"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "policies/authorizationPolicy/{authorizationPolicy-id}/defaultUserRoleOverrides/{defaultUserRoleOverride-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/authorizationpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/authorizationpolicy-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/authorizationPolicy/{authorizationPolicy-id}/defaultUserRoleOverrides/{defaultUserRoleOverride-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "policies",
@@ -684,16 +898,74 @@
     "Segment": "{defaultUserRoleOverride-id}"
   },
   {
+    "Endpoint": "policies/authorizationPolicy/{authorizationPolicy-id}/defaultUserRoleOverrides/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/authorizationpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/authorizationpolicy-update?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/authorizationPolicy/{authorizationPolicy-id}/defaultUserRoleOverrides/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "authorizationPolicy",
+      "{authorizationPolicy-id}",
+      "defaultUserRoleOverrides",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "policies/authorizationPolicy/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/authorizationpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/authorizationpolicy-update?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/authorizationPolicy/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "authorizationPolicy",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "policies/b2cAuthenticationMethodsPolicy",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/authorizationpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/authorizationpolicy-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/b2cAuthenticationMethodsPolicy",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/b2cauthenticationmethodspolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/b2cauthenticationmethodspolicy-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "policies",
@@ -711,11 +983,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/claimsmappingpolicy-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/claimsmappingpolicy-post-claimsmappingpolicies?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/claimsMappingPolicies",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/claimsmappingpolicy-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/claimsmappingpolicy-post-claimsmappingpolicies?view=graph-rest-beta"
     ],
     "Path": [
       "policies",
@@ -726,17 +1006,112 @@
     "Segment": "claimsMappingPolicies"
   },
   {
+    "Endpoint": "policies/claimsMappingPolicies/{claimsMappingPolicy-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/claimsMappingPolicies/{claimsMappingPolicy-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/claimsmappingpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/claimsmappingpolicy-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/claimsmappingpolicy-delete?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/claimsMappingPolicies/{claimsMappingPolicy-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/claimsmappingpolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/claimsmappingpolicy-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/claimsmappingpolicy-delete?view=graph-rest-beta"
+    ],
+    "Path": [
+      "policies",
+      "claimsMappingPolicies",
+      "{claimsMappingPolicy-id}"
+    ],
+    "Root": "policies",
+    "Children": 1,
+    "Segment": "{claimsMappingPolicy-id}"
+  },
+  {
+    "Endpoint": "policies/claimsMappingPolicies/{claimsMappingPolicy-id}/appliesTo",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/claimsMappingPolicies/{claimsMappingPolicy-id}/appliesTo",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/claimsmappingpolicy-list-appliesto?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/claimsMappingPolicies/{claimsMappingPolicy-id}/appliesTo",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/claimsmappingpolicy-list-appliesto?view=graph-rest-beta",
+    "Path": [
+      "policies",
+      "claimsMappingPolicies",
+      "{claimsMappingPolicy-id}",
+      "appliesTo"
+    ],
+    "Root": "policies",
+    "Children": 2,
+    "Segment": "appliesTo"
+  },
+  {
+    "Endpoint": "policies/claimsMappingPolicies/{claimsMappingPolicy-id}/appliesTo/{directoryObject-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/claimsMappingPolicies/{claimsMappingPolicy-id}/appliesTo/{directoryObject-id}",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/claimsMappingPolicies/{claimsMappingPolicy-id}/appliesTo/{directoryObject-id}",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "claimsMappingPolicies",
+      "{claimsMappingPolicy-id}",
+      "appliesTo",
+      "{directoryObject-id}"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "{directoryObject-id}"
+  },
+  {
+    "Endpoint": "policies/claimsMappingPolicies/{claimsMappingPolicy-id}/appliesTo/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/claimsMappingPolicies/{claimsMappingPolicy-id}/appliesTo/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/claimsMappingPolicies/{claimsMappingPolicy-id}/appliesTo/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "claimsMappingPolicies",
+      "{claimsMappingPolicy-id}",
+      "appliesTo",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "policies/claimsMappingPolicies/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/claimsMappingPolicies/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/claimsMappingPolicies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "policies",
       "claimsMappingPolicies",
@@ -747,31 +1122,6 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "policies/claimsMappingPolicies/{claimsMappingPolicy-id}",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/claimsMappingPolicies/{claimsMappingPolicy-id}",
-    "v1.0-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/claimsMappingPolicies/{claimsMappingPolicy-id}",
-    "Beta-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
-    "Path": [
-      "policies",
-      "claimsMappingPolicies",
-      "{claimsMappingPolicy-id}"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "{claimsMappingPolicy-id}"
-  },
-  {
     "Endpoint": "policies/conditionalAccessPolicies",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/conditionalAccessPolicies",
@@ -779,11 +1129,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/conditionalAccessPolicies",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "policies",
@@ -794,27 +1152,6 @@
     "Segment": "conditionalAccessPolicies"
   },
   {
-    "Endpoint": "policies/conditionalAccessPolicies/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/conditionalAccessPolicies/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/conditionalAccessPolicies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "policies",
-      "conditionalAccessPolicies",
-      "$count"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "policies/conditionalAccessPolicies/{conditionalAccessPolicy-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/conditionalAccessPolicies/{conditionalAccessPolicy-id}",
@@ -823,12 +1160,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/conditionalAccessPolicies/{conditionalAccessPolicy-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "policies",
@@ -840,6 +1187,25 @@
     "Segment": "{conditionalAccessPolicy-id}"
   },
   {
+    "Endpoint": "policies/conditionalAccessPolicies/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/conditionalAccessPolicies/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/conditionalAccessPolicies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "conditionalAccessPolicies",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "policies/crossTenantAccessPolicy",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/crossTenantAccessPolicy",
@@ -848,6 +1214,11 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/crosstenantaccesspolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/crosstenantaccesspolicy-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/crossTenantAccessPolicy",
     "Beta-Methods": [
@@ -855,12 +1226,17 @@
       "Patch",
       "Delete"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/crosstenantaccesspolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/crosstenantaccesspolicy-update?view=graph-rest-beta",
+      null
+    ],
     "Path": [
       "policies",
       "crossTenantAccessPolicy"
     ],
     "Root": "policies",
-    "Children": 2,
+    "Children": 3,
     "Segment": "crossTenantAccessPolicy"
   },
   {
@@ -872,12 +1248,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/crosstenantaccesspolicyconfigurationdefault-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/crosstenantaccesspolicyconfigurationdefault-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/crossTenantAccessPolicy/default",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/crosstenantaccesspolicyconfigurationdefault-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/crosstenantaccesspolicyconfigurationdefault-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "policies",
@@ -892,14 +1278,12 @@
     "Endpoint": "policies/crossTenantAccessPolicy/default/microsoft.graph.resetToSystemDefault",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/crossTenantAccessPolicy/default/microsoft.graph.resetToSystemDefault",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/crosstenantaccesspolicyconfigurationdefault-resettosystemdefault?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/crossTenantAccessPolicy/default/microsoft.graph.resetToSystemDefault",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/crosstenantaccesspolicyconfigurationdefault-resettosystemdefault?view=graph-rest-beta",
     "Path": [
       "policies",
       "crossTenantAccessPolicy",
@@ -918,11 +1302,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/crosstenantaccesspolicy-list-partners?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/crosstenantaccesspolicy-post-partners?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/crossTenantAccessPolicy/partners",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/crosstenantaccesspolicy-list-partners?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/crosstenantaccesspolicy-post-partners?view=graph-rest-beta"
     ],
     "Path": [
       "policies",
@@ -934,17 +1326,88 @@
     "Segment": "partners"
   },
   {
+    "Endpoint": "policies/crossTenantAccessPolicy/partners/{crossTenantAccessPolicyConfigurationPartner-tenantId}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/crossTenantAccessPolicy/partners/{crossTenantAccessPolicyConfigurationPartner-tenantId}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/crosstenantaccesspolicyconfigurationpartner-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/crosstenantaccesspolicyconfigurationpartner-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/crosstenantaccesspolicyconfigurationpartner-delete?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/crossTenantAccessPolicy/partners/{crossTenantAccessPolicyConfigurationPartner-tenantId}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/crosstenantaccesspolicyconfigurationpartner-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/crosstenantaccesspolicyconfigurationpartner-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/crosstenantaccesspolicyconfigurationpartner-delete?view=graph-rest-beta"
+    ],
+    "Path": [
+      "policies",
+      "crossTenantAccessPolicy",
+      "partners",
+      "{crossTenantAccessPolicyConfigurationPartner-tenantId}"
+    ],
+    "Root": "policies",
+    "Children": 1,
+    "Segment": "{crossTenantAccessPolicyConfigurationPartner-tenantId}"
+  },
+  {
+    "Endpoint": "policies/crossTenantAccessPolicy/partners/{crossTenantAccessPolicyConfigurationPartner-tenantId}/identitySynchronization",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/crossTenantAccessPolicy/partners/{crossTenantAccessPolicyConfigurationPartner-tenantId}/identitySynchronization",
+    "v1.0-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/crosstenantidentitysyncpolicypartner-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/crosstenantaccesspolicyconfigurationpartner-put-identitysynchronization?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/crosstenantidentitysyncpolicypartner-delete?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/crossTenantAccessPolicy/partners/{crossTenantAccessPolicyConfigurationPartner-tenantId}/identitySynchronization",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/crosstenantidentitysyncpolicypartner-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/crosstenantaccesspolicyconfigurationpartner-put-identitysynchronization?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/crosstenantidentitysyncpolicypartner-delete?view=graph-rest-beta"
+    ],
+    "Path": [
+      "policies",
+      "crossTenantAccessPolicy",
+      "partners",
+      "{crossTenantAccessPolicyConfigurationPartner-tenantId}",
+      "identitySynchronization"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "identitySynchronization"
+  },
+  {
     "Endpoint": "policies/crossTenantAccessPolicy/partners/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/crossTenantAccessPolicy/partners/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/crossTenantAccessPolicy/partners/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "policies",
       "crossTenantAccessPolicy",
@@ -956,42 +1419,187 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "policies/crossTenantAccessPolicy/partners/{crossTenantAccessPolicyConfigurationPartner-tenantId}",
+    "Endpoint": "policies/crossTenantAccessPolicy/templates",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/crossTenantAccessPolicy/partners/{crossTenantAccessPolicyConfigurationPartner-tenantId}",
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/crossTenantAccessPolicy/templates",
     "v1.0-Methods": [
       "Get",
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/crossTenantAccessPolicy/partners/{crossTenantAccessPolicyConfigurationPartner-tenantId}",
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/crossTenantAccessPolicy/templates",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
     ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
     "Path": [
       "policies",
       "crossTenantAccessPolicy",
-      "partners",
-      "{crossTenantAccessPolicyConfigurationPartner-tenantId}"
+      "templates"
     ],
     "Root": "policies",
-    "Children": 0,
-    "Segment": "{crossTenantAccessPolicyConfigurationPartner-tenantId}"
+    "Children": 2,
+    "Segment": "templates"
   },
   {
-    "Endpoint": "policies/defaultAppManagementPolicy",
+    "Endpoint": "policies/crossTenantAccessPolicy/templates/multiTenantOrganizationIdentitySynchronization",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/crossTenantAccessPolicy/templates/multiTenantOrganizationIdentitySynchronization",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/multitenantorganizationidentitysyncpolicytemplate-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/multitenantorganizationidentitysyncpolicytemplate-update?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/crossTenantAccessPolicy/templates/multiTenantOrganizationIdentitySynchronization",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/multitenantorganizationidentitysyncpolicytemplate-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/multitenantorganizationidentitysyncpolicytemplate-update?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "policies",
+      "crossTenantAccessPolicy",
+      "templates",
+      "multiTenantOrganizationIdentitySynchronization"
+    ],
+    "Root": "policies",
+    "Children": 1,
+    "Segment": "multiTenantOrganizationIdentitySynchronization"
+  },
+  {
+    "Endpoint": "policies/crossTenantAccessPolicy/templates/multiTenantOrganizationIdentitySynchronization/microsoft.graph.resetToDefaultSettings",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/multitenantorganizationidentitysyncpolicytemplate-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/multitenantorganizationidentitysyncpolicytemplate-update?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/crossTenantAccessPolicy/templates/multiTenantOrganizationIdentitySynchronization/microsoft.graph.resetToDefaultSettings",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/multitenantorganizationidentitysyncpolicytemplate-resettodefaultsettings?view=graph-rest-beta",
+    "Path": [
+      "policies",
+      "crossTenantAccessPolicy",
+      "templates",
+      "multiTenantOrganizationIdentitySynchronization",
+      "microsoft.graph.resetToDefaultSettings"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "microsoft.graph.resetToDefaultSettings"
+  },
+  {
+    "Endpoint": "policies/crossTenantAccessPolicy/templates/multiTenantOrganizationPartnerConfiguration",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/crossTenantAccessPolicy/templates/multiTenantOrganizationPartnerConfiguration",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/multitenantorganizationpartnerconfigurationtemplate-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/multitenantorganizationpartnerconfigurationtemplate-update?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/crossTenantAccessPolicy/templates/multiTenantOrganizationPartnerConfiguration",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/multitenantorganizationpartnerconfigurationtemplate-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/multitenantorganizationpartnerconfigurationtemplate-update?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "policies",
+      "crossTenantAccessPolicy",
+      "templates",
+      "multiTenantOrganizationPartnerConfiguration"
+    ],
+    "Root": "policies",
+    "Children": 1,
+    "Segment": "multiTenantOrganizationPartnerConfiguration"
+  },
+  {
+    "Endpoint": "policies/crossTenantAccessPolicy/templates/multiTenantOrganizationPartnerConfiguration/microsoft.graph.resetToDefaultSettings",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/multitenantorganizationpartnerconfigurationtemplate-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/multitenantorganizationpartnerconfigurationtemplate-update?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/crossTenantAccessPolicy/templates/multiTenantOrganizationPartnerConfiguration/microsoft.graph.resetToDefaultSettings",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/multitenantorganizationpartnerconfigurationtemplate-resettodefaultsettings?view=graph-rest-beta",
+    "Path": [
+      "policies",
+      "crossTenantAccessPolicy",
+      "templates",
+      "multiTenantOrganizationPartnerConfiguration",
+      "microsoft.graph.resetToDefaultSettings"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "microsoft.graph.resetToDefaultSettings"
+  },
+  {
+    "Endpoint": "policies/defaultAppManagementPolicy",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/defaultAppManagementPolicy",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/tenantappmanagementpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/tenantappmanagementpolicy-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/defaultAppManagementPolicy",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/tenantappmanagementpolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/tenantappmanagementpolicy-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "policies",
@@ -1003,14 +1611,14 @@
   },
   {
     "Endpoint": "policies/deviceRegistrationPolicy",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/deviceRegistrationPolicy",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/deviceRegistrationPolicy",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/deviceregistrationpolicy-get?view=graph-rest-beta",
     "Path": [
       "policies",
       "deviceRegistrationPolicy"
@@ -1024,12 +1632,18 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/directoryRoleAccessReviewPolicy",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "policies",
@@ -1044,12 +1658,18 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/externalIdentitiesPolicy",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/externalidentitiespolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/externalidentitiespolicy-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "policies",
@@ -1067,11 +1687,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/featurerolloutpolicies-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/featurerolloutpolicies-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/featureRolloutPolicies",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/list-featurerolloutpolicies?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/post-featurerolloutpolicies?view=graph-rest-beta"
     ],
     "Path": [
       "policies",
@@ -1082,27 +1710,6 @@
     "Segment": "featureRolloutPolicies"
   },
   {
-    "Endpoint": "policies/featureRolloutPolicies/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/featureRolloutPolicies/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/featureRolloutPolicies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "policies",
-      "featureRolloutPolicies",
-      "$count"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "policies/featureRolloutPolicies/{featureRolloutPolicy-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/featureRolloutPolicies/{featureRolloutPolicy-id}",
@@ -1111,12 +1718,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/featurerolloutpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/featurerolloutpolicy-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/featurerolloutpolicy-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/featureRolloutPolicies/{featureRolloutPolicy-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/featurerolloutpolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/featurerolloutpolicy-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/featurerolloutpolicy-delete?view=graph-rest-beta"
     ],
     "Path": [
       "policies",
@@ -1135,11 +1752,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/featurerolloutpolicy-post-appliesto?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/featureRolloutPolicies/{featureRolloutPolicy-id}/appliesTo",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/featurerolloutpolicy-post-appliesto?view=graph-rest-beta"
     ],
     "Path": [
       "policies",
@@ -1148,21 +1773,68 @@
       "appliesTo"
     ],
     "Root": "policies",
-    "Children": 7,
+    "Children": 3,
     "Segment": "appliesTo"
+  },
+  {
+    "Endpoint": "policies/featureRolloutPolicies/{featureRolloutPolicy-id}/appliesTo/{directoryObject-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/featurerolloutpolicy-post-appliesto?view=graph-rest-1.0"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/featurerolloutpolicy-post-appliesto?view=graph-rest-beta"
+    ],
+    "Path": [
+      "policies",
+      "featureRolloutPolicies",
+      "{featureRolloutPolicy-id}",
+      "appliesTo",
+      "{directoryObject-id}"
+    ],
+    "Root": "policies",
+    "Children": 1,
+    "Segment": "{directoryObject-id}"
+  },
+  {
+    "Endpoint": "policies/featureRolloutPolicies/{featureRolloutPolicy-id}/appliesTo/{directoryObject-id}/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/featureRolloutPolicies/{featureRolloutPolicy-id}/appliesTo/{directoryObject-id}/$ref",
+    "v1.0-Methods": "Delete",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/featurerolloutpolicy-delete-appliesto?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/featureRolloutPolicies/{featureRolloutPolicy-id}/appliesTo/{directoryObject-id}/$ref",
+    "Beta-Methods": "Delete",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/featurerolloutpolicy-delete-appliesto?view=graph-rest-beta",
+    "Path": [
+      "policies",
+      "featureRolloutPolicies",
+      "{featureRolloutPolicy-id}",
+      "appliesTo",
+      "{directoryObject-id}",
+      "$ref"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$ref"
   },
   {
     "Endpoint": "policies/featureRolloutPolicies/{featureRolloutPolicy-id}/appliesTo/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/featureRolloutPolicies/{featureRolloutPolicy-id}/appliesTo/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/featureRolloutPolicies/{featureRolloutPolicy-id}/appliesTo/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "policies",
       "featureRolloutPolicies",
@@ -1180,13 +1852,25 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/featureRolloutPolicies/{featureRolloutPolicy-id}/appliesTo/$ref",
     "v1.0-Methods": [
       "Get",
-      "Post"
+      "Post",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/featurerolloutpolicy-post-appliesto?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/featurerolloutpolicy-delete-appliesto?view=graph-rest-1.0"
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/featureRolloutPolicies/{featureRolloutPolicy-id}/appliesTo/$ref",
     "Beta-Methods": [
       "Get",
-      "Post"
+      "Post",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/featurerolloutpolicy-post-appliesto?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/featurerolloutpolicy-delete-appliesto?view=graph-rest-beta"
     ],
     "Path": [
       "policies",
@@ -1200,135 +1884,52 @@
     "Segment": "$ref"
   },
   {
-    "Endpoint": "policies/featureRolloutPolicies/{featureRolloutPolicy-id}/appliesTo/{directoryObject-id}",
+    "Endpoint": "policies/featureRolloutPolicies/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/featureRolloutPolicies/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/featureRolloutPolicies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "featureRolloutPolicies",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "policies/federatedTokenValidationPolicy",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
-    "beta": false,
-    "Beta-Url": null,
-    "Beta-Methods": null,
-    "Path": [
-      "policies",
-      "featureRolloutPolicies",
-      "{featureRolloutPolicy-id}",
-      "appliesTo",
-      "{directoryObject-id}"
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/featurerolloutpolicies-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/featurerolloutpolicies-post?view=graph-rest-1.0"
     ],
-    "Root": "policies",
-    "Children": 1,
-    "Segment": "{directoryObject-id}"
-  },
-  {
-    "Endpoint": "policies/featureRolloutPolicies/{featureRolloutPolicy-id}/appliesTo/{directoryObject-id}/$ref",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/featureRolloutPolicies/{featureRolloutPolicy-id}/appliesTo/{directoryObject-id}/$ref",
-    "v1.0-Methods": [
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/federatedTokenValidationPolicy",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
       "Delete"
     ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/featureRolloutPolicies/{featureRolloutPolicy-id}/appliesTo/{directoryObject-id}/$ref",
-    "Beta-Methods": [
-      "Delete"
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/federatedtokenvalidationpolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/federatedtokenvalidationpolicy-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "policies",
-      "featureRolloutPolicies",
-      "{featureRolloutPolicy-id}",
-      "appliesTo",
-      "{directoryObject-id}",
-      "$ref"
+      "federatedTokenValidationPolicy"
     ],
     "Root": "policies",
     "Children": 0,
-    "Segment": "$ref"
-  },
-  {
-    "Endpoint": "policies/featureRolloutPolicies/{featureRolloutPolicy-id}/appliesTo/microsoft.graph.getAvailableExtensionProperties",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/featureRolloutPolicies/{featureRolloutPolicy-id}/appliesTo/microsoft.graph.getAvailableExtensionProperties",
-    "v1.0-Methods": [
-      "Post"
-    ],
-    "beta": false,
-    "Beta-Url": null,
-    "Beta-Methods": null,
-    "Path": [
-      "policies",
-      "featureRolloutPolicies",
-      "{featureRolloutPolicy-id}",
-      "appliesTo",
-      "microsoft.graph.getAvailableExtensionProperties"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "microsoft.graph.getAvailableExtensionProperties"
-  },
-  {
-    "Endpoint": "policies/featureRolloutPolicies/{featureRolloutPolicy-id}/appliesTo/microsoft.graph.getByIds",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/featureRolloutPolicies/{featureRolloutPolicy-id}/appliesTo/microsoft.graph.getByIds",
-    "v1.0-Methods": [
-      "Post"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/featureRolloutPolicies/{featureRolloutPolicy-id}/appliesTo/microsoft.graph.getByIds",
-    "Beta-Methods": [
-      "Post"
-    ],
-    "Path": [
-      "policies",
-      "featureRolloutPolicies",
-      "{featureRolloutPolicy-id}",
-      "appliesTo",
-      "microsoft.graph.getByIds"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "microsoft.graph.getByIds"
-  },
-  {
-    "Endpoint": "policies/featureRolloutPolicies/{featureRolloutPolicy-id}/appliesTo/microsoft.graph.getUserOwnedObjects",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/featureRolloutPolicies/{featureRolloutPolicy-id}/appliesTo/microsoft.graph.getUserOwnedObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
-    "Path": [
-      "policies",
-      "featureRolloutPolicies",
-      "{featureRolloutPolicy-id}",
-      "appliesTo",
-      "microsoft.graph.getUserOwnedObjects"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "microsoft.graph.getUserOwnedObjects"
-  },
-  {
-    "Endpoint": "policies/featureRolloutPolicies/{featureRolloutPolicy-id}/appliesTo/microsoft.graph.validateProperties",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/featureRolloutPolicies/{featureRolloutPolicy-id}/appliesTo/microsoft.graph.validateProperties",
-    "v1.0-Methods": [
-      "Post"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/featureRolloutPolicies/{featureRolloutPolicy-id}/appliesTo/microsoft.graph.validateProperties",
-    "Beta-Methods": [
-      "Post"
-    ],
-    "Path": [
-      "policies",
-      "featureRolloutPolicies",
-      "{featureRolloutPolicy-id}",
-      "appliesTo",
-      "microsoft.graph.validateProperties"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "microsoft.graph.validateProperties"
+    "Segment": "federatedTokenValidationPolicy"
   },
   {
     "Endpoint": "policies/homeRealmDiscoveryPolicies",
@@ -1338,11 +1939,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/homerealmdiscoverypolicy-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/homerealmdiscoverypolicy-post-homerealmdiscoverypolicies?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/homeRealmDiscoveryPolicies",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/homerealmdiscoverypolicy-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/homerealmdiscoverypolicy-post-homerealmdiscoverypolicies?view=graph-rest-beta"
     ],
     "Path": [
       "policies",
@@ -1353,17 +1962,112 @@
     "Segment": "homeRealmDiscoveryPolicies"
   },
   {
+    "Endpoint": "policies/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/homerealmdiscoverypolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/homerealmdiscoverypolicy-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/homerealmdiscoverypolicy-delete?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/homerealmdiscoverypolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/homerealmdiscoverypolicy-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/homerealmdiscoverypolicy-delete?view=graph-rest-beta"
+    ],
+    "Path": [
+      "policies",
+      "homeRealmDiscoveryPolicies",
+      "{homeRealmDiscoveryPolicy-id}"
+    ],
+    "Root": "policies",
+    "Children": 1,
+    "Segment": "{homeRealmDiscoveryPolicy-id}"
+  },
+  {
+    "Endpoint": "policies/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}/appliesTo",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}/appliesTo",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/homerealmdiscoverypolicy-list-appliesto?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}/appliesTo",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/homerealmdiscoverypolicy-list-appliesto?view=graph-rest-beta",
+    "Path": [
+      "policies",
+      "homeRealmDiscoveryPolicies",
+      "{homeRealmDiscoveryPolicy-id}",
+      "appliesTo"
+    ],
+    "Root": "policies",
+    "Children": 2,
+    "Segment": "appliesTo"
+  },
+  {
+    "Endpoint": "policies/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}/appliesTo/{directoryObject-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}/appliesTo/{directoryObject-id}",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}/appliesTo/{directoryObject-id}",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "homeRealmDiscoveryPolicies",
+      "{homeRealmDiscoveryPolicy-id}",
+      "appliesTo",
+      "{directoryObject-id}"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "{directoryObject-id}"
+  },
+  {
+    "Endpoint": "policies/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}/appliesTo/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}/appliesTo/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}/appliesTo/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "homeRealmDiscoveryPolicies",
+      "{homeRealmDiscoveryPolicy-id}",
+      "appliesTo",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "policies/homeRealmDiscoveryPolicies/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/homeRealmDiscoveryPolicies/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/homeRealmDiscoveryPolicies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "policies",
       "homeRealmDiscoveryPolicies",
@@ -1374,31 +2078,6 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "policies/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}",
-    "v1.0-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}",
-    "Beta-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
-    "Path": [
-      "policies",
-      "homeRealmDiscoveryPolicies",
-      "{homeRealmDiscoveryPolicy-id}"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "{homeRealmDiscoveryPolicy-id}"
-  },
-  {
     "Endpoint": "policies/identitySecurityDefaultsEnforcementPolicy",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/identitySecurityDefaultsEnforcementPolicy",
@@ -1407,12 +2086,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/identitySecurityDefaultsEnforcementPolicy",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "policies",
@@ -1427,11 +2116,20 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/mobileAppManagementPolicies",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/mobileappmanagementpolicies-list?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "policies",
@@ -1442,35 +2140,26 @@
     "Segment": "mobileAppManagementPolicies"
   },
   {
-    "Endpoint": "policies/mobileAppManagementPolicies/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/mobileAppManagementPolicies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "policies",
-      "mobileAppManagementPolicies",
-      "$count"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "policies/mobileAppManagementPolicies/{mobilityManagementPolicy-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/mobileAppManagementPolicies/{mobilityManagementPolicy-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/mobileappmanagementpolicies-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/mobileappmanagementpolicies-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/mobileappmanagementpolicies-delete?view=graph-rest-beta"
     ],
     "Path": [
       "policies",
@@ -1486,11 +2175,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/mobileAppManagementPolicies/{mobilityManagementPolicy-id}/includedGroups",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/mobileappmanagementpolicies-list-includedgroups?view=graph-rest-beta",
     "Path": [
       "policies",
       "mobileAppManagementPolicies",
@@ -1502,15 +2195,123 @@
     "Segment": "includedGroups"
   },
   {
+    "Endpoint": "policies/mobileAppManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-update?view=graph-rest-1.0",
+      null
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/mobileappmanagementpolicies-list-includedgroups?view=graph-rest-beta",
+    "Path": [
+      "policies",
+      "mobileAppManagementPolicies",
+      "{mobilityManagementPolicy-id}",
+      "includedGroups",
+      "{group-id}"
+    ],
+    "Root": "policies",
+    "Children": 2,
+    "Segment": "{group-id}"
+  },
+  {
+    "Endpoint": "policies/mobileAppManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-update?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/mobileAppManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/$ref",
+    "Beta-Methods": "Delete",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/mobileappmanagementpolicies-delete-includedgroups?view=graph-rest-beta",
+    "Path": [
+      "policies",
+      "mobileAppManagementPolicies",
+      "{mobilityManagementPolicy-id}",
+      "includedGroups",
+      "{group-id}",
+      "$ref"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "policies/mobileAppManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/serviceProvisioningErrors",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-update?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/mobileAppManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "mobileAppManagementPolicies",
+      "{mobilityManagementPolicy-id}",
+      "includedGroups",
+      "{group-id}",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "policies",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "policies/mobileAppManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/serviceProvisioningErrors/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-update?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/mobileAppManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "mobileAppManagementPolicies",
+      "{mobilityManagementPolicy-id}",
+      "includedGroups",
+      "{group-id}",
+      "serviceProvisioningErrors",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "policies/mobileAppManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/$count",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/mobileAppManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "policies",
       "mobileAppManagementPolicies",
@@ -1527,74 +2328,76 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/mobileAppManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/$ref",
     "Beta-Methods": [
       "Get",
-      "Post"
-    ],
-    "Path": [
-      "policies",
-      "mobileAppManagementPolicies",
-      "{mobilityManagementPolicy-id}",
-      "includedGroups",
-      "$ref"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "$ref"
-  },
-  {
-    "Endpoint": "policies/mobileAppManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": false,
-    "Beta-Url": null,
-    "Beta-Methods": null,
-    "Path": [
-      "policies",
-      "mobileAppManagementPolicies",
-      "{mobilityManagementPolicy-id}",
-      "includedGroups",
-      "{group-id}"
-    ],
-    "Root": "policies",
-    "Children": 1,
-    "Segment": "{group-id}"
-  },
-  {
-    "Endpoint": "policies/mobileAppManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/$ref",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/mobileAppManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/$ref",
-    "Beta-Methods": [
+      "Post",
       "Delete"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/mobileappmanagementpolicies-list-includedgroups?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/mobileappmanagementpolicies-post-includedgroups?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/mobileappmanagementpolicies-delete-includedgroups?view=graph-rest-beta"
+    ],
     "Path": [
       "policies",
       "mobileAppManagementPolicies",
       "{mobilityManagementPolicy-id}",
       "includedGroups",
-      "{group-id}",
       "$ref"
     ],
     "Root": "policies",
     "Children": 0,
     "Segment": "$ref"
+  },
+  {
+    "Endpoint": "policies/mobileAppManagementPolicies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-update?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/mobileAppManagementPolicies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "mobileAppManagementPolicies",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
   },
   {
     "Endpoint": "policies/mobileDeviceManagementPolicies",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/mobileDeviceManagementPolicies",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/mobiledevicemanagementpolicies-list?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "policies",
@@ -1605,35 +2408,26 @@
     "Segment": "mobileDeviceManagementPolicies"
   },
   {
-    "Endpoint": "policies/mobileDeviceManagementPolicies/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/mobileDeviceManagementPolicies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "policies",
-      "mobileDeviceManagementPolicies",
-      "$count"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "policies/mobileDeviceManagementPolicies/{mobilityManagementPolicy-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/mobileDeviceManagementPolicies/{mobilityManagementPolicy-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/mobiledevicemanagementpolicies-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/mobiledevicemanagementpolicies-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/mobiledevicemanagementpolicies-delete?view=graph-rest-beta"
     ],
     "Path": [
       "policies",
@@ -1649,11 +2443,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/mobileDeviceManagementPolicies/{mobilityManagementPolicy-id}/includedGroups",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/mobiledevicemanagementpolicies-list-includedgroups?view=graph-rest-beta",
     "Path": [
       "policies",
       "mobileDeviceManagementPolicies",
@@ -1665,15 +2463,123 @@
     "Segment": "includedGroups"
   },
   {
+    "Endpoint": "policies/mobileDeviceManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-update?view=graph-rest-1.0",
+      null
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/mobiledevicemanagementpolicies-list-includedgroups?view=graph-rest-beta",
+    "Path": [
+      "policies",
+      "mobileDeviceManagementPolicies",
+      "{mobilityManagementPolicy-id}",
+      "includedGroups",
+      "{group-id}"
+    ],
+    "Root": "policies",
+    "Children": 2,
+    "Segment": "{group-id}"
+  },
+  {
+    "Endpoint": "policies/mobileDeviceManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-update?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/mobileDeviceManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/$ref",
+    "Beta-Methods": "Delete",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/mobiledevicemanagementpolicies-delete-includedgroups?view=graph-rest-beta",
+    "Path": [
+      "policies",
+      "mobileDeviceManagementPolicies",
+      "{mobilityManagementPolicy-id}",
+      "includedGroups",
+      "{group-id}",
+      "$ref"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "policies/mobileDeviceManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/serviceProvisioningErrors",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-update?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/mobileDeviceManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "mobileDeviceManagementPolicies",
+      "{mobilityManagementPolicy-id}",
+      "includedGroups",
+      "{group-id}",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "policies",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "policies/mobileDeviceManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/serviceProvisioningErrors/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-update?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/mobileDeviceManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "mobileDeviceManagementPolicies",
+      "{mobilityManagementPolicy-id}",
+      "includedGroups",
+      "{group-id}",
+      "serviceProvisioningErrors",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "policies/mobileDeviceManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/$count",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/mobileDeviceManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "policies",
       "mobileDeviceManagementPolicies",
@@ -1690,63 +2596,56 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/mobileDeviceManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/$ref",
     "Beta-Methods": [
       "Get",
-      "Post"
-    ],
-    "Path": [
-      "policies",
-      "mobileDeviceManagementPolicies",
-      "{mobilityManagementPolicy-id}",
-      "includedGroups",
-      "$ref"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "$ref"
-  },
-  {
-    "Endpoint": "policies/mobileDeviceManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": false,
-    "Beta-Url": null,
-    "Beta-Methods": null,
-    "Path": [
-      "policies",
-      "mobileDeviceManagementPolicies",
-      "{mobilityManagementPolicy-id}",
-      "includedGroups",
-      "{group-id}"
-    ],
-    "Root": "policies",
-    "Children": 1,
-    "Segment": "{group-id}"
-  },
-  {
-    "Endpoint": "policies/mobileDeviceManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/$ref",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/mobileDeviceManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/$ref",
-    "Beta-Methods": [
+      "Post",
       "Delete"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/mobiledevicemanagementpolicies-list-includedgroups?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/mobiledevicemanagementpolicies-post-includedgroups?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/mobiledevicemanagementpolicies-delete-includedgroups?view=graph-rest-beta"
+    ],
     "Path": [
       "policies",
       "mobileDeviceManagementPolicies",
       "{mobilityManagementPolicy-id}",
       "includedGroups",
-      "{group-id}",
       "$ref"
     ],
     "Root": "policies",
     "Children": 0,
     "Segment": "$ref"
+  },
+  {
+    "Endpoint": "policies/mobileDeviceManagementPolicies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitysecuritydefaultsenforcementpolicy-update?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/mobileDeviceManagementPolicies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "mobileDeviceManagementPolicies",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
   },
   {
     "Endpoint": "policies/permissionGrantPolicies",
@@ -1756,11 +2655,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-post-permissiongrantpolicies?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/permissionGrantPolicies",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-post-permissiongrantpolicies?view=graph-rest-beta"
     ],
     "Path": [
       "policies",
@@ -1771,27 +2678,6 @@
     "Segment": "permissionGrantPolicies"
   },
   {
-    "Endpoint": "policies/permissionGrantPolicies/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/permissionGrantPolicies/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/permissionGrantPolicies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "policies",
-      "permissionGrantPolicies",
-      "$count"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "policies/permissionGrantPolicies/{permissionGrantPolicy-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/permissionGrantPolicies/{permissionGrantPolicy-id}",
@@ -1800,12 +2686,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/permissionGrantPolicies/{permissionGrantPolicy-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-delete?view=graph-rest-beta"
     ],
     "Path": [
       "policies",
@@ -1824,11 +2720,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-list-excludes?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-post-excludes?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/permissionGrantPolicies/{permissionGrantPolicy-id}/excludes",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-list-excludes?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-post-excludes?view=graph-rest-beta"
     ],
     "Path": [
       "policies",
@@ -1841,29 +2745,6 @@
     "Segment": "excludes"
   },
   {
-    "Endpoint": "policies/permissionGrantPolicies/{permissionGrantPolicy-id}/excludes/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/permissionGrantPolicies/{permissionGrantPolicy-id}/excludes/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/permissionGrantPolicies/{permissionGrantPolicy-id}/excludes/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "policies",
-      "permissionGrantPolicies",
-      "{permissionGrantPolicy-id}",
-      "excludes",
-      "$count"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "policies/permissionGrantPolicies/{permissionGrantPolicy-id}/excludes/{permissionGrantConditionSet-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/permissionGrantPolicies/{permissionGrantPolicy-id}/excludes/{permissionGrantConditionSet-id}",
@@ -1872,12 +2753,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-delete-excludes?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/permissionGrantPolicies/{permissionGrantPolicy-id}/excludes/{permissionGrantConditionSet-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-delete-excludes?view=graph-rest-beta"
     ],
     "Path": [
       "policies",
@@ -1891,6 +2782,27 @@
     "Segment": "{permissionGrantConditionSet-id}"
   },
   {
+    "Endpoint": "policies/permissionGrantPolicies/{permissionGrantPolicy-id}/excludes/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/permissionGrantPolicies/{permissionGrantPolicy-id}/excludes/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/permissionGrantPolicies/{permissionGrantPolicy-id}/excludes/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "permissionGrantPolicies",
+      "{permissionGrantPolicy-id}",
+      "excludes",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "policies/permissionGrantPolicies/{permissionGrantPolicy-id}/includes",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/permissionGrantPolicies/{permissionGrantPolicy-id}/includes",
@@ -1898,11 +2810,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-list-includes?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-post-includes?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/permissionGrantPolicies/{permissionGrantPolicy-id}/includes",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-list-includes?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-post-includes?view=graph-rest-beta"
     ],
     "Path": [
       "policies",
@@ -1915,29 +2835,6 @@
     "Segment": "includes"
   },
   {
-    "Endpoint": "policies/permissionGrantPolicies/{permissionGrantPolicy-id}/includes/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/permissionGrantPolicies/{permissionGrantPolicy-id}/includes/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/permissionGrantPolicies/{permissionGrantPolicy-id}/includes/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "policies",
-      "permissionGrantPolicies",
-      "{permissionGrantPolicy-id}",
-      "includes",
-      "$count"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "policies/permissionGrantPolicies/{permissionGrantPolicy-id}/includes/{permissionGrantConditionSet-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/permissionGrantPolicies/{permissionGrantPolicy-id}/includes/{permissionGrantConditionSet-id}",
@@ -1946,12 +2843,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-delete-includes?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/permissionGrantPolicies/{permissionGrantPolicy-id}/includes/{permissionGrantConditionSet-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-delete-includes?view=graph-rest-beta"
     ],
     "Path": [
       "policies",
@@ -1965,6 +2872,125 @@
     "Segment": "{permissionGrantConditionSet-id}"
   },
   {
+    "Endpoint": "policies/permissionGrantPolicies/{permissionGrantPolicy-id}/includes/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/permissionGrantPolicies/{permissionGrantPolicy-id}/includes/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/permissionGrantPolicies/{permissionGrantPolicy-id}/includes/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "permissionGrantPolicies",
+      "{permissionGrantPolicy-id}",
+      "includes",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "policies/permissionGrantPolicies/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/permissionGrantPolicies/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/permissionGrantPolicies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "permissionGrantPolicies",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "policies/permissionGrantPreApprovalPolicies",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-post-permissiongrantpolicies?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/permissionGrantPreApprovalPolicies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/policyroot-list-permissiongrantpreapprovalpolicies?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/policyroot-post-permissiongrantpreapprovalpolicies?view=graph-rest-beta"
+    ],
+    "Path": [
+      "policies",
+      "permissionGrantPreApprovalPolicies"
+    ],
+    "Root": "policies",
+    "Children": 2,
+    "Segment": "permissionGrantPreApprovalPolicies"
+  },
+  {
+    "Endpoint": "policies/permissionGrantPreApprovalPolicies/{permissionGrantPreApprovalPolicy-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-post-permissiongrantpolicies?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/permissionGrantPreApprovalPolicies/{permissionGrantPreApprovalPolicy-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/permissiongrantpreapprovalpolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/permissiongrantpreapprovalpolicy-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/permissiongrantpreapprovalpolicy-delete?view=graph-rest-beta"
+    ],
+    "Path": [
+      "policies",
+      "permissionGrantPreApprovalPolicies",
+      "{permissionGrantPreApprovalPolicy-id}"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "{permissionGrantPreApprovalPolicy-id}"
+  },
+  {
+    "Endpoint": "policies/permissionGrantPreApprovalPolicies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/permissiongrantpolicy-post-permissiongrantpolicies?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/permissionGrantPreApprovalPolicies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "permissionGrantPreApprovalPolicies",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "policies/roleManagementPolicies",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/roleManagementPolicies",
@@ -1972,11 +2998,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/policyroot-list-rolemanagementpolicies?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/roleManagementPolicies",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/policyroot-list-rolemanagementpolicies?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "policies",
@@ -1987,27 +3021,6 @@
     "Segment": "roleManagementPolicies"
   },
   {
-    "Endpoint": "policies/roleManagementPolicies/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/roleManagementPolicies/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/roleManagementPolicies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "policies",
-      "roleManagementPolicies",
-      "$count"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}",
@@ -2016,12 +3029,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/unifiedrolemanagementpolicy-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "policies",
@@ -2040,11 +3063,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}/effectiveRules",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/unifiedrolemanagementpolicy-list-effectiverules?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "policies",
@@ -2057,29 +3088,6 @@
     "Segment": "effectiveRules"
   },
   {
-    "Endpoint": "policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}/effectiveRules/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}/effectiveRules/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}/effectiveRules/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "policies",
-      "roleManagementPolicies",
-      "{unifiedRoleManagementPolicy-id}",
-      "effectiveRules",
-      "$count"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}/effectiveRules/{unifiedRoleManagementPolicyRule-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}/effectiveRules/{unifiedRoleManagementPolicyRule-id}",
@@ -2088,12 +3096,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}/effectiveRules/{unifiedRoleManagementPolicyRule-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "policies",
@@ -2107,6 +3125,27 @@
     "Segment": "{unifiedRoleManagementPolicyRule-id}"
   },
   {
+    "Endpoint": "policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}/effectiveRules/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}/effectiveRules/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}/effectiveRules/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "roleManagementPolicies",
+      "{unifiedRoleManagementPolicy-id}",
+      "effectiveRules",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}/rules",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}/rules",
@@ -2114,11 +3153,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/unifiedrolemanagementpolicy-list-rules?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}/rules",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/unifiedrolemanagementpolicy-list-rules?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "policies",
@@ -2131,29 +3178,6 @@
     "Segment": "rules"
   },
   {
-    "Endpoint": "policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}/rules/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}/rules/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}/rules/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "policies",
-      "roleManagementPolicies",
-      "{unifiedRoleManagementPolicy-id}",
-      "rules",
-      "$count"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}/rules/{unifiedRoleManagementPolicyRule-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}/rules/{unifiedRoleManagementPolicyRule-id}",
@@ -2162,12 +3186,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/unifiedrolemanagementpolicyrule-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/unifiedrolemanagementpolicyrule-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}/rules/{unifiedRoleManagementPolicyRule-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/unifiedrolemanagementpolicyrule-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/unifiedrolemanagementpolicyrule-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "policies",
@@ -2181,6 +3215,46 @@
     "Segment": "{unifiedRoleManagementPolicyRule-id}"
   },
   {
+    "Endpoint": "policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}/rules/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}/rules/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/roleManagementPolicies/{unifiedRoleManagementPolicy-id}/rules/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "roleManagementPolicies",
+      "{unifiedRoleManagementPolicy-id}",
+      "rules",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "policies/roleManagementPolicies/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/roleManagementPolicies/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/roleManagementPolicies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "roleManagementPolicies",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "policies/roleManagementPolicyAssignments",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/roleManagementPolicyAssignments",
@@ -2188,11 +3262,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/policyroot-list-rolemanagementpolicyassignments?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/roleManagementPolicyAssignments",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/policyroot-list-rolemanagementpolicyassignments?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "policies",
@@ -2203,27 +3285,6 @@
     "Segment": "roleManagementPolicyAssignments"
   },
   {
-    "Endpoint": "policies/roleManagementPolicyAssignments/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/roleManagementPolicyAssignments/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/roleManagementPolicyAssignments/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "policies",
-      "roleManagementPolicyAssignments",
-      "$count"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "policies/roleManagementPolicyAssignments/{unifiedRoleManagementPolicyAssignment-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/roleManagementPolicyAssignments/{unifiedRoleManagementPolicyAssignment-id}",
@@ -2232,12 +3293,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/unifiedrolemanagementpolicyassignment-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/roleManagementPolicyAssignments/{unifiedRoleManagementPolicyAssignment-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "policies",
@@ -2252,14 +3323,12 @@
     "Endpoint": "policies/roleManagementPolicyAssignments/{unifiedRoleManagementPolicyAssignment-id}/policy",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/roleManagementPolicyAssignments/{unifiedRoleManagementPolicyAssignment-id}/policy",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/roleManagementPolicyAssignments/{unifiedRoleManagementPolicyAssignment-id}/policy",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "policies",
       "roleManagementPolicyAssignments",
@@ -2271,15 +3340,42 @@
     "Segment": "policy"
   },
   {
+    "Endpoint": "policies/roleManagementPolicyAssignments/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/roleManagementPolicyAssignments/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/roleManagementPolicyAssignments/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "roleManagementPolicyAssignments",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "policies/servicePrincipalCreationPolicies",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/policyroot-list-rolemanagementpolicyassignments?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/servicePrincipalCreationPolicies",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "policies",
@@ -2290,35 +3386,25 @@
     "Segment": "servicePrincipalCreationPolicies"
   },
   {
-    "Endpoint": "policies/servicePrincipalCreationPolicies/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/servicePrincipalCreationPolicies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "policies",
-      "servicePrincipalCreationPolicies",
-      "$count"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "policies/servicePrincipalCreationPolicies/{servicePrincipalCreationPolicy-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/policyroot-list-rolemanagementpolicyassignments?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/servicePrincipalCreationPolicies/{servicePrincipalCreationPolicy-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "policies",
@@ -2334,11 +3420,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/policyroot-list-rolemanagementpolicyassignments?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/servicePrincipalCreationPolicies/{servicePrincipalCreationPolicy-id}/excludes",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "policies",
@@ -2351,37 +3445,25 @@
     "Segment": "excludes"
   },
   {
-    "Endpoint": "policies/servicePrincipalCreationPolicies/{servicePrincipalCreationPolicy-id}/excludes/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/servicePrincipalCreationPolicies/{servicePrincipalCreationPolicy-id}/excludes/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "policies",
-      "servicePrincipalCreationPolicies",
-      "{servicePrincipalCreationPolicy-id}",
-      "excludes",
-      "$count"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "policies/servicePrincipalCreationPolicies/{servicePrincipalCreationPolicy-id}/excludes/{servicePrincipalCreationConditionSet-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/policyroot-list-rolemanagementpolicyassignments?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/servicePrincipalCreationPolicies/{servicePrincipalCreationPolicy-id}/excludes/{servicePrincipalCreationConditionSet-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "policies",
@@ -2395,15 +3477,47 @@
     "Segment": "{servicePrincipalCreationConditionSet-id}"
   },
   {
+    "Endpoint": "policies/servicePrincipalCreationPolicies/{servicePrincipalCreationPolicy-id}/excludes/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/policyroot-list-rolemanagementpolicyassignments?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/servicePrincipalCreationPolicies/{servicePrincipalCreationPolicy-id}/excludes/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "servicePrincipalCreationPolicies",
+      "{servicePrincipalCreationPolicy-id}",
+      "excludes",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "policies/servicePrincipalCreationPolicies/{servicePrincipalCreationPolicy-id}/includes",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/policyroot-list-rolemanagementpolicyassignments?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/servicePrincipalCreationPolicies/{servicePrincipalCreationPolicy-id}/includes",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "policies",
@@ -2416,37 +3530,25 @@
     "Segment": "includes"
   },
   {
-    "Endpoint": "policies/servicePrincipalCreationPolicies/{servicePrincipalCreationPolicy-id}/includes/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/servicePrincipalCreationPolicies/{servicePrincipalCreationPolicy-id}/includes/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "policies",
-      "servicePrincipalCreationPolicies",
-      "{servicePrincipalCreationPolicy-id}",
-      "includes",
-      "$count"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "policies/servicePrincipalCreationPolicies/{servicePrincipalCreationPolicy-id}/includes/{servicePrincipalCreationConditionSet-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/policyroot-list-rolemanagementpolicyassignments?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/servicePrincipalCreationPolicies/{servicePrincipalCreationPolicy-id}/includes/{servicePrincipalCreationConditionSet-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "policies",
@@ -2460,6 +3562,52 @@
     "Segment": "{servicePrincipalCreationConditionSet-id}"
   },
   {
+    "Endpoint": "policies/servicePrincipalCreationPolicies/{servicePrincipalCreationPolicy-id}/includes/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/policyroot-list-rolemanagementpolicyassignments?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/servicePrincipalCreationPolicies/{servicePrincipalCreationPolicy-id}/includes/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "servicePrincipalCreationPolicies",
+      "{servicePrincipalCreationPolicy-id}",
+      "includes",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "policies/servicePrincipalCreationPolicies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/policyroot-list-rolemanagementpolicyassignments?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/servicePrincipalCreationPolicies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "servicePrincipalCreationPolicies",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "policies/tokenIssuancePolicies",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/tokenIssuancePolicies",
@@ -2467,11 +3615,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/tokenissuancepolicy-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/tokenissuancepolicy-post-tokenissuancepolicy?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/tokenIssuancePolicies",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/tokenissuancepolicy-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/tokenissuancepolicy-post-tokenissuancepolicy?view=graph-rest-beta"
     ],
     "Path": [
       "policies",
@@ -2482,17 +3638,112 @@
     "Segment": "tokenIssuancePolicies"
   },
   {
+    "Endpoint": "policies/tokenIssuancePolicies/{tokenIssuancePolicy-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/tokenIssuancePolicies/{tokenIssuancePolicy-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/tokenissuancepolicy-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/tokenissuancepolicy-delete?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/tokenIssuancePolicies/{tokenIssuancePolicy-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/tokenissuancepolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/tokenissuancepolicy-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/tokenissuancepolicy-delete?view=graph-rest-beta"
+    ],
+    "Path": [
+      "policies",
+      "tokenIssuancePolicies",
+      "{tokenIssuancePolicy-id}"
+    ],
+    "Root": "policies",
+    "Children": 1,
+    "Segment": "{tokenIssuancePolicy-id}"
+  },
+  {
+    "Endpoint": "policies/tokenIssuancePolicies/{tokenIssuancePolicy-id}/appliesTo",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/tokenIssuancePolicies/{tokenIssuancePolicy-id}/appliesTo",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/tokenissuancepolicy-list-appliesto?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/tokenIssuancePolicies/{tokenIssuancePolicy-id}/appliesTo",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/tokenissuancepolicy-list-appliesto?view=graph-rest-beta",
+    "Path": [
+      "policies",
+      "tokenIssuancePolicies",
+      "{tokenIssuancePolicy-id}",
+      "appliesTo"
+    ],
+    "Root": "policies",
+    "Children": 2,
+    "Segment": "appliesTo"
+  },
+  {
+    "Endpoint": "policies/tokenIssuancePolicies/{tokenIssuancePolicy-id}/appliesTo/{directoryObject-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/tokenIssuancePolicies/{tokenIssuancePolicy-id}/appliesTo/{directoryObject-id}",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/tokenIssuancePolicies/{tokenIssuancePolicy-id}/appliesTo/{directoryObject-id}",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "tokenIssuancePolicies",
+      "{tokenIssuancePolicy-id}",
+      "appliesTo",
+      "{directoryObject-id}"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "{directoryObject-id}"
+  },
+  {
+    "Endpoint": "policies/tokenIssuancePolicies/{tokenIssuancePolicy-id}/appliesTo/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/tokenIssuancePolicies/{tokenIssuancePolicy-id}/appliesTo/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/tokenIssuancePolicies/{tokenIssuancePolicy-id}/appliesTo/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "tokenIssuancePolicies",
+      "{tokenIssuancePolicy-id}",
+      "appliesTo",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "policies/tokenIssuancePolicies/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/tokenIssuancePolicies/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/tokenIssuancePolicies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "policies",
       "tokenIssuancePolicies",
@@ -2503,31 +3754,6 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "policies/tokenIssuancePolicies/{tokenIssuancePolicy-id}",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/tokenIssuancePolicies/{tokenIssuancePolicy-id}",
-    "v1.0-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/tokenIssuancePolicies/{tokenIssuancePolicy-id}",
-    "Beta-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
-    "Path": [
-      "policies",
-      "tokenIssuancePolicies",
-      "{tokenIssuancePolicy-id}"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "{tokenIssuancePolicy-id}"
-  },
-  {
     "Endpoint": "policies/tokenLifetimePolicies",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/tokenLifetimePolicies",
@@ -2535,11 +3761,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/tokenlifetimepolicy-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/tokenlifetimepolicy-post-tokenlifetimepolicies?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/tokenLifetimePolicies",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/tokenlifetimepolicy-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/tokenlifetimepolicy-post-tokenlifetimepolicies?view=graph-rest-beta"
     ],
     "Path": [
       "policies",
@@ -2550,27 +3784,6 @@
     "Segment": "tokenLifetimePolicies"
   },
   {
-    "Endpoint": "policies/tokenLifetimePolicies/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/tokenLifetimePolicies/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/policies/tokenLifetimePolicies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "policies",
-      "tokenLifetimePolicies",
-      "$count"
-    ],
-    "Root": "policies",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "policies/tokenLifetimePolicies/{tokenLifetimePolicy-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/tokenLifetimePolicies/{tokenLifetimePolicy-id}",
@@ -2579,6 +3792,11 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/tokenlifetimepolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/tokenlifetimepolicy-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/tokenlifetimepolicy-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/policies/tokenLifetimePolicies/{tokenLifetimePolicy-id}",
     "Beta-Methods": [
@@ -2586,13 +3804,99 @@
       "Patch",
       "Delete"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/tokenlifetimepolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/tokenlifetimepolicy-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/tokenlifetimepolicy-delete?view=graph-rest-beta"
+    ],
     "Path": [
       "policies",
       "tokenLifetimePolicies",
       "{tokenLifetimePolicy-id}"
     ],
     "Root": "policies",
-    "Children": 0,
+    "Children": 1,
     "Segment": "{tokenLifetimePolicy-id}"
+  },
+  {
+    "Endpoint": "policies/tokenLifetimePolicies/{tokenLifetimePolicy-id}/appliesTo",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/tokenLifetimePolicies/{tokenLifetimePolicy-id}/appliesTo",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/tokenlifetimepolicy-list-appliesto?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/tokenLifetimePolicies/{tokenLifetimePolicy-id}/appliesTo",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/tokenlifetimepolicy-list-appliesto?view=graph-rest-beta",
+    "Path": [
+      "policies",
+      "tokenLifetimePolicies",
+      "{tokenLifetimePolicy-id}",
+      "appliesTo"
+    ],
+    "Root": "policies",
+    "Children": 2,
+    "Segment": "appliesTo"
+  },
+  {
+    "Endpoint": "policies/tokenLifetimePolicies/{tokenLifetimePolicy-id}/appliesTo/{directoryObject-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/tokenLifetimePolicies/{tokenLifetimePolicy-id}/appliesTo/{directoryObject-id}",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/tokenLifetimePolicies/{tokenLifetimePolicy-id}/appliesTo/{directoryObject-id}",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "tokenLifetimePolicies",
+      "{tokenLifetimePolicy-id}",
+      "appliesTo",
+      "{directoryObject-id}"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "{directoryObject-id}"
+  },
+  {
+    "Endpoint": "policies/tokenLifetimePolicies/{tokenLifetimePolicy-id}/appliesTo/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/tokenLifetimePolicies/{tokenLifetimePolicy-id}/appliesTo/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/tokenLifetimePolicies/{tokenLifetimePolicy-id}/appliesTo/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "tokenLifetimePolicies",
+      "{tokenLifetimePolicy-id}",
+      "appliesTo",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "policies/tokenLifetimePolicies/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/policies/tokenLifetimePolicies/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/policies/tokenLifetimePolicies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "policies",
+      "tokenLifetimePolicies",
+      "$count"
+    ],
+    "Root": "policies",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

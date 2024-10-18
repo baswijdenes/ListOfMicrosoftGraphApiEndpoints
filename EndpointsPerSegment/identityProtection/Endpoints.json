@@ -7,11 +7,19 @@
       "Get",
       "Patch"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identityProtection",
     "Beta-Methods": [
       "Get",
       "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "identityProtection"
@@ -28,11 +36,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/riskdetection-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/riskDetections",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/riskdetection-list?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "identityProtection",
@@ -43,27 +59,6 @@
     "Segment": "riskDetections"
   },
   {
-    "Endpoint": "identityProtection/riskDetections/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProtection/riskDetections/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/riskDetections/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identityProtection",
-      "riskDetections",
-      "$count"
-    ],
-    "Root": "identityProtection",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identityProtection/riskDetections/{riskDetection-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProtection/riskDetections/{riskDetection-id}",
@@ -72,12 +67,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/riskdetection-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/riskDetections/{riskDetection-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/riskdetection-get?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "identityProtection",
@@ -89,6 +94,25 @@
     "Segment": "{riskDetection-id}"
   },
   {
+    "Endpoint": "identityProtection/riskDetections/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProtection/riskDetections/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/riskDetections/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identityProtection",
+      "riskDetections",
+      "$count"
+    ],
+    "Root": "identityProtection",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "identityProtection/riskyServicePrincipals",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProtection/riskyServicePrincipals",
@@ -96,11 +120,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identityprotectionroot-list-riskyserviceprincipals?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/riskyServicePrincipals",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/identityprotectionroot-list-riskyserviceprincipals?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "identityProtection",
@@ -111,27 +143,6 @@
     "Segment": "riskyServicePrincipals"
   },
   {
-    "Endpoint": "identityProtection/riskyServicePrincipals/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProtection/riskyServicePrincipals/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/riskyServicePrincipals/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identityProtection",
-      "riskyServicePrincipals",
-      "$count"
-    ],
-    "Root": "identityProtection",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identityProtection/riskyServicePrincipals/{riskyServicePrincipal-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProtection/riskyServicePrincipals/{riskyServicePrincipal-id}",
@@ -140,12 +151,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/riskyserviceprincipal-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/riskyServicePrincipals/{riskyServicePrincipal-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/riskyserviceprincipal-get?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "identityProtection",
@@ -164,11 +185,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/riskyserviceprincipal-list-history?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/riskyServicePrincipals/{riskyServicePrincipal-id}/history",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/riskyserviceprincipal-list-history?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "identityProtection",
@@ -181,29 +210,6 @@
     "Segment": "history"
   },
   {
-    "Endpoint": "identityProtection/riskyServicePrincipals/{riskyServicePrincipal-id}/history/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProtection/riskyServicePrincipals/{riskyServicePrincipal-id}/history/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/riskyServicePrincipals/{riskyServicePrincipal-id}/history/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identityProtection",
-      "riskyServicePrincipals",
-      "{riskyServicePrincipal-id}",
-      "history",
-      "$count"
-    ],
-    "Root": "identityProtection",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identityProtection/riskyServicePrincipals/{riskyServicePrincipal-id}/history/{riskyServicePrincipalHistoryItem-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProtection/riskyServicePrincipals/{riskyServicePrincipal-id}/history/{riskyServicePrincipalHistoryItem-id}",
@@ -212,12 +218,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/riskyServicePrincipals/{riskyServicePrincipal-id}/history/{riskyServicePrincipalHistoryItem-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "identityProtection",
@@ -231,17 +247,55 @@
     "Segment": "{riskyServicePrincipalHistoryItem-id}"
   },
   {
+    "Endpoint": "identityProtection/riskyServicePrincipals/{riskyServicePrincipal-id}/history/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProtection/riskyServicePrincipals/{riskyServicePrincipal-id}/history/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/riskyServicePrincipals/{riskyServicePrincipal-id}/history/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identityProtection",
+      "riskyServicePrincipals",
+      "{riskyServicePrincipal-id}",
+      "history",
+      "$count"
+    ],
+    "Root": "identityProtection",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identityProtection/riskyServicePrincipals/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProtection/riskyServicePrincipals/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/riskyServicePrincipals/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identityProtection",
+      "riskyServicePrincipals",
+      "$count"
+    ],
+    "Root": "identityProtection",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "identityProtection/riskyServicePrincipals/microsoft.graph.confirmCompromised",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProtection/riskyServicePrincipals/microsoft.graph.confirmCompromised",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/riskyserviceprincipal-confirmcompromised?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/riskyServicePrincipals/microsoft.graph.confirmCompromised",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/riskyserviceprincipal-confirmcompromised?view=graph-rest-beta",
     "Path": [
       "identityProtection",
       "riskyServicePrincipals",
@@ -255,14 +309,12 @@
     "Endpoint": "identityProtection/riskyServicePrincipals/microsoft.graph.dismiss",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProtection/riskyServicePrincipals/microsoft.graph.dismiss",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/riskyserviceprincipal-dismiss?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/riskyServicePrincipals/microsoft.graph.dismiss",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/riskyserviceprincipal-dismiss?view=graph-rest-beta",
     "Path": [
       "identityProtection",
       "riskyServicePrincipals",
@@ -280,11 +332,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/riskyuser-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/riskyUsers",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/riskyusers-list?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "identityProtection",
@@ -295,27 +355,6 @@
     "Segment": "riskyUsers"
   },
   {
-    "Endpoint": "identityProtection/riskyUsers/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProtection/riskyUsers/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/riskyUsers/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identityProtection",
-      "riskyUsers",
-      "$count"
-    ],
-    "Root": "identityProtection",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identityProtection/riskyUsers/{riskyUser-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProtection/riskyUsers/{riskyUser-id}",
@@ -324,12 +363,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/riskyuser-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/riskyUsers/{riskyUser-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "identityProtection",
@@ -348,11 +397,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/riskyuser-list-history?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/riskyUsers/{riskyUser-id}/history",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/riskyuser-list-history?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "identityProtection",
@@ -365,29 +422,6 @@
     "Segment": "history"
   },
   {
-    "Endpoint": "identityProtection/riskyUsers/{riskyUser-id}/history/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProtection/riskyUsers/{riskyUser-id}/history/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/riskyUsers/{riskyUser-id}/history/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identityProtection",
-      "riskyUsers",
-      "{riskyUser-id}",
-      "history",
-      "$count"
-    ],
-    "Root": "identityProtection",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identityProtection/riskyUsers/{riskyUser-id}/history/{riskyUserHistoryItem-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProtection/riskyUsers/{riskyUser-id}/history/{riskyUserHistoryItem-id}",
@@ -396,12 +430,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/riskyUsers/{riskyUser-id}/history/{riskyUserHistoryItem-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/riskyuserhistoryitem-get?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "identityProtection",
@@ -415,17 +459,55 @@
     "Segment": "{riskyUserHistoryItem-id}"
   },
   {
+    "Endpoint": "identityProtection/riskyUsers/{riskyUser-id}/history/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProtection/riskyUsers/{riskyUser-id}/history/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/riskyUsers/{riskyUser-id}/history/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identityProtection",
+      "riskyUsers",
+      "{riskyUser-id}",
+      "history",
+      "$count"
+    ],
+    "Root": "identityProtection",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identityProtection/riskyUsers/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProtection/riskyUsers/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/riskyUsers/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identityProtection",
+      "riskyUsers",
+      "$count"
+    ],
+    "Root": "identityProtection",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "identityProtection/riskyUsers/microsoft.graph.confirmCompromised",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProtection/riskyUsers/microsoft.graph.confirmCompromised",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/riskyuser-confirmcompromised?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/riskyUsers/microsoft.graph.confirmCompromised",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/riskyusers-confirmcompromised?view=graph-rest-beta",
     "Path": [
       "identityProtection",
       "riskyUsers",
@@ -439,14 +521,12 @@
     "Endpoint": "identityProtection/riskyUsers/microsoft.graph.dismiss",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProtection/riskyUsers/microsoft.graph.dismiss",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/riskyuser-dismiss?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/riskyUsers/microsoft.graph.dismiss",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/riskyusers-dismiss?view=graph-rest-beta",
     "Path": [
       "identityProtection",
       "riskyUsers",
@@ -464,11 +544,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identityprotectionroot-list-serviceprincipalriskdetections?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/servicePrincipalRiskDetections",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/identityprotectionroot-list-serviceprincipalriskdetections?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "identityProtection",
@@ -479,27 +567,6 @@
     "Segment": "servicePrincipalRiskDetections"
   },
   {
-    "Endpoint": "identityProtection/servicePrincipalRiskDetections/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProtection/servicePrincipalRiskDetections/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/servicePrincipalRiskDetections/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identityProtection",
-      "servicePrincipalRiskDetections",
-      "$count"
-    ],
-    "Root": "identityProtection",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identityProtection/servicePrincipalRiskDetections/{servicePrincipalRiskDetection-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProtection/servicePrincipalRiskDetections/{servicePrincipalRiskDetection-id}",
@@ -508,12 +575,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/serviceprincipalriskdetection-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/servicePrincipalRiskDetections/{servicePrincipalRiskDetection-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/serviceprincipalriskdetection-get?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "identityProtection",
@@ -523,5 +600,24 @@
     "Root": "identityProtection",
     "Children": 0,
     "Segment": "{servicePrincipalRiskDetection-id}"
+  },
+  {
+    "Endpoint": "identityProtection/servicePrincipalRiskDetections/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identityProtection/servicePrincipalRiskDetections/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identityProtection/servicePrincipalRiskDetections/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identityProtection",
+      "servicePrincipalRiskDetections",
+      "$count"
+    ],
+    "Root": "identityProtection",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

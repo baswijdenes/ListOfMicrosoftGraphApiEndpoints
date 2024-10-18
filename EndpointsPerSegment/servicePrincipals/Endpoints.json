@@ -7,11 +7,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/serviceprincipal-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-post-serviceprincipals?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/serviceprincipal-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-post-serviceprincipals?view=graph-rest-beta"
     ],
     "Path": [
       "servicePrincipals"
@@ -19,26 +27,6 @@
     "Root": "servicePrincipals",
     "Children": 7,
     "Segment": "servicePrincipals"
-  },
-  {
-    "Endpoint": "servicePrincipals/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "$count"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}",
@@ -49,6 +37,11 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/serviceprincipal-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-upsert?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}",
     "Beta-Methods": [
@@ -56,24 +49,29 @@
       "Patch",
       "Delete"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/serviceprincipal-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-upsert?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-delete?view=graph-rest-beta"
+    ],
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}"
     ],
     "Root": "servicePrincipals",
-    "Children": 32,
+    "Children": 36,
     "Segment": "{servicePrincipal-id}"
   },
   {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/appManagementPolicies",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/appManagementPolicies",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/appManagementPolicies",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -84,35 +82,15 @@
     "Segment": "appManagementPolicies"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/appManagementPolicies/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/appManagementPolicies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "appManagementPolicies",
-      "$count"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/appManagementPolicies/{appManagementPolicy-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/appManagementPolicies/{appManagementPolicy-id}",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/appManagementPolicies/{appManagementPolicy-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -124,6 +102,26 @@
     "Segment": "{appManagementPolicy-id}"
   },
   {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/appManagementPolicies/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/appManagementPolicies/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/appManagementPolicies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "appManagementPolicies",
+      "$count"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/appRoleAssignedTo",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/appRoleAssignedTo",
@@ -131,11 +129,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/serviceprincipal-list-approleassignedto?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-post-approleassignedto?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/appRoleAssignedTo",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/serviceprincipal-list-approleassignedto?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-post-approleassignedto?view=graph-rest-beta"
     ],
     "Path": [
       "servicePrincipals",
@@ -147,28 +153,6 @@
     "Segment": "appRoleAssignedTo"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/appRoleAssignedTo/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/appRoleAssignedTo/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/appRoleAssignedTo/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "appRoleAssignedTo",
-      "$count"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/appRoleAssignedTo/{appRoleAssignment-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/appRoleAssignedTo/{appRoleAssignment-id}",
@@ -177,12 +161,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/approleassignment-get?view=graph-rest-1.0",
+      null,
+      "https://learn.microsoft.com/graph/api/serviceprincipal-delete-approleassignedto?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/appRoleAssignedTo/{appRoleAssignment-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/approleassignment-get?view=graph-rest-beta",
+      null,
+      "https://learn.microsoft.com/graph/api/serviceprincipal-delete-approleassignedto?view=graph-rest-beta"
     ],
     "Path": [
       "servicePrincipals",
@@ -195,6 +189,26 @@
     "Segment": "{appRoleAssignment-id}"
   },
   {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/appRoleAssignedTo/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/appRoleAssignedTo/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/appRoleAssignedTo/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "appRoleAssignedTo",
+      "$count"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/appRoleAssignments",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/appRoleAssignments",
@@ -202,11 +216,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/serviceprincipal-list-approleassignments?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-post-approleassignments?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/appRoleAssignments",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/serviceprincipal-list-approleassignments?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-post-approleassignments?view=graph-rest-beta"
     ],
     "Path": [
       "servicePrincipals",
@@ -218,28 +240,6 @@
     "Segment": "appRoleAssignments"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/appRoleAssignments/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/appRoleAssignments/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/appRoleAssignments/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "appRoleAssignments",
-      "$count"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/appRoleAssignments/{appRoleAssignment-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/appRoleAssignments/{appRoleAssignment-id}",
@@ -248,12 +248,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/approleassignment-get?view=graph-rest-1.0",
+      null,
+      "https://learn.microsoft.com/graph/api/serviceprincipal-delete-approleassignments?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/appRoleAssignments/{appRoleAssignment-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/approleassignment-get?view=graph-rest-beta",
+      null,
+      "https://learn.microsoft.com/graph/api/serviceprincipal-delete-approleassignments?view=graph-rest-beta"
     ],
     "Path": [
       "servicePrincipals",
@@ -266,17 +276,35 @@
     "Segment": "{appRoleAssignment-id}"
   },
   {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/appRoleAssignments/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/appRoleAssignments/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/appRoleAssignments/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "appRoleAssignments",
+      "$count"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/claimsMappingPolicies",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/claimsMappingPolicies",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-claimsmappingpolicies?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/claimsMappingPolicies",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-claimsmappingpolicies?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -287,17 +315,56 @@
     "Segment": "claimsMappingPolicies"
   },
   {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/claimsMappingPolicies/{claimsMappingPolicy-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-claimsmappingpolicies?view=graph-rest-1.0",
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-claimsmappingpolicies?view=graph-rest-beta",
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "claimsMappingPolicies",
+      "{claimsMappingPolicy-id}"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 1,
+    "Segment": "{claimsMappingPolicy-id}"
+  },
+  {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/claimsMappingPolicies/{claimsMappingPolicy-id}/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/claimsMappingPolicies/{claimsMappingPolicy-id}/$ref",
+    "v1.0-Methods": "Delete",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceprincipal-delete-claimsmappingpolicies?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/claimsMappingPolicies/{claimsMappingPolicy-id}/$ref",
+    "Beta-Methods": "Delete",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-delete-claimsmappingpolicies?view=graph-rest-beta",
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "claimsMappingPolicies",
+      "{claimsMappingPolicy-id}",
+      "$ref"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/claimsMappingPolicies/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/claimsMappingPolicies/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/claimsMappingPolicies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -314,13 +381,25 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/claimsMappingPolicies/$ref",
     "v1.0-Methods": [
       "Get",
-      "Post"
+      "Post",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/serviceprincipal-list-claimsmappingpolicies?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-post-claimsmappingpolicies?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-delete-claimsmappingpolicies?view=graph-rest-1.0"
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/claimsMappingPolicies/$ref",
     "Beta-Methods": [
       "Get",
-      "Post"
+      "Post",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/serviceprincipal-list-claimsmappingpolicies?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-post-claimsmappingpolicies?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-delete-claimsmappingpolicies?view=graph-rest-beta"
     ],
     "Path": [
       "servicePrincipals",
@@ -333,58 +412,42 @@
     "Segment": "$ref"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/claimsMappingPolicies/{claimsMappingPolicy-id}",
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/claimsPolicy",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
-    "beta": false,
-    "Beta-Url": null,
-    "Beta-Methods": null,
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "claimsMappingPolicies",
-      "{claimsMappingPolicy-id}"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 1,
-    "Segment": "{claimsMappingPolicy-id}"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/claimsMappingPolicies/{claimsMappingPolicy-id}/$ref",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/claimsMappingPolicies/{claimsMappingPolicy-id}/$ref",
-    "v1.0-Methods": [
-      "Delete"
-    ],
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-claimsmappingpolicies?view=graph-rest-1.0",
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/claimsMappingPolicies/{claimsMappingPolicy-id}/$ref",
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/claimsPolicy",
     "Beta-Methods": [
-      "Delete"
+      "Get",
+      "Put",
+      "Patch"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/customclaimspolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-put-claimspolicy?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-put-claimspolicy?view=graph-rest-beta"
     ],
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
-      "claimsMappingPolicies",
-      "{claimsMappingPolicy-id}",
-      "$ref"
+      "claimsPolicy"
     ],
     "Root": "servicePrincipals",
     "Children": 0,
-    "Segment": "$ref"
+    "Segment": "claimsPolicy"
   },
   {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/createdObjects",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/createdObjects",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/createdObjects",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-createdobjects?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -395,39 +458,15 @@
     "Segment": "createdObjects"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/createdObjects/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/createdObjects/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/createdObjects/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "createdObjects",
-      "$count"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/createdObjects/{directoryObject-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/createdObjects/{directoryObject-id}",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/createdObjects/{directoryObject-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -442,14 +481,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/createdObjects/{directoryObject-id}/microsoft.graph.servicePrincipal",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/createdObjects/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/createdObjects/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -462,17 +499,35 @@
     "Segment": "microsoft.graph.servicePrincipal"
   },
   {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/createdObjects/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/createdObjects/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/createdObjects/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "createdObjects",
+      "$count"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/createdObjects/microsoft.graph.servicePrincipal",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/createdObjects/microsoft.graph.servicePrincipal",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/createdObjects/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -487,14 +542,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/createdObjects/microsoft.graph.servicePrincipal/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/createdObjects/microsoft.graph.servicePrincipal/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/createdObjects/microsoft.graph.servicePrincipal/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -514,11 +567,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/serviceprincipal-list-delegatedpermissionclassifications?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-post-delegatedpermissionclassifications?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/delegatedPermissionClassifications",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/serviceprincipal-list-delegatedpermissionclassifications?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-post-delegatedpermissionclassifications?view=graph-rest-beta"
     ],
     "Path": [
       "servicePrincipals",
@@ -530,28 +591,6 @@
     "Segment": "delegatedPermissionClassifications"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/delegatedPermissionClassifications/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/delegatedPermissionClassifications/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/delegatedPermissionClassifications/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "delegatedPermissionClassifications",
-      "$count"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/delegatedPermissionClassifications/{delegatedPermissionClassification-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/delegatedPermissionClassifications/{delegatedPermissionClassification-id}",
@@ -560,12 +599,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      "https://learn.microsoft.com/graph/api/serviceprincipal-delete-delegatedpermissionclassifications?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/delegatedPermissionClassifications/{delegatedPermissionClassification-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      "https://learn.microsoft.com/graph/api/serviceprincipal-delete-delegatedpermissionclassifications?view=graph-rest-beta"
     ],
     "Path": [
       "servicePrincipals",
@@ -578,6 +627,26 @@
     "Segment": "{delegatedPermissionClassification-id}"
   },
   {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/delegatedPermissionClassifications/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/delegatedPermissionClassifications/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/delegatedPermissionClassifications/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "delegatedPermissionClassifications",
+      "$count"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/endpoints",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/endpoints",
@@ -585,11 +654,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/endpoints",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "servicePrincipals",
@@ -601,28 +678,6 @@
     "Segment": "endpoints"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/endpoints/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/endpoints/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/endpoints/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "endpoints",
-      "$count"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/endpoints/{endpoint-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/endpoints/{endpoint-id}",
@@ -631,12 +686,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/endpoints/{endpoint-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "servicePrincipals",
@@ -649,6 +714,26 @@
     "Segment": "{endpoint-id}"
   },
   {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/endpoints/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/endpoints/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/endpoints/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "endpoints",
+      "$count"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/federatedIdentityCredentials",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/federatedIdentityCredentials",
@@ -656,11 +741,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/federatedIdentityCredentials",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "servicePrincipals",
@@ -672,28 +765,6 @@
     "Segment": "federatedIdentityCredentials"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/federatedIdentityCredentials/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/federatedIdentityCredentials/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/federatedIdentityCredentials/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "federatedIdentityCredentials",
-      "$count"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/federatedIdentityCredentials/{federatedIdentityCredential-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/federatedIdentityCredentials/{federatedIdentityCredential-id}",
@@ -702,12 +773,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/federatedIdentityCredentials/{federatedIdentityCredential-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "servicePrincipals",
@@ -720,17 +801,70 @@
     "Segment": "{federatedIdentityCredential-id}"
   },
   {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/federatedIdentityCredentials/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/federatedIdentityCredentials/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/federatedIdentityCredentials/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "federatedIdentityCredentials",
+      "$count"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/federatedIdentityCredentials(name='{name}')",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/federatedIdentityCredentials(name='{name}')",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/federatedIdentityCredentials(name='{name}')",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "federatedIdentityCredentials(name='{name}')"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "federatedIdentityCredentials(name='{name}')"
+  },
+  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/homeRealmDiscoveryPolicies",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/homeRealmDiscoveryPolicies",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-homerealmdiscoverypolicies?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/homeRealmDiscoveryPolicies",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-homerealmdiscoverypolicies?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -741,17 +875,56 @@
     "Segment": "homeRealmDiscoveryPolicies"
   },
   {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-homerealmdiscoverypolicies?view=graph-rest-1.0",
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-homerealmdiscoverypolicies?view=graph-rest-beta",
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "homeRealmDiscoveryPolicies",
+      "{homeRealmDiscoveryPolicy-id}"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 1,
+    "Segment": "{homeRealmDiscoveryPolicy-id}"
+  },
+  {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}/$ref",
+    "v1.0-Methods": "Delete",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceprincipal-delete-homerealmdiscoverypolicies?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}/$ref",
+    "Beta-Methods": "Delete",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-delete-homerealmdiscoverypolicies?view=graph-rest-beta",
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "homeRealmDiscoveryPolicies",
+      "{homeRealmDiscoveryPolicy-id}",
+      "$ref"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/homeRealmDiscoveryPolicies/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/homeRealmDiscoveryPolicies/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/homeRealmDiscoveryPolicies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -768,59 +941,30 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/homeRealmDiscoveryPolicies/$ref",
     "v1.0-Methods": [
       "Get",
-      "Post"
+      "Post",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/serviceprincipal-list-homerealmdiscoverypolicies?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-post-homerealmdiscoverypolicies?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-delete-homerealmdiscoverypolicies?view=graph-rest-1.0"
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/homeRealmDiscoveryPolicies/$ref",
     "Beta-Methods": [
       "Get",
-      "Post"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "homeRealmDiscoveryPolicies",
-      "$ref"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "$ref"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": false,
-    "Beta-Url": null,
-    "Beta-Methods": null,
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "homeRealmDiscoveryPolicies",
-      "{homeRealmDiscoveryPolicy-id}"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 1,
-    "Segment": "{homeRealmDiscoveryPolicy-id}"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}/$ref",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}/$ref",
-    "v1.0-Methods": [
+      "Post",
       "Delete"
     ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicy-id}/$ref",
-    "Beta-Methods": [
-      "Delete"
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/serviceprincipal-list-homerealmdiscoverypolicies?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-post-homerealmdiscoverypolicies?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-delete-homerealmdiscoverypolicies?view=graph-rest-beta"
     ],
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
       "homeRealmDiscoveryPolicies",
-      "{homeRealmDiscoveryPolicy-id}",
       "$ref"
     ],
     "Root": "servicePrincipals",
@@ -832,11 +976,16 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-homerealmdiscoverypolicies?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/licenseDetails",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "servicePrincipals",
@@ -844,40 +993,26 @@
       "licenseDetails"
     ],
     "Root": "servicePrincipals",
-    "Children": 2,
+    "Children": 3,
     "Segment": "licenseDetails"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/licenseDetails/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/licenseDetails/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "licenseDetails",
-      "$count"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/licenseDetails/{licenseDetails-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-homerealmdiscoverypolicies?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/licenseDetails/{licenseDetails-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "servicePrincipals",
@@ -890,42 +1025,19 @@
     "Segment": "{licenseDetails-id}"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/licenseDetails/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-homerealmdiscoverypolicies?view=graph-rest-1.0",
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/licenseDetails/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
-      "memberOf"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 8,
-    "Segment": "memberOf"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "memberOf",
+      "licenseDetails",
       "$count"
     ],
     "Root": "servicePrincipals",
@@ -933,17 +1045,54 @@
     "Segment": "$count"
   },
   {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/licenseDetails/microsoft.graph.getTeamsLicensingDetails()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-homerealmdiscoverypolicies?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/licenseDetails/microsoft.graph.getTeamsLicensingDetails()",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/licensedetails-getteamslicensingdetails?view=graph-rest-beta",
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "licenseDetails",
+      "microsoft.graph.getTeamsLicensingDetails()"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "microsoft.graph.getTeamsLicensingDetails()"
+  },
+  {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-memberof?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-memberof?view=graph-rest-beta",
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "memberOf"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 5,
+    "Segment": "memberOf"
+  },
+  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -951,67 +1100,61 @@
       "{directoryObject-id}"
     ],
     "Root": "servicePrincipals",
-    "Children": 6,
+    "Children": 3,
     "Segment": "{directoryObject-id}"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/microsoft.graph.application",
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/microsoft.graph.administrativeUnit",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/microsoft.graph.application",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/microsoft.graph.administrativeUnit",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/microsoft.graph.application",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/microsoft.graph.administrativeUnit",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
       "memberOf",
       "{directoryObject-id}",
-      "microsoft.graph.application"
+      "microsoft.graph.administrativeUnit"
     ],
     "Root": "servicePrincipals",
     "Children": 0,
-    "Segment": "microsoft.graph.application"
+    "Segment": "microsoft.graph.administrativeUnit"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/microsoft.graph.device",
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/microsoft.graph.directoryRole",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/microsoft.graph.device",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/microsoft.graph.directoryRole",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/microsoft.graph.device",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/microsoft.graph.directoryRole",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
       "memberOf",
       "{directoryObject-id}",
-      "microsoft.graph.device"
+      "microsoft.graph.directoryRole"
     ],
     "Root": "servicePrincipals",
     "Children": 0,
-    "Segment": "microsoft.graph.device"
+    "Segment": "microsoft.graph.directoryRole"
   },
   {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/microsoft.graph.group",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/microsoft.graph.group",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/microsoft.graph.group",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1024,113 +1167,19 @@
     "Segment": "microsoft.graph.group"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/microsoft.graph.orgContact",
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/$count",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/microsoft.graph.orgContact",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/microsoft.graph.orgContact",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
       "memberOf",
-      "{directoryObject-id}",
-      "microsoft.graph.orgContact"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "microsoft.graph.orgContact"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "memberOf",
-      "{directoryObject-id}",
-      "microsoft.graph.servicePrincipal"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "microsoft.graph.servicePrincipal"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/microsoft.graph.user",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/microsoft.graph.user",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}/microsoft.graph.user",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "memberOf",
-      "{directoryObject-id}",
-      "microsoft.graph.user"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "microsoft.graph.user"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.application",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.application",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.application",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "memberOf",
-      "microsoft.graph.application"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 1,
-    "Segment": "microsoft.graph.application"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.application/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.application/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.application/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "memberOf",
-      "microsoft.graph.application",
       "$count"
     ],
     "Root": "servicePrincipals",
@@ -1138,44 +1187,81 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.device",
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.administrativeUnit",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.device",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.administrativeUnit",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.device",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.administrativeUnit",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
       "memberOf",
-      "microsoft.graph.device"
+      "microsoft.graph.administrativeUnit"
     ],
     "Root": "servicePrincipals",
     "Children": 1,
-    "Segment": "microsoft.graph.device"
+    "Segment": "microsoft.graph.administrativeUnit"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.device/$count",
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.administrativeUnit/$count",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.device/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.administrativeUnit/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.device/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.administrativeUnit/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
       "memberOf",
-      "microsoft.graph.device",
+      "microsoft.graph.administrativeUnit",
+      "$count"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.directoryRole",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.directoryRole",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.directoryRole",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "memberOf",
+      "microsoft.graph.directoryRole"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 1,
+    "Segment": "microsoft.graph.directoryRole"
+  },
+  {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.directoryRole/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.directoryRole/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.directoryRole/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "memberOf",
+      "microsoft.graph.directoryRole",
       "$count"
     ],
     "Root": "servicePrincipals",
@@ -1186,14 +1272,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.group",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.group",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.group",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1208,14 +1292,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.group/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.group/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.group/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1228,150 +1310,15 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.orgContact",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.orgContact",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.orgContact",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "memberOf",
-      "microsoft.graph.orgContact"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 1,
-    "Segment": "microsoft.graph.orgContact"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.orgContact/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.orgContact/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.orgContact/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "memberOf",
-      "microsoft.graph.orgContact",
-      "$count"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.servicePrincipal",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.servicePrincipal",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "memberOf",
-      "microsoft.graph.servicePrincipal"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 1,
-    "Segment": "microsoft.graph.servicePrincipal"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.servicePrincipal/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.servicePrincipal/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.servicePrincipal/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "memberOf",
-      "microsoft.graph.servicePrincipal",
-      "$count"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.user",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.user",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.user",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "memberOf",
-      "microsoft.graph.user"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 1,
-    "Segment": "microsoft.graph.user"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.user/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.user/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/memberOf/microsoft.graph.user/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "memberOf",
-      "microsoft.graph.user",
-      "$count"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/microsoft.graph.addKey",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/microsoft.graph.addKey",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceprincipal-addkey?view=graph-rest-1.0",
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-memberof?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1385,12 +1332,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/microsoft.graph.addPassword",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/microsoft.graph.addPassword",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceprincipal-addpassword?view=graph-rest-1.0",
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-memberof?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1404,14 +1351,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/microsoft.graph.addTokenSigningCertificate",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/microsoft.graph.addTokenSigningCertificate",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceprincipal-addtokensigningcertificate?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/microsoft.graph.addTokenSigningCertificate",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-addtokensigningcertificate?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1425,14 +1370,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/microsoft.graph.checkMemberGroups",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/microsoft.graph.checkMemberGroups",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-checkmembergroups?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/microsoft.graph.checkMemberGroups",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-checkmembergroups?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1446,14 +1389,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/microsoft.graph.checkMemberObjects",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/microsoft.graph.checkMemberObjects",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/microsoft.graph.checkMemberObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1468,11 +1409,11 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/microsoft.graph.createPasswordSingleSignOnCredentials",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-createpasswordsinglesignoncredentials?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1487,11 +1428,11 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/microsoft.graph.deletePasswordSingleSignOnCredentials",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-deletepasswordsinglesignoncredentials?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1505,14 +1446,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/microsoft.graph.getMemberGroups",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/microsoft.graph.getMemberGroups",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getmembergroups?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/microsoft.graph.getMemberGroups",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-getmembergroups?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1526,14 +1465,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/microsoft.graph.getMemberObjects",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/microsoft.graph.getMemberObjects",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getmemberobjects?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/microsoft.graph.getMemberObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1548,11 +1485,11 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getmemberobjects?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/microsoft.graph.getPasswordSingleSignOnCredentials",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-getpasswordsinglesignoncredentials?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1566,12 +1503,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/microsoft.graph.removeKey",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/microsoft.graph.removeKey",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceprincipal-removekey?view=graph-rest-1.0",
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-getpasswordsinglesignoncredentials?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1585,12 +1522,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/microsoft.graph.removePassword",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/microsoft.graph.removePassword",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceprincipal-removepassword?view=graph-rest-1.0",
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-getpasswordsinglesignoncredentials?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1604,14 +1541,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/microsoft.graph.restore",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/microsoft.graph.restore",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-restore?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/microsoft.graph.restore",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-restore?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1626,11 +1561,11 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-restore?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/microsoft.graph.updatePasswordSingleSignOnCredentials",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-updatepasswordsinglesignoncredentials?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1644,14 +1579,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/oauth2PermissionGrants",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/oauth2PermissionGrants",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-oauth2permissiongrants?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/oauth2PermissionGrants",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-oauth2permissiongrants?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1662,39 +1595,15 @@
     "Segment": "oauth2PermissionGrants"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/oauth2PermissionGrants/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/oauth2PermissionGrants/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/oauth2PermissionGrants/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "oauth2PermissionGrants",
-      "$count"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/oauth2PermissionGrants/{oAuth2PermissionGrant-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/oauth2PermissionGrants/{oAuth2PermissionGrant-id}",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/oauth2PermissionGrants/{oAuth2PermissionGrant-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1706,17 +1615,35 @@
     "Segment": "{oAuth2PermissionGrant-id}"
   },
   {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/oauth2PermissionGrants/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/oauth2PermissionGrants/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/oauth2PermissionGrants/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "oauth2PermissionGrants",
+      "$count"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/ownedObjects",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/ownedObjects",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/ownedObjects",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-ownedobjects?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1727,39 +1654,15 @@
     "Segment": "ownedObjects"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/ownedObjects/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/ownedObjects/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/ownedObjects/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "ownedObjects",
-      "$count"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/ownedObjects/{directoryObject-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/ownedObjects/{directoryObject-id}",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/ownedObjects/{directoryObject-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1774,14 +1677,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/ownedObjects/{directoryObject-id}/microsoft.graph.application",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/ownedObjects/{directoryObject-id}/microsoft.graph.application",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/ownedObjects/{directoryObject-id}/microsoft.graph.application",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1797,12 +1698,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/ownedObjects/{directoryObject-id}/microsoft.graph.appRoleAssignment",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/ownedObjects/{directoryObject-id}/microsoft.graph.appRoleAssignment",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1818,14 +1719,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/ownedObjects/{directoryObject-id}/microsoft.graph.endpoint",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/ownedObjects/{directoryObject-id}/microsoft.graph.endpoint",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/ownedObjects/{directoryObject-id}/microsoft.graph.endpoint",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1841,14 +1740,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/ownedObjects/{directoryObject-id}/microsoft.graph.group",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/ownedObjects/{directoryObject-id}/microsoft.graph.group",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/ownedObjects/{directoryObject-id}/microsoft.graph.group",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1864,14 +1761,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/ownedObjects/{directoryObject-id}/microsoft.graph.servicePrincipal",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/ownedObjects/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/ownedObjects/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1884,17 +1779,35 @@
     "Segment": "microsoft.graph.servicePrincipal"
   },
   {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/ownedObjects/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/ownedObjects/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/ownedObjects/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "ownedObjects",
+      "$count"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.application",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.application",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.application",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1909,14 +1822,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.application/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.application/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.application/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1932,12 +1843,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.appRoleAssignment",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.appRoleAssignment",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1952,12 +1863,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.appRoleAssignment/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.appRoleAssignment/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1973,14 +1884,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.endpoint",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.endpoint",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.endpoint",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -1995,14 +1904,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.endpoint/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.endpoint/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.endpoint/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2018,14 +1925,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.group",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.group",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.group",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2040,14 +1945,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.group/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.group/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.group/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2063,14 +1966,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.servicePrincipal",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.servicePrincipal",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2085,14 +1986,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.servicePrincipal/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.servicePrincipal/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/ownedObjects/microsoft.graph.servicePrincipal/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2108,14 +2007,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/owners",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/owners",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/owners",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2126,17 +2023,140 @@
     "Segment": "owners"
   },
   {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "owners",
+      "{directoryObject-id}"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 5,
+    "Segment": "{directoryObject-id}"
+  },
+  {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/$ref",
+    "v1.0-Methods": "Delete",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceprincipal-delete-owners?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/$ref",
+    "Beta-Methods": "Delete",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-delete-owners?view=graph-rest-beta",
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "owners",
+      "{directoryObject-id}",
+      "$ref"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/microsoft.graph.appRoleAssignment",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/microsoft.graph.appRoleAssignment",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-delete-owners?view=graph-rest-beta",
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "owners",
+      "{directoryObject-id}",
+      "microsoft.graph.appRoleAssignment"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "microsoft.graph.appRoleAssignment"
+  },
+  {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/microsoft.graph.endpoint",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/microsoft.graph.endpoint",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/microsoft.graph.endpoint",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "owners",
+      "{directoryObject-id}",
+      "microsoft.graph.endpoint"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "microsoft.graph.endpoint"
+  },
+  {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/microsoft.graph.servicePrincipal",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/microsoft.graph.servicePrincipal",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/microsoft.graph.servicePrincipal",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "owners",
+      "{directoryObject-id}",
+      "microsoft.graph.servicePrincipal"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "microsoft.graph.servicePrincipal"
+  },
+  {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/microsoft.graph.user",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/microsoft.graph.user",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/microsoft.graph.user",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "owners",
+      "{directoryObject-id}",
+      "microsoft.graph.user"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "microsoft.graph.user"
+  },
+  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/owners/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/owners/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/owners/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2153,13 +2173,25 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/owners/$ref",
     "v1.0-Methods": [
       "Get",
-      "Post"
+      "Post",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/serviceprincipal-post-owners?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-delete-owners?view=graph-rest-1.0"
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/owners/$ref",
     "Beta-Methods": [
       "Get",
-      "Post"
+      "Post",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/serviceprincipal-post-owners?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-delete-owners?view=graph-rest-beta"
     ],
     "Path": [
       "servicePrincipals",
@@ -2170,148 +2202,21 @@
     "Root": "servicePrincipals",
     "Children": 0,
     "Segment": "$ref"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": false,
-    "Beta-Url": null,
-    "Beta-Methods": null,
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "owners",
-      "{directoryObject-id}"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 5,
-    "Segment": "{directoryObject-id}"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/$ref",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/$ref",
-    "v1.0-Methods": [
-      "Delete"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/$ref",
-    "Beta-Methods": [
-      "Delete"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "owners",
-      "{directoryObject-id}",
-      "$ref"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "$ref"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/microsoft.graph.appRoleAssignment",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/microsoft.graph.appRoleAssignment",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": false,
-    "Beta-Url": null,
-    "Beta-Methods": null,
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "owners",
-      "{directoryObject-id}",
-      "microsoft.graph.appRoleAssignment"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "microsoft.graph.appRoleAssignment"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/microsoft.graph.endpoint",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/microsoft.graph.endpoint",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/microsoft.graph.endpoint",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "owners",
-      "{directoryObject-id}",
-      "microsoft.graph.endpoint"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "microsoft.graph.endpoint"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "owners",
-      "{directoryObject-id}",
-      "microsoft.graph.servicePrincipal"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "microsoft.graph.servicePrincipal"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/microsoft.graph.user",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/microsoft.graph.user",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/owners/{directoryObject-id}/microsoft.graph.user",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "owners",
-      "{directoryObject-id}",
-      "microsoft.graph.user"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "microsoft.graph.user"
   },
   {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/owners/microsoft.graph.appRoleAssignment",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/owners/microsoft.graph.appRoleAssignment",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/serviceprincipal-post-owners?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-delete-owners?view=graph-rest-beta"
+    ],
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2326,12 +2231,16 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/owners/microsoft.graph.appRoleAssignment/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/owners/microsoft.graph.appRoleAssignment/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/serviceprincipal-post-owners?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-delete-owners?view=graph-rest-beta"
+    ],
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2347,14 +2256,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/owners/microsoft.graph.endpoint",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/owners/microsoft.graph.endpoint",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/owners/microsoft.graph.endpoint",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2369,14 +2276,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/owners/microsoft.graph.endpoint/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/owners/microsoft.graph.endpoint/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/owners/microsoft.graph.endpoint/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2392,14 +2297,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/owners/microsoft.graph.servicePrincipal",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/owners/microsoft.graph.servicePrincipal",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/owners/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2414,14 +2317,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/owners/microsoft.graph.servicePrincipal/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/owners/microsoft.graph.servicePrincipal/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/owners/microsoft.graph.servicePrincipal/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2437,14 +2338,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/owners/microsoft.graph.user",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/owners/microsoft.graph.user",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/owners/microsoft.graph.user",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2459,14 +2358,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/owners/microsoft.graph.user/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/owners/microsoft.graph.user/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/owners/microsoft.graph.user/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2479,16 +2376,214 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization",
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/permissionGrantPreApprovalPolicies",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization",
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/permissionGrantPreApprovalPolicies",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "permissionGrantPreApprovalPolicies"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 2,
+    "Segment": "permissionGrantPreApprovalPolicies"
+  },
+  {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/permissionGrantPreApprovalPolicies/{permissionGrantPreApprovalPolicy-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/permissionGrantPreApprovalPolicies/{permissionGrantPreApprovalPolicy-id}",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-permissiongrantpreapprovalpolicies?view=graph-rest-beta",
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "permissionGrantPreApprovalPolicies",
+      "{permissionGrantPreApprovalPolicy-id}"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "{permissionGrantPreApprovalPolicy-id}"
+  },
+  {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/permissionGrantPreApprovalPolicies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/permissionGrantPreApprovalPolicies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "permissionGrantPreApprovalPolicies",
+      "$count"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/remoteDesktopSecurityConfiguration",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/remoteDesktopSecurityConfiguration",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/remotedesktopsecurityconfiguration-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/remotedesktopsecurityconfiguration-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-delete-remotedesktopsecurityconfiguration?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/remoteDesktopSecurityConfiguration",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/remotedesktopsecurityconfiguration-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/remotedesktopsecurityconfiguration-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/serviceprincipal-delete-remotedesktopsecurityconfiguration?view=graph-rest-beta"
+    ],
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "remoteDesktopSecurityConfiguration"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 1,
+    "Segment": "remoteDesktopSecurityConfiguration"
+  },
+  {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/remoteDesktopSecurityConfiguration/targetDeviceGroups",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/remoteDesktopSecurityConfiguration/targetDeviceGroups",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/remotedesktopsecurityconfiguration-list-targetdevicegroups?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/remotedesktopsecurityconfiguration-post-targetdevicegroups?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/remoteDesktopSecurityConfiguration/targetDeviceGroups",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/remotedesktopsecurityconfiguration-list-targetdevicegroups?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/remotedesktopsecurityconfiguration-post-targetdevicegroups?view=graph-rest-beta"
+    ],
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "remoteDesktopSecurityConfiguration",
+      "targetDeviceGroups"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 2,
+    "Segment": "targetDeviceGroups"
+  },
+  {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/remoteDesktopSecurityConfiguration/targetDeviceGroups/{targetDeviceGroup-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/remoteDesktopSecurityConfiguration/targetDeviceGroups/{targetDeviceGroup-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/targetdevicegroup-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/targetdevicegroup-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/remotedesktopsecurityconfiguration-delete-targetdevicegroups?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/remoteDesktopSecurityConfiguration/targetDeviceGroups/{targetDeviceGroup-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/targetdevicegroup-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/targetdevicegroup-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/remotedesktopsecurityconfiguration-delete-targetdevicegroups?view=graph-rest-beta"
+    ],
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "remoteDesktopSecurityConfiguration",
+      "targetDeviceGroups",
+      "{targetDeviceGroup-id}"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "{targetDeviceGroup-id}"
+  },
+  {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/remoteDesktopSecurityConfiguration/targetDeviceGroups/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/remoteDesktopSecurityConfiguration/targetDeviceGroups/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/remoteDesktopSecurityConfiguration/targetDeviceGroups/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "remoteDesktopSecurityConfiguration",
+      "targetDeviceGroups",
+      "$count"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization",
+    "v1.0-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "servicePrincipals",
@@ -2496,19 +2591,30 @@
       "synchronization"
     ],
     "Root": "servicePrincipals",
-    "Children": 4,
+    "Children": 5,
     "Segment": "synchronization"
   },
   {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/jobs",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/jobs",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/synchronization-synchronization-list-jobs?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/synchronization-synchronization-post-jobs?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/jobs",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/synchronization-synchronization-list-jobs?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/synchronization-synchronization-post-jobs?view=graph-rest-beta"
     ],
     "Path": [
       "servicePrincipals",
@@ -2521,37 +2627,30 @@
     "Segment": "jobs"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/jobs/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "synchronization",
-      "jobs",
-      "$count"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/synchronization-synchronizationjob-get?view=graph-rest-1.0",
+      null,
+      "https://learn.microsoft.com/graph/api/synchronization-synchronizationjob-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/synchronization-synchronizationjob-get?view=graph-rest-beta",
+      null,
+      "https://learn.microsoft.com/graph/api/synchronization-synchronizationjob-delete?view=graph-rest-beta"
     ],
     "Path": [
       "servicePrincipals",
@@ -2565,15 +2664,92 @@
     "Segment": "{synchronizationJob-id}"
   },
   {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/bulkUpload",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/bulkUpload",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/bulkUpload",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "synchronization",
+      "jobs",
+      "{synchronizationJob-id}",
+      "bulkUpload"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 1,
+    "Segment": "bulkUpload"
+  },
+  {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/bulkUpload/$value",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/bulkUpload/$value",
+    "v1.0-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/bulkUpload/$value",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "synchronization",
+      "jobs",
+      "{synchronizationJob-id}",
+      "bulkUpload",
+      "$value"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "$value"
+  },
+  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.pause",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.pause",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/synchronization-synchronizationjob-pause?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.pause",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/synchronization-synchronizationjob-pause?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2588,14 +2764,14 @@
   },
   {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.provisionOnDemand",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.provisionOnDemand",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/synchronization-synchronizationjob-provisionondemand?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.provisionOnDemand",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/synchronization-synchronizationjob-provisionondemand?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2610,14 +2786,14 @@
   },
   {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.restart",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.restart",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/synchronization-synchronizationjob-restart?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.restart",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/synchronization-synchronizationjob-restart?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2632,14 +2808,14 @@
   },
   {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.start",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.start",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/synchronization-synchronizationjob-start?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.start",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/synchronization-synchronizationjob-start?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2653,37 +2829,15 @@
     "Segment": "microsoft.graph.start"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.stop",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.stop",
-    "Beta-Methods": [
-      "Post"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "synchronization",
-      "jobs",
-      "{synchronizationJob-id}",
-      "microsoft.graph.stop"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "microsoft.graph.stop"
-  },
-  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.validateCredentials",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.validateCredentials",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/synchronization-synchronizationjob-validatecredentials?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/microsoft.graph.validateCredentials",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/synchronization-synchronizationjob-validatecredentials?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2698,15 +2852,29 @@
   },
   {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/synchronization-synchronizationschema-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/synchronization-synchronizationschema-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/synchronization-synchronizationschema-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/synchronization-synchronizationschema-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "servicePrincipals",
@@ -2722,14 +2890,25 @@
   },
   {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema/directories",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema/directories",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema/directories",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "servicePrincipals",
@@ -2745,40 +2924,30 @@
     "Segment": "directories"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema/directories/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema/directories/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "synchronization",
-      "jobs",
-      "{synchronizationJob-id}",
-      "schema",
-      "directories",
-      "$count"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema/directories/{directoryDefinition-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema/directories/{directoryDefinition-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema/directories/{directoryDefinition-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "servicePrincipals",
@@ -2796,14 +2965,14 @@
   },
   {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema/directories/{directoryDefinition-id}/microsoft.graph.discover",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema/directories/{directoryDefinition-id}/microsoft.graph.discover",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/synchronization-directorydefinition-discover?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema/directories/{directoryDefinition-id}/microsoft.graph.discover",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/synchronization-directorydefinition-discover?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2820,15 +2989,39 @@
     "Segment": "microsoft.graph.discover"
   },
   {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema/directories/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema/directories/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema/directories/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "synchronization",
+      "jobs",
+      "{synchronizationJob-id}",
+      "schema",
+      "directories",
+      "$count"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema/microsoft.graph.filterOperators()",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema/microsoft.graph.filterOperators()",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/synchronization-synchronizationschema-filteroperators?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema/microsoft.graph.filterOperators()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/synchronization-synchronizationschema-filteroperators?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2844,14 +3037,14 @@
   },
   {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema/microsoft.graph.functions()",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema/microsoft.graph.functions()",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/synchronization-synchronizationschema-functions?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema/microsoft.graph.functions()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/synchronization-synchronizationschema-functions?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2867,14 +3060,14 @@
   },
   {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema/microsoft.graph.parseExpression",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema/microsoft.graph.parseExpression",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/synchronization-synchronizationschema-parseexpression?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/{synchronizationJob-id}/schema/microsoft.graph.parseExpression",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/synchronization-synchronizationschema-parseexpression?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2889,15 +3082,36 @@
     "Segment": "microsoft.graph.parseExpression"
   },
   {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/jobs/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "synchronization",
+      "jobs",
+      "$count"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/jobs/microsoft.graph.validateCredentials",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/microsoft.graph.validateCredentials",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/jobs/microsoft.graph.validateCredentials",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2911,14 +3125,14 @@
   },
   {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/microsoft.graph.acquireAccessToken",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/microsoft.graph.acquireAccessToken",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/synchronization-synchronization-acquireaccesstoken?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/microsoft.graph.acquireAccessToken",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/synchronization-synchronization-acquireaccesstoken?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2934,11 +3148,11 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/synchronization-synchronization-acquireaccesstoken?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/microsoft.graph.Ping()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -2950,15 +3164,67 @@
     "Segment": "microsoft.graph.Ping()"
   },
   {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/secrets",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/secrets",
+    "v1.0-Methods": "Put",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/synchronization-serviceprincipal-put-synchronization?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/secrets",
+    "Beta-Methods": "Put",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/synchronization-serviceprincipal-put-synchronization?view=graph-rest-beta",
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "synchronization",
+      "secrets"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 1,
+    "Segment": "secrets"
+  },
+  {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/secrets/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/secrets/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/secrets/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "synchronization",
+      "secrets",
+      "$count"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/templates",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/templates",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/synchronization-synchronization-list-templates?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/templates",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/synchronization-synchronization-list-templates?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "servicePrincipals",
@@ -2971,37 +3237,30 @@
     "Segment": "templates"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/templates/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/templates/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "synchronization",
-      "templates",
-      "$count"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "servicePrincipals",
@@ -3016,15 +3275,29 @@
   },
   {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "servicePrincipals",
@@ -3040,14 +3313,25 @@
   },
   {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema/directories",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema/directories",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema/directories",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "servicePrincipals",
@@ -3063,40 +3347,30 @@
     "Segment": "directories"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema/directories/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema/directories/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "synchronization",
-      "templates",
-      "{synchronizationTemplate-id}",
-      "schema",
-      "directories",
-      "$count"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema/directories/{directoryDefinition-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema/directories/{directoryDefinition-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema/directories/{directoryDefinition-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "servicePrincipals",
@@ -3114,14 +3388,14 @@
   },
   {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema/directories/{directoryDefinition-id}/microsoft.graph.discover",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema/directories/{directoryDefinition-id}/microsoft.graph.discover",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/synchronization-directorydefinition-discover?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema/directories/{directoryDefinition-id}/microsoft.graph.discover",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/synchronization-directorydefinition-discover?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -3138,15 +3412,39 @@
     "Segment": "microsoft.graph.discover"
   },
   {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema/directories/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema/directories/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema/directories/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "synchronization",
+      "templates",
+      "{synchronizationTemplate-id}",
+      "schema",
+      "directories",
+      "$count"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema/microsoft.graph.filterOperators()",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema/microsoft.graph.filterOperators()",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/synchronization-synchronizationschema-filteroperators?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema/microsoft.graph.filterOperators()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/synchronization-synchronizationschema-filteroperators?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -3162,14 +3460,14 @@
   },
   {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema/microsoft.graph.functions()",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema/microsoft.graph.functions()",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/synchronization-synchronizationschema-functions?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema/microsoft.graph.functions()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/synchronization-synchronizationschema-functions?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -3185,14 +3483,14 @@
   },
   {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema/microsoft.graph.parseExpression",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema/microsoft.graph.parseExpression",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/synchronization-synchronizationschema-parseexpression?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/templates/{synchronizationTemplate-id}/schema/microsoft.graph.parseExpression",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/synchronization-synchronizationschema-parseexpression?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -3207,17 +3505,36 @@
     "Segment": "microsoft.graph.parseExpression"
   },
   {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/synchronization/templates/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/synchronization/templates/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/synchronization/templates/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "synchronization",
+      "templates",
+      "$count"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/tokenIssuancePolicies",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/tokenIssuancePolicies",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/tokenIssuancePolicies",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -3228,39 +3545,15 @@
     "Segment": "tokenIssuancePolicies"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/tokenIssuancePolicies/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/tokenIssuancePolicies/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/tokenIssuancePolicies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "tokenIssuancePolicies",
-      "$count"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/tokenIssuancePolicies/{tokenIssuancePolicy-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/tokenIssuancePolicies/{tokenIssuancePolicy-id}",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/tokenIssuancePolicies/{tokenIssuancePolicy-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -3272,17 +3565,35 @@
     "Segment": "{tokenIssuancePolicy-id}"
   },
   {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/tokenIssuancePolicies/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/tokenIssuancePolicies/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/tokenIssuancePolicies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "tokenIssuancePolicies",
+      "$count"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/tokenLifetimePolicies",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/tokenLifetimePolicies",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-tokenlifetimepolicies?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/tokenLifetimePolicies",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-tokenlifetimepolicies?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -3293,39 +3604,15 @@
     "Segment": "tokenLifetimePolicies"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/tokenLifetimePolicies/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/tokenLifetimePolicies/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/tokenLifetimePolicies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "tokenLifetimePolicies",
-      "$count"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/tokenLifetimePolicies/{tokenLifetimePolicy-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/tokenLifetimePolicies/{tokenLifetimePolicy-id}",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/tokenLifetimePolicies/{tokenLifetimePolicy-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -3337,42 +3624,19 @@
     "Segment": "{tokenLifetimePolicy-id}"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf",
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/tokenLifetimePolicies/$count",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/tokenLifetimePolicies/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/tokenLifetimePolicies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
-      "transitiveMemberOf"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 8,
-    "Segment": "transitiveMemberOf"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "transitiveMemberOf",
+      "tokenLifetimePolicies",
       "$count"
     ],
     "Root": "servicePrincipals",
@@ -3380,17 +3644,34 @@
     "Segment": "$count"
   },
   {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-transitivememberof?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-list-transitivememberof?view=graph-rest-beta",
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "transitiveMemberOf"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 5,
+    "Segment": "transitiveMemberOf"
+  },
+  {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -3398,67 +3679,61 @@
       "{directoryObject-id}"
     ],
     "Root": "servicePrincipals",
-    "Children": 6,
+    "Children": 3,
     "Segment": "{directoryObject-id}"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.application",
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.administrativeUnit",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.application",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.administrativeUnit",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.application",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.administrativeUnit",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
       "transitiveMemberOf",
       "{directoryObject-id}",
-      "microsoft.graph.application"
+      "microsoft.graph.administrativeUnit"
     ],
     "Root": "servicePrincipals",
     "Children": 0,
-    "Segment": "microsoft.graph.application"
+    "Segment": "microsoft.graph.administrativeUnit"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.device",
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.directoryRole",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.device",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.directoryRole",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.device",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.directoryRole",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
       "transitiveMemberOf",
       "{directoryObject-id}",
-      "microsoft.graph.device"
+      "microsoft.graph.directoryRole"
     ],
     "Root": "servicePrincipals",
     "Children": 0,
-    "Segment": "microsoft.graph.device"
+    "Segment": "microsoft.graph.directoryRole"
   },
   {
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.group",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.group",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.group",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -3471,113 +3746,19 @@
     "Segment": "microsoft.graph.group"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.orgContact",
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/$count",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.orgContact",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.orgContact",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
       "transitiveMemberOf",
-      "{directoryObject-id}",
-      "microsoft.graph.orgContact"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "microsoft.graph.orgContact"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "transitiveMemberOf",
-      "{directoryObject-id}",
-      "microsoft.graph.servicePrincipal"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "microsoft.graph.servicePrincipal"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.user",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.user",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.user",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "transitiveMemberOf",
-      "{directoryObject-id}",
-      "microsoft.graph.user"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "microsoft.graph.user"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.application",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.application",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.application",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "transitiveMemberOf",
-      "microsoft.graph.application"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 1,
-    "Segment": "microsoft.graph.application"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.application/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.application/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.application/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "transitiveMemberOf",
-      "microsoft.graph.application",
       "$count"
     ],
     "Root": "servicePrincipals",
@@ -3585,44 +3766,81 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.device",
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.administrativeUnit",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.device",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.administrativeUnit",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.device",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.administrativeUnit",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
       "transitiveMemberOf",
-      "microsoft.graph.device"
+      "microsoft.graph.administrativeUnit"
     ],
     "Root": "servicePrincipals",
     "Children": 1,
-    "Segment": "microsoft.graph.device"
+    "Segment": "microsoft.graph.administrativeUnit"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.device/$count",
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.administrativeUnit/$count",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.device/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.administrativeUnit/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.device/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.administrativeUnit/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
       "transitiveMemberOf",
-      "microsoft.graph.device",
+      "microsoft.graph.administrativeUnit",
+      "$count"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.directoryRole",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.directoryRole",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.directoryRole",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "transitiveMemberOf",
+      "microsoft.graph.directoryRole"
+    ],
+    "Root": "servicePrincipals",
+    "Children": 1,
+    "Segment": "microsoft.graph.directoryRole"
+  },
+  {
+    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.directoryRole/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.directoryRole/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.directoryRole/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "servicePrincipals",
+      "{servicePrincipal-id}",
+      "transitiveMemberOf",
+      "microsoft.graph.directoryRole",
       "$count"
     ],
     "Root": "servicePrincipals",
@@ -3633,14 +3851,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.group",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.group",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.group",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -3655,14 +3871,12 @@
     "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.group/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.group/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.group/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
       "{servicePrincipal-id}",
@@ -3675,134 +3889,17 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.orgContact",
+    "Endpoint": "servicePrincipals/$count",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.orgContact",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.orgContact",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "servicePrincipals",
-      "{servicePrincipal-id}",
-      "transitiveMemberOf",
-      "microsoft.graph.orgContact"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 1,
-    "Segment": "microsoft.graph.orgContact"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.orgContact/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.orgContact/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.orgContact/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "transitiveMemberOf",
-      "microsoft.graph.orgContact",
-      "$count"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.servicePrincipal",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.servicePrincipal",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "transitiveMemberOf",
-      "microsoft.graph.servicePrincipal"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 1,
-    "Segment": "microsoft.graph.servicePrincipal"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.servicePrincipal/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.servicePrincipal/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.servicePrincipal/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "transitiveMemberOf",
-      "microsoft.graph.servicePrincipal",
-      "$count"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.user",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.user",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.user",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "transitiveMemberOf",
-      "microsoft.graph.user"
-    ],
-    "Root": "servicePrincipals",
-    "Children": 1,
-    "Segment": "microsoft.graph.user"
-  },
-  {
-    "Endpoint": "servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.user/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.user/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipal-id}/transitiveMemberOf/microsoft.graph.user/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "servicePrincipals",
-      "{servicePrincipal-id}",
-      "transitiveMemberOf",
-      "microsoft.graph.user",
       "$count"
     ],
     "Root": "servicePrincipals",
@@ -3813,14 +3910,12 @@
     "Endpoint": "servicePrincipals/microsoft.graph.delta()",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/microsoft.graph.delta()",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceprincipal-delta?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/microsoft.graph.delta()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-delta?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "microsoft.graph.delta()"
@@ -3833,12 +3928,12 @@
     "Endpoint": "servicePrincipals/microsoft.graph.getAvailableExtensionProperties",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/microsoft.graph.getAvailableExtensionProperties",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getavailableextensionproperties?view=graph-rest-1.0",
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceprincipal-delta?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "microsoft.graph.getAvailableExtensionProperties"
@@ -3851,14 +3946,12 @@
     "Endpoint": "servicePrincipals/microsoft.graph.getByIds",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/microsoft.graph.getByIds",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getbyids?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/microsoft.graph.getByIds",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-getbyids?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "microsoft.graph.getByIds"
@@ -3872,11 +3965,11 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getbyids?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/microsoft.graph.getUserOwnedObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-getuserownedobjects?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "microsoft.graph.getUserOwnedObjects"
@@ -3889,14 +3982,12 @@
     "Endpoint": "servicePrincipals/microsoft.graph.validateProperties",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/servicePrincipals/microsoft.graph.validateProperties",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-validateproperties?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/servicePrincipals/microsoft.graph.validateProperties",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-validateproperties?view=graph-rest-beta",
     "Path": [
       "servicePrincipals",
       "microsoft.graph.validateProperties"

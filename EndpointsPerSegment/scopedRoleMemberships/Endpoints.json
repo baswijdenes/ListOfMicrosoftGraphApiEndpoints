@@ -7,11 +7,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/scopedRoleMemberships",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "scopedRoleMemberships"
@@ -19,26 +27,6 @@
     "Root": "scopedRoleMemberships",
     "Children": 2,
     "Segment": "scopedRoleMemberships"
-  },
-  {
-    "Endpoint": "scopedRoleMemberships/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/scopedRoleMemberships/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/scopedRoleMemberships/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "scopedRoleMemberships",
-      "$count"
-    ],
-    "Root": "scopedRoleMemberships",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "scopedRoleMemberships/{scopedRoleMembership-id}",
@@ -49,12 +37,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/scopedRoleMemberships/{scopedRoleMembership-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "scopedRoleMemberships",
@@ -63,5 +61,23 @@
     "Root": "scopedRoleMemberships",
     "Children": 0,
     "Segment": "{scopedRoleMembership-id}"
+  },
+  {
+    "Endpoint": "scopedRoleMemberships/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/scopedRoleMemberships/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/scopedRoleMemberships/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "scopedRoleMemberships",
+      "$count"
+    ],
+    "Root": "scopedRoleMemberships",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

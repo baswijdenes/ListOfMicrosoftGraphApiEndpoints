@@ -7,30 +7,110 @@
       "Get",
       "Patch"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin",
     "Beta-Methods": [
       "Get",
       "Patch"
     ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
     "Path": [
       "admin"
     ],
     "Root": "admin",
-    "Children": 5,
+    "Children": 12,
     "Segment": "admin"
   },
   {
-    "Endpoint": "admin/edge",
+    "Endpoint": "admin/appsAndServices",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/appsAndServices",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/adminappsandservices-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/adminappsandservices-update?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "admin",
+      "appsAndServices"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "appsAndServices"
+  },
+  {
+    "Endpoint": "admin/dynamics",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/dynamics",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/admindynamics-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/admindynamics-update?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "admin",
+      "dynamics"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "dynamics"
+  },
+  {
+    "Endpoint": "admin/edge",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/edge",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/edge",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "admin",
@@ -42,15 +122,29 @@
   },
   {
     "Endpoint": "admin/edge/internetExplorerMode",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/edge/internetExplorerMode",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/edge/internetExplorerMode",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "admin",
@@ -63,14 +157,25 @@
   },
   {
     "Endpoint": "admin/edge/internetExplorerMode/siteLists",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/edge/internetExplorerMode/siteLists",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/internetexplorermode-list-sitelists?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/internetexplorermode-post-sitelists?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/edge/internetExplorerMode/siteLists",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/internetexplorermode-list-sitelists?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/internetexplorermode-post-sitelists?view=graph-rest-beta"
     ],
     "Path": [
       "admin",
@@ -83,37 +188,30 @@
     "Segment": "siteLists"
   },
   {
-    "Endpoint": "admin/edge/internetExplorerMode/siteLists/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/admin/edge/internetExplorerMode/siteLists/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "admin",
-      "edge",
-      "internetExplorerMode",
-      "siteLists",
-      "$count"
-    ],
-    "Root": "admin",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/browsersitelist-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/browsersitelist-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/internetexplorermode-delete-sitelists?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/browsersitelist-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/browsersitelist-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/internetexplorermode-delete-sitelists?view=graph-rest-beta"
     ],
     "Path": [
       "admin",
@@ -128,14 +226,14 @@
   },
   {
     "Endpoint": "admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/microsoft.graph.publish",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/microsoft.graph.publish",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/microsoft.graph.publish",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/browsersitelist-publish?view=graph-rest-beta",
     "Path": [
       "admin",
       "edge",
@@ -150,14 +248,25 @@
   },
   {
     "Endpoint": "admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/sharedCookies",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/sharedCookies",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/browsersitelist-list-sharedcookies?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/browsersitelist-post-sharedcookies?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/sharedCookies",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/browsersitelist-list-sharedcookies?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/browsersitelist-post-sharedcookies?view=graph-rest-beta"
     ],
     "Path": [
       "admin",
@@ -172,39 +281,30 @@
     "Segment": "sharedCookies"
   },
   {
-    "Endpoint": "admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/sharedCookies/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/sharedCookies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "admin",
-      "edge",
-      "internetExplorerMode",
-      "siteLists",
-      "{browserSiteList-id}",
-      "sharedCookies",
-      "$count"
-    ],
-    "Root": "admin",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/sharedCookies/{browserSharedCookie-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/sharedCookies/{browserSharedCookie-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/browsersharedcookie-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/browsersharedcookie-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/browsersitelist-delete-sharedcookies?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/sharedCookies/{browserSharedCookie-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/browsersharedcookie-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/browsersharedcookie-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/browsersitelist-delete-sharedcookies?view=graph-rest-beta"
     ],
     "Path": [
       "admin",
@@ -220,15 +320,49 @@
     "Segment": "{browserSharedCookie-id}"
   },
   {
+    "Endpoint": "admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/sharedCookies/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/sharedCookies/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/sharedCookies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "edge",
+      "internetExplorerMode",
+      "siteLists",
+      "{browserSiteList-id}",
+      "sharedCookies",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/sites",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/sites",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/browsersitelist-list-sites?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/browsersitelist-post-sites?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/sites",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/browsersitelist-list-sites?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/browsersitelist-post-sites?view=graph-rest-beta"
     ],
     "Path": [
       "admin",
@@ -243,39 +377,30 @@
     "Segment": "sites"
   },
   {
-    "Endpoint": "admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/sites/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/sites/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "admin",
-      "edge",
-      "internetExplorerMode",
-      "siteLists",
-      "{browserSiteList-id}",
-      "sites",
-      "$count"
-    ],
-    "Root": "admin",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/sites/{browserSite-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/sites/{browserSite-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/browsersite-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/browsersite-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/browsersitelist-delete-sites?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/sites/{browserSite-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/browsersite-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/browsersite-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/browsersitelist-delete-sites?view=graph-rest-beta"
     ],
     "Path": [
       "admin",
@@ -291,16 +416,415 @@
     "Segment": "{browserSite-id}"
   },
   {
-    "Endpoint": "admin/reportSettings",
+    "Endpoint": "admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/sites/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/sites/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}/sites/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "edge",
+      "internetExplorerMode",
+      "siteLists",
+      "{browserSiteList-id}",
+      "sites",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "admin/edge/internetExplorerMode/siteLists/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/edge/internetExplorerMode/siteLists/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/edge/internetExplorerMode/siteLists/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "edge",
+      "internetExplorerMode",
+      "siteLists",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "admin/entra",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/entra",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "entra"
+    ],
+    "Root": "admin",
+    "Children": 1,
+    "Segment": "entra"
+  },
+  {
+    "Endpoint": "admin/entra/uxSetting",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/entra/uxSetting",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "entra",
+      "uxSetting"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "uxSetting"
+  },
+  {
+    "Endpoint": "admin/forms",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/forms",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/adminforms-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/adminforms-update?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "admin",
+      "forms"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "forms"
+  },
+  {
+    "Endpoint": "admin/microsoft365Apps",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/microsoft365Apps",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/microsoft365Apps",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "microsoft365Apps"
+    ],
+    "Root": "admin",
+    "Children": 1,
+    "Segment": "microsoft365Apps"
+  },
+  {
+    "Endpoint": "admin/microsoft365Apps/installationOptions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/microsoft365Apps/installationOptions",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/m365appsinstallationoptions-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/m365appsinstallationoptions-update?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/microsoft365Apps/installationOptions",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/m365appsinstallationoptions-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/m365appsinstallationoptions-update?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "admin",
+      "microsoft365Apps",
+      "installationOptions"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "installationOptions"
+  },
+  {
+    "Endpoint": "admin/people",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/people",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/peopleadminsettings-get?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/people",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/peopleadminsettings-get?view=graph-rest-beta",
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "people"
+    ],
+    "Root": "admin",
+    "Children": 3,
+    "Segment": "people"
+  },
+  {
+    "Endpoint": "admin/people/itemInsights",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/people/itemInsights",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/peopleadminsettings-list-iteminsights?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/insightssettings-update?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/people/itemInsights",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/peopleadminsettings-list-iteminsights?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/insightssettings-update?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "admin",
+      "people",
+      "itemInsights"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "itemInsights"
+  },
+  {
+    "Endpoint": "admin/people/profileCardProperties",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/people/profileCardProperties",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/peopleadminsettings-list-profilecardproperties?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/peopleadminsettings-post-profilecardproperties?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/people/profileCardProperties",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/peopleadminsettings-list-profilecardproperties?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/peopleadminsettings-post-profilecardproperties?view=graph-rest-beta"
+    ],
+    "Path": [
+      "admin",
+      "people",
+      "profileCardProperties"
+    ],
+    "Root": "admin",
+    "Children": 2,
+    "Segment": "profileCardProperties"
+  },
+  {
+    "Endpoint": "admin/people/profileCardProperties/{profileCardProperty-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/people/profileCardProperties/{profileCardProperty-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/profilecardproperty-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/profilecardproperty-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/profilecardproperty-delete?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/people/profileCardProperties/{profileCardProperty-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/profilecardproperty-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/profilecardproperty-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/profilecardproperty-delete?view=graph-rest-beta"
+    ],
+    "Path": [
+      "admin",
+      "people",
+      "profileCardProperties",
+      "{profileCardProperty-id}"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "{profileCardProperty-id}"
+  },
+  {
+    "Endpoint": "admin/people/profileCardProperties/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/people/profileCardProperties/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/people/profileCardProperties/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "people",
+      "profileCardProperties",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "admin/people/pronouns",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/people/pronouns",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/peopleadminsettings-list-pronouns?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/pronounssettings-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/people/pronouns",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/peopleadminsettings-list-pronouns?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/pronounssettings-update?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "admin",
+      "people",
+      "pronouns"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "pronouns"
+  },
+  {
+    "Endpoint": "admin/reportSettings",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/reportSettings",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/adminreportsettings-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/adminreportsettings-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/reportSettings",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/adminreportsettings-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/adminreportsettings-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "admin",
@@ -319,12 +843,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "admin",
@@ -342,11 +876,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/serviceannouncement-list-healthoverviews?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/healthOverviews",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/serviceannouncement-list-healthoverviews?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "admin",
@@ -358,28 +900,6 @@
     "Segment": "healthOverviews"
   },
   {
-    "Endpoint": "admin/serviceAnnouncement/healthOverviews/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/healthOverviews/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/healthOverviews/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "admin",
-      "serviceAnnouncement",
-      "healthOverviews",
-      "$count"
-    ],
-    "Root": "admin",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "admin/serviceAnnouncement/healthOverviews/{serviceHealth-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/healthOverviews/{serviceHealth-id}",
@@ -388,12 +908,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/servicehealth-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/healthOverviews/{serviceHealth-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/servicehealth-get?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "admin",
@@ -413,11 +943,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/healthOverviews/{serviceHealth-id}/issues",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "admin",
@@ -431,30 +969,6 @@
     "Segment": "issues"
   },
   {
-    "Endpoint": "admin/serviceAnnouncement/healthOverviews/{serviceHealth-id}/issues/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/healthOverviews/{serviceHealth-id}/issues/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/healthOverviews/{serviceHealth-id}/issues/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "admin",
-      "serviceAnnouncement",
-      "healthOverviews",
-      "{serviceHealth-id}",
-      "issues",
-      "$count"
-    ],
-    "Root": "admin",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "admin/serviceAnnouncement/healthOverviews/{serviceHealth-id}/issues/{serviceHealthIssue-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/healthOverviews/{serviceHealth-id}/issues/{serviceHealthIssue-id}",
@@ -463,12 +977,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/healthOverviews/{serviceHealth-id}/issues/{serviceHealthIssue-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "admin",
@@ -486,14 +1010,12 @@
     "Endpoint": "admin/serviceAnnouncement/healthOverviews/{serviceHealth-id}/issues/{serviceHealthIssue-id}/microsoft.graph.incidentReport()",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/healthOverviews/{serviceHealth-id}/issues/{serviceHealthIssue-id}/microsoft.graph.incidentReport()",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/healthOverviews/{serviceHealth-id}/issues/{serviceHealthIssue-id}/microsoft.graph.incidentReport()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "admin",
       "serviceAnnouncement",
@@ -508,6 +1030,48 @@
     "Segment": "microsoft.graph.incidentReport()"
   },
   {
+    "Endpoint": "admin/serviceAnnouncement/healthOverviews/{serviceHealth-id}/issues/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/healthOverviews/{serviceHealth-id}/issues/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/healthOverviews/{serviceHealth-id}/issues/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "serviceAnnouncement",
+      "healthOverviews",
+      "{serviceHealth-id}",
+      "issues",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "admin/serviceAnnouncement/healthOverviews/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/healthOverviews/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/healthOverviews/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "serviceAnnouncement",
+      "healthOverviews",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "admin/serviceAnnouncement/issues",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/issues",
@@ -515,11 +1079,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/serviceannouncement-list-issues?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/issues",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/serviceannouncement-list-issues?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "admin",
@@ -531,28 +1103,6 @@
     "Segment": "issues"
   },
   {
-    "Endpoint": "admin/serviceAnnouncement/issues/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/issues/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/issues/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "admin",
-      "serviceAnnouncement",
-      "issues",
-      "$count"
-    ],
-    "Root": "admin",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "admin/serviceAnnouncement/issues/{serviceHealthIssue-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/issues/{serviceHealthIssue-id}",
@@ -561,12 +1111,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/servicehealthissue-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/issues/{serviceHealthIssue-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/servicehealthissue-get?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "admin",
@@ -582,14 +1142,12 @@
     "Endpoint": "admin/serviceAnnouncement/issues/{serviceHealthIssue-id}/microsoft.graph.incidentReport()",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/issues/{serviceHealthIssue-id}/microsoft.graph.incidentReport()",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/servicehealthissue-incidentreport?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/issues/{serviceHealthIssue-id}/microsoft.graph.incidentReport()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/servicehealthissue-incidentreport?view=graph-rest-beta",
     "Path": [
       "admin",
       "serviceAnnouncement",
@@ -602,6 +1160,26 @@
     "Segment": "microsoft.graph.incidentReport()"
   },
   {
+    "Endpoint": "admin/serviceAnnouncement/issues/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/issues/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/issues/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "serviceAnnouncement",
+      "issues",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "admin/serviceAnnouncement/messages",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/messages",
@@ -609,11 +1187,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/serviceannouncement-list-messages?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/messages",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/serviceannouncement-list-messages?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "admin",
@@ -625,28 +1211,6 @@
     "Segment": "messages"
   },
   {
-    "Endpoint": "admin/serviceAnnouncement/messages/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/messages/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/messages/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "admin",
-      "serviceAnnouncement",
-      "messages",
-      "$count"
-    ],
-    "Root": "admin",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "admin/serviceAnnouncement/messages/{serviceUpdateMessage-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/messages/{serviceUpdateMessage-id}",
@@ -655,12 +1219,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/serviceupdatemessage-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/messages/{serviceUpdateMessage-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/serviceupdatemessage-get?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "admin",
@@ -680,11 +1254,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/serviceupdatemessage-list-attachments?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/messages/{serviceUpdateMessage-id}/attachments",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/serviceupdatemessage-list-attachments?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "admin",
@@ -698,30 +1280,6 @@
     "Segment": "attachments"
   },
   {
-    "Endpoint": "admin/serviceAnnouncement/messages/{serviceUpdateMessage-id}/attachments/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/messages/{serviceUpdateMessage-id}/attachments/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/messages/{serviceUpdateMessage-id}/attachments/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "admin",
-      "serviceAnnouncement",
-      "messages",
-      "{serviceUpdateMessage-id}",
-      "attachments",
-      "$count"
-    ],
-    "Root": "admin",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "admin/serviceAnnouncement/messages/{serviceUpdateMessage-id}/attachments/{serviceAnnouncementAttachment-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/messages/{serviceUpdateMessage-id}/attachments/{serviceAnnouncementAttachment-id}",
@@ -730,12 +1288,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/serviceannouncementattachment-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/messages/{serviceUpdateMessage-id}/attachments/{serviceAnnouncementAttachment-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/serviceannouncementattachment-get?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "admin",
@@ -755,13 +1323,25 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/messages/{serviceUpdateMessage-id}/attachments/{serviceAnnouncementAttachment-id}/content",
     "v1.0-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/serviceannouncementattachment-get?view=graph-rest-1.0",
+      null,
+      null
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/messages/{serviceUpdateMessage-id}/attachments/{serviceAnnouncementAttachment-id}/content",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/serviceannouncementattachment-get?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "admin",
@@ -777,18 +1357,52 @@
     "Segment": "content"
   },
   {
+    "Endpoint": "admin/serviceAnnouncement/messages/{serviceUpdateMessage-id}/attachments/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/messages/{serviceUpdateMessage-id}/attachments/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/messages/{serviceUpdateMessage-id}/attachments/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "serviceAnnouncement",
+      "messages",
+      "{serviceUpdateMessage-id}",
+      "attachments",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "admin/serviceAnnouncement/messages/{serviceUpdateMessage-id}/attachmentsArchive",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/messages/{serviceUpdateMessage-id}/attachmentsArchive",
     "v1.0-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/serviceupdatemessage-list-attachments?view=graph-rest-1.0",
+      null,
+      null
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/messages/{serviceUpdateMessage-id}/attachmentsArchive",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/serviceupdatemessage-list-attachments?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "admin",
@@ -802,17 +1416,35 @@
     "Segment": "attachmentsArchive"
   },
   {
+    "Endpoint": "admin/serviceAnnouncement/messages/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/messages/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/messages/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "serviceAnnouncement",
+      "messages",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "admin/serviceAnnouncement/messages/microsoft.graph.archive",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/messages/microsoft.graph.archive",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceupdatemessage-archive?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/messages/microsoft.graph.archive",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceupdatemessage-archive?view=graph-rest-beta",
     "Path": [
       "admin",
       "serviceAnnouncement",
@@ -827,14 +1459,12 @@
     "Endpoint": "admin/serviceAnnouncement/messages/microsoft.graph.favorite",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/messages/microsoft.graph.favorite",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceupdatemessage-favorite?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/messages/microsoft.graph.favorite",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceupdatemessage-favorite?view=graph-rest-beta",
     "Path": [
       "admin",
       "serviceAnnouncement",
@@ -849,14 +1479,12 @@
     "Endpoint": "admin/serviceAnnouncement/messages/microsoft.graph.markRead",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/messages/microsoft.graph.markRead",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceupdatemessage-markread?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/messages/microsoft.graph.markRead",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceupdatemessage-markread?view=graph-rest-beta",
     "Path": [
       "admin",
       "serviceAnnouncement",
@@ -871,14 +1499,12 @@
     "Endpoint": "admin/serviceAnnouncement/messages/microsoft.graph.markUnread",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/messages/microsoft.graph.markUnread",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceupdatemessage-markunread?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/messages/microsoft.graph.markUnread",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceupdatemessage-markunread?view=graph-rest-beta",
     "Path": [
       "admin",
       "serviceAnnouncement",
@@ -893,14 +1519,12 @@
     "Endpoint": "admin/serviceAnnouncement/messages/microsoft.graph.unarchive",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/messages/microsoft.graph.unarchive",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceupdatemessage-unarchive?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/messages/microsoft.graph.unarchive",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceupdatemessage-unarchive?view=graph-rest-beta",
     "Path": [
       "admin",
       "serviceAnnouncement",
@@ -915,14 +1539,12 @@
     "Endpoint": "admin/serviceAnnouncement/messages/microsoft.graph.unfavorite",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/messages/microsoft.graph.unfavorite",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/serviceupdatemessage-unfavorite?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/serviceAnnouncement/messages/microsoft.graph.unfavorite",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/serviceupdatemessage-unfavorite?view=graph-rest-beta",
     "Path": [
       "admin",
       "serviceAnnouncement",
@@ -935,15 +1557,29 @@
   },
   {
     "Endpoint": "admin/sharepoint",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/sharepoint",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/sharepoint",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "admin",
@@ -955,15 +1591,29 @@
   },
   {
     "Endpoint": "admin/sharepoint/settings",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/admin/sharepoint/settings",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/sharepointsettings-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/sharepointsettings-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/sharepoint/settings",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/sharepointsettings-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/sharepointsettings-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "admin",
@@ -975,16 +1625,56 @@
     "Segment": "settings"
   },
   {
+    "Endpoint": "admin/todo",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/todo",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/admintodo-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/admintodo-update?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "admin",
+      "todo"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "todo"
+  },
+  {
     "Endpoint": "admin/windows",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "admin",
@@ -999,6 +1689,11 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates",
     "Beta-Methods": [
@@ -1006,13 +1701,18 @@
       "Patch",
       "Delete"
     ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
     "Path": [
       "admin",
       "windows",
       "updates"
     ],
     "Root": "admin",
-    "Children": 4,
+    "Children": 7,
     "Segment": "updates"
   },
   {
@@ -1020,12 +1720,22 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/catalog",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "admin",
@@ -1042,11 +1752,20 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/catalog/entries",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/windowsupdates-catalog-list-entries?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "admin",
@@ -1060,38 +1779,26 @@
     "Segment": "entries"
   },
   {
-    "Endpoint": "admin/windows/updates/catalog/entries/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/catalog/entries/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "admin",
-      "windows",
-      "updates",
-      "catalog",
-      "entries",
-      "$count"
-    ],
-    "Root": "admin",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "admin/windows/updates/catalog/entries/{catalogEntry-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/catalog/entries/{catalogEntry-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "admin",
@@ -1106,15 +1813,1040 @@
     "Segment": "{catalogEntry-id}"
   },
   {
+    "Endpoint": "admin/windows/updates/catalog/entries/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/catalog/entries/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "catalog",
+      "entries",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/adminwindowsupdates-list-deploymentaudiences?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/adminwindowsupdates-post-deploymentaudiences?view=graph-rest-beta"
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences"
+    ],
+    "Root": "admin",
+    "Children": 2,
+    "Segment": "deploymentAudiences"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/windowsupdates-deploymentaudience-get?view=graph-rest-beta",
+      null,
+      "https://learn.microsoft.com/graph/api/windowsupdates-deploymentaudience-delete?view=graph-rest-beta"
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}"
+    ],
+    "Root": "admin",
+    "Children": 5,
+    "Segment": "{deploymentAudience-id}"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/applicableContent",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/applicableContent",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "applicableContent"
+    ],
+    "Root": "admin",
+    "Children": 2,
+    "Segment": "applicableContent"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/applicableContent/{applicableContent-catalogEntryId}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/applicableContent/{applicableContent-catalogEntryId}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "applicableContent",
+      "{applicableContent-catalogEntryId}"
+    ],
+    "Root": "admin",
+    "Children": 2,
+    "Segment": "{applicableContent-catalogEntryId}"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/applicableContent/{applicableContent-catalogEntryId}/catalogEntry",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/applicableContent/{applicableContent-catalogEntryId}/catalogEntry",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "applicableContent",
+      "{applicableContent-catalogEntryId}",
+      "catalogEntry"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "catalogEntry"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/applicableContent/{applicableContent-catalogEntryId}/matchedDevices",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/applicableContent/{applicableContent-catalogEntryId}/matchedDevices",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "applicableContent",
+      "{applicableContent-catalogEntryId}",
+      "matchedDevices"
+    ],
+    "Root": "admin",
+    "Children": 2,
+    "Segment": "matchedDevices"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/applicableContent/{applicableContent-catalogEntryId}/matchedDevices/{applicableContentDeviceMatch-deviceId}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/applicableContent/{applicableContent-catalogEntryId}/matchedDevices/{applicableContentDeviceMatch-deviceId}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "applicableContent",
+      "{applicableContent-catalogEntryId}",
+      "matchedDevices",
+      "{applicableContentDeviceMatch-deviceId}"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "{applicableContentDeviceMatch-deviceId}"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/applicableContent/{applicableContent-catalogEntryId}/matchedDevices/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/applicableContent/{applicableContent-catalogEntryId}/matchedDevices/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "applicableContent",
+      "{applicableContent-catalogEntryId}",
+      "matchedDevices",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/applicableContent/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/applicableContent/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "applicableContent",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/exclusions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/exclusions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/windowsupdates-deploymentaudience-list-exclusions?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "exclusions"
+    ],
+    "Root": "admin",
+    "Children": 6,
+    "Segment": "exclusions"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/exclusions/{updatableAsset-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/exclusions/{updatableAsset-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "exclusions",
+      "{updatableAsset-id}"
+    ],
+    "Root": "admin",
+    "Children": 4,
+    "Segment": "{updatableAsset-id}"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/exclusions/{updatableAsset-id}/microsoft.graph.windowsUpdates.addMembers",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/exclusions/{updatableAsset-id}/microsoft.graph.windowsUpdates.addMembers",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-addmembers?view=graph-rest-beta",
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "exclusions",
+      "{updatableAsset-id}",
+      "microsoft.graph.windowsUpdates.addMembers"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.addMembers"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/exclusions/{updatableAsset-id}/microsoft.graph.windowsUpdates.addMembersById",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/exclusions/{updatableAsset-id}/microsoft.graph.windowsUpdates.addMembersById",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-addmembersbyid?view=graph-rest-beta",
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "exclusions",
+      "{updatableAsset-id}",
+      "microsoft.graph.windowsUpdates.addMembersById"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.addMembersById"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/exclusions/{updatableAsset-id}/microsoft.graph.windowsUpdates.removeMembers",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/exclusions/{updatableAsset-id}/microsoft.graph.windowsUpdates.removeMembers",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-removemembers?view=graph-rest-beta",
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "exclusions",
+      "{updatableAsset-id}",
+      "microsoft.graph.windowsUpdates.removeMembers"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.removeMembers"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/exclusions/{updatableAsset-id}/microsoft.graph.windowsUpdates.removeMembersById",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/exclusions/{updatableAsset-id}/microsoft.graph.windowsUpdates.removeMembersById",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-removemembersbyid?view=graph-rest-beta",
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "exclusions",
+      "{updatableAsset-id}",
+      "microsoft.graph.windowsUpdates.removeMembersById"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.removeMembersById"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/exclusions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/exclusions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "exclusions",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/exclusions/microsoft.graph.windowsUpdates.enrollAssets",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/exclusions/microsoft.graph.windowsUpdates.enrollAssets",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "exclusions",
+      "microsoft.graph.windowsUpdates.enrollAssets"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.enrollAssets"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/exclusions/microsoft.graph.windowsUpdates.enrollAssetsById",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/exclusions/microsoft.graph.windowsUpdates.enrollAssetsById",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "exclusions",
+      "microsoft.graph.windowsUpdates.enrollAssetsById"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.enrollAssetsById"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/exclusions/microsoft.graph.windowsUpdates.unenrollAssets",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/exclusions/microsoft.graph.windowsUpdates.unenrollAssets",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "exclusions",
+      "microsoft.graph.windowsUpdates.unenrollAssets"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.unenrollAssets"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/exclusions/microsoft.graph.windowsUpdates.unenrollAssetsById",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/exclusions/microsoft.graph.windowsUpdates.unenrollAssetsById",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "exclusions",
+      "microsoft.graph.windowsUpdates.unenrollAssetsById"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.unenrollAssetsById"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/members",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/members",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/windowsupdates-deploymentaudience-list-members?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "members"
+    ],
+    "Root": "admin",
+    "Children": 6,
+    "Segment": "members"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/members/{updatableAsset-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/members/{updatableAsset-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "members",
+      "{updatableAsset-id}"
+    ],
+    "Root": "admin",
+    "Children": 4,
+    "Segment": "{updatableAsset-id}"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/members/{updatableAsset-id}/microsoft.graph.windowsUpdates.addMembers",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/members/{updatableAsset-id}/microsoft.graph.windowsUpdates.addMembers",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-addmembers?view=graph-rest-beta",
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "members",
+      "{updatableAsset-id}",
+      "microsoft.graph.windowsUpdates.addMembers"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.addMembers"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/members/{updatableAsset-id}/microsoft.graph.windowsUpdates.addMembersById",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/members/{updatableAsset-id}/microsoft.graph.windowsUpdates.addMembersById",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-addmembersbyid?view=graph-rest-beta",
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "members",
+      "{updatableAsset-id}",
+      "microsoft.graph.windowsUpdates.addMembersById"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.addMembersById"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/members/{updatableAsset-id}/microsoft.graph.windowsUpdates.removeMembers",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/members/{updatableAsset-id}/microsoft.graph.windowsUpdates.removeMembers",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-removemembers?view=graph-rest-beta",
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "members",
+      "{updatableAsset-id}",
+      "microsoft.graph.windowsUpdates.removeMembers"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.removeMembers"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/members/{updatableAsset-id}/microsoft.graph.windowsUpdates.removeMembersById",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/members/{updatableAsset-id}/microsoft.graph.windowsUpdates.removeMembersById",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-removemembersbyid?view=graph-rest-beta",
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "members",
+      "{updatableAsset-id}",
+      "microsoft.graph.windowsUpdates.removeMembersById"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.removeMembersById"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/members/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/members/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "members",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/members/microsoft.graph.windowsUpdates.enrollAssets",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/members/microsoft.graph.windowsUpdates.enrollAssets",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "members",
+      "microsoft.graph.windowsUpdates.enrollAssets"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.enrollAssets"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/members/microsoft.graph.windowsUpdates.enrollAssetsById",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/members/microsoft.graph.windowsUpdates.enrollAssetsById",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "members",
+      "microsoft.graph.windowsUpdates.enrollAssetsById"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.enrollAssetsById"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/members/microsoft.graph.windowsUpdates.unenrollAssets",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/members/microsoft.graph.windowsUpdates.unenrollAssets",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "members",
+      "microsoft.graph.windowsUpdates.unenrollAssets"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.unenrollAssets"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/members/microsoft.graph.windowsUpdates.unenrollAssetsById",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/members/microsoft.graph.windowsUpdates.unenrollAssetsById",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "members",
+      "microsoft.graph.windowsUpdates.unenrollAssetsById"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.unenrollAssetsById"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/microsoft.graph.windowsUpdates.updateAudience",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/microsoft.graph.windowsUpdates.updateAudience",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-deploymentaudience-updateaudience?view=graph-rest-beta",
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "microsoft.graph.windowsUpdates.updateAudience"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.updateAudience"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/microsoft.graph.windowsUpdates.updateAudienceById",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/{deploymentAudience-id}/microsoft.graph.windowsUpdates.updateAudienceById",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-deploymentaudience-updateaudiencebyid?view=graph-rest-beta",
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "{deploymentAudience-id}",
+      "microsoft.graph.windowsUpdates.updateAudienceById"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.updateAudienceById"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deploymentAudiences/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deploymentAudiences/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deploymentAudiences",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "admin/windows/updates/deployments",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/adminwindowsupdates-list-deployments?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/adminwindowsupdates-post-deployments?view=graph-rest-beta"
     ],
     "Path": [
       "admin",
@@ -1127,37 +2859,26 @@
     "Segment": "deployments"
   },
   {
-    "Endpoint": "admin/windows/updates/deployments/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "admin",
-      "windows",
-      "updates",
-      "deployments",
-      "$count"
-    ],
-    "Root": "admin",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "admin/windows/updates/deployments/{deployment-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/windowsupdates-deployment-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/windowsupdates-deployment-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/windowsupdates-deployment-delete?view=graph-rest-beta"
     ],
     "Path": [
       "admin",
@@ -1175,12 +2896,22 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "admin",
@@ -1191,19 +2922,257 @@
       "audience"
     ],
     "Root": "admin",
-    "Children": 4,
+    "Children": 5,
     "Segment": "audience"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deployments/{deployment-id}/audience/applicableContent",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/applicableContent",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deployments",
+      "{deployment-id}",
+      "audience",
+      "applicableContent"
+    ],
+    "Root": "admin",
+    "Children": 2,
+    "Segment": "applicableContent"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deployments/{deployment-id}/audience/applicableContent/{applicableContent-catalogEntryId}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/applicableContent/{applicableContent-catalogEntryId}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deployments",
+      "{deployment-id}",
+      "audience",
+      "applicableContent",
+      "{applicableContent-catalogEntryId}"
+    ],
+    "Root": "admin",
+    "Children": 2,
+    "Segment": "{applicableContent-catalogEntryId}"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deployments/{deployment-id}/audience/applicableContent/{applicableContent-catalogEntryId}/catalogEntry",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/applicableContent/{applicableContent-catalogEntryId}/catalogEntry",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deployments",
+      "{deployment-id}",
+      "audience",
+      "applicableContent",
+      "{applicableContent-catalogEntryId}",
+      "catalogEntry"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "catalogEntry"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deployments/{deployment-id}/audience/applicableContent/{applicableContent-catalogEntryId}/matchedDevices",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/applicableContent/{applicableContent-catalogEntryId}/matchedDevices",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deployments",
+      "{deployment-id}",
+      "audience",
+      "applicableContent",
+      "{applicableContent-catalogEntryId}",
+      "matchedDevices"
+    ],
+    "Root": "admin",
+    "Children": 2,
+    "Segment": "matchedDevices"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deployments/{deployment-id}/audience/applicableContent/{applicableContent-catalogEntryId}/matchedDevices/{applicableContentDeviceMatch-deviceId}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/applicableContent/{applicableContent-catalogEntryId}/matchedDevices/{applicableContentDeviceMatch-deviceId}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deployments",
+      "{deployment-id}",
+      "audience",
+      "applicableContent",
+      "{applicableContent-catalogEntryId}",
+      "matchedDevices",
+      "{applicableContentDeviceMatch-deviceId}"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "{applicableContentDeviceMatch-deviceId}"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deployments/{deployment-id}/audience/applicableContent/{applicableContent-catalogEntryId}/matchedDevices/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/applicableContent/{applicableContent-catalogEntryId}/matchedDevices/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deployments",
+      "{deployment-id}",
+      "audience",
+      "applicableContent",
+      "{applicableContent-catalogEntryId}",
+      "matchedDevices",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "admin/windows/updates/deployments/{deployment-id}/audience/applicableContent/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/applicableContent/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deployments",
+      "{deployment-id}",
+      "audience",
+      "applicableContent",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
   },
   {
     "Endpoint": "admin/windows/updates/deployments/{deployment-id}/audience/exclusions",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/exclusions",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "admin",
@@ -1219,40 +3188,26 @@
     "Segment": "exclusions"
   },
   {
-    "Endpoint": "admin/windows/updates/deployments/{deployment-id}/audience/exclusions/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/exclusions/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "admin",
-      "windows",
-      "updates",
-      "deployments",
-      "{deployment-id}",
-      "audience",
-      "exclusions",
-      "$count"
-    ],
-    "Root": "admin",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "admin/windows/updates/deployments/{deployment-id}/audience/exclusions/{updatableAsset-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/exclusions/{updatableAsset-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "admin",
@@ -1273,11 +3228,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/exclusions/{updatableAsset-id}/microsoft.graph.windowsUpdates.addMembers",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-addmembers?view=graph-rest-beta",
     "Path": [
       "admin",
       "windows",
@@ -1298,11 +3257,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/exclusions/{updatableAsset-id}/microsoft.graph.windowsUpdates.addMembersById",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-addmembersbyid?view=graph-rest-beta",
     "Path": [
       "admin",
       "windows",
@@ -1323,11 +3286,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/exclusions/{updatableAsset-id}/microsoft.graph.windowsUpdates.removeMembers",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-removemembers?view=graph-rest-beta",
     "Path": [
       "admin",
       "windows",
@@ -1348,11 +3315,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/exclusions/{updatableAsset-id}/microsoft.graph.windowsUpdates.removeMembersById",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-removemembersbyid?view=graph-rest-beta",
     "Path": [
       "admin",
       "windows",
@@ -1369,15 +3340,47 @@
     "Segment": "microsoft.graph.windowsUpdates.removeMembersById"
   },
   {
+    "Endpoint": "admin/windows/updates/deployments/{deployment-id}/audience/exclusions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/exclusions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deployments",
+      "{deployment-id}",
+      "audience",
+      "exclusions",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "admin/windows/updates/deployments/{deployment-id}/audience/exclusions/microsoft.graph.windowsUpdates.enrollAssets",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/exclusions/microsoft.graph.windowsUpdates.enrollAssets",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "admin",
       "windows",
@@ -1397,11 +3400,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/exclusions/microsoft.graph.windowsUpdates.enrollAssetsById",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "admin",
       "windows",
@@ -1421,11 +3428,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/exclusions/microsoft.graph.windowsUpdates.unenrollAssets",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "admin",
       "windows",
@@ -1445,11 +3456,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/exclusions/microsoft.graph.windowsUpdates.unenrollAssetsById",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "admin",
       "windows",
@@ -1469,11 +3484,20 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/members",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "admin",
@@ -1489,40 +3513,26 @@
     "Segment": "members"
   },
   {
-    "Endpoint": "admin/windows/updates/deployments/{deployment-id}/audience/members/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/members/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "admin",
-      "windows",
-      "updates",
-      "deployments",
-      "{deployment-id}",
-      "audience",
-      "members",
-      "$count"
-    ],
-    "Root": "admin",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "admin/windows/updates/deployments/{deployment-id}/audience/members/{updatableAsset-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/members/{updatableAsset-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "admin",
@@ -1543,11 +3553,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/members/{updatableAsset-id}/microsoft.graph.windowsUpdates.addMembers",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-addmembers?view=graph-rest-beta",
     "Path": [
       "admin",
       "windows",
@@ -1568,11 +3582,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/members/{updatableAsset-id}/microsoft.graph.windowsUpdates.addMembersById",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-addmembersbyid?view=graph-rest-beta",
     "Path": [
       "admin",
       "windows",
@@ -1593,11 +3611,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/members/{updatableAsset-id}/microsoft.graph.windowsUpdates.removeMembers",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-removemembers?view=graph-rest-beta",
     "Path": [
       "admin",
       "windows",
@@ -1618,11 +3640,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/members/{updatableAsset-id}/microsoft.graph.windowsUpdates.removeMembersById",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-removemembersbyid?view=graph-rest-beta",
     "Path": [
       "admin",
       "windows",
@@ -1639,15 +3665,47 @@
     "Segment": "microsoft.graph.windowsUpdates.removeMembersById"
   },
   {
+    "Endpoint": "admin/windows/updates/deployments/{deployment-id}/audience/members/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/members/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deployments",
+      "{deployment-id}",
+      "audience",
+      "members",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "admin/windows/updates/deployments/{deployment-id}/audience/members/microsoft.graph.windowsUpdates.enrollAssets",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/members/microsoft.graph.windowsUpdates.enrollAssets",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "admin",
       "windows",
@@ -1667,11 +3725,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/members/microsoft.graph.windowsUpdates.enrollAssetsById",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "admin",
       "windows",
@@ -1691,11 +3753,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/members/microsoft.graph.windowsUpdates.unenrollAssets",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "admin",
       "windows",
@@ -1715,11 +3781,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/members/microsoft.graph.windowsUpdates.unenrollAssetsById",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "admin",
       "windows",
@@ -1739,11 +3809,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/microsoft.graph.windowsUpdates.updateAudience",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-deploymentaudience-updateaudience?view=graph-rest-beta",
     "Path": [
       "admin",
       "windows",
@@ -1762,11 +3836,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/{deployment-id}/audience/microsoft.graph.windowsUpdates.updateAudienceById",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-deploymentaudience-updateaudiencebyid?view=graph-rest-beta",
     "Path": [
       "admin",
       "windows",
@@ -1781,15 +3859,639 @@
     "Segment": "microsoft.graph.windowsUpdates.updateAudienceById"
   },
   {
+    "Endpoint": "admin/windows/updates/deployments/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/deployments/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "deployments",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "admin/windows/updates/products",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/products",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "products"
+    ],
+    "Root": "admin",
+    "Children": 4,
+    "Segment": "products"
+  },
+  {
+    "Endpoint": "admin/windows/updates/products/{product-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/products/{product-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "products",
+      "{product-id}"
+    ],
+    "Root": "admin",
+    "Children": 4,
+    "Segment": "{product-id}"
+  },
+  {
+    "Endpoint": "admin/windows/updates/products/{product-id}/editions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/products/{product-id}/editions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "products",
+      "{product-id}",
+      "editions"
+    ],
+    "Root": "admin",
+    "Children": 2,
+    "Segment": "editions"
+  },
+  {
+    "Endpoint": "admin/windows/updates/products/{product-id}/editions/{edition-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/products/{product-id}/editions/{edition-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "products",
+      "{product-id}",
+      "editions",
+      "{edition-id}"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "{edition-id}"
+  },
+  {
+    "Endpoint": "admin/windows/updates/products/{product-id}/editions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/products/{product-id}/editions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "products",
+      "{product-id}",
+      "editions",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "admin/windows/updates/products/{product-id}/knownIssues",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/products/{product-id}/knownIssues",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "products",
+      "{product-id}",
+      "knownIssues"
+    ],
+    "Root": "admin",
+    "Children": 2,
+    "Segment": "knownIssues"
+  },
+  {
+    "Endpoint": "admin/windows/updates/products/{product-id}/knownIssues/{knownIssue-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/products/{product-id}/knownIssues/{knownIssue-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "products",
+      "{product-id}",
+      "knownIssues",
+      "{knownIssue-id}"
+    ],
+    "Root": "admin",
+    "Children": 2,
+    "Segment": "{knownIssue-id}"
+  },
+  {
+    "Endpoint": "admin/windows/updates/products/{product-id}/knownIssues/{knownIssue-id}/originatingKnowledgeBaseArticle",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/products/{product-id}/knownIssues/{knownIssue-id}/originatingKnowledgeBaseArticle",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "products",
+      "{product-id}",
+      "knownIssues",
+      "{knownIssue-id}",
+      "originatingKnowledgeBaseArticle"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "originatingKnowledgeBaseArticle"
+  },
+  {
+    "Endpoint": "admin/windows/updates/products/{product-id}/knownIssues/{knownIssue-id}/resolvingKnowledgeBaseArticle",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/products/{product-id}/knownIssues/{knownIssue-id}/resolvingKnowledgeBaseArticle",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "products",
+      "{product-id}",
+      "knownIssues",
+      "{knownIssue-id}",
+      "resolvingKnowledgeBaseArticle"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "resolvingKnowledgeBaseArticle"
+  },
+  {
+    "Endpoint": "admin/windows/updates/products/{product-id}/knownIssues/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/products/{product-id}/knownIssues/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "products",
+      "{product-id}",
+      "knownIssues",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "admin/windows/updates/products/{product-id}/microsoft.graph.windowsUpdates.getKnownIssuesByTimeRange(daysInPast={daysInPast},includeAllActive=@includeAllActive)",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/products/{product-id}/microsoft.graph.windowsUpdates.getKnownIssuesByTimeRange(daysInPast={daysInPast},includeAllActive=@includeAllActive)",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-product-getknownissuesbytimerange?view=graph-rest-beta",
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "products",
+      "{product-id}",
+      "microsoft.graph.windowsUpdates.getKnownIssuesByTimeRange(daysInPast={daysInPast},includeAllActive=@includeAllActive)"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.getKnownIssuesByTimeRange(daysInPast={daysInPast},includeAllActive=@includeAllActive)"
+  },
+  {
+    "Endpoint": "admin/windows/updates/products/{product-id}/revisions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/products/{product-id}/revisions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "products",
+      "{product-id}",
+      "revisions"
+    ],
+    "Root": "admin",
+    "Children": 2,
+    "Segment": "revisions"
+  },
+  {
+    "Endpoint": "admin/windows/updates/products/{product-id}/revisions/{productRevision-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/products/{product-id}/revisions/{productRevision-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "products",
+      "{product-id}",
+      "revisions",
+      "{productRevision-id}"
+    ],
+    "Root": "admin",
+    "Children": 2,
+    "Segment": "{productRevision-id}"
+  },
+  {
+    "Endpoint": "admin/windows/updates/products/{product-id}/revisions/{productRevision-id}/catalogEntry",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/products/{product-id}/revisions/{productRevision-id}/catalogEntry",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "products",
+      "{product-id}",
+      "revisions",
+      "{productRevision-id}",
+      "catalogEntry"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "catalogEntry"
+  },
+  {
+    "Endpoint": "admin/windows/updates/products/{product-id}/revisions/{productRevision-id}/knowledgeBaseArticle",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/products/{product-id}/revisions/{productRevision-id}/knowledgeBaseArticle",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "products",
+      "{product-id}",
+      "revisions",
+      "{productRevision-id}",
+      "knowledgeBaseArticle"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "knowledgeBaseArticle"
+  },
+  {
+    "Endpoint": "admin/windows/updates/products/{product-id}/revisions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/products/{product-id}/revisions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "products",
+      "{product-id}",
+      "revisions",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "admin/windows/updates/products/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/products/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "products",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "admin/windows/updates/products/microsoft.graph.windowsUpdates.findByCatalogId(catalogID='{catalogID}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/products/microsoft.graph.windowsUpdates.findByCatalogId(catalogID='{catalogID}')",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "products",
+      "microsoft.graph.windowsUpdates.findByCatalogId(catalogID='{catalogID}')"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.findByCatalogId(catalogID='{catalogID}')"
+  },
+  {
+    "Endpoint": "admin/windows/updates/products/microsoft.graph.windowsUpdates.findByKbNumber(kbNumber={kbNumber})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/products/microsoft.graph.windowsUpdates.findByKbNumber(kbNumber={kbNumber})",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "products",
+      "microsoft.graph.windowsUpdates.findByKbNumber(kbNumber={kbNumber})"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.findByKbNumber(kbNumber={kbNumber})"
+  },
+  {
     "Endpoint": "admin/windows/updates/resourceConnections",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/resourceConnections",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/adminwindowsupdates-list-resourceconnections?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/adminwindowsupdates-post-resourceconnections-operationalinsightsconnection?view=graph-rest-beta"
     ],
     "Path": [
       "admin",
@@ -1802,37 +4504,26 @@
     "Segment": "resourceConnections"
   },
   {
-    "Endpoint": "admin/windows/updates/resourceConnections/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/resourceConnections/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "admin",
-      "windows",
-      "updates",
-      "resourceConnections",
-      "$count"
-    ],
-    "Root": "admin",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "admin/windows/updates/resourceConnections/{resourceConnection-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/resourceConnections/{resourceConnection-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/windowsupdates-operationalinsightsconnection-get?view=graph-rest-beta",
+      null,
+      "https://learn.microsoft.com/graph/api/windowsupdates-resourceconnection-delete?view=graph-rest-beta"
     ],
     "Path": [
       "admin",
@@ -1846,15 +4537,49 @@
     "Segment": "{resourceConnection-id}"
   },
   {
+    "Endpoint": "admin/windows/updates/resourceConnections/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/resourceConnections/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "resourceConnections",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "admin/windows/updates/updatableAssets",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatableAssets",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/adminwindowsupdates-list-updatableassets?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/adminwindowsupdates-post-updatableassets-updatableassetgroup?view=graph-rest-beta"
     ],
     "Path": [
       "admin",
@@ -1867,37 +4592,26 @@
     "Segment": "updatableAssets"
   },
   {
-    "Endpoint": "admin/windows/updates/updatableAssets/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatableAssets/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "admin",
-      "windows",
-      "updates",
-      "updatableAssets",
-      "$count"
-    ],
-    "Root": "admin",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "admin/windows/updates/updatableAssets/{updatableAsset-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatableAssets/{updatableAsset-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/windowsupdates-updatableasset-get?view=graph-rest-beta",
+      null,
+      "https://learn.microsoft.com/graph/api/windowsupdates-azureaddevice-delete?view=graph-rest-beta"
     ],
     "Path": [
       "admin",
@@ -1915,11 +4629,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatableAssets/{updatableAsset-id}/microsoft.graph.windowsUpdates.addMembers",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-addmembers?view=graph-rest-beta",
     "Path": [
       "admin",
       "windows",
@@ -1937,11 +4655,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatableAssets/{updatableAsset-id}/microsoft.graph.windowsUpdates.addMembersById",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-addmembersbyid?view=graph-rest-beta",
     "Path": [
       "admin",
       "windows",
@@ -1959,11 +4681,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatableAssets/{updatableAsset-id}/microsoft.graph.windowsUpdates.removeMembers",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-removemembers?view=graph-rest-beta",
     "Path": [
       "admin",
       "windows",
@@ -1981,11 +4707,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatableAssets/{updatableAsset-id}/microsoft.graph.windowsUpdates.removeMembersById",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-removemembersbyid?view=graph-rest-beta",
     "Path": [
       "admin",
       "windows",
@@ -1999,15 +4729,44 @@
     "Segment": "microsoft.graph.windowsUpdates.removeMembersById"
   },
   {
+    "Endpoint": "admin/windows/updates/updatableAssets/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatableAssets/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatableAssets",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "admin/windows/updates/updatableAssets/microsoft.graph.windowsUpdates.enrollAssets",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatableAssets/microsoft.graph.windowsUpdates.enrollAssets",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "admin",
       "windows",
@@ -2024,11 +4783,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatableAssets/microsoft.graph.windowsUpdates.enrollAssetsById",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "admin",
       "windows",
@@ -2045,11 +4808,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatableAssets/microsoft.graph.windowsUpdates.unenrollAssets",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "admin",
       "windows",
@@ -2066,11 +4833,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatableAssets/microsoft.graph.windowsUpdates.unenrollAssetsById",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "admin",
       "windows",
@@ -2081,5 +4852,1182 @@
     "Root": "admin",
     "Children": 0,
     "Segment": "microsoft.graph.windowsUpdates.unenrollAssetsById"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/adminwindowsupdates-list-updatepolicies?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/adminwindowsupdates-post-updatepolicies?view=graph-rest-beta"
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies"
+    ],
+    "Root": "admin",
+    "Children": 2,
+    "Segment": "updatePolicies"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/windowsupdates-updatepolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/windowsupdates-updatepolicy-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/windowsupdates-updatepolicy-delete?view=graph-rest-beta"
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}"
+    ],
+    "Root": "admin",
+    "Children": 2,
+    "Segment": "{updatePolicy-id}"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience"
+    ],
+    "Root": "admin",
+    "Children": 5,
+    "Segment": "audience"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/applicableContent",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/applicableContent",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "applicableContent"
+    ],
+    "Root": "admin",
+    "Children": 2,
+    "Segment": "applicableContent"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/applicableContent/{applicableContent-catalogEntryId}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/applicableContent/{applicableContent-catalogEntryId}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "applicableContent",
+      "{applicableContent-catalogEntryId}"
+    ],
+    "Root": "admin",
+    "Children": 2,
+    "Segment": "{applicableContent-catalogEntryId}"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/applicableContent/{applicableContent-catalogEntryId}/catalogEntry",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/applicableContent/{applicableContent-catalogEntryId}/catalogEntry",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "applicableContent",
+      "{applicableContent-catalogEntryId}",
+      "catalogEntry"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "catalogEntry"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/applicableContent/{applicableContent-catalogEntryId}/matchedDevices",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/applicableContent/{applicableContent-catalogEntryId}/matchedDevices",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "applicableContent",
+      "{applicableContent-catalogEntryId}",
+      "matchedDevices"
+    ],
+    "Root": "admin",
+    "Children": 2,
+    "Segment": "matchedDevices"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/applicableContent/{applicableContent-catalogEntryId}/matchedDevices/{applicableContentDeviceMatch-deviceId}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/applicableContent/{applicableContent-catalogEntryId}/matchedDevices/{applicableContentDeviceMatch-deviceId}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "applicableContent",
+      "{applicableContent-catalogEntryId}",
+      "matchedDevices",
+      "{applicableContentDeviceMatch-deviceId}"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "{applicableContentDeviceMatch-deviceId}"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/applicableContent/{applicableContent-catalogEntryId}/matchedDevices/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/applicableContent/{applicableContent-catalogEntryId}/matchedDevices/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "applicableContent",
+      "{applicableContent-catalogEntryId}",
+      "matchedDevices",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/applicableContent/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/applicableContent/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "applicableContent",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/exclusions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/exclusions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "exclusions"
+    ],
+    "Root": "admin",
+    "Children": 6,
+    "Segment": "exclusions"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/exclusions/{updatableAsset-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/exclusions/{updatableAsset-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "exclusions",
+      "{updatableAsset-id}"
+    ],
+    "Root": "admin",
+    "Children": 4,
+    "Segment": "{updatableAsset-id}"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/exclusions/{updatableAsset-id}/microsoft.graph.windowsUpdates.addMembers",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/exclusions/{updatableAsset-id}/microsoft.graph.windowsUpdates.addMembers",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-addmembers?view=graph-rest-beta",
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "exclusions",
+      "{updatableAsset-id}",
+      "microsoft.graph.windowsUpdates.addMembers"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.addMembers"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/exclusions/{updatableAsset-id}/microsoft.graph.windowsUpdates.addMembersById",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/exclusions/{updatableAsset-id}/microsoft.graph.windowsUpdates.addMembersById",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-addmembersbyid?view=graph-rest-beta",
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "exclusions",
+      "{updatableAsset-id}",
+      "microsoft.graph.windowsUpdates.addMembersById"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.addMembersById"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/exclusions/{updatableAsset-id}/microsoft.graph.windowsUpdates.removeMembers",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/exclusions/{updatableAsset-id}/microsoft.graph.windowsUpdates.removeMembers",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-removemembers?view=graph-rest-beta",
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "exclusions",
+      "{updatableAsset-id}",
+      "microsoft.graph.windowsUpdates.removeMembers"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.removeMembers"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/exclusions/{updatableAsset-id}/microsoft.graph.windowsUpdates.removeMembersById",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/exclusions/{updatableAsset-id}/microsoft.graph.windowsUpdates.removeMembersById",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-removemembersbyid?view=graph-rest-beta",
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "exclusions",
+      "{updatableAsset-id}",
+      "microsoft.graph.windowsUpdates.removeMembersById"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.removeMembersById"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/exclusions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/exclusions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "exclusions",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/exclusions/microsoft.graph.windowsUpdates.enrollAssets",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/exclusions/microsoft.graph.windowsUpdates.enrollAssets",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "exclusions",
+      "microsoft.graph.windowsUpdates.enrollAssets"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.enrollAssets"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/exclusions/microsoft.graph.windowsUpdates.enrollAssetsById",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/exclusions/microsoft.graph.windowsUpdates.enrollAssetsById",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "exclusions",
+      "microsoft.graph.windowsUpdates.enrollAssetsById"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.enrollAssetsById"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/exclusions/microsoft.graph.windowsUpdates.unenrollAssets",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/exclusions/microsoft.graph.windowsUpdates.unenrollAssets",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "exclusions",
+      "microsoft.graph.windowsUpdates.unenrollAssets"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.unenrollAssets"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/exclusions/microsoft.graph.windowsUpdates.unenrollAssetsById",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/exclusions/microsoft.graph.windowsUpdates.unenrollAssetsById",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "exclusions",
+      "microsoft.graph.windowsUpdates.unenrollAssetsById"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.unenrollAssetsById"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/members",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/members",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "members"
+    ],
+    "Root": "admin",
+    "Children": 6,
+    "Segment": "members"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/members/{updatableAsset-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/members/{updatableAsset-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "members",
+      "{updatableAsset-id}"
+    ],
+    "Root": "admin",
+    "Children": 4,
+    "Segment": "{updatableAsset-id}"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/members/{updatableAsset-id}/microsoft.graph.windowsUpdates.addMembers",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/members/{updatableAsset-id}/microsoft.graph.windowsUpdates.addMembers",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-addmembers?view=graph-rest-beta",
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "members",
+      "{updatableAsset-id}",
+      "microsoft.graph.windowsUpdates.addMembers"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.addMembers"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/members/{updatableAsset-id}/microsoft.graph.windowsUpdates.addMembersById",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/members/{updatableAsset-id}/microsoft.graph.windowsUpdates.addMembersById",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-addmembersbyid?view=graph-rest-beta",
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "members",
+      "{updatableAsset-id}",
+      "microsoft.graph.windowsUpdates.addMembersById"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.addMembersById"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/members/{updatableAsset-id}/microsoft.graph.windowsUpdates.removeMembers",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/members/{updatableAsset-id}/microsoft.graph.windowsUpdates.removeMembers",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-removemembers?view=graph-rest-beta",
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "members",
+      "{updatableAsset-id}",
+      "microsoft.graph.windowsUpdates.removeMembers"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.removeMembers"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/members/{updatableAsset-id}/microsoft.graph.windowsUpdates.removeMembersById",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/members/{updatableAsset-id}/microsoft.graph.windowsUpdates.removeMembersById",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-updatableassetgroup-removemembersbyid?view=graph-rest-beta",
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "members",
+      "{updatableAsset-id}",
+      "microsoft.graph.windowsUpdates.removeMembersById"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.removeMembersById"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/members/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/members/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "members",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/members/microsoft.graph.windowsUpdates.enrollAssets",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/members/microsoft.graph.windowsUpdates.enrollAssets",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "members",
+      "microsoft.graph.windowsUpdates.enrollAssets"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.enrollAssets"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/members/microsoft.graph.windowsUpdates.enrollAssetsById",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/members/microsoft.graph.windowsUpdates.enrollAssetsById",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "members",
+      "microsoft.graph.windowsUpdates.enrollAssetsById"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.enrollAssetsById"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/members/microsoft.graph.windowsUpdates.unenrollAssets",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/members/microsoft.graph.windowsUpdates.unenrollAssets",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "members",
+      "microsoft.graph.windowsUpdates.unenrollAssets"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.unenrollAssets"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/members/microsoft.graph.windowsUpdates.unenrollAssetsById",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/members/microsoft.graph.windowsUpdates.unenrollAssetsById",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "members",
+      "microsoft.graph.windowsUpdates.unenrollAssetsById"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.unenrollAssetsById"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/microsoft.graph.windowsUpdates.updateAudience",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/microsoft.graph.windowsUpdates.updateAudience",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-deploymentaudience-updateaudience?view=graph-rest-beta",
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "microsoft.graph.windowsUpdates.updateAudience"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.updateAudience"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/microsoft.graph.windowsUpdates.updateAudienceById",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/audience/microsoft.graph.windowsUpdates.updateAudienceById",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/windowsupdates-deploymentaudience-updateaudiencebyid?view=graph-rest-beta",
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "audience",
+      "microsoft.graph.windowsUpdates.updateAudienceById"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "microsoft.graph.windowsUpdates.updateAudienceById"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/complianceChanges",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/complianceChanges",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/windowsupdates-updatepolicy-list-compliancechanges?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/windowsupdates-updatepolicy-post-compliancechanges-contentapproval?view=graph-rest-beta"
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "complianceChanges"
+    ],
+    "Root": "admin",
+    "Children": 2,
+    "Segment": "complianceChanges"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/complianceChanges/{complianceChange-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/complianceChanges/{complianceChange-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/windowsupdates-compliancechange-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/windowsupdates-compliancechange-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/windowsupdates-compliancechange-delete?view=graph-rest-beta"
+    ],
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "complianceChanges",
+      "{complianceChange-id}"
+    ],
+    "Root": "admin",
+    "Children": 1,
+    "Segment": "{complianceChange-id}"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/complianceChanges/{complianceChange-id}/updatePolicy",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/complianceChanges/{complianceChange-id}/updatePolicy",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "complianceChanges",
+      "{complianceChange-id}",
+      "updatePolicy"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "updatePolicy"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/{updatePolicy-id}/complianceChanges/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/{updatePolicy-id}/complianceChanges/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "{updatePolicy-id}",
+      "complianceChanges",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "admin/windows/updates/updatePolicies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/admin/windows/updates/updatePolicies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "admin",
+      "windows",
+      "updates",
+      "updatePolicies",
+      "$count"
+    ],
+    "Root": "admin",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

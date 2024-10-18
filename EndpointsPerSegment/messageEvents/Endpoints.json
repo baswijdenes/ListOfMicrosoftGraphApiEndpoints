@@ -4,11 +4,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/messageEvents",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "messageEvents"
@@ -18,34 +26,25 @@
     "Segment": "messageEvents"
   },
   {
-    "Endpoint": "messageEvents/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/messageEvents/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "messageEvents",
-      "$count"
-    ],
-    "Root": "messageEvents",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "messageEvents/{messageEvent-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/messageEvents/{messageEvent-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "messageEvents",
@@ -54,5 +53,26 @@
     "Root": "messageEvents",
     "Children": 0,
     "Segment": "{messageEvent-id}"
+  },
+  {
+    "Endpoint": "messageEvents/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/messageEvents/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "messageEvents",
+      "$count"
+    ],
+    "Root": "messageEvents",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

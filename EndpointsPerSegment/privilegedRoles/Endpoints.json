@@ -4,11 +4,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoles",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "privilegedRoles"
@@ -18,34 +26,25 @@
     "Segment": "privilegedRoles"
   },
   {
-    "Endpoint": "privilegedRoles/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoles/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "privilegedRoles",
-      "$count"
-    ],
-    "Root": "privilegedRoles",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "privilegedRoles/{privilegedRole-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoles/{privilegedRole-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "privilegedRoles",
@@ -60,11 +59,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoles/{privilegedRole-id}/assignments",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "privilegedRoles",
       "{privilegedRole-id}",
@@ -75,35 +77,18 @@
     "Segment": "assignments"
   },
   {
-    "Endpoint": "privilegedRoles/{privilegedRole-id}/assignments/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoles/{privilegedRole-id}/assignments/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "privilegedRoles",
-      "{privilegedRole-id}",
-      "assignments",
-      "$count"
-    ],
-    "Root": "privilegedRoles",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "privilegedRoles/{privilegedRole-id}/assignments/{privilegedRoleAssignment-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoles/{privilegedRole-id}/assignments/{privilegedRoleAssignment-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "privilegedRoles",
       "{privilegedRole-id}",
@@ -115,15 +100,41 @@
     "Segment": "{privilegedRoleAssignment-id}"
   },
   {
+    "Endpoint": "privilegedRoles/{privilegedRole-id}/assignments/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoles/{privilegedRole-id}/assignments/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "privilegedRoles",
+      "{privilegedRole-id}",
+      "assignments",
+      "$count"
+    ],
+    "Root": "privilegedRoles",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "privilegedRoles/{privilegedRole-id}/microsoft.graph.selfActivate",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoles/{privilegedRole-id}/microsoft.graph.selfActivate",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "privilegedRoles",
       "{privilegedRole-id}",
@@ -138,11 +149,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoles/{privilegedRole-id}/microsoft.graph.selfDeactivate",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "privilegedRoles",
       "{privilegedRole-id}",
@@ -157,12 +171,21 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoles/{privilegedRole-id}/settings",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "privilegedRoles",
@@ -178,12 +201,21 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoles/{privilegedRole-id}/summary",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "privilegedRoles",
@@ -193,5 +225,26 @@
     "Root": "privilegedRoles",
     "Children": 0,
     "Segment": "summary"
+  },
+  {
+    "Endpoint": "privilegedRoles/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedRoles/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "privilegedRoles",
+      "$count"
+    ],
+    "Root": "privilegedRoles",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

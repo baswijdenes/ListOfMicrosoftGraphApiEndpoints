@@ -1,4 +1,4 @@
-| Endpoint | v1.0 | V1.0-Url | v1.0-Methods | beta | Beta-Url | Beta-Methods | Path | Root | Children | Segment |
-| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------|
-| riskDetections| False| | | True| https://graph.microsoft.com/beta/riskDetections| Get Post| riskDetections| riskDetections| 1| riskDetections|
-| riskDetections/{riskDetection-id}| False| | | True| https://graph.microsoft.com/beta/riskDetections/{riskDetection-id}| Get Patch Delete| riskDetections {riskDetection-id}| riskDetections| 0| {riskDetection-id}|
+| Endpoint | v1.0 | V1.0-Url | v1.0-Methods | v1.0-docs | beta | Beta-Url | Beta-Methods | Beta-Docs | Path | Root | Children | Segment |
+| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------| ----------|
+| riskDetections| False| | | https://learn.microsoft.com/graph/api/intune-deviceconfig-reportroot-get?view=graph-rest-1.0 https://learn.microsoft.com/graph/api/intune-deviceconfig-reportroot-update?view=graph-rest-1.0| True| https://graph.microsoft.com/beta/riskDetections| Get Post| https://learn.microsoft.com/graph/api/riskdetection-get?view=graph-rest-beta | riskDetections| riskDetections| 1| riskDetections|
+| riskDetections/{riskDetection-id}| False| | | https://learn.microsoft.com/graph/api/intune-deviceconfig-reportroot-get?view=graph-rest-1.0 https://learn.microsoft.com/graph/api/intune-deviceconfig-reportroot-update?view=graph-rest-1.0| True| https://graph.microsoft.com/beta/riskDetections/{riskDetection-id}| Get Patch Delete|   | riskDetections {riskDetection-id}| riskDetections| 0| {riskDetection-id}|

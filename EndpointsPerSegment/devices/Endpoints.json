@@ -7,11 +7,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/device-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/device-post-devices?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/device-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/device-post-devices?view=graph-rest-beta"
     ],
     "Path": [
       "devices"
@@ -19,26 +27,6 @@
     "Root": "devices",
     "Children": 7,
     "Segment": "devices"
-  },
-  {
-    "Endpoint": "devices/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "$count"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "devices/{device-id}",
@@ -49,12 +37,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/device-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/device-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/device-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/device-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/device-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/device-delete?view=graph-rest-beta"
     ],
     "Path": [
       "devices",
@@ -69,11 +67,20 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/device-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/device-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/device-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/commands",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "devices",
@@ -85,36 +92,26 @@
     "Segment": "commands"
   },
   {
-    "Endpoint": "devices/{device-id}/commands/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/commands/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "commands",
-      "$count"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "devices/{device-id}/commands/{command-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/device-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/device-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/device-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/commands/{command-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "devices",
@@ -131,11 +128,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/device-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/device-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/device-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/commands/{command-id}/responsepayload",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
@@ -148,6 +149,30 @@
     "Segment": "responsepayload"
   },
   {
+    "Endpoint": "devices/{device-id}/commands/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/device-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/device-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/device-delete?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/commands/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "devices",
+      "{device-id}",
+      "commands",
+      "$count"
+    ],
+    "Root": "devices",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "devices/{device-id}/extensions",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/extensions",
@@ -155,11 +180,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/extensions",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "devices",
@@ -171,28 +204,6 @@
     "Segment": "extensions"
   },
   {
-    "Endpoint": "devices/{device-id}/extensions/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/extensions/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/extensions/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "extensions",
-      "$count"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "devices/{device-id}/extensions/{extension-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/extensions/{extension-id}",
@@ -201,12 +212,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/extensions/{extension-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "devices",
@@ -219,42 +240,19 @@
     "Segment": "{extension-id}"
   },
   {
-    "Endpoint": "devices/{device-id}/memberOf",
+    "Endpoint": "devices/{device-id}/extensions/$count",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/extensions/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/extensions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
-      "memberOf"
-    ],
-    "Root": "devices",
-    "Children": 8,
-    "Segment": "memberOf"
-  },
-  {
-    "Endpoint": "devices/{device-id}/memberOf/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "memberOf",
+      "extensions",
       "$count"
     ],
     "Root": "devices",
@@ -262,17 +260,34 @@
     "Segment": "$count"
   },
   {
+    "Endpoint": "devices/{device-id}/memberOf",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/device-list-memberof?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/device-list-memberof?view=graph-rest-beta",
+    "Path": [
+      "devices",
+      "{device-id}",
+      "memberOf"
+    ],
+    "Root": "devices",
+    "Children": 4,
+    "Segment": "memberOf"
+  },
+  {
     "Endpoint": "devices/{device-id}/memberOf/{directoryObject-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf/{directoryObject-id}",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf/{directoryObject-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
@@ -280,67 +295,40 @@
       "{directoryObject-id}"
     ],
     "Root": "devices",
-    "Children": 6,
+    "Children": 2,
     "Segment": "{directoryObject-id}"
   },
   {
-    "Endpoint": "devices/{device-id}/memberOf/{directoryObject-id}/microsoft.graph.application",
+    "Endpoint": "devices/{device-id}/memberOf/{directoryObject-id}/microsoft.graph.administrativeUnit",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf/{directoryObject-id}/microsoft.graph.application",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf/{directoryObject-id}/microsoft.graph.administrativeUnit",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf/{directoryObject-id}/microsoft.graph.application",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf/{directoryObject-id}/microsoft.graph.administrativeUnit",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
       "memberOf",
       "{directoryObject-id}",
-      "microsoft.graph.application"
+      "microsoft.graph.administrativeUnit"
     ],
     "Root": "devices",
     "Children": 0,
-    "Segment": "microsoft.graph.application"
-  },
-  {
-    "Endpoint": "devices/{device-id}/memberOf/{directoryObject-id}/microsoft.graph.device",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf/{directoryObject-id}/microsoft.graph.device",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf/{directoryObject-id}/microsoft.graph.device",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "memberOf",
-      "{directoryObject-id}",
-      "microsoft.graph.device"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "microsoft.graph.device"
+    "Segment": "microsoft.graph.administrativeUnit"
   },
   {
     "Endpoint": "devices/{device-id}/memberOf/{directoryObject-id}/microsoft.graph.group",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf/{directoryObject-id}/microsoft.graph.group",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/device-list-memberof?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf/{directoryObject-id}/microsoft.graph.group",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/device-list-memberof?view=graph-rest-beta",
     "Path": [
       "devices",
       "{device-id}",
@@ -353,113 +341,19 @@
     "Segment": "microsoft.graph.group"
   },
   {
-    "Endpoint": "devices/{device-id}/memberOf/{directoryObject-id}/microsoft.graph.orgContact",
+    "Endpoint": "devices/{device-id}/memberOf/$count",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf/{directoryObject-id}/microsoft.graph.orgContact",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf/{directoryObject-id}/microsoft.graph.orgContact",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
       "memberOf",
-      "{directoryObject-id}",
-      "microsoft.graph.orgContact"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "microsoft.graph.orgContact"
-  },
-  {
-    "Endpoint": "devices/{device-id}/memberOf/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "memberOf",
-      "{directoryObject-id}",
-      "microsoft.graph.servicePrincipal"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "microsoft.graph.servicePrincipal"
-  },
-  {
-    "Endpoint": "devices/{device-id}/memberOf/{directoryObject-id}/microsoft.graph.user",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf/{directoryObject-id}/microsoft.graph.user",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf/{directoryObject-id}/microsoft.graph.user",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "memberOf",
-      "{directoryObject-id}",
-      "microsoft.graph.user"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "microsoft.graph.user"
-  },
-  {
-    "Endpoint": "devices/{device-id}/memberOf/microsoft.graph.application",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf/microsoft.graph.application",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf/microsoft.graph.application",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "memberOf",
-      "microsoft.graph.application"
-    ],
-    "Root": "devices",
-    "Children": 1,
-    "Segment": "microsoft.graph.application"
-  },
-  {
-    "Endpoint": "devices/{device-id}/memberOf/microsoft.graph.application/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf/microsoft.graph.application/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf/microsoft.graph.application/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "memberOf",
-      "microsoft.graph.application",
       "$count"
     ],
     "Root": "devices",
@@ -467,44 +361,40 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "devices/{device-id}/memberOf/microsoft.graph.device",
+    "Endpoint": "devices/{device-id}/memberOf/microsoft.graph.administrativeUnit",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf/microsoft.graph.device",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf/microsoft.graph.administrativeUnit",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf/microsoft.graph.device",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf/microsoft.graph.administrativeUnit",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
       "memberOf",
-      "microsoft.graph.device"
+      "microsoft.graph.administrativeUnit"
     ],
     "Root": "devices",
     "Children": 1,
-    "Segment": "microsoft.graph.device"
+    "Segment": "microsoft.graph.administrativeUnit"
   },
   {
-    "Endpoint": "devices/{device-id}/memberOf/microsoft.graph.device/$count",
+    "Endpoint": "devices/{device-id}/memberOf/microsoft.graph.administrativeUnit/$count",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf/microsoft.graph.device/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf/microsoft.graph.administrativeUnit/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf/microsoft.graph.device/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf/microsoft.graph.administrativeUnit/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
       "memberOf",
-      "microsoft.graph.device",
+      "microsoft.graph.administrativeUnit",
       "$count"
     ],
     "Root": "devices",
@@ -515,14 +405,12 @@
     "Endpoint": "devices/{device-id}/memberOf/microsoft.graph.group",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf/microsoft.graph.group",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/device-list-memberof?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf/microsoft.graph.group",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/device-list-memberof?view=graph-rest-beta",
     "Path": [
       "devices",
       "{device-id}",
@@ -537,14 +425,12 @@
     "Endpoint": "devices/{device-id}/memberOf/microsoft.graph.group/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf/microsoft.graph.group/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf/microsoft.graph.group/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
@@ -557,152 +443,15 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "devices/{device-id}/memberOf/microsoft.graph.orgContact",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf/microsoft.graph.orgContact",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf/microsoft.graph.orgContact",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "memberOf",
-      "microsoft.graph.orgContact"
-    ],
-    "Root": "devices",
-    "Children": 1,
-    "Segment": "microsoft.graph.orgContact"
-  },
-  {
-    "Endpoint": "devices/{device-id}/memberOf/microsoft.graph.orgContact/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf/microsoft.graph.orgContact/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf/microsoft.graph.orgContact/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "memberOf",
-      "microsoft.graph.orgContact",
-      "$count"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
-    "Endpoint": "devices/{device-id}/memberOf/microsoft.graph.servicePrincipal",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf/microsoft.graph.servicePrincipal",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "memberOf",
-      "microsoft.graph.servicePrincipal"
-    ],
-    "Root": "devices",
-    "Children": 1,
-    "Segment": "microsoft.graph.servicePrincipal"
-  },
-  {
-    "Endpoint": "devices/{device-id}/memberOf/microsoft.graph.servicePrincipal/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf/microsoft.graph.servicePrincipal/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf/microsoft.graph.servicePrincipal/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "memberOf",
-      "microsoft.graph.servicePrincipal",
-      "$count"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
-    "Endpoint": "devices/{device-id}/memberOf/microsoft.graph.user",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf/microsoft.graph.user",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf/microsoft.graph.user",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "memberOf",
-      "microsoft.graph.user"
-    ],
-    "Root": "devices",
-    "Children": 1,
-    "Segment": "microsoft.graph.user"
-  },
-  {
-    "Endpoint": "devices/{device-id}/memberOf/microsoft.graph.user/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/memberOf/microsoft.graph.user/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/memberOf/microsoft.graph.user/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "memberOf",
-      "microsoft.graph.user",
-      "$count"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "devices/{device-id}/microsoft.graph.checkMemberGroups",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/microsoft.graph.checkMemberGroups",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-checkmembergroups?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/microsoft.graph.checkMemberGroups",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-checkmembergroups?view=graph-rest-beta",
     "Path": [
       "devices",
       "{device-id}",
@@ -716,14 +465,12 @@
     "Endpoint": "devices/{device-id}/microsoft.graph.checkMemberObjects",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/microsoft.graph.checkMemberObjects",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/microsoft.graph.checkMemberObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
@@ -737,14 +484,12 @@
     "Endpoint": "devices/{device-id}/microsoft.graph.getMemberGroups",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/microsoft.graph.getMemberGroups",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getmembergroups?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/microsoft.graph.getMemberGroups",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-getmembergroups?view=graph-rest-beta",
     "Path": [
       "devices",
       "{device-id}",
@@ -758,14 +503,12 @@
     "Endpoint": "devices/{device-id}/microsoft.graph.getMemberObjects",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/microsoft.graph.getMemberObjects",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getmemberobjects?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/microsoft.graph.getMemberObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
@@ -779,14 +522,12 @@
     "Endpoint": "devices/{device-id}/microsoft.graph.restore",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/microsoft.graph.restore",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-restore?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/microsoft.graph.restore",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-restore?view=graph-rest-beta",
     "Path": [
       "devices",
       "{device-id}",
@@ -800,14 +541,12 @@
     "Endpoint": "devices/{device-id}/registeredOwners",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredOwners",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/device-list-registeredowners?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredOwners",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/device-list-registeredowners?view=graph-rest-beta",
     "Path": [
       "devices",
       "{device-id}",
@@ -818,17 +557,140 @@
     "Segment": "registeredOwners"
   },
   {
+    "Endpoint": "devices/{device-id}/registeredOwners/{directoryObject-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/device-list-registeredowners?view=graph-rest-1.0",
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/device-list-registeredowners?view=graph-rest-beta",
+    "Path": [
+      "devices",
+      "{device-id}",
+      "registeredOwners",
+      "{directoryObject-id}"
+    ],
+    "Root": "devices",
+    "Children": 5,
+    "Segment": "{directoryObject-id}"
+  },
+  {
+    "Endpoint": "devices/{device-id}/registeredOwners/{directoryObject-id}/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredOwners/{directoryObject-id}/$ref",
+    "v1.0-Methods": "Delete",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/device-delete-registeredowners?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredOwners/{directoryObject-id}/$ref",
+    "Beta-Methods": "Delete",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/device-delete-registeredowners?view=graph-rest-beta",
+    "Path": [
+      "devices",
+      "{device-id}",
+      "registeredOwners",
+      "{directoryObject-id}",
+      "$ref"
+    ],
+    "Root": "devices",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "devices/{device-id}/registeredOwners/{directoryObject-id}/microsoft.graph.appRoleAssignment",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredOwners/{directoryObject-id}/microsoft.graph.appRoleAssignment",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/device-delete-registeredowners?view=graph-rest-beta",
+    "Path": [
+      "devices",
+      "{device-id}",
+      "registeredOwners",
+      "{directoryObject-id}",
+      "microsoft.graph.appRoleAssignment"
+    ],
+    "Root": "devices",
+    "Children": 0,
+    "Segment": "microsoft.graph.appRoleAssignment"
+  },
+  {
+    "Endpoint": "devices/{device-id}/registeredOwners/{directoryObject-id}/microsoft.graph.endpoint",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredOwners/{directoryObject-id}/microsoft.graph.endpoint",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredOwners/{directoryObject-id}/microsoft.graph.endpoint",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "devices",
+      "{device-id}",
+      "registeredOwners",
+      "{directoryObject-id}",
+      "microsoft.graph.endpoint"
+    ],
+    "Root": "devices",
+    "Children": 0,
+    "Segment": "microsoft.graph.endpoint"
+  },
+  {
+    "Endpoint": "devices/{device-id}/registeredOwners/{directoryObject-id}/microsoft.graph.servicePrincipal",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredOwners/{directoryObject-id}/microsoft.graph.servicePrincipal",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredOwners/{directoryObject-id}/microsoft.graph.servicePrincipal",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "devices",
+      "{device-id}",
+      "registeredOwners",
+      "{directoryObject-id}",
+      "microsoft.graph.servicePrincipal"
+    ],
+    "Root": "devices",
+    "Children": 0,
+    "Segment": "microsoft.graph.servicePrincipal"
+  },
+  {
+    "Endpoint": "devices/{device-id}/registeredOwners/{directoryObject-id}/microsoft.graph.user",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredOwners/{directoryObject-id}/microsoft.graph.user",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredOwners/{directoryObject-id}/microsoft.graph.user",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "devices",
+      "{device-id}",
+      "registeredOwners",
+      "{directoryObject-id}",
+      "microsoft.graph.user"
+    ],
+    "Root": "devices",
+    "Children": 0,
+    "Segment": "microsoft.graph.user"
+  },
+  {
     "Endpoint": "devices/{device-id}/registeredOwners/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredOwners/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredOwners/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
@@ -845,13 +707,25 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredOwners/$ref",
     "v1.0-Methods": [
       "Get",
-      "Post"
+      "Post",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/device-list-registeredowners?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/device-post-registeredowners?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/device-delete-registeredowners?view=graph-rest-1.0"
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredOwners/$ref",
     "Beta-Methods": [
       "Get",
-      "Post"
+      "Post",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/device-list-registeredowners?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/device-post-registeredowners?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/device-delete-registeredowners?view=graph-rest-beta"
     ],
     "Path": [
       "devices",
@@ -862,148 +736,21 @@
     "Root": "devices",
     "Children": 0,
     "Segment": "$ref"
-  },
-  {
-    "Endpoint": "devices/{device-id}/registeredOwners/{directoryObject-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": false,
-    "Beta-Url": null,
-    "Beta-Methods": null,
-    "Path": [
-      "devices",
-      "{device-id}",
-      "registeredOwners",
-      "{directoryObject-id}"
-    ],
-    "Root": "devices",
-    "Children": 5,
-    "Segment": "{directoryObject-id}"
-  },
-  {
-    "Endpoint": "devices/{device-id}/registeredOwners/{directoryObject-id}/$ref",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredOwners/{directoryObject-id}/$ref",
-    "v1.0-Methods": [
-      "Delete"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredOwners/{directoryObject-id}/$ref",
-    "Beta-Methods": [
-      "Delete"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "registeredOwners",
-      "{directoryObject-id}",
-      "$ref"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "$ref"
-  },
-  {
-    "Endpoint": "devices/{device-id}/registeredOwners/{directoryObject-id}/microsoft.graph.appRoleAssignment",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredOwners/{directoryObject-id}/microsoft.graph.appRoleAssignment",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": false,
-    "Beta-Url": null,
-    "Beta-Methods": null,
-    "Path": [
-      "devices",
-      "{device-id}",
-      "registeredOwners",
-      "{directoryObject-id}",
-      "microsoft.graph.appRoleAssignment"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "microsoft.graph.appRoleAssignment"
-  },
-  {
-    "Endpoint": "devices/{device-id}/registeredOwners/{directoryObject-id}/microsoft.graph.endpoint",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredOwners/{directoryObject-id}/microsoft.graph.endpoint",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredOwners/{directoryObject-id}/microsoft.graph.endpoint",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "registeredOwners",
-      "{directoryObject-id}",
-      "microsoft.graph.endpoint"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "microsoft.graph.endpoint"
-  },
-  {
-    "Endpoint": "devices/{device-id}/registeredOwners/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredOwners/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredOwners/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "registeredOwners",
-      "{directoryObject-id}",
-      "microsoft.graph.servicePrincipal"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "microsoft.graph.servicePrincipal"
-  },
-  {
-    "Endpoint": "devices/{device-id}/registeredOwners/{directoryObject-id}/microsoft.graph.user",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredOwners/{directoryObject-id}/microsoft.graph.user",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredOwners/{directoryObject-id}/microsoft.graph.user",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "registeredOwners",
-      "{directoryObject-id}",
-      "microsoft.graph.user"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "microsoft.graph.user"
   },
   {
     "Endpoint": "devices/{device-id}/registeredOwners/microsoft.graph.appRoleAssignment",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredOwners/microsoft.graph.appRoleAssignment",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/device-list-registeredowners?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/device-post-registeredowners?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/device-delete-registeredowners?view=graph-rest-beta"
+    ],
     "Path": [
       "devices",
       "{device-id}",
@@ -1018,12 +765,16 @@
     "Endpoint": "devices/{device-id}/registeredOwners/microsoft.graph.appRoleAssignment/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredOwners/microsoft.graph.appRoleAssignment/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/device-list-registeredowners?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/device-post-registeredowners?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/device-delete-registeredowners?view=graph-rest-beta"
+    ],
     "Path": [
       "devices",
       "{device-id}",
@@ -1039,14 +790,12 @@
     "Endpoint": "devices/{device-id}/registeredOwners/microsoft.graph.endpoint",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredOwners/microsoft.graph.endpoint",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredOwners/microsoft.graph.endpoint",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
@@ -1061,14 +810,12 @@
     "Endpoint": "devices/{device-id}/registeredOwners/microsoft.graph.endpoint/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredOwners/microsoft.graph.endpoint/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredOwners/microsoft.graph.endpoint/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
@@ -1084,14 +831,12 @@
     "Endpoint": "devices/{device-id}/registeredOwners/microsoft.graph.servicePrincipal",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredOwners/microsoft.graph.servicePrincipal",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredOwners/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
@@ -1106,14 +851,12 @@
     "Endpoint": "devices/{device-id}/registeredOwners/microsoft.graph.servicePrincipal/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredOwners/microsoft.graph.servicePrincipal/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredOwners/microsoft.graph.servicePrincipal/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
@@ -1129,14 +872,12 @@
     "Endpoint": "devices/{device-id}/registeredOwners/microsoft.graph.user",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredOwners/microsoft.graph.user",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredOwners/microsoft.graph.user",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
@@ -1151,14 +892,12 @@
     "Endpoint": "devices/{device-id}/registeredOwners/microsoft.graph.user/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredOwners/microsoft.graph.user/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredOwners/microsoft.graph.user/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
@@ -1174,57 +913,31 @@
     "Endpoint": "devices/{device-id}/registeredUsers",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredUsers",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/device-list-registeredusers?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredUsers",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/device-list-registeredusers?view=graph-rest-beta",
     "Path": [
       "devices",
       "{device-id}",
       "registeredUsers"
     ],
     "Root": "devices",
-    "Children": 6,
+    "Children": 7,
     "Segment": "registeredUsers"
   },
   {
-    "Endpoint": "devices/{device-id}/registeredUsers/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredUsers/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredUsers/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "registeredUsers",
-      "$count"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "devices/{device-id}/registeredUsers/{directoryObject-id}",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredUsers/{directoryObject-id}",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredUsers/{directoryObject-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/device-list-registeredusers?view=graph-rest-1.0",
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/device-list-registeredusers?view=graph-rest-beta",
     "Path": [
       "devices",
       "{device-id}",
@@ -1232,19 +945,40 @@
       "{directoryObject-id}"
     ],
     "Root": "devices",
-    "Children": 4,
+    "Children": 5,
     "Segment": "{directoryObject-id}"
+  },
+  {
+    "Endpoint": "devices/{device-id}/registeredUsers/{directoryObject-id}/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredUsers/{directoryObject-id}/$ref",
+    "v1.0-Methods": "Delete",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/device-delete-registeredusers?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredUsers/{directoryObject-id}/$ref",
+    "Beta-Methods": "Delete",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/device-delete-registeredusers?view=graph-rest-beta",
+    "Path": [
+      "devices",
+      "{device-id}",
+      "registeredUsers",
+      "{directoryObject-id}",
+      "$ref"
+    ],
+    "Root": "devices",
+    "Children": 0,
+    "Segment": "$ref"
   },
   {
     "Endpoint": "devices/{device-id}/registeredUsers/{directoryObject-id}/microsoft.graph.appRoleAssignment",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredUsers/{directoryObject-id}/microsoft.graph.appRoleAssignment",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/device-delete-registeredusers?view=graph-rest-beta",
     "Path": [
       "devices",
       "{device-id}",
@@ -1260,14 +994,12 @@
     "Endpoint": "devices/{device-id}/registeredUsers/{directoryObject-id}/microsoft.graph.endpoint",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredUsers/{directoryObject-id}/microsoft.graph.endpoint",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredUsers/{directoryObject-id}/microsoft.graph.endpoint",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
@@ -1283,14 +1015,12 @@
     "Endpoint": "devices/{device-id}/registeredUsers/{directoryObject-id}/microsoft.graph.servicePrincipal",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredUsers/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredUsers/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
@@ -1306,14 +1036,12 @@
     "Endpoint": "devices/{device-id}/registeredUsers/{directoryObject-id}/microsoft.graph.user",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredUsers/{directoryObject-id}/microsoft.graph.user",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredUsers/{directoryObject-id}/microsoft.graph.user",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
@@ -1326,15 +1054,75 @@
     "Segment": "microsoft.graph.user"
   },
   {
+    "Endpoint": "devices/{device-id}/registeredUsers/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredUsers/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredUsers/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "devices",
+      "{device-id}",
+      "registeredUsers",
+      "$count"
+    ],
+    "Root": "devices",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "devices/{device-id}/registeredUsers/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredUsers/$ref",
+    "v1.0-Methods": [
+      "Get",
+      "Post",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/device-list-registeredusers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/device-post-registeredusers?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/device-delete-registeredusers?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredUsers/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/device-list-registeredusers?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/device-post-registeredusers?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/device-delete-registeredusers?view=graph-rest-beta"
+    ],
+    "Path": [
+      "devices",
+      "{device-id}",
+      "registeredUsers",
+      "$ref"
+    ],
+    "Root": "devices",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
     "Endpoint": "devices/{device-id}/registeredUsers/microsoft.graph.appRoleAssignment",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredUsers/microsoft.graph.appRoleAssignment",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/device-list-registeredusers?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/device-post-registeredusers?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/device-delete-registeredusers?view=graph-rest-beta"
+    ],
     "Path": [
       "devices",
       "{device-id}",
@@ -1349,12 +1137,16 @@
     "Endpoint": "devices/{device-id}/registeredUsers/microsoft.graph.appRoleAssignment/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredUsers/microsoft.graph.appRoleAssignment/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/device-list-registeredusers?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/device-post-registeredusers?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/device-delete-registeredusers?view=graph-rest-beta"
+    ],
     "Path": [
       "devices",
       "{device-id}",
@@ -1370,14 +1162,12 @@
     "Endpoint": "devices/{device-id}/registeredUsers/microsoft.graph.endpoint",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredUsers/microsoft.graph.endpoint",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredUsers/microsoft.graph.endpoint",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
@@ -1392,14 +1182,12 @@
     "Endpoint": "devices/{device-id}/registeredUsers/microsoft.graph.endpoint/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredUsers/microsoft.graph.endpoint/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredUsers/microsoft.graph.endpoint/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
@@ -1415,14 +1203,12 @@
     "Endpoint": "devices/{device-id}/registeredUsers/microsoft.graph.servicePrincipal",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredUsers/microsoft.graph.servicePrincipal",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredUsers/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
@@ -1437,14 +1223,12 @@
     "Endpoint": "devices/{device-id}/registeredUsers/microsoft.graph.servicePrincipal/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredUsers/microsoft.graph.servicePrincipal/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredUsers/microsoft.graph.servicePrincipal/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
@@ -1460,14 +1244,12 @@
     "Endpoint": "devices/{device-id}/registeredUsers/microsoft.graph.user",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredUsers/microsoft.graph.user",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredUsers/microsoft.graph.user",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
@@ -1482,14 +1264,12 @@
     "Endpoint": "devices/{device-id}/registeredUsers/microsoft.graph.user/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/registeredUsers/microsoft.graph.user/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/registeredUsers/microsoft.graph.user/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
@@ -1505,57 +1285,31 @@
     "Endpoint": "devices/{device-id}/transitiveMemberOf",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/device-list-transitivememberof?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/device-list-transitivememberof?view=graph-rest-beta",
     "Path": [
       "devices",
       "{device-id}",
       "transitiveMemberOf"
     ],
     "Root": "devices",
-    "Children": 8,
+    "Children": 4,
     "Segment": "transitiveMemberOf"
-  },
-  {
-    "Endpoint": "devices/{device-id}/transitiveMemberOf/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "transitiveMemberOf",
-      "$count"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "devices/{device-id}/transitiveMemberOf/{directoryObject-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf/{directoryObject-id}",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf/{directoryObject-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
@@ -1563,67 +1317,40 @@
       "{directoryObject-id}"
     ],
     "Root": "devices",
-    "Children": 6,
+    "Children": 2,
     "Segment": "{directoryObject-id}"
   },
   {
-    "Endpoint": "devices/{device-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.application",
+    "Endpoint": "devices/{device-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.administrativeUnit",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.application",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.administrativeUnit",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.application",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.administrativeUnit",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
       "transitiveMemberOf",
       "{directoryObject-id}",
-      "microsoft.graph.application"
+      "microsoft.graph.administrativeUnit"
     ],
     "Root": "devices",
     "Children": 0,
-    "Segment": "microsoft.graph.application"
-  },
-  {
-    "Endpoint": "devices/{device-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.device",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.device",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.device",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "transitiveMemberOf",
-      "{directoryObject-id}",
-      "microsoft.graph.device"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "microsoft.graph.device"
+    "Segment": "microsoft.graph.administrativeUnit"
   },
   {
     "Endpoint": "devices/{device-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.group",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.group",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/device-list-transitivememberof?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.group",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/device-list-transitivememberof?view=graph-rest-beta",
     "Path": [
       "devices",
       "{device-id}",
@@ -1636,113 +1363,19 @@
     "Segment": "microsoft.graph.group"
   },
   {
-    "Endpoint": "devices/{device-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.orgContact",
+    "Endpoint": "devices/{device-id}/transitiveMemberOf/$count",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.orgContact",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.orgContact",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
       "transitiveMemberOf",
-      "{directoryObject-id}",
-      "microsoft.graph.orgContact"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "microsoft.graph.orgContact"
-  },
-  {
-    "Endpoint": "devices/{device-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "transitiveMemberOf",
-      "{directoryObject-id}",
-      "microsoft.graph.servicePrincipal"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "microsoft.graph.servicePrincipal"
-  },
-  {
-    "Endpoint": "devices/{device-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.user",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.user",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf/{directoryObject-id}/microsoft.graph.user",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "transitiveMemberOf",
-      "{directoryObject-id}",
-      "microsoft.graph.user"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "microsoft.graph.user"
-  },
-  {
-    "Endpoint": "devices/{device-id}/transitiveMemberOf/microsoft.graph.application",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf/microsoft.graph.application",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf/microsoft.graph.application",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "transitiveMemberOf",
-      "microsoft.graph.application"
-    ],
-    "Root": "devices",
-    "Children": 1,
-    "Segment": "microsoft.graph.application"
-  },
-  {
-    "Endpoint": "devices/{device-id}/transitiveMemberOf/microsoft.graph.application/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf/microsoft.graph.application/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf/microsoft.graph.application/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "transitiveMemberOf",
-      "microsoft.graph.application",
       "$count"
     ],
     "Root": "devices",
@@ -1750,44 +1383,40 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "devices/{device-id}/transitiveMemberOf/microsoft.graph.device",
+    "Endpoint": "devices/{device-id}/transitiveMemberOf/microsoft.graph.administrativeUnit",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf/microsoft.graph.device",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf/microsoft.graph.administrativeUnit",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf/microsoft.graph.device",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf/microsoft.graph.administrativeUnit",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
       "transitiveMemberOf",
-      "microsoft.graph.device"
+      "microsoft.graph.administrativeUnit"
     ],
     "Root": "devices",
     "Children": 1,
-    "Segment": "microsoft.graph.device"
+    "Segment": "microsoft.graph.administrativeUnit"
   },
   {
-    "Endpoint": "devices/{device-id}/transitiveMemberOf/microsoft.graph.device/$count",
+    "Endpoint": "devices/{device-id}/transitiveMemberOf/microsoft.graph.administrativeUnit/$count",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf/microsoft.graph.device/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf/microsoft.graph.administrativeUnit/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf/microsoft.graph.device/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf/microsoft.graph.administrativeUnit/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
       "transitiveMemberOf",
-      "microsoft.graph.device",
+      "microsoft.graph.administrativeUnit",
       "$count"
     ],
     "Root": "devices",
@@ -1798,14 +1427,12 @@
     "Endpoint": "devices/{device-id}/transitiveMemberOf/microsoft.graph.group",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf/microsoft.graph.group",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/device-list-transitivememberof?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf/microsoft.graph.group",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/device-list-transitivememberof?view=graph-rest-beta",
     "Path": [
       "devices",
       "{device-id}",
@@ -1820,14 +1447,12 @@
     "Endpoint": "devices/{device-id}/transitiveMemberOf/microsoft.graph.group/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf/microsoft.graph.group/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf/microsoft.graph.group/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "devices",
       "{device-id}",
@@ -1840,150 +1465,20 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "devices/{device-id}/transitiveMemberOf/microsoft.graph.orgContact",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf/microsoft.graph.orgContact",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf/microsoft.graph.orgContact",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "transitiveMemberOf",
-      "microsoft.graph.orgContact"
-    ],
-    "Root": "devices",
-    "Children": 1,
-    "Segment": "microsoft.graph.orgContact"
-  },
-  {
-    "Endpoint": "devices/{device-id}/transitiveMemberOf/microsoft.graph.orgContact/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf/microsoft.graph.orgContact/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf/microsoft.graph.orgContact/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "transitiveMemberOf",
-      "microsoft.graph.orgContact",
-      "$count"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
-    "Endpoint": "devices/{device-id}/transitiveMemberOf/microsoft.graph.servicePrincipal",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf/microsoft.graph.servicePrincipal",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "transitiveMemberOf",
-      "microsoft.graph.servicePrincipal"
-    ],
-    "Root": "devices",
-    "Children": 1,
-    "Segment": "microsoft.graph.servicePrincipal"
-  },
-  {
-    "Endpoint": "devices/{device-id}/transitiveMemberOf/microsoft.graph.servicePrincipal/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf/microsoft.graph.servicePrincipal/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf/microsoft.graph.servicePrincipal/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "transitiveMemberOf",
-      "microsoft.graph.servicePrincipal",
-      "$count"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
-    "Endpoint": "devices/{device-id}/transitiveMemberOf/microsoft.graph.user",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf/microsoft.graph.user",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf/microsoft.graph.user",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "transitiveMemberOf",
-      "microsoft.graph.user"
-    ],
-    "Root": "devices",
-    "Children": 1,
-    "Segment": "microsoft.graph.user"
-  },
-  {
-    "Endpoint": "devices/{device-id}/transitiveMemberOf/microsoft.graph.user/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/{device-id}/transitiveMemberOf/microsoft.graph.user/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/transitiveMemberOf/microsoft.graph.user/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "transitiveMemberOf",
-      "microsoft.graph.user",
-      "$count"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "devices/{device-id}/usageRights",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/device-list-transitivememberof?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/usageRights",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/device-list-usagerights?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "devices",
@@ -1995,36 +1490,22 @@
     "Segment": "usageRights"
   },
   {
-    "Endpoint": "devices/{device-id}/usageRights/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/usageRights/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "devices",
-      "{device-id}",
-      "usageRights",
-      "$count"
-    ],
-    "Root": "devices",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "devices/{device-id}/usageRights/{usageRight-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/device-list-transitivememberof?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/usageRights/{usageRight-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "devices",
@@ -2037,17 +1518,53 @@
     "Segment": "{usageRight-id}"
   },
   {
+    "Endpoint": "devices/{device-id}/usageRights/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/device-list-transitivememberof?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/devices/{device-id}/usageRights/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "devices",
+      "{device-id}",
+      "usageRights",
+      "$count"
+    ],
+    "Root": "devices",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "devices/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/devices/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "devices",
+      "$count"
+    ],
+    "Root": "devices",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "devices/microsoft.graph.delta()",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/microsoft.graph.delta()",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/device-delta?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/microsoft.graph.delta()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/device-delta?view=graph-rest-beta",
     "Path": [
       "devices",
       "microsoft.graph.delta()"
@@ -2060,12 +1577,12 @@
     "Endpoint": "devices/microsoft.graph.getAvailableExtensionProperties",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/microsoft.graph.getAvailableExtensionProperties",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getavailableextensionproperties?view=graph-rest-1.0",
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/device-delta?view=graph-rest-beta",
     "Path": [
       "devices",
       "microsoft.graph.getAvailableExtensionProperties"
@@ -2078,14 +1595,12 @@
     "Endpoint": "devices/microsoft.graph.getByIds",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/microsoft.graph.getByIds",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getbyids?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/microsoft.graph.getByIds",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-getbyids?view=graph-rest-beta",
     "Path": [
       "devices",
       "microsoft.graph.getByIds"
@@ -2099,11 +1614,11 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getbyids?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/microsoft.graph.getUserOwnedObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-getuserownedobjects?view=graph-rest-beta",
     "Path": [
       "devices",
       "microsoft.graph.getUserOwnedObjects"
@@ -2116,14 +1631,12 @@
     "Endpoint": "devices/microsoft.graph.validateProperties",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/devices/microsoft.graph.validateProperties",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-validateproperties?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/devices/microsoft.graph.validateProperties",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-validateproperties?view=graph-rest-beta",
     "Path": [
       "devices",
       "microsoft.graph.validateProperties"

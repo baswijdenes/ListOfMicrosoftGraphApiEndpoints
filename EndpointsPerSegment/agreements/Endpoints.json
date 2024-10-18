@@ -7,11 +7,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/agreements",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "agreements"
@@ -29,12 +37,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/agreements/{agreement-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "agreements",
@@ -52,11 +70,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/agreements/{agreement-id}/acceptances",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "agreements",
@@ -68,28 +94,6 @@
     "Segment": "acceptances"
   },
   {
-    "Endpoint": "agreements/{agreement-id}/acceptances/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/agreements/{agreement-id}/acceptances/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/agreements/{agreement-id}/acceptances/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "agreements",
-      "{agreement-id}",
-      "acceptances",
-      "$count"
-    ],
-    "Root": "agreements",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "agreements/{agreement-id}/acceptances/{agreementAcceptance-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/agreements/{agreement-id}/acceptances/{agreementAcceptance-id}",
@@ -98,12 +102,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/agreements/{agreement-id}/acceptances/{agreementAcceptance-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "agreements",
@@ -116,6 +130,26 @@
     "Segment": "{agreementAcceptance-id}"
   },
   {
+    "Endpoint": "agreements/{agreement-id}/acceptances/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/agreements/{agreement-id}/acceptances/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/agreements/{agreement-id}/acceptances/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "agreements",
+      "{agreement-id}",
+      "acceptances",
+      "$count"
+    ],
+    "Root": "agreements",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "agreements/{agreement-id}/file",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/agreements/{agreement-id}/file",
@@ -124,12 +158,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/agreementfile-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/agreements/{agreement-id}/file",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/agreementfile-get?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "agreements",
@@ -148,11 +192,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/agreementfile-list-localizations?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/agreements/{agreement-id}/file/localizations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/agreementfile-list-localizations?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "agreements",
@@ -165,29 +217,6 @@
     "Segment": "localizations"
   },
   {
-    "Endpoint": "agreements/{agreement-id}/file/localizations/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/agreements/{agreement-id}/file/localizations/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/agreements/{agreement-id}/file/localizations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "agreements",
-      "{agreement-id}",
-      "file",
-      "localizations",
-      "$count"
-    ],
-    "Root": "agreements",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "agreements/{agreement-id}/file/localizations/{agreementFileLocalization-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/agreements/{agreement-id}/file/localizations/{agreementFileLocalization-id}",
@@ -196,12 +225,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/agreements/{agreement-id}/file/localizations/{agreementFileLocalization-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "agreements",
@@ -222,11 +261,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/agreements/{agreement-id}/file/localizations/{agreementFileLocalization-id}/versions",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "agreements",
@@ -241,31 +288,6 @@
     "Segment": "versions"
   },
   {
-    "Endpoint": "agreements/{agreement-id}/file/localizations/{agreementFileLocalization-id}/versions/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/agreements/{agreement-id}/file/localizations/{agreementFileLocalization-id}/versions/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/agreements/{agreement-id}/file/localizations/{agreementFileLocalization-id}/versions/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "agreements",
-      "{agreement-id}",
-      "file",
-      "localizations",
-      "{agreementFileLocalization-id}",
-      "versions",
-      "$count"
-    ],
-    "Root": "agreements",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "agreements/{agreement-id}/file/localizations/{agreementFileLocalization-id}/versions/{agreementFileVersion-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/agreements/{agreement-id}/file/localizations/{agreementFileLocalization-id}/versions/{agreementFileVersion-id}",
@@ -274,12 +296,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/agreements/{agreement-id}/file/localizations/{agreementFileLocalization-id}/versions/{agreementFileVersion-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "agreements",
@@ -295,6 +327,50 @@
     "Segment": "{agreementFileVersion-id}"
   },
   {
+    "Endpoint": "agreements/{agreement-id}/file/localizations/{agreementFileLocalization-id}/versions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/agreements/{agreement-id}/file/localizations/{agreementFileLocalization-id}/versions/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/agreements/{agreement-id}/file/localizations/{agreementFileLocalization-id}/versions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "agreements",
+      "{agreement-id}",
+      "file",
+      "localizations",
+      "{agreementFileLocalization-id}",
+      "versions",
+      "$count"
+    ],
+    "Root": "agreements",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "agreements/{agreement-id}/file/localizations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/agreements/{agreement-id}/file/localizations/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/agreements/{agreement-id}/file/localizations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "agreements",
+      "{agreement-id}",
+      "file",
+      "localizations",
+      "$count"
+    ],
+    "Root": "agreements",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "agreements/{agreement-id}/files",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/agreements/{agreement-id}/files",
@@ -302,11 +378,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/agreements/{agreement-id}/files",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "agreements",
@@ -318,28 +402,6 @@
     "Segment": "files"
   },
   {
-    "Endpoint": "agreements/{agreement-id}/files/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/agreements/{agreement-id}/files/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/agreements/{agreement-id}/files/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "agreements",
-      "{agreement-id}",
-      "files",
-      "$count"
-    ],
-    "Root": "agreements",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "agreements/{agreement-id}/files/{agreementFileLocalization-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/agreements/{agreement-id}/files/{agreementFileLocalization-id}",
@@ -348,12 +410,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/agreements/{agreement-id}/files/{agreementFileLocalization-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "agreements",
@@ -373,11 +445,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/agreements/{agreement-id}/files/{agreementFileLocalization-id}/versions",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "agreements",
@@ -391,17 +471,53 @@
     "Segment": "versions"
   },
   {
+    "Endpoint": "agreements/{agreement-id}/files/{agreementFileLocalization-id}/versions/{agreementFileVersion-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/agreements/{agreement-id}/files/{agreementFileLocalization-id}/versions/{agreementFileVersion-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/agreements/{agreement-id}/files/{agreementFileLocalization-id}/versions/{agreementFileVersion-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "agreements",
+      "{agreement-id}",
+      "files",
+      "{agreementFileLocalization-id}",
+      "versions",
+      "{agreementFileVersion-id}"
+    ],
+    "Root": "agreements",
+    "Children": 0,
+    "Segment": "{agreementFileVersion-id}"
+  },
+  {
     "Endpoint": "agreements/{agreement-id}/files/{agreementFileLocalization-id}/versions/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/agreements/{agreement-id}/files/{agreementFileLocalization-id}/versions/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/agreements/{agreement-id}/files/{agreementFileLocalization-id}/versions/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "agreements",
       "{agreement-id}",
@@ -415,31 +531,23 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "agreements/{agreement-id}/files/{agreementFileLocalization-id}/versions/{agreementFileVersion-id}",
+    "Endpoint": "agreements/{agreement-id}/files/$count",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/agreements/{agreement-id}/files/{agreementFileLocalization-id}/versions/{agreementFileVersion-id}",
-    "v1.0-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/agreements/{agreement-id}/files/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/agreements/{agreement-id}/files/{agreementFileLocalization-id}/versions/{agreementFileVersion-id}",
-    "Beta-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/agreements/{agreement-id}/files/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "agreements",
       "{agreement-id}",
       "files",
-      "{agreementFileLocalization-id}",
-      "versions",
-      "{agreementFileVersion-id}"
+      "$count"
     ],
     "Root": "agreements",
     "Children": 0,
-    "Segment": "{agreementFileVersion-id}"
+    "Segment": "$count"
   }
 ]

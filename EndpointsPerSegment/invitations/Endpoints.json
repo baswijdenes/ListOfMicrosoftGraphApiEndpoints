@@ -7,31 +7,37 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/invitation-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/invitations",
     "Beta-Methods": [
       "Get",
       "Post"
     ],
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/invitation-post?view=graph-rest-beta"
+    ],
     "Path": [
       "invitations"
     ],
     "Root": "invitations",
-    "Children": 2,
+    "Children": 3,
     "Segment": "invitations"
   },
   {
     "Endpoint": "invitations/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/invitations/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/invitations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "invitations",
       "$count"
@@ -41,48 +47,147 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "invitations/{invitation-id}",
+    "Endpoint": "invitations/invitedUser",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/invitations/{invitation-id}",
-    "v1.0-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/invitations/invitedUser",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/invitations/{invitation-id}",
-    "Beta-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/invitations/invitedUser",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "invitations",
-      "{invitation-id}"
-    ],
-    "Root": "invitations",
-    "Children": 1,
-    "Segment": "{invitation-id}"
-  },
-  {
-    "Endpoint": "invitations/{invitation-id}/invitedUser",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/invitations/{invitation-id}/invitedUser",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/invitations/{invitation-id}/invitedUser",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "invitations",
-      "{invitation-id}",
       "invitedUser"
     ],
     "Root": "invitations",
-    "Children": 0,
+    "Children": 2,
     "Segment": "invitedUser"
+  },
+  {
+    "Endpoint": "invitations/invitedUser/mailboxSettings",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/invitations/invitedUser/mailboxSettings",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/invitations/invitedUser/mailboxSettings",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "invitations",
+      "invitedUser",
+      "mailboxSettings"
+    ],
+    "Root": "invitations",
+    "Children": 0,
+    "Segment": "mailboxSettings"
+  },
+  {
+    "Endpoint": "invitations/invitedUser/serviceProvisioningErrors",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/invitations/invitedUser/serviceProvisioningErrors",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/invitations/invitedUser/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "invitations",
+      "invitedUser",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "invitations",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "invitations/invitedUser/serviceProvisioningErrors/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/invitations/invitedUser/serviceProvisioningErrors/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/invitations/invitedUser/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "invitations",
+      "invitedUser",
+      "serviceProvisioningErrors",
+      "$count"
+    ],
+    "Root": "invitations",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "invitations/invitedUserSponsors",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/invitations/invitedUserSponsors",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/invitations/invitedUserSponsors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "invitations",
+      "invitedUserSponsors"
+    ],
+    "Root": "invitations",
+    "Children": 2,
+    "Segment": "invitedUserSponsors"
+  },
+  {
+    "Endpoint": "invitations/invitedUserSponsors/{directoryObject-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/invitations/invitedUserSponsors/{directoryObject-id}",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/invitations/invitedUserSponsors/{directoryObject-id}",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "invitations",
+      "invitedUserSponsors",
+      "{directoryObject-id}"
+    ],
+    "Root": "invitations",
+    "Children": 0,
+    "Segment": "{directoryObject-id}"
+  },
+  {
+    "Endpoint": "invitations/invitedUserSponsors/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/invitations/invitedUserSponsors/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/invitations/invitedUserSponsors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "invitations",
+      "invitedUserSponsors",
+      "$count"
+    ],
+    "Root": "invitations",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

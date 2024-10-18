@@ -1,0 +1,26 @@
+{
+  "Endpoint": "network",
+  "v1.0": false,
+  "V1.0-Url": null,
+  "v1.0-Methods": null,
+  "v1.0-docs": [
+    "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+    "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+  ],
+  "beta": true,
+  "Beta-Url": "https://graph.microsoft.com/beta/network",
+  "Beta-Methods": [
+    "Get",
+    "Patch"
+  ],
+  "Beta-Docs": [
+    null,
+    null
+  ],
+  "Path": [
+    "network"
+  ],
+  "Root": "network",
+  "Children": 0,
+  "Segment": "network"
+}

@@ -4,11 +4,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/monitoring",
     "Beta-Methods": [
       "Get",
       "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "monitoring"
@@ -22,50 +30,48 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/monitoring/alertRecords",
     "Beta-Methods": [
       "Get",
       "Post"
     ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
     "Path": [
       "monitoring",
       "alertRecords"
     ],
     "Root": "monitoring",
-    "Children": 3,
+    "Children": 4,
     "Segment": "alertRecords"
-  },
-  {
-    "Endpoint": "monitoring/alertRecords/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/monitoring/alertRecords/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "monitoring",
-      "alertRecords",
-      "$count"
-    ],
-    "Root": "monitoring",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "monitoring/alertRecords/{alertRecord-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/monitoring/alertRecords/{alertRecord-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "monitoring",
@@ -81,11 +87,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/monitoring/alertRecords/{alertRecord-id}/microsoft.graph.deviceManagement.setPortalNotificationAsSent",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/devicemanagement-alertrecord-setportalnotificationassent?view=graph-rest-beta",
     "Path": [
       "monitoring",
       "alertRecords",
@@ -97,15 +106,62 @@
     "Segment": "microsoft.graph.deviceManagement.setPortalNotificationAsSent"
   },
   {
+    "Endpoint": "monitoring/alertRecords/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/monitoring/alertRecords/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "monitoring",
+      "alertRecords",
+      "$count"
+    ],
+    "Root": "monitoring",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "monitoring/alertRecords/microsoft.graph.deviceManagement.changeAlertRecordsPortalNotificationAsSent",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/monitoring/alertRecords/microsoft.graph.deviceManagement.changeAlertRecordsPortalNotificationAsSent",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "monitoring",
+      "alertRecords",
+      "microsoft.graph.deviceManagement.changeAlertRecordsPortalNotificationAsSent"
+    ],
+    "Root": "monitoring",
+    "Children": 0,
+    "Segment": "microsoft.graph.deviceManagement.changeAlertRecordsPortalNotificationAsSent"
+  },
+  {
     "Endpoint": "monitoring/alertRecords/microsoft.graph.deviceManagement.getPortalNotifications()",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/monitoring/alertRecords/microsoft.graph.deviceManagement.getPortalNotifications()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "monitoring",
       "alertRecords",
@@ -120,11 +176,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/monitoring/alertRules",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "monitoring",
@@ -135,35 +199,25 @@
     "Segment": "alertRules"
   },
   {
-    "Endpoint": "monitoring/alertRules/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/monitoring/alertRules/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "monitoring",
-      "alertRules",
-      "$count"
-    ],
-    "Root": "monitoring",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "monitoring/alertRules/{alertRule-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/monitoring/alertRules/{alertRule-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "monitoring",
@@ -173,5 +227,27 @@
     "Root": "monitoring",
     "Children": 0,
     "Segment": "{alertRule-id}"
+  },
+  {
+    "Endpoint": "monitoring/alertRules/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/monitoring/alertRules/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "monitoring",
+      "alertRules",
+      "$count"
+    ],
+    "Root": "monitoring",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

@@ -4,11 +4,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/mobilityManagementPolicies",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "mobilityManagementPolicies"
@@ -18,34 +26,25 @@
     "Segment": "mobilityManagementPolicies"
   },
   {
-    "Endpoint": "mobilityManagementPolicies/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/mobilityManagementPolicies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "mobilityManagementPolicies",
-      "$count"
-    ],
-    "Root": "mobilityManagementPolicies",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "mobilityManagementPolicies/{mobilityManagementPolicy-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/mobilityManagementPolicies/{mobilityManagementPolicy-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "mobilityManagementPolicies",
@@ -60,11 +59,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/mobilityManagementPolicies/{mobilityManagementPolicy-id}/includedGroups",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "mobilityManagementPolicies",
       "{mobilityManagementPolicy-id}",
@@ -75,15 +77,114 @@
     "Segment": "includedGroups"
   },
   {
+    "Endpoint": "mobilityManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Beta-Docs": null,
+    "Path": [
+      "mobilityManagementPolicies",
+      "{mobilityManagementPolicy-id}",
+      "includedGroups",
+      "{group-id}"
+    ],
+    "Root": "mobilityManagementPolicies",
+    "Children": 2,
+    "Segment": "{group-id}"
+  },
+  {
+    "Endpoint": "mobilityManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/mobilityManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/$ref",
+    "Beta-Methods": "Delete",
+    "Beta-Docs": null,
+    "Path": [
+      "mobilityManagementPolicies",
+      "{mobilityManagementPolicy-id}",
+      "includedGroups",
+      "{group-id}",
+      "$ref"
+    ],
+    "Root": "mobilityManagementPolicies",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "mobilityManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/serviceProvisioningErrors",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/mobilityManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "mobilityManagementPolicies",
+      "{mobilityManagementPolicy-id}",
+      "includedGroups",
+      "{group-id}",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "mobilityManagementPolicies",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "mobilityManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/serviceProvisioningErrors/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/mobilityManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "mobilityManagementPolicies",
+      "{mobilityManagementPolicy-id}",
+      "includedGroups",
+      "{group-id}",
+      "serviceProvisioningErrors",
+      "$count"
+    ],
+    "Root": "mobilityManagementPolicies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "mobilityManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/$count",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/mobilityManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "mobilityManagementPolicies",
       "{mobilityManagementPolicy-id}",
@@ -99,59 +200,51 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/mobilityManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/$ref",
     "Beta-Methods": [
       "Get",
-      "Post"
-    ],
-    "Path": [
-      "mobilityManagementPolicies",
-      "{mobilityManagementPolicy-id}",
-      "includedGroups",
-      "$ref"
-    ],
-    "Root": "mobilityManagementPolicies",
-    "Children": 0,
-    "Segment": "$ref"
-  },
-  {
-    "Endpoint": "mobilityManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": false,
-    "Beta-Url": null,
-    "Beta-Methods": null,
-    "Path": [
-      "mobilityManagementPolicies",
-      "{mobilityManagementPolicy-id}",
-      "includedGroups",
-      "{group-id}"
-    ],
-    "Root": "mobilityManagementPolicies",
-    "Children": 1,
-    "Segment": "{group-id}"
-  },
-  {
-    "Endpoint": "mobilityManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/$ref",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/mobilityManagementPolicies/{mobilityManagementPolicy-id}/includedGroups/{group-id}/$ref",
-    "Beta-Methods": [
+      "Post",
       "Delete"
     ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
     "Path": [
       "mobilityManagementPolicies",
       "{mobilityManagementPolicy-id}",
       "includedGroups",
-      "{group-id}",
       "$ref"
     ],
     "Root": "mobilityManagementPolicies",
     "Children": 0,
     "Segment": "$ref"
+  },
+  {
+    "Endpoint": "mobilityManagementPolicies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/mobilityManagementPolicies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "mobilityManagementPolicies",
+      "$count"
+    ],
+    "Root": "mobilityManagementPolicies",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

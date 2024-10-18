@@ -7,38 +7,26 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/intune-onboarding-organization-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization",
     "Beta-Methods": [
       "Get",
       "Post"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/organization-list?view=graph-rest-beta",
+      null
+    ],
     "Path": [
       "organization"
     ],
     "Root": "organization",
-    "Children": 6,
+    "Children": 7,
     "Segment": "organization"
-  },
-  {
-    "Endpoint": "organization/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/organization/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "organization",
-      "$count"
-    ],
-    "Root": "organization",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "organization/{organization-id}",
@@ -49,12 +37,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/organization-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/organization-update?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/organization-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/organization-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "organization",
@@ -73,12 +71,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/organizationalbranding-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/organizationalbranding-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/organizationalbranding-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/branding",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/organizationalbranding-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/organizationalbranding-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/organizationalbranding-delete?view=graph-rest-beta"
     ],
     "Path": [
       "organization",
@@ -95,13 +103,25 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/branding/backgroundImage",
     "v1.0-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/branding/backgroundImage",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "organization",
@@ -119,13 +139,25 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/branding/bannerLogo",
     "v1.0-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/branding/bannerLogo",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "organization",
@@ -139,14 +171,29 @@
   },
   {
     "Endpoint": "organization/{organization-id}/branding/customCSS",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/branding/customCSS",
+    "v1.0-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/branding/customCSS",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "organization",
@@ -160,14 +207,29 @@
   },
   {
     "Endpoint": "organization/{organization-id}/branding/favicon",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/branding/favicon",
+    "v1.0-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/branding/favicon",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "organization",
@@ -181,14 +243,29 @@
   },
   {
     "Endpoint": "organization/{organization-id}/branding/headerLogo",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/branding/headerLogo",
+    "v1.0-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/branding/headerLogo",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "organization",
@@ -208,11 +285,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/organizationalbranding-list-localizations?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/organizationalbranding-post-localizations?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/branding/localizations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/organizationalbranding-list-localizations?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/organizationalbranding-post-localizations?view=graph-rest-beta"
     ],
     "Path": [
       "organization",
@@ -225,29 +310,6 @@
     "Segment": "localizations"
   },
   {
-    "Endpoint": "organization/{organization-id}/branding/localizations/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/branding/localizations/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/branding/localizations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "organization",
-      "{organization-id}",
-      "branding",
-      "localizations",
-      "$count"
-    ],
-    "Root": "organization",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "organization/{organization-id}/branding/localizations/{organizationalBrandingLocalization-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/branding/localizations/{organizationalBrandingLocalization-id}",
@@ -256,12 +318,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/organizationalbrandinglocalization-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/organizationalbrandinglocalization-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/organizationalbrandinglocalization-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/branding/localizations/{organizationalBrandingLocalization-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/organizationalbrandinglocalization-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/organizationalbrandinglocalization-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/organizationalbrandinglocalization-delete?view=graph-rest-beta"
     ],
     "Path": [
       "organization",
@@ -280,13 +352,25 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/branding/localizations/{organizationalBrandingLocalization-id}/backgroundImage",
     "v1.0-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/branding/localizations/{organizationalBrandingLocalization-id}/backgroundImage",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "organization",
@@ -306,13 +390,25 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/branding/localizations/{organizationalBrandingLocalization-id}/bannerLogo",
     "v1.0-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/organizationalbrandinglocalization-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/organizationalbrandinglocalization-update?view=graph-rest-1.0",
+      null
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/branding/localizations/{organizationalBrandingLocalization-id}/bannerLogo",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/organizationalbrandinglocalization-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "organization",
@@ -328,14 +424,29 @@
   },
   {
     "Endpoint": "organization/{organization-id}/branding/localizations/{organizationalBrandingLocalization-id}/customCSS",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/branding/localizations/{organizationalBrandingLocalization-id}/customCSS",
+    "v1.0-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/branding/localizations/{organizationalBrandingLocalization-id}/customCSS",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "organization",
@@ -351,14 +462,29 @@
   },
   {
     "Endpoint": "organization/{organization-id}/branding/localizations/{organizationalBrandingLocalization-id}/favicon",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/branding/localizations/{organizationalBrandingLocalization-id}/favicon",
+    "v1.0-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/branding/localizations/{organizationalBrandingLocalization-id}/favicon",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "organization",
@@ -374,14 +500,29 @@
   },
   {
     "Endpoint": "organization/{organization-id}/branding/localizations/{organizationalBrandingLocalization-id}/headerLogo",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/branding/localizations/{organizationalBrandingLocalization-id}/headerLogo",
+    "v1.0-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/branding/localizations/{organizationalBrandingLocalization-id}/headerLogo",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "organization",
@@ -401,13 +542,25 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/branding/localizations/{organizationalBrandingLocalization-id}/squareLogo",
     "v1.0-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/branding/localizations/{organizationalBrandingLocalization-id}/squareLogo",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "organization",
@@ -423,14 +576,29 @@
   },
   {
     "Endpoint": "organization/{organization-id}/branding/localizations/{organizationalBrandingLocalization-id}/squareLogoDark",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/branding/localizations/{organizationalBrandingLocalization-id}/squareLogoDark",
+    "v1.0-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/branding/localizations/{organizationalBrandingLocalization-id}/squareLogoDark",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "organization",
@@ -445,18 +613,51 @@
     "Segment": "squareLogoDark"
   },
   {
+    "Endpoint": "organization/{organization-id}/branding/localizations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/branding/localizations/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/branding/localizations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "organization",
+      "{organization-id}",
+      "branding",
+      "localizations",
+      "$count"
+    ],
+    "Root": "organization",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "organization/{organization-id}/branding/squareLogo",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/branding/squareLogo",
     "v1.0-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/branding/squareLogo",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "organization",
@@ -470,14 +671,29 @@
   },
   {
     "Endpoint": "organization/{organization-id}/branding/squareLogoDark",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/branding/squareLogoDark",
+    "v1.0-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/branding/squareLogoDark",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "organization",
@@ -494,12 +710,22 @@
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/certificateBasedAuthConfiguration",
     "v1.0-Methods": [
-      "Get"
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/certificatebasedauthconfiguration-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/certificatebasedauthconfiguration-post-certificatebasedauthconfiguration?view=graph-rest-1.0"
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/certificateBasedAuthConfiguration",
     "Beta-Methods": [
-      "Get"
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/certificatebasedauthconfiguration-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/certificatebasedauthconfiguration-post-certificatebasedauthconfiguration?view=graph-rest-beta"
     ],
     "Path": [
       "organization",
@@ -511,38 +737,26 @@
     "Segment": "certificateBasedAuthConfiguration"
   },
   {
-    "Endpoint": "organization/{organization-id}/certificateBasedAuthConfiguration/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/certificateBasedAuthConfiguration/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/certificateBasedAuthConfiguration/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "organization",
-      "{organization-id}",
-      "certificateBasedAuthConfiguration",
-      "$count"
-    ],
-    "Root": "organization",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "organization/{organization-id}/certificateBasedAuthConfiguration/{certificateBasedAuthConfiguration-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/certificateBasedAuthConfiguration/{certificateBasedAuthConfiguration-id}",
     "v1.0-Methods": [
-      "Get"
+      "Get",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/certificatebasedauthconfiguration-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/certificatebasedauthconfiguration-delete?view=graph-rest-1.0"
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/certificateBasedAuthConfiguration/{certificateBasedAuthConfiguration-id}",
     "Beta-Methods": [
-      "Get"
+      "Get",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/certificatebasedauthconfiguration-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/certificatebasedauthconfiguration-delete?view=graph-rest-beta"
     ],
     "Path": [
       "organization",
@@ -555,6 +769,26 @@
     "Segment": "{certificateBasedAuthConfiguration-id}"
   },
   {
+    "Endpoint": "organization/{organization-id}/certificateBasedAuthConfiguration/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/certificateBasedAuthConfiguration/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/certificateBasedAuthConfiguration/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "organization",
+      "{organization-id}",
+      "certificateBasedAuthConfiguration",
+      "$count"
+    ],
+    "Root": "organization",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "organization/{organization-id}/extensions",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/extensions",
@@ -562,11 +796,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/extensions",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "organization",
@@ -578,28 +820,6 @@
     "Segment": "extensions"
   },
   {
-    "Endpoint": "organization/{organization-id}/extensions/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/extensions/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/extensions/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "organization",
-      "{organization-id}",
-      "extensions",
-      "$count"
-    ],
-    "Root": "organization",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "organization/{organization-id}/extensions/{extension-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/extensions/{extension-id}",
@@ -608,12 +828,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/extensions/{extension-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "organization",
@@ -626,36 +856,35 @@
     "Segment": "{extension-id}"
   },
   {
-    "Endpoint": "organization/{organization-id}/microsoft.graph.activateService",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "Endpoint": "organization/{organization-id}/extensions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/extensions/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/microsoft.graph.activateService",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/extensions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "organization",
       "{organization-id}",
-      "microsoft.graph.activateService"
+      "extensions",
+      "$count"
     ],
     "Root": "organization",
     "Children": 0,
-    "Segment": "microsoft.graph.activateService"
+    "Segment": "$count"
   },
   {
     "Endpoint": "organization/{organization-id}/microsoft.graph.checkMemberGroups",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/microsoft.graph.checkMemberGroups",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-checkmembergroups?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/microsoft.graph.checkMemberGroups",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-checkmembergroups?view=graph-rest-beta",
     "Path": [
       "organization",
       "{organization-id}",
@@ -669,14 +898,12 @@
     "Endpoint": "organization/{organization-id}/microsoft.graph.checkMemberObjects",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/microsoft.graph.checkMemberObjects",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/microsoft.graph.checkMemberObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "organization",
       "{organization-id}",
@@ -690,14 +917,12 @@
     "Endpoint": "organization/{organization-id}/microsoft.graph.getMemberGroups",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/microsoft.graph.getMemberGroups",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getmembergroups?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/microsoft.graph.getMemberGroups",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-getmembergroups?view=graph-rest-beta",
     "Path": [
       "organization",
       "{organization-id}",
@@ -711,14 +936,12 @@
     "Endpoint": "organization/{organization-id}/microsoft.graph.getMemberObjects",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/microsoft.graph.getMemberObjects",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getmemberobjects?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/microsoft.graph.getMemberObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "organization",
       "{organization-id}",
@@ -732,14 +955,12 @@
     "Endpoint": "organization/{organization-id}/microsoft.graph.restore",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/microsoft.graph.restore",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-restore?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/microsoft.graph.restore",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-restore?view=graph-rest-beta",
     "Path": [
       "organization",
       "{organization-id}",
@@ -753,14 +974,12 @@
     "Endpoint": "organization/{organization-id}/microsoft.graph.setMobileDeviceManagementAuthority",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/{organization-id}/microsoft.graph.setMobileDeviceManagementAuthority",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/intune-onboarding-organization-setmobiledevicemanagementauthority?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/microsoft.graph.setMobileDeviceManagementAuthority",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "organization",
       "{organization-id}",
@@ -771,10 +990,38 @@
     "Segment": "microsoft.graph.setMobileDeviceManagementAuthority"
   },
   {
+    "Endpoint": "organization/{organization-id}/partnerInformation",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/intune-onboarding-organization-setmobiledevicemanagementauthority?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/partnerInformation",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "organization",
+      "{organization-id}",
+      "partnerInformation"
+    ],
+    "Root": "organization",
+    "Children": 0,
+    "Segment": "partnerInformation"
+  },
+  {
     "Endpoint": "organization/{organization-id}/settings",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/intune-onboarding-organization-setmobiledevicemanagementauthority?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/settings",
     "Beta-Methods": [
@@ -782,13 +1029,18 @@
       "Patch",
       "Delete"
     ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
     "Path": [
       "organization",
       "{organization-id}",
       "settings"
     ],
     "Root": "organization",
-    "Children": 5,
+    "Children": 4,
     "Segment": "settings"
   },
   {
@@ -796,12 +1048,18 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/intune-onboarding-organization-setmobiledevicemanagementauthority?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/settings/contactInsights",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/organizationsettings-list-contactinsights?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/insightssettings-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "organization",
@@ -818,12 +1076,18 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/intune-onboarding-organization-setmobiledevicemanagementauthority?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/settings/itemInsights",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/organizationsettings-list-iteminsights?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "organization",
@@ -840,12 +1104,18 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/intune-onboarding-organization-setmobiledevicemanagementauthority?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/settings/microsoftApplicationDataAccess",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/organizationsettings-list-microsoftapplicationdataaccess?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/microsoftapplicationdataaccesssettings-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "organization",
@@ -862,12 +1132,18 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/intune-onboarding-organization-setmobiledevicemanagementauthority?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/settings/peopleInsights",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/organizationsettings-list-peopleinsights?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/insightssettings-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "organization",
@@ -880,41 +1156,17 @@
     "Segment": "peopleInsights"
   },
   {
-    "Endpoint": "organization/{organization-id}/settings/profileCardProperties",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "Endpoint": "organization/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/settings/profileCardProperties",
-    "Beta-Methods": [
-      "Get",
-      "Post"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/organization/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "organization",
-      "{organization-id}",
-      "settings",
-      "profileCardProperties"
-    ],
-    "Root": "organization",
-    "Children": 2,
-    "Segment": "profileCardProperties"
-  },
-  {
-    "Endpoint": "organization/{organization-id}/settings/profileCardProperties/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/settings/profileCardProperties/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "organization",
-      "{organization-id}",
-      "settings",
-      "profileCardProperties",
       "$count"
     ],
     "Root": "organization",
@@ -922,38 +1174,33 @@
     "Segment": "$count"
   },
   {
-    "Endpoint": "organization/{organization-id}/settings/profileCardProperties/{profileCardProperty-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "Endpoint": "organization/microsoft.graph.delta()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/microsoft.graph.delta()",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-delta?view=graph-rest-1.0",
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/organization/{organization-id}/settings/profileCardProperties/{profileCardProperty-id}",
-    "Beta-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/organization/microsoft.graph.delta()",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-delta?view=graph-rest-beta",
     "Path": [
       "organization",
-      "{organization-id}",
-      "settings",
-      "profileCardProperties",
-      "{profileCardProperty-id}"
+      "microsoft.graph.delta()"
     ],
     "Root": "organization",
     "Children": 0,
-    "Segment": "{profileCardProperty-id}"
+    "Segment": "microsoft.graph.delta()"
   },
   {
     "Endpoint": "organization/microsoft.graph.getAvailableExtensionProperties",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/microsoft.graph.getAvailableExtensionProperties",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getavailableextensionproperties?view=graph-rest-1.0",
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-delta?view=graph-rest-beta",
     "Path": [
       "organization",
       "microsoft.graph.getAvailableExtensionProperties"
@@ -966,14 +1213,12 @@
     "Endpoint": "organization/microsoft.graph.getByIds",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/microsoft.graph.getByIds",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getbyids?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/microsoft.graph.getByIds",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-getbyids?view=graph-rest-beta",
     "Path": [
       "organization",
       "microsoft.graph.getByIds"
@@ -987,11 +1232,11 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getbyids?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/microsoft.graph.getUserOwnedObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-getuserownedobjects?view=graph-rest-beta",
     "Path": [
       "organization",
       "microsoft.graph.getUserOwnedObjects"
@@ -1004,14 +1249,12 @@
     "Endpoint": "organization/microsoft.graph.validateProperties",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/organization/microsoft.graph.validateProperties",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-validateproperties?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/organization/microsoft.graph.validateProperties",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-validateproperties?view=graph-rest-beta",
     "Path": [
       "organization",
       "microsoft.graph.validateProperties"

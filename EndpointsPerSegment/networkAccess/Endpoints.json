@@ -1,0 +1,2899 @@
+[
+  {
+    "Endpoint": "networkAccess",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess"
+    ],
+    "Root": "networkAccess",
+    "Children": 11,
+    "Segment": "networkAccess"
+  },
+  {
+    "Endpoint": "networkAccess/alerts",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/alerts",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "alerts"
+    ],
+    "Root": "networkAccess",
+    "Children": 4,
+    "Segment": "alerts"
+  },
+  {
+    "Endpoint": "networkAccess/alerts/{alert-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/alerts/{alert-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "alerts",
+      "{alert-id}"
+    ],
+    "Root": "networkAccess",
+    "Children": 1,
+    "Segment": "{alert-id}"
+  },
+  {
+    "Endpoint": "networkAccess/alerts/{alert-id}/policy",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/alerts/{alert-id}/policy",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "alerts",
+      "{alert-id}",
+      "policy"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "policy"
+  },
+  {
+    "Endpoint": "networkAccess/alerts/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/alerts/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "alerts",
+      "$count"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "networkAccess/alerts/microsoft.graph.networkaccess.getAlertFrequencies(startDateTime={startDateTime},endDateTime={endDateTime})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/alerts/microsoft.graph.networkaccess.getAlertFrequencies(startDateTime={startDateTime},endDateTime={endDateTime})",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "alerts",
+      "microsoft.graph.networkaccess.getAlertFrequencies(startDateTime={startDateTime},endDateTime={endDateTime})"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "microsoft.graph.networkaccess.getAlertFrequencies(startDateTime={startDateTime},endDateTime={endDateTime})"
+  },
+  {
+    "Endpoint": "networkAccess/alerts/microsoft.graph.networkaccess.getAlertSeveritySummaries(startDateTime={startDateTime},endDateTime={endDateTime})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/alerts/microsoft.graph.networkaccess.getAlertSeveritySummaries(startDateTime={startDateTime},endDateTime={endDateTime})",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "alerts",
+      "microsoft.graph.networkaccess.getAlertSeveritySummaries(startDateTime={startDateTime},endDateTime={endDateTime})"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "microsoft.graph.networkaccess.getAlertSeveritySummaries(startDateTime={startDateTime},endDateTime={endDateTime})"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "connectivity"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "connectivity"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/branches",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/branches",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/networkaccess-connectivity-list-branches?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/networkaccess-connectivity-post-branches?view=graph-rest-beta"
+    ],
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "branches"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "branches"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/branches/{branchSite-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/branches/{branchSite-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/networkaccess-branchsite-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/networkaccess-branchsite-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/networkaccess-branchsite-delete?view=graph-rest-beta"
+    ],
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "branches",
+      "{branchSite-id}"
+    ],
+    "Root": "networkAccess",
+    "Children": 3,
+    "Segment": "{branchSite-id}"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/branches/{branchSite-id}/connectivityConfiguration",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/branches/{branchSite-id}/connectivityConfiguration",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/networkaccess-branchconnectivityconfiguration-get?view=graph-rest-beta",
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "branches",
+      "{branchSite-id}",
+      "connectivityConfiguration"
+    ],
+    "Root": "networkAccess",
+    "Children": 1,
+    "Segment": "connectivityConfiguration"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/branches/{branchSite-id}/connectivityConfiguration/links",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/branches/{branchSite-id}/connectivityConfiguration/links",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "branches",
+      "{branchSite-id}",
+      "connectivityConfiguration",
+      "links"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "links"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/branches/{branchSite-id}/connectivityConfiguration/links/{connectivityConfigurationLink-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/branches/{branchSite-id}/connectivityConfiguration/links/{connectivityConfigurationLink-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "branches",
+      "{branchSite-id}",
+      "connectivityConfiguration",
+      "links",
+      "{connectivityConfigurationLink-id}"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "{connectivityConfigurationLink-id}"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/branches/{branchSite-id}/connectivityConfiguration/links/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/branches/{branchSite-id}/connectivityConfiguration/links/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "branches",
+      "{branchSite-id}",
+      "connectivityConfiguration",
+      "links",
+      "$count"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/branches/{branchSite-id}/deviceLinks",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/branches/{branchSite-id}/deviceLinks",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/networkaccess-branchsite-list-devicelinks?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/networkaccess-branchsite-post-devicelinks?view=graph-rest-beta"
+    ],
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "branches",
+      "{branchSite-id}",
+      "deviceLinks"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "deviceLinks"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/branches/{branchSite-id}/deviceLinks/{deviceLink-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/branches/{branchSite-id}/deviceLinks/{deviceLink-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/networkaccess-devicelink-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/networkaccess-branchsite-delete-devicelinks?view=graph-rest-beta"
+    ],
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "branches",
+      "{branchSite-id}",
+      "deviceLinks",
+      "{deviceLink-id}"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "{deviceLink-id}"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/branches/{branchSite-id}/deviceLinks/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/branches/{branchSite-id}/deviceLinks/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "branches",
+      "{branchSite-id}",
+      "deviceLinks",
+      "$count"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/branches/{branchSite-id}/forwardingProfiles",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/branches/{branchSite-id}/forwardingProfiles",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/networkaccess-branchsite-list-forwardingprofiles?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "branches",
+      "{branchSite-id}",
+      "forwardingProfiles"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "forwardingProfiles"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/branches/{branchSite-id}/forwardingProfiles/{forwardingProfile-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/branches/{branchSite-id}/forwardingProfiles/{forwardingProfile-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "branches",
+      "{branchSite-id}",
+      "forwardingProfiles",
+      "{forwardingProfile-id}"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "{forwardingProfile-id}"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/branches/{branchSite-id}/forwardingProfiles/{forwardingProfile-id}/policies",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/branches/{branchSite-id}/forwardingProfiles/{forwardingProfile-id}/policies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "branches",
+      "{branchSite-id}",
+      "forwardingProfiles",
+      "{forwardingProfile-id}",
+      "policies"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "policies"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/branches/{branchSite-id}/forwardingProfiles/{forwardingProfile-id}/policies/{policyLink-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/branches/{branchSite-id}/forwardingProfiles/{forwardingProfile-id}/policies/{policyLink-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "branches",
+      "{branchSite-id}",
+      "forwardingProfiles",
+      "{forwardingProfile-id}",
+      "policies",
+      "{policyLink-id}"
+    ],
+    "Root": "networkAccess",
+    "Children": 1,
+    "Segment": "{policyLink-id}"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/branches/{branchSite-id}/forwardingProfiles/{forwardingProfile-id}/policies/{policyLink-id}/policy",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/branches/{branchSite-id}/forwardingProfiles/{forwardingProfile-id}/policies/{policyLink-id}/policy",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "branches",
+      "{branchSite-id}",
+      "forwardingProfiles",
+      "{forwardingProfile-id}",
+      "policies",
+      "{policyLink-id}",
+      "policy"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "policy"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/branches/{branchSite-id}/forwardingProfiles/{forwardingProfile-id}/policies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/branches/{branchSite-id}/forwardingProfiles/{forwardingProfile-id}/policies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "branches",
+      "{branchSite-id}",
+      "forwardingProfiles",
+      "{forwardingProfile-id}",
+      "policies",
+      "$count"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/branches/{branchSite-id}/forwardingProfiles/{forwardingProfile-id}/servicePrincipal",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/branches/{branchSite-id}/forwardingProfiles/{forwardingProfile-id}/servicePrincipal",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "branches",
+      "{branchSite-id}",
+      "forwardingProfiles",
+      "{forwardingProfile-id}",
+      "servicePrincipal"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "servicePrincipal"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/branches/{branchSite-id}/forwardingProfiles/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/branches/{branchSite-id}/forwardingProfiles/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "branches",
+      "{branchSite-id}",
+      "forwardingProfiles",
+      "$count"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/branches/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/branches/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "branches",
+      "$count"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/remoteNetworks",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/remoteNetworks",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/networkaccess-connectivity-post-remotenetworks?view=graph-rest-beta"
+    ],
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "remoteNetworks"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "remoteNetworks"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "remoteNetworks",
+      "{remoteNetwork-id}"
+    ],
+    "Root": "networkAccess",
+    "Children": 3,
+    "Segment": "{remoteNetwork-id}"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/connectivityConfiguration",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/connectivityConfiguration",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "remoteNetworks",
+      "{remoteNetwork-id}",
+      "connectivityConfiguration"
+    ],
+    "Root": "networkAccess",
+    "Children": 1,
+    "Segment": "connectivityConfiguration"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/connectivityConfiguration/links",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/connectivityConfiguration/links",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "remoteNetworks",
+      "{remoteNetwork-id}",
+      "connectivityConfiguration",
+      "links"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "links"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/connectivityConfiguration/links/{connectivityConfigurationLink-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/connectivityConfiguration/links/{connectivityConfigurationLink-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "remoteNetworks",
+      "{remoteNetwork-id}",
+      "connectivityConfiguration",
+      "links",
+      "{connectivityConfigurationLink-id}"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "{connectivityConfigurationLink-id}"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/connectivityConfiguration/links/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/connectivityConfiguration/links/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "remoteNetworks",
+      "{remoteNetwork-id}",
+      "connectivityConfiguration",
+      "links",
+      "$count"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/deviceLinks",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/deviceLinks",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "remoteNetworks",
+      "{remoteNetwork-id}",
+      "deviceLinks"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "deviceLinks"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/deviceLinks/{deviceLink-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/deviceLinks/{deviceLink-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/networkaccess-devicelink-get?view=graph-rest-beta",
+      null,
+      "https://learn.microsoft.com/graph/api/networkaccess-devicelink-delete?view=graph-rest-beta"
+    ],
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "remoteNetworks",
+      "{remoteNetwork-id}",
+      "deviceLinks",
+      "{deviceLink-id}"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "{deviceLink-id}"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/deviceLinks/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/deviceLinks/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "remoteNetworks",
+      "{remoteNetwork-id}",
+      "deviceLinks",
+      "$count"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/forwardingProfiles",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/forwardingProfiles",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "remoteNetworks",
+      "{remoteNetwork-id}",
+      "forwardingProfiles"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "forwardingProfiles"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/forwardingProfiles/{forwardingProfile-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/forwardingProfiles/{forwardingProfile-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "remoteNetworks",
+      "{remoteNetwork-id}",
+      "forwardingProfiles",
+      "{forwardingProfile-id}"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "{forwardingProfile-id}"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/forwardingProfiles/{forwardingProfile-id}/policies",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/forwardingProfiles/{forwardingProfile-id}/policies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "remoteNetworks",
+      "{remoteNetwork-id}",
+      "forwardingProfiles",
+      "{forwardingProfile-id}",
+      "policies"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "policies"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/forwardingProfiles/{forwardingProfile-id}/policies/{policyLink-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/forwardingProfiles/{forwardingProfile-id}/policies/{policyLink-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "remoteNetworks",
+      "{remoteNetwork-id}",
+      "forwardingProfiles",
+      "{forwardingProfile-id}",
+      "policies",
+      "{policyLink-id}"
+    ],
+    "Root": "networkAccess",
+    "Children": 1,
+    "Segment": "{policyLink-id}"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/forwardingProfiles/{forwardingProfile-id}/policies/{policyLink-id}/policy",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/forwardingProfiles/{forwardingProfile-id}/policies/{policyLink-id}/policy",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "remoteNetworks",
+      "{remoteNetwork-id}",
+      "forwardingProfiles",
+      "{forwardingProfile-id}",
+      "policies",
+      "{policyLink-id}",
+      "policy"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "policy"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/forwardingProfiles/{forwardingProfile-id}/policies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/forwardingProfiles/{forwardingProfile-id}/policies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "remoteNetworks",
+      "{remoteNetwork-id}",
+      "forwardingProfiles",
+      "{forwardingProfile-id}",
+      "policies",
+      "$count"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/forwardingProfiles/{forwardingProfile-id}/servicePrincipal",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/forwardingProfiles/{forwardingProfile-id}/servicePrincipal",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "remoteNetworks",
+      "{remoteNetwork-id}",
+      "forwardingProfiles",
+      "{forwardingProfile-id}",
+      "servicePrincipal"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "servicePrincipal"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/forwardingProfiles/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/remoteNetworks/{remoteNetwork-id}/forwardingProfiles/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "remoteNetworks",
+      "{remoteNetwork-id}",
+      "forwardingProfiles",
+      "$count"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "networkAccess/connectivity/remoteNetworks/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/connectivity/remoteNetworks/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "connectivity",
+      "remoteNetworks",
+      "$count"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "networkAccess/filteringPolicies",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/filteringPolicies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/networkaccess-networkaccessroot-list-filteringpolicies?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "filteringPolicies"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "filteringPolicies"
+  },
+  {
+    "Endpoint": "networkAccess/filteringPolicies/{filteringPolicy-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/filteringPolicies/{filteringPolicy-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/networkaccess-filteringpolicy-get?view=graph-rest-beta",
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "filteringPolicies",
+      "{filteringPolicy-id}"
+    ],
+    "Root": "networkAccess",
+    "Children": 1,
+    "Segment": "{filteringPolicy-id}"
+  },
+  {
+    "Endpoint": "networkAccess/filteringPolicies/{filteringPolicy-id}/policyRules",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/filteringPolicies/{filteringPolicy-id}/policyRules",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "filteringPolicies",
+      "{filteringPolicy-id}",
+      "policyRules"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "policyRules"
+  },
+  {
+    "Endpoint": "networkAccess/filteringPolicies/{filteringPolicy-id}/policyRules/{policyRule-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/filteringPolicies/{filteringPolicy-id}/policyRules/{policyRule-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "filteringPolicies",
+      "{filteringPolicy-id}",
+      "policyRules",
+      "{policyRule-id}"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "{policyRule-id}"
+  },
+  {
+    "Endpoint": "networkAccess/filteringPolicies/{filteringPolicy-id}/policyRules/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/filteringPolicies/{filteringPolicy-id}/policyRules/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "filteringPolicies",
+      "{filteringPolicy-id}",
+      "policyRules",
+      "$count"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "networkAccess/filteringPolicies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/filteringPolicies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "filteringPolicies",
+      "$count"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "networkAccess/filteringProfiles",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/filteringProfiles",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/networkaccess-filteringprofile-list?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "filteringProfiles"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "filteringProfiles"
+  },
+  {
+    "Endpoint": "networkAccess/filteringProfiles/{filteringProfile-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/filteringProfiles/{filteringProfile-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/networkaccess-filteringprofile-update?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "filteringProfiles",
+      "{filteringProfile-id}"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "{filteringProfile-id}"
+  },
+  {
+    "Endpoint": "networkAccess/filteringProfiles/{filteringProfile-id}/conditionalAccessPolicies",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/filteringProfiles/{filteringProfile-id}/conditionalAccessPolicies",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "filteringProfiles",
+      "{filteringProfile-id}",
+      "conditionalAccessPolicies"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "conditionalAccessPolicies"
+  },
+  {
+    "Endpoint": "networkAccess/filteringProfiles/{filteringProfile-id}/conditionalAccessPolicies/{conditionalAccessPolicy-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/filteringProfiles/{filteringProfile-id}/conditionalAccessPolicies/{conditionalAccessPolicy-id}",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "filteringProfiles",
+      "{filteringProfile-id}",
+      "conditionalAccessPolicies",
+      "{conditionalAccessPolicy-id}"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "{conditionalAccessPolicy-id}"
+  },
+  {
+    "Endpoint": "networkAccess/filteringProfiles/{filteringProfile-id}/conditionalAccessPolicies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/filteringProfiles/{filteringProfile-id}/conditionalAccessPolicies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "filteringProfiles",
+      "{filteringProfile-id}",
+      "conditionalAccessPolicies",
+      "$count"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "networkAccess/filteringProfiles/{filteringProfile-id}/policies",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/filteringProfiles/{filteringProfile-id}/policies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "filteringProfiles",
+      "{filteringProfile-id}",
+      "policies"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "policies"
+  },
+  {
+    "Endpoint": "networkAccess/filteringProfiles/{filteringProfile-id}/policies/{policyLink-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/filteringProfiles/{filteringProfile-id}/policies/{policyLink-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "filteringProfiles",
+      "{filteringProfile-id}",
+      "policies",
+      "{policyLink-id}"
+    ],
+    "Root": "networkAccess",
+    "Children": 1,
+    "Segment": "{policyLink-id}"
+  },
+  {
+    "Endpoint": "networkAccess/filteringProfiles/{filteringProfile-id}/policies/{policyLink-id}/policy",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/filteringProfiles/{filteringProfile-id}/policies/{policyLink-id}/policy",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "filteringProfiles",
+      "{filteringProfile-id}",
+      "policies",
+      "{policyLink-id}",
+      "policy"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "policy"
+  },
+  {
+    "Endpoint": "networkAccess/filteringProfiles/{filteringProfile-id}/policies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/filteringProfiles/{filteringProfile-id}/policies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "filteringProfiles",
+      "{filteringProfile-id}",
+      "policies",
+      "$count"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "networkAccess/filteringProfiles/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/filteringProfiles/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "filteringProfiles",
+      "$count"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "networkAccess/forwardingPolicies",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/forwardingPolicies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/networkaccess-networkaccessroot-list-forwardingpolicies?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "forwardingPolicies"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "forwardingPolicies"
+  },
+  {
+    "Endpoint": "networkAccess/forwardingPolicies/{forwardingPolicy-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/forwardingPolicies/{forwardingPolicy-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/networkaccess-forwardingpolicy-get?view=graph-rest-beta",
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "forwardingPolicies",
+      "{forwardingPolicy-id}"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "{forwardingPolicy-id}"
+  },
+  {
+    "Endpoint": "networkAccess/forwardingPolicies/{forwardingPolicy-id}/microsoft.graph.networkaccess.updatePolicyRules",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/forwardingPolicies/{forwardingPolicy-id}/microsoft.graph.networkaccess.updatePolicyRules",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/networkaccess-forwardingpolicy-updatepolicyrules?view=graph-rest-beta",
+    "Path": [
+      "networkAccess",
+      "forwardingPolicies",
+      "{forwardingPolicy-id}",
+      "microsoft.graph.networkaccess.updatePolicyRules"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "microsoft.graph.networkaccess.updatePolicyRules"
+  },
+  {
+    "Endpoint": "networkAccess/forwardingPolicies/{forwardingPolicy-id}/policyRules",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/forwardingPolicies/{forwardingPolicy-id}/policyRules",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "forwardingPolicies",
+      "{forwardingPolicy-id}",
+      "policyRules"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "policyRules"
+  },
+  {
+    "Endpoint": "networkAccess/forwardingPolicies/{forwardingPolicy-id}/policyRules/{policyRule-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/forwardingPolicies/{forwardingPolicy-id}/policyRules/{policyRule-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/networkaccess-policyrule-update?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "forwardingPolicies",
+      "{forwardingPolicy-id}",
+      "policyRules",
+      "{policyRule-id}"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "{policyRule-id}"
+  },
+  {
+    "Endpoint": "networkAccess/forwardingPolicies/{forwardingPolicy-id}/policyRules/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/forwardingPolicies/{forwardingPolicy-id}/policyRules/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "forwardingPolicies",
+      "{forwardingPolicy-id}",
+      "policyRules",
+      "$count"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "networkAccess/forwardingPolicies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/forwardingPolicies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "forwardingPolicies",
+      "$count"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "networkAccess/forwardingProfiles",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/forwardingProfiles",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/networkaccess-networkaccessroot-list-forwardingprofiles?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "forwardingProfiles"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "forwardingProfiles"
+  },
+  {
+    "Endpoint": "networkAccess/forwardingProfiles/{forwardingProfile-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/forwardingProfiles/{forwardingProfile-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/networkaccess-forwardingprofile-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/networkaccess-forwardingprofile-update?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "forwardingProfiles",
+      "{forwardingProfile-id}"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "{forwardingProfile-id}"
+  },
+  {
+    "Endpoint": "networkAccess/forwardingProfiles/{forwardingProfile-id}/policies",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/forwardingProfiles/{forwardingProfile-id}/policies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/networkaccess-forwardingprofile-list-policies?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "forwardingProfiles",
+      "{forwardingProfile-id}",
+      "policies"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "policies"
+  },
+  {
+    "Endpoint": "networkAccess/forwardingProfiles/{forwardingProfile-id}/policies/{policyLink-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/forwardingProfiles/{forwardingProfile-id}/policies/{policyLink-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/networkaccess-forwardingpolicylink-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/networkaccess-forwardingpolicylink-update?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "forwardingProfiles",
+      "{forwardingProfile-id}",
+      "policies",
+      "{policyLink-id}"
+    ],
+    "Root": "networkAccess",
+    "Children": 1,
+    "Segment": "{policyLink-id}"
+  },
+  {
+    "Endpoint": "networkAccess/forwardingProfiles/{forwardingProfile-id}/policies/{policyLink-id}/policy",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/forwardingProfiles/{forwardingProfile-id}/policies/{policyLink-id}/policy",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "forwardingProfiles",
+      "{forwardingProfile-id}",
+      "policies",
+      "{policyLink-id}",
+      "policy"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "policy"
+  },
+  {
+    "Endpoint": "networkAccess/forwardingProfiles/{forwardingProfile-id}/policies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/forwardingProfiles/{forwardingProfile-id}/policies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "forwardingProfiles",
+      "{forwardingProfile-id}",
+      "policies",
+      "$count"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "networkAccess/forwardingProfiles/{forwardingProfile-id}/servicePrincipal",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/forwardingProfiles/{forwardingProfile-id}/servicePrincipal",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "forwardingProfiles",
+      "{forwardingProfile-id}",
+      "servicePrincipal"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "servicePrincipal"
+  },
+  {
+    "Endpoint": "networkAccess/forwardingProfiles/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/forwardingProfiles/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "forwardingProfiles",
+      "$count"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "networkAccess/logs",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/logs",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "logs"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "logs"
+  },
+  {
+    "Endpoint": "networkAccess/logs/remoteNetworks",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/logs/remoteNetworks",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "logs",
+      "remoteNetworks"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "remoteNetworks"
+  },
+  {
+    "Endpoint": "networkAccess/logs/remoteNetworks/{remoteNetworkHealthEvent-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/logs/remoteNetworks/{remoteNetworkHealthEvent-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "logs",
+      "remoteNetworks",
+      "{remoteNetworkHealthEvent-id}"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "{remoteNetworkHealthEvent-id}"
+  },
+  {
+    "Endpoint": "networkAccess/logs/remoteNetworks/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/logs/remoteNetworks/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "logs",
+      "remoteNetworks",
+      "$count"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "networkAccess/logs/traffic",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/logs/traffic",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/networkaccess-logs-list-traffic?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "logs",
+      "traffic"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "traffic"
+  },
+  {
+    "Endpoint": "networkAccess/logs/traffic/{networkAccessTraffic-transactionId}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/logs/traffic/{networkAccessTraffic-transactionId}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "logs",
+      "traffic",
+      "{networkAccessTraffic-transactionId}"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "{networkAccessTraffic-transactionId}"
+  },
+  {
+    "Endpoint": "networkAccess/logs/traffic/{networkAccessTraffic-transactionId}/device",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/logs/traffic/{networkAccessTraffic-transactionId}/device",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "logs",
+      "traffic",
+      "{networkAccessTraffic-transactionId}",
+      "device"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "device"
+  },
+  {
+    "Endpoint": "networkAccess/logs/traffic/{networkAccessTraffic-transactionId}/user",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/logs/traffic/{networkAccessTraffic-transactionId}/user",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "logs",
+      "traffic",
+      "{networkAccessTraffic-transactionId}",
+      "user"
+    ],
+    "Root": "networkAccess",
+    "Children": 2,
+    "Segment": "user"
+  },
+  {
+    "Endpoint": "networkAccess/logs/traffic/{networkAccessTraffic-transactionId}/user/mailboxSettings",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/logs/traffic/{networkAccessTraffic-transactionId}/user/mailboxSettings",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "logs",
+      "traffic",
+      "{networkAccessTraffic-transactionId}",
+      "user",
+      "mailboxSettings"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "mailboxSettings"
+  },
+  {
+    "Endpoint": "networkAccess/logs/traffic/{networkAccessTraffic-transactionId}/user/serviceProvisioningErrors",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/logs/traffic/{networkAccessTraffic-transactionId}/user/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "logs",
+      "traffic",
+      "{networkAccessTraffic-transactionId}",
+      "user",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "networkAccess",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "networkAccess/logs/traffic/{networkAccessTraffic-transactionId}/user/serviceProvisioningErrors/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/logs/traffic/{networkAccessTraffic-transactionId}/user/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "logs",
+      "traffic",
+      "{networkAccessTraffic-transactionId}",
+      "user",
+      "serviceProvisioningErrors",
+      "$count"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "networkAccess/logs/traffic/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/logs/traffic/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "logs",
+      "traffic",
+      "$count"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "networkAccess/microsoft.graph.networkaccess.onboard",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/microsoft.graph.networkaccess.onboard",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "microsoft.graph.networkaccess.onboard"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "microsoft.graph.networkaccess.onboard"
+  },
+  {
+    "Endpoint": "networkAccess/reports",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/reports",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "reports"
+    ],
+    "Root": "networkAccess",
+    "Children": 12,
+    "Segment": "reports"
+  },
+  {
+    "Endpoint": "networkAccess/reports/microsoft.graph.networkaccess.crossTenantAccessReport(startDateTime={startDateTime},endDateTime={endDateTime})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/reports/microsoft.graph.networkaccess.crossTenantAccessReport(startDateTime={startDateTime},endDateTime={endDateTime})",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "reports",
+      "microsoft.graph.networkaccess.crossTenantAccessReport(startDateTime={startDateTime},endDateTime={endDateTime})"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "microsoft.graph.networkaccess.crossTenantAccessReport(startDateTime={startDateTime},endDateTime={endDateTime})"
+  },
+  {
+    "Endpoint": "networkAccess/reports/microsoft.graph.networkaccess.destinationReport(startDateTime={startDateTime},endDateTime={endDateTime})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/reports/microsoft.graph.networkaccess.destinationReport(startDateTime={startDateTime},endDateTime={endDateTime})",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "reports",
+      "microsoft.graph.networkaccess.destinationReport(startDateTime={startDateTime},endDateTime={endDateTime})"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "microsoft.graph.networkaccess.destinationReport(startDateTime={startDateTime},endDateTime={endDateTime})"
+  },
+  {
+    "Endpoint": "networkAccess/reports/microsoft.graph.networkaccess.deviceReport(startDateTime={startDateTime},endDateTime={endDateTime})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/reports/microsoft.graph.networkaccess.deviceReport(startDateTime={startDateTime},endDateTime={endDateTime})",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "reports",
+      "microsoft.graph.networkaccess.deviceReport(startDateTime={startDateTime},endDateTime={endDateTime})"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "microsoft.graph.networkaccess.deviceReport(startDateTime={startDateTime},endDateTime={endDateTime})"
+  },
+  {
+    "Endpoint": "networkAccess/reports/microsoft.graph.networkaccess.entitiesSummaries(startDateTime={startDateTime},endDateTime={endDateTime})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/reports/microsoft.graph.networkaccess.entitiesSummaries(startDateTime={startDateTime},endDateTime={endDateTime})",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/networkaccess-reports-entitiessummaries?view=graph-rest-beta",
+    "Path": [
+      "networkAccess",
+      "reports",
+      "microsoft.graph.networkaccess.entitiesSummaries(startDateTime={startDateTime},endDateTime={endDateTime})"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "microsoft.graph.networkaccess.entitiesSummaries(startDateTime={startDateTime},endDateTime={endDateTime})"
+  },
+  {
+    "Endpoint": "networkAccess/reports/microsoft.graph.networkaccess.getCrossTenantSummary(startDateTime={startDateTime},endDateTime={endDateTime},discoveryPivotDateTime={discoveryPivotDateTime})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/reports/microsoft.graph.networkaccess.getCrossTenantSummary(startDateTime={startDateTime},endDateTime={endDateTime},discoveryPivotDateTime={discoveryPivotDateTime})",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "reports",
+      "microsoft.graph.networkaccess.getCrossTenantSummary(startDateTime={startDateTime},endDateTime={endDateTime},discoveryPivotDateTime={discoveryPivotDateTime})"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "microsoft.graph.networkaccess.getCrossTenantSummary(startDateTime={startDateTime},endDateTime={endDateTime},discoveryPivotDateTime={discoveryPivotDateTime})"
+  },
+  {
+    "Endpoint": "networkAccess/reports/microsoft.graph.networkaccess.getDestinationSummaries(startDateTime={startDateTime},endDateTime={endDateTime},aggregatedBy='{aggregatedBy}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/reports/microsoft.graph.networkaccess.getDestinationSummaries(startDateTime={startDateTime},endDateTime={endDateTime},aggregatedBy='{aggregatedBy}')",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "reports",
+      "microsoft.graph.networkaccess.getDestinationSummaries(startDateTime={startDateTime},endDateTime={endDateTime},aggregatedBy='{aggregatedBy}')"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "microsoft.graph.networkaccess.getDestinationSummaries(startDateTime={startDateTime},endDateTime={endDateTime},aggregatedBy='{aggregatedBy}')"
+  },
+  {
+    "Endpoint": "networkAccess/reports/microsoft.graph.networkaccess.getDeviceUsageSummary(startDateTime={startDateTime},endDateTime={endDateTime},activityPivotDateTime={activityPivotDateTime})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/reports/microsoft.graph.networkaccess.getDeviceUsageSummary(startDateTime={startDateTime},endDateTime={endDateTime},activityPivotDateTime={activityPivotDateTime})",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "reports",
+      "microsoft.graph.networkaccess.getDeviceUsageSummary(startDateTime={startDateTime},endDateTime={endDateTime},activityPivotDateTime={activityPivotDateTime})"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "microsoft.graph.networkaccess.getDeviceUsageSummary(startDateTime={startDateTime},endDateTime={endDateTime},activityPivotDateTime={activityPivotDateTime})"
+  },
+  {
+    "Endpoint": "networkAccess/reports/microsoft.graph.networkaccess.getDiscoveredApplicationSegmentReport(startDateTime={startDateTime},endDateTime={endDateTime},userId='@userId')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/reports/microsoft.graph.networkaccess.getDiscoveredApplicationSegmentReport(startDateTime={startDateTime},endDateTime={endDateTime},userId='@userId')",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "reports",
+      "microsoft.graph.networkaccess.getDiscoveredApplicationSegmentReport(startDateTime={startDateTime},endDateTime={endDateTime},userId='@userId')"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "microsoft.graph.networkaccess.getDiscoveredApplicationSegmentReport(startDateTime={startDateTime},endDateTime={endDateTime},userId='@userId')"
+  },
+  {
+    "Endpoint": "networkAccess/reports/microsoft.graph.networkaccess.transactionSummaries(startDateTime={startDateTime},endDateTime={endDateTime})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/reports/microsoft.graph.networkaccess.transactionSummaries(startDateTime={startDateTime},endDateTime={endDateTime})",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/networkaccess-reports-transactionsummaries?view=graph-rest-beta",
+    "Path": [
+      "networkAccess",
+      "reports",
+      "microsoft.graph.networkaccess.transactionSummaries(startDateTime={startDateTime},endDateTime={endDateTime})"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "microsoft.graph.networkaccess.transactionSummaries(startDateTime={startDateTime},endDateTime={endDateTime})"
+  },
+  {
+    "Endpoint": "networkAccess/reports/microsoft.graph.networkaccess.usageProfiling(startDateTime={startDateTime},endDateTime={endDateTime},aggregatedBy='{aggregatedBy}',discoveredApplicationSegmentId='@discoveredApplicationSegmentId')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/reports/microsoft.graph.networkaccess.usageProfiling(startDateTime={startDateTime},endDateTime={endDateTime},aggregatedBy='{aggregatedBy}',discoveredApplicationSegmentId='@discoveredApplicationSegmentId')",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "reports",
+      "microsoft.graph.networkaccess.usageProfiling(startDateTime={startDateTime},endDateTime={endDateTime},aggregatedBy='{aggregatedBy}',discoveredApplicationSegmentId='@discoveredApplicationSegmentId')"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "microsoft.graph.networkaccess.usageProfiling(startDateTime={startDateTime},endDateTime={endDateTime},aggregatedBy='{aggregatedBy}',discoveredApplicationSegmentId='@discoveredApplicationSegmentId')"
+  },
+  {
+    "Endpoint": "networkAccess/reports/microsoft.graph.networkaccess.userReport(startDateTime={startDateTime},endDateTime={endDateTime},discoveredApplicationSegmentId='@discoveredApplicationSegmentId')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/reports/microsoft.graph.networkaccess.userReport(startDateTime={startDateTime},endDateTime={endDateTime},discoveredApplicationSegmentId='@discoveredApplicationSegmentId')",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "reports",
+      "microsoft.graph.networkaccess.userReport(startDateTime={startDateTime},endDateTime={endDateTime},discoveredApplicationSegmentId='@discoveredApplicationSegmentId')"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "microsoft.graph.networkaccess.userReport(startDateTime={startDateTime},endDateTime={endDateTime},discoveredApplicationSegmentId='@discoveredApplicationSegmentId')"
+  },
+  {
+    "Endpoint": "networkAccess/reports/microsoft.graph.networkaccess.webCategoryReport(startDateTime={startDateTime},endDateTime={endDateTime})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/reports/microsoft.graph.networkaccess.webCategoryReport(startDateTime={startDateTime},endDateTime={endDateTime})",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "networkAccess",
+      "reports",
+      "microsoft.graph.networkaccess.webCategoryReport(startDateTime={startDateTime},endDateTime={endDateTime})"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "microsoft.graph.networkaccess.webCategoryReport(startDateTime={startDateTime},endDateTime={endDateTime})"
+  },
+  {
+    "Endpoint": "networkAccess/settings",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/settings",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "settings"
+    ],
+    "Root": "networkAccess",
+    "Children": 4,
+    "Segment": "settings"
+  },
+  {
+    "Endpoint": "networkAccess/settings/conditionalAccess",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/settings/conditionalAccess",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/networkaccess-conditionalaccesssettings-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/networkaccess-conditionalaccesssettings-update?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "settings",
+      "conditionalAccess"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "conditionalAccess"
+  },
+  {
+    "Endpoint": "networkAccess/settings/crossTenantAccess",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/settings/crossTenantAccess",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/networkaccess-crosstenantaccesssettings-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/networkaccess-crosstenantaccesssettings-update?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "settings",
+      "crossTenantAccess"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "crossTenantAccess"
+  },
+  {
+    "Endpoint": "networkAccess/settings/enrichedAuditLogs",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/settings/enrichedAuditLogs",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/networkaccess-enrichedauditlogs-update?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "settings",
+      "enrichedAuditLogs"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "enrichedAuditLogs"
+  },
+  {
+    "Endpoint": "networkAccess/settings/forwardingOptions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/settings/forwardingOptions",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/networkaccess-forwardingoptions-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/networkaccess-forwardingoptions-update?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "settings",
+      "forwardingOptions"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "forwardingOptions"
+  },
+  {
+    "Endpoint": "networkAccess/tenantStatus",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/user-list-manager?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/user-update?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/networkAccess/tenantStatus",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/networkaccess-tenantstatus-get?view=graph-rest-beta",
+      null,
+      null
+    ],
+    "Path": [
+      "networkAccess",
+      "tenantStatus"
+    ],
+    "Root": "networkAccess",
+    "Children": 0,
+    "Segment": "tenantStatus"
+  }
+]

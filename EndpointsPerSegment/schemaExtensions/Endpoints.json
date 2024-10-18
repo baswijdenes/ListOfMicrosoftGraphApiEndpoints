@@ -7,11 +7,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/schemaextension-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/schemaextension-post-schemaextensions?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/schemaExtensions",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/schemaextension-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/schemaextension-post-schemaextensions?view=graph-rest-beta"
     ],
     "Path": [
       "schemaExtensions"
@@ -19,26 +27,6 @@
     "Root": "schemaExtensions",
     "Children": 2,
     "Segment": "schemaExtensions"
-  },
-  {
-    "Endpoint": "schemaExtensions/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/schemaExtensions/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/schemaExtensions/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "schemaExtensions",
-      "$count"
-    ],
-    "Root": "schemaExtensions",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "schemaExtensions/{schemaExtension-id}",
@@ -49,12 +37,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/schemaextension-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/schemaextension-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/schemaextension-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/schemaExtensions/{schemaExtension-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/schemaextension-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/schemaextension-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/schemaextension-delete?view=graph-rest-beta"
     ],
     "Path": [
       "schemaExtensions",
@@ -63,5 +61,23 @@
     "Root": "schemaExtensions",
     "Children": 0,
     "Segment": "{schemaExtension-id}"
+  },
+  {
+    "Endpoint": "schemaExtensions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/schemaExtensions/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/schemaExtensions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "schemaExtensions",
+      "$count"
+    ],
+    "Root": "schemaExtensions",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

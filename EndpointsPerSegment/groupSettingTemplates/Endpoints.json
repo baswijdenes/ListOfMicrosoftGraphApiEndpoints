@@ -7,33 +7,23 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/groupsettingtemplate-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/group-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/group-upsert?view=graph-rest-beta"
+    ],
     "Path": [
       "groupSettingTemplates"
     ],
     "Root": "groupSettingTemplates",
-    "Children": 5,
+    "Children": 6,
     "Segment": "groupSettingTemplates"
-  },
-  {
-    "Endpoint": "groupSettingTemplates/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettingTemplates/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": false,
-    "Beta-Url": null,
-    "Beta-Methods": null,
-    "Path": [
-      "groupSettingTemplates",
-      "$count"
-    ],
-    "Root": "groupSettingTemplates",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "groupSettingTemplates/{groupSettingTemplate-id}",
@@ -44,9 +34,18 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/groupsettingtemplate-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/group-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/group-upsert?view=graph-rest-beta"
+    ],
     "Path": [
       "groupSettingTemplates",
       "{groupSettingTemplate-id}"
@@ -59,12 +58,15 @@
     "Endpoint": "groupSettingTemplates/{groupSettingTemplate-id}/microsoft.graph.checkMemberGroups",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettingTemplates/{groupSettingTemplate-id}/microsoft.graph.checkMemberGroups",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-checkmembergroups?view=graph-rest-1.0",
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/group-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/group-upsert?view=graph-rest-beta"
+    ],
     "Path": [
       "groupSettingTemplates",
       "{groupSettingTemplate-id}",
@@ -78,12 +80,15 @@
     "Endpoint": "groupSettingTemplates/{groupSettingTemplate-id}/microsoft.graph.checkMemberObjects",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettingTemplates/{groupSettingTemplate-id}/microsoft.graph.checkMemberObjects",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/group-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/group-upsert?view=graph-rest-beta"
+    ],
     "Path": [
       "groupSettingTemplates",
       "{groupSettingTemplate-id}",
@@ -97,12 +102,15 @@
     "Endpoint": "groupSettingTemplates/{groupSettingTemplate-id}/microsoft.graph.getMemberGroups",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettingTemplates/{groupSettingTemplate-id}/microsoft.graph.getMemberGroups",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getmembergroups?view=graph-rest-1.0",
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/group-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/group-upsert?view=graph-rest-beta"
+    ],
     "Path": [
       "groupSettingTemplates",
       "{groupSettingTemplate-id}",
@@ -116,12 +124,15 @@
     "Endpoint": "groupSettingTemplates/{groupSettingTemplate-id}/microsoft.graph.getMemberObjects",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettingTemplates/{groupSettingTemplate-id}/microsoft.graph.getMemberObjects",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getmemberobjects?view=graph-rest-1.0",
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/group-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/group-upsert?view=graph-rest-beta"
+    ],
     "Path": [
       "groupSettingTemplates",
       "{groupSettingTemplate-id}",
@@ -135,12 +146,15 @@
     "Endpoint": "groupSettingTemplates/{groupSettingTemplate-id}/microsoft.graph.restore",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettingTemplates/{groupSettingTemplate-id}/microsoft.graph.restore",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-restore?view=graph-rest-1.0",
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/group-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/group-upsert?view=graph-rest-beta"
+    ],
     "Path": [
       "groupSettingTemplates",
       "{groupSettingTemplate-id}",
@@ -151,15 +165,60 @@
     "Segment": "microsoft.graph.restore"
   },
   {
-    "Endpoint": "groupSettingTemplates/microsoft.graph.getAvailableExtensionProperties",
+    "Endpoint": "groupSettingTemplates/$count",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettingTemplates/microsoft.graph.getAvailableExtensionProperties",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettingTemplates/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/group-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/group-upsert?view=graph-rest-beta"
+    ],
+    "Path": [
+      "groupSettingTemplates",
+      "$count"
+    ],
+    "Root": "groupSettingTemplates",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "groupSettingTemplates/microsoft.graph.delta()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettingTemplates/microsoft.graph.delta()",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-delta?view=graph-rest-1.0",
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/group-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/group-upsert?view=graph-rest-beta"
+    ],
+    "Path": [
+      "groupSettingTemplates",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "groupSettingTemplates",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "groupSettingTemplates/microsoft.graph.getAvailableExtensionProperties",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettingTemplates/microsoft.graph.getAvailableExtensionProperties",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getavailableextensionproperties?view=graph-rest-1.0",
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/group-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/group-upsert?view=graph-rest-beta"
+    ],
     "Path": [
       "groupSettingTemplates",
       "microsoft.graph.getAvailableExtensionProperties"
@@ -172,12 +231,15 @@
     "Endpoint": "groupSettingTemplates/microsoft.graph.getByIds",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettingTemplates/microsoft.graph.getByIds",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getbyids?view=graph-rest-1.0",
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/group-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/group-upsert?view=graph-rest-beta"
+    ],
     "Path": [
       "groupSettingTemplates",
       "microsoft.graph.getByIds"
@@ -190,12 +252,15 @@
     "Endpoint": "groupSettingTemplates/microsoft.graph.validateProperties",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettingTemplates/microsoft.graph.validateProperties",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-validateproperties?view=graph-rest-1.0",
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/group-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/group-upsert?view=graph-rest-beta"
+    ],
     "Path": [
       "groupSettingTemplates",
       "microsoft.graph.validateProperties"

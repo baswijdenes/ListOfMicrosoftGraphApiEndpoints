@@ -7,33 +7,23 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/group-list-settings?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/group-post-settings?view=graph-rest-1.0"
+    ],
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/group-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/group-upsert?view=graph-rest-beta"
+    ],
     "Path": [
       "groupSettings"
     ],
     "Root": "groupSettings",
     "Children": 2,
     "Segment": "groupSettings"
-  },
-  {
-    "Endpoint": "groupSettings/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettings/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": false,
-    "Beta-Url": null,
-    "Beta-Methods": null,
-    "Path": [
-      "groupSettings",
-      "$count"
-    ],
-    "Root": "groupSettings",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "groupSettings/{groupSetting-id}",
@@ -44,9 +34,18 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/groupsetting-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/groupsetting-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/groupsetting-delete?view=graph-rest-1.0"
+    ],
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/group-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/group-upsert?view=graph-rest-beta"
+    ],
     "Path": [
       "groupSettings",
       "{groupSetting-id}"
@@ -54,5 +53,26 @@
     "Root": "groupSettings",
     "Children": 0,
     "Segment": "{groupSetting-id}"
+  },
+  {
+    "Endpoint": "groupSettings/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/groupSettings/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/group-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/group-upsert?view=graph-rest-beta"
+    ],
+    "Path": [
+      "groupSettings",
+      "$count"
+    ],
+    "Root": "groupSettings",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

@@ -4,11 +4,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/directory-list-administrativeunits?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/directory-post-administrativeunits?view=graph-rest-beta"
     ],
     "Path": [
       "administrativeUnits"
@@ -18,34 +26,25 @@
     "Segment": "administrativeUnits"
   },
   {
-    "Endpoint": "administrativeUnits/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "administrativeUnits",
-      "$count"
-    ],
-    "Root": "administrativeUnits",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "administrativeUnits/{administrativeUnit-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/administrativeunit-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/administrativeunit-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/administrativeunit-delete?view=graph-rest-beta"
     ],
     "Path": [
       "administrativeUnits",
@@ -60,11 +59,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/extensions",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "administrativeUnits",
@@ -76,36 +83,25 @@
     "Segment": "extensions"
   },
   {
-    "Endpoint": "administrativeUnits/{administrativeUnit-id}/extensions/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/extensions/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "administrativeUnits",
-      "{administrativeUnit-id}",
-      "extensions",
-      "$count"
-    ],
-    "Root": "administrativeUnits",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "administrativeUnits/{administrativeUnit-id}/extensions/{extension-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/extensions/{extension-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "administrativeUnits",
@@ -118,14 +114,46 @@
     "Segment": "{extension-id}"
   },
   {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/extensions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/extensions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "extensions",
+      "$count"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "administrativeUnits/{administrativeUnit-id}/members",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members",
     "Beta-Methods": [
-      "Get"
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/administrativeunit-post-members?view=graph-rest-beta"
     ],
     "Path": [
       "administrativeUnits",
@@ -137,54 +165,21 @@
     "Segment": "members"
   },
   {
-    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "administrativeUnits",
-      "{administrativeUnit-id}",
-      "members",
-      "$count"
-    ],
-    "Root": "administrativeUnits",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
-    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/$ref",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/$ref",
-    "Beta-Methods": [
-      "Get",
-      "Post"
-    ],
-    "Path": [
-      "administrativeUnits",
-      "{administrativeUnit-id}",
-      "members",
-      "$ref"
-    ],
-    "Root": "administrativeUnits",
-    "Children": 0,
-    "Segment": "$ref"
-  },
-  {
     "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/{directoryObject-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/administrativeunit-post-members?view=graph-rest-beta"
+    ],
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -200,11 +195,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/{directoryObject-id}/$ref",
-    "Beta-Methods": [
-      "Delete"
-    ],
+    "Beta-Methods": "Delete",
+    "Beta-Docs": null,
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -221,11 +219,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/{directoryObject-id}/microsoft.graph.application",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -242,11 +243,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/{directoryObject-id}/microsoft.graph.device",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -263,11 +267,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/{directoryObject-id}/microsoft.graph.group",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -284,11 +291,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/{directoryObject-id}/microsoft.graph.orgContact",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -305,11 +315,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/{directoryObject-id}/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -326,11 +339,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/{directoryObject-id}/microsoft.graph.user",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -343,15 +359,72 @@
     "Segment": "microsoft.graph.user"
   },
   {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members",
+      "$count"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/administrativeunit-post-members?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "members",
+      "$ref"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
     "Endpoint": "administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.application",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.application",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -367,11 +440,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.application/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -388,11 +464,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.device",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -408,11 +487,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.device/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -429,11 +511,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.group",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -449,11 +534,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.group/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -470,11 +558,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.orgContact",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -490,11 +581,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.orgContact/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -511,11 +605,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.servicePrincipal",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -531,11 +628,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.servicePrincipal/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -552,11 +652,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.user",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -572,11 +675,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/members/microsoft.graph.user/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -593,11 +699,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/microsoft.graph.checkMemberGroups",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-checkmembergroups?view=graph-rest-beta",
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -612,11 +721,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/microsoft.graph.checkMemberObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -631,11 +743,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/microsoft.graph.getMemberGroups",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-getmembergroups?view=graph-rest-beta",
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -650,11 +765,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/microsoft.graph.getMemberObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -669,11 +787,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/microsoft.graph.restore",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-restore?view=graph-rest-beta",
     "Path": [
       "administrativeUnits",
       "{administrativeUnit-id}",
@@ -688,11 +809,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/scopedRoleMembers",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/administrativeunit-list-scopedrolemembers?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/administrativeunit-post-scopedrolemembers?view=graph-rest-beta"
     ],
     "Path": [
       "administrativeUnits",
@@ -704,36 +833,25 @@
     "Segment": "scopedRoleMembers"
   },
   {
-    "Endpoint": "administrativeUnits/{administrativeUnit-id}/scopedRoleMembers/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/scopedRoleMembers/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "administrativeUnits",
-      "{administrativeUnit-id}",
-      "scopedRoleMembers",
-      "$count"
-    ],
-    "Root": "administrativeUnits",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "administrativeUnits/{administrativeUnit-id}/scopedRoleMembers/{scopedRoleMembership-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/scopedRoleMembers/{scopedRoleMembership-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/administrativeunit-get-scopedrolemembers?view=graph-rest-beta",
+      null,
+      "https://learn.microsoft.com/graph/api/administrativeunit-delete-scopedrolemembers?view=graph-rest-beta"
     ],
     "Path": [
       "administrativeUnits",
@@ -746,15 +864,62 @@
     "Segment": "{scopedRoleMembership-id}"
   },
   {
+    "Endpoint": "administrativeUnits/{administrativeUnit-id}/scopedRoleMembers/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/{administrativeUnit-id}/scopedRoleMembers/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "administrativeUnits",
+      "{administrativeUnit-id}",
+      "scopedRoleMembers",
+      "$count"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "administrativeUnits/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "administrativeUnits",
+      "$count"
+    ],
+    "Root": "administrativeUnits",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "administrativeUnits/microsoft.graph.delta()",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/microsoft.graph.delta()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/administrativeunit-delta?view=graph-rest-beta",
     "Path": [
       "administrativeUnits",
       "microsoft.graph.delta()"
@@ -768,11 +933,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/microsoft.graph.getByIds",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-getbyids?view=graph-rest-beta",
     "Path": [
       "administrativeUnits",
       "microsoft.graph.getByIds"
@@ -786,11 +954,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/microsoft.graph.getUserOwnedObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-getuserownedobjects?view=graph-rest-beta",
     "Path": [
       "administrativeUnits",
       "microsoft.graph.getUserOwnedObjects"
@@ -804,11 +975,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/administrativeUnits/microsoft.graph.validateProperties",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-validateproperties?view=graph-rest-beta",
     "Path": [
       "administrativeUnits",
       "microsoft.graph.validateProperties"

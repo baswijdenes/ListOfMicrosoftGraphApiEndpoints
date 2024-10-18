@@ -7,11 +7,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/connections",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "connections"
@@ -19,26 +27,6 @@
     "Root": "connections",
     "Children": 2,
     "Segment": "connections"
-  },
-  {
-    "Endpoint": "connections/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/connections/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/connections/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "connections",
-      "$count"
-    ],
-    "Root": "connections",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "connections/{externalConnection-id}",
@@ -49,12 +37,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "connections",
@@ -72,11 +70,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}/groups",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "connections",
@@ -88,28 +94,6 @@
     "Segment": "groups"
   },
   {
-    "Endpoint": "connections/{externalConnection-id}/groups/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/connections/{externalConnection-id}/groups/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}/groups/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "connections",
-      "{externalConnection-id}",
-      "groups",
-      "$count"
-    ],
-    "Root": "connections",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "connections/{externalConnection-id}/groups/{externalGroup-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/connections/{externalConnection-id}/groups/{externalGroup-id}",
@@ -118,12 +102,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}/groups/{externalGroup-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "connections",
@@ -143,11 +137,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}/groups/{externalGroup-id}/members",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "connections",
@@ -161,30 +163,6 @@
     "Segment": "members"
   },
   {
-    "Endpoint": "connections/{externalConnection-id}/groups/{externalGroup-id}/members/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/connections/{externalConnection-id}/groups/{externalGroup-id}/members/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}/groups/{externalGroup-id}/members/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "connections",
-      "{externalConnection-id}",
-      "groups",
-      "{externalGroup-id}",
-      "members",
-      "$count"
-    ],
-    "Root": "connections",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "connections/{externalConnection-id}/groups/{externalGroup-id}/members/{identity-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/connections/{externalConnection-id}/groups/{externalGroup-id}/members/{identity-id}",
@@ -193,12 +171,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}/groups/{externalGroup-id}/members/{identity-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "connections",
@@ -213,6 +201,48 @@
     "Segment": "{identity-id}"
   },
   {
+    "Endpoint": "connections/{externalConnection-id}/groups/{externalGroup-id}/members/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/connections/{externalConnection-id}/groups/{externalGroup-id}/members/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}/groups/{externalGroup-id}/members/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "connections",
+      "{externalConnection-id}",
+      "groups",
+      "{externalGroup-id}",
+      "members",
+      "$count"
+    ],
+    "Root": "connections",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "connections/{externalConnection-id}/groups/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/connections/{externalConnection-id}/groups/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}/groups/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "connections",
+      "{externalConnection-id}",
+      "groups",
+      "$count"
+    ],
+    "Root": "connections",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "connections/{externalConnection-id}/items",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/connections/{externalConnection-id}/items",
@@ -220,11 +250,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}/items",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "connections",
@@ -236,42 +274,30 @@
     "Segment": "items"
   },
   {
-    "Endpoint": "connections/{externalConnection-id}/items/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/connections/{externalConnection-id}/items/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}/items/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "connections",
-      "{externalConnection-id}",
-      "items",
-      "$count"
-    ],
-    "Root": "connections",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "connections/{externalConnection-id}/items/{externalItem-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/connections/{externalConnection-id}/items/{externalItem-id}",
     "v1.0-Methods": [
       "Get",
-      "Patch",
+      "Put",
       "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}/items/{externalItem-id}",
     "Beta-Methods": [
       "Get",
-      "Patch",
+      "Put",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "connections",
@@ -285,14 +311,25 @@
   },
   {
     "Endpoint": "connections/{externalConnection-id}/items/{externalItem-id}/activities",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/connections/{externalConnection-id}/items/{externalItem-id}/activities",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}/items/{externalItem-id}/activities",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "connections",
@@ -306,38 +343,30 @@
     "Segment": "activities"
   },
   {
-    "Endpoint": "connections/{externalConnection-id}/items/{externalItem-id}/activities/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}/items/{externalItem-id}/activities/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "connections",
-      "{externalConnection-id}",
-      "items",
-      "{externalItem-id}",
-      "activities",
-      "$count"
-    ],
-    "Root": "connections",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "connections/{externalConnection-id}/items/{externalItem-id}/activities/{externalActivity-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/connections/{externalConnection-id}/items/{externalItem-id}/activities/{externalActivity-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}/items/{externalItem-id}/activities/{externalActivity-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "connections",
@@ -353,14 +382,14 @@
   },
   {
     "Endpoint": "connections/{externalConnection-id}/items/{externalItem-id}/activities/{externalActivity-id}/performedBy",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/connections/{externalConnection-id}/items/{externalItem-id}/activities/{externalActivity-id}/performedBy",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}/items/{externalItem-id}/activities/{externalActivity-id}/performedBy",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "connections",
       "{externalConnection-id}",
@@ -375,15 +404,37 @@
     "Segment": "performedBy"
   },
   {
+    "Endpoint": "connections/{externalConnection-id}/items/{externalItem-id}/activities/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/connections/{externalConnection-id}/items/{externalItem-id}/activities/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}/items/{externalItem-id}/activities/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "connections",
+      "{externalConnection-id}",
+      "items",
+      "{externalItem-id}",
+      "activities",
+      "$count"
+    ],
+    "Root": "connections",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "connections/{externalConnection-id}/items/{externalItem-id}/microsoft.graph.externalConnectors.addActivities",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/connections/{externalConnection-id}/items/{externalItem-id}/microsoft.graph.externalConnectors.addActivities",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}/items/{externalItem-id}/microsoft.graph.externalConnectors.addActivities",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "connections",
       "{externalConnection-id}",
@@ -396,6 +447,26 @@
     "Segment": "microsoft.graph.externalConnectors.addActivities"
   },
   {
+    "Endpoint": "connections/{externalConnection-id}/items/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/connections/{externalConnection-id}/items/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}/items/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "connections",
+      "{externalConnection-id}",
+      "items",
+      "$count"
+    ],
+    "Root": "connections",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "connections/{externalConnection-id}/operations",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/connections/{externalConnection-id}/operations",
@@ -403,11 +474,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}/operations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "connections",
@@ -419,28 +498,6 @@
     "Segment": "operations"
   },
   {
-    "Endpoint": "connections/{externalConnection-id}/operations/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/connections/{externalConnection-id}/operations/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}/operations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "connections",
-      "{externalConnection-id}",
-      "operations",
-      "$count"
-    ],
-    "Root": "connections",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "connections/{externalConnection-id}/operations/{connectionOperation-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/connections/{externalConnection-id}/operations/{connectionOperation-id}",
@@ -449,12 +506,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}/operations/{connectionOperation-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "connections",
@@ -467,16 +534,45 @@
     "Segment": "{connectionOperation-id}"
   },
   {
+    "Endpoint": "connections/{externalConnection-id}/operations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/connections/{externalConnection-id}/operations/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}/operations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "connections",
+      "{externalConnection-id}",
+      "operations",
+      "$count"
+    ],
+    "Root": "connections",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "connections/{externalConnection-id}/quota",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}/quota",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "connections",
@@ -493,15 +589,21 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/connections/{externalConnection-id}/schema",
     "v1.0-Methods": [
       "Get",
-      "Patch",
-      "Delete"
+      "Patch"
+    ],
+    "v1.0-docs": [
+      null,
+      null
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/connections/{externalConnection-id}/schema",
     "Beta-Methods": [
       "Get",
-      "Patch",
-      "Delete"
+      "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "connections",
@@ -511,5 +613,23 @@
     "Root": "connections",
     "Children": 0,
     "Segment": "schema"
+  },
+  {
+    "Endpoint": "connections/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/connections/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/connections/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "connections",
+      "$count"
+    ],
+    "Root": "connections",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

@@ -4,11 +4,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/privilegedOperationEvents",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "privilegedOperationEvents"
@@ -18,34 +26,25 @@
     "Segment": "privilegedOperationEvents"
   },
   {
-    "Endpoint": "privilegedOperationEvents/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/privilegedOperationEvents/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "privilegedOperationEvents",
-      "$count"
-    ],
-    "Root": "privilegedOperationEvents",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "privilegedOperationEvents/{privilegedOperationEvent-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/privilegedOperationEvents/{privilegedOperationEvent-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "privilegedOperationEvents",
@@ -54,5 +53,26 @@
     "Root": "privilegedOperationEvents",
     "Children": 0,
     "Segment": "{privilegedOperationEvent-id}"
+  },
+  {
+    "Endpoint": "privilegedOperationEvents/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/privilegedOperationEvents/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "privilegedOperationEvents",
+      "$count"
+    ],
+    "Root": "privilegedOperationEvents",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

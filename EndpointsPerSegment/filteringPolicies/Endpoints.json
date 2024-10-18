@@ -1,0 +1,160 @@
+[
+  {
+    "Endpoint": "filteringPolicies",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/filteringPolicies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "filteringPolicies"
+    ],
+    "Root": "filteringPolicies",
+    "Children": 2,
+    "Segment": "filteringPolicies"
+  },
+  {
+    "Endpoint": "filteringPolicies/{filteringPolicy-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/filteringPolicies/{filteringPolicy-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "filteringPolicies",
+      "{filteringPolicy-id}"
+    ],
+    "Root": "filteringPolicies",
+    "Children": 1,
+    "Segment": "{filteringPolicy-id}"
+  },
+  {
+    "Endpoint": "filteringPolicies/{filteringPolicy-id}/policyRules",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/filteringPolicies/{filteringPolicy-id}/policyRules",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "filteringPolicies",
+      "{filteringPolicy-id}",
+      "policyRules"
+    ],
+    "Root": "filteringPolicies",
+    "Children": 2,
+    "Segment": "policyRules"
+  },
+  {
+    "Endpoint": "filteringPolicies/{filteringPolicy-id}/policyRules/{policyRule-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/filteringPolicies/{filteringPolicy-id}/policyRules/{policyRule-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "filteringPolicies",
+      "{filteringPolicy-id}",
+      "policyRules",
+      "{policyRule-id}"
+    ],
+    "Root": "filteringPolicies",
+    "Children": 0,
+    "Segment": "{policyRule-id}"
+  },
+  {
+    "Endpoint": "filteringPolicies/{filteringPolicy-id}/policyRules/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/filteringPolicies/{filteringPolicy-id}/policyRules/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "filteringPolicies",
+      "{filteringPolicy-id}",
+      "policyRules",
+      "$count"
+    ],
+    "Root": "filteringPolicies",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "filteringPolicies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/filteringPolicies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "filteringPolicies",
+      "$count"
+    ],
+    "Root": "filteringPolicies",
+    "Children": 0,
+    "Segment": "$count"
+  }
+]

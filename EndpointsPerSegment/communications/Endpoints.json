@@ -7,17 +7,25 @@
       "Get",
       "Patch"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications",
     "Beta-Methods": [
       "Get",
       "Patch"
     ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
     "Path": [
       "communications"
     ],
     "Root": "communications",
-    "Children": 5,
+    "Children": 6,
     "Segment": "communications"
   },
   {
@@ -28,40 +36,27 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/callrecords-cloudcommunications-list-callrecords?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/callRecords",
     "Beta-Methods": [
       "Get",
       "Post"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/callrecords-cloudcommunications-list-callrecords?view=graph-rest-beta",
+      null
+    ],
     "Path": [
       "communications",
       "callRecords"
     ],
     "Root": "communications",
-    "Children": 2,
+    "Children": 5,
     "Segment": "callRecords"
-  },
-  {
-    "Endpoint": "communications/callRecords/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/callRecords/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/communications/callRecords/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "communications",
-      "callRecords",
-      "$count"
-    ],
-    "Root": "communications",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "communications/callRecords/{callRecord-id}",
@@ -72,6 +67,11 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/callrecords-callrecord-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/callRecords/{callRecord-id}",
     "Beta-Methods": [
@@ -79,14 +79,145 @@
       "Patch",
       "Delete"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/callrecords-callrecord-get?view=graph-rest-beta",
+      null,
+      null
+    ],
     "Path": [
       "communications",
       "callRecords",
       "{callRecord-id}"
     ],
     "Root": "communications",
-    "Children": 1,
+    "Children": 3,
     "Segment": "{callRecord-id}"
+  },
+  {
+    "Endpoint": "communications/callRecords/{callRecord-id}/organizer_v2",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/callRecords/{callRecord-id}/organizer_v2",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/callRecords/{callRecord-id}/organizer_v2",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "communications",
+      "callRecords",
+      "{callRecord-id}",
+      "organizer_v2"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "organizer_v2"
+  },
+  {
+    "Endpoint": "communications/callRecords/{callRecord-id}/participants_v2",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/callRecords/{callRecord-id}/participants_v2",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/callrecords-callrecord-list-participants_v2?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/callRecords/{callRecord-id}/participants_v2",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/callrecords-callrecord-list-participants_v2?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "communications",
+      "callRecords",
+      "{callRecord-id}",
+      "participants_v2"
+    ],
+    "Root": "communications",
+    "Children": 2,
+    "Segment": "participants_v2"
+  },
+  {
+    "Endpoint": "communications/callRecords/{callRecord-id}/participants_v2/{participant-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/callRecords/{callRecord-id}/participants_v2/{participant-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/callRecords/{callRecord-id}/participants_v2/{participant-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "communications",
+      "callRecords",
+      "{callRecord-id}",
+      "participants_v2",
+      "{participant-id}"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "{participant-id}"
+  },
+  {
+    "Endpoint": "communications/callRecords/{callRecord-id}/participants_v2/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/callRecords/{callRecord-id}/participants_v2/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/callRecords/{callRecord-id}/participants_v2/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "callRecords",
+      "{callRecord-id}",
+      "participants_v2",
+      "$count"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "$count"
   },
   {
     "Endpoint": "communications/callRecords/{callRecord-id}/sessions",
@@ -96,11 +227,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/callrecords-callrecord-list-sessions?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/callRecords/{callRecord-id}/sessions",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/callrecords-callrecord-list-sessions?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "communications",
@@ -113,29 +252,6 @@
     "Segment": "sessions"
   },
   {
-    "Endpoint": "communications/callRecords/{callRecord-id}/sessions/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/callRecords/{callRecord-id}/sessions/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/communications/callRecords/{callRecord-id}/sessions/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "communications",
-      "callRecords",
-      "{callRecord-id}",
-      "sessions",
-      "$count"
-    ],
-    "Root": "communications",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "communications/callRecords/{callRecord-id}/sessions/{session-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/callRecords/{callRecord-id}/sessions/{session-id}",
@@ -144,12 +260,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/callRecords/{callRecord-id}/sessions/{session-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "communications",
@@ -170,11 +296,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/callRecords/{callRecord-id}/sessions/{session-id}/segments",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "communications",
@@ -189,31 +323,6 @@
     "Segment": "segments"
   },
   {
-    "Endpoint": "communications/callRecords/{callRecord-id}/sessions/{session-id}/segments/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/callRecords/{callRecord-id}/sessions/{session-id}/segments/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/communications/callRecords/{callRecord-id}/sessions/{session-id}/segments/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "communications",
-      "callRecords",
-      "{callRecord-id}",
-      "sessions",
-      "{session-id}",
-      "segments",
-      "$count"
-    ],
-    "Root": "communications",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "communications/callRecords/{callRecord-id}/sessions/{session-id}/segments/{segment-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/callRecords/{callRecord-id}/sessions/{session-id}/segments/{segment-id}",
@@ -222,12 +331,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/callRecords/{callRecord-id}/sessions/{session-id}/segments/{segment-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "communications",
@@ -243,6 +362,126 @@
     "Segment": "{segment-id}"
   },
   {
+    "Endpoint": "communications/callRecords/{callRecord-id}/sessions/{session-id}/segments/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/callRecords/{callRecord-id}/sessions/{session-id}/segments/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/callRecords/{callRecord-id}/sessions/{session-id}/segments/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "callRecords",
+      "{callRecord-id}",
+      "sessions",
+      "{session-id}",
+      "segments",
+      "$count"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "communications/callRecords/{callRecord-id}/sessions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/callRecords/{callRecord-id}/sessions/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/callRecords/{callRecord-id}/sessions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "callRecords",
+      "{callRecord-id}",
+      "sessions",
+      "$count"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "communications/callRecords/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/callRecords/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/callRecords/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "callRecords",
+      "$count"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "communications/callRecords/microsoft.graph.callRecords.getPstnBlockedUsersLog(fromDateTime={fromDateTime},toDateTime={toDateTime})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/callRecords/microsoft.graph.callRecords.getPstnBlockedUsersLog(fromDateTime={fromDateTime},toDateTime={toDateTime})",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "callRecords",
+      "microsoft.graph.callRecords.getPstnBlockedUsersLog(fromDateTime={fromDateTime},toDateTime={toDateTime})"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "microsoft.graph.callRecords.getPstnBlockedUsersLog(fromDateTime={fromDateTime},toDateTime={toDateTime})"
+  },
+  {
+    "Endpoint": "communications/callRecords/microsoft.graph.callRecords.getPstnOnlineMeetingDialoutReport(fromDateTime={fromDateTime},toDateTime={toDateTime})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/callRecords/microsoft.graph.callRecords.getPstnOnlineMeetingDialoutReport(fromDateTime={fromDateTime},toDateTime={toDateTime})",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "callRecords",
+      "microsoft.graph.callRecords.getPstnOnlineMeetingDialoutReport(fromDateTime={fromDateTime},toDateTime={toDateTime})"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "microsoft.graph.callRecords.getPstnOnlineMeetingDialoutReport(fromDateTime={fromDateTime},toDateTime={toDateTime})"
+  },
+  {
+    "Endpoint": "communications/callRecords/microsoft.graph.callRecords.getSmsLog(fromDateTime={fromDateTime},toDateTime={toDateTime})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/callRecords/microsoft.graph.callRecords.getSmsLog(fromDateTime={fromDateTime},toDateTime={toDateTime})",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "callRecords",
+      "microsoft.graph.callRecords.getSmsLog(fromDateTime={fromDateTime},toDateTime={toDateTime})"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "microsoft.graph.callRecords.getSmsLog(fromDateTime={fromDateTime},toDateTime={toDateTime})"
+  },
+  {
     "Endpoint": "communications/calls",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls",
@@ -250,11 +489,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/application-post-calls?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/application-post-calls?view=graph-rest-beta"
     ],
     "Path": [
       "communications",
@@ -265,27 +512,6 @@
     "Segment": "calls"
   },
   {
-    "Endpoint": "communications/calls/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "communications",
-      "calls",
-      "$count"
-    ],
-    "Root": "communications",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "communications/calls/{call-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}",
@@ -294,6 +520,11 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/call-get?view=graph-rest-1.0",
+      null,
+      "https://learn.microsoft.com/graph/api/call-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}",
     "Beta-Methods": [
@@ -301,13 +532,18 @@
       "Patch",
       "Delete"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/call-get?view=graph-rest-beta",
+      null,
+      "https://learn.microsoft.com/graph/api/call-delete?view=graph-rest-beta"
+    ],
     "Path": [
       "communications",
       "calls",
       "{call-id}"
     ],
     "Root": "communications",
-    "Children": 19,
+    "Children": 20,
     "Segment": "{call-id}"
   },
   {
@@ -318,11 +554,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/call-list-audioroutinggroups?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/call-post-audioroutinggroups?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/audioRoutingGroups",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/call-list-audioroutinggroups?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/call-post-audioroutinggroups?view=graph-rest-beta"
     ],
     "Path": [
       "communications",
@@ -335,29 +579,6 @@
     "Segment": "audioRoutingGroups"
   },
   {
-    "Endpoint": "communications/calls/{call-id}/audioRoutingGroups/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/audioRoutingGroups/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/audioRoutingGroups/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "communications",
-      "calls",
-      "{call-id}",
-      "audioRoutingGroups",
-      "$count"
-    ],
-    "Root": "communications",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "communications/calls/{call-id}/audioRoutingGroups/{audioRoutingGroup-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/audioRoutingGroups/{audioRoutingGroup-id}",
@@ -366,12 +587,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/audioroutinggroup-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/audioroutinggroup-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/audioroutinggroup-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/audioRoutingGroups/{audioRoutingGroup-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/audioroutinggroup-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/audioroutinggroup-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/audioroutinggroup-delete?view=graph-rest-beta"
     ],
     "Path": [
       "communications",
@@ -385,6 +616,27 @@
     "Segment": "{audioRoutingGroup-id}"
   },
   {
+    "Endpoint": "communications/calls/{call-id}/audioRoutingGroups/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/audioRoutingGroups/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/audioRoutingGroups/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "calls",
+      "{call-id}",
+      "audioRoutingGroups",
+      "$count"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "communications/calls/{call-id}/contentSharingSessions",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/contentSharingSessions",
@@ -392,11 +644,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/call-list-contentsharingsessions?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/contentSharingSessions",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/call-list-contentsharingsessions?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "communications",
@@ -409,29 +669,6 @@
     "Segment": "contentSharingSessions"
   },
   {
-    "Endpoint": "communications/calls/{call-id}/contentSharingSessions/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/contentSharingSessions/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/contentSharingSessions/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "communications",
-      "calls",
-      "{call-id}",
-      "contentSharingSessions",
-      "$count"
-    ],
-    "Root": "communications",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "communications/calls/{call-id}/contentSharingSessions/{contentSharingSession-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/contentSharingSessions/{contentSharingSession-id}",
@@ -440,12 +677,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/contentsharingsession-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/contentSharingSessions/{contentSharingSession-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/contentsharingsession-get?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "communications",
@@ -459,17 +706,36 @@
     "Segment": "{contentSharingSession-id}"
   },
   {
+    "Endpoint": "communications/calls/{call-id}/contentSharingSessions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/contentSharingSessions/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/contentSharingSessions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "calls",
+      "{call-id}",
+      "contentSharingSessions",
+      "$count"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "communications/calls/{call-id}/microsoft.graph.addLargeGalleryView",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/microsoft.graph.addLargeGalleryView",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/call-addlargegalleryview?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/microsoft.graph.addLargeGalleryView",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/call-addlargegalleryview?view=graph-rest-beta",
     "Path": [
       "communications",
       "calls",
@@ -484,14 +750,12 @@
     "Endpoint": "communications/calls/{call-id}/microsoft.graph.answer",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/microsoft.graph.answer",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/call-answer?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/microsoft.graph.answer",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/call-answer?view=graph-rest-beta",
     "Path": [
       "communications",
       "calls",
@@ -506,14 +770,12 @@
     "Endpoint": "communications/calls/{call-id}/microsoft.graph.cancelMediaProcessing",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/microsoft.graph.cancelMediaProcessing",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/call-cancelmediaprocessing?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/microsoft.graph.cancelMediaProcessing",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/call-cancelmediaprocessing?view=graph-rest-beta",
     "Path": [
       "communications",
       "calls",
@@ -528,14 +790,12 @@
     "Endpoint": "communications/calls/{call-id}/microsoft.graph.changeScreenSharingRole",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/microsoft.graph.changeScreenSharingRole",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/call-changescreensharingrole?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/microsoft.graph.changeScreenSharingRole",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/call-changescreensharingrole?view=graph-rest-beta",
     "Path": [
       "communications",
       "calls",
@@ -550,14 +810,12 @@
     "Endpoint": "communications/calls/{call-id}/microsoft.graph.keepAlive",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/microsoft.graph.keepAlive",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/call-keepalive?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/microsoft.graph.keepAlive",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/call-keepalive?view=graph-rest-beta",
     "Path": [
       "communications",
       "calls",
@@ -572,14 +830,12 @@
     "Endpoint": "communications/calls/{call-id}/microsoft.graph.mute",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/microsoft.graph.mute",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/call-mute?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/microsoft.graph.mute",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/call-mute?view=graph-rest-beta",
     "Path": [
       "communications",
       "calls",
@@ -594,14 +850,12 @@
     "Endpoint": "communications/calls/{call-id}/microsoft.graph.playPrompt",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/microsoft.graph.playPrompt",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/call-playprompt?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/microsoft.graph.playPrompt",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/call-playprompt?view=graph-rest-beta",
     "Path": [
       "communications",
       "calls",
@@ -617,11 +871,11 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/call-playprompt?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/microsoft.graph.record",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "communications",
       "calls",
@@ -636,14 +890,12 @@
     "Endpoint": "communications/calls/{call-id}/microsoft.graph.recordResponse",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/microsoft.graph.recordResponse",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/call-record?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/microsoft.graph.recordResponse",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/call-record?view=graph-rest-beta",
     "Path": [
       "communications",
       "calls",
@@ -658,14 +910,12 @@
     "Endpoint": "communications/calls/{call-id}/microsoft.graph.redirect",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/microsoft.graph.redirect",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/call-redirect?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/microsoft.graph.redirect",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/call-redirect?view=graph-rest-beta",
     "Path": [
       "communications",
       "calls",
@@ -680,14 +930,12 @@
     "Endpoint": "communications/calls/{call-id}/microsoft.graph.reject",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/microsoft.graph.reject",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/call-reject?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/microsoft.graph.reject",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/call-reject?view=graph-rest-beta",
     "Path": [
       "communications",
       "calls",
@@ -699,17 +947,35 @@
     "Segment": "microsoft.graph.reject"
   },
   {
+    "Endpoint": "communications/calls/{call-id}/microsoft.graph.sendDtmfTones",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/microsoft.graph.sendDtmfTones",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/microsoft.graph.sendDtmfTones",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "calls",
+      "{call-id}",
+      "microsoft.graph.sendDtmfTones"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "microsoft.graph.sendDtmfTones"
+  },
+  {
     "Endpoint": "communications/calls/{call-id}/microsoft.graph.subscribeToTone",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/microsoft.graph.subscribeToTone",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/call-subscribetotone?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/microsoft.graph.subscribeToTone",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/call-subscribetotone?view=graph-rest-beta",
     "Path": [
       "communications",
       "calls",
@@ -724,14 +990,12 @@
     "Endpoint": "communications/calls/{call-id}/microsoft.graph.transfer",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/microsoft.graph.transfer",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/call-transfer?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/microsoft.graph.transfer",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/call-transfer?view=graph-rest-beta",
     "Path": [
       "communications",
       "calls",
@@ -746,14 +1010,12 @@
     "Endpoint": "communications/calls/{call-id}/microsoft.graph.unmute",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/microsoft.graph.unmute",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/call-unmute?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/microsoft.graph.unmute",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/call-unmute?view=graph-rest-beta",
     "Path": [
       "communications",
       "calls",
@@ -768,14 +1030,12 @@
     "Endpoint": "communications/calls/{call-id}/microsoft.graph.updateRecordingStatus",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/microsoft.graph.updateRecordingStatus",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/call-updaterecordingstatus?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/microsoft.graph.updateRecordingStatus",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/call-updaterecordingstatus?view=graph-rest-beta",
     "Path": [
       "communications",
       "calls",
@@ -794,11 +1054,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/operations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "communications",
@@ -811,29 +1079,6 @@
     "Segment": "operations"
   },
   {
-    "Endpoint": "communications/calls/{call-id}/operations/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/operations/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/operations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "communications",
-      "calls",
-      "{call-id}",
-      "operations",
-      "$count"
-    ],
-    "Root": "communications",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "communications/calls/{call-id}/operations/{commsOperation-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/operations/{commsOperation-id}",
@@ -842,12 +1087,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/addlargegalleryviewoperation-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/operations/{commsOperation-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/addlargegalleryviewoperation-get?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "communications",
@@ -861,6 +1116,27 @@
     "Segment": "{commsOperation-id}"
   },
   {
+    "Endpoint": "communications/calls/{call-id}/operations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/operations/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/operations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "calls",
+      "{call-id}",
+      "operations",
+      "$count"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "communications/calls/{call-id}/participants",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/participants",
@@ -868,11 +1144,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/call-list-participants?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/participants",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/call-list-participants?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "communications",
@@ -885,29 +1169,6 @@
     "Segment": "participants"
   },
   {
-    "Endpoint": "communications/calls/{call-id}/participants/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/participants/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/participants/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "communications",
-      "calls",
-      "{call-id}",
-      "participants",
-      "$count"
-    ],
-    "Root": "communications",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "communications/calls/{call-id}/participants/{participant-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/participants/{participant-id}",
@@ -916,12 +1177,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/participant-get?view=graph-rest-1.0",
+      null,
+      "https://learn.microsoft.com/graph/api/participant-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/participants/{participant-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/participant-get?view=graph-rest-beta",
+      null,
+      "https://learn.microsoft.com/graph/api/participant-delete?view=graph-rest-beta"
     ],
     "Path": [
       "communications",
@@ -938,14 +1209,12 @@
     "Endpoint": "communications/calls/{call-id}/participants/{participant-id}/microsoft.graph.mute",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/participants/{participant-id}/microsoft.graph.mute",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/participant-mute?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/participants/{participant-id}/microsoft.graph.mute",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/participant-mute?view=graph-rest-beta",
     "Path": [
       "communications",
       "calls",
@@ -962,14 +1231,12 @@
     "Endpoint": "communications/calls/{call-id}/participants/{participant-id}/microsoft.graph.startHoldMusic",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/participants/{participant-id}/microsoft.graph.startHoldMusic",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/participant-startholdmusic?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/participants/{participant-id}/microsoft.graph.startHoldMusic",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/participant-startholdmusic?view=graph-rest-beta",
     "Path": [
       "communications",
       "calls",
@@ -986,14 +1253,12 @@
     "Endpoint": "communications/calls/{call-id}/participants/{participant-id}/microsoft.graph.stopHoldMusic",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/participants/{participant-id}/microsoft.graph.stopHoldMusic",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/participant-stopholdmusic?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/participants/{participant-id}/microsoft.graph.stopHoldMusic",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/participant-stopholdmusic?view=graph-rest-beta",
     "Path": [
       "communications",
       "calls",
@@ -1007,17 +1272,36 @@
     "Segment": "microsoft.graph.stopHoldMusic"
   },
   {
+    "Endpoint": "communications/calls/{call-id}/participants/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/participants/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/participants/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "calls",
+      "{call-id}",
+      "participants",
+      "$count"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "communications/calls/{call-id}/participants/microsoft.graph.invite",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/{call-id}/participants/microsoft.graph.invite",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/participant-delete?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/participants/microsoft.graph.invite",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/participant-invite?view=graph-rest-beta",
     "Path": [
       "communications",
       "calls",
@@ -1034,11 +1318,11 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/participant-delete?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/{call-id}/participants/microsoft.graph.muteAll",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/participant-muteall?view=graph-rest-beta",
     "Path": [
       "communications",
       "calls",
@@ -1051,17 +1335,34 @@
     "Segment": "microsoft.graph.muteAll"
   },
   {
+    "Endpoint": "communications/calls/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "calls",
+      "$count"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "communications/calls/microsoft.graph.logTeleconferenceDeviceQuality",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/calls/microsoft.graph.logTeleconferenceDeviceQuality",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/call-logteleconferencedevicequality?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/calls/microsoft.graph.logTeleconferenceDeviceQuality",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/call-logteleconferencedevicequality?view=graph-rest-beta",
     "Path": [
       "communications",
       "calls",
@@ -1075,14 +1376,12 @@
     "Endpoint": "communications/microsoft.graph.getPresencesByUserId",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/microsoft.graph.getPresencesByUserId",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/cloudcommunications-getpresencesbyuserid?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/microsoft.graph.getPresencesByUserId",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/cloudcommunications-getpresencesbyuserid?view=graph-rest-beta",
     "Path": [
       "communications",
       "microsoft.graph.getPresencesByUserId"
@@ -1099,40 +1398,27 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/onlinemeeting-get?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings",
     "Beta-Methods": [
       "Get",
       "Post"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/onlinemeeting-get?view=graph-rest-beta",
+      null
+    ],
     "Path": [
       "communications",
       "onlineMeetings"
     ],
     "Root": "communications",
-    "Children": 3,
+    "Children": 5,
     "Segment": "onlineMeetings"
-  },
-  {
-    "Endpoint": "communications/onlineMeetings/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "communications",
-      "onlineMeetings",
-      "$count"
-    ],
-    "Root": "communications",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}",
@@ -1143,6 +1429,11 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}",
     "Beta-Methods": [
@@ -1150,25 +1441,129 @@
       "Patch",
       "Delete"
     ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
     "Path": [
       "communications",
       "onlineMeetings",
       "{onlineMeeting-id}"
     ],
     "Root": "communications",
-    "Children": 8,
+    "Children": 13,
     "Segment": "{onlineMeeting-id}"
+  },
+  {
+    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/aiInsights",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/aiInsights",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "communications",
+      "onlineMeetings",
+      "{onlineMeeting-id}",
+      "aiInsights"
+    ],
+    "Root": "communications",
+    "Children": 2,
+    "Segment": "aiInsights"
+  },
+  {
+    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/aiInsights/{callAiInsight-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/aiInsights/{callAiInsight-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "communications",
+      "onlineMeetings",
+      "{onlineMeeting-id}",
+      "aiInsights",
+      "{callAiInsight-id}"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "{callAiInsight-id}"
+  },
+  {
+    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/aiInsights/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/aiInsights/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "onlineMeetings",
+      "{onlineMeeting-id}",
+      "aiInsights",
+      "$count"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "$count"
   },
   {
     "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/alternativeRecording",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/alternativeRecording",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "communications",
@@ -1188,11 +1583,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/attendanceReports",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "communications",
@@ -1205,29 +1608,6 @@
     "Segment": "attendanceReports"
   },
   {
-    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/attendanceReports/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/{onlineMeeting-id}/attendanceReports/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/attendanceReports/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "communications",
-      "onlineMeetings",
-      "{onlineMeeting-id}",
-      "attendanceReports",
-      "$count"
-    ],
-    "Root": "communications",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/attendanceReports/{meetingAttendanceReport-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/{onlineMeeting-id}/attendanceReports/{meetingAttendanceReport-id}",
@@ -1236,12 +1616,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/attendanceReports/{meetingAttendanceReport-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "communications",
@@ -1262,11 +1652,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/attendanceReports/{meetingAttendanceReport-id}/attendanceRecords",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "communications",
@@ -1281,31 +1679,6 @@
     "Segment": "attendanceRecords"
   },
   {
-    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/attendanceReports/{meetingAttendanceReport-id}/attendanceRecords/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/{onlineMeeting-id}/attendanceReports/{meetingAttendanceReport-id}/attendanceRecords/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/attendanceReports/{meetingAttendanceReport-id}/attendanceRecords/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "communications",
-      "onlineMeetings",
-      "{onlineMeeting-id}",
-      "attendanceReports",
-      "{meetingAttendanceReport-id}",
-      "attendanceRecords",
-      "$count"
-    ],
-    "Root": "communications",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/attendanceReports/{meetingAttendanceReport-id}/attendanceRecords/{attendanceRecord-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/{onlineMeeting-id}/attendanceReports/{meetingAttendanceReport-id}/attendanceRecords/{attendanceRecord-id}",
@@ -1314,12 +1687,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/attendanceReports/{meetingAttendanceReport-id}/attendanceRecords/{attendanceRecord-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "communications",
@@ -1335,18 +1718,74 @@
     "Segment": "{attendanceRecord-id}"
   },
   {
+    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/attendanceReports/{meetingAttendanceReport-id}/attendanceRecords/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/{onlineMeeting-id}/attendanceReports/{meetingAttendanceReport-id}/attendanceRecords/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/attendanceReports/{meetingAttendanceReport-id}/attendanceRecords/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "onlineMeetings",
+      "{onlineMeeting-id}",
+      "attendanceReports",
+      "{meetingAttendanceReport-id}",
+      "attendanceRecords",
+      "$count"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/attendanceReports/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/{onlineMeeting-id}/attendanceReports/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/attendanceReports/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "onlineMeetings",
+      "{onlineMeeting-id}",
+      "attendanceReports",
+      "$count"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/attendeeReport",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/{onlineMeeting-id}/attendeeReport",
     "v1.0-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/attendeeReport",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "communications",
@@ -1359,16 +1798,58 @@
     "Segment": "attendeeReport"
   },
   {
+    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/broadcastRecording",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/broadcastRecording",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "communications",
+      "onlineMeetings",
+      "{onlineMeeting-id}",
+      "broadcastRecording"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "broadcastRecording"
+  },
+  {
     "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/meetingAttendanceReport",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/meetingAttendanceReport",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "communications",
@@ -1385,11 +1866,20 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/meetingAttendanceReport/attendanceRecords",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "communications",
@@ -1403,38 +1893,26 @@
     "Segment": "attendanceRecords"
   },
   {
-    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/meetingAttendanceReport/attendanceRecords/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/meetingAttendanceReport/attendanceRecords/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "communications",
-      "onlineMeetings",
-      "{onlineMeeting-id}",
-      "meetingAttendanceReport",
-      "attendanceRecords",
-      "$count"
-    ],
-    "Root": "communications",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/meetingAttendanceReport/attendanceRecords/{attendanceRecord-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/meetingAttendanceReport/attendanceRecords/{attendanceRecord-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "communications",
@@ -1449,15 +1927,108 @@
     "Segment": "{attendanceRecord-id}"
   },
   {
+    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/meetingAttendanceReport/attendanceRecords/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/meetingAttendanceReport/attendanceRecords/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "onlineMeetings",
+      "{onlineMeeting-id}",
+      "meetingAttendanceReport",
+      "attendanceRecords",
+      "$count"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/microsoft.graph.getVirtualAppointmentJoinWebUrl()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/{onlineMeeting-id}/microsoft.graph.getVirtualAppointmentJoinWebUrl()",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/virtualappointment-getvirtualappointmentjoinweburl?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/microsoft.graph.getVirtualAppointmentJoinWebUrl()",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/virtualappointment-getvirtualappointmentjoinweburl?view=graph-rest-beta",
+    "Path": [
+      "communications",
+      "onlineMeetings",
+      "{onlineMeeting-id}",
+      "microsoft.graph.getVirtualAppointmentJoinWebUrl()"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "microsoft.graph.getVirtualAppointmentJoinWebUrl()"
+  },
+  {
+    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/microsoft.graph.sendVirtualAppointmentReminderSms",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/{onlineMeeting-id}/microsoft.graph.sendVirtualAppointmentReminderSms",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/virtualappointment-sendvirtualappointmentremindersms?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/microsoft.graph.sendVirtualAppointmentReminderSms",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/virtualappointment-sendvirtualappointmentremindersms?view=graph-rest-beta",
+    "Path": [
+      "communications",
+      "onlineMeetings",
+      "{onlineMeeting-id}",
+      "microsoft.graph.sendVirtualAppointmentReminderSms"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "microsoft.graph.sendVirtualAppointmentReminderSms"
+  },
+  {
+    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/microsoft.graph.sendVirtualAppointmentSms",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/{onlineMeeting-id}/microsoft.graph.sendVirtualAppointmentSms",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/virtualappointment-sendvirtualappointmentsms?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/microsoft.graph.sendVirtualAppointmentSms",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/virtualappointment-sendvirtualappointmentsms?view=graph-rest-beta",
+    "Path": [
+      "communications",
+      "onlineMeetings",
+      "{onlineMeeting-id}",
+      "microsoft.graph.sendVirtualAppointmentSms"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "microsoft.graph.sendVirtualAppointmentSms"
+  },
+  {
     "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/recording",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/virtualappointment-sendvirtualappointmentsms?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/recording",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "communications",
@@ -1470,16 +2041,174 @@
     "Segment": "recording"
   },
   {
+    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/recordings",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/{onlineMeeting-id}/recordings",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/recordings",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "communications",
+      "onlineMeetings",
+      "{onlineMeeting-id}",
+      "recordings"
+    ],
+    "Root": "communications",
+    "Children": 3,
+    "Segment": "recordings"
+  },
+  {
+    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/recordings/{callRecording-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/{onlineMeeting-id}/recordings/{callRecording-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/recordings/{callRecording-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "communications",
+      "onlineMeetings",
+      "{onlineMeeting-id}",
+      "recordings",
+      "{callRecording-id}"
+    ],
+    "Root": "communications",
+    "Children": 1,
+    "Segment": "{callRecording-id}"
+  },
+  {
+    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/recordings/{callRecording-id}/content",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/{onlineMeeting-id}/recordings/{callRecording-id}/content",
+    "v1.0-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/recordings/{callRecording-id}/content",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "communications",
+      "onlineMeetings",
+      "{onlineMeeting-id}",
+      "recordings",
+      "{callRecording-id}",
+      "content"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "content"
+  },
+  {
+    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/recordings/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/{onlineMeeting-id}/recordings/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/recordings/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "onlineMeetings",
+      "{onlineMeeting-id}",
+      "recordings",
+      "$count"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/recordings/microsoft.graph.delta()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/{onlineMeeting-id}/recordings/microsoft.graph.delta()",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/recordings/microsoft.graph.delta()",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "onlineMeetings",
+      "{onlineMeeting-id}",
+      "recordings",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
     "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/registration",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/registration",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "communications",
@@ -1488,7 +2217,7 @@
       "registration"
     ],
     "Root": "communications",
-    "Children": 1,
+    "Children": 2,
     "Segment": "registration"
   },
   {
@@ -1496,11 +2225,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/registration/customQuestions",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "communications",
@@ -1514,38 +2251,25 @@
     "Segment": "customQuestions"
   },
   {
-    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/registration/customQuestions/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/registration/customQuestions/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "communications",
-      "onlineMeetings",
-      "{onlineMeeting-id}",
-      "registration",
-      "customQuestions",
-      "$count"
-    ],
-    "Root": "communications",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/registration/customQuestions/{meetingRegistrationQuestion-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/registration/customQuestions/{meetingRegistrationQuestion-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "communications",
@@ -1560,15 +2284,139 @@
     "Segment": "{meetingRegistrationQuestion-id}"
   },
   {
-    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/transcripts",
+    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/registration/customQuestions/$count",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/registration/customQuestions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "onlineMeetings",
+      "{onlineMeeting-id}",
+      "registration",
+      "customQuestions",
+      "$count"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/registration/registrants",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/registration/registrants",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "communications",
+      "onlineMeetings",
+      "{onlineMeeting-id}",
+      "registration",
+      "registrants"
+    ],
+    "Root": "communications",
+    "Children": 2,
+    "Segment": "registrants"
+  },
+  {
+    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/registration/registrants/{meetingRegistrantBase-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/registration/registrants/{meetingRegistrantBase-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "communications",
+      "onlineMeetings",
+      "{onlineMeeting-id}",
+      "registration",
+      "registrants",
+      "{meetingRegistrantBase-id}"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "{meetingRegistrantBase-id}"
+  },
+  {
+    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/registration/registrants/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/registration/registrants/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "onlineMeetings",
+      "{onlineMeeting-id}",
+      "registration",
+      "registrants",
+      "$count"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/transcripts",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/{onlineMeeting-id}/transcripts",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/transcripts",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "communications",
@@ -1577,41 +2425,34 @@
       "transcripts"
     ],
     "Root": "communications",
-    "Children": 2,
+    "Children": 3,
     "Segment": "transcripts"
   },
   {
-    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/transcripts/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/transcripts/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "communications",
-      "onlineMeetings",
-      "{onlineMeeting-id}",
-      "transcripts",
-      "$count"
-    ],
-    "Root": "communications",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/transcripts/{callTranscript-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/{onlineMeeting-id}/transcripts/{callTranscript-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/transcripts/{callTranscript-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "communications",
@@ -1621,19 +2462,34 @@
       "{callTranscript-id}"
     ],
     "Root": "communications",
-    "Children": 1,
+    "Children": 2,
     "Segment": "{callTranscript-id}"
   },
   {
     "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/transcripts/{callTranscript-id}/content",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/{onlineMeeting-id}/transcripts/{callTranscript-id}/content",
+    "v1.0-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/transcripts/{callTranscript-id}/content",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "communications",
@@ -1648,39 +2504,114 @@
     "Segment": "content"
   },
   {
-    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/virtualAppointment",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/transcripts/{callTranscript-id}/metadataContent",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/{onlineMeeting-id}/transcripts/{callTranscript-id}/metadataContent",
+    "v1.0-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/virtualAppointment",
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/transcripts/{callTranscript-id}/metadataContent",
     "Beta-Methods": [
       "Get",
-      "Patch",
+      "Put",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "communications",
       "onlineMeetings",
       "{onlineMeeting-id}",
-      "virtualAppointment"
+      "transcripts",
+      "{callTranscript-id}",
+      "metadataContent"
     ],
     "Root": "communications",
     "Children": 0,
-    "Segment": "virtualAppointment"
+    "Segment": "metadataContent"
+  },
+  {
+    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/transcripts/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/{onlineMeeting-id}/transcripts/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/transcripts/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "onlineMeetings",
+      "{onlineMeeting-id}",
+      "transcripts",
+      "$count"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "communications/onlineMeetings/{onlineMeeting-id}/transcripts/microsoft.graph.delta()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/{onlineMeeting-id}/transcripts/microsoft.graph.delta()",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/{onlineMeeting-id}/transcripts/microsoft.graph.delta()",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "onlineMeetings",
+      "{onlineMeeting-id}",
+      "transcripts",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
+    "Endpoint": "communications/onlineMeetings/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "onlineMeetings",
+      "$count"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "$count"
   },
   {
     "Endpoint": "communications/onlineMeetings/microsoft.graph.createOrGet",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/microsoft.graph.createOrGet",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/onlinemeeting-createorget?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/microsoft.graph.createOrGet",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/onlinemeeting-createorget?view=graph-rest-beta",
     "Path": [
       "communications",
       "onlineMeetings",
@@ -1691,6 +2622,139 @@
     "Segment": "microsoft.graph.createOrGet"
   },
   {
+    "Endpoint": "communications/onlineMeetings/microsoft.graph.getAllRecordings(meetingOrganizerUserId='@meetingOrganizerUserId',startDateTime=@startDateTime,endDateTime=@endDateTime)",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/microsoft.graph.getAllRecordings(meetingOrganizerUserId='@meetingOrganizerUserId',startDateTime=@startDateTime,endDateTime=@endDateTime)",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/onlinemeeting-getallrecordings?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/microsoft.graph.getAllRecordings(meetingOrganizerUserId='@meetingOrganizerUserId',startDateTime=@startDateTime,endDateTime=@endDateTime)",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/onlinemeeting-getallrecordings?view=graph-rest-beta",
+    "Path": [
+      "communications",
+      "onlineMeetings",
+      "microsoft.graph.getAllRecordings(meetingOrganizerUserId='@meetingOrganizerUserId',startDateTime=@startDateTime,endDateTime=@endDateTime)"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "microsoft.graph.getAllRecordings(meetingOrganizerUserId='@meetingOrganizerUserId',startDateTime=@startDateTime,endDateTime=@endDateTime)"
+  },
+  {
+    "Endpoint": "communications/onlineMeetings/microsoft.graph.getAllTranscripts(meetingOrganizerUserId='@meetingOrganizerUserId',startDateTime=@startDateTime,endDateTime=@endDateTime)",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/onlineMeetings/microsoft.graph.getAllTranscripts(meetingOrganizerUserId='@meetingOrganizerUserId',startDateTime=@startDateTime,endDateTime=@endDateTime)",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/onlinemeeting-getalltranscripts?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings/microsoft.graph.getAllTranscripts(meetingOrganizerUserId='@meetingOrganizerUserId',startDateTime=@startDateTime,endDateTime=@endDateTime)",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/onlinemeeting-getalltranscripts?view=graph-rest-beta",
+    "Path": [
+      "communications",
+      "onlineMeetings",
+      "microsoft.graph.getAllTranscripts(meetingOrganizerUserId='@meetingOrganizerUserId',startDateTime=@startDateTime,endDateTime=@endDateTime)"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "microsoft.graph.getAllTranscripts(meetingOrganizerUserId='@meetingOrganizerUserId',startDateTime=@startDateTime,endDateTime=@endDateTime)"
+  },
+  {
+    "Endpoint": "communications/onlineMeetings(joinWebUrl='{joinWebUrl}')",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/onlinemeeting-get?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings(joinWebUrl='{joinWebUrl}')",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "communications",
+      "onlineMeetings(joinWebUrl='{joinWebUrl}')"
+    ],
+    "Root": "communications",
+    "Children": 3,
+    "Segment": "onlineMeetings(joinWebUrl='{joinWebUrl}')"
+  },
+  {
+    "Endpoint": "communications/onlineMeetings(joinWebUrl='{joinWebUrl}')/microsoft.graph.getVirtualAppointmentJoinWebUrl()",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/onlinemeeting-get?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings(joinWebUrl='{joinWebUrl}')/microsoft.graph.getVirtualAppointmentJoinWebUrl()",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/virtualappointment-getvirtualappointmentjoinweburl?view=graph-rest-beta",
+    "Path": [
+      "communications",
+      "onlineMeetings(joinWebUrl='{joinWebUrl}')",
+      "microsoft.graph.getVirtualAppointmentJoinWebUrl()"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "microsoft.graph.getVirtualAppointmentJoinWebUrl()"
+  },
+  {
+    "Endpoint": "communications/onlineMeetings(joinWebUrl='{joinWebUrl}')/microsoft.graph.sendVirtualAppointmentReminderSms",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/onlinemeeting-get?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings(joinWebUrl='{joinWebUrl}')/microsoft.graph.sendVirtualAppointmentReminderSms",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/virtualappointment-sendvirtualappointmentremindersms?view=graph-rest-beta",
+    "Path": [
+      "communications",
+      "onlineMeetings(joinWebUrl='{joinWebUrl}')",
+      "microsoft.graph.sendVirtualAppointmentReminderSms"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "microsoft.graph.sendVirtualAppointmentReminderSms"
+  },
+  {
+    "Endpoint": "communications/onlineMeetings(joinWebUrl='{joinWebUrl}')/microsoft.graph.sendVirtualAppointmentSms",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/onlinemeeting-get?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/onlineMeetings(joinWebUrl='{joinWebUrl}')/microsoft.graph.sendVirtualAppointmentSms",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/virtualappointment-sendvirtualappointmentsms?view=graph-rest-beta",
+    "Path": [
+      "communications",
+      "onlineMeetings(joinWebUrl='{joinWebUrl}')",
+      "microsoft.graph.sendVirtualAppointmentSms"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "microsoft.graph.sendVirtualAppointmentSms"
+  },
+  {
     "Endpoint": "communications/presences",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/presences",
@@ -1698,11 +2762,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/presences",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "communications",
@@ -1713,27 +2785,6 @@
     "Segment": "presences"
   },
   {
-    "Endpoint": "communications/presences/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/presences/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/communications/presences/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "communications",
-      "presences",
-      "$count"
-    ],
-    "Root": "communications",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "communications/presences/{presence-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/presences/{presence-id}",
@@ -1742,12 +2793,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/presence-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/presences/{presence-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/presence-get?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "communications",
@@ -1762,14 +2823,12 @@
     "Endpoint": "communications/presences/{presence-id}/microsoft.graph.clearPresence",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/presences/{presence-id}/microsoft.graph.clearPresence",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/presence-clearpresence?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/presences/{presence-id}/microsoft.graph.clearPresence",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/presence-clearpresence?view=graph-rest-beta",
     "Path": [
       "communications",
       "presences",
@@ -1784,14 +2843,12 @@
     "Endpoint": "communications/presences/{presence-id}/microsoft.graph.clearUserPreferredPresence",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/presences/{presence-id}/microsoft.graph.clearUserPreferredPresence",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/presence-clearuserpreferredpresence?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/presences/{presence-id}/microsoft.graph.clearUserPreferredPresence",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/presence-clearuserpreferredpresence?view=graph-rest-beta",
     "Path": [
       "communications",
       "presences",
@@ -1806,14 +2863,12 @@
     "Endpoint": "communications/presences/{presence-id}/microsoft.graph.setPresence",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/presences/{presence-id}/microsoft.graph.setPresence",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/presence-setpresence?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/presences/{presence-id}/microsoft.graph.setPresence",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/presence-setpresence?view=graph-rest-beta",
     "Path": [
       "communications",
       "presences",
@@ -1826,14 +2881,14 @@
   },
   {
     "Endpoint": "communications/presences/{presence-id}/microsoft.graph.setStatusMessage",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/presences/{presence-id}/microsoft.graph.setStatusMessage",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/presence-setstatusmessage?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/presences/{presence-id}/microsoft.graph.setStatusMessage",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/presence-setstatusmessage?view=graph-rest-beta",
     "Path": [
       "communications",
       "presences",
@@ -1848,14 +2903,12 @@
     "Endpoint": "communications/presences/{presence-id}/microsoft.graph.setUserPreferredPresence",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/presences/{presence-id}/microsoft.graph.setUserPreferredPresence",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/presence-setuserpreferredpresence?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/communications/presences/{presence-id}/microsoft.graph.setUserPreferredPresence",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/presence-setuserpreferredpresence?view=graph-rest-beta",
     "Path": [
       "communications",
       "presences",
@@ -1865,5 +2918,24 @@
     "Root": "communications",
     "Children": 0,
     "Segment": "microsoft.graph.setUserPreferredPresence"
+  },
+  {
+    "Endpoint": "communications/presences/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/communications/presences/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/communications/presences/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "communications",
+      "presences",
+      "$count"
+    ],
+    "Root": "communications",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

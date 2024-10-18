@@ -7,38 +7,26 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/directoryroletemplate-list?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoleTemplates",
     "Beta-Methods": [
       "Get",
       "Post"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/directoryroletemplate-list?view=graph-rest-beta",
+      null
+    ],
     "Path": [
       "directoryRoleTemplates"
     ],
     "Root": "directoryRoleTemplates",
-    "Children": 6,
+    "Children": 7,
     "Segment": "directoryRoleTemplates"
-  },
-  {
-    "Endpoint": "directoryRoleTemplates/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/directoryRoleTemplates/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "directoryRoleTemplates",
-      "$count"
-    ],
-    "Root": "directoryRoleTemplates",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "directoryRoleTemplates/{directoryRoleTemplate-id}",
@@ -49,12 +37,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/directoryroletemplate-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoleTemplates/{directoryRoleTemplate-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/directoryroletemplate-get?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "directoryRoleTemplates",
@@ -68,14 +66,12 @@
     "Endpoint": "directoryRoleTemplates/{directoryRoleTemplate-id}/microsoft.graph.checkMemberGroups",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/{directoryRoleTemplate-id}/microsoft.graph.checkMemberGroups",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-checkmembergroups?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoleTemplates/{directoryRoleTemplate-id}/microsoft.graph.checkMemberGroups",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-checkmembergroups?view=graph-rest-beta",
     "Path": [
       "directoryRoleTemplates",
       "{directoryRoleTemplate-id}",
@@ -89,14 +85,12 @@
     "Endpoint": "directoryRoleTemplates/{directoryRoleTemplate-id}/microsoft.graph.checkMemberObjects",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/{directoryRoleTemplate-id}/microsoft.graph.checkMemberObjects",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoleTemplates/{directoryRoleTemplate-id}/microsoft.graph.checkMemberObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "directoryRoleTemplates",
       "{directoryRoleTemplate-id}",
@@ -110,14 +104,12 @@
     "Endpoint": "directoryRoleTemplates/{directoryRoleTemplate-id}/microsoft.graph.getMemberGroups",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/{directoryRoleTemplate-id}/microsoft.graph.getMemberGroups",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getmembergroups?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoleTemplates/{directoryRoleTemplate-id}/microsoft.graph.getMemberGroups",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-getmembergroups?view=graph-rest-beta",
     "Path": [
       "directoryRoleTemplates",
       "{directoryRoleTemplate-id}",
@@ -131,14 +123,12 @@
     "Endpoint": "directoryRoleTemplates/{directoryRoleTemplate-id}/microsoft.graph.getMemberObjects",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/{directoryRoleTemplate-id}/microsoft.graph.getMemberObjects",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getmemberobjects?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoleTemplates/{directoryRoleTemplate-id}/microsoft.graph.getMemberObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "directoryRoleTemplates",
       "{directoryRoleTemplate-id}",
@@ -152,14 +142,12 @@
     "Endpoint": "directoryRoleTemplates/{directoryRoleTemplate-id}/microsoft.graph.restore",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/{directoryRoleTemplate-id}/microsoft.graph.restore",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-restore?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoleTemplates/{directoryRoleTemplate-id}/microsoft.graph.restore",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-restore?view=graph-rest-beta",
     "Path": [
       "directoryRoleTemplates",
       "{directoryRoleTemplate-id}",
@@ -170,15 +158,51 @@
     "Segment": "microsoft.graph.restore"
   },
   {
+    "Endpoint": "directoryRoleTemplates/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directoryRoleTemplates/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "directoryRoleTemplates",
+      "$count"
+    ],
+    "Root": "directoryRoleTemplates",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "directoryRoleTemplates/microsoft.graph.delta()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/microsoft.graph.delta()",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-delta?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/directoryRoleTemplates/microsoft.graph.delta()",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-delta?view=graph-rest-beta",
+    "Path": [
+      "directoryRoleTemplates",
+      "microsoft.graph.delta()"
+    ],
+    "Root": "directoryRoleTemplates",
+    "Children": 0,
+    "Segment": "microsoft.graph.delta()"
+  },
+  {
     "Endpoint": "directoryRoleTemplates/microsoft.graph.getAvailableExtensionProperties",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/microsoft.graph.getAvailableExtensionProperties",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getavailableextensionproperties?view=graph-rest-1.0",
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-delta?view=graph-rest-beta",
     "Path": [
       "directoryRoleTemplates",
       "microsoft.graph.getAvailableExtensionProperties"
@@ -191,14 +215,12 @@
     "Endpoint": "directoryRoleTemplates/microsoft.graph.getByIds",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/microsoft.graph.getByIds",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getbyids?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoleTemplates/microsoft.graph.getByIds",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-getbyids?view=graph-rest-beta",
     "Path": [
       "directoryRoleTemplates",
       "microsoft.graph.getByIds"
@@ -212,11 +234,11 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-getbyids?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoleTemplates/microsoft.graph.getUserOwnedObjects",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directory-deleteditems-getuserownedobjects?view=graph-rest-beta",
     "Path": [
       "directoryRoleTemplates",
       "microsoft.graph.getUserOwnedObjects"
@@ -229,14 +251,12 @@
     "Endpoint": "directoryRoleTemplates/microsoft.graph.validateProperties",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/microsoft.graph.validateProperties",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/directoryobject-validateproperties?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/directoryRoleTemplates/microsoft.graph.validateProperties",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/directoryobject-validateproperties?view=graph-rest-beta",
     "Path": [
       "directoryRoleTemplates",
       "microsoft.graph.validateProperties"

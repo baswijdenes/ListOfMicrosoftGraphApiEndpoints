@@ -7,17 +7,25 @@
       "Get",
       "Patch"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity",
     "Beta-Methods": [
       "Get",
       "Patch"
     ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
     "Path": [
       "identity"
     ],
     "Root": "identity",
-    "Children": 10,
+    "Children": 11,
     "Segment": "identity"
   },
   {
@@ -28,11 +36,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identityapiconnector-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identityapiconnector-create?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/apiConnectors",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/identityapiconnector-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/identityapiconnector-create?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -43,27 +59,6 @@
     "Segment": "apiConnectors"
   },
   {
-    "Endpoint": "identity/apiConnectors/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/apiConnectors/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/apiConnectors/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "apiConnectors",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/apiConnectors/{identityApiConnector-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/apiConnectors/{identityApiConnector-id}",
@@ -72,12 +67,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identityapiconnector-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identityapiconnector-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identityapiconnector-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/apiConnectors/{identityApiConnector-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/identityapiconnector-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/identityapiconnector-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/identityapiconnector-delete?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -92,14 +97,12 @@
     "Endpoint": "identity/apiConnectors/{identityApiConnector-id}/microsoft.graph.uploadClientCertificate",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/apiConnectors/{identityApiConnector-id}/microsoft.graph.uploadClientCertificate",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/identityapiconnector-uploadclientcertificate?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/apiConnectors/{identityApiConnector-id}/microsoft.graph.uploadClientCertificate",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/identityapiconnector-uploadclientcertificate?view=graph-rest-beta",
     "Path": [
       "identity",
       "apiConnectors",
@@ -111,15 +114,45 @@
     "Segment": "microsoft.graph.uploadClientCertificate"
   },
   {
+    "Endpoint": "identity/apiConnectors/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/apiConnectors/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/apiConnectors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "apiConnectors",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "identity/authenticationEventListeners",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventListeners",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventlisteners?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventlisteners?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventListeners",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventlisteners?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventlisteners?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -130,35 +163,30 @@
     "Segment": "authenticationEventListeners"
   },
   {
-    "Endpoint": "identity/authenticationEventListeners/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventListeners/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "authenticationEventListeners",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/authenticationEventListeners/{authenticationEventListener-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventListeners/{authenticationEventListener-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/authenticationeventlistener-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/authenticationeventlistener-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/authenticationeventlistener-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventListeners/{authenticationEventListener-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/authenticationeventlistener-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/authenticationeventlistener-delete?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -170,15 +198,822 @@
     "Segment": "{authenticationEventListener-id}"
   },
   {
+    "Endpoint": "identity/authenticationEventListeners/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventListeners/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventListeners/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "authenticationEventListeners",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-beta"
+    ],
+    "Path": [
+      "identity",
+      "authenticationEventsFlows"
+    ],
+    "Root": "identity",
+    "Children": 3,
+    "Segment": "authenticationEventsFlows"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/{authenticationEventsFlow-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/authenticationeventsflow-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/authenticationeventsflow-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/authenticationeventsflow-delete?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/{authenticationEventsFlow-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/authenticationeventsflow-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/authenticationeventsflow-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/authenticationeventsflow-delete?view=graph-rest-beta"
+    ],
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "{authenticationEventsFlow-id}"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/conditions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/conditions",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/conditions",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "conditions"
+    ],
+    "Root": "identity",
+    "Children": 1,
+    "Segment": "conditions"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/conditions/applications",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "conditions",
+      "applications"
+    ],
+    "Root": "identity",
+    "Children": 1,
+    "Segment": "applications"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/conditions/applications/includeApplications",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/conditions/applications/includeApplications",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/authenticationconditionsapplications-list-includeapplications?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/authenticationconditionsapplications-post-includeapplications?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/conditions/applications/includeApplications",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/authenticationconditionsapplications-list-includeapplications?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/authenticationconditionsapplications-post-includeapplications?view=graph-rest-beta"
+    ],
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "conditions",
+      "applications",
+      "includeApplications"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "includeApplications"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/conditions/applications/includeApplications/{authenticationConditionApplication-appId}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/conditions/applications/includeApplications/{authenticationConditionApplication-appId}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      "https://learn.microsoft.com/graph/api/authenticationconditionapplication-delete?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/conditions/applications/includeApplications/{authenticationConditionApplication-appId}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      "https://learn.microsoft.com/graph/api/authenticationconditionapplication-delete?view=graph-rest-beta"
+    ],
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "conditions",
+      "applications",
+      "includeApplications",
+      "{authenticationConditionApplication-appId}"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "{authenticationConditionApplication-appId}"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/conditions/applications/includeApplications/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/conditions/applications/includeApplications/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/conditions/applications/includeApplications/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "conditions",
+      "applications",
+      "includeApplications",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "microsoft.graph.externalUsersSelfServiceSignUpEventsFlow"
+    ],
+    "Root": "identity",
+    "Children": 3,
+    "Segment": "microsoft.graph.externalUsersSelfServiceSignUpEventsFlow"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/conditions",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/conditions",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/conditions",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+      "conditions"
+    ],
+    "Root": "identity",
+    "Children": 1,
+    "Segment": "conditions"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/conditions/applications",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+      "conditions",
+      "applications"
+    ],
+    "Root": "identity",
+    "Children": 1,
+    "Segment": "applications"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/conditions/applications/includeApplications",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/conditions/applications/includeApplications",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/conditions/applications/includeApplications",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+      "conditions",
+      "applications",
+      "includeApplications"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "includeApplications"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/conditions/applications/includeApplications/{authenticationConditionApplication-appId}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/conditions/applications/includeApplications/{authenticationConditionApplication-appId}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/conditions/applications/includeApplications/{authenticationConditionApplication-appId}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+      "conditions",
+      "applications",
+      "includeApplications",
+      "{authenticationConditionApplication-appId}"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "{authenticationConditionApplication-appId}"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/conditions/applications/includeApplications/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/conditions/applications/includeApplications/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/conditions/applications/includeApplications/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+      "conditions",
+      "applications",
+      "includeApplications",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAttributeCollection",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAttributeCollection",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAttributeCollection",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+      "onAttributeCollection"
+    ],
+    "Root": "identity",
+    "Children": 1,
+    "Segment": "onAttributeCollection"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAttributeCollection/microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAttributeCollection/microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAttributeCollection/microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+      "onAttributeCollection",
+      "microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp"
+    ],
+    "Root": "identity",
+    "Children": 1,
+    "Segment": "microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAttributeCollection/microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp/attributes",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAttributeCollection/microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp/attributes",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/onattributecollectionexternalusersselfservicesignup-list-attributes?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAttributeCollection/microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp/attributes",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/onattributecollectionexternalusersselfservicesignup-list-attributes?view=graph-rest-beta",
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+      "onAttributeCollection",
+      "microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp",
+      "attributes"
+    ],
+    "Root": "identity",
+    "Children": 3,
+    "Segment": "attributes"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAttributeCollection/microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp/attributes/{identityUserFlowAttribute-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/onattributecollectionexternalusersselfservicesignup-list-attributes?view=graph-rest-1.0",
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/onattributecollectionexternalusersselfservicesignup-list-attributes?view=graph-rest-beta",
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+      "onAttributeCollection",
+      "microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp",
+      "attributes",
+      "{identityUserFlowAttribute-id}"
+    ],
+    "Root": "identity",
+    "Children": 1,
+    "Segment": "{identityUserFlowAttribute-id}"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAttributeCollection/microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp/attributes/{identityUserFlowAttribute-id}/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAttributeCollection/microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp/attributes/{identityUserFlowAttribute-id}/$ref",
+    "v1.0-Methods": "Delete",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAttributeCollection/microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp/attributes/{identityUserFlowAttribute-id}/$ref",
+    "Beta-Methods": "Delete",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+      "onAttributeCollection",
+      "microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp",
+      "attributes",
+      "{identityUserFlowAttribute-id}",
+      "$ref"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAttributeCollection/microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp/attributes/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAttributeCollection/microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp/attributes/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAttributeCollection/microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp/attributes/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+      "onAttributeCollection",
+      "microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp",
+      "attributes",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAttributeCollection/microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp/attributes/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAttributeCollection/microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp/attributes/$ref",
+    "v1.0-Methods": [
+      "Get",
+      "Post",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/onattributecollectionexternalusersselfservicesignup-list-attributes?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/onattributecollectionexternalusersselfservicesignup-post-attributes?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAttributeCollection/microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp/attributes/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/onattributecollectionexternalusersselfservicesignup-list-attributes?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/onattributecollectionexternalusersselfservicesignup-post-attributes?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+      "onAttributeCollection",
+      "microsoft.graph.onAttributeCollectionExternalUsersSelfServiceSignUp",
+      "attributes",
+      "$ref"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAuthenticationMethodLoadStart",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAuthenticationMethodLoadStart",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAuthenticationMethodLoadStart",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+      "onAuthenticationMethodLoadStart"
+    ],
+    "Root": "identity",
+    "Children": 1,
+    "Segment": "onAuthenticationMethodLoadStart"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAuthenticationMethodLoadStart/microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAuthenticationMethodLoadStart/microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAuthenticationMethodLoadStart/microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+      "onAuthenticationMethodLoadStart",
+      "microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp"
+    ],
+    "Root": "identity",
+    "Children": 1,
+    "Segment": "microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAuthenticationMethodLoadStart/microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp/identityProviders",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAuthenticationMethodLoadStart/microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp/identityProviders",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/onauthenticationmethodloadstartexternalusersselfservicesignup-list-identityproviders?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAuthenticationMethodLoadStart/microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp/identityProviders",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/onauthenticationmethodloadstartexternalusersselfservicesignup-list-identityproviders?view=graph-rest-beta",
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+      "onAuthenticationMethodLoadStart",
+      "microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp",
+      "identityProviders"
+    ],
+    "Root": "identity",
+    "Children": 3,
+    "Segment": "identityProviders"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAuthenticationMethodLoadStart/microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp/identityProviders/{identityProviderBase-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/onauthenticationmethodloadstartexternalusersselfservicesignup-list-identityproviders?view=graph-rest-1.0",
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/onauthenticationmethodloadstartexternalusersselfservicesignup-list-identityproviders?view=graph-rest-beta",
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+      "onAuthenticationMethodLoadStart",
+      "microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp",
+      "identityProviders",
+      "{identityProviderBase-id}"
+    ],
+    "Root": "identity",
+    "Children": 1,
+    "Segment": "{identityProviderBase-id}"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAuthenticationMethodLoadStart/microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp/identityProviders/{identityProviderBase-id}/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAuthenticationMethodLoadStart/microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp/identityProviders/{identityProviderBase-id}/$ref",
+    "v1.0-Methods": "Delete",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAuthenticationMethodLoadStart/microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp/identityProviders/{identityProviderBase-id}/$ref",
+    "Beta-Methods": "Delete",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+      "onAuthenticationMethodLoadStart",
+      "microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp",
+      "identityProviders",
+      "{identityProviderBase-id}",
+      "$ref"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAuthenticationMethodLoadStart/microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp/identityProviders/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAuthenticationMethodLoadStart/microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp/identityProviders/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAuthenticationMethodLoadStart/microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp/identityProviders/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+      "onAuthenticationMethodLoadStart",
+      "microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp",
+      "identityProviders",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAuthenticationMethodLoadStart/microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp/identityProviders/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAuthenticationMethodLoadStart/microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp/identityProviders/$ref",
+    "v1.0-Methods": [
+      "Get",
+      "Post",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/onauthenticationmethodloadstartexternalusersselfservicesignup-list-identityproviders?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/onauthenticationmethodloadstartexternalusersselfservicesignup-post-identityproviders?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/{authenticationEventsFlow-id}/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/onAuthenticationMethodLoadStart/microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp/identityProviders/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/onauthenticationmethodloadstartexternalusersselfservicesignup-list-identityproviders?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/onauthenticationmethodloadstartexternalusersselfservicesignup-post-identityproviders?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "{authenticationEventsFlow-id}",
+      "microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+      "onAuthenticationMethodLoadStart",
+      "microsoft.graph.onAuthenticationMethodLoadStartExternalUsersSelfServiceSignUp",
+      "identityProviders",
+      "$ref"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "microsoft.graph.externalUsersSelfServiceSignUpEventsFlow"
+    ],
+    "Root": "identity",
+    "Children": 1,
+    "Segment": "microsoft.graph.externalUsersSelfServiceSignUpEventsFlow"
+  },
+  {
+    "Endpoint": "identity/authenticationEventsFlows/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/authenticationEventsFlows/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/authenticationEventsFlows/microsoft.graph.externalUsersSelfServiceSignUpEventsFlow/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "authenticationEventsFlows",
+      "microsoft.graph.externalUsersSelfServiceSignUpEventsFlow",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "identity/b2cUserFlows",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-b2cuserflows?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-b2cuserflows?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -189,35 +1024,25 @@
     "Segment": "b2cUserFlows"
   },
   {
-    "Endpoint": "identity/b2cUserFlows/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "b2cUserFlows",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/b2cidentityuserflow-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/b2cidentityuserflow-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/b2cidentityuserflow-delete?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -233,11 +1058,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/identityProviders",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/b2cidentityuserflow-list-identityproviders?view=graph-rest-beta",
     "Path": [
       "identity",
       "b2cUserFlows",
@@ -249,56 +1077,18 @@
     "Segment": "identityProviders"
   },
   {
-    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/identityProviders/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/identityProviders/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "b2cUserFlows",
-      "{b2cIdentityUserFlow-id}",
-      "identityProviders",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
-    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/identityProviders/$ref",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/identityProviders/$ref",
-    "Beta-Methods": [
-      "Get",
-      "Post"
-    ],
-    "Path": [
-      "identity",
-      "b2cUserFlows",
-      "{b2cIdentityUserFlow-id}",
-      "identityProviders",
-      "$ref"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$ref"
-  },
-  {
     "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/identityProviders/{identityProvider-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/b2cidentityuserflow-list-identityproviders?view=graph-rest-beta",
     "Path": [
       "identity",
       "b2cUserFlows",
@@ -315,11 +1105,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/identityProviders/{identityProvider-id}/$ref",
-    "Beta-Methods": [
-      "Delete"
-    ],
+    "Beta-Methods": "Delete",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/b2cidentityuserflow-delete-identityproviders?view=graph-rest-beta",
     "Path": [
       "identity",
       "b2cUserFlows",
@@ -333,15 +1126,79 @@
     "Segment": "$ref"
   },
   {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/identityProviders/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/identityProviders/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "identityProviders",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/identityProviders/$ref",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/identityProviders/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Post",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/b2cidentityuserflow-list-identityproviders?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/b2cidentityuserflow-post-identityproviders?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/b2cidentityuserflow-delete-identityproviders?view=graph-rest-beta"
+    ],
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "identityProviders",
+      "$ref"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
     "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/b2cidentityuserflow-list-languages?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "identity",
@@ -354,37 +1211,25 @@
     "Segment": "languages"
   },
   {
-    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "b2cUserFlows",
-      "{b2cIdentityUserFlow-id}",
-      "languages",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/userflowlanguageconfiguration-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/b2cidentityuserflow-put-languages?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/userflowlanguageconfiguration-delete?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -402,11 +1247,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/userflowlanguageconfiguration-list-defaultpages?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "identity",
@@ -421,39 +1274,25 @@
     "Segment": "defaultPages"
   },
   {
-    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "b2cUserFlows",
-      "{b2cIdentityUserFlow-id}",
-      "languages",
-      "{userFlowLanguageConfiguration-id}",
-      "defaultPages",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/{userFlowLanguagePage-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/{userFlowLanguagePage-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "identity",
@@ -473,11 +1312,21 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/{userFlowLanguagePage-id}/$value",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/userflowlanguageconfiguration-list-defaultpages?view=graph-rest-beta",
+      null,
+      null
     ],
     "Path": [
       "identity",
@@ -494,15 +1343,49 @@
     "Segment": "$value"
   },
   {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "languages",
+      "{userFlowLanguageConfiguration-id}",
+      "defaultPages",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/userflowlanguageconfiguration-list-overridespages?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "identity",
@@ -517,39 +1400,25 @@
     "Segment": "overridesPages"
   },
   {
-    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "b2cUserFlows",
-      "{b2cIdentityUserFlow-id}",
-      "languages",
-      "{userFlowLanguageConfiguration-id}",
-      "overridesPages",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/{userFlowLanguagePage-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/{userFlowLanguagePage-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/userflowlanguagepage-put?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/userflowlanguagepage-delete?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -569,11 +1438,21 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/{userFlowLanguagePage-id}/$value",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/userflowlanguageconfiguration-list-overridespages?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/userflowlanguagepage-put?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/userflowlanguagepage-delete?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -590,15 +1469,73 @@
     "Segment": "$value"
   },
   {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "languages",
+      "{userFlowLanguageConfiguration-id}",
+      "overridesPages",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/languages/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "languages",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userAttributeAssignments",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userAttributeAssignments",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/b2cidentityuserflow-list-userattributeassignments?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/b2cidentityuserflow-post-userattributeassignments?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -611,37 +1548,25 @@
     "Segment": "userAttributeAssignments"
   },
   {
-    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userAttributeAssignments/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userAttributeAssignments/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "b2cUserFlows",
-      "{b2cIdentityUserFlow-id}",
-      "userAttributeAssignments",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userAttributeAssignments/{identityUserFlowAttributeAssignment-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userAttributeAssignments/{identityUserFlowAttributeAssignment-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/identityuserflowattributeassignment-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/identityuserflowattributeassignment-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/identityuserflowattributeassignment-delete?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -659,11 +1584,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userAttributeAssignments/{identityUserFlowAttributeAssignment-id}/userAttribute",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "identity",
       "b2cUserFlows",
@@ -677,15 +1605,42 @@
     "Segment": "userAttribute"
   },
   {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userAttributeAssignments/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userAttributeAssignments/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "userAttributeAssignments",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userAttributeAssignments/microsoft.graph.getOrder()",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userAttributeAssignments/microsoft.graph.getOrder()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/identityuserflowattributeassignment-getorder?view=graph-rest-beta",
     "Path": [
       "identity",
       "b2cUserFlows",
@@ -702,11 +1657,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userAttributeAssignments/microsoft.graph.setOrder",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/identityuserflowattributeassignment-setorder?view=graph-rest-beta",
     "Path": [
       "identity",
       "b2cUserFlows",
@@ -723,11 +1681,14 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userFlowIdentityProviders",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "identity",
       "b2cUserFlows",
@@ -739,36 +1700,18 @@
     "Segment": "userFlowIdentityProviders"
   },
   {
-    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userFlowIdentityProviders/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userFlowIdentityProviders/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "b2cUserFlows",
-      "{b2cIdentityUserFlow-id}",
-      "userFlowIdentityProviders",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userFlowIdentityProviders/{identityProviderBase-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userFlowIdentityProviders/{identityProviderBase-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "identity",
       "b2cUserFlows",
@@ -781,6 +1724,52 @@
     "Segment": "{identityProviderBase-id}"
   },
   {
+    "Endpoint": "identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userFlowIdentityProviders/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/{b2cIdentityUserFlow-id}/userFlowIdentityProviders/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "{b2cIdentityUserFlow-id}",
+      "userFlowIdentityProviders",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/b2cUserFlows/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-authenticationeventsflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-authenticationeventsflows?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2cUserFlows/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "b2cUserFlows",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "identity/b2xUserFlows",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows",
@@ -788,11 +1777,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-b2xuserflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-b2xuserflows?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-b2xuserflows?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-b2xuserflows?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -803,27 +1800,6 @@
     "Segment": "b2xUserFlows"
   },
   {
-    "Endpoint": "identity/b2xUserFlows/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "b2xUserFlows",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}",
@@ -832,6 +1808,11 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/b2xidentityuserflow-get?view=graph-rest-1.0",
+      null,
+      "https://learn.microsoft.com/graph/api/b2xidentityuserflow-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}",
     "Beta-Methods": [
@@ -839,27 +1820,303 @@
       "Patch",
       "Delete"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/b2xidentityuserflow-get?view=graph-rest-beta",
+      null,
+      "https://learn.microsoft.com/graph/api/b2xidentityuserflow-delete?view=graph-rest-beta"
+    ],
     "Path": [
       "identity",
       "b2xUserFlows",
       "{b2xIdentityUserFlow-id}"
     ],
     "Root": "identity",
-    "Children": 4,
+    "Children": 5,
     "Segment": "{b2xIdentityUserFlow-id}"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/b2xidentityuserflow-get-apiconnectorconfiguration?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/b2xidentityuserflow-get-apiconnectorconfiguration?view=graph-rest-beta",
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "apiConnectorConfiguration"
+    ],
+    "Root": "identity",
+    "Children": 3,
+    "Segment": "apiConnectorConfiguration"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration/postAttributeCollection",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration/postAttributeCollection",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration/postAttributeCollection",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "apiConnectorConfiguration",
+      "postAttributeCollection"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "postAttributeCollection"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration/postAttributeCollection/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration/postAttributeCollection/$ref",
+    "v1.0-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration/postAttributeCollection/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "apiConnectorConfiguration",
+      "postAttributeCollection",
+      "$ref"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration/postAttributeCollection/microsoft.graph.uploadClientCertificate",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration/postAttributeCollection/microsoft.graph.uploadClientCertificate",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/identityapiconnector-uploadclientcertificate?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration/postAttributeCollection/microsoft.graph.uploadClientCertificate",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/identityapiconnector-uploadclientcertificate?view=graph-rest-beta",
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "apiConnectorConfiguration",
+      "postAttributeCollection",
+      "microsoft.graph.uploadClientCertificate"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "microsoft.graph.uploadClientCertificate"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration/postFederationSignup",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration/postFederationSignup",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration/postFederationSignup",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "apiConnectorConfiguration",
+      "postFederationSignup"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "postFederationSignup"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration/postFederationSignup/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration/postFederationSignup/$ref",
+    "v1.0-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration/postFederationSignup/$ref",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "apiConnectorConfiguration",
+      "postFederationSignup",
+      "$ref"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration/postFederationSignup/microsoft.graph.uploadClientCertificate",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration/postFederationSignup/microsoft.graph.uploadClientCertificate",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/identityapiconnector-uploadclientcertificate?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration/postFederationSignup/microsoft.graph.uploadClientCertificate",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/identityapiconnector-uploadclientcertificate?view=graph-rest-beta",
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "apiConnectorConfiguration",
+      "postFederationSignup",
+      "microsoft.graph.uploadClientCertificate"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "microsoft.graph.uploadClientCertificate"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration/preTokenIssuance",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration/preTokenIssuance",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "apiConnectorConfiguration",
+      "preTokenIssuance"
+    ],
+    "Root": "identity",
+    "Children": 1,
+    "Segment": "preTokenIssuance"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration/preTokenIssuance/microsoft.graph.uploadClientCertificate",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/apiConnectorConfiguration/preTokenIssuance/microsoft.graph.uploadClientCertificate",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/identityapiconnector-uploadclientcertificate?view=graph-rest-beta",
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "apiConnectorConfiguration",
+      "preTokenIssuance",
+      "microsoft.graph.uploadClientCertificate"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "microsoft.graph.uploadClientCertificate"
   },
   {
     "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/identityProviders",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/identityProviders",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/b2xidentityuserflow-list-identityproviders?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/identityProviders",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/b2xidentityuserflow-list-identityproviders?view=graph-rest-beta",
     "Path": [
       "identity",
       "b2xUserFlows",
@@ -871,40 +2128,15 @@
     "Segment": "identityProviders"
   },
   {
-    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/identityProviders/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/identityProviders/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/identityProviders/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "b2xUserFlows",
-      "{b2xIdentityUserFlow-id}",
-      "identityProviders",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/identityProviders/{identityProvider-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/identityProviders/{identityProvider-id}",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/identityProviders/{identityProvider-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "identity",
       "b2xUserFlows",
@@ -917,6 +2149,27 @@
     "Segment": "{identityProvider-id}"
   },
   {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/identityProviders/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/identityProviders/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/identityProviders/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "identityProviders",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages",
@@ -924,11 +2177,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/b2xidentityuserflow-list-languages?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/b2xidentityuserflow-list-languages?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "identity",
@@ -941,29 +2202,6 @@
     "Segment": "languages"
   },
   {
-    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "b2xUserFlows",
-      "{b2xIdentityUserFlow-id}",
-      "languages",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}",
@@ -972,12 +2210,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/userflowlanguageconfiguration-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "identity",
@@ -998,11 +2246,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/userflowlanguagepage-get?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "identity",
@@ -1017,31 +2273,6 @@
     "Segment": "defaultPages"
   },
   {
-    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "b2xUserFlows",
-      "{b2xIdentityUserFlow-id}",
-      "languages",
-      "{userFlowLanguageConfiguration-id}",
-      "defaultPages",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/{userFlowLanguagePage-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/{userFlowLanguagePage-id}",
@@ -1050,12 +2281,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/{userFlowLanguagePage-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "identity",
@@ -1076,13 +2317,25 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/{userFlowLanguagePage-id}/$value",
     "v1.0-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/userflowlanguagepage-get?view=graph-rest-1.0",
+      null,
+      null
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/{userFlowLanguagePage-id}/$value",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "identity",
@@ -1099,6 +2352,29 @@
     "Segment": "$value"
   },
   {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/defaultPages/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "languages",
+      "{userFlowLanguageConfiguration-id}",
+      "defaultPages",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages",
@@ -1106,11 +2382,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/userflowlanguageconfiguration-list-overridespages?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "identity",
@@ -1125,31 +2409,6 @@
     "Segment": "overridesPages"
   },
   {
-    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "b2xUserFlows",
-      "{b2xIdentityUserFlow-id}",
-      "languages",
-      "{userFlowLanguageConfiguration-id}",
-      "overridesPages",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/{userFlowLanguagePage-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/{userFlowLanguagePage-id}",
@@ -1158,12 +2417,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      "https://learn.microsoft.com/graph/api/userflowlanguagepage-put?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/userflowlanguagepage-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/{userFlowLanguagePage-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "identity",
@@ -1184,13 +2453,25 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/{userFlowLanguagePage-id}/$value",
     "v1.0-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/userflowlanguageconfiguration-list-overridespages?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/userflowlanguagepage-put?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/userflowlanguagepage-delete?view=graph-rest-1.0"
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/{userFlowLanguagePage-id}/$value",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "identity",
@@ -1207,6 +2488,50 @@
     "Segment": "$value"
   },
   {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "languages",
+      "{userFlowLanguageConfiguration-id}",
+      "overridesPages",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "languages",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments",
@@ -1214,11 +2539,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/b2xidentityuserflow-list-userattributeassignments?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/b2xidentityuserflow-post-userattributeassignments?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/b2xidentityuserflow-list-userattributeassignments?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/b2xidentityuserflow-post-userattributeassignments?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -1231,29 +2564,6 @@
     "Segment": "userAttributeAssignments"
   },
   {
-    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "b2xUserFlows",
-      "{b2xIdentityUserFlow-id}",
-      "userAttributeAssignments",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/{identityUserFlowAttributeAssignment-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/{identityUserFlowAttributeAssignment-id}",
@@ -1262,12 +2572,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identityuserflowattributeassignment-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identityuserflowattributeassignment-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identityuserflowattributeassignment-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/{identityUserFlowAttributeAssignment-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "identity",
@@ -1284,14 +2604,12 @@
     "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/{identityUserFlowAttributeAssignment-id}/userAttribute",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/{identityUserFlowAttributeAssignment-id}/userAttribute",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/{identityUserFlowAttributeAssignment-id}/userAttribute",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "identity",
       "b2xUserFlows",
@@ -1305,17 +2623,36 @@
     "Segment": "userAttribute"
   },
   {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "userAttributeAssignments",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/microsoft.graph.getOrder()",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/microsoft.graph.getOrder()",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/identityuserflowattributeassignment-getorder?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/microsoft.graph.getOrder()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/identityuserflowattributeassignment-getorder?view=graph-rest-beta",
     "Path": [
       "identity",
       "b2xUserFlows",
@@ -1331,14 +2668,12 @@
     "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/microsoft.graph.setOrder",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/microsoft.graph.setOrder",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/identityuserflowattributeassignment-setorder?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userAttributeAssignments/microsoft.graph.setOrder",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/identityuserflowattributeassignment-setorder?view=graph-rest-beta",
     "Path": [
       "identity",
       "b2xUserFlows",
@@ -1354,14 +2689,12 @@
     "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "identity",
       "b2xUserFlows",
@@ -1373,17 +2706,58 @@
     "Segment": "userFlowIdentityProviders"
   },
   {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders/{identityProviderBase-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "userFlowIdentityProviders",
+      "{identityProviderBase-id}"
+    ],
+    "Root": "identity",
+    "Children": 1,
+    "Segment": "{identityProviderBase-id}"
+  },
+  {
+    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders/{identityProviderBase-id}/$ref",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders/{identityProviderBase-id}/$ref",
+    "v1.0-Methods": "Delete",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders/{identityProviderBase-id}/$ref",
+    "Beta-Methods": "Delete",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "b2xUserFlows",
+      "{b2xIdentityUserFlow-id}",
+      "userFlowIdentityProviders",
+      "{identityProviderBase-id}",
+      "$ref"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$ref"
+  },
+  {
     "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders/$count",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "identity",
       "b2xUserFlows",
@@ -1401,13 +2775,25 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders/$ref",
     "v1.0-Methods": [
       "Get",
-      "Post"
+      "Post",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders/$ref",
     "Beta-Methods": [
       "Get",
-      "Post"
+      "Post",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "identity",
@@ -1421,70 +2807,46 @@
     "Segment": "$ref"
   },
   {
-    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders/{identityProviderBase-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": false,
-    "Beta-Url": null,
-    "Beta-Methods": null,
-    "Path": [
-      "identity",
-      "b2xUserFlows",
-      "{b2xIdentityUserFlow-id}",
-      "userFlowIdentityProviders",
-      "{identityProviderBase-id}"
-    ],
-    "Root": "identity",
-    "Children": 1,
-    "Segment": "{identityProviderBase-id}"
-  },
-  {
-    "Endpoint": "identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders/{identityProviderBase-id}/$ref",
+    "Endpoint": "identity/b2xUserFlows/$count",
     "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders/{identityProviderBase-id}/$ref",
-    "v1.0-Methods": [
-      "Delete"
-    ],
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/b2xUserFlows/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/{b2xIdentityUserFlow-id}/userFlowIdentityProviders/{identityProviderBase-id}/$ref",
-    "Beta-Methods": [
-      "Delete"
-    ],
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/b2xUserFlows/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "identity",
       "b2xUserFlows",
-      "{b2xIdentityUserFlow-id}",
-      "userFlowIdentityProviders",
-      "{identityProviderBase-id}",
-      "$ref"
+      "$count"
     ],
     "Root": "identity",
     "Children": 0,
-    "Segment": "$ref"
+    "Segment": "$count"
   },
   {
     "Endpoint": "identity/conditionalAccess",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess",
-    "v1.0-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-b2xuserflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-b2xuserflows?view=graph-rest-1.0"
     ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess",
-    "Beta-Methods": [
-      "Get",
-      "Patch",
-      "Delete"
+    "beta": false,
+    "Beta-Url": null,
+    "Beta-Methods": null,
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-b2xuserflows?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-b2xuserflows?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
       "conditionalAccess"
     ],
     "Root": "identity",
-    "Children": 5,
+    "Children": 7,
     "Segment": "conditionalAccess"
   },
   {
@@ -1495,11 +2857,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/conditionalaccessroot-list-authenticationcontextclassreferences?view=graph-rest-1.0",
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationContextClassReferences",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/conditionalaccessroot-list-authenticationcontextclassreferences?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/conditionalaccessroot-post-authenticationcontextclassreferences?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -1511,28 +2881,6 @@
     "Segment": "authenticationContextClassReferences"
   },
   {
-    "Endpoint": "identity/conditionalAccess/authenticationContextClassReferences/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/authenticationContextClassReferences/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationContextClassReferences/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "conditionalAccess",
-      "authenticationContextClassReferences",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/conditionalAccess/authenticationContextClassReferences/{authenticationContextClassReference-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/authenticationContextClassReferences/{authenticationContextClassReference-id}",
@@ -1541,12 +2889,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/authenticationcontextclassreference-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/authenticationcontextclassreference-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/authenticationcontextclassreference-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationContextClassReferences/{authenticationContextClassReference-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/authenticationcontextclassreference-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/authenticationcontextclassreference-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/authenticationcontextclassreference-delete?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -1559,16 +2917,422 @@
     "Segment": "{authenticationContextClassReference-id}"
   },
   {
+    "Endpoint": "identity/conditionalAccess/authenticationContextClassReferences/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/authenticationContextClassReferences/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationContextClassReferences/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationContextClassReferences",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrength",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/authenticationStrength",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrength",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrength"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "authenticationStrength"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrength/authenticationMethodModes",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/authenticationStrength/authenticationMethodModes",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/authenticationstrengthroot-list-authenticationmethodmodes?view=graph-rest-1.0",
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrength/authenticationMethodModes",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/authenticationstrengthroot-list-authenticationmethodmodes?view=graph-rest-beta",
+      null
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrength",
+      "authenticationMethodModes"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "authenticationMethodModes"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrength/authenticationMethodModes/{authenticationMethodModeDetail-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/authenticationStrength/authenticationMethodModes/{authenticationMethodModeDetail-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrength/authenticationMethodModes/{authenticationMethodModeDetail-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrength",
+      "authenticationMethodModes",
+      "{authenticationMethodModeDetail-id}"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "{authenticationMethodModeDetail-id}"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrength/authenticationMethodModes/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/authenticationStrength/authenticationMethodModes/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrength/authenticationMethodModes/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrength",
+      "authenticationMethodModes",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrength/policies",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/authenticationStrength/policies",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrength/policies",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrength",
+      "policies"
+    ],
+    "Root": "identity",
+    "Children": 3,
+    "Segment": "policies"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrength/policies/{authenticationStrengthPolicy-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/authenticationStrength/policies/{authenticationStrengthPolicy-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrength/policies/{authenticationStrengthPolicy-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrength",
+      "policies",
+      "{authenticationStrengthPolicy-id}"
+    ],
+    "Root": "identity",
+    "Children": 3,
+    "Segment": "{authenticationStrengthPolicy-id}"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrength/policies/{authenticationStrengthPolicy-id}/combinationConfigurations",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/authenticationStrength/policies/{authenticationStrengthPolicy-id}/combinationConfigurations",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/authenticationstrengthpolicy-list-combinationconfigurations?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/authenticationstrengthpolicy-post-combinationconfigurations?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrength/policies/{authenticationStrengthPolicy-id}/combinationConfigurations",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/authenticationstrengthpolicy-list-combinationconfigurations?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/authenticationstrengthpolicy-post-combinationconfigurations?view=graph-rest-beta"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrength",
+      "policies",
+      "{authenticationStrengthPolicy-id}",
+      "combinationConfigurations"
+    ],
+    "Root": "identity",
+    "Children": 2,
+    "Segment": "combinationConfigurations"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrength/policies/{authenticationStrengthPolicy-id}/combinationConfigurations/{authenticationCombinationConfiguration-id}",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/authenticationStrength/policies/{authenticationStrengthPolicy-id}/combinationConfigurations/{authenticationCombinationConfiguration-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/authenticationcombinationconfiguration-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/authenticationcombinationconfiguration-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/authenticationstrengthpolicy-delete-combinationconfigurations?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrength/policies/{authenticationStrengthPolicy-id}/combinationConfigurations/{authenticationCombinationConfiguration-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/authenticationcombinationconfiguration-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/authenticationcombinationconfiguration-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/authenticationstrengthpolicy-delete-combinationconfigurations?view=graph-rest-beta"
+    ],
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrength",
+      "policies",
+      "{authenticationStrengthPolicy-id}",
+      "combinationConfigurations",
+      "{authenticationCombinationConfiguration-id}"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "{authenticationCombinationConfiguration-id}"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrength/policies/{authenticationStrengthPolicy-id}/combinationConfigurations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/authenticationStrength/policies/{authenticationStrengthPolicy-id}/combinationConfigurations/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrength/policies/{authenticationStrengthPolicy-id}/combinationConfigurations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrength",
+      "policies",
+      "{authenticationStrengthPolicy-id}",
+      "combinationConfigurations",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrength/policies/{authenticationStrengthPolicy-id}/microsoft.graph.updateAllowedCombinations",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/authenticationStrength/policies/{authenticationStrengthPolicy-id}/microsoft.graph.updateAllowedCombinations",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/authenticationstrengthpolicy-updateallowedcombinations?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrength/policies/{authenticationStrengthPolicy-id}/microsoft.graph.updateAllowedCombinations",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/authenticationstrengthpolicy-updateallowedcombinations?view=graph-rest-beta",
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrength",
+      "policies",
+      "{authenticationStrengthPolicy-id}",
+      "microsoft.graph.updateAllowedCombinations"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "microsoft.graph.updateAllowedCombinations"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrength/policies/{authenticationStrengthPolicy-id}/microsoft.graph.usage()",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/authenticationStrength/policies/{authenticationStrengthPolicy-id}/microsoft.graph.usage()",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/authenticationstrengthpolicy-usage?view=graph-rest-1.0",
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrength/policies/{authenticationStrengthPolicy-id}/microsoft.graph.usage()",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/authenticationstrengthpolicy-usage?view=graph-rest-beta",
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrength",
+      "policies",
+      "{authenticationStrengthPolicy-id}",
+      "microsoft.graph.usage()"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "microsoft.graph.usage()"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrength/policies/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/authenticationStrength/policies/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrength/policies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrength",
+      "policies",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "identity/conditionalAccess/authenticationStrength/policies/microsoft.graph.findByMethodMode(authenticationMethodModes={authenticationMethodModes})",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrength/policies/microsoft.graph.findByMethodMode(authenticationMethodModes={authenticationMethodModes})",
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/authenticationstrengthpolicy-findbymethodmode?view=graph-rest-beta",
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrength",
+      "policies",
+      "microsoft.graph.findByMethodMode(authenticationMethodModes={authenticationMethodModes})"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "microsoft.graph.findByMethodMode(authenticationMethodModes={authenticationMethodModes})"
+  },
+  {
     "Endpoint": "identity/conditionalAccess/authenticationStrengths",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "identity",
@@ -1584,11 +3348,20 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/authenticationMethodModes",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "identity",
@@ -1601,37 +3374,26 @@
     "Segment": "authenticationMethodModes"
   },
   {
-    "Endpoint": "identity/conditionalAccess/authenticationStrengths/authenticationMethodModes/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/authenticationMethodModes/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "conditionalAccess",
-      "authenticationStrengths",
-      "authenticationMethodModes",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/conditionalAccess/authenticationStrengths/authenticationMethodModes/{authenticationMethodModeDetail-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/authenticationMethodModes/{authenticationMethodModeDetail-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "identity",
@@ -1645,15 +3407,49 @@
     "Segment": "{authenticationMethodModeDetail-id}"
   },
   {
+    "Endpoint": "identity/conditionalAccess/authenticationStrengths/authenticationMethodModes/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/authenticationMethodModes/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrengths",
+      "authenticationMethodModes",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "identity/conditionalAccess/authenticationStrengths/policies",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/policies",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "identity",
@@ -1666,37 +3462,26 @@
     "Segment": "policies"
   },
   {
-    "Endpoint": "identity/conditionalAccess/authenticationStrengths/policies/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/policies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "conditionalAccess",
-      "authenticationStrengths",
-      "policies",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/conditionalAccess/authenticationStrengths/policies/{authenticationStrengthPolicy-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/policies/{authenticationStrengthPolicy-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "identity",
@@ -1714,11 +3499,20 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/policies/{authenticationStrengthPolicy-id}/combinationConfigurations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "identity",
@@ -1733,39 +3527,26 @@
     "Segment": "combinationConfigurations"
   },
   {
-    "Endpoint": "identity/conditionalAccess/authenticationStrengths/policies/{authenticationStrengthPolicy-id}/combinationConfigurations/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/policies/{authenticationStrengthPolicy-id}/combinationConfigurations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "conditionalAccess",
-      "authenticationStrengths",
-      "policies",
-      "{authenticationStrengthPolicy-id}",
-      "combinationConfigurations",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/conditionalAccess/authenticationStrengths/policies/{authenticationStrengthPolicy-id}/combinationConfigurations/{authenticationCombinationConfiguration-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/policies/{authenticationStrengthPolicy-id}/combinationConfigurations/{authenticationCombinationConfiguration-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "identity",
@@ -1781,15 +3562,46 @@
     "Segment": "{authenticationCombinationConfiguration-id}"
   },
   {
+    "Endpoint": "identity/conditionalAccess/authenticationStrengths/policies/{authenticationStrengthPolicy-id}/combinationConfigurations/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/policies/{authenticationStrengthPolicy-id}/combinationConfigurations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrengths",
+      "policies",
+      "{authenticationStrengthPolicy-id}",
+      "combinationConfigurations",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "identity/conditionalAccess/authenticationStrengths/policies/{authenticationStrengthPolicy-id}/microsoft.graph.updateAllowedCombinations",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/policies/{authenticationStrengthPolicy-id}/microsoft.graph.updateAllowedCombinations",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/authenticationstrengthpolicy-updateallowedcombinations?view=graph-rest-beta",
     "Path": [
       "identity",
       "conditionalAccess",
@@ -1807,11 +3619,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/policies/{authenticationStrengthPolicy-id}/microsoft.graph.usage()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/authenticationstrengthpolicy-usage?view=graph-rest-beta",
     "Path": [
       "identity",
       "conditionalAccess",
@@ -1825,15 +3641,44 @@
     "Segment": "microsoft.graph.usage()"
   },
   {
+    "Endpoint": "identity/conditionalAccess/authenticationStrengths/policies/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/policies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "authenticationStrengths",
+      "policies",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "identity/conditionalAccess/authenticationStrengths/policies/microsoft.graph.findByMethodMode(authenticationMethodModes={authenticationMethodModes})",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/authenticationStrengths/policies/microsoft.graph.findByMethodMode(authenticationMethodModes={authenticationMethodModes})",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/authenticationstrengthpolicy-findbymethodmode?view=graph-rest-beta",
     "Path": [
       "identity",
       "conditionalAccess",
@@ -1846,6 +3691,29 @@
     "Segment": "microsoft.graph.findByMethodMode(authenticationMethodModes={authenticationMethodModes})"
   },
   {
+    "Endpoint": "identity/conditionalAccess/microsoft.graph.evaluate",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/microsoft.graph.evaluate",
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "microsoft.graph.evaluate"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "microsoft.graph.evaluate"
+  },
+  {
     "Endpoint": "identity/conditionalAccess/namedLocations",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/namedLocations",
@@ -1853,11 +3721,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/conditionalaccessroot-list-namedlocations?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/conditionalaccessroot-post-namedlocations?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/namedLocations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/conditionalaccessroot-list-namedlocations?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/conditionalaccessroot-post-namedlocations?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -1869,28 +3745,6 @@
     "Segment": "namedLocations"
   },
   {
-    "Endpoint": "identity/conditionalAccess/namedLocations/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/namedLocations/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/namedLocations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "conditionalAccess",
-      "namedLocations",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/conditionalAccess/namedLocations/{namedLocation-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/namedLocations/{namedLocation-id}",
@@ -1899,12 +3753,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/ipnamedlocation-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/countrynamedlocation-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/ipnamedlocation-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/namedLocations/{namedLocation-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/countrynamedlocation-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/countrynamedlocation-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/countrynamedlocation-delete?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -1917,6 +3781,26 @@
     "Segment": "{namedLocation-id}"
   },
   {
+    "Endpoint": "identity/conditionalAccess/namedLocations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/namedLocations/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/namedLocations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "namedLocations",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "identity/conditionalAccess/policies",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/policies",
@@ -1924,11 +3808,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/conditionalaccessroot-list-policies?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/conditionalaccessroot-post-policies?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/policies",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/conditionalaccessroot-list-policies?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/conditionalaccessroot-post-policies?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -1940,28 +3832,6 @@
     "Segment": "policies"
   },
   {
-    "Endpoint": "identity/conditionalAccess/policies/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/policies/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/policies/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "conditionalAccess",
-      "policies",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/conditionalAccess/policies/{conditionalAccessPolicy-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/policies/{conditionalAccessPolicy-id}",
@@ -1970,12 +3840,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/conditionalaccesspolicy-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/conditionalaccesspolicy-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/conditionalaccesspolicy-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/policies/{conditionalAccessPolicy-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/conditionalaccesspolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/conditionalaccesspolicy-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/conditionalaccesspolicy-delete?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -1988,17 +3868,35 @@
     "Segment": "{conditionalAccessPolicy-id}"
   },
   {
+    "Endpoint": "identity/conditionalAccess/policies/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/policies/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/policies/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "policies",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "identity/conditionalAccess/templates",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/templates",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/conditionalaccessroot-list-templates?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/templates",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/conditionalaccessroot-list-templates?view=graph-rest-beta",
     "Path": [
       "identity",
       "conditionalAccess",
@@ -2009,39 +3907,15 @@
     "Segment": "templates"
   },
   {
-    "Endpoint": "identity/conditionalAccess/templates/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/templates/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/templates/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "conditionalAccess",
-      "templates",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/conditionalAccess/templates/{conditionalAccessTemplate-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/templates/{conditionalAccessTemplate-id}",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/conditionalaccesstemplate-get?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/templates/{conditionalAccessTemplate-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/conditionalaccesstemplate-get?view=graph-rest-beta",
     "Path": [
       "identity",
       "conditionalAccess",
@@ -2053,16 +3927,45 @@
     "Segment": "{conditionalAccessTemplate-id}"
   },
   {
+    "Endpoint": "identity/conditionalAccess/templates/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/conditionalAccess/templates/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/conditionalAccess/templates/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "conditionalAccess",
+      "templates",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "identity/continuousAccessEvaluationPolicy",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-b2xuserflows?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-b2xuserflows?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/continuousAccessEvaluationPolicy",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/continuousaccessevaluationpolicy-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/continuousaccessevaluationpolicy-update?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "identity",
@@ -2074,14 +3977,25 @@
   },
   {
     "Endpoint": "identity/customAuthenticationExtensions",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/customAuthenticationExtensions",
+    "v1.0-Methods": [
+      "Get",
+      "Post"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-customauthenticationextensions?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-customauthenticationextensions?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/customAuthenticationExtensions",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-customauthenticationextensions?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-customauthenticationextensions?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -2092,35 +4006,30 @@
     "Segment": "customAuthenticationExtensions"
   },
   {
-    "Endpoint": "identity/customAuthenticationExtensions/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/customAuthenticationExtensions/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "customAuthenticationExtensions",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/customAuthenticationExtensions/{customAuthenticationExtension-id}",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/customAuthenticationExtensions/{customAuthenticationExtension-id}",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/customauthenticationextension-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/customauthenticationextension-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/customauthenticationextension-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/customAuthenticationExtensions/{customAuthenticationExtension-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/authenticationeventlistener-get?view=graph-rest-beta",
+      null,
+      "https://learn.microsoft.com/graph/api/customauthenticationextension-delete?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -2133,14 +4042,14 @@
   },
   {
     "Endpoint": "identity/customAuthenticationExtensions/{customAuthenticationExtension-id}/microsoft.graph.validateAuthenticationConfiguration",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/customAuthenticationExtensions/{customAuthenticationExtension-id}/microsoft.graph.validateAuthenticationConfiguration",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/customauthenticationextension-validateauthenticationconfiguration?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/customAuthenticationExtensions/{customAuthenticationExtension-id}/microsoft.graph.validateAuthenticationConfiguration",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/customauthenticationextension-validateauthenticationconfiguration?view=graph-rest-beta",
     "Path": [
       "identity",
       "customAuthenticationExtensions",
@@ -2152,15 +4061,34 @@
     "Segment": "microsoft.graph.validateAuthenticationConfiguration"
   },
   {
+    "Endpoint": "identity/customAuthenticationExtensions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/customAuthenticationExtensions/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/customAuthenticationExtensions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "customAuthenticationExtensions",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "identity/customAuthenticationExtensions/microsoft.graph.validateAuthenticationConfiguration",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/customAuthenticationExtensions/microsoft.graph.validateAuthenticationConfiguration",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/customAuthenticationExtensions/microsoft.graph.validateAuthenticationConfiguration",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "identity",
       "customAuthenticationExtensions",
@@ -2178,11 +4106,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-identityproviders?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-identityproviders?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/identityProviders",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/identitycontainer-list-identityproviders?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/identitycontainer-post-identityproviders?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -2193,27 +4129,6 @@
     "Segment": "identityProviders"
   },
   {
-    "Endpoint": "identity/identityProviders/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/identityProviders/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/identityProviders/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "identityProviders",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/identityProviders/{identityProviderBase-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/identityProviders/{identityProviderBase-id}",
@@ -2222,12 +4137,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identityproviderbase-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identityproviderbase-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identityproviderbase-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/identityProviders/{identityProviderBase-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/identityproviderbase-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/identityproviderbase-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/identityproviderbase-delete?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -2239,17 +4164,34 @@
     "Segment": "{identityProviderBase-id}"
   },
   {
+    "Endpoint": "identity/identityProviders/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/identityProviders/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/identityProviders/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "identityProviders",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "identity/identityProviders/microsoft.graph.availableProviderTypes()",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/identityProviders/microsoft.graph.availableProviderTypes()",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/identityproviderbase-availableprovidertypes?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/identityProviders/microsoft.graph.availableProviderTypes()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/identityproviderbase-availableprovidertypes?view=graph-rest-beta",
     "Path": [
       "identity",
       "identityProviders",
@@ -2267,11 +4209,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identityuserflowattribute-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identityuserflowattribute-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/userFlowAttributes",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/identityuserflowattribute-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/identityuserflowattribute-post?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -2282,27 +4232,6 @@
     "Segment": "userFlowAttributes"
   },
   {
-    "Endpoint": "identity/userFlowAttributes/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/userFlowAttributes/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/userFlowAttributes/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "userFlowAttributes",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/userFlowAttributes/{identityUserFlowAttribute-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/userFlowAttributes/{identityUserFlowAttribute-id}",
@@ -2311,12 +4240,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identityuserflowattribute-get?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identityuserflowattribute-update?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identityuserflowattribute-delete?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/userFlowAttributes/{identityUserFlowAttribute-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/identityuserflowattribute-get?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/identityuserflowattribute-update?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/identityuserflowattribute-delete?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -2328,15 +4267,42 @@
     "Segment": "{identityUserFlowAttribute-id}"
   },
   {
+    "Endpoint": "identity/userFlowAttributes/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/identity/userFlowAttributes/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/userFlowAttributes/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "userFlowAttributes",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "identity/userFlows",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identityuserflowattribute-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identityuserflowattribute-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/userFlows",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/identityuserflow-list?view=graph-rest-beta",
+      "https://learn.microsoft.com/graph/api/identityuserflow-post-userflows?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -2347,35 +4313,25 @@
     "Segment": "userFlows"
   },
   {
-    "Endpoint": "identity/userFlows/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/identity/userFlows/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "identity",
-      "userFlows",
-      "$count"
-    ],
-    "Root": "identity",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "identity/userFlows/{identityUserFlow-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identityuserflowattribute-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identityuserflowattribute-post?view=graph-rest-1.0"
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/identity/userFlows/{identityUserFlow-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/identityuserflow-get?view=graph-rest-beta",
+      null,
+      "https://learn.microsoft.com/graph/api/identityuserflow-delete?view=graph-rest-beta"
     ],
     "Path": [
       "identity",
@@ -2385,5 +4341,27 @@
     "Root": "identity",
     "Children": 0,
     "Segment": "{identityUserFlow-id}"
+  },
+  {
+    "Endpoint": "identity/userFlows/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/identityuserflowattribute-list?view=graph-rest-1.0",
+      "https://learn.microsoft.com/graph/api/identityuserflowattribute-post?view=graph-rest-1.0"
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/identity/userFlows/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "identity",
+      "userFlows",
+      "$count"
+    ],
+    "Root": "identity",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

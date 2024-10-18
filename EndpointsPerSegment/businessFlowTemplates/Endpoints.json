@@ -4,11 +4,19 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/businessFlowTemplates",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/businessflowtemplate-list?view=graph-rest-beta",
+      null
     ],
     "Path": [
       "businessFlowTemplates"
@@ -18,34 +26,25 @@
     "Segment": "businessFlowTemplates"
   },
   {
-    "Endpoint": "businessFlowTemplates/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/businessFlowTemplates/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "businessFlowTemplates",
-      "$count"
-    ],
-    "Root": "businessFlowTemplates",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "businessFlowTemplates/{businessFlowTemplate-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/businessFlowTemplates/{businessFlowTemplate-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "businessFlowTemplates",
@@ -54,5 +53,26 @@
     "Root": "businessFlowTemplates",
     "Children": 0,
     "Segment": "{businessFlowTemplate-id}"
+  },
+  {
+    "Endpoint": "businessFlowTemplates/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/businessFlowTemplates/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "businessFlowTemplates",
+      "$count"
+    ],
+    "Root": "businessFlowTemplates",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]

@@ -7,11 +7,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "shares"
@@ -19,26 +27,6 @@
     "Root": "shares",
     "Children": 2,
     "Segment": "shares"
-  },
-  {
-    "Endpoint": "shares/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/shares/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "shares",
-      "$count"
-    ],
-    "Root": "shares",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "shares/{sharedDriveItem-id}",
@@ -49,6 +37,11 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      "https://learn.microsoft.com/graph/api/shares-get?view=graph-rest-1.0",
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}",
     "Beta-Methods": [
@@ -56,33 +49,128 @@
       "Patch",
       "Delete"
     ],
+    "Beta-Docs": [
+      "https://learn.microsoft.com/graph/api/shares-get?view=graph-rest-beta",
+      null,
+      null
+    ],
     "Path": [
       "shares",
       "{sharedDriveItem-id}"
     ],
     "Root": "shares",
-    "Children": 7,
+    "Children": 9,
     "Segment": "{sharedDriveItem-id}"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/createdByUser",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/createdByUser",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/createdByUser",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "createdByUser"
+    ],
+    "Root": "shares",
+    "Children": 2,
+    "Segment": "createdByUser"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/createdByUser/mailboxSettings",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/createdByUser/mailboxSettings",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/createdByUser/mailboxSettings",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "createdByUser",
+      "mailboxSettings"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "mailboxSettings"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/createdByUser/serviceProvisioningErrors",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/createdByUser/serviceProvisioningErrors",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/createdByUser/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "createdByUser",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "shares",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/createdByUser/serviceProvisioningErrors/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/createdByUser/serviceProvisioningErrors/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/createdByUser/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "createdByUser",
+      "serviceProvisioningErrors",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
   },
   {
     "Endpoint": "shares/{sharedDriveItem-id}/driveItem",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/driveItem",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/shares-get?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/driveItem",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/shares-get?view=graph-rest-beta",
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
       "driveItem"
     ],
     "Root": "shares",
-    "Children": 1,
+    "Children": 2,
     "Segment": "driveItem"
   },
   {
@@ -91,13 +179,25 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/driveItem/content",
     "v1.0-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/driveItem/content",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -110,17 +210,47 @@
     "Segment": "content"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/driveItem/contentStream",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/driveItem/contentStream",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "driveItem",
+      "contentStream"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "contentStream"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/items",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/items",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/items",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -131,39 +261,15 @@
     "Segment": "items"
   },
   {
-    "Endpoint": "shares/{sharedDriveItem-id}/items/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/items/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/items/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "shares",
-      "{sharedDriveItem-id}",
-      "items",
-      "$count"
-    ],
-    "Root": "shares",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "shares/{sharedDriveItem-id}/items/{driveItem-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/items/{driveItem-id}",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/items/{driveItem-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -171,7 +277,7 @@
       "{driveItem-id}"
     ],
     "Root": "shares",
-    "Children": 1,
+    "Children": 2,
     "Segment": "{driveItem-id}"
   },
   {
@@ -180,13 +286,25 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/items/{driveItem-id}/content",
     "v1.0-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/items/{driveItem-id}/content",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -200,6 +318,151 @@
     "Segment": "content"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/items/{driveItem-id}/contentStream",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/items/{driveItem-id}/contentStream",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "items",
+      "{driveItem-id}",
+      "contentStream"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "contentStream"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/items/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/items/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/items/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "items",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/lastModifiedByUser",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/lastModifiedByUser",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/lastModifiedByUser",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "lastModifiedByUser"
+    ],
+    "Root": "shares",
+    "Children": 2,
+    "Segment": "lastModifiedByUser"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/lastModifiedByUser/mailboxSettings",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/lastModifiedByUser/mailboxSettings",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/lastModifiedByUser/mailboxSettings",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "lastModifiedByUser",
+      "mailboxSettings"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "mailboxSettings"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/lastModifiedByUser/serviceProvisioningErrors",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/lastModifiedByUser/serviceProvisioningErrors",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/lastModifiedByUser/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "lastModifiedByUser",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "shares",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/lastModifiedByUser/serviceProvisioningErrors/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/lastModifiedByUser/serviceProvisioningErrors/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/lastModifiedByUser/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "lastModifiedByUser",
+      "serviceProvisioningErrors",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/list",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list",
@@ -208,6 +471,11 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list",
     "Beta-Methods": [
@@ -215,13 +483,18 @@
       "Patch",
       "Delete"
     ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
       "list"
     ],
     "Root": "shares",
-    "Children": 7,
+    "Children": 10,
     "Segment": "list"
   },
   {
@@ -229,11 +502,20 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/activities",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -253,11 +535,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/columns",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -270,29 +560,6 @@
     "Segment": "columns"
   },
   {
-    "Endpoint": "shares/{sharedDriveItem-id}/list/columns/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/columns/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/columns/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "shares",
-      "{sharedDriveItem-id}",
-      "list",
-      "columns",
-      "$count"
-    ],
-    "Root": "shares",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/columns/{columnDefinition-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/columns/{columnDefinition-id}",
@@ -301,12 +568,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/columns/{columnDefinition-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -323,14 +600,12 @@
     "Endpoint": "shares/{sharedDriveItem-id}/list/columns/{columnDefinition-id}/sourceColumn",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/columns/{columnDefinition-id}/sourceColumn",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/columns/{columnDefinition-id}/sourceColumn",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -344,6 +619,27 @@
     "Segment": "sourceColumn"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/columns/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/columns/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/columns/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "columns",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes",
@@ -351,11 +647,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -368,29 +672,6 @@
     "Segment": "contentTypes"
   },
   {
-    "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "shares",
-      "{sharedDriveItem-id}",
-      "list",
-      "contentTypes",
-      "$count"
-    ],
-    "Root": "shares",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}",
@@ -399,12 +680,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -421,14 +712,12 @@
     "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/base",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/base",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/base",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -445,14 +734,12 @@
     "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/baseTypes",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/baseTypes",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/baseTypes",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -466,42 +753,15 @@
     "Segment": "baseTypes"
   },
   {
-    "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/baseTypes/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/baseTypes/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/baseTypes/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "shares",
-      "{sharedDriveItem-id}",
-      "list",
-      "contentTypes",
-      "{contentType-id}",
-      "baseTypes",
-      "$count"
-    ],
-    "Root": "shares",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/baseTypes/{contentType-id1}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/baseTypes/{contentType-id1}",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/baseTypes/{contentType-id1}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -516,6 +776,29 @@
     "Segment": "{contentType-id1}"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/baseTypes/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/baseTypes/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/baseTypes/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "contentTypes",
+      "{contentType-id}",
+      "baseTypes",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columnLinks",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columnLinks",
@@ -523,11 +806,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columnLinks",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -542,31 +833,6 @@
     "Segment": "columnLinks"
   },
   {
-    "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columnLinks/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columnLinks/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columnLinks/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "shares",
-      "{sharedDriveItem-id}",
-      "list",
-      "contentTypes",
-      "{contentType-id}",
-      "columnLinks",
-      "$count"
-    ],
-    "Root": "shares",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columnLinks/{columnLink-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columnLinks/{columnLink-id}",
@@ -575,12 +841,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columnLinks/{columnLink-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -596,17 +872,38 @@
     "Segment": "{columnLink-id}"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columnLinks/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columnLinks/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columnLinks/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "contentTypes",
+      "{contentType-id}",
+      "columnLinks",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columnPositions",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columnPositions",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columnPositions",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -620,42 +917,15 @@
     "Segment": "columnPositions"
   },
   {
-    "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columnPositions/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columnPositions/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columnPositions/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "shares",
-      "{sharedDriveItem-id}",
-      "list",
-      "contentTypes",
-      "{contentType-id}",
-      "columnPositions",
-      "$count"
-    ],
-    "Root": "shares",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columnPositions/{columnDefinition-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columnPositions/{columnDefinition-id}",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columnPositions/{columnDefinition-id}",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -670,6 +940,29 @@
     "Segment": "{columnDefinition-id}"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columnPositions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columnPositions/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columnPositions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "contentTypes",
+      "{contentType-id}",
+      "columnPositions",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columns",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columns",
@@ -677,11 +970,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columns",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -696,31 +997,6 @@
     "Segment": "columns"
   },
   {
-    "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columns/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columns/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columns/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "shares",
-      "{sharedDriveItem-id}",
-      "list",
-      "contentTypes",
-      "{contentType-id}",
-      "columns",
-      "$count"
-    ],
-    "Root": "shares",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columns/{columnDefinition-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columns/{columnDefinition-id}",
@@ -729,12 +1005,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columns/{columnDefinition-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -753,14 +1039,12 @@
     "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columns/{columnDefinition-id}/sourceColumn",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columns/{columnDefinition-id}/sourceColumn",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columns/{columnDefinition-id}/sourceColumn",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -776,17 +1060,38 @@
     "Segment": "sourceColumn"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columns/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columns/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/columns/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "contentTypes",
+      "{contentType-id}",
+      "columns",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/microsoft.graph.associateWithHubSites",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/microsoft.graph.associateWithHubSites",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/contenttype-associatewithhubsites?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/microsoft.graph.associateWithHubSites",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/contenttype-associatewithhubsites?view=graph-rest-beta",
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -803,14 +1108,12 @@
     "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/microsoft.graph.copyToDefaultContentLocation",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/microsoft.graph.copyToDefaultContentLocation",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/contenttype-copytodefaultcontentlocation?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/microsoft.graph.copyToDefaultContentLocation",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/contenttype-copytodefaultcontentlocation?view=graph-rest-beta",
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -827,14 +1130,12 @@
     "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/microsoft.graph.isPublished()",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/microsoft.graph.isPublished()",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/contenttype-ispublished?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/microsoft.graph.isPublished()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/contenttype-ispublished?view=graph-rest-beta",
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -851,14 +1152,12 @@
     "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/microsoft.graph.publish",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/microsoft.graph.publish",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/contenttype-publish?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/microsoft.graph.publish",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/contenttype-publish?view=graph-rest-beta",
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -875,14 +1174,12 @@
     "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/microsoft.graph.unpublish",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/microsoft.graph.unpublish",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/contenttype-unpublish?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/{contentType-id}/microsoft.graph.unpublish",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/contenttype-unpublish?view=graph-rest-beta",
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -896,17 +1193,36 @@
     "Segment": "microsoft.graph.unpublish"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "contentTypes",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/microsoft.graph.addCopy",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/microsoft.graph.addCopy",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/contenttype-addcopy?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/microsoft.graph.addCopy",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/contenttype-addcopy?view=graph-rest-beta",
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -922,14 +1238,12 @@
     "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/microsoft.graph.addCopyFromContentTypeHub",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/microsoft.graph.addCopyFromContentTypeHub",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/contenttype-addcopyfromcontenttypehub?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/microsoft.graph.addCopyFromContentTypeHub",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/contenttype-addcopyfromcontenttypehub?view=graph-rest-beta",
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -945,14 +1259,12 @@
     "Endpoint": "shares/{sharedDriveItem-id}/list/contentTypes/microsoft.graph.getCompatibleHubContentTypes()",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/contentTypes/microsoft.graph.getCompatibleHubContentTypes()",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/contenttype-getcompatiblehubcontenttypes?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/contentTypes/microsoft.graph.getCompatibleHubContentTypes()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/contenttype-getcompatiblehubcontenttypes?view=graph-rest-beta",
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -965,17 +1277,111 @@
     "Segment": "microsoft.graph.getCompatibleHubContentTypes()"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/createdByUser",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/createdByUser",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/createdByUser",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "createdByUser"
+    ],
+    "Root": "shares",
+    "Children": 2,
+    "Segment": "createdByUser"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/createdByUser/mailboxSettings",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/createdByUser/mailboxSettings",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/createdByUser/mailboxSettings",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "createdByUser",
+      "mailboxSettings"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "mailboxSettings"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/createdByUser/serviceProvisioningErrors",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/createdByUser/serviceProvisioningErrors",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/createdByUser/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "createdByUser",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "shares",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/createdByUser/serviceProvisioningErrors/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/createdByUser/serviceProvisioningErrors/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/createdByUser/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "createdByUser",
+      "serviceProvisioningErrors",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/drive",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/drive",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/drive",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -994,11 +1400,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -1007,31 +1421,8 @@
       "items"
     ],
     "Root": "shares",
-    "Children": 4,
+    "Children": 3,
     "Segment": "items"
-  },
-  {
-    "Endpoint": "shares/{sharedDriveItem-id}/list/items/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "shares",
-      "{sharedDriveItem-id}",
-      "list",
-      "items",
-      "$count"
-    ],
-    "Root": "shares",
-    "Children": 0,
-    "Segment": "$count"
   },
   {
     "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}",
@@ -1042,12 +1433,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -1057,7 +1458,7 @@
       "{listItem-id}"
     ],
     "Root": "shares",
-    "Children": 9,
+    "Children": 12,
     "Segment": "{listItem-id}"
   },
   {
@@ -1065,11 +1466,20 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/activities",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -1084,39 +1494,26 @@
     "Segment": "activities"
   },
   {
-    "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/activities/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/activities/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "shares",
-      "{sharedDriveItem-id}",
-      "list",
-      "items",
-      "{listItem-id}",
-      "activities",
-      "$count"
-    ],
-    "Root": "shares",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -1136,11 +1533,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/driveItem",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -1152,7 +1553,7 @@
       "driveItem"
     ],
     "Root": "shares",
-    "Children": 1,
+    "Children": 2,
     "Segment": "driveItem"
   },
   {
@@ -1160,11 +1561,22 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/driveItem/content",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -1182,15 +1594,56 @@
     "Segment": "content"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/driveItem/contentStream",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/driveItem/contentStream",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "items",
+      "{listItem-id}",
+      "activities",
+      "{itemActivityOLD-id}",
+      "driveItem",
+      "contentStream"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "contentStream"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/listItem",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/listItem",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -1206,17 +1659,42 @@
     "Segment": "listItem"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/activities/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/activities/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "items",
+      "{listItem-id}",
+      "activities",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/analytics",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/analytics",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/analytics",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -1230,6 +1708,110 @@
     "Segment": "analytics"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/createdByUser",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/createdByUser",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/createdByUser",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "items",
+      "{listItem-id}",
+      "createdByUser"
+    ],
+    "Root": "shares",
+    "Children": 2,
+    "Segment": "createdByUser"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/createdByUser/mailboxSettings",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/createdByUser/mailboxSettings",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/createdByUser/mailboxSettings",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "items",
+      "{listItem-id}",
+      "createdByUser",
+      "mailboxSettings"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "mailboxSettings"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/createdByUser/serviceProvisioningErrors",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/createdByUser/serviceProvisioningErrors",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/createdByUser/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "items",
+      "{listItem-id}",
+      "createdByUser",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "shares",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/createdByUser/serviceProvisioningErrors/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/createdByUser/serviceProvisioningErrors/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/createdByUser/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "items",
+      "{listItem-id}",
+      "createdByUser",
+      "serviceProvisioningErrors",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/documentSetVersions",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/documentSetVersions",
@@ -1237,11 +1819,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/documentSetVersions",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -1256,31 +1846,6 @@
     "Segment": "documentSetVersions"
   },
   {
-    "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/documentSetVersions/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/documentSetVersions/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/documentSetVersions/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "shares",
-      "{sharedDriveItem-id}",
-      "list",
-      "items",
-      "{listItem-id}",
-      "documentSetVersions",
-      "$count"
-    ],
-    "Root": "shares",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/documentSetVersions/{documentSetVersion-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/documentSetVersions/{documentSetVersion-id}",
@@ -1289,12 +1854,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/documentSetVersions/{documentSetVersion-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -1306,21 +1881,59 @@
       "{documentSetVersion-id}"
     ],
     "Root": "shares",
-    "Children": 1,
+    "Children": 2,
     "Segment": "{documentSetVersion-id}"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/documentSetVersions/{documentSetVersion-id}/fields",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/documentSetVersions/{documentSetVersion-id}/fields",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/documentSetVersions/{documentSetVersion-id}/fields",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "items",
+      "{listItem-id}",
+      "documentSetVersions",
+      "{documentSetVersion-id}",
+      "fields"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "fields"
   },
   {
     "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/documentSetVersions/{documentSetVersion-id}/microsoft.graph.restore",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/documentSetVersions/{documentSetVersion-id}/microsoft.graph.restore",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/documentsetversion-restore?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/documentSetVersions/{documentSetVersion-id}/microsoft.graph.restore",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/documentsetversion-restore?view=graph-rest-beta",
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -1336,17 +1949,38 @@
     "Segment": "microsoft.graph.restore"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/documentSetVersions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/documentSetVersions/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/documentSetVersions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "items",
+      "{listItem-id}",
+      "documentSetVersions",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/driveItem",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/driveItem",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/driveItem",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -1356,7 +1990,7 @@
       "driveItem"
     ],
     "Root": "shares",
-    "Children": 1,
+    "Children": 2,
     "Segment": "driveItem"
   },
   {
@@ -1365,13 +1999,25 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/driveItem/content",
     "v1.0-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/driveItem/content",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -1387,6 +2033,41 @@
     "Segment": "content"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/driveItem/contentStream",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/driveItem/contentStream",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "items",
+      "{listItem-id}",
+      "driveItem",
+      "contentStream"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "contentStream"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/fields",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/fields",
@@ -1395,12 +2076,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/fields",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -1415,15 +2106,119 @@
     "Segment": "fields"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/lastModifiedByUser",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/lastModifiedByUser",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/lastModifiedByUser",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "items",
+      "{listItem-id}",
+      "lastModifiedByUser"
+    ],
+    "Root": "shares",
+    "Children": 2,
+    "Segment": "lastModifiedByUser"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/lastModifiedByUser/mailboxSettings",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/lastModifiedByUser/mailboxSettings",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/lastModifiedByUser/mailboxSettings",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "items",
+      "{listItem-id}",
+      "lastModifiedByUser",
+      "mailboxSettings"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "mailboxSettings"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/lastModifiedByUser/serviceProvisioningErrors",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/lastModifiedByUser/serviceProvisioningErrors",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/lastModifiedByUser/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "items",
+      "{listItem-id}",
+      "lastModifiedByUser",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "shares",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/lastModifiedByUser/serviceProvisioningErrors/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/lastModifiedByUser/serviceProvisioningErrors/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/lastModifiedByUser/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "items",
+      "{listItem-id}",
+      "lastModifiedByUser",
+      "serviceProvisioningErrors",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/microsoft.graph.createLink",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/microsoft.graph.createLink",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/microsoft.graph.createLink",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/listitem-createlink?view=graph-rest-beta",
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -1440,12 +2235,12 @@
     "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/microsoft.graph.getActivitiesByInterval()",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/microsoft.graph.getActivitiesByInterval()",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/listitem-createlink?view=graph-rest-beta",
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -1462,14 +2257,12 @@
     "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -1483,6 +2276,136 @@
     "Segment": "microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/permissions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/permissions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "items",
+      "{listItem-id}",
+      "permissions"
+    ],
+    "Root": "shares",
+    "Children": 2,
+    "Segment": "permissions"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/permissions/{permission-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/permissions/{permission-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "items",
+      "{listItem-id}",
+      "permissions",
+      "{permission-id}"
+    ],
+    "Root": "shares",
+    "Children": 2,
+    "Segment": "{permission-id}"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/permissions/{permission-id}/microsoft.graph.grant",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/permissions/{permission-id}/microsoft.graph.grant",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/permission-grant?view=graph-rest-beta",
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "items",
+      "{listItem-id}",
+      "permissions",
+      "{permission-id}",
+      "microsoft.graph.grant"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "microsoft.graph.grant"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/permissions/{permission-id}/microsoft.graph.revokeGrants",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/permissions/{permission-id}/microsoft.graph.revokeGrants",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/permission-revokegrants?view=graph-rest-beta",
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "items",
+      "{listItem-id}",
+      "permissions",
+      "{permission-id}",
+      "microsoft.graph.revokeGrants"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "microsoft.graph.revokeGrants"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/permissions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/permissions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "items",
+      "{listItem-id}",
+      "permissions",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/versions",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/versions",
@@ -1490,11 +2413,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/versions",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -1509,31 +2440,6 @@
     "Segment": "versions"
   },
   {
-    "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/versions/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/versions/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/versions/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "shares",
-      "{sharedDriveItem-id}",
-      "list",
-      "items",
-      "{listItem-id}",
-      "versions",
-      "$count"
-    ],
-    "Root": "shares",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/versions/{listItemVersion-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/versions/{listItemVersion-id}",
@@ -1542,12 +2448,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/versions/{listItemVersion-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -1571,12 +2487,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/versions/{listItemVersion-id}/fields",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -1596,14 +2522,12 @@
     "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/versions/{listItemVersion-id}/microsoft.graph.restoreVersion",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/versions/{listItemVersion-id}/microsoft.graph.restoreVersion",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/listitemversion-restore?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/versions/{listItemVersion-id}/microsoft.graph.restoreVersion",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -1619,15 +2543,38 @@
     "Segment": "microsoft.graph.restoreVersion"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/items/{listItem-id}/versions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/{listItem-id}/versions/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/{listItem-id}/versions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "items",
+      "{listItem-id}",
+      "versions",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/items/microsoft.graph.delta()",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/microsoft.graph.delta()",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/listitem-delta?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/microsoft.graph.delta()",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/listitem-delta?view=graph-rest-beta",
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -1641,14 +2588,14 @@
   },
   {
     "Endpoint": "shares/{sharedDriveItem-id}/list/items/microsoft.graph.delta(token='{token}')",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/items/microsoft.graph.delta(token='{token}')",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/items/microsoft.graph.delta(token='{token}')",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -1661,6 +2608,102 @@
     "Segment": "microsoft.graph.delta(token='{token}')"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/lastModifiedByUser",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/lastModifiedByUser",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/lastModifiedByUser",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "lastModifiedByUser"
+    ],
+    "Root": "shares",
+    "Children": 2,
+    "Segment": "lastModifiedByUser"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/lastModifiedByUser/mailboxSettings",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/lastModifiedByUser/mailboxSettings",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/lastModifiedByUser/mailboxSettings",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "lastModifiedByUser",
+      "mailboxSettings"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "mailboxSettings"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/lastModifiedByUser/serviceProvisioningErrors",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/lastModifiedByUser/serviceProvisioningErrors",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/lastModifiedByUser/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "lastModifiedByUser",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "shares",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/lastModifiedByUser/serviceProvisioningErrors/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/lastModifiedByUser/serviceProvisioningErrors/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/lastModifiedByUser/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "lastModifiedByUser",
+      "serviceProvisioningErrors",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/operations",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/operations",
@@ -1668,11 +2711,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/operations",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -1685,29 +2736,6 @@
     "Segment": "operations"
   },
   {
-    "Endpoint": "shares/{sharedDriveItem-id}/list/operations/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/operations/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/operations/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "shares",
-      "{sharedDriveItem-id}",
-      "list",
-      "operations",
-      "$count"
-    ],
-    "Root": "shares",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/operations/{richLongRunningOperation-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/operations/{richLongRunningOperation-id}",
@@ -1716,12 +2744,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/operations/{richLongRunningOperation-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -1735,6 +2773,162 @@
     "Segment": "{richLongRunningOperation-id}"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/operations/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/operations/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/operations/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "operations",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/permissions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/permissions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "permissions"
+    ],
+    "Root": "shares",
+    "Children": 2,
+    "Segment": "permissions"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/permissions/{permission-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/permissions/{permission-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "permissions",
+      "{permission-id}"
+    ],
+    "Root": "shares",
+    "Children": 2,
+    "Segment": "{permission-id}"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/permissions/{permission-id}/microsoft.graph.grant",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/permissions/{permission-id}/microsoft.graph.grant",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/permission-grant?view=graph-rest-beta",
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "permissions",
+      "{permission-id}",
+      "microsoft.graph.grant"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "microsoft.graph.grant"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/permissions/{permission-id}/microsoft.graph.revokeGrants",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/permissions/{permission-id}/microsoft.graph.revokeGrants",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/permission-revokegrants?view=graph-rest-beta",
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "permissions",
+      "{permission-id}",
+      "microsoft.graph.revokeGrants"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "microsoft.graph.revokeGrants"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/permissions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/permissions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "permissions",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/subscriptions",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/subscriptions",
@@ -1742,11 +2936,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/subscriptions",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -1759,29 +2961,6 @@
     "Segment": "subscriptions"
   },
   {
-    "Endpoint": "shares/{sharedDriveItem-id}/list/subscriptions/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/subscriptions/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/subscriptions/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "shares",
-      "{sharedDriveItem-id}",
-      "list",
-      "subscriptions",
-      "$count"
-    ],
-    "Root": "shares",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "shares/{sharedDriveItem-id}/list/subscriptions/{subscription-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/subscriptions/{subscription-id}",
@@ -1790,12 +2969,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/subscriptions/{subscription-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -1812,14 +3001,12 @@
     "Endpoint": "shares/{sharedDriveItem-id}/list/subscriptions/{subscription-id}/microsoft.graph.reauthorize",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/subscriptions/{subscription-id}/microsoft.graph.reauthorize",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/subscription-reauthorize?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/subscriptions/{subscription-id}/microsoft.graph.reauthorize",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/subscription-reauthorize?view=graph-rest-beta",
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -1833,6 +3020,27 @@
     "Segment": "microsoft.graph.reauthorize"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/list/subscriptions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/list/subscriptions/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/list/subscriptions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "list",
+      "subscriptions",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/listItem",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem",
@@ -1841,6 +3049,11 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem",
     "Beta-Methods": [
@@ -1848,13 +3061,18 @@
       "Patch",
       "Delete"
     ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
       "listItem"
     ],
     "Root": "shares",
-    "Children": 9,
+    "Children": 12,
     "Segment": "listItem"
   },
   {
@@ -1862,11 +3080,20 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/activities",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -1879,37 +3106,26 @@
     "Segment": "activities"
   },
   {
-    "Endpoint": "shares/{sharedDriveItem-id}/listItem/activities/$count",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/activities/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "shares",
-      "{sharedDriveItem-id}",
-      "listItem",
-      "activities",
-      "$count"
-    ],
-    "Root": "shares",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "shares/{sharedDriveItem-id}/listItem/activities/{itemActivityOLD-id}",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/activities/{itemActivityOLD-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -1927,11 +3143,15 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -1941,7 +3161,7 @@
       "driveItem"
     ],
     "Root": "shares",
-    "Children": 1,
+    "Children": 2,
     "Segment": "driveItem"
   },
   {
@@ -1949,11 +3169,22 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/content",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -1969,15 +3200,54 @@
     "Segment": "content"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/contentStream",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/activities/{itemActivityOLD-id}/driveItem/contentStream",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "listItem",
+      "activities",
+      "{itemActivityOLD-id}",
+      "driveItem",
+      "contentStream"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "contentStream"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem",
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -1991,17 +3261,40 @@
     "Segment": "listItem"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/listItem/activities/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/activities/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "listItem",
+      "activities",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/listItem/analytics",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/analytics",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/analytics",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -2013,6 +3306,102 @@
     "Segment": "analytics"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/listItem/createdByUser",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/createdByUser",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/createdByUser",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "listItem",
+      "createdByUser"
+    ],
+    "Root": "shares",
+    "Children": 2,
+    "Segment": "createdByUser"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/listItem/createdByUser/mailboxSettings",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/createdByUser/mailboxSettings",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/createdByUser/mailboxSettings",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "listItem",
+      "createdByUser",
+      "mailboxSettings"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "mailboxSettings"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/listItem/createdByUser/serviceProvisioningErrors",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/createdByUser/serviceProvisioningErrors",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/createdByUser/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "listItem",
+      "createdByUser",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "shares",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/listItem/createdByUser/serviceProvisioningErrors/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/createdByUser/serviceProvisioningErrors/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/createdByUser/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "listItem",
+      "createdByUser",
+      "serviceProvisioningErrors",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/listItem/documentSetVersions",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/documentSetVersions",
@@ -2020,11 +3409,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/documentSetVersions",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -2037,29 +3434,6 @@
     "Segment": "documentSetVersions"
   },
   {
-    "Endpoint": "shares/{sharedDriveItem-id}/listItem/documentSetVersions/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/documentSetVersions/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/documentSetVersions/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "shares",
-      "{sharedDriveItem-id}",
-      "listItem",
-      "documentSetVersions",
-      "$count"
-    ],
-    "Root": "shares",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "shares/{sharedDriveItem-id}/listItem/documentSetVersions/{documentSetVersion-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/documentSetVersions/{documentSetVersion-id}",
@@ -2068,12 +3442,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/documentSetVersions/{documentSetVersion-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -2083,21 +3467,57 @@
       "{documentSetVersion-id}"
     ],
     "Root": "shares",
-    "Children": 1,
+    "Children": 2,
     "Segment": "{documentSetVersion-id}"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/listItem/documentSetVersions/{documentSetVersion-id}/fields",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/documentSetVersions/{documentSetVersion-id}/fields",
+    "v1.0-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/documentSetVersions/{documentSetVersion-id}/fields",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "listItem",
+      "documentSetVersions",
+      "{documentSetVersion-id}",
+      "fields"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "fields"
   },
   {
     "Endpoint": "shares/{sharedDriveItem-id}/listItem/documentSetVersions/{documentSetVersion-id}/microsoft.graph.restore",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/documentSetVersions/{documentSetVersion-id}/microsoft.graph.restore",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/documentsetversion-restore?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/documentSetVersions/{documentSetVersion-id}/microsoft.graph.restore",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/documentsetversion-restore?view=graph-rest-beta",
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -2111,17 +3531,36 @@
     "Segment": "microsoft.graph.restore"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/listItem/documentSetVersions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/documentSetVersions/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/documentSetVersions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "listItem",
+      "documentSetVersions",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/listItem/driveItem",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/driveItem",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/driveItem",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -2129,7 +3568,7 @@
       "driveItem"
     ],
     "Root": "shares",
-    "Children": 1,
+    "Children": 2,
     "Segment": "driveItem"
   },
   {
@@ -2138,13 +3577,25 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/driveItem/content",
     "v1.0-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/driveItem/content",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -2158,6 +3609,39 @@
     "Segment": "content"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/listItem/driveItem/contentStream",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/driveItem/contentStream",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "listItem",
+      "driveItem",
+      "contentStream"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "contentStream"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/listItem/fields",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/fields",
@@ -2166,12 +3650,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/fields",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -2184,15 +3678,111 @@
     "Segment": "fields"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/listItem/lastModifiedByUser",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/lastModifiedByUser",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/lastModifiedByUser",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "listItem",
+      "lastModifiedByUser"
+    ],
+    "Root": "shares",
+    "Children": 2,
+    "Segment": "lastModifiedByUser"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/listItem/lastModifiedByUser/mailboxSettings",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/lastModifiedByUser/mailboxSettings",
+    "v1.0-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/lastModifiedByUser/mailboxSettings",
+    "Beta-Methods": [
+      "Get",
+      "Patch"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "listItem",
+      "lastModifiedByUser",
+      "mailboxSettings"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "mailboxSettings"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/listItem/lastModifiedByUser/serviceProvisioningErrors",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/lastModifiedByUser/serviceProvisioningErrors",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/lastModifiedByUser/serviceProvisioningErrors",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "listItem",
+      "lastModifiedByUser",
+      "serviceProvisioningErrors"
+    ],
+    "Root": "shares",
+    "Children": 1,
+    "Segment": "serviceProvisioningErrors"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/listItem/lastModifiedByUser/serviceProvisioningErrors/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/lastModifiedByUser/serviceProvisioningErrors/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/lastModifiedByUser/serviceProvisioningErrors/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "listItem",
+      "lastModifiedByUser",
+      "serviceProvisioningErrors",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/listItem/microsoft.graph.createLink",
-    "v1.0": false,
-    "V1.0-Url": null,
-    "v1.0-Methods": null,
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/microsoft.graph.createLink",
+    "v1.0-Methods": "Post",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/microsoft.graph.createLink",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/listitem-createlink?view=graph-rest-beta",
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -2207,12 +3797,12 @@
     "Endpoint": "shares/{sharedDriveItem-id}/listItem/microsoft.graph.getActivitiesByInterval()",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/microsoft.graph.getActivitiesByInterval()",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": false,
     "Beta-Url": null,
     "Beta-Methods": null,
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/listitem-createlink?view=graph-rest-beta",
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -2227,14 +3817,12 @@
     "Endpoint": "shares/{sharedDriveItem-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -2246,6 +3834,126 @@
     "Segment": "microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/listItem/permissions",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/permissions",
+    "Beta-Methods": [
+      "Get",
+      "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
+    ],
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "listItem",
+      "permissions"
+    ],
+    "Root": "shares",
+    "Children": 2,
+    "Segment": "permissions"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/listItem/permissions/{permission-id}",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/permissions/{permission-id}",
+    "Beta-Methods": [
+      "Get",
+      "Patch",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "listItem",
+      "permissions",
+      "{permission-id}"
+    ],
+    "Root": "shares",
+    "Children": 2,
+    "Segment": "{permission-id}"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/listItem/permissions/{permission-id}/microsoft.graph.grant",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/permissions/{permission-id}/microsoft.graph.grant",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/permission-grant?view=graph-rest-beta",
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "listItem",
+      "permissions",
+      "{permission-id}",
+      "microsoft.graph.grant"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "microsoft.graph.grant"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/listItem/permissions/{permission-id}/microsoft.graph.revokeGrants",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/permissions/{permission-id}/microsoft.graph.revokeGrants",
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/permission-revokegrants?view=graph-rest-beta",
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "listItem",
+      "permissions",
+      "{permission-id}",
+      "microsoft.graph.revokeGrants"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "microsoft.graph.revokeGrants"
+  },
+  {
+    "Endpoint": "shares/{sharedDriveItem-id}/listItem/permissions/$count",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/permissions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "listItem",
+      "permissions",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/listItem/versions",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/versions",
@@ -2253,11 +3961,19 @@
       "Get",
       "Post"
     ],
+    "v1.0-docs": [
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/versions",
     "Beta-Methods": [
       "Get",
       "Post"
+    ],
+    "Beta-Docs": [
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -2270,29 +3986,6 @@
     "Segment": "versions"
   },
   {
-    "Endpoint": "shares/{sharedDriveItem-id}/listItem/versions/$count",
-    "v1.0": true,
-    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/versions/$count",
-    "v1.0-Methods": [
-      "Get"
-    ],
-    "beta": true,
-    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/versions/$count",
-    "Beta-Methods": [
-      "Get"
-    ],
-    "Path": [
-      "shares",
-      "{sharedDriveItem-id}",
-      "listItem",
-      "versions",
-      "$count"
-    ],
-    "Root": "shares",
-    "Children": 0,
-    "Segment": "$count"
-  },
-  {
     "Endpoint": "shares/{sharedDriveItem-id}/listItem/versions/{listItemVersion-id}",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/versions/{listItemVersion-id}",
@@ -2301,12 +3994,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/versions/{listItemVersion-id}",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -2328,12 +4031,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/versions/{listItemVersion-id}/fields",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -2351,14 +4064,12 @@
     "Endpoint": "shares/{sharedDriveItem-id}/listItem/versions/{listItemVersion-id}/microsoft.graph.restoreVersion",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/versions/{listItemVersion-id}/microsoft.graph.restoreVersion",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/listitemversion-restore?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/versions/{listItemVersion-id}/microsoft.graph.restoreVersion",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -2372,6 +4083,27 @@
     "Segment": "microsoft.graph.restoreVersion"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/listItem/versions/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/listItem/versions/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/listItem/versions/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "listItem",
+      "versions",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/permission",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/permission",
@@ -2380,12 +4112,22 @@
       "Patch",
       "Delete"
     ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/permission",
     "Beta-Methods": [
       "Get",
       "Patch",
       "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -2400,14 +4142,12 @@
     "Endpoint": "shares/{sharedDriveItem-id}/permission/microsoft.graph.grant",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/permission/microsoft.graph.grant",
-    "v1.0-Methods": [
-      "Post"
-    ],
+    "v1.0-Methods": "Post",
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/permission-grant?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/permission/microsoft.graph.grant",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/permission-grant?view=graph-rest-beta",
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -2423,11 +4163,11 @@
     "v1.0": false,
     "V1.0-Url": null,
     "v1.0-Methods": null,
+    "v1.0-docs": "https://learn.microsoft.com/graph/api/permission-grant?view=graph-rest-1.0",
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/permission/microsoft.graph.revokeGrants",
-    "Beta-Methods": [
-      "Post"
-    ],
+    "Beta-Methods": "Post",
+    "Beta-Docs": "https://learn.microsoft.com/graph/api/permission-revokegrants?view=graph-rest-beta",
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -2442,21 +4182,19 @@
     "Endpoint": "shares/{sharedDriveItem-id}/root",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/root",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/root",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
       "root"
     ],
     "Root": "shares",
-    "Children": 1,
+    "Children": 2,
     "Segment": "root"
   },
   {
@@ -2465,13 +4203,25 @@
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/root/content",
     "v1.0-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "v1.0-docs": [
+      null,
+      null,
+      null
     ],
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/root/content",
     "Beta-Methods": [
       "Get",
-      "Put"
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
     ],
     "Path": [
       "shares",
@@ -2484,17 +4234,47 @@
     "Segment": "content"
   },
   {
+    "Endpoint": "shares/{sharedDriveItem-id}/root/contentStream",
+    "v1.0": false,
+    "V1.0-Url": null,
+    "v1.0-Methods": null,
+    "v1.0-docs": [
+      null,
+      null,
+      null
+    ],
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/root/contentStream",
+    "Beta-Methods": [
+      "Get",
+      "Put",
+      "Delete"
+    ],
+    "Beta-Docs": [
+      null,
+      null,
+      null
+    ],
+    "Path": [
+      "shares",
+      "{sharedDriveItem-id}",
+      "root",
+      "contentStream"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "contentStream"
+  },
+  {
     "Endpoint": "shares/{sharedDriveItem-id}/site",
     "v1.0": true,
     "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/{sharedDriveItem-id}/site",
-    "v1.0-Methods": [
-      "Get"
-    ],
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
     "beta": true,
     "Beta-Url": "https://graph.microsoft.com/beta/shares/{sharedDriveItem-id}/site",
-    "Beta-Methods": [
-      "Get"
-    ],
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
     "Path": [
       "shares",
       "{sharedDriveItem-id}",
@@ -2503,5 +4283,23 @@
     "Root": "shares",
     "Children": 0,
     "Segment": "site"
+  },
+  {
+    "Endpoint": "shares/$count",
+    "v1.0": true,
+    "V1.0-Url": "https://graph.microsoft.com/v1.0/shares/$count",
+    "v1.0-Methods": "Get",
+    "v1.0-docs": null,
+    "beta": true,
+    "Beta-Url": "https://graph.microsoft.com/beta/shares/$count",
+    "Beta-Methods": "Get",
+    "Beta-Docs": null,
+    "Path": [
+      "shares",
+      "$count"
+    ],
+    "Root": "shares",
+    "Children": 0,
+    "Segment": "$count"
   }
 ]
